@@ -86,6 +86,18 @@
           <source>Secondary/Tertiary</source>
           <target>Sekundär/Tertiär</target>
         </trans-unit>
+        <trans-unit id="Enum 1818406894 - EnumValue 1562294763 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Both</source>
+          <target>Beide</target>
+        </trans-unit>
+        <trans-unit id="Enum 1818406894 - EnumValue 2815057056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary Weight</source>
+          <target>Primäres Gewicht</target>
+        </trans-unit>
+        <trans-unit id="Enum 1818406894 - EnumValue 384044746 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary/Tertiary Weight</source>
+          <target>Sekundär-/Tertiärgewicht</target>
+        </trans-unit>
         <trans-unit id="Enum 2373719242 - EnumValue 1149817746 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Charge (Item)</source>
           <target>Zu-/Abschlag (Artikel)</target>
@@ -158,6 +170,10 @@
           <source>Own</source>
           <target>Eigene</target>
         </trans-unit>
+        <trans-unit id="Page 1043609354 - Control 1383981757 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the Conai ledger entries must be posted for both weights, only for the primary weight or only for the secondary/tertiary weight.</source>
+          <target>Gibt an, ob die Conai-Posten für beide Gewichte gebucht werden müssen, nur für das Primärgewicht oder nur für das Sekundär-/Tertiärgewicht.</target>
+        </trans-unit>
         <trans-unit id="Page 1043609354 - Control 1390618386 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Generic CONAI Text field</source>
           <target>Gibt den Wert des felds Generic CONAI Text an.</target>
@@ -181,6 +197,10 @@
         <trans-unit id="Page 1043609354 - Control 3532935625 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Area field</source>
           <target>Gibt den Wert des Feldes Bereich an</target>
+        </trans-unit>
+        <trans-unit id="Page 1043609354 - Control 3569770140 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the Conai charge line on the invoice must be calculated on both weights, only on the primary weight or only on the secondary/tertiary weight.</source>
+          <target>Gibt an, ob der Conai-Gebührenposten auf der Rechnung für beide Gewichte berechnet werden muss, nur für das Primärgewicht oder nur für das Sekundär-/Tertiärgewicht.</target>
         </trans-unit>
         <trans-unit id="Page 1043609354 - Control 458406397 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Ending Date field</source>
@@ -342,6 +362,10 @@
           <source>Specifies the value of the Exemption % field</source>
           <target>Gibt den Wert des Feldes Befreiung % an.</target>
         </trans-unit>
+        <trans-unit id="Page 2962054832 - Control 1383981757 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the Conai ledger entries must be posted for both weights, only for the primary weight or only for the secondary/tertiary weight.</source>
+          <target>Gibt an, ob die Conai-Posten für beide Gewichte gebucht werden müssen, nur für das Primärgewicht oder nur für das Sekundär-/Tertiärgewicht.</target>
+        </trans-unit>
         <trans-unit id="Page 2962054832 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Type field</source>
           <target>Gibt den Wert des Feldes Typ an</target>
@@ -381,6 +405,10 @@
         <trans-unit id="Page 2962054832 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Description field</source>
           <target>Gibt den Wert des Feldes Beschreibung an</target>
+        </trans-unit>
+        <trans-unit id="Page 2962054832 - Control 3569770140 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the Conai charge line on the invoice must be calculated on both weights, only on the primary weight or only on the secondary/tertiary weight.</source>
+          <target>Gibt an, ob der Conai-Gebührenposten auf der Rechnung für beide Gewichte berechnet werden muss, nur für das Primärgewicht oder nur für das Sekundär-/Tertiärgewicht.</target>
         </trans-unit>
         <trans-unit id="Page 2962054832 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the No. field</source>
@@ -433,6 +461,14 @@
         <trans-unit id="Page 3641692506 - Action 1093701614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert default data</source>
           <target>Standardstatus und Statusänderung einfügen</target>
+        </trans-unit>
+        <trans-unit id="Page 3641692506 - Control 1323546280 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, the conai charge line on the invoice is calculated according to the value "Conai Charge Type" and the conai ledger entries are posted according to the value "Conai Ledger Entries Type", specified in the Purchase/Sale Setup.</source>
+          <target>Wenn diese Option aktiviert ist, wird die Conai-Kostenposition auf der Rechnung gemäß dem Wert "Conai-Kostenart" berechnet und die Conai-Posten werden gemäß dem Wert "Conai-Postentyp" gebucht, der in der Einkaufs-/Verkaufseinrichtung angegeben ist.</target>
+        </trans-unit>
+        <trans-unit id="Page 3641692506 - Control 1844012642 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the filter for private customers. For these customers the charge lines on the invoice will not be created, but the conai entries will be posted.</source>
+          <target>Gibt den Filter für Privatkunden an. Für diese Kunden werden die Kostenzeilen auf der Rechnung nicht erstellt, sondern die Conai-Posten werden gebucht.</target>
         </trans-unit>
         <trans-unit id="Page 3641692506 - Control 1942364489 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If enabled, only the conai materials of the document are shown in the Conai detail.</source>
@@ -838,6 +874,10 @@
           <source>Subjected Quantity</source>
           <target>Betroffene Menge</target>
         </trans-unit>
+        <trans-unit id="Table 1043609354 - Field 1383981757 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Conai Ledger Entries Type</source>
+          <target>Typ der Conai-Sachposten</target>
+        </trans-unit>
         <trans-unit id="Table 1043609354 - Field 1390618386 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Generic CONAI Text</source>
           <target>Allgemeiner Conai Text</target>
@@ -861,6 +901,10 @@
         <trans-unit id="Table 1043609354 - Field 3532935625 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Area</source>
           <target>Bundesland</target>
+        </trans-unit>
+        <trans-unit id="Table 1043609354 - Field 3569770140 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Conai Charge Type</source>
+          <target>Conai-Gebührentyp</target>
         </trans-unit>
         <trans-unit id="Table 1043609354 - Field 458406397 - Method 2126772001 - NamedType 3081088293" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must be greater than %2</source>
@@ -1078,6 +1122,10 @@
           <source>Exemption %</source>
           <target>% Befreiung</target>
         </trans-unit>
+        <trans-unit id="Table 3354552697 - Field 1383981757 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Conai Ledger Entries Type</source>
+          <target>Typ der Conai-Sachposten</target>
+        </trans-unit>
         <trans-unit id="Table 3354552697 - Field 1681466004 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Spread Ratio</source>
           <target>Spread Ratio</target>
@@ -1142,6 +1190,10 @@
           <source>Need Spread</source>
           <target>Need Spread</target>
         </trans-unit>
+        <trans-unit id="Table 3354552697 - Field 3569770140 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Conai Charge Type</source>
+          <target>Conai-Gebührentyp</target>
+        </trans-unit>
         <trans-unit id="Table 3354552697 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
           <target>Nr.</target>
@@ -1170,9 +1222,17 @@
           <source>CONAI Document Detail</source>
           <target>Detaildokument CONAI</target>
         </trans-unit>
+        <trans-unit id="Table 3641692506 - Field 1323546280 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Advanced Weights Management</source>
+          <target>Erweiterte Gewichtungsverwaltung aktivieren</target>
+        </trans-unit>
         <trans-unit id="Table 3641692506 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Key</source>
           <target>Primärschlüssel</target>
+        </trans-unit>
+        <trans-unit id="Table 3641692506 - Field 1844012642 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Bus. Posting Group Private Customers</source>
+          <target>VAT Bus. Posting Group Private Customers</target>
         </trans-unit>
         <trans-unit id="Table 3641692506 - Field 1942364489 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Document Materials Filter</source>
