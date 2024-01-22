@@ -1783,6 +1783,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Gen. Jnl. Template - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3009369369 - Field 2030401322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include DCF numerator in Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Incl. DCF numerator in Doc No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3009369369 - Field 100511243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Loss G/L Account No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1847,16 +1852,6 @@
           <source>Are you sure that you want to reject the selected batch?\Batch: %1\Created: %2\\The action is irreversible!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Arch. Record Mngt - Method Import_RejectArchive - NamedType RejectBatchQst</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1234353073 - Method 2504130688 - NamedType 2391231709" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document number %1 does not exist or is already closed.</source>
-          <note from="Developer" annotates="general" priority="2">%1=Document number</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Event Management - Method Gen. Journal Line_OnBeforeGetCustLedgerEntry - NamedType NotExistErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1234353073 - Method 661531896 - NamedType 2391231709" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document number %1 does not exist or is already closed.</source>
-          <note from="Developer" annotates="general" priority="2">%1=Document number</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Event Management - Method Gen. Journal Line_OnBeforeGetVendLedgerEntry - NamedType NotExistErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1234353073 - Method 1058525227 - NamedType 157861790" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot delete journal line, it is related to DocFinance line (%1).\Use the menu function to delete this record</source>
@@ -1928,6 +1923,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Process Payment Line - Method CreateJournalLine - NamedType GLJournalCreationErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3911913361 - Method 745386347 - NamedType 38405287" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unknown document type, probably you are using a custom C/G Key notation.\Subscribe to the OnBeforeGetDocumentType_ProcessPaymentLine event to handle this case.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Process Payment Line - Method GetDocumentType - NamedType UnknownDocTypeErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 302870352 - NamedType 3550961330" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company: %1; Year: %2; Numerator: %3; Entry No.: %4; Operaton Date: %5; Amount (LCY): %6; Chart of Accounts: %7</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1947,6 +1947,16 @@
           <source>Free Version</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX002 Subscription - NamedType FreeVersLbl</note>
+          </trans-unit>
+        <trans-unit id="Codeunit 2077446059 - Method 4089338765 - NamedType 1685067840" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If you change Currency Code, the existing sales lines will be deleted and new sales lines based on the new information on the header will be created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX002 DCF Test - Method CurrencyUIHandler - NamedType MessageCurrency</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3600054511 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trial subscription for DocFinance found - day %1 of %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Current Day ; %2 = Trial Duration</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX002 Subscription - NamedType FreeTrialLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3600054511 - NamedType 3269160490" size-unit="char" translate="yes" xml:space="preserve">
           <source>No subscription for DCF present! - Action not allowed!</source>
@@ -2877,6 +2887,11 @@
           <source>The import lines template</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Gen. Jnl. Template - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Control 2030401322 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to include the DocFinance numerator when building the Document No. in Gen. Journal Lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Incl. DCF numerator in Doc No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>

@@ -47,6 +47,10 @@
           <source>Missing payment method in "%1" record or "%2"</source>
           <target>Missing payment method in "%1" record or "%2"</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2077446059 - Method 4089338765 - NamedType 1685067840" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If you change Currency Code, the existing sales lines will be deleted and new sales lines based on the new information on the header will be created.</source>
+          <target>If you change Currency Code, the existing sales lines will be deleted and new sales lines based on the new information on the header will be created.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2283227373 - Method 1040332735 - NamedType 1259361324" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to delete the selected line or lines?</source>
           <target>Do you want to delete the selected line or lines?</target>
@@ -110,6 +114,10 @@
         <trans-unit id="Codeunit 3911913361 - Method 142198285 - NamedType 3641534434" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Journal Line creation error: %1</source>
           <target>G/L Journal Line creation error: %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3911913361 - Method 745386347 - NamedType 38405287" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unknown document type, probably you are using a custom C/G Key notation.\Subscribe to the OnBeforeGetDocumentType_ProcessPaymentLine event to handle this case.</source>
+          <target>Unknown document type, probably you are using a custom C/G Key notation.\Subscribe to the OnBeforeGetDocumentType_ProcessPaymentLine event to handle this case.</target>
         </trans-unit>
         <trans-unit id="Enum 4159529964 - EnumValue 2248886284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Error</source>
@@ -555,6 +563,14 @@
           <source>Receive/Payable Archive</source>
           <target>Receive/Payable Archive</target>
         </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 2046995131 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>FOR DEBUG ONLY - Executes the export as it has been done by docFinance. Nothing will be sent to DocFinance.</source>
+          <target>FOR DEBUG ONLY - Executes the export as it has been done by docFinance. Nothing will be sent to DocFinance.</target>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 2046995131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Export Test MasterData</source>
+          <target>Export Test MasterData</target>
+        </trans-unit>
         <trans-unit id="Page 3009369369 - Action 2161969294 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batches that has to be processed</source>
           <target>Batches that has to be processed</target>
@@ -570,6 +586,14 @@
         <trans-unit id="Page 3009369369 - Action 2346606626 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MasterData Archive</source>
           <target>MasterData Archive</target>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 2817146691 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>FOR DEBUG ONLY - Executes the export as it has been done by docFinance. Nothing will be sent to DocFinance.</source>
+          <target>FOR DEBUG ONLY - Executes the export as it has been done by docFinance. Nothing will be sent to DocFinance.</target>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 2817146691 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Export Test Receiv/Payable</source>
+          <target>Export Test Receiv/Payable</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Action 3500055881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Import batches already processed</source>
@@ -674,6 +698,10 @@
         <trans-unit id="Page 3009369369 - Control 1939457226 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Flag to export shipment/receipt</source>
           <target>Flag to export shipment/receipt</target>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Control 2030401322 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether to include the DocFinance numerator when building the Document No. in Gen. Journal Lines.</source>
+          <target>Specifies whether to include the DocFinance numerator when building the Document No. in Gen. Journal Lines.</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Control 2140072498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commercial Line Code exported</source>
@@ -2002,6 +2030,10 @@
         <trans-unit id="Table 3009369369 - Field 1939457226 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Export Detail Shipment/Receipt</source>
           <target>Export Detail Shipment/Receipt</target>
+        </trans-unit>
+        <trans-unit id="Table 3009369369 - Field 2030401322 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Include DCF numerator in Document No.</source>
+          <target>Include DCF numerator in Document No.</target>
         </trans-unit>
         <trans-unit id="Table 3009369369 - Field 2140072498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default Line Value</source>
