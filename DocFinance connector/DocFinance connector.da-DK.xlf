@@ -35,17 +35,12 @@
           <source>You cannot delete journal line, it is related to DocFinance line (%1).\Use the menu function to delete this record</source>
           <target>Du kan ikke slette kladdelinjen, den er relateret til linjen DocFinance (%1).\Brug menufunktionen til at slette denne post</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1234353073 - Method 2504130688 - NamedType 2391231709" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document number %1 does not exist or is already closed.</source>
-          <target>Dokumentnummer %1 eksisterer ikke eller er allerede lukket.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1234353073 - Method 661531896 - NamedType 2391231709" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document number %1 does not exist or is already closed.</source>
-          <target>Dokumentnummer %1 eksisterer ikke eller er allerede lukket.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2018922889 - NamedType 2285947584" translate="yes" size-unit="char" xml:space="preserve">
           <source>Missing payment method in "%1" record or "%2"</source>
           <target>Betalingsmetoden mangler i posten "%1" i "%2"</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2077446059 - Method 4089338765 - NamedType 1685067840" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If you change Currency Code, the existing sales lines will be deleted and new sales lines based on the new information on the header will be created.</source>
         </trans-unit>
         <trans-unit id="Codeunit 2283227373 - Method 1040332735 - NamedType 1259361324" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to delete the selected line or lines?</source>
@@ -126,6 +121,10 @@
         <trans-unit id="Codeunit 3911913361 - Method 142198285 - NamedType 3641534434" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Journal Line creation error: %1</source>
           <target>Fejl til oprettelse af finanskladdelinje: %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3911913361 - Method 745386347 - NamedType 38405287" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unknown document type, probably you are using a custom C/G Key notation.\Subscribe to the OnBeforeGetDocumentType_ProcessPaymentLine event to handle this case.</source>
+          <target>Ukendt dokumenttype, sandsynligvis bruger du en brugerdefineret C / G-nøglenotation.\Abonner på OnBeforeGetDocumentType_ProcessPaymentLine-hændelsen for at håndtere denne sag.</target>
         </trans-unit>
         <trans-unit id="Enum 4159529964 - EnumValue 2248886284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Error</source>
@@ -571,6 +570,14 @@
           <source>Receive/Payable Archive</source>
           <target>Modtag/betalt arkiv</target>
         </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 2046995131 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>FOR DEBUG ONLY - Executes the export as it has been done by docFinance. Nothing will be sent to DocFinance.</source>
+          <target>FOR KUN DEBUG - Udfører eksporten, som den er blevet udført af docFinance. Intet vil blive sendt til DocFinance.</target>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 2046995131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Export Test MasterData</source>
+          <target>Eksport af testmasterdata</target>
+        </trans-unit>
         <trans-unit id="Page 3009369369 - Action 2161969294 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batches that has to be processed</source>
           <target>Batches, der skal behandles</target>
@@ -586,6 +593,14 @@
         <trans-unit id="Page 3009369369 - Action 2346606626 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MasterData Archive</source>
           <target>MasterData Arkiv</target>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 2817146691 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>FOR DEBUG ONLY - Executes the export as it has been done by docFinance. Nothing will be sent to DocFinance.</source>
+          <target>FOR KUN DEBUG - Udfører eksporten, som den er blevet udført af docFinance. Intet vil blive sendt til DocFinance.</target>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 2817146691 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Export Test Receiv/Payable</source>
+          <target>Eksporttest Modtagelse/betaling</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Action 3500055881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Import batches already processed</source>
