@@ -511,6 +511,14 @@
           <source>Import model</source>
           <target>Importa modello</target>
         </trans-unit>
+        <trans-unit id="Page 1748373730 - Action 3215856851 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checks Non Taxable Amounts in the processed withholding taxes and returns an Excel that indicates which documents have inconsistencies between the Non Taxable amount standard field and the ECU one, or in the lookup pages for NonTax amounts</source>
+          <target>Verifica gli importi non sogg. a ritenuta nelle ritenute elaborate e restituisce un Excel che indica quali documenti presentano incongruenze tra il campo "Importo non sogg. a ritenuta" standard e quello ECU, nel caso in cui questi campi hanno tabelle di dettaglio confronta anche quelle.</target>
+        </trans-unit>
+        <trans-unit id="Page 1748373730 - Action 3215856851 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Withholding Non Taxable Amounts</source>
+          <target>Verifica gli importi non sogg. a ritenuta</target>
+        </trans-unit>
         <trans-unit id="Page 1748373730 - Action 3911072797 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Recalculate Withholding Non-taxable Amounts</source>
           <target>Ricalcola importi ritenuta non tassati</target>
@@ -1203,6 +1211,14 @@
           <source>Extends the standard Reason field</source>
           <target>Estende la Causale standard</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3380489494 - Control 851494481 - Method 1845446376 - NamedType 284463305" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Base - Excluded Amount must not be greater than %1.</source>
+          <target>L'importo di base - escluso non deve essere maggiore di %1.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3380489494 - Control 851494481 - Method 1845446376 - NamedType 372286235" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Base - Excluded Amount must not be greater than Total Amount.</source>
+          <target>L'Importo Base - Escluso non deve essere superiore all'Importo Totale.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3380489494 - Control 851494481 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens the list of non Income Amounts</source>
           <target>Apre l'elenco degli Importi non in base al reddito</target>
@@ -1259,6 +1275,14 @@
           <source>Update field %1 with new value "%2" for %3 selected record?</source>
           <target>Aggiorna il campo %1 con il nuovo valore "%2" per %3 record selezionato?</target>
         </trans-unit>
+        <trans-unit id="Report 348566342 - Control 4105281732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Opzioni</target>
+        </trans-unit>
+        <trans-unit id="Report 348566342 - Control 567081721 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "UpdateData" field.</source>
+          <target>Specifica il valore del campo "UpdateData".</target>
+        </trans-unit>
         <trans-unit id="Report 348566342 - Control 567081721 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Data</source>
           <target>Aggiorna Dati</target>
@@ -1314,6 +1338,66 @@
         <trans-unit id="Report 3868230693 - ReportDataItem 1984731700 - Method 72583909 - NamedType 3646957145" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update field %1 with new value "%2" for %3 selected record?</source>
           <target>Aggiorna il campo %1 con il nuovo valore "%2" per %3 record selezionato?</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 137683545 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>if enabled processes Payments Withholding Taxes</source>
+          <target>se abilitato elabora le Ritenute dei pagamenti </target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 137683545 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Payment Withholding Taxes</source>
+          <target>Ritenute pagamenti </target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 1670155216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>if enabled processes Invoice Withholding Taxes</source>
+          <target>se abilitato elabora le Ritenute delle fatture</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 1670155216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Withholding Taxes</source>
+          <target>Ritenute fatture</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Elaborazione</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 3365116367 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>if enabled processes Withholding Taxes</source>
+          <target>se abilitato elabora le Ritenute della lista Ritenute che verranno esportate</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 3365116367 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Withholding Taxes</source>
+          <target>Ritenute</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 532397392 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>if enabled processes Computed Withholding Taxes</source>
+          <target>se abilitato elabora le Ritenute calcolate</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 532397392 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Computed Withholding Tax</source>
+          <target>Ritenute calcolate</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 786824598 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>if enabled processes Vendor Bill Withholding Taxes</source>
+          <target>se abilitato elabora le ritenute delle distinte fornitore</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 786824598 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor Bill Withholding Taxes</source>
+          <target>Ritenute distinte fornitore</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Method 2736589801 - NamedType 1946167868" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No incongruences in Non Taxable amounts found</source>
+          <target>Non sono state trovate incongruenze negli importi non sogg. a ritenuta</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Method 2736589801 - NamedType 2985640992" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Warnings for Non-Taxable amounts in Withholding Taxes (ECU)</source>
+          <target>Warning degli importi non sogg. a ritenuta (ECU)</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Method 3352531571 - NamedType 3492639454" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are incongruences in the Non-Income amounts in this %1 , please check it</source>
+          <target>Ci sono incongruenze negli importi non reddituali in questa %1 , si prega di controllarla</target>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show EOS Non Taxable Amounts possible warnings (ECU)</source>
+          <target>Mostra eventuali incongruenze sugli importi non sogg. a ritenuta (ECU)</target>
         </trans-unit>
         <trans-unit id="Report 4236995904 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cert. UNICA - mod. sintetico</source>
