@@ -1663,6 +1663,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Withholding Tax Setup - Control Transmission Intermediary No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1748373730 - Action 3215856851 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Checks Non Taxable Amounts in the processed withholding taxes and returns an Excel that indicates which documents have inconsistencies between the Non Taxable amount standard field and the ECU one, or in the lookup pages for NonTax amounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Withholding Tax Setup - Action CheckNonTaxableIncomeAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1748373730 - Action 3215856851 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Withholding Non Taxable Amounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Withholding Tax Setup - Action CheckNonTaxableIncomeAmount - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1748373730 - Action 521244456 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>test</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1742,6 +1752,81 @@
           <source> ,A,B,C,D,E,G,H,I,L,L1,M,M1,M2,N,O,O1,P,Q,R,S,T,U,V,V1,V2,W,X,Y,ZO,K</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Update Withh. Reason - Control NewReasonFld - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show EOS Non Taxable Amounts possible warnings (ECU)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Method 3352531571 - NamedType 3492639454" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are incongruences in the Non-Income amounts in this %1 , please check it</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Method InsertLineToExcelLog - NamedType WarningTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Method 2736589801 - NamedType 2985640992" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warnings for Non-Taxable amounts in Withholding Taxes (ECU)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Method OnPostReport - NamedType ExcelFileNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Method 2736589801 - NamedType 1946167868" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No incongruences in Non Taxable amounts found</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Method OnPostReport - NamedType NoTempExcelBufferLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 2675496269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Control Process - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 532397392 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>if enabled processes Computed Withholding Taxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Control ProcessComputedWithholdingTaxFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 532397392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Computed Withholding Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Control ProcessComputedWithholdingTaxFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 1670155216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>if enabled processes Invoice Withholding Taxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Control ProcessInvoiceWithholdingTaxFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 1670155216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Withholding Taxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Control ProcessInvoiceWithholdingTaxFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 137683545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>if enabled processes Payments Withholding Taxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Control ProcessPaymentWithholdingTaxFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 137683545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Withholding Taxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Control ProcessPaymentWithholdingTaxFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 786824598 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>if enabled processes Vendor Bill Withholding Taxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Control ProcessVendorBillWithholdingTaxFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 786824598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Bill Withholding Taxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Control ProcessVendorBillWithholdingTaxFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 3365116367 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>if enabled processes Withholding Taxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Control ProcessWithholdingTaxFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 419359723 - Control 3365116367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Withholding Taxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS036 Check Withh NonTax Amts - Control ProcessWithholdingTaxFld - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 348566342 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Recalculate Withholding Tax Non-Income Amounts (ECU)</source>
@@ -1872,6 +1957,16 @@
           <source>Opens the list of non Income Amounts</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18095815 - Control EOS Non-Income Amounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3380489494 - Control 851494481 - Method 1845446376 - NamedType 284463305" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3380489494">
+          <source>The Base - Excluded Amount must not be greater than %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18095815 - Control EOS Non-Income Amounts - Method OnDrillDown - NamedType InvalidBaseExcludedAmountErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3380489494 - Control 851494481 - Method 1845446376 - NamedType 372286235" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3380489494">
+          <source>The Base - Excluded Amount must not be greater than Total Amount.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18095815 - Control EOS Non-Income Amounts - Method OnDrillDown - NamedType BaseExcludedAmtGreaterThanTotalErr</note>
         </trans-unit>
         <trans-unit id="PageExtension 2105096260 - Control 4142233311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 546659772">
           <source>Specifies the value of the "Reason" field.</source>
