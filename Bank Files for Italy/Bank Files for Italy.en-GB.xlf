@@ -3,6 +3,16 @@
   <file datatype="xml" source-language="en-US" target-language="en-GB" original="Bank Files for Italy">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 830595890 - Method 769579368 - NamedType 2710434660" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All %1 %2 must have the same %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bank Files Export Handler - Method CheckVendorBillLines - NamedType SameBankChargesErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 830595890 - Method 3886245419 - NamedType 2813721509" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bank Files Export Handler - Method OnBeforeInsertPaymentExportData - NamedType InvoiceLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2363666059 - NamedType 3141430162" size-unit="char" translate="yes" xml:space="preserve">
           <source>You can generate %1 more exports/imports in free version!</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -22,6 +32,86 @@
           <source>Free Version</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bank Files Subscription - NamedType TextFreeVerLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 98298911 - NamedType 1419748705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field %1 must be specified.</source>
+          <note from="Developer" annotates="general" priority="2">%1=field name, e.g. Post Code.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Frgn CT-Fill Export Buffer - NamedType FieldIsBlankErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 98298911 - NamedType 4134082808" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file export has one or more errors.\\For each line to be exported, resolve the errors displayed to the right and then try to export again.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Frgn CT-Fill Export Buffer - NamedType HasErrorsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 98298911 - NamedType 2662926362" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2</source>
+          <note from="Developer" annotates="general" priority="2">%1=Document type, %2=Document no., e.g. Invoice A123</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Frgn CT-Fill Export Buffer - NamedType RemitMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 98298911 - NamedType 158225963" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All lines must have the same bank account as the balancing account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Frgn CT-Fill Export Buffer - NamedType SameBankErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951401044 - NamedType 1586691989" size-unit="char" translate="yes" xml:space="preserve">
+          <source>City Name is mandatory.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Foreign CT-Check Line - NamedType CityNameCheckErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951401044 - NamedType 621658189" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country Code is mandatory.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Foreign CT-Check Line - NamedType CountryCheckErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951401044 - NamedType 743427178" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only transactions in euro (EUR) are allowed, because the %1 bank account is set up to use the %2 export format.</source>
+          <note from="Developer" annotates="general" priority="2">%1= bank account No, %2 export format; Example: Only transactions in euro (EUR) are allowed, because the GIRO bank account is set up to use the SEPACT export format.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Foreign CT-Check Line - NamedType EuroCurrErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951401044 - NamedType 565480431" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 field must be filled.</source>
+          <note from="Developer" annotates="general" priority="2">%1= field name. Example: The Name field must be filled.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Foreign CT-Check Line - NamedType FieldBlankErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951401044 - NamedType 2630528958" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 must have a value in %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1=table name, %2=key field value, %3=field name. Example: Customer 10000 must have a value in Name.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Foreign CT-Check Line - NamedType FieldKeyBlankErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951401044 - NamedType 2055365257" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 field must be "%3".</source>
+          <note from="Developer" annotates="general" priority="2">%1=table name, %2= field name, %3=exact value.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Foreign CT-Check Line - NamedType FieldMustBeExactValueErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951401044 - NamedType 836419982" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The balancing account must be a bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Foreign CT-Check Line - NamedType MustBeBankAccErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951401044 - NamedType 885110970" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The amount must be positive.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Foreign CT-Check Line - NamedType MustBePositiveErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951401044 - NamedType 3972225717" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only vendor and employee payments and customer refunds are allowed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Foreign CT-Check Line - NamedType MustBeVendEmplPmtOrCustRefundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951401044 - NamedType 3087388094" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The account must be a vendor, customer or employee account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Foreign CT-Check Line - NamedType MustBeVendorEmployeeOrCustomerErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951401044 - NamedType 2420179014" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The earliest possible transfer date is today.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Foreign CT-Check Line - NamedType TransferDateErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1522596872 - Method 2124036968 - NamedType 2294470471" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot install app %1 due to missing event %2: %3 - Ref. %4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS005 Upgrade - Method CheckServiceEvents - NamedType MissingEventErr</note>
         </trans-unit>
         <trans-unit id="Page 2211807114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import ABI/CAB</source>
@@ -173,6 +263,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Import Dishonored CBI EXT - NamedType CustNotFoundErr</note>
         </trans-unit>
+        <trans-unit id="Report 1936314586 - NamedType 2270306401" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dish.Inv.%1-%2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Import Dishonored CBI EXT - NamedType Description1Txt</note>
+        </trans-unit>
+        <trans-unit id="Report 1936314586 - NamedType 2232770848" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dish.%1DueDate%2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Import Dishonored CBI EXT - NamedType Description2Txt</note>
+        </trans-unit>
         <trans-unit id="Report 1936314586 - NamedType 3526108514" size-unit="char" translate="yes" xml:space="preserve">
           <source>File %1 contains an expired receipt.\Payer's bank returns\receipt to receiver's bank because\SIA is out of expected procedure.\\NOT EXPECTED</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -308,6 +408,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vend Bills Floppy-Foreign - Control UseCurrFactorFld - Property Caption</note>
         </trans-unit>
+        <trans-unit id="XmlPort 1148200961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBI CrossBorder Payment Request.00.01.01</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort EOS Foren Pay Req 00.01.01 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 1148200961 - NamedType 1486195221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no data to export.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort EOS Foren Pay Req 00.01.01 - NamedType NoDataToExportErr</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 1381931340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEPA CT pain.001.001.09 CBI v00.04.01</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort EOS SEPA CT pain.001.001.09 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 1381931340 - NamedType 1486195221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no data to export.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort EOS SEPA CT pain.001.001.09 - NamedType NoDataToExportErr</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 1810887689 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEPA DD pain.008.001.08 INC-SDDC-01</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort EOS SEPA DD 008.001.08 CBI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 1810887689 - NamedType 1486195221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no data to export. Make sure the %1 field is not set to %2 or %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort EOS SEPA DD 008.001.08 CBI - NamedType NoDataToExportErr</note>
+        </trans-unit>
         <trans-unit id="XmlPort 489352535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SEPA DD Dishonored CBI</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -388,75 +518,185 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">XmlPort EOS SEPA DD pain.008.001.02 IT - NamedType NoDataToExportErr</note>
         </trans-unit>
-        <trans-unit id="PageExtension 397126397 - Control 1458601237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
-          <source>Specifies the SEPA InitgPty ID</source>
+        <trans-unit id="XmlPort 2020318982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEPA DD pain.008.001.08</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS Bank Account Card EXT - Control EOS SEPA InitgPty ID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort EOS SEPA DD pain.008.001.08 IT - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 4079637961 - Control 639471373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 105737358">
+        <trans-unit id="XmlPort 2020318982 - NamedType 1486195221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no data to export. Make sure the %1 field is not set to %2 or %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort EOS SEPA DD pain.008.001.08 IT - NamedType NoDataToExportErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 472224049 - Control 639471373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 105737358">
           <source>Specifies the UIC Country Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS Country_Region EXT - Control EOS UIC Country Code - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123330 - Control EOS UIC Country Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 245829657 - Control 921335466 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4218182416">
+        <trans-unit id="PageExtension 1109920666 - Control 1458601237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Specifies the SEPA InitgPty ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123331 - Control EOS SEPA InitgPty ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1109920666 - Control 1917145097 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Specifies the foreign format of the bank file that will be exported when you choose the Create Direct Debit File button in the Direct Debit Collect. Entries window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123331 - Control EOS Foreign Exp. Format - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3491798111 - Control 921335466 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4218182416">
           <source>Specifies the Bank Charges</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS Sub SentVendBillLines EXT - Control EOS Bank Charges - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123332 - Control EOS Bank Charges - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1723016354 - Control 921335466 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 222301436">
-          <source>Specifies the Bank Charges</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS Sub Vendor Bill Lines EXT - Control EOS Bank Charges - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1723016354 - Control 4198833510 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 222301436">
+        <trans-unit id="PageExtension 3491798111 - Control 4198833510 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4218182416">
           <source>Specifies the CVS Tariff Number</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS Sub Vendor Bill Lines EXT - Control EOS CVS Tariff Number - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123332 - Control EOS CVS Tariff Number - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1723016354 - Control 2282174421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 222301436">
+        <trans-unit id="PageExtension 3491798111 - Control 2282174421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4218182416">
           <source>Specifies the Reason CVS</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS Sub Vendor Bill Lines EXT - Control EOS Reason CVS - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123332 - Control EOS Reason CVS - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3932513828 - Action 1808261261 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2663019695">
+        <trans-unit id="PageExtension 4129494728 - Control 921335466 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 222301436">
+          <source>Specifies the Bank Charges</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123333 - Control EOS Bank Charges - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 4198833510 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 222301436">
+          <source>Specifies the CVS Tariff Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123333 - Control EOS CVS Tariff Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 2282174421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 222301436">
+          <source>Specifies the Reason CVS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123333 - Control EOS Reason CVS - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3023010517 - Action 1808261261 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2663019695">
           <source>Creates a CBI Transfer File (Foreign)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS VendBillListSendCard EXT - Action EOS Create CBI File - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123334 - Action EOS Create CBI File - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3932513828 - Action 1808261261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2663019695">
+        <trans-unit id="PageExtension 3023010517 - Action 1808261261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2663019695">
           <source>Create CBI Transfer File (Foreign)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS VendBillListSendCard EXT - Action EOS Create CBI File - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123334 - Action EOS Create CBI File - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3089386681 - Field 1458601237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
-          <source>SEPA InitgPty ID</source>
+        <trans-unit id="PageExtension 3023010517 - Action 1518930840 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2663019695">
+          <source>Create an XML Transfer File</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Bank Account EXT - Field EOS SEPA InitgPty ID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123334 - Action EOS Create Foreign XML CBI File - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="TableExtension 4145349145 - Field 639471373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4148176377">
+        <trans-unit id="PageExtension 3023010517 - Action 1518930840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2663019695">
+          <source>Create foreign XML bank transfer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123334 - Action EOS Create Foreign XML CBI File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3023010517 - Action 439162037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2663019695">
+          <source>Export the document in the local format.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123334 - Action EOSExportVendorBillToFloppyFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3023010517 - Action 439162037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2663019695">
+          <source>Export Vendor Bill to Floppy File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123334 - Action EOSExportVendorBillToFloppyFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 921335466 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2599854480">
+          <source>Specifies the Bank Charges</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123336 - Control EOS Bank Charges - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 4198833510 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2599854480">
+          <source>Specifies the CVS Tariff Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123336 - Control EOS CVS Tariff Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 2282174421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2599854480">
+          <source>Specifies the Reason CVS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS005 PageExt18123336 - Control EOS Reason CVS - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 278821350 - Field 639471373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4148176377">
           <source>UIC Country Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Country/Region EXT - Field EOS UIC Country Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123330 - Field EOS UIC Country Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3373083346 - Field 1994778910 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 658627162">
-          <source>Recipient FC/VAT Reg. No.</source>
+        <trans-unit id="TableExtension 3936092029 - Field 1917145097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
+          <source>Foreign Exp. Format</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Payment Export Data EXT - Field EOS Recipient FC/VAT Reg. No. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123331 - Field EOS Foreign Exp. Format - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2462312827 - Field 921335466 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1980985995">
-          <source>Bank Charges</source>
+        <trans-unit id="TableExtension 3936092029 - Field 1458601237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
+          <source>SEPA InitgPty ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Vendor Bill Line EXT - Field EOS Bank Charges - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123331 - Field EOS SEPA InitgPty ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2462312827 - Field 4198833510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1980985995">
+        <trans-unit id="TableExtension 3298395412 - Field 4198833510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 658627162">
           <source>CVS Tariff Number</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Vendor Bill Line EXT - Field EOS CVS Tariff Number - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123332 - Field EOS CVS Tariff Number - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2462312827 - Field 2282174421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1980985995">
+        <trans-unit id="TableExtension 3298395412 - Field 2282174421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 658627162">
           <source>Reason CVS</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Vendor Bill Line EXT - Field EOS Reason CVS - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123332 - Field EOS Reason CVS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3298395412 - Field 573803975 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 658627162">
+          <source>Recipient Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123332 - Field EOS Recipient Bank Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3298395412 - Field 1994778910 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 658627162">
+          <source>Recipient FC/VAT Reg. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123332 - Field EOS Recipient FC/VAT Reg. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3298395412 - Field 4262093042 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 658627162">
+          <source>Recipient IBAN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123332 - Field EOS Recipient IBAN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 921335466 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1980985995">
+          <source>Bank Charges</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123333 - Field EOS Bank Charges - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 921335466 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1980985995">
+          <source> ,Nostro carico,Ripartite,Beneficiario</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123333 - Field EOS Bank Charges - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 4198833510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1980985995">
+          <source>CVS Tariff Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123333 - Field EOS CVS Tariff Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 2282174421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1980985995">
+          <source>Reason CVS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123333 - Field EOS Reason CVS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 921335466 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1825092972">
+          <source>Bank Charges</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123334 - Field EOS Bank Charges - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 4198833510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1825092972">
+          <source>CVS Tariff Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123334 - Field EOS CVS Tariff Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 2282174421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1825092972">
+          <source>Reason CVS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123334 - Field EOS Reason CVS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1385305561 - Method 1050896411 - NamedType 2188848870" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1385305561">
+          <source>The selected vendor bill list has already been exported. Do you want to export again?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS005 TableExt18123335 - Method EOSForeign_ExportToFile - NamedType ExportAgainQst</note>
         </trans-unit>
       </group>
     </body>
