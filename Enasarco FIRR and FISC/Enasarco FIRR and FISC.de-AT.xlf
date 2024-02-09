@@ -223,6 +223,22 @@
           <source>F.I.S.C.</source>
           <target>F.I.S.C.</target>
         </trans-unit>
+        <trans-unit id="Enum 253866592 - EnumValue 1684108040 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Earliest available date</source>
+          <target>Frühestes verfügbares Datum</target>
+        </trans-unit>
+        <trans-unit id="Enum 253866592 - EnumValue 3170174789 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Posting Date</source>
+          <target>Datum der Belegbuchung</target>
+        </trans-unit>
+        <trans-unit id="Enum 253866592 - EnumValue 581768640 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Raise Error</source>
+          <target>Fehler auslösen</target>
+        </trans-unit>
+        <trans-unit id="Enum 253866592 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Contributions on closed Periods</source>
+          <target>Beiträge zu Sperrperioden buchen</target>
+        </trans-unit>
         <trans-unit id="Enum 3688849372 - EnumValue 4020758431 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Released</source>
           <target>Freigegeben</target>
@@ -543,6 +559,10 @@
           <source>Specifies vendor name related to this entry.</source>
           <target>Gibt den Kreditorennamen für diesen Posten an.</target>
         </trans-unit>
+        <trans-unit id="Page 1568928935 - Control 3170174789 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document Posting Date" field.</source>
+          <target>Gibt den Wert des Feldes "Belegbuchungsdatum" an.</target>
+        </trans-unit>
         <trans-unit id="Page 1568928935 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a description this entry.</source>
           <target>Gibt eine Beschreibung dieses Eintrags an.</target>
@@ -742,6 +762,10 @@
         <trans-unit id="Page 2281340118 - Control 2495027912 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies source document amount in LCY related to this entry.</source>
           <target>Gibt den Quellbelegbetrag in DER HÖHE für diesen Posten an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2281340118 - Control 3170174789 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document Posting Date" field.</source>
+          <target>Gibt den Wert des Feldes "Belegbuchungsdatum" an.</target>
         </trans-unit>
         <trans-unit id="Page 2281340118 - Control 3477103528 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies original contribution amount related to this entry.</source>
@@ -1250,6 +1274,10 @@
         <trans-unit id="Page 3194081686 - Control 3135334477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies source table ID for this entry.</source>
           <target>Gibt die Quelltabellen-ID für diesen Eintrag an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3194081686 - Control 3170174789 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document Posting Date" field.</source>
+          <target>Gibt den Wert des Feldes "Belegbuchungsdatum" an.</target>
         </trans-unit>
         <trans-unit id="Page 3194081686 - Control 3322554545 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies dimension set id related to this entry.</source>
@@ -2427,6 +2455,9 @@
           <source>Specicies social security debit G/L account no..</source>
           <target>Specicies Social Security Debit G/L Konto Nr.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 4203478076 - Control 528277631 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Post Contributions on closed Periods" field.</source>
+        </trans-unit>
         <trans-unit id="PageExtension 4203478076 - Control 961548567 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specicies F.I.R.R. cost G/L account no..</source>
           <target>Specicies F.I.R.R. Kosten Sachkonto Nr.</target>
@@ -3595,6 +3626,10 @@
           <source>Table ID</source>
           <target>Tabellen-ID</target>
         </trans-unit>
+        <trans-unit id="Table 3194081686 - Field 3170174789 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Posting Date</source>
+          <target>Datum der Belegbuchung</target>
+        </trans-unit>
         <trans-unit id="Table 3194081686 - Field 3322554545 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Dimension Set ID</source>
           <target>Dimensionssatz-ID</target>
@@ -3616,7 +3651,7 @@
           <target>Ursprünglicher Beitragsbetrag (LCY)</target>
         </trans-unit>
         <trans-unit id="Table 3194081686 - Field 3710982960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Contr. Posting Date/Competence DAte</source>
+          <source>Contribution Posting Date</source>
           <target>Buchungsdatum</target>
         </trans-unit>
         <trans-unit id="Table 3194081686 - Field 3818959437 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -4039,10 +4074,6 @@
           <source> ,Social Security Fund,Assistance Fund</source>
           <target> ,Sozialversicherungsfonds,Hilfsfonds</target>
         </trans-unit>
-        <trans-unit id="TableExtension 2111960670 - Field 1854039458 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>EOS Free-Lance Amount (LCY)</source>
-          <target>EOS Free-Lance Betrag (LCY)</target>
-        </trans-unit>
         <trans-unit id="TableExtension 2743144271 - Field 117621844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>F.I.S.C. Debit G/L Account No.</source>
           <target>F.I.S.C. Debit G/L Konto Nr.</target>
@@ -4098,6 +4129,9 @@
         <trans-unit id="TableExtension 2743144271 - Field 4018096079 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Soc. Sec. Debit G/L Account No.</source>
           <target>Soc. Sec. Debit G/L Konto Nr.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2743144271 - Field 528277631 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Contributions on closed Periods</source>
         </trans-unit>
         <trans-unit id="TableExtension 2743144271 - Field 961548567 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>F.I.R.R. Cost G/L Account No.</source>
