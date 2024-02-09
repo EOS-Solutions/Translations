@@ -53,7 +53,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3300413541 - Method 1458666656 - NamedType 903669068" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unexpected %1 type</source>
-          <target>Tipo %1 inatteso</target>
+          <target>Tipo %1 non gestito</target>
         </trans-unit>
         <trans-unit id="Codeunit 3300413541 - Method 3338230872 - NamedType 1341078928" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set subcontracting calculation setup</source>
@@ -65,7 +65,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3300413541 - Method 3338230872 - NamedType 903669068" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unexpected %1 type</source>
-          <target>Tipo %1 inatteso</target>
+          <target>Tipo %1 non gestito</target>
         </trans-unit>
         <trans-unit id="Codeunit 3300413541 - Method 3556089822 - NamedType 2634167982" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unexpected function for item %1</source>
@@ -86,6 +86,10 @@
         <trans-unit id="Codeunit 3362265698 - Method 145985684 - NamedType 2136568042" translate="yes" size-unit="char" xml:space="preserve">
           <source>Total standard subcontracting costs</source>
           <target>Totale costi di conto lavoro standard</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3362265698 - NamedType 2476940767" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generating Tree @1@@@@@@@</source>
+          <target>Generazione albero @1@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Codeunit 409564612 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. #2################## @3@@@@@@@@@@@@@</source>
@@ -145,7 +149,7 @@
         </trans-unit>
         <trans-unit id="Enum 1588827764 - EnumValue 1397402378 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Weighed Average</source>
-          <target>Medio ponderato</target>
+          <target>Media ponderata</target>
         </trans-unit>
         <trans-unit id="Enum 1588827764 - EnumValue 1597496930 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>FIFO</source>
@@ -161,7 +165,7 @@
         </trans-unit>
         <trans-unit id="Enum 1588827764 - EnumValue 3788557405 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average</source>
-          <target>Medio</target>
+          <target>Media</target>
         </trans-unit>
         <trans-unit id="Enum 1588827764 - EnumValue 658771142 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last</source>
@@ -2313,7 +2317,7 @@
         </trans-unit>
         <trans-unit id="Page 2980737752 - Control 3491367632 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the run time of the operation.</source>
-          <target>Specifica il tempo di lavorazione dell'operazione.</target>
+          <target>Specifica il tempo di esecuzione dell'operazione.</target>
         </trans-unit>
         <trans-unit id="Page 2980737752 - Control 3674763284 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the time of the operation expected to be consumed during the production of the quantity on this line.</source>
@@ -2709,7 +2713,7 @@
         </trans-unit>
         <trans-unit id="Page 314212463 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how each unit of the item is measured, such as in pieces.</source>
-          <target>Specifica l'unità di misura del prezzo dell'area di produzione</target>
+          <target>Specifica in che modo ogni unità dell'articolo o della risorsa viene misurata, ad esempio in pezzi od ore. Per default, viene inserito il valore del campo Unità di misura base della scheda articolo o risorsa.</target>
         </trans-unit>
         <trans-unit id="Page 314212463 - Control 2649176925 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the date to which the work center price is valid.</source>
@@ -3301,7 +3305,7 @@
         </trans-unit>
         <trans-unit id="Page 3711029896 - Control 3202631825 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order Component WIP</source>
-          <target>Componenti ordine prod. WIP</target>
+          <target>Componenti ordine di produzione WIP</target>
         </trans-unit>
         <trans-unit id="Page 3711029896 - Control 3250353619 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the capacity overhead costs related to the item's parent item only.</source>
@@ -4281,11 +4285,11 @@
         </trans-unit>
         <trans-unit id="Page 4291096774 - Control 803070610 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual consumption quantity of the component consumed during the production of the quantity on this line.</source>
-          <target>Specifica la quantità consumata effettiva</target>
+          <target>Specifica la quantità effettiva del componente consumata durante la produzione della quantità nella riga.</target>
         </trans-unit>
         <trans-unit id="Page 4291096774 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order Component WIP</source>
-          <target>Componente ordine prod. WIP</target>
+          <target>Componenti ordine di produzione WIP</target>
         </trans-unit>
         <trans-unit id="Page 67152805 - Control 1249124543 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the direct cost associated with the routing of an item before you began using Microsoft ERP in your organization.</source>
@@ -4453,7 +4457,7 @@
         </trans-unit>
         <trans-unit id="Page 796740416 - Action 3679504434 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculate Low-level Code</source>
-          <target>Calcola codice ultimo livello</target>
+          <target>Calcolo cod. ultimo livello</target>
         </trans-unit>
         <trans-unit id="Page 796740416 - Action 3856151170 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update item ledger entries costs from this item costing period.</source>
@@ -4741,7 +4745,7 @@
         </trans-unit>
         <trans-unit id="Page 870260980 - Control 828292189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
-          <target>Opzione</target>
+          <target>Opzioni</target>
         </trans-unit>
         <trans-unit id="Page 870260980 - Control 987430372 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show details</source>
@@ -5173,7 +5177,7 @@
         </trans-unit>
         <trans-unit id="Report 2057954834 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Capacity Entries</source>
-          <target>Aggiorna movimenti capacità</target>
+          <target>Aggiorna mov. cont. capacità</target>
         </trans-unit>
         <trans-unit id="Report 2180772623 - Control 1376084807 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the costing period code</source>
@@ -5380,20 +5384,16 @@
           <target>Ricalcolo articoli con riferimenti circolari ...\\</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 2792817358" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Update production costs ...\\</source>
-          <target>Aggiorna costi di produzione ...\\</target>
+          <source>Calculating production costs ...\\</source>
+          <target>Calcola costi di produzione ...\\</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 3624983459" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculating costs ...\\</source>
           <target>Calcolo costi ...\\</target>
         </trans-unit>
-        <trans-unit id="Report 2229818940 - NamedType 3909125117" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Counter    #2#######\</source>
-          <target>Contatore #2########\</target>
-        </trans-unit>
-        <trans-unit id="Report 2229818940 - NamedType 698078071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total    #3#######</source>
-          <target>Totale #3########</target>
+        <trans-unit id="Report 2229818940 - NamedType 3950098385" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Items @2@@@@@@@@@@@@@</source>
+          <target>Articoli @2@@@@@@@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculate Actual Cost</source>
@@ -5697,7 +5697,7 @@
         </trans-unit>
         <trans-unit id="Report 2322062207 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Item Costs</source>
-          <target>Aggiornamento costi articoli</target>
+          <target>Aggiorna articolo</target>
         </trans-unit>
         <trans-unit id="Report 241083192 - Control 2022150651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the costing method</source>
@@ -5825,7 +5825,7 @@
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 70415472" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Order Comp. Amount</source>
-          <target>Importo componenti odp</target>
+          <target>Importo produzione</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 743941310" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ledger Entries Detail - Item Specific Cost</source>
@@ -6189,7 +6189,7 @@
         </trans-unit>
         <trans-unit id="Report 2880494308 - NamedType 2084104700" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subcontracting Cost</source>
-          <target>Costi c/lavoro</target>
+          <target>Costo conto lavoro</target>
         </trans-unit>
         <trans-unit id="Report 2880494308 - NamedType 2128762536" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material Cost</source>
@@ -6221,7 +6221,7 @@
         </trans-unit>
         <trans-unit id="Report 2880494308 - NamedType 3677436566" translate="yes" size-unit="char" xml:space="preserve">
           <source>UoM</source>
-          <target>U.M.</target>
+          <target>UdM</target>
         </trans-unit>
         <trans-unit id="Report 2880494308 - NamedType 650077689" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page</source>
@@ -6605,7 +6605,7 @@
         </trans-unit>
         <trans-unit id="Report 4163756361 - NamedType 1582893390" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update item entries ...</source>
-          <target>Aggiorna movimenti articoli...</target>
+          <target>Aggiornamento mov. articoli ...</target>
         </trans-unit>
         <trans-unit id="Report 4163756361 - NamedType 2512756519" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 mandatory.</source>
@@ -6625,11 +6625,11 @@
         </trans-unit>
         <trans-unit id="Report 4163756361 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Item Entries</source>
-          <target>Aggiorna movimenti articoli</target>
+          <target>Aggiorna mov. cont. articoli</target>
         </trans-unit>
         <trans-unit id="Report 417480315 - Control 1376084807 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the costing period code</source>
-          <target>Specifica il Cod. periodo</target>
+          <target>Specifica il cod. periodo costi</target>
         </trans-unit>
         <trans-unit id="Report 417480315 - Control 1376084807 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Code</source>
@@ -6812,32 +6812,44 @@
           <target>Opzioni</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1054324517" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Missing item archive running ...\\</source>
+          <source>Missing item archiving ...\\</source>
           <target>Archiviazione articoli mancanti ...\\</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 1224385819" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Description #2##################################################\</source>
-          <target>Descrizione: #2##################################################\</target>
+        <trans-unit id="Report 543964970 - NamedType 1054468668" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource archiving ...\\</source>
+          <target>Archiviazione risorse ...\\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1473390049" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item archive running ...\\</source>
+          <source>Item archiving ...\\</source>
           <target>Archiviazione articoli ...\\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1549374824" translate="yes" size-unit="char" xml:space="preserve">
           <source>To period code mandatory!</source>
           <target>Codice periodo obbligatorio!</target>
         </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 1634548783" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resources @2@@@@@@@@@@@@@</source>
+          <target>Risorse @2@@@@@@@@@@@@@@@</target>
+        </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1960648893" translate="yes" size-unit="char" xml:space="preserve">
           <source>BOM phantom structure for %1 is higher than 50 levels.</source>
           <target>La struttura DB per %1 è superiore a 50 livelli.</target>
+        </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 2190447309" translate="yes" size-unit="char" xml:space="preserve">
+          <source>BOM &amp; Routings  @2@@@@@@@@@@@@@</source>
+          <target>DB e Cicli @2@@@@@@@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 2218214932" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attention: Period %1 - "%2" not empty!\Only new items in period should be archived! Do you want to proceed?</source>
           <target>Attenzione: Periodo %1 - "%2" non vuoto! - Solo i nuovi elementi nel periodo devono essere archiviati! Vuoi procedere?</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 3541090350" translate="yes" size-unit="char" xml:space="preserve">
-          <source>BOM and routing archive running ...\\</source>
-          <target>Archiviazione DB e cicli ...\\</target>
+        <trans-unit id="Report 543964970 - NamedType 2220542166" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Items    @2@@@@@@@@@@@@@</source>
+          <target>Articoli @2@@@@@@@@@@@@@</target>
+        </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 3520677536" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Machine Center archiving ...\\</source>
+          <target>Archiviazione centri di lavoro ...\\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 3659624548" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update impossible for definitive period !</source>
@@ -6847,21 +6859,29 @@
           <source>Canceled Operation !</source>
           <target>Operazione annullata !</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 3909125117" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Counter    #3#######\</source>
-          <target>Contatore #3#######\</target>
+        <trans-unit id="Report 543964970 - NamedType 3938104762" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.      #1####################\</source>
+          <target>Nr. #1####################\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 4071146213" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period %1 not found !</source>
           <target>Periodo %1 non trovato !</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 698078071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total    #4#######</source>
-          <target>Totale #4########</target>
+        <trans-unit id="Report 543964970 - NamedType 4174446383" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Work Centers @2@@@@@@@@@@@@@</source>
+          <target>Aree di produzione @2@@@@@@@@@@@@@</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 771342085" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No.         #1####################\</source>
-          <target>Nr.:         #1####################\</target>
+        <trans-unit id="Report 543964970 - NamedType 695154155" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Machine Centers @2@@@@@@@@@@@@@</source>
+          <target>Centri di lavoro @2@@@@@@@@@@@@@@@</target>
+        </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 723158332" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Work Center archiving ...\\</source>
+          <target>Archiviazione aree di produzione ...\\</target>
+        </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 826929330" translate="yes" size-unit="char" xml:space="preserve">
+          <source>BOM and Routing archiving ...\\</source>
+          <target>Archiviazione DB e cicli ...\\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Archive Item Cost Period Data</source>
@@ -7073,7 +7093,7 @@
         </trans-unit>
         <trans-unit id="Report 957143814 - ReportLabel 971242772" translate="yes" size-unit="char" xml:space="preserve">
           <source>Inventory Value</source>
-          <target>Valore di magazzino</target>
+          <target>Valore magazzino</target>
         </trans-unit>
         <trans-unit id="Table 1205416111 - Field 104310926 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Cost per</source>
@@ -7209,7 +7229,7 @@
         </trans-unit>
         <trans-unit id="Table 1497468596 - Field 4132733409 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>FIFO,LIFO,Average,Standard,Last Purchase Price,Item Setting,From Value Entries</source>
-          <target>FIFO,LIFO,Medio,Standard,Ultimo prezzo acquisto,Anagrafica articolo,Da movimenti valorizzazione</target>
+          <target>FIFO,LIFO,Medio,Standard,Ultimo costo acquisto,Anagrafica articolo,Da mov. valorizzazione</target>
         </trans-unit>
         <trans-unit id="Table 1497468596 - Field 47284044 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Calculation by</source>
@@ -7301,7 +7321,7 @@
         </trans-unit>
         <trans-unit id="Table 1569671315 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order Component WIP</source>
-          <target>Componenti ordini produzione WIP</target>
+          <target>Componenti ordine di produzione WIP</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 1076702913 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>BOM/Routing Status</source>
@@ -7561,7 +7581,7 @@
         </trans-unit>
         <trans-unit id="Table 1763507910 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Specific Cost</source>
-          <target>Costo specifico articolo</target>
+          <target>Costi specifici articolo</target>
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 1251760580 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Std. Single-Level Add. Cost</source>
@@ -7609,7 +7629,7 @@
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 3716110350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Cost</source>
-          <target>Costo aggiuntivo</target>
+          <target>Nature di costo</target>
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 3867104561 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Unit Cost %</source>
@@ -8053,7 +8073,7 @@
         </trans-unit>
         <trans-unit id="Table 2676330642 - Field 1636433464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchased Quantity</source>
-          <target>Quantità acquistata</target>
+          <target>Quantità acquisti</target>
         </trans-unit>
         <trans-unit id="Table 2676330642 - Field 1947107075 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Processed Quantity</source>
@@ -8089,7 +8109,7 @@
         </trans-unit>
         <trans-unit id="Table 2676330642 - Field 4161631626 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Overhead Routing Amount</source>
-          <target>Importo costi generali ciclo</target>
+          <target>Importo costi gen. cap. ciclo</target>
         </trans-unit>
         <trans-unit id="Table 2676330642 - Field 458406397 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ending Date</source>
@@ -8249,7 +8269,7 @@
         </trans-unit>
         <trans-unit id="Table 3058396733 - Field 3716110350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Cost</source>
-          <target>Costo aggiuntivo</target>
+          <target>Nature di costo</target>
         </trans-unit>
         <trans-unit id="Table 3058396733 - Field 4000617933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Type Rollup</source>
@@ -8369,7 +8389,7 @@
         </trans-unit>
         <trans-unit id="Table 3070548092 - Field 3299657368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Cost %</source>
-          <target>% costi gen.</target>
+          <target>% costo gen.</target>
         </trans-unit>
         <trans-unit id="Table 3070548092 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
@@ -8437,7 +8457,7 @@
         </trans-unit>
         <trans-unit id="Table 3070548092 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order Line WIP</source>
-          <target>Righe ordini prod. WIP</target>
+          <target>Righe ordine di produzione WIP</target>
         </trans-unit>
         <trans-unit id="Table 3101680879 - Field 1191506180 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Cost Source</source>
@@ -8565,7 +8585,7 @@
         </trans-unit>
         <trans-unit id="Table 3101680879 - Field 3299657368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Cost %</source>
-          <target>% costi gen.</target>
+          <target>% costo gen.</target>
         </trans-unit>
         <trans-unit id="Table 3101680879 - Field 3433119822 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot Size</source>
@@ -8905,7 +8925,7 @@
         </trans-unit>
         <trans-unit id="Table 3589614359 - Field 3716110350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Cost</source>
-          <target>Costo aggiuntivo</target>
+          <target>Nature di costo</target>
         </trans-unit>
         <trans-unit id="Table 3589614359 - Field 4000617933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Type Rollup</source>
@@ -8965,7 +8985,7 @@
         </trans-unit>
         <trans-unit id="Table 373035291 - Field 3299657368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Cost %</source>
-          <target>% costi gen.</target>
+          <target>% costo gen.</target>
         </trans-unit>
         <trans-unit id="Table 373035291 - Field 3543129988 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blocked</source>
@@ -8981,11 +9001,11 @@
         </trans-unit>
         <trans-unit id="Table 373035291 - Field 411531942 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Base Unit of Measure</source>
-          <target>Unità di misura base</target>
+          <target>Unità di misura di base</target>
         </trans-unit>
         <trans-unit id="Table 373035291 - Field 4187992892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Direct Unit Cost</source>
-          <target>Costo unitario diretto</target>
+          <target>Costo diretto unitario</target>
         </trans-unit>
         <trans-unit id="Table 373035291 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
@@ -8997,7 +9017,7 @@
         </trans-unit>
         <trans-unit id="Table 373035291 - Method 3909079843 - NamedType 3659624548" translate="yes" size-unit="char" xml:space="preserve">
           <source>Modification for definitive period denied.</source>
-          <target>Non è possibile modificare uno storico definitivo.</target>
+          <target>Modifica per periodo definitivo negato.</target>
         </trans-unit>
         <trans-unit id="Table 373035291 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource History</source>
@@ -9097,7 +9117,7 @@
         </trans-unit>
         <trans-unit id="Table 4087155669 - Field 3716110350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Cost</source>
-          <target>Costo aggiuntivo</target>
+          <target>Nature di costo</target>
         </trans-unit>
         <trans-unit id="Table 4087155669 - Field 4000617933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Type Rollup</source>
@@ -9153,7 +9173,7 @@
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 1636433464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchased Quantity</source>
-          <target>Quantità acquistata</target>
+          <target>Quantità acquisti</target>
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 1930159372 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled Up Actual Dir. Capacity</source>
@@ -9317,7 +9337,7 @@
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 1604404954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Overhead Cost %</source>
-          <target>% costi generali eff./budget</target>
+          <target>Costi generali % eff./budget</target>
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 1821035994 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Direct Unit Cost</source>
@@ -9361,7 +9381,7 @@
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 3299657368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Cost %</source>
-          <target>% costi gen.</target>
+          <target>% costo gen.</target>
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 3757846886 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Overhead Rate</source>
@@ -9377,7 +9397,7 @@
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 4187992892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Direct Unit Cost</source>
-          <target>Costo unitario diretto</target>
+          <target>Costo diretto unitario</target>
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
@@ -9481,7 +9501,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 1636433464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchased Quantity</source>
-          <target>Quantità acquistata</target>
+          <target>Quantità acquisti</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 1672839281 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>LIFO Cost</source>
@@ -9681,7 +9701,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3299657368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Cost %</source>
-          <target>% costi gen.</target>
+          <target>% costo gen.</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3336937765 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Material Cost</source>
@@ -9777,7 +9797,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3887707300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Management Type</source>
-          <target>Tipo gestione dei costi</target>
+          <target>Tipo gestione costi</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3887707300 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Variant,Lot,Serial</source>
@@ -9797,7 +9817,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 411531942 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Base Unit of Measure</source>
-          <target>Unità di misura base</target>
+          <target>Unità di misura di base</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 4149096017 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Single-Level Capacity Overhead WAC</source>
@@ -9949,7 +9969,7 @@
         </trans-unit>
         <trans-unit id="Table 487856676 - Field 2287818464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production BOM No.</source>
-          <target>Nr. distinta base di produzione</target>
+          <target>Nr. DB di produzione</target>
         </trans-unit>
         <trans-unit id="Table 487856676 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit of Measure Code</source>
@@ -10005,7 +10025,7 @@
         </trans-unit>
         <trans-unit id="Table 487856676 - Field 3887707300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Management Type</source>
-          <target>Tipo gestione dei costi</target>
+          <target>Tipo gestione costi</target>
         </trans-unit>
         <trans-unit id="Table 487856676 - Field 3887707300 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Variant,Lot,Serial</source>
@@ -10045,7 +10065,7 @@
         </trans-unit>
         <trans-unit id="Table 487856676 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production BOM History</source>
-          <target>Storico DB di produzione</target>
+          <target>Storico DB</target>
         </trans-unit>
         <trans-unit id="Table 499962481 - Field 1664007648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bin Exclusion Enabled</source>
@@ -10261,7 +10281,7 @@
         </trans-unit>
         <trans-unit id="Table 67152805 - Field 4161631626 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Overhead Routing Amount</source>
-          <target>Importo costi generali ciclo</target>
+          <target>Importo costi gen. cap. ciclo</target>
         </trans-unit>
         <trans-unit id="Table 67152805 - Field 458406397 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ending Date</source>
@@ -10369,7 +10389,7 @@
         </trans-unit>
         <trans-unit id="Table 718509801 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Specific Cost</source>
-          <target>Costo specifico articolo</target>
+          <target>Costi specifici articolo</target>
         </trans-unit>
         <trans-unit id="Table 797662224 - Field 1390656416 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Capacity Type</source>

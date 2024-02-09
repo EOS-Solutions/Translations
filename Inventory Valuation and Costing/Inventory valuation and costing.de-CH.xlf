@@ -87,6 +87,10 @@
           <source>Total standard subcontracting costs</source>
           <target>Gesamte Standardkosten für Unteraufträge</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3362265698 - NamedType 2476940767" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generating Tree @1@@@@@@@</source>
+          <target>Baum wird generiert @1@@@@@@@</target>
+        </trans-unit>
         <trans-unit id="Codeunit 409564612 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. #2################## @3@@@@@@@@@@@@@</source>
           <target>Nr. #2################## @3@@@@@@@@@@@@@</target>
@@ -2069,7 +2073,7 @@
         </trans-unit>
         <trans-unit id="Page 2868261092 - Action 1092155627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ledger Entry Detail</source>
-          <target>Menge / Betragsdetails</target>
+          <target>Datendetails drucken</target>
         </trans-unit>
         <trans-unit id="Page 2868261092 - Action 3716110350 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the cost nature related to item variant</source>
@@ -2425,7 +2429,7 @@
         </trans-unit>
         <trans-unit id="Page 3070548092 - Action 4123106121 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WIP History</source>
-          <target>Neue WIP-Historie</target>
+          <target>Wip Geschichte</target>
         </trans-unit>
         <trans-unit id="Page 3070548092 - Action 503024588 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View or add comments for the record.</source>
@@ -2793,7 +2797,7 @@
         </trans-unit>
         <trans-unit id="Page 3457658548 - Action 1092155627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ledger Entry Detail</source>
-          <target>Menge / Betragsdetails</target>
+          <target>Datendetails drucken</target>
         </trans-unit>
         <trans-unit id="Page 3457658548 - Action 3716110350 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the cost nature related to item variant</source>
@@ -4565,7 +4569,7 @@
         </trans-unit>
         <trans-unit id="Page 848244484 - Action 1092155627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ledger Entry Detail</source>
-          <target>Menge / Betragsdetails</target>
+          <target>Datendetails drucken</target>
         </trans-unit>
         <trans-unit id="Page 848244484 - Action 2115994922 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print the item specific cost</source>
@@ -5380,20 +5384,16 @@
           <target>Elemente mit Zirkelbezügen neu berechnen ...\\</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 2792817358" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Update production costs ...\\</source>
+          <source>Calculating production costs ...\\</source>
           <target>Produktionskosten aktualisieren ...\\</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 3624983459" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculating costs ...\\</source>
           <target>Kosten kalkulieren ...\\</target>
         </trans-unit>
-        <trans-unit id="Report 2229818940 - NamedType 3909125117" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Counter    #2#######\</source>
-          <target>Zähler #2#######\</target>
-        </trans-unit>
-        <trans-unit id="Report 2229818940 - NamedType 698078071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total    #3#######</source>
-          <target>Gesamt #3#######</target>
+        <trans-unit id="Report 2229818940 - NamedType 3950098385" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Items @2@@@@@@@@@@@@@</source>
+          <target>Elemente @2@@@@@@@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculate Actual Cost</source>
@@ -6189,7 +6189,7 @@
         </trans-unit>
         <trans-unit id="Report 2880494308 - NamedType 2084104700" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subcontracting Cost</source>
-          <target>Fremdarbeitskosten</target>
+          <target>Zulieferkosten</target>
         </trans-unit>
         <trans-unit id="Report 2880494308 - NamedType 2128762536" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material Cost</source>
@@ -6641,7 +6641,7 @@
         </trans-unit>
         <trans-unit id="Report 417480315 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Wip History (IVC)</source>
-          <target>Wip-Historie (IVC)</target>
+          <target>Wip Geschichte (IVC)</target>
         </trans-unit>
         <trans-unit id="Report 417480315 - ReportLabel 1232105889" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Order No.</source>
@@ -6812,32 +6812,44 @@
           <target>Optionen</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1054324517" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Missing item archive running ...\\</source>
+          <source>Missing item archiving ...\\</source>
           <target>Archiv für fehlende Elemente wird ausgeführt ...\\</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 1224385819" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Description #2##################################################\</source>
-          <target>Beschreibung: #2##################################################\</target>
+        <trans-unit id="Report 543964970 - NamedType 1054468668" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource archiving ...\\</source>
+          <target>Ressourcenarchivierung ...\\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1473390049" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item archive running ...\\</source>
+          <source>Item archiving ...\\</source>
           <target>Artikelarchiv läuft ...\\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1549374824" translate="yes" size-unit="char" xml:space="preserve">
           <source>To period code mandatory!</source>
           <target>Zum Periodencode obligatorisch!</target>
         </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 1634548783" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resources @2@@@@@@@@@@@@@</source>
+          <target>Ressourcen @2@@@@@@@@@@@@@</target>
+        </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1960648893" translate="yes" size-unit="char" xml:space="preserve">
           <source>BOM phantom structure for %1 is higher than 50 levels.</source>
           <target>Die Stücklisten-Phantomstruktur für %1 ist höher als 50 Ebenen.</target>
+        </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 2190447309" translate="yes" size-unit="char" xml:space="preserve">
+          <source>BOM &amp; Routings  @2@@@@@@@@@@@@@</source>
+          <target>Stückliste und Arbeitspläne @2@@@@@@@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 2218214932" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attention: Period %1 - "%2" not empty!\Only new items in period should be archived! Do you want to proceed?</source>
           <target>Achtung: Periode %1 - "%2" nicht leer! Möchten Sie fortfahren?</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 3541090350" translate="yes" size-unit="char" xml:space="preserve">
-          <source>BOM and routing archive running ...\\</source>
-          <target>Stücklisten- und Routingarchiv läuft ...\\</target>
+        <trans-unit id="Report 543964970 - NamedType 2220542166" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Items    @2@@@@@@@@@@@@@</source>
+          <target>Elemente @2@@@@@@@@@@@@@</target>
+        </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 3520677536" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Machine Center archiving ...\\</source>
+          <target>Machine Center-Archivierung ...\\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 3659624548" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update impossible for definitive period !</source>
@@ -6847,21 +6859,29 @@
           <source>Canceled Operation !</source>
           <target>Vorgang abgebrochen !</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 3909125117" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Counter    #3#######\</source>
-          <target>Zähler #3#######\</target>
+        <trans-unit id="Report 543964970 - NamedType 3938104762" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.      #1####################\</source>
+          <target>Nr. #1####################\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 4071146213" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period %1 not found !</source>
           <target>Periode %1 wurde nicht gefunden !</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 698078071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total    #4#######</source>
-          <target>Gesamt #4#######</target>
+        <trans-unit id="Report 543964970 - NamedType 4174446383" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Work Centers @2@@@@@@@@@@@@@</source>
+          <target>Arbeitszentren @2@@@@@@@@@@@@@</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 771342085" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No.         #1####################\</source>
-          <target>Nr.:         #1####################\</target>
+        <trans-unit id="Report 543964970 - NamedType 695154155" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Machine Centers @2@@@@@@@@@@@@@</source>
+          <target>Maschinenzentren @2@@@@@@@@@@@@@</target>
+        </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 723158332" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Work Center archiving ...\\</source>
+          <target>Work Center-Archivierung ...\\</target>
+        </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 826929330" translate="yes" size-unit="char" xml:space="preserve">
+          <source>BOM and Routing archiving ...\\</source>
+          <target>Stücklisten- und Routing-Archivierung ...\\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Archive Item Cost Period Data</source>
@@ -7257,7 +7277,7 @@
         </trans-unit>
         <trans-unit id="Table 1569671315 - Field 3196119024 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity per</source>
-          <target>Menge pro</target>
+          <target>Menge Pro</target>
         </trans-unit>
         <trans-unit id="Table 1569671315 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
@@ -7681,7 +7701,7 @@
         </trans-unit>
         <trans-unit id="Table 2336925172 - Field 245137026 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Wip Period Time</source>
-          <target>Wip Period Zeit</target>
+          <target>Period Zeit Wip</target>
         </trans-unit>
         <trans-unit id="Table 2336925172 - Field 2542071172 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Routing Reference No.</source>
@@ -7837,7 +7857,7 @@
         </trans-unit>
         <trans-unit id="Table 2336925172 - Field 96441423 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Wip Quantity</source>
-          <target>Wip-Menge</target>
+          <target>WIP-Menge</target>
         </trans-unit>
         <trans-unit id="Table 2336925172 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order Routing Line WIP</source>
@@ -8061,7 +8081,7 @@
         </trans-unit>
         <trans-unit id="Table 2676330642 - Field 285452697 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Materials Amount</source>
-          <target>Materialmenge</target>
+          <target>Durchschnittlicher Kostenmaterialbetrag</target>
         </trans-unit>
         <trans-unit id="Table 2676330642 - Field 305572221 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subcontracted Amount</source>
@@ -8089,7 +8109,7 @@
         </trans-unit>
         <trans-unit id="Table 2676330642 - Field 4161631626 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Overhead Routing Amount</source>
-          <target>Overhead-Routing-Betrag</target>
+          <target>Durchschnittlicher Kosten-Overhead-Routingbetrag</target>
         </trans-unit>
         <trans-unit id="Table 2676330642 - Field 458406397 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ending Date</source>
@@ -8689,7 +8709,7 @@
         </trans-unit>
         <trans-unit id="Table 3433563251 - Field 245137026 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Wip Period Time</source>
-          <target>Wip Period Zeit</target>
+          <target>Period Zeit Wip</target>
         </trans-unit>
         <trans-unit id="Table 3433563251 - Field 2542071172 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Routing Reference No.</source>
@@ -8833,7 +8853,7 @@
         </trans-unit>
         <trans-unit id="Table 3433563251 - Field 96441423 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Wip Quantity</source>
-          <target>Wip-Menge</target>
+          <target>WIP-Menge</target>
         </trans-unit>
         <trans-unit id="Table 3433563251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order Routing Line WIP</source>
@@ -9013,7 +9033,7 @@
         </trans-unit>
         <trans-unit id="Table 3909408967 - Field 2924698559 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Unit Cost %</source>
-          <target>% zusätzliche Stückkosten</target>
+          <target>Zusätzliche Stückkosten %</target>
         </trans-unit>
         <trans-unit id="Table 3909408967 - Field 3464741712 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Costing Setup Code</source>
@@ -9125,7 +9145,7 @@
         </trans-unit>
         <trans-unit id="Table 4087155669 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Specific Additional Cost</source>
-          <target>Artikelspezifische Zusatzkosten</target>
+          <target>Artikelspezifische Zusatzkosten (IVC)</target>
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 1004046487 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Actual Subcontracted Cost</source>
@@ -9365,7 +9385,7 @@
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 3757846886 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Overhead Rate</source>
-          <target>Tatsächlicher Overhead-Satz</target>
+          <target>Budget-Overhead-Satz</target>
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 381961415 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Cost</source>
@@ -9385,7 +9405,7 @@
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 624954544 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Cost Calculation</source>
-          <target>Kostenberechnung von Stück</target>
+          <target>Berechnung der Stückkosten</target>
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 624954544 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Time,Units</source>
@@ -9485,11 +9505,11 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 1672839281 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>LIFO Cost</source>
-          <target>LIFO Kosten</target>
+          <target>LIFO-Kosten</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 1688856263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>FIFO Cost</source>
-          <target>FIFO Kosten</target>
+          <target>Kontinuierliche FIFO-Kosten</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 1753515417 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant Filter</source>
@@ -9973,7 +9993,7 @@
         </trans-unit>
         <trans-unit id="Table 487856676 - Field 3196119024 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity per</source>
-          <target>Menge pro</target>
+          <target>Menge Pro</target>
         </trans-unit>
         <trans-unit id="Table 487856676 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
@@ -10233,7 +10253,7 @@
         </trans-unit>
         <trans-unit id="Table 67152805 - Field 285452697 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Materials Amount</source>
-          <target>Materialmenge</target>
+          <target>Durchschnittlicher Kostenmaterialbetrag</target>
         </trans-unit>
         <trans-unit id="Table 67152805 - Field 305572221 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subcontracted Amount</source>
@@ -10261,7 +10281,7 @@
         </trans-unit>
         <trans-unit id="Table 67152805 - Field 4161631626 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Overhead Routing Amount</source>
-          <target>Overhead-Routing-Betrag</target>
+          <target>Durchschnittlicher Kosten-Overhead-Routingbetrag</target>
         </trans-unit>
         <trans-unit id="Table 67152805 - Field 458406397 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ending Date</source>
