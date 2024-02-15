@@ -12,7 +12,7 @@
           <target>A End-Total %1 le falta un Begin-Total coincidente.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1657266398 - NamedType 1534764485" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This function updates the indentation of all the columns in the profitability income statement. All accounts between a Begin-Total and the matching End-Total are indented one level. The Totaling for each End-total is also updated.\\Do you want to indent the profitability income statement?</source>
+          <source>This function updates the indentation of all the columns in the profitability account. All accounts between a Begin-Total and the matching End-Total are indented one level. The Totaling for each End-total is also updated.\\Do you want to indent the profitability account?</source>
           <target>Esta función actualiza la sangría de todas las columnas de la cuenta de resultados de rentabilidad. Todas las cuentas entre un total inicial y el total final coincidente tienen una sangría de un nivel. También se actualiza la Totalización de cada Total final.\\¿Desea sangrar la cuenta de resultados de rentabilidad?</target>
         </trans-unit>
         <trans-unit id="Codeunit 1657266398 - NamedType 1575816433" translate="yes" size-unit="char" xml:space="preserve">
@@ -20,7 +20,7 @@
           <target>Solo puede sangrar %1 niveles para cuentas del tipo Begin-Total.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1657266398 - NamedType 732759939" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indenting the profitability income statement #1##########</source>
+          <source>Indenting the profitability account #1##########</source>
           <target>Sangría de la cuenta de resultados de rentabilidad #1##########</target>
         </trans-unit>
         <trans-unit id="Codeunit 168321580 - NamedType 1068754970" translate="yes" size-unit="char" xml:space="preserve">
@@ -275,6 +275,18 @@
           <source>The journal lines were successfully posted.</source>
           <target>Las líneas del diario se publicaron correctamente.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deleting Entries ...\\</source>
+          <target>Eliminando entradas...\\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table   #1###############\</source>
+          <target>Tabla #1###############\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entries @2@@@@@@@@@@@@@@@</source>
+          <target>Entradas @2@@@@@@@@@@@@@@@</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3429295233 - NamedType 1431189597" translate="yes" size-unit="char" xml:space="preserve">
           <source>&lt;NULL&gt;</source>
           <target>&lt;NULL&gt;</target>
@@ -372,7 +384,7 @@
           <target>Actualización cancelada</target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 1745287229" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Income statement accounts with cost center or cost object will be transferred to cost accounting.\</source>
+          <source>Accounts with cost center or cost object will be transferred to cost accounting.\</source>
           <target>Las cuentas de estado de cuenta con centro de coste u objeto de coste se transferirán a la contabilidad de costes.\</target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 17661673" translate="yes" size-unit="char" xml:space="preserve">
@@ -442,6 +454,18 @@
         <trans-unit id="Codeunit 4219997186 - NamedType 4205745040" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subscribe for an activation</source>
           <target>Suscríbete para una activación</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculating Driver Values ...\\</source>
+          <target>Calculando los valores del controlador...\\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Driver code #1###############\</source>
+          <target>Código de controlador #1###############\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Drivers     @2@@@@@@@@@@@@@@@</source>
+          <target>Conductores @2@@@@@@@@@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Codeunit 437895704 - NamedType 4233690037" translate="yes" size-unit="char" xml:space="preserve">
           <source>Missing %1 to %2.</source>
@@ -520,7 +544,7 @@
           <target>Todos los tipos de línea, incluidos los encabezados, begin-total y end-total, se transfieren.\</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 1327832897" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This function transfers all income statement accounts from the chart of accounts to the chart of CA.\\</source>
+          <source>This function transfers all accounts from the chart of accounts to the chart of CA.\\</source>
           <target>Esta función transfiere todas las cuentas de estado de resultados del plan de cuentas al gráfico de CA.\\</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 1390626732" translate="yes" size-unit="char" xml:space="preserve">
@@ -581,7 +605,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 349571158" translate="yes" size-unit="char" xml:space="preserve">
           <source>DEFAULT</source>
-          <target>Predeterminado</target>
+          <target>DEFAULT</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 3627904852" translate="yes" size-unit="char" xml:space="preserve">
           <source>GL_SIM</source>
@@ -612,7 +636,7 @@
           <target>%1 %2 se ha actualizado en la Contabilidad de costes.</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 912201424" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 income statement accounts processed. %2 Cost Account created.</source>
+          <source>%1 accounts processed. %2 Cost Account created.</source>
           <target>%1 cuentas de cuenta de resultados procesadas. %2 Cuenta de coste creada.</target>
         </trans-unit>
         <trans-unit id="Codeunit 985244087 - NamedType 2476940767" translate="yes" size-unit="char" xml:space="preserve">
@@ -884,7 +908,7 @@
           <target>Próximo período</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Action 4125097576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View information about cost accounts, such as the account number, account name, and whether the account is part of the income statement or balance sheet.</source>
+          <source>View information about cost accounts, such as the account number, account name, and whether the account is part of the statement or balance sheet.</source>
           <target>Ver información sobre las cuentas de coste, como el número de cuenta, el nombre de la cuenta y si la cuenta forma parte del estado de resultados o del balance.</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Action 4125097576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -900,7 +924,7 @@
           <target>Comentarios</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 1216641554 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether the balance shown will include closing entries. If you want to see the amounts on income statement accounts in closed years, you must exclude closing entries.</source>
+          <source>Specifies whether the balance shown will include closing entries. If you want to see the amounts on statement accounts in closed years, you must exclude closing entries.</source>
           <target>Especifica si el saldo mostrado incluirá entradas de cierre. Si desea ver los importes de las cuentas de estado de resultados en años cerrados, debe excluir los movimientos de cierre.</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 1216641554 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -1840,8 +1864,8 @@
           <target>Especifica el presupuesto de tipo de coste en la última fecha que se incluye en el campo Filtro de fecha. El contenido del campo se calcula utilizando las entradas del campo Importe de la tabla Entrada de coste.</target>
         </trans-unit>
         <trans-unit id="Page 1790866452 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement List (EMA)</source>
-          <target>Rentabilidad Lista de Declaración de Ingresos (EMA)</target>
+          <source>Profitability Account List (EMA)</source>
+          <target>Lista de cuentas de rentabilidad (EMA)</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1210463481 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Driver Single Dimension 2 field.</source>
@@ -1860,7 +1884,7 @@
           <target>Especifica la fecha de inicio de cuando los movimientos de presupuesto c/a se transfieren a la contabilidad de costes.</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1539419679 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which type of G/L Account to synchronize, only Income Statement or also Balance</source>
+          <source>Specifies which type of G/L Account to synchronize, only Statement or also Balance</source>
           <target>Especifica qué tipo de cuenta de mayor sincronizar, solo cuenta de resultados o también saldo</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1651282235 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -2032,8 +2056,8 @@
           <target>General</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Control 2453349022 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies to write also the transaction with zero amount.</source>
-          <target>Especifica escribir también la transacción con importe cero.</target>
+          <source>Specifies whether to insert revenue profitability movements, any lines with a zero amount (for example: in cases of revenue reversed from a gift or a line discount equal to 100%)</source>
+          <target>Especifica si se deben insertar movimientos de rentabilidad de ingresos, cualquier línea con un monto cero (por ejemplo: en casos de ingresos revertidos de un regalo o un descuento de línea igual al 100%)</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Control 2632434655 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the net of Cost Nature.</source>
@@ -2112,15 +2136,15 @@
           <target>Especifica el cargo por artículo de ventas.</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement Card</source>
-          <target>Rentabilidad Tarjeta Declaración de la Renta</target>
+          <source>Profitability Account Card</source>
+          <target>Hoja de cuenta de rentabilidad</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1267408499 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Account</source>
           <target>Cuenta</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1987749257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Transfer all income statement accounts from the chart of accounts to the chart of cost account.</source>
+          <source>Transfer all accounts from the chart of accounts to the chart of cost account.</source>
           <target>Transfiera todas las cuentas de estado de resultados del plan de cuentas al gráfico de cuentas de coste.</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1987749257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -2260,7 +2284,7 @@
           <target>Tipo de coste</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Control 3063237 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether it is an income statement or a balance sheet</source>
+          <source>Specifies whether it is an statement or a balance sheet</source>
           <target>Especifica si se trata de una cuenta de resultados o de un balance general</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Control 3063237 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -3492,7 +3516,7 @@
           <target>Especifica el tipo de coste.</target>
         </trans-unit>
         <trans-unit id="Page 2911426993 - Control 3063237 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether it is an income statement or a balance sheet</source>
+          <source>Specifies whether it is an statement or a balance sheet</source>
           <target>Especifica si se trata de una cuenta de resultados o de un balance general</target>
         </trans-unit>
         <trans-unit id="Page 2911426993 - Control 3065357990 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -8012,7 +8036,7 @@
           <target>Codeunit personalizado</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 1617365723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Profitability Income Statement</source>
+          <source>Driver Profitability Account</source>
           <target>Columna del conductor</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 1621242373 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -8175,6 +8199,10 @@
           <source>Sales Item Charge</source>
           <target>Cargo por artículo de ventas</target>
         </trans-unit>
+        <trans-unit id="Table 2362729240 - NamedType 1858590414" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 cannot be used with %2 %3</source>
+          <target>%1 no se puede utilizar con %2 %3</target>
+        </trans-unit>
         <trans-unit id="Table 2362729240 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot change line type %1. It has already entries.</source>
           <target>No se puede cambiar el tipo de línea %1. Ya tiene entradas.</target>
@@ -8184,11 +8212,15 @@
           <target>A End-Total %1 le falta un Begin-Total coincidente.</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - NamedType 3457502012" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indenting Profitability Income Statement #1##########</source>
+          <source>Indenting Profitability Account #1##########</source>
           <target>Columnas de sangría #1##########</target>
         </trans-unit>
+        <trans-unit id="Table 2362729240 - NamedType 672156893" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 can be used only with %2 %3 or %4</source>
+          <target>%1 solo se puede usar para %2 %3 o %4</target>
+        </trans-unit>
         <trans-unit id="Table 2362729240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement</source>
+          <source>Profitability Account</source>
           <target>Rentabilidad Estado de Resultados</target>
         </trans-unit>
         <trans-unit id="Table 2387987938 - Field 268107654 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -9572,8 +9604,8 @@
           <target>Filtro presupuestario</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 1617365723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Profitability Income Statement</source>
-          <target>Columna del conductor</target>
+          <source>Driver Profitability Account</source>
+          <target>Impulsores de rentabilidad</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 1621242373 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Totaling</source>
@@ -9632,8 +9664,8 @@
           <target>Línea en blanco</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 2362729240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement</source>
-          <target>Columna C/IN</target>
+          <source>Profitability Account</source>
+          <target>Cuenta de Rentabilidad</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 2515378034 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Starting Date For Bdg Entries.</source>

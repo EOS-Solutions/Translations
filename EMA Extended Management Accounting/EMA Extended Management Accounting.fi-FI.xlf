@@ -12,7 +12,7 @@
           <target>Loppusummasta %1 puuttuu vastaava summa.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1657266398 - NamedType 1534764485" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This function updates the indentation of all the columns in the profitability income statement. All accounts between a Begin-Total and the matching End-Total are indented one level. The Totaling for each End-total is also updated.\\Do you want to indent the profitability income statement?</source>
+          <source>This function updates the indentation of all the columns in the profitability account. All accounts between a Begin-Total and the matching End-Total are indented one level. The Totaling for each End-total is also updated.\\Do you want to indent the profitability account?</source>
           <target>Tämä toiminto päivittää kaikkien kannattavuustuloslaskelman sarakkeiden sisennyksen. Kaikki Alkusumman ja vastaavan loppusumman väliset tilit on sisennetty yhdellä tasolla. Myös jokaisen loppusumman kokonaissumma päivitetään.\\Haluatko sisentää kannattavuuslaskelmaan?</target>
         </trans-unit>
         <trans-unit id="Codeunit 1657266398 - NamedType 1575816433" translate="yes" size-unit="char" xml:space="preserve">
@@ -20,7 +20,7 @@
           <target>Voit sisentää vain %1 tasoa tileille, joiden tyyppi on Begin-Total.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1657266398 - NamedType 732759939" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indenting the profitability income statement #1##########</source>
+          <source>Indenting the profitability account #1##########</source>
           <target>Kannattavuustuloslaskelman sisennys #1##########</target>
         </trans-unit>
         <trans-unit id="Codeunit 168321580 - NamedType 1068754970" translate="yes" size-unit="char" xml:space="preserve">
@@ -275,6 +275,18 @@
           <source>The journal lines were successfully posted.</source>
           <target>Kirjauskansion rivien kirjaaminen onnistui.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deleting Entries ...\\</source>
+          <target>Poistetaan merkintöjä...\\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table   #1###############\</source>
+          <target>Pöytä #1###############\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entries @2@@@@@@@@@@@@@@@</source>
+          <target>Merkinnät @2@@@@@@@@@@@@@@@</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3429295233 - NamedType 1431189597" translate="yes" size-unit="char" xml:space="preserve">
           <source>&lt;NULL&gt;</source>
           <target>&lt;NULL&gt;</target>
@@ -372,7 +384,7 @@
           <target>Päivitys peruttu</target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 1745287229" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Income statement accounts with cost center or cost object will be transferred to cost accounting.\</source>
+          <source>Accounts with cost center or cost object will be transferred to cost accounting.\</source>
           <target>Tuloslaskelmatilit, joilla on kustannuspaikka tai kustannuskohde, siirretään kustannuslaskentaan.\</target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 17661673" translate="yes" size-unit="char" xml:space="preserve">
@@ -442,6 +454,18 @@
         <trans-unit id="Codeunit 4219997186 - NamedType 4205745040" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subscribe for an activation</source>
           <target>Aktivoinnin tilaaminen</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculating Driver Values ...\\</source>
+          <target>Lasketaan ohjainarvoja...\\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Driver code #1###############\</source>
+          <target>Kuljettajakoodi #1###############\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Drivers     @2@@@@@@@@@@@@@@@</source>
+          <target>Ajurit @2@@@@@@@@@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Codeunit 437895704 - NamedType 4233690037" translate="yes" size-unit="char" xml:space="preserve">
           <source>Missing %1 to %2.</source>
@@ -520,7 +544,7 @@
           <target>Kaikki rivityypit, mukaan lukien otsikot, loppusumma ja loppusumma, siirretään.\</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 1327832897" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This function transfers all income statement accounts from the chart of accounts to the chart of CA.\\</source>
+          <source>This function transfers all accounts from the chart of accounts to the chart of CA.\\</source>
           <target>Tämä funktio siirtää kaikki tuloslaskelmatilit tilikartasta varmenteiden myöntäjän kaavioon.\\</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 1390626732" translate="yes" size-unit="char" xml:space="preserve">
@@ -581,7 +605,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 349571158" translate="yes" size-unit="char" xml:space="preserve">
           <source>DEFAULT</source>
-          <target>Oletus</target>
+          <target>DEFAULT</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 3627904852" translate="yes" size-unit="char" xml:space="preserve">
           <source>GL_SIM</source>
@@ -612,7 +636,7 @@
           <target>%1 %2 on päivitetty kustannuslaskennassa.</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 912201424" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 income statement accounts processed. %2 Cost Account created.</source>
+          <source>%1 accounts processed. %2 Cost Account created.</source>
           <target>%1 tuloslaskelmatiliä käsitelty. %2 Kustannustili luotu.</target>
         </trans-unit>
         <trans-unit id="Codeunit 985244087 - NamedType 2476940767" translate="yes" size-unit="char" xml:space="preserve">
@@ -884,7 +908,7 @@
           <target>Seuraava kausi</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Action 4125097576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View information about cost accounts, such as the account number, account name, and whether the account is part of the income statement or balance sheet.</source>
+          <source>View information about cost accounts, such as the account number, account name, and whether the account is part of the statement or balance sheet.</source>
           <target>Tarkastele kustannustilien tietoja, kuten tilinumeroa, tilin nimeä ja sitä, onko tili osa tuloslaskelmaa tai tasetta.</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Action 4125097576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -900,7 +924,7 @@
           <target>Kommentit</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 1216641554 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether the balance shown will include closing entries. If you want to see the amounts on income statement accounts in closed years, you must exclude closing entries.</source>
+          <source>Specifies whether the balance shown will include closing entries. If you want to see the amounts on statement accounts in closed years, you must exclude closing entries.</source>
           <target>Määrittää, sisältääkö esitetty saldo sulkemistapahtumia. Jos haluat nähdä tuloslaskelmatilien summat suljettuina vuosina, sinun on jätettävä sulkemistapahtumat pois.</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 1216641554 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -1840,8 +1864,8 @@
           <target>Määrittää kustannustyypin budjetin viimeisenä päivämääränä, joka sisältyy Pvm-suodatus -kenttään. Kentän sisältö lasketaan Käyttämällä Kustannustapahtuma-taulukon Summa-kentän tapahtumia.</target>
         </trans-unit>
         <trans-unit id="Page 1790866452 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement List (EMA)</source>
-          <target>Kannattavuustuloslaskelma (EMA)</target>
+          <source>Profitability Account List (EMA)</source>
+          <target>Kannattavuustililuettelo (EMA)</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1210463481 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Driver Single Dimension 2 field.</source>
@@ -1860,7 +1884,7 @@
           <target>Määrittää aloituspäivämäärän, jolloin budjettitapahtumat siirretään kustannuslaskentaan.</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1539419679 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which type of G/L Account to synchronize, only Income Statement or also Balance</source>
+          <source>Specifies which type of G/L Account to synchronize, only Statement or also Balance</source>
           <target>Määrittää synkronoitavan KP-tilin tyypin, vain tuloslaskelman tai myös saldon</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1651282235 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -2032,8 +2056,8 @@
           <target>Yleiset</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Control 2453349022 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies to write also the transaction with zero amount.</source>
-          <target>Määrittää, että myös tapahtuma kirjoitetaan nollasummalla.</target>
+          <source>Specifies whether to insert revenue profitability movements, any lines with a zero amount (for example: in cases of revenue reversed from a gift or a line discount equal to 100%)</source>
+          <target>Määrittää, lisätäänkö tulon kannattavuuden liikkeet, mitkä tahansa rivit, joiden summa on nolla (esimerkiksi jos tulot peruutetaan lahjasta tai rivialennus on 100 %)</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Control 2632434655 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the net of Cost Nature.</source>
@@ -2112,15 +2136,15 @@
           <target>Määrittää myyntinimikekulun.</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement Card</source>
-          <target>Kannattavuuden tuloslaskelmakortti</target>
+          <source>Profitability Account Card</source>
+          <target>Kannattavuuslaskentataulukko</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1267408499 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Account</source>
           <target>Tili</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1987749257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Transfer all income statement accounts from the chart of accounts to the chart of cost account.</source>
+          <source>Transfer all accounts from the chart of accounts to the chart of cost account.</source>
           <target>Siirrä kaikki tuloslaskelmatilit tilikartasta kustannustilin kaavioon.</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1987749257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -2260,7 +2284,7 @@
           <target>Kustannustyyppi</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Control 3063237 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether it is an income statement or a balance sheet</source>
+          <source>Specifies whether it is an statement or a balance sheet</source>
           <target>Määrittää, onko kyseessä tuloslaskelma vai tase</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Control 3063237 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -3492,7 +3516,7 @@
           <target>Määrittää kustannustyypin.</target>
         </trans-unit>
         <trans-unit id="Page 2911426993 - Control 3063237 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether it is an income statement or a balance sheet</source>
+          <source>Specifies whether it is an statement or a balance sheet</source>
           <target>Määrittää, onko kyseessä tuloslaskelma vai tase</target>
         </trans-unit>
         <trans-unit id="Page 2911426993 - Control 3065357990 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -8012,7 +8036,7 @@
           <target>Mukautettu koodi-yksi</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 1617365723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Profitability Income Statement</source>
+          <source>Driver Profitability Account</source>
           <target>Ohjainsarake</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 1621242373 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -8175,6 +8199,10 @@
           <source>Sales Item Charge</source>
           <target>Myyntinimikkeen veloitus</target>
         </trans-unit>
+        <trans-unit id="Table 2362729240 - NamedType 1858590414" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 cannot be used with %2 %3</source>
+          <target>% 1 ei voi käyttää % 2 % 3 kanssa</target>
+        </trans-unit>
         <trans-unit id="Table 2362729240 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot change line type %1. It has already entries.</source>
           <target>Rivityyppiä %1 ei voi muuttaa. Siinä on jo merkintöjä.</target>
@@ -8184,11 +8212,15 @@
           <target>Loppusummasta %1 puuttuu vastaava summa.</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - NamedType 3457502012" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indenting Profitability Income Statement #1##########</source>
+          <source>Indenting Profitability Account #1##########</source>
           <target>Sarakkeiden sisentäminen #1##########</target>
         </trans-unit>
+        <trans-unit id="Table 2362729240 - NamedType 672156893" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 can be used only with %2 %3 or %4</source>
+          <target>%1 voidaan käyttää vain %2 %3:lle tai %4:lle</target>
+        </trans-unit>
         <trans-unit id="Table 2362729240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement</source>
+          <source>Profitability Account</source>
           <target>Kannattavuuslaskelma</target>
         </trans-unit>
         <trans-unit id="Table 2387987938 - Field 268107654 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -9572,8 +9604,8 @@
           <target>Budjetin suodatin</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 1617365723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Profitability Income Statement</source>
-          <target>Ohjainsarake</target>
+          <source>Driver Profitability Account</source>
+          <target>Kannattavuuden ajurit</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 1621242373 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Totaling</source>
@@ -9632,8 +9664,8 @@
           <target>Tyhjä rivi</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 2362729240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement</source>
-          <target>C/IN-sarake</target>
+          <source>Profitability Account</source>
+          <target>Kannattavuustili</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 2515378034 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Starting Date For Bdg Entries.</source>
