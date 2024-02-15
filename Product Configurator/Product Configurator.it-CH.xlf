@@ -263,6 +263,10 @@
           <source>Error during processing excel online.</source>
           <target>Errore durante l'elaborazione di Excel online.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 55507411 - Method 399048851 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Files period to %1 Called %2 cancelations. Executed %3 cancelations.</source>
+          <target>Periodo file fino a %1. Chiamate %2 cancellazioni. Eseguite %3 cancellazioni</target>
+        </trans-unit>
         <trans-unit id="Enum 1063736548 - EnumValue 3502818357 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sum</source>
           <target>Somma</target>
@@ -318,6 +322,18 @@
         <trans-unit id="Enum 2079927104 - EnumValue 4224198349 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Transfer</source>
           <target>Trasferimento</target>
+        </trans-unit>
+        <trans-unit id="Enum 2496369686 - EnumValue 1522723704 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unique File Name Management and Cleaning</source>
+          <target>Gestione Nome File Univoca e Pulizia</target>
+        </trans-unit>
+        <trans-unit id="Enum 2496369686 - EnumValue 2672704373 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Standard</source>
+          <target>Standard</target>
+        </trans-unit>
+        <trans-unit id="Enum 2496369686 - EnumValue 3893208742 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unique File Name Management</source>
+          <target>Gestione Nome File Univoca</target>
         </trans-unit>
         <trans-unit id="Enum 2848756816 - EnumValue 1936001480 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor</source>
@@ -438,6 +454,10 @@
         <trans-unit id="Enum 970411567 - EnumValue 4054361056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Starting from Upper Level</source>
           <target>A partire dal livello superiore</target>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3014761447 - EnumValue 2974074131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS028 Retention Policies</source>
+          <target>EOS028 Criteri Conservazione</target>
         </trans-unit>
         <trans-unit id="Page 107975625 - Action 3869004667 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Charac. Value action</source>
@@ -1058,6 +1078,10 @@
         <trans-unit id="Page 1762500533 - Control 2212311215 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If active, copy comments from the neutral BOM to the configured BOM.</source>
           <target>Se attivo copia i commenti dalla distinta neutra a quella configurata.</target>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Control 2235271037 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how to manage Excel Sharepoint File name. If used with Unique Management, the system provide generate unique file name and log it. If active a Cleaning the system use log to empty the Sharepoint folder</source>
+          <target>Specifica come gestire la generazione del Nome del file Excel in Sharepoint. Se usato con la Gestione Univoca, il sistema provvede a generare un file univoco e tracciarlo. Se viene attivata anche la pulizia, attraverso il la tabella di Log vengono rimossi i file su Sharepoint</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 2251777111 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If enabled, in the absence of a neutral rule that satisfies the configuration, the user is asked for the item code to use. The product configurator then stores the choice made by the user entering a new neutral rule. It is used in the presence of items with the «From Neutral to Fix» configuration type.</source>
@@ -1684,12 +1708,12 @@
           <target>Se vedi questo testo, il flusso di concessione ha avuto un errore. Chiudi questa finestra e riprova</target>
         </trans-unit>
         <trans-unit id="Page 2434863672 - Action 2151793519 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the Reconfigure Variants action</source>
-          <target>Esegue l'azione Riconfigurare le varianti</target>
+          <source>Executes the Reconfigure Items/Variants action</source>
+          <target>Esegue l'azione Riconfigura Articoli/Varianti</target>
         </trans-unit>
         <trans-unit id="Page 2434863672 - Action 2151793519 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reconfigure Variants</source>
-          <target>Riconfigurare le varianti</target>
+          <source>Reconfigure Items/Variants</source>
+          <target>Riconfigura Articoli/Varianti</target>
         </trans-unit>
         <trans-unit id="Page 2434863672 - Action 2609004375 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes Recreate Configured Items Key action</source>
@@ -1730,6 +1754,38 @@
         <trans-unit id="Page 2434863672 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Configurator Keys</source>
           <target>Chiavi configurazione articoli</target>
+        </trans-unit>
+        <trans-unit id="Page 2558502198 - Action 1531096258 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Considering only logged files generated 1 day ago or more, this action deletes the file from the Sharepoint server and updates the log accordingly.</source>
+          <target>Considerando solo i file generati da almeno 1 giorno, questa azione cancella i file in Sharepoint e aggiorna la tabella di log.</target>
+        </trans-unit>
+        <trans-unit id="Page 2558502198 - Action 1531096258 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Sharepoint File</source>
+          <target>Cancella file in Sharepoint</target>
+        </trans-unit>
+        <trans-unit id="Page 2558502198 - Control 1558019418 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Insert Date Time field.</source>
+          <target>Specifica il valore del campo Data Ora Inserimento</target>
+        </trans-unit>
+        <trans-unit id="Page 2558502198 - Control 328122214 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies that, for current record, the delete action has been executed.</source>
+          <target>Specifica che, per il record corrente, l'operazione di cancellazione è stata lanciata.</target>
+        </trans-unit>
+        <trans-unit id="Page 2558502198 - Control 433034263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the error message in delete action.</source>
+          <target>Specifica il messaggio di errore nella fase di cancellazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 2558502198 - Control 689635933 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the File Path field.</source>
+          <target>Specifica il valore del campo Percorso File</target>
+        </trans-unit>
+        <trans-unit id="Page 2558502198 - Control 804481195 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the File Name field.</source>
+          <target>Specifica il valore del campo Nome File</target>
+        </trans-unit>
+        <trans-unit id="Page 2558502198 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sharepoint File Log (CFG)</source>
+          <target>Log File Sharepoint (CFG)</target>
         </trans-unit>
         <trans-unit id="Page 256656973 - Action 236450219 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Import Characteristic Values action</source>
@@ -5324,6 +5380,7 @@
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 2433632293 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Already Exists</source>
+          <target>Articolo già esistente</target>
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 2480638018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Line No.</source>
@@ -5887,6 +5944,7 @@
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 360567701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Formula Code</source>
+          <target>Codice Formula</target>
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 3611724338 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 9</source>
@@ -6123,6 +6181,10 @@
         <trans-unit id="Table 1762500533 - Field 2168110428 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>BOM Sublevels Calculation Type</source>
           <target>Tipo calcolo sottolivelli DB</target>
+        </trans-unit>
+        <trans-unit id="Table 1762500533 - Field 2235271037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sharepoint File Naming Engine</source>
+          <target>Tecnica di Assegnazione del Nome al File Sharepoint</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 2324506054 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sharepoint Site</source>
@@ -6587,6 +6649,33 @@
         <trans-unit id="Table 2543833169 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rules</source>
           <target>Regole</target>
+        </trans-unit>
+        <trans-unit id="Table 2558502198 - Field 1558019418 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Date Time</source>
+          <target>Data Ora inserimento</target>
+        </trans-unit>
+        <trans-unit id="Table 2558502198 - Field 1711712149 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry Guid</source>
+        </trans-unit>
+        <trans-unit id="Table 2558502198 - Field 328122214 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Executed</source>
+          <target>Cancellazione Eseguita</target>
+        </trans-unit>
+        <trans-unit id="Table 2558502198 - Field 433034263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Log</source>
+          <target>Log Cancellazione</target>
+        </trans-unit>
+        <trans-unit id="Table 2558502198 - Field 689635933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>File Path</source>
+          <target>Percorso File</target>
+        </trans-unit>
+        <trans-unit id="Table 2558502198 - Field 804481195 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>File Name</source>
+          <target>Nome File</target>
+        </trans-unit>
+        <trans-unit id="Table 2558502198 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sharepoint File Log (CFG)</source>
+          <target>Log File Sharepoint (CFG)</target>
         </trans-unit>
         <trans-unit id="Table 2775621722 - Field 1071172387 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value Desc.</source>
@@ -8584,9 +8673,17 @@
           <source>TempConfigHeader</source>
           <target>TempConfigHeader</target>
         </trans-unit>
+        <trans-unit id="Table 4096364091 - Field 1536418104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Configuration Levels</source>
+          <target>Abilita livelli di configurazione</target>
+        </trans-unit>
         <trans-unit id="Table 4096364091 - Field 1753214751 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Type</source>
           <target>Tipo origine</target>
+        </trans-unit>
+        <trans-unit id="Table 4096364091 - Field 1794151935 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Configuration Levels</source>
+          <target>Livelli di configurazione</target>
         </trans-unit>
         <trans-unit id="Table 4096364091 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Type</source>
@@ -8989,12 +9086,15 @@
         </trans-unit>
         <trans-unit id="TableExtension 1753995630 - Field 3383377015 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Production BOM</source>
+          <target>Copia BOM Produzione</target>
         </trans-unit>
         <trans-unit id="TableExtension 1753995630 - Field 3579018398 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Characteristics</source>
+          <target>Copia Caratteristiche</target>
         </trans-unit>
         <trans-unit id="TableExtension 1753995630 - Field 3880753539 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Matrix Prices</source>
+          <target>Copia Matrice Prezzi</target>
         </trans-unit>
         <trans-unit id="TableExtension 1779575907 - Field 1178247282 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Condition Code</source>
@@ -9042,6 +9142,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 1296734928 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Installed in Item No.</source>
+          <target>Installato in Nr. Articolo</target>
         </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 1428309435 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Purchase Line</source>
@@ -9061,6 +9162,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 1982694018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>BOM Component Type</source>
+          <target>Tipo Compomente BOM</target>
         </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 2027788466 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculation Formula</source>
@@ -9080,6 +9182,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 2625394185 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>BOM Component Line No.</source>
+          <target>Nr. Riga Componente BOM</target>
         </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 3193000000 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scrap % Formula Code</source>
@@ -9151,6 +9254,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 87730017 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Installed in Line No.</source>
+          <target>Installato in Nr. Riga</target>
         </trans-unit>
         <trans-unit id="TableExtension 2417272524 - Field 1178247282 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Condition Code</source>
