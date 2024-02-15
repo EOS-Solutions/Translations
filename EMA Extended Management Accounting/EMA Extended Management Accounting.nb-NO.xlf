@@ -12,7 +12,7 @@
           <target>Sluttsummen %1 mangler en samsvarende startsum.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1657266398 - NamedType 1534764485" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This function updates the indentation of all the columns in the profitability income statement. All accounts between a Begin-Total and the matching End-Total are indented one level. The Totaling for each End-total is also updated.\\Do you want to indent the profitability income statement?</source>
+          <source>This function updates the indentation of all the columns in the profitability account. All accounts between a Begin-Total and the matching End-Total are indented one level. The Totaling for each End-total is also updated.\\Do you want to indent the profitability account?</source>
           <target>Denne funksjonen oppdaterer innrykk av alle kolonnene i lønnsomhetsresultatet. Alle kontoer mellom en Start-Total og den matchende Slutt-Total er rykket inn ett nivå. Summen for hver sluttsum oppdateres også.\\Vil du rykke inn lønnsomhetsresultatet?</target>
         </trans-unit>
         <trans-unit id="Codeunit 1657266398 - NamedType 1575816433" translate="yes" size-unit="char" xml:space="preserve">
@@ -20,7 +20,7 @@
           <target>Du kan bare rykke inn %1 nivåer for kontoer av typen Begin-Total.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1657266398 - NamedType 732759939" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indenting the profitability income statement #1##########</source>
+          <source>Indenting the profitability account #1##########</source>
           <target>Innrykk lønnsomhetsresultatregnskapet #1###########</target>
         </trans-unit>
         <trans-unit id="Codeunit 168321580 - NamedType 1068754970" translate="yes" size-unit="char" xml:space="preserve">
@@ -275,6 +275,18 @@
           <source>The journal lines were successfully posted.</source>
           <target>Kladdelinjene ble postert.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deleting Entries ...\\</source>
+          <target>Sletter oppføringer ...\\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table   #1###############\</source>
+          <target>Tabell #1################\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entries @2@@@@@@@@@@@@@@@</source>
+          <target>Oppføringer @2@@@@@@@@@@@@@@@@</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3429295233 - NamedType 1431189597" translate="yes" size-unit="char" xml:space="preserve">
           <source>&lt;NULL&gt;</source>
           <target>&lt;NULL&gt;</target>
@@ -372,7 +384,7 @@
           <target>Oppdatering avbrutt</target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 1745287229" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Income statement accounts with cost center or cost object will be transferred to cost accounting.\</source>
+          <source>Accounts with cost center or cost object will be transferred to cost accounting.\</source>
           <target>Resultatregnskap med kostsenter eller kostobjekt overføres til kostnadsregnskap.\</target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 17661673" translate="yes" size-unit="char" xml:space="preserve">
@@ -442,6 +454,18 @@
         <trans-unit id="Codeunit 4219997186 - NamedType 4205745040" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subscribe for an activation</source>
           <target>Abonner på en aktivering</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculating Driver Values ...\\</source>
+          <target>Beregner driververdier ...\\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Driver code #1###############\</source>
+          <target>Driverkode #1###############\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Drivers     @2@@@@@@@@@@@@@@@</source>
+          <target>Drivere @2@@@@@@@@@@@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Codeunit 437895704 - NamedType 4233690037" translate="yes" size-unit="char" xml:space="preserve">
           <source>Missing %1 to %2.</source>
@@ -520,7 +544,7 @@
           <target>Alle linjetyper, inkludert overskrifter, total startsum og sluttsum, overføres.\</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 1327832897" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This function transfers all income statement accounts from the chart of accounts to the chart of CA.\\</source>
+          <source>This function transfers all accounts from the chart of accounts to the chart of CA.\\</source>
           <target>Denne funksjonen overfører alle resultatregnskap fra kontoplanen til oversikten over CA.\\</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 1390626732" translate="yes" size-unit="char" xml:space="preserve">
@@ -581,7 +605,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 349571158" translate="yes" size-unit="char" xml:space="preserve">
           <source>DEFAULT</source>
-          <target>Standard</target>
+          <target>DEFAULT</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 3627904852" translate="yes" size-unit="char" xml:space="preserve">
           <source>GL_SIM</source>
@@ -612,7 +636,7 @@
           <target>%1 %2 er oppdatert i kostnadsregnskap.</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 912201424" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 income statement accounts processed. %2 Cost Account created.</source>
+          <source>%1 accounts processed. %2 Cost Account created.</source>
           <target>%1 resultatregnskap behandlet. %2 Kostnadskonto opprettet.</target>
         </trans-unit>
         <trans-unit id="Codeunit 985244087 - NamedType 2476940767" translate="yes" size-unit="char" xml:space="preserve">
@@ -868,7 +892,7 @@
           <target>Neste periode</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Action 4125097576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View information about cost accounts, such as the account number, account name, and whether the account is part of the income statement or balance sheet.</source>
+          <source>View information about cost accounts, such as the account number, account name, and whether the account is part of the statement or balance sheet.</source>
           <target>Vis informasjon om kostnadskontoer, for eksempel kontonummer, kontonavn og om kontoen er en del av resultatregnskapet eller balansen.</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Action 4125097576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -884,7 +908,7 @@
           <target>Kommentarer</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 1216641554 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether the balance shown will include closing entries. If you want to see the amounts on income statement accounts in closed years, you must exclude closing entries.</source>
+          <source>Specifies whether the balance shown will include closing entries. If you want to see the amounts on statement accounts in closed years, you must exclude closing entries.</source>
           <target>Angir om saldoen som vises, skal inkludere avslutningsposter. Hvis du vil se beløpene på resultatregnskapskontoer i lukkede år, må du utelate avslutningsposter.</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 1216641554 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -905,7 +929,7 @@
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 1527490791 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Date Filter</source>
-          <target>Dato Filter</target>
+          <target>Dato filter</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 2330497704 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies by which period amounts are displayed.</source>
@@ -1824,8 +1848,8 @@
           <target>Angir kostnadstypebudsjettet på den siste datoen som er inkludert i Datofilter-feltet. Innholdet i feltet beregnes ved hjelp av postene i Beløp-feltet i Kostpost-tabellen.</target>
         </trans-unit>
         <trans-unit id="Page 1790866452 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement List (EMA)</source>
-          <target>Lønnsomhetsinntektsliste (EMA)</target>
+          <source>Profitability Account List (EMA)</source>
+          <target>Lønnsomhetskontoliste (EMA)</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1210463481 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Driver Single Dimension 2 field.</source>
@@ -1844,7 +1868,7 @@
           <target>Angir startdatoen for når c/a budsjettposter overføres til kostnadsregnskap.</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1539419679 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which type of G/L Account to synchronize, only Income Statement or also Balance</source>
+          <source>Specifies which type of G/L Account to synchronize, only Statement or also Balance</source>
           <target>Angir hvilken type finanskonto som skal synkroniseres, bare resultatregnskap eller saldo</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1651282235 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -2016,8 +2040,8 @@
           <target>Generelt</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Control 2453349022 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies to write also the transaction with zero amount.</source>
-          <target>Angir at transaksjonen også skal skrives med null beløp.</target>
+          <source>Specifies whether to insert revenue profitability movements, any lines with a zero amount (for example: in cases of revenue reversed from a gift or a line discount equal to 100%)</source>
+          <target>Spesifiserer om det skal settes inn inntektslønnsomhetsbevegelser, alle linjer med et nullbeløp (for eksempel: i tilfeller av inntekter reversert fra en gave eller en linjerabatt lik 100 %)</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Control 2632434655 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the net of Cost Nature.</source>
@@ -2096,15 +2120,15 @@
           <target>Angir salgsvaregebyret.</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement Card</source>
-          <target>Lønnsomhet Inntektskort</target>
+          <source>Profitability Account Card</source>
+          <target>Lønnsomhetsregnskap</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1267408499 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Account</source>
           <target>Konto</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1987749257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Transfer all income statement accounts from the chart of accounts to the chart of cost account.</source>
+          <source>Transfer all accounts from the chart of accounts to the chart of cost account.</source>
           <target>Overfør alle resultatregnskap fra kontoplanen til kostnadskontoen.</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1987749257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -2244,7 +2268,7 @@
           <target>Kostnadstype</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Control 3063237 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether it is an income statement or a balance sheet</source>
+          <source>Specifies whether it is an statement or a balance sheet</source>
           <target>Angir om det er et resultatregnskap eller en balanse</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Control 3063237 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -3305,7 +3329,7 @@
         </trans-unit>
         <trans-unit id="Page 2873706259 - Control 539546824 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Date Filter</source>
-          <target>Dato Filter</target>
+          <target>Dato filter</target>
         </trans-unit>
         <trans-unit id="Page 2873706259 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period</source>
@@ -3476,7 +3500,7 @@
           <target>Angir kosttypen.</target>
         </trans-unit>
         <trans-unit id="Page 2911426993 - Control 3063237 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether it is an income statement or a balance sheet</source>
+          <source>Specifies whether it is an statement or a balance sheet</source>
           <target>Angir om det er et resultatregnskap eller en balanse</target>
         </trans-unit>
         <trans-unit id="Page 2911426993 - Control 3065357990 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4261,7 +4285,7 @@
         </trans-unit>
         <trans-unit id="Page 4218013699 - Control 46831925 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cash Flow Forecast Filter</source>
-          <target>Filter for kontantstrømprognose</target>
+          <target>Kontantstrømprognosefilter</target>
         </trans-unit>
         <trans-unit id="Page 4218013699 - Control 539546824 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the dates that will be used to filter the amounts in the window.</source>
@@ -4269,7 +4293,7 @@
         </trans-unit>
         <trans-unit id="Page 4218013699 - Control 539546824 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Date Filter</source>
-          <target>Dato Filter</target>
+          <target>Dato filter</target>
         </trans-unit>
         <trans-unit id="Page 4218013699 - Control 788693744 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a filter for the Dimension 4 for which entries will be shown in the matrix window.</source>
@@ -6341,7 +6365,7 @@
         </trans-unit>
         <trans-unit id="Report 610890968 - NamedType 4273407817" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Account No. #1####################\</source>
-          <target>C/A-kontonr. #1###############\</target>
+          <target>C/A-kontonr. #1###############</target>
         </trans-unit>
         <trans-unit id="Report 610890968 - NamedType 576348388" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copying budget...\\</source>
@@ -7329,7 +7353,7 @@
         </trans-unit>
         <trans-unit id="Table 1935598646 - Field 2711571526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Register No.</source>
-          <target>Loggnr.</target>
+          <target>Registrer nr.</target>
         </trans-unit>
         <trans-unit id="Table 1935598646 - Field 2765633070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shortcut Dimension 7 Code</source>
@@ -7949,7 +7973,7 @@
         </trans-unit>
         <trans-unit id="Table 229730577 - Field 3597819326 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Value,Quantity,Net Weight,Total Weight</source>
-          <target> ,Verdi,Antall,Nettovekt,Totalvekt</target>
+          <target>, Mengde, Mengde, Vekt,</target>
         </trans-unit>
         <trans-unit id="Table 229730577 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Driver Buffer</source>
@@ -7996,7 +8020,7 @@
           <target>Tilpasset kodeenhet</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 1617365723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Profitability Income Statement</source>
+          <source>Driver Profitability Statement</source>
           <target>Driver-kolonnen</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 1621242373 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -8105,7 +8129,7 @@
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 3597819326 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Value,Quantity,Net Weight,Total Weight</source>
-          <target>Verdi,Antall,Nettovekt,Totalvekt</target>
+          <target>Verdi,Antall,Netto vekt,Total vekt</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 3789376869 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Analysis Net Amount</source>
@@ -8125,7 +8149,7 @@
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 4213581447 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Date Filter</source>
-          <target>Dato Filter</target>
+          <target>Dato filter</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 51452244 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Custom function</source>
@@ -8159,6 +8183,10 @@
           <source>Sales Item Charge</source>
           <target>Gebyr for salgsvare</target>
         </trans-unit>
+        <trans-unit id="Table 2362729240 - NamedType 1858590414" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 cannot be used with %2 %3</source>
+          <target>%1 kan ikke brukes med %2 %3</target>
+        </trans-unit>
         <trans-unit id="Table 2362729240 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot change line type %1. It has already entries.</source>
           <target>Du kan ikke endre linjetypen %1. Den har allerede oppføringer.</target>
@@ -8168,11 +8196,15 @@
           <target>Sluttsummen %1 mangler en samsvarende startsum.</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - NamedType 3457502012" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indenting Profitability Income Statement #1##########</source>
+          <source>Indenting Profitability Statement #1##########</source>
           <target>Rykke inn kolonner #1##########</target>
         </trans-unit>
+        <trans-unit id="Table 2362729240 - NamedType 672156893" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 can be used only with %2 %3 or %4</source>
+          <target>%1 kan bare brukes for %2 %3 eller %4</target>
+        </trans-unit>
         <trans-unit id="Table 2362729240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement</source>
+          <source>Profitability Statement</source>
           <target>Lønnsomhet Resultatregnskap</target>
         </trans-unit>
         <trans-unit id="Table 2387987938 - Field 268107654 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -8401,7 +8433,7 @@
         </trans-unit>
         <trans-unit id="Table 2600377917 - Field 2177991256 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Transfer from G/L,G/L Competence,G/L Simulation,C/A Journal,,,,Allocation,Transfer from C/A</source>
-          <target>Overføring fra finans,G/L kompetanse, G/L simulering, C/A Journal,,,,Allocation,Transfer fra C/A</target>
+          <target>Overføring fra finans,G/L kompetanse,G/L simulering,C/A Journal,,,,Allocation,Transfer fra C/A</target>
         </trans-unit>
         <trans-unit id="Table 2600377917 - Field 2206111418 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Total Price (LCY)</source>
@@ -8701,7 +8733,7 @@
         </trans-unit>
         <trans-unit id="Table 2660126533 - Field 3976847115 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Standard Nav,Standard Cost WorkSheet,Inventory Valuation</source>
-          <target>Standard Nav, Standard kostnad WorkSheet, Lagerverdisetting</target>
+          <target>Standard Nav,Standard kostnad WorkSheet,Lagerverdisetting</target>
         </trans-unit>
         <trans-unit id="Table 2660126533 - Field 3995035435 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blocked</source>
@@ -9285,7 +9317,7 @@
         </trans-unit>
         <trans-unit id="Table 293098783 - Field 2177991256 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Transfer from G/L,G/L Competence,G/L Simulation,C/A Journal,,,,Allocation,Transfer from C/A</source>
-          <target>Overføring fra finans,G/L kompetanse, G/L simulering, C/A Journal,,,,Allocation,Transfer fra C/A</target>
+          <target>Overføring fra finans,G/L kompetanse,G/L simulering,C/A Journal,,,,Allocation,Transfer fra C/A</target>
         </trans-unit>
         <trans-unit id="Table 293098783 - Field 2178139756 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Date Competence</source>
@@ -9556,7 +9588,7 @@
           <target>Budsjettfilter</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 1617365723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Profitability Income Statement</source>
+          <source>Driver Profitability Account</source>
           <target>Driver-kolonnen</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 1621242373 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -9616,8 +9648,8 @@
           <target>Tom linje</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 2362729240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Profitability Income Statement</source>
-          <target>C/IN-kolonne</target>
+          <source>Profitability Account</source>
+          <target>Lønnsomhet Resultatregnskap</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 2515378034 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Starting Date For Bdg Entries.</source>
@@ -9685,7 +9717,7 @@
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 3597819326 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Value,Quantity,Net Weight,Total Weight</source>
-          <target> ,Verdi,Antall,Nettovekt,Totalvekt</target>
+          <target>, Mengde, Mengde, Vekt,</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 3661182487 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Capacity Type</source>
@@ -9733,7 +9765,7 @@
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 4213581447 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Date Filter</source>
-          <target>Dato Filter</target>
+          <target>Dato filter</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 4246413546 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tariff detail</source>
@@ -9793,7 +9825,7 @@
         </trans-unit>
         <trans-unit id="Table 2974831103 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Account</source>
-          <target>C/A-konto</target>
+          <target>C/A-kontonr.</target>
         </trans-unit>
         <trans-unit id="Table 310981554 - Field 1034494712 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Dimension 4 Code</source>
@@ -10017,7 +10049,7 @@
         </trans-unit>
         <trans-unit id="Table 3353917842 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Profitability Analysis Entry</source>
-          <target>C/IN-oppføring</target>
+          <target>Oppføring for lønnsomhetsanalyse</target>
         </trans-unit>
         <trans-unit id="Table 337701643 - Field 1390656416 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Capacity Type</source>

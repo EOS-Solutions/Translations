@@ -699,7 +699,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Account - Field EOS Blocked - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 2362729240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Profitability Income Statement</source>
+          <source>Profitability Account</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Account - Field EOS C/IN Column - Property Caption</note>
         </trans-unit>
@@ -774,7 +774,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Account - Field EOS Driver Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 1617365723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Driver Profitability Income Statement</source>
+          <source>Driver Profitability Account</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Account - Field EOS Driver Column - Property Caption</note>
         </trans-unit>
@@ -3949,7 +3949,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Budget Entry - Field EOS Value Entry No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Profitability Income Statement</source>
+          <source>Profitability Statement</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Column - Property Caption</note>
         </trans-unit>
@@ -3958,8 +3958,18 @@
           <note from="Developer" annotates="general" priority="2"> %1 = No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Column - NamedType Text001Err</note>
         </trans-unit>
+        <trans-unit id="Table 2362729240 - NamedType 1858590414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be used with %2 %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Column - NamedType Text002Err</note>
+        </trans-unit>
+        <trans-unit id="Table 2362729240 - NamedType 672156893" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 can be used only with %2 %3 or %4</source>
+          <note from="Developer" annotates="general" priority="2"> %1 = "EOS Write Zero Amount", %2 = "EOS Source Type", %3= EOS Source Type"::Proceeds,%4 ="EOS Source Type"::"Net proceeds"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Column - NamedType Text003Err</note>
+        </trans-unit>
         <trans-unit id="Table 2362729240 - NamedType 3457502012" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Indenting Profitability Income Statement #1##########</source>
+          <source>Indenting Profitability Statement #1##########</source>
           <note from="Developer" annotates="general" priority="2"> %1 = No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Column - NamedType Text004Msg</note>
         </trans-unit>
@@ -4059,7 +4069,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Column - Field EOS Driver Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 1617365723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Driver Profitability Income Statement</source>
+          <source>Driver Profitability Statement</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Column - Field EOS Driver Column - Property Caption</note>
         </trans-unit>
@@ -4869,7 +4879,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Account Mgt - NamedType ArrayExceededErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This function transfers all income statement accounts from the chart of accounts to the chart of CA.\\</source>
+          <source>This function transfers all accounts from the chart of accounts to the chart of CA.\\</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Account Mgt - NamedType Text000Lbl</note>
         </trans-unit>
@@ -4904,7 +4914,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Account Mgt - NamedType Text007Msg</note>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 912201424" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 income statement accounts processed. %2 Cost Account created.</source>
+          <source>%1 accounts processed. %2 Cost Account created.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Number Of G/L Account ; %2 = total Records Created</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Account Mgt - NamedType Text008Msg</note>
         </trans-unit>
@@ -5043,6 +5053,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Allocation Management - NamedType CADIMNULLLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 1196336482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deleting Entries ...\\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Allocation Management - Method InitAnalysis - NamedType Text001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 1753513791" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table   #1###############\</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Table name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Allocation Management - Method InitAnalysis - NamedType Text002Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3429295233 - Method 1609464124 - NamedType 3779895200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entries @2@@@@@@@@@@@@@@@</source>
+          <note from="Developer" annotates="general" priority="2">%2 = Percentage Progress</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Allocation Management - Method InitAnalysis - NamedType Text003Lbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1152859907 - NamedType 2316870939" size-unit="char" translate="yes" xml:space="preserve">
           <source>can be used only if %1 is equal to global dimension 1 or 2 in %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 Cost Accounting Dimension; %2 = GLSetup.tablecaption</note>
@@ -5069,7 +5094,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Journal Mgt. - NamedType Text003</note>
         </trans-unit>
         <trans-unit id="Codeunit 1657266398 - NamedType 1534764485" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This function updates the indentation of all the columns in the profitability income statement. All accounts between a Begin-Total and the matching End-Total are indented one level. The Totaling for each End-total is also updated.\\Do you want to indent the profitability income statement?</source>
+          <source>This function updates the indentation of all the columns in the profitability account. All accounts between a Begin-Total and the matching End-Total are indented one level. The Totaling for each End-total is also updated.\\Do you want to indent the profitability account?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Account-Indent - NamedType AccIndentQst</note>
         </trans-unit>
@@ -5079,7 +5104,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Account-Indent - NamedType ArrayExceededErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1657266398 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Indenting the profitability income statement #1##########</source>
+          <source>Indenting the profitability account #1##########</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Account-Indent - NamedType Text004</note>
         </trans-unit>
@@ -5398,6 +5423,21 @@
           <note from="Developer" annotates="general" priority="2">%1 Expression text ; %2 = Driver object</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Driver Management - NamedType TextMissingLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 1196336482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculating Driver Values ...\\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Driver Management - Method Update - NamedType Text001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 1753513791" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Driver code #1###############\</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Driver Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Driver Management - Method Update - NamedType Text002Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 437895704 - Method 642782499 - NamedType 3779895200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Drivers     @2@@@@@@@@@@@@@@@</source>
+          <note from="Developer" annotates="general" priority="2">%2 = Percentage Progress</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Driver Management - Method Update - NamedType Text003Lbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3032220404 - Method 1287240630 - NamedType 1488723659" size-unit="char" translate="yes" xml:space="preserve">
           <source>Function enabled only for EMA</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5534,7 +5574,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Transfer Entries To C/A - NamedType GLCASyncConf</note>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 1745287229" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Income statement accounts with cost center or cost object will be transferred to cost accounting.\</source>
+          <source>Accounts with cost center or cost object will be transferred to cost accounting.\</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Transfer Entries To C/A - NamedType Text000Qst</note>
         </trans-unit>
@@ -9064,7 +9104,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/A Setup - Control EOS Cost Accounting Dimension - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1539419679 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies which type of G/L Account to synchronize, only Income Statement or also Balance</source>
+          <source>Specifies which type of G/L Account to synchronize, only Statement or also Balance</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/A Setup - Control EOS G/L Sinch. Account - Property ToolTip</note>
         </trans-unit>
@@ -9344,7 +9384,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Analysis - Control EOS Totaling - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Profitability Income Statement Card</source>
+          <source>Profitability Account Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Card - Property Caption</note>
         </trans-unit>
@@ -9489,7 +9529,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Card - Control EOS Split On - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Control 2453349022 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies to write also the transaction with zero amount.</source>
+          <source>Specifies whether to insert revenue profitability movements, any lines with a zero amount (for example: in cases of revenue reversed from a gift or a line discount equal to 100%)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Card - Control EOS Write Zero Amount - Property ToolTip</note>
         </trans-unit>
@@ -9839,7 +9879,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Entries - Action Category_Entry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1790866452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Profitability Income Statement List (EMA)</source>
+          <source>Profitability Account List (EMA)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN List - Property Caption</note>
         </trans-unit>
@@ -10089,7 +10129,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Chart of Cost Accounts - Control EOS Fixed/Variable - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Control 3063237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies whether it is an income statement or a balance sheet</source>
+          <source>Specifies whether it is an statement or a balance sheet</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Chart of Cost Accounts - Control EOS Income/Balance - Property ToolTip</note>
         </trans-unit>
@@ -10219,7 +10259,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Chart of Cost Accounts - Action Function - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1987749257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Transfer all income statement accounts from the chart of accounts to the chart of cost account.</source>
+          <source>Transfer all accounts from the chart of accounts to the chart of cost account.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Chart of Cost Accounts - Action GetCostTypesFromChartOfAccounts - Property ToolTip</note>
         </trans-unit>
@@ -10294,7 +10334,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cost Account Balance - Control EOSAmountType - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 1216641554 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies whether the balance shown will include closing entries. If you want to see the amounts on income statement accounts in closed years, you must exclude closing entries.</source>
+          <source>Specifies whether the balance shown will include closing entries. If you want to see the amounts on statement accounts in closed years, you must exclude closing entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cost Account Balance - Control EOSClosingEntryFilter - Property ToolTip</note>
         </trans-unit>
@@ -10344,7 +10384,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cost Account Balance - Action Account - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Action 4125097576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>View information about cost accounts, such as the account number, account name, and whether the account is part of the income statement or balance sheet.</source>
+          <source>View information about cost accounts, such as the account number, account name, and whether the account is part of the statement or balance sheet.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cost Account Balance - Action Card - Property ToolTip</note>
         </trans-unit>
@@ -10539,7 +10579,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cost Account Card - Control EOS G/L Account Range - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2911426993 - Control 3063237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies whether it is an income statement or a balance sheet</source>
+          <source>Specifies whether it is an statement or a balance sheet</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cost Account Card - Control EOS Income/Balance - Property ToolTip</note>
         </trans-unit>
@@ -12777,6 +12817,11 @@
           <source>C/A Analysis Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query EOS C/A Analysis Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 1930130837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>C/IN Multicolumn Driver</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query EOS C/IN Multicolumn Driver - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 1584672753 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>C/IN View</source>
