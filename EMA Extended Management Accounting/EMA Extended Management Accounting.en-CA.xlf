@@ -4399,9 +4399,29 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Driver - Field EOS Value Entry No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>C/IN Entry</source>
+          <source>Profitability Analysis Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 2303389166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Driver Dimension 1 Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Entry - Field Driver Dimension 1 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 2290721739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Driver Dimension 2 Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Entry - Field Driver Dimension 2 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 4279981804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Driver Dimension 3 Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Entry - Field Driver Dimension 3 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 2544452873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Driver Dimension 4 Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Entry - Field Driver Dimension 4 Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 1149824122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Analysis Code</source>
@@ -5079,8 +5099,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Phase04Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 2316870939" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Column %1 must be &lt;&gt; %2.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = CIN Column No., %2 = CIN Column Source Type</note>
+          <source>Source type %1 for account %2 not managed.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Source Type, %2 = Profitability Account</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text001Err</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 1753513791" size-unit="char" translate="yes" xml:space="preserve">
@@ -5104,13 +5124,13 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text005Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 2165353731" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prof. Income     #4##############</source>
-          <note from="Developer" annotates="general" priority="2">%4 = Profitability Income</note>
+          <source>Prof. Account    #4##############</source>
+          <note from="Developer" annotates="general" priority="2">%4 = Profitability Account No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text006Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 576348388" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prof. Income     #2##############\</source>
-          <note from="Developer" annotates="general" priority="2">%2 = Profitability Income</note>
+          <source>Prof. Account    #2##############\</source>
+          <note from="Developer" annotates="general" priority="2">%2 = Profitability Account No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text007Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 4273407817" size-unit="char" translate="yes" xml:space="preserve">
@@ -5132,6 +5152,21 @@
           <source>Document No.     #3##############</source>
           <note from="Developer" annotates="general" priority="2">%3 = Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text011Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - Method 3041961835 - NamedType 1196336482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deleting Entries ...\\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - Method DeleteCINEntry - NamedType Text001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - Method 3041961835 - NamedType 1753513791" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table   #1###############\</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Table name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - Method DeleteCINEntry - NamedType Text002Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - Method 3041961835 - NamedType 3779895200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entries @2@@@@@@@@@@@@@@@</source>
+          <note from="Developer" annotates="general" priority="2">%2 = Percentage Progress</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - Method DeleteCINEntry - NamedType Text003Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3108461516 - NamedType 4204058380" size-unit="char" translate="yes" xml:space="preserve">
           <source>You can only export Actual amounts and Budgeted amounts.\Please change the option in the Show field.</source>
