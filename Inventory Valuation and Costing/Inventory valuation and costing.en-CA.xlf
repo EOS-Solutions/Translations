@@ -3844,7 +3844,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Routing Personnel History - Field Unit Cost per - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4087155669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item Specific Nature Cost</source>
+          <source>Item Specific Cost Nature</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Specific Additional Cost - Property Caption</note>
         </trans-unit>
@@ -4223,11 +4223,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Work Center Price - Field Work Center No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 409564612 - NamedType 220186716" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Calculate low-level code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Calc. Low-Level Code Hist. - NamedType ConfirmCalculateQst</note>
-        </trans-unit>
         <trans-unit id="Codeunit 409564612 - NamedType 1790541129" size-unit="char" translate="yes" xml:space="preserve">
           <source>Max. levels in BOM structure on %1 is too high.\Item No. %2 - BOM Header No. - %3 - Level %4.</source>
           <note from="Developer" annotates="general" priority="2">%1 = 50 max level ; %2 = Top Level Item No. ; %3 = Production BOM No. ; %4 = Current Level</note>
@@ -4343,10 +4338,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS History Cost Log - NamedType BeforeStartQtyLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3362265698 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3362265698 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
           <source>Generating Tree @1@@@@@@@</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Item Cost Card Mgmt. - NamedType Text000</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Item Cost Card Mgmt. - NamedType Text000Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3362265698 - Method 145985684 - NamedType 2136568042" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total standard subcontracting costs</source>
@@ -6403,6 +6398,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control Unit Cost - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1191506180 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unit cost source</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control Unit Cost Source - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 37749907 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6412,6 +6412,11 @@
           <source>Specifies the variant code that you entered in the Variant Filter field in the Item Availability by BOM Level window.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3955473374 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the warning message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control Warning - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 37749907 - Control 828292189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
@@ -6429,7 +6434,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control ItemFilter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 37749907 - Control 3386962071 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the costing period to analyse</source>
+          <source>Specifies the costing period to analyze</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control PeriodFilter - Property ToolTip</note>
         </trans-unit>
@@ -6438,15 +6443,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control PeriodFilter - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1350915204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies cost distribution.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control ShowCostDistr - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 37749907 - Control 1350915204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show cost distribution</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control ShowCostDistr - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2847550804 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cost type to analyze.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control ShowCostType - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 37749907 - Control 2847550804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show cost type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control ShowCostType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3461750827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if show the maximum detail.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost Shares - Control ShowDetails - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 37749907 - Control 3461750827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show details</source>
