@@ -329,9 +329,19 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Log Entry - Field Filename - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2142043734 - Field 702557324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No.</source>
+          <source>Header No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Log Entry - Field Header No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2142043734 - Field 795132194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Log Entry - Field Last Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2142043734 - Field 1303454492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Event</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Log Entry - Field Log Event - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2142043734 - Field 3080618677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Message</source>
@@ -468,6 +478,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Message Header - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3511962194 - Method 2176884618 - NamedType 2004462615" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to accept the %1 %2 %3?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Message Header - Method AcceptYesNo - NamedType AcceptEdiMessageQst</note>
+        </trans-unit>
+        <trans-unit id="Table 3511962194 - Method 2176884618 - NamedType 4282897558" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 %3 could not be accepted:\%4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Message Header - Method AcceptYesNo - NamedType AcceptFailedMsg</note>
+        </trans-unit>
         <trans-unit id="Table 3511962194 - Method 2998033623 - NamedType 3110168787" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 %2 %3 must be inbound.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -477,6 +497,11 @@
           <source>The %1 %2 %3 must be outbound.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Message Header - Method AssertIsOutbound - NamedType MustBeOutboundErr</note>
+        </trans-unit>
+        <trans-unit id="Table 3511962194 - Method 21340956 - NamedType 3876998381" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to cancel the %1 %2 %3?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Message Header - Method CancelYesNo - NamedType CancelEdiMessageQst</note>
         </trans-unit>
         <trans-unit id="Table 3511962194 - Field 2369664869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Created By</source>
@@ -792,26 +817,6 @@
           <source>Version No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Values - Field Version No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3820296659 - Field 3060852750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Contents</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 MockStorage - Field Contents - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3820296659 - Field 1545435603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Filename</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 MockStorage - Field Filename - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3820296659 - Field 970416965 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PK</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 MockStorage - Field PK - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3820296659 - Field 865398282 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Read Only</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 MockStorage - Field Read Only - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 3684607029 - Method 3768384065 - NamedType 3359697259" size-unit="char" translate="yes" xml:space="preserve">
           <source>No lines found for EDI message %1 %2.</source>
@@ -1443,6 +1448,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Message Card - Action Accept - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 793590471 - Action 788258546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancels the imported EDI message.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Message Card - Action Cancel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 793590471 - Action 788258546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Message Card - Action Cancel - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 793590471 - Action 36190024 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Export EDI message file</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1843,6 +1858,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 Error Log EDI Document - Control Posting Date - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 184098400 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 Log Entries - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 184098400 - Control 3301321002 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Date/Time" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1883,6 +1903,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 Log Entries - Control Header No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 184098400 - Control 795132194 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if this is the last entry for the given log event and header/document combination.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 Log Entries - Control Last Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 184098400 - Control 1303454492 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of event that this log entry was generated for.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 Log Entries - Control Log Event - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 184098400 - Control 3080618677 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Message" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1904,7 +1934,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 Log Entries - Control Source Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 184098400 - Control 3878926381 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Success" field.</source>
+          <source>Specifies if the operation was successful.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 Log Entries - Control Success - Property ToolTip</note>
         </trans-unit>
@@ -3032,6 +3062,16 @@
           <source>None</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS074 Log Level - EnumValue None - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2815925142 - EnumValue 346708723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accepted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS074 Satus - EnumValue Accepted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2815925142 - EnumValue 4069904181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancelled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS074 Satus - EnumValue Cancelled - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2815925142 - EnumValue 1249475212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Created</source>
