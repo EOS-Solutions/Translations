@@ -83,11 +83,11 @@
           <source>%1 type invalid in this function</source>
           <target>%1 tyyppi ei kelpaa tässä funktiossa</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3362265698 - Method 145985684 - NamedType 2136568042" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Codeunit 3362265698 - Method 145985684 - NamedType 4187143454" translate="yes" size-unit="char" xml:space="preserve">
           <source>Total standard subcontracting costs</source>
           <target>Normaalit alihankintakustannukset yhteensä</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3362265698 - NamedType 2476940767" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Codeunit 3362265698 - NamedType 1327832897" translate="yes" size-unit="char" xml:space="preserve">
           <source>Generating Tree @1@@@@@@@</source>
           <target>Luodaan puuta @1@@@@@@@</target>
         </trans-unit>
@@ -106,10 +106,6 @@
         <trans-unit id="Codeunit 409564612 - NamedType 1790541129" translate="yes" size-unit="char" xml:space="preserve">
           <source>Max. levels in BOM structure on %1 is too high.\Item No. %2 - BOM Header No. - %3 - Level %4.</source>
           <target>Maks. Tuoterakennerakenteen tasot kohteessa %1 on liian korkea.\Nimikkeen nro %2 - Tuoterakenteen otsikon nro - %3 - Taso %4.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 409564612 - NamedType 220186716" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Calculate low-level code</source>
-          <target>Laske alatason koodi</target>
         </trans-unit>
         <trans-unit id="Codeunit 409564612 - NamedType 3140410629" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resetting low level code</source>
@@ -374,6 +370,14 @@
         <trans-unit id="Page 1045935795 - Action 4259720451 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Cost Shares</source>
           <target>Vyörytetyt kustannusosakkeet</target>
+        </trans-unit>
+        <trans-unit id="Page 1045935795 - Action 587303844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View how the costs of underlying items in the BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply. Each item level can be collapsed or expanded to obtain an overview or detailed view.</source>
+          <target>Näytä tuotekustannusosuudet</target>
+        </trans-unit>
+        <trans-unit id="Page 1045935795 - Action 587303844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost Shares</source>
+          <target>Tuotekustannusosuudet</target>
         </trans-unit>
         <trans-unit id="Page 1045935795 - Action 737847898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost</source>
@@ -3399,9 +3403,17 @@
           <source>Item Card</source>
           <target>Tuotekortti</target>
         </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1191506180 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost source</source>
+          <target>Määrittää yksikkökustannuslähteen</target>
+        </trans-unit>
         <trans-unit id="Page 37749907 - Control 1245516462 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the unit of measure of the BOM item. </source>
           <target>Määrittää tuoteluettelon mittayksikön.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1350915204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies cost distribution.</source>
+          <target>Määrittää kustannusten jakautumisen.</target>
         </trans-unit>
         <trans-unit id="Page 37749907 - Control 1350915204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show cost distribution</source>
@@ -3495,6 +3507,10 @@
           <source>A: Purchased Cost</source>
           <target>A: Ostohinta</target>
         </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2847550804 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the cost type to analyze.</source>
+          <target>Määrittää analysoitavan kustannustyypin.</target>
+        </trans-unit>
         <trans-unit id="Page 37749907 - Control 2847550804 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show cost type</source>
           <target>Näytä kustannustyyppi</target>
@@ -3528,7 +3544,7 @@
           <target>Määrittää prosenttiosuuden nimikkeen viimeisestä ostokustannuksen, joka sisältää epäsuorat kustannukset, kuten nimikkeen ostoon liittyvän rahdin.</target>
         </trans-unit>
         <trans-unit id="Page 37749907 - Control 3386962071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the costing period to analyse</source>
+          <source>Specifies the costing period to analyze</source>
           <target>Määrittää analysoitavan kustannuslaskentajakson</target>
         </trans-unit>
         <trans-unit id="Page 37749907 - Control 3386962071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -3546,6 +3562,10 @@
         <trans-unit id="Page 37749907 - Control 3454684932 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how many units of the item are scrapped to output the parent item quantity.</source>
           <target>Määrittää, kuinka monta yksikköä nimikkeestä romutetaan päätuotemäärän tulostamiseksi.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3461750827 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if show the maximum detail.</source>
+          <target>Määrittää, näytetäänkö mahdollisimman yksityiskohtaisesti.</target>
         </trans-unit>
         <trans-unit id="Page 37749907 - Control 3461750827 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show details</source>
@@ -3578,6 +3598,10 @@
         <trans-unit id="Page 37749907 - Control 3953897364 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C: Production cost</source>
           <target>C: Tuotantokustannus</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3955473374 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the warning message</source>
+          <target>Määrittää varoitusviestin</target>
         </trans-unit>
         <trans-unit id="Page 37749907 - Control 3975523020 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item's overhead capacity cost rolled up from underlying item levels.</source>
@@ -4074,6 +4098,14 @@
         <trans-unit id="Page 4157661377 - Action 4259720451 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Cost Shares</source>
           <target>Vyörytetyt kustannusosakkeet</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Action 587303844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View how the costs of underlying items in the BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply. Each item level can be collapsed or expanded to obtain an overview or detailed view.</source>
+          <target>Näytä tuotekustannusosuudet</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Action 587303844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost Shares</source>
+          <target>Tuotekustannusosuudet</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Action 737847898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost</source>
@@ -8567,6 +8599,10 @@
           <source>Single-Level Cap. Ovhd Cost</source>
           <target>Yksitasoinen lippis. Ovhd kustannukset</target>
         </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3016667202 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Parent Item No.</source>
+          <target>Päätuotenumero</target>
+        </trans-unit>
         <trans-unit id="Table 3101680879 - Field 3024818368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Scrap Cost</source>
           <target>Vyörytetty hukkatavaran kustannus</target>
@@ -9152,7 +9188,7 @@
           <target>Tuotekoodi.</target>
         </trans-unit>
         <trans-unit id="Table 4087155669 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item Specific Nature Cost</source>
+          <source>Item Specific Cost Nature</source>
           <target>Nimikekohtaiset lisäkustannukset (IVC)</target>
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 1004046487 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
