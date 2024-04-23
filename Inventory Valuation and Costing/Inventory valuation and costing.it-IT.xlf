@@ -53,7 +53,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3300413541 - Method 1458666656 - NamedType 903669068" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unexpected %1 type</source>
-          <target>Tipo %1 inatteso</target>
+          <target>Tipo %1 non gestito</target>
         </trans-unit>
         <trans-unit id="Codeunit 3300413541 - Method 3338230872 - NamedType 1341078928" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set subcontracting calculation setup</source>
@@ -65,7 +65,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3300413541 - Method 3338230872 - NamedType 903669068" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unexpected %1 type</source>
-          <target>Tipo %1 inatteso</target>
+          <target>Tipo %1 non gestito</target>
         </trans-unit>
         <trans-unit id="Codeunit 3300413541 - Method 3556089822 - NamedType 2634167982" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unexpected function for item %1</source>
@@ -83,13 +83,13 @@
           <source>%1 type invalid in this function</source>
           <target>Tipo %1 non previsto per questa funzione</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3362265698 - Method 145985684 - NamedType 4187143454" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Codeunit 3362265698 - Method 145985684 - NamedType 2136568042" translate="yes" size-unit="char" xml:space="preserve">
           <source>Total standard subcontracting costs</source>
-          <target>Costi totali di conto lavoro standard</target>
+          <target>Totale costi di conto lavoro standard</target>
         </trans-unit>
         <trans-unit id="Codeunit 3362265698 - NamedType 1327832897" translate="yes" size-unit="char" xml:space="preserve">
           <source>Generating Tree @1@@@@@@@</source>
-          <target>Generazione dell'albero @1@@@@@@@</target>
+          <target>Generazione albero @1@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Codeunit 409564612 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. #2################## @3@@@@@@@@@@@@@</source>
@@ -145,7 +145,7 @@
         </trans-unit>
         <trans-unit id="Enum 1588827764 - EnumValue 1397402378 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Weighed Average</source>
-          <target>Medio ponderato</target>
+          <target>Media ponderata</target>
         </trans-unit>
         <trans-unit id="Enum 1588827764 - EnumValue 1597496930 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>FIFO</source>
@@ -161,11 +161,19 @@
         </trans-unit>
         <trans-unit id="Enum 1588827764 - EnumValue 3788557405 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average</source>
-          <target>Medio</target>
+          <target>Media</target>
         </trans-unit>
         <trans-unit id="Enum 1588827764 - EnumValue 658771142 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last</source>
           <target>Ultimo</target>
+        </trans-unit>
+        <trans-unit id="Enum 1943675196 - EnumValue 2037375551 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inventory Posting Group</source>
+          <target>Cat. reg. magazzino</target>
+        </trans-unit>
+        <trans-unit id="Enum 1943675196 - EnumValue 4020103050 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gen. Product Posting Group</source>
+          <target>Cat. reg. articolo/servizio</target>
         </trans-unit>
         <trans-unit id="Enum 2215512778 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
@@ -370,14 +378,6 @@
         <trans-unit id="Page 1045935795 - Action 4259720451 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Cost Shares</source>
           <target>Dettaglio costi - ricalcolo</target>
-        </trans-unit>
-        <trans-unit id="Page 1045935795 - Action 587303844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View how the costs of underlying items in the BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply. Each item level can be collapsed or expanded to obtain an overview or detailed view.</source>
-          <target>Visualizza il dettaglio di costo degli articoli</target>
-        </trans-unit>
-        <trans-unit id="Page 1045935795 - Action 587303844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cost Shares</source>
-          <target>Dettaglio costi</target>
         </trans-unit>
         <trans-unit id="Page 1045935795 - Action 737847898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost</source>
@@ -3059,13 +3059,17 @@
           <source>Specifies the code of the cost nature</source>
           <target>Specifica il codice del tipo costi</target>
         </trans-unit>
+        <trans-unit id="Page 35319700 - Control 3342526839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Inventory Posting Group Filter</source>
+          <target>Specifica il filtro Cat. reg. magazzino</target>
+        </trans-unit>
         <trans-unit id="Page 35319700 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the description of the cost nature</source>
           <target>Specifica la descrizione del tipo costo</target>
         </trans-unit>
         <trans-unit id="Page 35319700 - Control 3716110350 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if this cost nature is additional or not</source>
-          <target>Specifica se questo tipo costo è aggiuntivo oppure no</target>
+          <target>Specifica se questa natura di costo è un costo aggiuntivo oppure no</target>
         </trans-unit>
         <trans-unit id="Page 35319700 - Control 4000617933 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the cost type rollup</source>
@@ -3565,7 +3569,7 @@
         </trans-unit>
         <trans-unit id="Page 37749907 - Control 3461750827 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if show the maximum detail.</source>
-          <target>Specifica se mostrare il massimo dettaglio.</target>
+          <target>Specifica se mostrare il dettaglio massimo.</target>
         </trans-unit>
         <trans-unit id="Page 37749907 - Control 3461750827 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show details</source>
@@ -3645,7 +3649,7 @@
         </trans-unit>
         <trans-unit id="Page 37749907 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost Shares</source>
-          <target>Dettaglio costi</target>
+          <target>Quote di costo dell'articolo</target>
         </trans-unit>
         <trans-unit id="Page 3780393502 - Control 1076702913 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which method to use for BOM and Routing Status</source>
@@ -4098,14 +4102,6 @@
         <trans-unit id="Page 4157661377 - Action 4259720451 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Cost Shares</source>
           <target>Dettaglio costi - ricalcolo</target>
-        </trans-unit>
-        <trans-unit id="Page 4157661377 - Action 587303844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View how the costs of underlying items in the BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply. Each item level can be collapsed or expanded to obtain an overview or detailed view.</source>
-          <target>Visualizza il dettaglio di costo degli articoli</target>
-        </trans-unit>
-        <trans-unit id="Page 4157661377 - Action 587303844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cost Shares</source>
-          <target>Dettaglio costi</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Action 737847898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost</source>
@@ -4806,6 +4802,18 @@
         <trans-unit id="Page 870260980 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost Compare</source>
           <target>Confronto costo articolo</target>
+        </trans-unit>
+        <trans-unit id="Page 933897686 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Page 933897686 - Control 3170722380 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Split Material Cost Nature Type</source>
+          <target>Specifica il tipo per cui verra' spaccato il costo materiale</target>
+        </trans-unit>
+        <trans-unit id="Page 933897686 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup IVC</source>
+          <target>Setup IVC</target>
         </trans-unit>
         <trans-unit id="Page 998456120 - Control 1588827764 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Fiscal cost in Inventory Valuation Report field.</source>
@@ -5877,7 +5885,7 @@
         </trans-unit>
         <trans-unit id="Report 2560877370 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Specific Cost Detail</source>
-          <target>Dettaglio costi specifici</target>
+          <target>Dettaglio costi specifici articolo</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - ReportLabel 1062544513" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry Type</source>
@@ -8303,6 +8311,10 @@
           <source>Code</source>
           <target>Codice</target>
         </trans-unit>
+        <trans-unit id="Table 3058396733 - Field 3342526839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inventory Posting Group Filter</source>
+          <target>Filtro Cat. reg. magazzino</target>
+        </trans-unit>
         <trans-unit id="Table 3058396733 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Descrizione</target>
@@ -8325,7 +8337,7 @@
         </trans-unit>
         <trans-unit id="Table 3058396733 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Nature</source>
-          <target>Nature di costo</target>
+          <target>Natura di costo</target>
         </trans-unit>
         <trans-unit id="Table 3070548092 - Field 1021726085 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Capacity No. Filter</source>
@@ -8601,7 +8613,7 @@
         </trans-unit>
         <trans-unit id="Table 3101680879 - Field 3016667202 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Parent Item No.</source>
-          <target>Articolo padre nr.</target>
+          <target>Nr. articolo padre</target>
         </trans-unit>
         <trans-unit id="Table 3101680879 - Field 3024818368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Scrap Cost</source>
@@ -10490,6 +10502,18 @@
         <trans-unit id="Table 797662224 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Area Cost Type</source>
           <target>Tipo di costo area di produzione</target>
+        </trans-unit>
+        <trans-unit id="Table 933897686 - Field 3170722380 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Split Material Cost For</source>
+          <target>Spaccatura costo materiale per</target>
+        </trans-unit>
+        <trans-unit id="Table 933897686 - Field 3743211894 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Chiave primaria</target>
+        </trans-unit>
+        <trans-unit id="Table 933897686 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup IVC</source>
+          <target>Setup IVC</target>
         </trans-unit>
         <trans-unit id="Table 998456120 - Field 1588827764 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fiscal cost in Inventory Valuation Report</source>
