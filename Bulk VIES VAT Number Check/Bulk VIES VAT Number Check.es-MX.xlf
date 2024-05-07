@@ -15,6 +15,10 @@
           <source>Specify a valid table to process in %1.</source>
           <target>Especifique una tabla válida para procesar en %1.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1036597191 - Method 2600511801 - NamedType 3746216172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The VAT number was not found.</source>
+          <target>No se encontró el número de IVA.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1036597191 - Method 3026389042 - NamedType 1191113039" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 is filled for %2 %3.</source>
           <target>%1 se rellena para %2 %3.</target>
@@ -43,6 +47,10 @@
           <source>%1 %2 not handled.</source>
           <target>%1 %2 no manipulado.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1036597191 - Method 599838339 - NamedType 1145505368" translate="yes" size-unit="char" xml:space="preserve">
+          <source>UK VAT Validation is not enabled.</source>
+          <target>La validación del IVA del Reino Unido no está habilitada.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1036597191 - Method 599838339 - NamedType 2276739175" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Registration No. checked too many times today (max allowed: %1).</source>
           <target>Número de registro de IVA. se ha comprobado demasiadas veces hoy (máximo permitido: %1).</target>
@@ -58,6 +66,10 @@
         <trans-unit id="Codeunit 1036597191 - Method 949165369 - NamedType 4203439897" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 VIES VAT Reg. Check</source>
           <target>%1 VIES IVA Reg. Cheque</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1036597191 - NamedType 155472691" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The VAT Registration No. Validation UK URL is not specified or disabled in the %1 window.</source>
+          <target>El número de IVA no. La URL de validación del Reino Unido no se especifica ni se deshabilita en la ventana %1.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1036597191 - NamedType 2178385327" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 is invalid.</source>
@@ -106,6 +118,14 @@
         <trans-unit id="Codeunit 1163812095 - NamedType 4205745040" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subscribe for an activation</source>
           <target>Suscríbete para una activación</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4205440385 - Method 2377942128 - NamedType 2634365102" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Reg. No. UK Validation Setup is not enabled.</source>
+          <target>La configuración de validación del número de IVA del Reino Unido no está habilitada</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4205440385 - Method 3046831572 - NamedType 3276191263" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You must specify the country that issued the VAT registration number. Choose the country in the Country/Region Code field.</source>
+          <target>Debe especificar el país que emitió el número de identificación fiscal. Elija el país en el campo Código de país/región.</target>
         </trans-unit>
         <trans-unit id="Page 1456933718 - Action 1205006834 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Identity</source>
@@ -208,8 +228,8 @@
           <target>Especifica el código postal verificado.</target>
         </trans-unit>
         <trans-unit id="Page 1456933718 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>VIES VAT Registration Check Entries</source>
-          <target>VIES Entradas de verificación de registro de IVA</target>
+          <source>VAT Registration Check Entries (VIES)</source>
+          <target>Entradas de verificación de registro de IVA (VIES)</target>
         </trans-unit>
         <trans-unit id="Page 1731763949 - Action 2849252482 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens or creates a job queue entry for this process.</source>
@@ -259,6 +279,10 @@
           <source>Contact Filter</source>
           <target>Filtro de contacto</target>
         </trans-unit>
+        <trans-unit id="Page 1731763949 - Control 3042832255 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Enable UK Validation field.</source>
+          <target>Especifica el valor del campo Habilitar validación del Reino Unido.</target>
+        </trans-unit>
         <trans-unit id="Page 1731763949 - Control 3300948695 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the customer filter.</source>
           <target>Especifica el filtro de cliente.</target>
@@ -276,8 +300,8 @@
           <target>Especifica el grupo de usuarios para los contactos.</target>
         </trans-unit>
         <trans-unit id="Page 1731763949 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>VIES Validation Setup</source>
-          <target>Configuración de validación VIES</target>
+          <source>Validation Setup (VIES)</source>
+          <target>Configuración de validación (VIES)</target>
         </trans-unit>
         <trans-unit id="Page 2005069328 - Control 1230148255 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the time.</source>
@@ -300,8 +324,8 @@
           <target>Especifica el no de entrada. para el registro</target>
         </trans-unit>
         <trans-unit id="Page 2005069328 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>VIES Check Log</source>
-          <target>ViES Registro de cheques</target>
+          <source>Check Log (VIES)</source>
+          <target>Registro de cheques (VIES)</target>
         </trans-unit>
         <trans-unit id="PageExtension 1360983829 - Action 1783046847 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Checks if the VAT Registration No. is valid.</source>
@@ -322,6 +346,30 @@
         <trans-unit id="PageExtension 1360983829 - Control 767173010 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the VAT Registration No. has been checked.</source>
           <target>Especifica si el número de registro de IVA. ha sido comprobado.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1829771423 - Action 2364337919 - Method 1377591017 - NamedType 1482421001" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You must turn off the service while you set default values. Should we turn it off for you?</source>
+          <target>Debe desactivar el servicio mientras configura los valores predeterminados. ¿Deberíamos desactivarlo?</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1829771423 - Action 2364337919 - Method 1377591017 - NamedType 3475851080" translate="yes" size-unit="char" xml:space="preserve">
+          <source>https://api.service.hmrc.gov.uk/organisations/vat/check-vat-number/lookup</source>
+          <target>https://api.service.hmrc.gov.uk/organisations/vat/check-vat-number/lookup</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1829771423 - Action 2364337919 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set the default URL in the Service Endpoint UK field.</source>
+          <target>Establezca la dirección URL predeterminada en el campo Punto de conexión de servicio del Reino Unido.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1829771423 - Action 2364337919 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set Default UK Endpoint</source>
+          <target>Establecer punto de conexión predeterminado del Reino Unido</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1829771423 - Control 2502166699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the endpoint of the VAT registration number validation service for the UK.</source>
+          <target>Especifica el punto de conexión del servicio de validación del número de IVA del Reino Unido.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1829771423 - Control 770921649 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>UK</source>
+          <target>Reino Unido</target>
         </trans-unit>
         <trans-unit id="PageExtension 1998680446 - Action 1783046847 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Checks if the VAT Registration No. is valid.</source>
@@ -479,6 +527,10 @@
           <source>VAT Reg. Check Cont. Filter</source>
           <target>IVA Reg. Comprobar Filtro Cont.</target>
         </trans-unit>
+        <trans-unit id="Table 2690084609 - Field 3042832255 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable UK Validation</source>
+          <target>Habilitar la validación del Reino Unido</target>
+        </trans-unit>
         <trans-unit id="Table 2690084609 - Field 3300948695 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Reg. Check Cust. Filter</source>
           <target>IVA Reg. Comprobar Filtro Cust.</target>
@@ -610,6 +662,14 @@
         <trans-unit id="TableExtension 1595760086 - Field 767173010 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VIES VAT Reg. Check Status</source>
           <target>VIES IVA Reg. Estado de verificación</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1869133919 - Field 2686761443 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Service Endpoint UK</source>
+          <target>Puntos de conexión de servicio del Reino Unido</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1869133919 - Method 719686180 - NamedType 2634365102" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Reg. No. UK Validation Setup is not enabled.</source>
+          <target>La configuración de validación del número de IVA del Reino Unido no está habilitada</target>
         </trans-unit>
         <trans-unit id="TableExtension 3144527153 - Field 3275884602 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VIES VAT Reg. Check Verified Date</source>
