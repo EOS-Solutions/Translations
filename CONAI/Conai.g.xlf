@@ -448,6 +448,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS031 CONAI Packaging BOM - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 301582530 - Method 3532582548 - NamedType 4204058380" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Validity Ending Date must be greater than the Validity Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS031 CONAI Packaging BOM - Method ValidateValidityDate - NamedType Text000Err</note>
+        </trans-unit>
         <trans-unit id="Table 301582530 - Field 627569232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CONAI Material Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -467,6 +472,16 @@
           <source>Secondary/Tertiary Weight (Kg)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS031 CONAI Packaging BOM - Field Secondary/Tertiary Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 301582530 - Field 320541891 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validity Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS031 CONAI Packaging BOM - Field Validity Ending Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 301582530 - Field 973903906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validity Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS031 CONAI Packaging BOM - Field Validity Starting Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1043609354 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CONAI Purchase/Sale Setup</source>
@@ -677,6 +692,11 @@
           <source>Enable Line Materials Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS031 CONAI Setup - Field Enable Line Materials Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3641692506 - Field 3897282080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Validity Dates on Packaging BOMs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS031 CONAI Setup - Field Enable Validity Dates - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3641692506 - Field 4099166280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Exclude Expired BOM Lines</source>
@@ -1228,6 +1248,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS031 CONAI Pack. BOM Subf - Control Secondary/Tertiary Weight - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3275565104 - Control 320541891 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Validity Ending Date field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS031 CONAI Pack. BOM Subf - Control Validity Ending Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3275565104 - Control 973903906 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Validity Starting Date field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS031 CONAI Pack. BOM Subf - Control Validity Starting Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 568046313 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
           <source>New,Process,Report,CONAI</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1392,6 +1422,11 @@
           <source>If enabled, for each document line in the Conai detail, only the materials belonging to the line will be shown, therefore excluding the materials that do not have a contribution amount.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS031 CONAI Setup - Control Enable Line Materials Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3641692506 - Control 3897282080 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, the CONAI packaging materials are filtered by validity starting and ending date according to the document posting date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS031 CONAI Setup - Control Enable Validity Dates - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3641692506 - Control 4099166280 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Exclude from Conai calculation the BOM Lines with a Starting/Ending Date not valid.</source>
@@ -1573,6 +1608,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS031 PageExt18123183 - Action EOS CONAI Package - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1624793558 - Control 2464588128 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
+          <source>Specifies the value of the Invoice Posting Reference Date field, used for calculating the CONAI detail if the "Enable Validity Dates on Packaging BOMs" flag is enabled in the CONAI setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS031 PageExt18123183 - Control EOS CONAI Reference Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1455884535 - Action 2570301931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
           <source>Executes the CONAI Packages action</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1592,6 +1632,11 @@
           <source>CONAI Packages</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS031 PageExt18123185 - Action EOS CONAI Package - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2093581152 - Control 2464588128 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4042331808">
+          <source>Specifies the value of the Invoice Posting Reference Date field, used for calculating the CONAI detail if the "Enable Validity Dates on Packaging BOMs" flag is enabled in the CONAI setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS031 PageExt18123185 - Control EOS CONAI Reference Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2731277769 - Action 2570301931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
           <source>Executes the CONAI Packages action</source>
@@ -1613,6 +1658,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS031 PageExt18123187 - Action EOS CONAI Package - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3368974386 - Control 2464588128 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
+          <source>Specifies the value of the Invoice Posting Reference Date field, used for calculating the CONAI detail if the "Enable Validity Dates on Packaging BOMs" flag is enabled in the CONAI setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS031 PageExt18123187 - Control EOS CONAI Reference Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3200065363 - Action 2570301931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
           <source>Executes the CONAI Packages action</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1632,6 +1682,11 @@
           <source>CONAI Packages</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS031 PageExt18123189 - Action EOS CONAI Package - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3837761980 - Control 2464588128 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2854365759">
+          <source>Specifies the value of the Invoice Posting Reference Date field, used for calculating the CONAI detail if the "Enable Validity Dates on Packaging BOMs" flag is enabled in the CONAI setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS031 PageExt18123189 - Control EOS CONAI Reference Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4262414924 - Action 3158900555 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Executes the CONAI Preview action</source>
@@ -1702,6 +1757,26 @@
           <source>Exclude the document line from the Conai calculation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS031 PageExt18123201 - Control EOS Exclude Conai Calc. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1071134999 - Field 2464588128 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Reference Date (CONAI)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS031 TableExt18123181 - Field EOS CONAI Reference Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2984224850 - Field 2464588128 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+          <source>Reference Date (CONAI)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS031 TableExt18123182 - Field EOS CONAI Reference Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2346528233 - Field 2464588128 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Reference Date (CONAI)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS031 TableExt18123183 - Field EOS CONAI Reference Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4259618084 - Field 2464588128 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2271228953">
+          <source>Reference Date (CONAI)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS031 TableExt18123184 - Field EOS CONAI Reference Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2655038026 - EnumValue 395510365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase</source>
