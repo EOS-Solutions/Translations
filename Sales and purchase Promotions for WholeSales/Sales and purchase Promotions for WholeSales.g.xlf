@@ -2198,6 +2198,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS049 Promotion Setup - Field Primary Key - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 284821828 - Field 2593771009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recalculation Notification Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS049 Promotion Setup - Field Recalc. Notif. Method - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 284821828 - Field 958630313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Discount Reference Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6042,6 +6047,36 @@
           <source>Cannot delete Item %1! Used by %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS049 Promo Event Subscribers - Method Item_OnBeforeDelete - NamedType itemDeleteErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3957473106 - Method 3826329603 - NamedType 1407684110" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS049 Promo Event Subscribers - Method Sales Header_OnAfterModifyEvent - NamedType NotificationYes</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3957473106 - Method 3826329603 - NamedType 2292073400" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS049 Promo Event Subscribers - Method Sales Header_OnAfterModifyEvent - NamedType NotificationNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3957473106 - Method 3826329603 - NamedType 1136966258" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recalculate discounts and prices for this document?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS049 Promo Event Subscribers - Method Sales Header_OnAfterModifyEvent - NamedType NotificationMsgLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3957473106 - Method 281093332 - NamedType 1407684110" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS049 Promo Event Subscribers - Method Sales Line_OnAfterModifyEvent - NamedType NotificationYes</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3957473106 - Method 281093332 - NamedType 2292073400" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS049 Promo Event Subscribers - Method Sales Line_OnAfterModifyEvent - NamedType NotificationNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3957473106 - Method 281093332 - NamedType 1136966258" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recalculate discounts and prices for line %1?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS049 Promo Event Subscribers - Method Sales Line_OnAfterModifyEvent - NamedType NotificationMsgLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3957473106 - Method 119480829 - NamedType 411164334" size-unit="char" translate="yes" xml:space="preserve">
           <source>There are %1 linked to %2, do you want to continue?</source>
@@ -10162,6 +10197,11 @@
           <source>Filter Item From Price List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS049 Promotion Setup - Control Filter Item From Price List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 284821828 - Control 2550680918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Notification Method" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS049 Promotion Setup - Control Notification Method - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 284821828 - Control 1804384094 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Price Reference Date</source>
@@ -16287,6 +16327,21 @@
           <source>Standard Pallet</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS049 Quantity Type - EnumValue PalletStandard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2522100525 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS049 Recalc. Notif. Method - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2522100525 - EnumValue 2176757286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirm</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS049 Recalc. Notif. Method - EnumValue Confirm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2522100525 - EnumValue 342756159 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS049 Recalc. Notif. Method - EnumValue Notification - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3471439669 - EnumValue 2632124822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order Date</source>
