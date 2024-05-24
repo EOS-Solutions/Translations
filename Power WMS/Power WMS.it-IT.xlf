@@ -247,6 +247,10 @@
           <source>Procedure not allowed</source>
           <target>Procedura non consentita.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2463843296 - Method 3242568784 - NamedType 839627479" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Custom Barcode not managed</source>
+          <target>Barcode personalizzato non gestito</target>
+        </trans-unit>
         <trans-unit id="Codeunit 248115937 - Method 1131095916 - NamedType 2381392311" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scans processed with some warnings</source>
           <target>Scansioni elaborate con anomalie</target>
@@ -458,6 +462,14 @@
         <trans-unit id="Codeunit 3378049008 - Method 1665861916 - NamedType 1377352706" translate="yes" size-unit="char" xml:space="preserve">
           <source>Action not allowed</source>
           <target>Azione non consentita</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3378049008 - Method 2146897157 - NamedType 1374823494" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode %1 not managed</source>
+          <target>Barcode %1 non gestito</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3378049008 - Method 2146897157 - NamedType 33904816" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode %1 not decoded</source>
+          <target>Barcode %1 non decodificato</target>
         </trans-unit>
         <trans-unit id="Codeunit 3378049008 - Method 2838180720 - NamedType 1377352706" translate="yes" size-unit="char" xml:space="preserve">
           <source>Action %1 not allowed</source>
@@ -827,6 +839,18 @@
           <source>Procedure not allowed</source>
           <target>Procedura non consentita.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 766017136 - Method 2146897157 - NamedType 33904816" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode not decoded</source>
+          <target>Barcode non decodificato</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 766017136 - NamedType 3279492115" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Missing tokens in barcode</source>
+          <target>Token mancanti nel barcode</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 766017136 - NamedType 3373529364" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invalid Barcode</source>
+          <target>Barcode non valido</target>
+        </trans-unit>
         <trans-unit id="Codeunit 980927485 - Method 1268479913 - NamedType 1387355979" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Parameter must be a record, a RecordId or a RecordRef.</source>
           <target>Il parametro "Source" deve essere un record, un RecordId o un RecordRef.</target>
@@ -951,6 +975,10 @@
           <source>In progress</source>
           <target>In corso</target>
         </trans-unit>
+        <trans-unit id="Enum 1961218199 - EnumValue 3276313895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item</source>
+          <target>Articolo</target>
+        </trans-unit>
         <trans-unit id="Enum 212515047 - EnumValue 2248886284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Error</source>
           <target>Errore</target>
@@ -982,6 +1010,10 @@
         <trans-unit id="Enum 2367871102 - EnumValue 1482953864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Manage Asynch Activities</source>
           <target>Esecuzione attività asincrone</target>
+        </trans-unit>
+        <trans-unit id="Enum 2367871102 - EnumValue 1673311604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Decode Barcode</source>
+          <target>Decodifica barcode</target>
         </trans-unit>
         <trans-unit id="Enum 2367871102 - EnumValue 1983700343 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Post</source>
@@ -1191,6 +1223,10 @@
           <source>Post Source</source>
           <target>Registrazione</target>
         </trans-unit>
+        <trans-unit id="Enum 450583182 - EnumValue 2146897157 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Decode Barcode Custom</source>
+          <target>Decodifica barcode personalizzato</target>
+        </trans-unit>
         <trans-unit id="Enum 450583182 - EnumValue 2838180720 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Execute Activity Action</source>
           <target>Esecuzione azione attività</target>
@@ -1251,13 +1287,25 @@
           <source>Modify</source>
           <target>Modifica</target>
         </trans-unit>
+        <trans-unit id="Enum 720309177 - EnumValue 2116973928 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Positional</source>
+          <target>Posizionale</target>
+        </trans-unit>
         <trans-unit id="Enum 720309177 - EnumValue 2266141783 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Linear</source>
           <target>Lineare</target>
         </trans-unit>
+        <trans-unit id="Enum 720309177 - EnumValue 2478573277 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Different Separators</source>
+          <target>Separatori differenti</target>
+        </trans-unit>
         <trans-unit id="Enum 720309177 - EnumValue 3103406403 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sequential</source>
           <target>Sequenziale</target>
+        </trans-unit>
+        <trans-unit id="Enum 720309177 - EnumValue 3431463797 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Custom</source>
+          <target>Personalizzato</target>
         </trans-unit>
         <trans-unit id="Page 1029242431 - Action 1454156511 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Apply selected fields to relative user activities</source>
@@ -1383,17 +1431,101 @@
           <source>Barcode Part 5</source>
           <target>Parte 5</target>
         </trans-unit>
+        <trans-unit id="Page 1031878746 - Method 121147703 - NamedType 4154695525" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode must be in following format: </source>
+          <target>Il barcode deve avere il seguente formato:</target>
+        </trans-unit>
+        <trans-unit id="Page 1031878746 - Method 121147703 - NamedType 914501948" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode custom, format is defined in Interface Implementation</source>
+          <target>Barcode personalizzato, il formato è definito nell'implementazione dell'interfaccia</target>
+        </trans-unit>
+        <trans-unit id="Page 1031878746 - Method 1727538670 - NamedType 190893929" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No Item Selected</source>
+          <target>Nessun articolo scansionato</target>
+        </trans-unit>
+        <trans-unit id="Page 1031878746 - Method 1727538670 - NamedType 2184892397" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item not found</source>
+          <target>Articolo non trovato</target>
+        </trans-unit>
+        <trans-unit id="Page 1031878746 - Method 1727538670 - NamedType 2815269226" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant not found</source>
+          <target>Variante non trovata</target>
+        </trans-unit>
+        <trans-unit id="Page 1031878746 - Method 1727538670 - NamedType 2990244740" translate="yes" size-unit="char" xml:space="preserve">
+          <source>First item found as identifier</source>
+          <target>Primo articolo trovato come identificativo</target>
+        </trans-unit>
+        <trans-unit id="Page 1031878746 - Method 1727538670 - NamedType 3299367101" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant found</source>
+          <target>Variante trovata</target>
+        </trans-unit>
+        <trans-unit id="Page 1031878746 - Method 1727538670 - NamedType 3938104762" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.: </source>
+          <target>Nr. articolo</target>
+        </trans-unit>
+        <trans-unit id="Page 1031878746 - Method 1727538670 - NamedType 536216196" translate="yes" size-unit="char" xml:space="preserve">
+          <source>First item found as reference</source>
+          <target>Primo articolo trovato come riferimento</target>
+        </trans-unit>
+        <trans-unit id="Page 1031878746 - Method 1727538670 - NamedType 780735546" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Something went wrong</source>
+          <target>Errore imprevisto</target>
+        </trans-unit>
+        <trans-unit id="Page 1031878746 - Method 1727538670 - NamedType 952854131" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item found</source>
+          <target>Articolo trovato</target>
+        </trans-unit>
         <trans-unit id="Page 1031878746 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scanner Tester (WMS)</source>
           <target>Tester scanner (WMS)</target>
+        </trans-unit>
+        <trans-unit id="Page 1074471442 - Action 2866807655 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Move element down</source>
+          <target>Muove l'elemento in basso</target>
+        </trans-unit>
+        <trans-unit id="Page 1074471442 - Action 2866807655 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Move Down</source>
+          <target>Sposta in basso</target>
+        </trans-unit>
+        <trans-unit id="Page 1074471442 - Action 4020425622 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Move element up</source>
+          <target>Muove l'elemento in alto</target>
+        </trans-unit>
+        <trans-unit id="Page 1074471442 - Action 4020425622 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Move Up</source>
+          <target>Sposta in alto</target>
+        </trans-unit>
+        <trans-unit id="Page 1074471442 - Control 1177447709 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the trailing character of the barcode token to remove</source>
+          <target>Indica il carattere da rimuovere in coda alla stringa</target>
+        </trans-unit>
+        <trans-unit id="Page 1074471442 - Control 1421107765 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a part of barcode that is used to identify the barcode token</source>
+          <target>Indica una parte del barcode che identifica il token seguente</target>
+        </trans-unit>
+        <trans-unit id="Page 1074471442 - Control 1703414871 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies wich instance of identifier must be replaced</source>
+          <target>Indica quale istanza dell'identificativo deve essere rimossa</target>
+        </trans-unit>
+        <trans-unit id="Page 1074471442 - Control 1881551368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the maximum length of the string</source>
+          <target>Indica la lunghezza massima della stringa</target>
         </trans-unit>
         <trans-unit id="Page 1074471442 - Control 2877557477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Represent a barcode token that is part of the barcode</source>
           <target>Rappresenta una parte del barcode</target>
         </trans-unit>
+        <trans-unit id="Page 1074471442 - Control 3170023003 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the starting position of the barcode token</source>
+          <target>Indica la posizione del token all'interno della stringa</target>
+        </trans-unit>
         <trans-unit id="Page 1074471442 - Control 3721318644 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the maximum length of the string</source>
           <target>Lunghezza massima del token</target>
+        </trans-unit>
+        <trans-unit id="Page 1074471442 - Control 3946248087 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the leading character of the barcode token to remove</source>
+          <target>Indica il carattere da rimuovere all'inizio della stringa</target>
         </trans-unit>
         <trans-unit id="Page 1074471442 - Control 4154341761 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Token sequence. In linear barcodes, represents the position in the barcode. In sequential barcodes, represents the order of the token asked in the PowerWMS</source>
@@ -1474,6 +1606,10 @@
         <trans-unit id="Page 1293984984 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scanner Setup Code</source>
           <target>Cod. setup scanner</target>
+        </trans-unit>
+        <trans-unit id="Page 1293984984 - Control 3093544144 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the barcode type to manage</source>
+          <target>Indica il tipo di barcode personalizzato da gestire</target>
         </trans-unit>
         <trans-unit id="Page 1293984984 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scanner Setup Description</source>
@@ -3292,8 +3428,8 @@
           <target>Cod. setup scanner</target>
         </trans-unit>
         <trans-unit id="Page 4250493740 - Control 3093544144 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>If Scanner Type is custom, this field specifies the type of barcode managed by custom implementation in Business Central</source>
-          <target>Se il tipo scanner è personalizzato, indica la tipologia di barcode gestita dall'interfaccia personalizzata</target>
+          <source>If Scanner Type is custom, this field specifies the barcode type handled by custom interface implementation</source>
+          <target>Se il tipo scanner è personalizzato, indica la tipologia di barcode gestita dall'implementazione dell'interfaccia</target>
         </trans-unit>
         <trans-unit id="Page 4250493740 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scanner Setup Description</source>
@@ -3479,13 +3615,17 @@
           <source>Activity Fields Management (WMS)</source>
           <target>Gestione campi attività (WMS)</target>
         </trans-unit>
+        <trans-unit id="Table 1074471442 - Field 1177447709 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trailing Character</source>
+          <target>Carattere suffisso</target>
+        </trans-unit>
         <trans-unit id="Table 1074471442 - Field 1421107765 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Identifier</source>
           <target>Identificativo</target>
         </trans-unit>
-        <trans-unit id="Table 1074471442 - Field 2320886912 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Replace</source>
-          <target>Sostituisci</target>
+        <trans-unit id="Table 1074471442 - Field 1703414871 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Replace Instance</source>
+          <target>Sostituisci istanza</target>
         </trans-unit>
         <trans-unit id="Table 1074471442 - Field 2869624611 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Actual Sequence</source>
@@ -3499,6 +3639,10 @@
           <source>Scanner Type</source>
           <target>Tipo scanner</target>
         </trans-unit>
+        <trans-unit id="Table 1074471442 - Field 3170023003 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Position</source>
+          <target>Posizione</target>
+        </trans-unit>
         <trans-unit id="Table 1074471442 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
           <target>Nr. riga</target>
@@ -3506,6 +3650,10 @@
         <trans-unit id="Table 1074471442 - Field 3721318644 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Max Length</source>
           <target>Lunghezza massima</target>
+        </trans-unit>
+        <trans-unit id="Table 1074471442 - Field 3946248087 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Leading Character</source>
+          <target>Carattere prefisso</target>
         </trans-unit>
         <trans-unit id="Table 1074471442 - Field 4154341761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sequence</source>
@@ -3518,6 +3666,10 @@
         <trans-unit id="Table 1074471442 - Field 952049229 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scanner Code</source>
           <target>Codice scanner</target>
+        </trans-unit>
+        <trans-unit id="Table 1074471442 - Method 4021651430 - NamedType 1664947092" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You must set Scanner Type as Linear Replace in order to manage this setting</source>
+          <target>E' necessario selezionare il tipo scanner come "Lineare con sostituzioni" per gestire l'impostazione</target>
         </trans-unit>
         <trans-unit id="Table 1074471442 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scanner Detail (WMS)</source>
@@ -3562,6 +3714,10 @@
         <trans-unit id="Table 1155905017 - Field 1877094740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Id</source>
           <target>Id articolo</target>
+        </trans-unit>
+        <trans-unit id="Table 1155905017 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
         </trans-unit>
         <trans-unit id="Table 1155905017 - Field 1884432609 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tracking</source>
@@ -4347,6 +4503,10 @@
           <source>Scan Id</source>
           <target>Id scansione</target>
         </trans-unit>
+        <trans-unit id="Table 2013420453 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
+        </trans-unit>
         <trans-unit id="Table 2013420453 - Field 205345179 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Subtype</source>
           <target>Sottotipo origine</target>
@@ -4715,6 +4875,10 @@
           <source>Scan Quantity</source>
           <target>Quantità scansione</target>
         </trans-unit>
+        <trans-unit id="Table 3024641548 - Field 2052358255 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bin Code Field No.</source>
+          <target>Nr. campo Cod. collocazione</target>
+        </trans-unit>
         <trans-unit id="Table 3024641548 - Field 205345179 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Subtype</source>
           <target>Sottotipo origine</target>
@@ -4758,6 +4922,10 @@
         <trans-unit id="Table 3024641548 - Field 2795973847 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Receipt Date Field No.</source>
           <target>Nr. campo "Data carico"</target>
+        </trans-unit>
+        <trans-unit id="Table 3024641548 - Field 2814799924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bin Code</source>
+          <target>Cod. collocazione</target>
         </trans-unit>
         <trans-unit id="Table 3024641548 - Field 2818721526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Qty. Rounding Precision (Base)</source>
@@ -5131,6 +5299,10 @@
           <source>Code</source>
           <target>Codice</target>
         </trans-unit>
+        <trans-unit id="Table 4250493740 - Field 3093544144 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode Type</source>
+          <target>Tipo barcode</target>
+        </trans-unit>
         <trans-unit id="Table 4250493740 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Descrizione</target>
@@ -5447,6 +5619,10 @@
           <source>Item Id</source>
           <target>Id articolo</target>
         </trans-unit>
+        <trans-unit id="Table 790863525 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
+        </trans-unit>
         <trans-unit id="Table 790863525 - Field 1884432609 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tracking</source>
           <target>Tracciabilità</target>
@@ -5631,6 +5807,10 @@
           <source>EOS WMS Bin Exists</source>
           <target>Esiste collocazione WMS</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1672481592 - Field 3291763347 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Activity Table Reference Filter</source>
+          <target>Filtro riferimento tabella attività WMS</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1672481592 - Field 3991841239 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Employee No. Filter</source>
           <target>Filtro nr. dipendente WMS</target>
@@ -5759,6 +5939,14 @@
           <source>WMS Activity Type Filter</source>
           <target>Filtro attività WMS</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2535633105 - Field 2555861251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Variant Description</source>
+          <target>Descrizione variante WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2535633105 - Field 2607329253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Variant Description 2</source>
+          <target>Descrizione 2 variante WMS</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2535633105 - Field 3611349226 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS New Bin Code Set</source>
           <target>Nuovo cod collocazione impostato WMS</target>
@@ -5766,6 +5954,10 @@
         <trans-unit id="TableExtension 2535633105 - Field 3991841239 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Employee No. Filter</source>
           <target>Filtro nr. dipendente WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2535633105 - Field 4052600817 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Variant Exists</source>
+          <target>Varianti trovate WMS</target>
         </trans-unit>
         <trans-unit id="TableExtension 2535633105 - Field 538329628 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Different Location</source>
@@ -6014,6 +6206,10 @@
         <trans-unit id="TableExtension 97209787 - Field 102882316 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Activity Type Filter</source>
           <target>Filtro attività WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 97209787 - Field 1091535646 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Variant Code Filter</source>
+          <target>Filtro cod. variante WMS</target>
         </trans-unit>
         <trans-unit id="TableExtension 97209787 - Field 1798156839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Activity Type Filter</source>
