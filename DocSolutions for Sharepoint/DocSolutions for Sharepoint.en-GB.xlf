@@ -128,6 +128,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS069.03 Sharepoint Setup - Field Client Secret - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3871309143 - Field 2572597316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Secret Expiration Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS069.03 Sharepoint Setup - Field Client Secret Expiration Date - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3871309143 - Field 3946591707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hide Rebuild</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -172,6 +177,16 @@
           <source>Could not download from the endpoint. Ensure you are connected to the internet</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS069.03 Graph integration - Method DownloadFileFromURL - NamedType DwnErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4097801746 - Method 4040151856 - NamedType 1804285824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your Client Secret will expire on %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS069.03 Notification Handler - Method GetSecretExpiredMessage - NamedType SecretExpirationMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4097801746 - Method 4040151856 - NamedType 1801912644" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your Client Secret has expired.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS069.03 Notification Handler - Method GetSecretExpiredMessage - NamedType SecretExpiredMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2355792984 - NamedType 2380123858" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invalid response from Microsoft login provider</source>
@@ -1033,6 +1048,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS069.03 Sharepoint Setup - Control Hide Rebuild - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3871309143 - Control 3786226563 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Client Secret Expiration Date field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS069.03 Sharepoint Setup - Control Secret Expiration Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3871309143 - Control 1656975091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Azure tenant ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1207,6 +1227,11 @@
           <source>follow this guide</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122000 - NamedType NotifActionLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3825858325 - Method 3373737092 - NamedType 2951127933" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3825858325">
+          <source>Cannot retrieve Sharepoint site or library, check your setup or use a different library</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122000 - Method OnAfterGetCurrRecord - NamedType SPNotifLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 3825858325 - Action 2928668126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2704839719">
           <source>Try to write and delete a file according to this setup</source>
