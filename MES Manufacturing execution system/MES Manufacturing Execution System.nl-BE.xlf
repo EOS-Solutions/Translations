@@ -222,6 +222,12 @@
         <trans-unit id="Codeunit 1423286042 - Method 3770160373 - NamedType 3253884700" translate="yes" size-unit="char" xml:space="preserve">
           <source>No Employee Entries modified for family production order %1 with Routing No. %2 and Operation No. %3. Records not found</source>
         </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 713657231 - NamedType 417816387" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Completed</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 713657231 - NamedType 750120336" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post unsupervised machine time entry?</source>
+        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 757935147 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting %1</source>
           <target>%1 boeken</target>
@@ -350,7 +356,7 @@
           <source>The use of Power MES is not permitted.</source>
         </trans-unit>
         <trans-unit id="Codeunit 3854802188 - Method 503408191 - NamedType 3468700622" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity overflow</source>
+          <source>You can not assign more than %1 %2.</source>
         </trans-unit>
         <trans-unit id="Codeunit 3854802188 - Method 503408191 - NamedType 739775175" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity not valid</source>
@@ -1140,6 +1146,12 @@
         <trans-unit id="Page 1920932823 - Action 1692444235 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Navigate</source>
           <target>&amp;Navigeren</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 2414066437 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post selected Unsupervised entry.</source>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 2414066437 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Unsupervised Entry</source>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Action 3219145453 - Method 1377591017 - NamedType 1327832897" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cannot make a modify or stapling on a record that has been already changed</source>
@@ -2227,6 +2239,12 @@
         <trans-unit id="Page 2865843814 - Control 3152348650 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blank Output Quantity</source>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 3206480300 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Assign machine time entry to a system badge for unsupervised machine centers</source>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 3206480300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unsupervised Machine Badge No.</source>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 3311644243 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enter the codes of the various operations to be performed so that the system can recognize them. P.S. Stapling is used to group different phases</source>
           <target>Voer de codes in van de verschillende bewerkingen die moeten worden uitgevoerd, zodat het systeem ze kan herkennen. P.S. Spapling wordt gebruikt om verschillende fasen te groeperen</target>
@@ -2685,6 +2703,9 @@
         </trans-unit>
         <trans-unit id="Page 3338615813 - Control 2628606866 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Manage Packaging Materials from this resource</source>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2746044618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use employee's assigned work center for setup time</source>
         </trans-unit>
         <trans-unit id="Page 3338615813 - Control 2777942052 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Manage Handling Units from this resource</source>
@@ -3631,6 +3652,9 @@
         <trans-unit id="Table 1859070565 - Field 3297701779 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Handling Unit Created</source>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3365626057 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unsupervised</source>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 3444679095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>First Name</source>
           <target>Voornaam</target>
@@ -4110,6 +4134,9 @@
         <trans-unit id="Table 2647740909 - Field 2737013675 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Packaging Material Management</source>
         </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 2746044618 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup on Employee's Work Center</source>
+        </trans-unit>
         <trans-unit id="Table 2647740909 - Field 2799385806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quality Responsibles</source>
         </trans-unit>
@@ -4342,6 +4369,9 @@
         </trans-unit>
         <trans-unit id="Table 2865843814 - Field 3152348650 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blank Output Quantity</source>
+        </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 3206480300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unsupervised Machine Badge No.</source>
         </trans-unit>
         <trans-unit id="Table 2865843814 - Field 3311644243 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Remove Stapling Text</source>

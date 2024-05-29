@@ -1313,6 +1313,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Employee Entry - Field Unit Price - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3365626057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unsupervised</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Employee Entry - Field Unsupervised - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 1286742260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Work Center Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1517,6 +1522,11 @@
           <source>Sequence No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Prod. Panel Setup - Field Sequence No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 2746044618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup on Employee's Work Center</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Prod. Panel Setup - Field Setup on Employee Work Center - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2647740909 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Type</source>
@@ -1978,6 +1988,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Setup - Field Team Nos. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 3206480300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unsupervised Machine Badge No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Setup - Field Unsupervised Machine Badge No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2865843814 - Field 1664334992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use Remaining Quantity</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2408,6 +2423,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method CloseEntryTime - NamedType Text203Msg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 713657231 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post unsupervised machine time entry?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method CloseUnsupervisedMachineEntryTime - NamedType ConfirmQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 713657231 - NamedType 417816387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation Completed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method CloseUnsupervisedMachineEntryTime - NamedType OperationCompletedMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 349524102 - NamedType 631769430" size-unit="char" translate="yes" xml:space="preserve">
           <source>Attention! MES Setup is not Correct. Check if the are blank reason code or duplicate reason Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2654,8 +2679,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES PowerMES Functions - Method AssignTrackingToProdOrderCompLine - NamedType QuantityNotValidErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3854802188 - Method 503408191 - NamedType 3468700622" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Quantity overflow</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <source>You can not assign more than %1 %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1: Quantity, %2: Base Unit Of Measure</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES PowerMES Functions - Method AssignTrackingToProdOrderCompLine - NamedType QuantityOverflowErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3854802188 - Method 1534117589 - NamedType 4073760365" size-unit="char" translate="yes" xml:space="preserve">
@@ -4028,6 +4053,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Employee Entries - Action Close Entry - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 2414066437 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post selected Unsupervised entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Employee Entries - Action Post Unsupervised Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 2414066437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Unsupervised Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Employee Entries - Action Post Unsupervised Entry - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1920932823 - Action 3219145453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open a page where you can starling/modify an employee entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4362,6 +4397,11 @@
           <source>If enabled, rework can be started without scrap quantities</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Prod.Pan.Set. Card - Control Rework without scrap - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2746044618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use employee's assigned work center for setup time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Prod.Pan.Set. Card - Control Setup on Employee Work Center - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3338615813 - Control 1787409239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Secondary UoM</source>
@@ -5342,6 +5382,16 @@
           <source>Production Panel Nos.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Production Panel Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 3206480300 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assign machine time entry to a system badge for unsupervised machine centers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Unsupervised Machine Badge No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 3206480300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unsupervised Machine Badge No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Unsupervised Machine Badge No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 2357246661 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Output</source>

@@ -231,6 +231,14 @@
           <source>No Employee Entries modified for family production order %1 with Routing No. %2 and Operation No. %3. Records not found</source>
           <target>Nessun movimento dipendente aggiornato per ordine di produzione %1 con nr. ciclo %2 e nr. operazione %3. Movimenti non trovati</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 713657231 - NamedType 417816387" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Completed</source>
+          <target>Operazione completata</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 713657231 - NamedType 750120336" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post unsupervised machine time entry?</source>
+          <target>Registrare movimento tempo macchina non supervisionato?</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 757935147 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting %1</source>
           <target>Registrazione %1</target>
@@ -380,8 +388,8 @@
           <target>L'utilizzo di Power MES non è consentito.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3854802188 - Method 503408191 - NamedType 3468700622" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity overflow</source>
-          <target>Superamento quantità</target>
+          <source>You can not assign more than %1 %2.</source>
+          <target>Impossibile assegnare più di %1 %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 3854802188 - Method 503408191 - NamedType 739775175" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity not valid</source>
@@ -1266,6 +1274,14 @@
         <trans-unit id="Page 1920932823 - Action 1692444235 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Navigate</source>
           <target>Navi&amp;ga</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 2414066437 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post selected Unsupervised entry.</source>
+          <target>Registra il movimento tempo macchina non supervisionato</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 2414066437 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Unsupervised Entry</source>
+          <target>Registra tempo macchina non supervisionato</target>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Action 3219145453 - Method 1377591017 - NamedType 1327832897" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cannot make a modify or stapling on a record that has been already changed</source>
@@ -2531,6 +2547,14 @@
           <source>Blank Output Quantity</source>
           <target>Azzera qtà. output</target>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 3206480300 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Assign machine time entry to a system badge for unsupervised machine centers</source>
+          <target>Assegna i tempi macchina non supervisionati al badge indicato</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 3206480300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unsupervised Machine Badge No.</source>
+          <target>Nr. badge non supervisionato</target>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 3311644243 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enter the codes of the various operations to be performed so that the system can recognize them. P.S. Stapling is used to group different phases</source>
           <target>Immettere i codici delle varie operazioni da eseguire in modo che il sistema possa riconoscerli. NB: Pinzatura viene utilizzato per raggruppare diverse fasi</target>
@@ -3058,6 +3082,10 @@
         <trans-unit id="Page 3338615813 - Control 2628606866 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Manage Packaging Materials from this resource</source>
           <target>Se attivo, è possibile assegnare un materiale di imballaggio in fase di versamento</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2746044618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use employee's assigned work center for setup time</source>
+          <target>Imposta l'area di produzione assegnata al dipendente nella registrazione movimenti di tipo "Setup"</target>
         </trans-unit>
         <trans-unit id="Page 3338615813 - Control 2777942052 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Manage Handling Units from this resource</source>
@@ -4163,6 +4191,10 @@
           <source>Handling Unit Created</source>
           <target>Unità di carico create</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3365626057 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unsupervised</source>
+          <target>Non supervisionato</target>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 3444679095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>First Name</source>
           <target>Primo nome</target>
@@ -4699,6 +4731,10 @@
           <source>Packaging Material Management</source>
           <target>Gestione materiale di imballaggio</target>
         </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 2746044618 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup on Employee's Work Center</source>
+          <target>Setup per area di produzione dipendente</target>
+        </trans-unit>
         <trans-unit id="Table 2647740909 - Field 2799385806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quality Responsibles</source>
           <target>Responsabili qualità</target>
@@ -4986,6 +5022,10 @@
         <trans-unit id="Table 2865843814 - Field 3152348650 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blank Output Quantity</source>
           <target>Azzera qtà. output</target>
+        </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 3206480300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unsupervised Machine Badge No.</source>
+          <target>Nr. badge non supervisionato</target>
         </trans-unit>
         <trans-unit id="Table 2865843814 - Field 3311644243 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Remove Stapling Text</source>
