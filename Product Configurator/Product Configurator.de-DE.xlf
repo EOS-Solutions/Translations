@@ -1147,6 +1147,10 @@
           <source>If enabled, it allows to define whether a characteristic cannot be edited from the default item characteristics table. Otherwise it is only possible in the rules.</source>
           <target>Legt die Elementkante fest, die während der Konfiguration nicht bearbeitet werden kann, wenn das Flag in Artikel-Features aktiviert ist.</target>
         </trans-unit>
+        <trans-unit id="Page 1762500533 - Control 3244728746 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, it allows to define the validation for the characteristics value, using the flag "Disable Validation" in the item default characteristics and in the rule characteristics. It requires the sublevels calculation when closing the configurator.</source>
+          <target>Wenn diese Option aktiviert ist, können Sie die Validierung für den Wert der Merkmale definieren, indem Sie das Flag "Validierung deaktivieren" in den Standardmerkmalen des Elements und in den Merkmalen der Regel verwenden. Erfordert die Berechnung von Unterebenen, wenn der Konfigurator geschlossen ist.</target>
+        </trans-unit>
         <trans-unit id="Page 1762500533 - Control 327330691 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are three ways in which the configurator creates the new code to be assigned to the item with the following priority: 1) Format code defined in rule table. 2) If the "Use Purchase Item Nos." field is active product configurator uses  the serial number expressed in the Standard Nos. field. 3) Composition of the item code with: Neutral item code, possibly "Separator Purchase Item Nos." and adding up all the values of the characteristics. In the event that the composed code exceeds 20 characters, an error is returned.</source>
           <target>Gibt den Wert des Feldes Separator-Einkaufartikelnr. an</target>
@@ -1318,6 +1322,10 @@
         <trans-unit id="Page 1773325548 - Control 1207260012 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Charac. Value Desc. field</source>
           <target>Gibt den Wert des Charac an. Wert Desc. Feld</target>
+        </trans-unit>
+        <trans-unit id="Page 1773325548 - Control 2499888689 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If active, the validation of the default characteristic value is disabled. The value is assigned but not validated.</source>
+          <target>Wenn diese Option aktiviert ist, ist die Validierung des Standardmerkmalswerts deaktiviert. Der Wert wird zugewiesen, aber nicht validiert.</target>
         </trans-unit>
         <trans-unit id="Page 1773325548 - Control 332802016 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Item No. field</source>
@@ -2274,6 +2282,10 @@
         <trans-unit id="Page 3051687837 - Control 2200046723 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allows to set an indentation to the characteristic when prompted to the user.</source>
           <target>Gibt den Wert des Einzugsfeldes an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3051687837 - Control 2230957129 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If active, the validation of the characteristic value is disabled. It requires the sublevels calculation when closing the configurator.</source>
+          <target>Wenn diese Option aktiviert ist, ist die Validierung von Eigenschaftswerten deaktiviert. Erfordert die Berechnung von Unterebenen, wenn der Konfigurator geschlossen ist.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 2680239491 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If activated during the validation of the characteristic value, it executes any custom code associated with the rule and assigns the value to the characteristic. Contact your partner for information on how to extend the configurator.</source>
@@ -6239,6 +6251,10 @@
           <source>Inherits Not Editable From Item Characteristics</source>
           <target>Standard Artikelmerkmal nicht editierbar aktivieren</target>
         </trans-unit>
+        <trans-unit id="Table 1762500533 - Field 3244728746 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Characteristics Validation Management</source>
+          <target>Aktivieren der Verwaltung der Merkmalsvalidierung</target>
+        </trans-unit>
         <trans-unit id="Table 1762500533 - Field 3327076881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Standard Nos.</source>
           <target>Artikel-/Versionsnr.</target>
@@ -6723,6 +6739,10 @@
           <source>Indentation</source>
           <target>Einzug</target>
         </trans-unit>
+        <trans-unit id="Table 2815456158 - Field 2230957129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Validation</source>
+          <target>Deaktivieren der Validierung</target>
+        </trans-unit>
         <trans-unit id="Table 2815456158 - Field 2306383319 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Disable Characteristic by Key</source>
           <target>Deaktivieren des Merkmals nach Schlüssel</target>
@@ -6826,6 +6846,10 @@
         <trans-unit id="Table 2946418531 - Field 1758538756 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Numeric Value</source>
           <target>Numerischer Wert</target>
+        </trans-unit>
+        <trans-unit id="Table 2946418531 - Field 2230957129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Validation</source>
+          <target>Deaktivieren der Validierung</target>
         </trans-unit>
         <trans-unit id="Table 2946418531 - Field 2842094365 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Description</source>
@@ -7054,6 +7078,10 @@
         <trans-unit id="Table 3246210835 - Field 2200046723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indentation</source>
           <target>Einzug</target>
+        </trans-unit>
+        <trans-unit id="Table 3246210835 - Field 2230957129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Validation</source>
+          <target>Deaktivieren der Validierung</target>
         </trans-unit>
         <trans-unit id="Table 3246210835 - Field 2363328873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Type</source>
