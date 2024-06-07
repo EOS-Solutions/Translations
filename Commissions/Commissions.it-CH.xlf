@@ -1157,6 +1157,10 @@
           <source>Specifies data of vendor related to the salesperson.</source>
           <target>Specifica i dati del fornitore correlati all'agente.</target>
         </trans-unit>
+        <trans-unit id="Page 1994358204 - Control 2820242056 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Line Total field.</source>
+          <target>Specifica il valore del campo Totale riga.</target>
+        </trans-unit>
         <trans-unit id="Page 1994358204 - Control 3196232876 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies data of vendor related to the salesperson.</source>
           <target>Specifica i dati del fornitore correlati all'agente.</target>
@@ -1204,6 +1208,10 @@
         <trans-unit id="Page 1994358204 - Control 4042240576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies no. of not posted purchase document.</source>
           <target>Specifica il nr. documento di acquisto non registrato.</target>
+        </trans-unit>
+        <trans-unit id="Page 1994358204 - Control 4198939294 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Currency Code field.</source>
+          <target>Specifica il valore del campo Codice valuta.</target>
         </trans-unit>
         <trans-unit id="Page 1994358204 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
@@ -2105,6 +2113,10 @@
           <source>Specifies the code of the document class that will be used when creating settlement purchase credit memos.</source>
           <target>Specifica il codice della classe documento che verrà utilizzato durante la creazione delle note di credito di acquisto di liquidazione.</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1738388099 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>if activated, the value of the field “Direct unit cost excluding VAT” of the single commission settlement prospect/invoice line, is calculated based on the original exchange rate present in the related record of the “Commission Ledger Entries (CMS)” page. This logic is applied ONLY in case the Currency Code of the Commission Entry (CMS) matches with the one of the Vendor/Salesperson and is different from the one of the company.</source>
+          <target>se attivato, il valore del campo “Costo unitario diretto IVA esclusa” della singola riga prospetto/fattura di liquidazione provvigioni, viene calcolato in funzione del tasso di cambio originario presente nel relativo record della pagina “Movimenti provvigioni (CMS)”. Questa logica viene applicata SOLO nel caso in cui il Cod. Valuta del Movimento provvigione (CMS) coincida con quello del Fornitore/Agente e sia diverso da quello di tenuta conto della società</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1896551935 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if in case of negative prospect total, settlement credit memo must be created.</source>
           <target>Specifica se in caso di prospetto con totale negativo debba essere creata una nota credito di liquidazione</target>
@@ -2144,6 +2156,10 @@
         <trans-unit id="Page 3431204148 - Control 2157377117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quote</source>
           <target>Offerta</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 22810526 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>if the flag “Foreign Curr. Comm. - Create exchange rate entries” is active, the possible exchange rate differences are going to be Settled using this GL Account. N.B. the curr. exch. entry for any exchange rate difference will be generated: Following the posting of the passive invoice for the total settlement of the accrued commissions; If the Commission entry to settle the accounting entry for the allocation of Costs @ Commissions to be settled has been previuosly generated (usually in commissions settled on payment).</source>
+          <target>se attivo il flag “Provv. in valuta estera - crea movimenti di cambio valuta”, su questo conto C/G vengono rilevate le eventuali differenze cambio per la quadratura del conto Provvigioni da liquidare. N.B. la scrittura contabile di rilevazione dell’eventuale differenza cambio, viene generata: A seguito della contabilizzazione della fattura passiva di liquidazione totale della provvigione maturata; Se per il Movimento provvigione oggetto di liquidazione è stata generata preventivamente la scrittura contabile di stanziamento Costo @ Provvigioni da liquidare (tipicamente quindi nel caso di provvigioni liquidate sul pagato).</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2443327257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the base amount must include the line discount</source>
@@ -3057,6 +3073,10 @@
           <source>The amount in local currency</source>
           <target>L'importo in valuta locale</target>
         </trans-unit>
+        <trans-unit id="Page 764216790 - Control 636392376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Amount field.</source>
+          <target>Specifica il valore del campo Importo.</target>
+        </trans-unit>
         <trans-unit id="Page 764216790 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Prospect Subpage</source>
           <target>Subpage prospetti liquidazione</target>
@@ -3864,6 +3884,14 @@
         <trans-unit id="PageExtension 3121655387 - Control 1150962569 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commissions</source>
           <target>Provvigioni</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3327025785 - Control 1080730330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies commission reason code for the journal line.</source>
+          <target>Specifica il codice causale per la riga di giornale</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3327025785 - Control 1080730330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission Reason Code</source>
+          <target>Codice causale provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 3394506733 - Action 1045475525 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens list of sales network related to the customer. One of those sales network must be marked as default.</source>
@@ -5621,9 +5649,16 @@
           <source>Salespersons Combination</source>
           <target>Agente/rete di vendita</target>
         </trans-unit>
+        <trans-unit id="Table 1230933914 - Field 1738388099 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Foreign Curr. Comm. - Create exchange rate entries</source>
+          <target>Provv. in valuta estera - crea movimenti di cambio valuta</target>
+        </trans-unit>
         <trans-unit id="Table 1230933914 - Field 1908046867 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reason Code</source>
           <target>Codice causale</target>
+        </trans-unit>
+        <trans-unit id="Table 1230933914 - Field 2324056710 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Currency Factor</source>
         </trans-unit>
         <trans-unit id="Table 1230933914 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
@@ -5641,6 +5676,10 @@
           <source>Competence Period Code</source>
           <target>Codice periodo competenza</target>
         </trans-unit>
+        <trans-unit id="Table 1230933914 - Field 3664467608 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Comm. Ledger Entry Currency</source>
+          <target>Cod. Valuta Mov. Provv.</target>
+        </trans-unit>
         <trans-unit id="Table 1230933914 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
           <target>Nr.</target>
@@ -5652,6 +5691,10 @@
         <trans-unit id="Table 1230933914 - Field 592951229 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Amount (LCY)</source>
           <target>Importo (VL)</target>
+        </trans-unit>
+        <trans-unit id="Table 1230933914 - Field 636392376 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount</source>
+          <target>Importo</target>
         </trans-unit>
         <trans-unit id="Table 1230933914 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Prospect Line</source>
@@ -5821,9 +5864,17 @@
           <source>Pay-to County</source>
           <target>Pagare a - Provincia</target>
         </trans-unit>
+        <trans-unit id="Table 279592673 - Field 2324056710 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Currency Factor</source>
+          <target>Fattore valuta</target>
+        </trans-unit>
         <trans-unit id="Table 279592673 - Field 2458217605 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Pay-to Country Code</source>
           <target>Pagare a - Cod. paese</target>
+        </trans-unit>
+        <trans-unit id="Table 279592673 - Field 2820242056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line Total</source>
+          <target>Totale Importo</target>
         </trans-unit>
         <trans-unit id="Table 279592673 - Field 3196232876 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Pay-to Address</source>
@@ -5888,6 +5939,10 @@
         <trans-unit id="Table 279592673 - Field 4042240576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Temporary Purchase Doc. No.</source>
           <target>Nr. documento acquisto temporaneo</target>
+        </trans-unit>
+        <trans-unit id="Table 279592673 - Field 4198939294 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Codice valuta</target>
         </trans-unit>
         <trans-unit id="Table 279592673 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
@@ -6198,8 +6253,8 @@
           <target>Tipo movimento</target>
         </trans-unit>
         <trans-unit id="Table 331222149 - Field 149522872 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,Payable,Settlement,Settled</source>
-          <target> ,Da liquidare,In liquidazione,Liquidato</target>
+          <source> ,Payable,Settlement,Settled,Exchange Rate Difference</source>
+          <target> ,Da liquidare,In liquidazione,Liquidato,Differenza tassi di cambio</target>
         </trans-unit>
         <trans-unit id="Table 331222149 - Field 1500206256 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Settlement Journal Line No.</source>
@@ -6228,6 +6283,10 @@
         <trans-unit id="Table 331222149 - Field 2302587123 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Ledger Entry No.</source>
           <target>Nr. movimento contabile documento</target>
+        </trans-unit>
+        <trans-unit id="Table 331222149 - Field 2324056710 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Currency Factor</source>
+          <target>Fattore valuta</target>
         </trans-unit>
         <trans-unit id="Table 331222149 - Field 2363328873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Type</source>
@@ -6341,6 +6400,14 @@
           <source>Primary Key</source>
           <target>Chiave primaria</target>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 1738388099 - Method 2126772001 - NamedType 3190809752" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You cannot change %1 as long as there are prospects not linked to a posted purchase document (%2 / %3).</source>
+          <target>Non puoi cambiare %1 finché ci sono prospetti non collegati a documenti di acquisto registrati (%2 / %3).</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 1738388099 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Foreign Curr. Comm. - Create exchange rate entries</source>
+          <target>Provv. in valuta estera - crea movimenti di cambio valuta</target>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 1896551935 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Settlement Credit Memos</source>
           <target>Genera note credito liquidazione</target>
@@ -6364,6 +6431,10 @@
         <trans-unit id="Table 3431204148 - Field 2157377117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update From Quote Header - Delete</source>
           <target>Aggiornamento da testata offerta - Delete</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 22810526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Currency Commission Conversion Account</source>
+          <target>Conto conversione commissioni in valuta</target>
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 2443327257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Def. Base Incl. Line Disc.</source>
@@ -7708,6 +7779,10 @@
         <trans-unit id="TableExtension 3581523612 - Field 466366624 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude from Commission</source>
           <target>Escludi dalla provvigione</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3720766296 - Field 1213963406 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission Reason</source>
+          <target>Codice causale provvigioni</target>
         </trans-unit>
         <trans-unit id="TableExtension 3720766296 - Field 4268549222 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Comm. Allocation Register No.</source>
