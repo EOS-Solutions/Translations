@@ -236,12 +236,8 @@
           <target>Angiv linje for variabeltildelingsværdier %1</target>
         </trans-unit>
         <trans-unit id="Codeunit 3429295233 - NamedType 2003783487" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Attention, no value present in driver %1</source>
-          <target>Bemærk, ingen værdi til stede i driveren %1</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3429295233 - NamedType 207500171" translate="yes" size-unit="char" xml:space="preserve">
-          <source> line </source>
-          <target> linje </target>
+          <source>Attention, no value present in driver %1 in allocation %2 line %3</source>
+          <target>Bemærk, ingen værdi til stede i driver %1 i allokering %2 linje %3</target>
         </trans-unit>
         <trans-unit id="Codeunit 3429295233 - NamedType 2080095568" translate="yes" size-unit="char" xml:space="preserve">
           <source>Remaining must be 0 in allocation %1</source>
@@ -270,10 +266,6 @@
         <trans-unit id="Codeunit 3429295233 - NamedType 4262854500" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cumulative Period: %1</source>
           <target>Akkumuleret periode: %1</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3429295233 - NamedType 587875298" translate="yes" size-unit="char" xml:space="preserve">
-          <source> in allocation </source>
-          <target> i tildeling </target>
         </trans-unit>
         <trans-unit id="Codeunit 3429295233 - NamedType 719371713" translate="yes" size-unit="char" xml:space="preserve">
           <source>Re-Run Entry Allocation.</source>
@@ -4835,6 +4827,10 @@
           <source>Specifies the name of the cost journal entry.</source>
           <target>Angiver navnet på omkostningskladdeposten.</target>
         </trans-unit>
+        <trans-unit id="Page 971373506 - Control 3456033531 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the journal type. The type determines what the window will look like.</source>
+          <target>Angiver kladdetypen. Typen bestemmer, hvordan vinduet kommer til at se ud.</target>
+        </trans-unit>
         <trans-unit id="Page 971373506 - Control 3689166646 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the cost accounting ledger that the balancing entry is posted to.</source>
           <target>Angiver nummeret på den omkostningsregnskabspost, som modposten bogføres på.</target>
@@ -4867,6 +4863,10 @@
           <source>Transfer unit cost from C/A analysis tariff</source>
           <target>Opdater kostpris fra C/A-analysetarif</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1643684395 - Control 986416288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a cost type number to establish which cost type a general ledger account belongs to.</source>
+          <target>Angiver et omkostningstypenummer for at fastslå, hvilken omkostningstype en finanskonto tilhører.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1774700381 - Control 1422467687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies an account that you can use as a filter to define what is displayed in the Analysis by Dimensions window.</source>
           <target>Angiver en konto, som du kan bruge som filter til at definere, hvad der skal vises i vinduet Dimensionsanalyse.</target>
@@ -4882,6 +4882,10 @@
         <trans-unit id="PageExtension 1774700381 - Control 719917558 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the last c/a ledger entry you posted, prior to updating the analysis view.</source>
           <target>Angiver nummeret på den sidste c/a-post, du bogførte, inden analysen opdateres.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1783004618 - Control 986416288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a cost type number to establish which cost type a general ledger account belongs to.</source>
+          <target>Angiver et omkostningstypenummer for at fastslå, hvilken omkostningstype en finanskonto tilhører.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3225531796 - Action 337701643 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Standard Production Volumes</source>
@@ -10079,6 +10083,14 @@
           <source>Posting Report Caption</source>
           <target>Titel på bogføringsrapport</target>
         </trans-unit>
+        <trans-unit id="Table 3427878711 - Field 3456033531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Table 3427878711 - Field 3456033531 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>,C/A</source>
+          <target>&lt;a0&gt;C/A&lt;/a&gt;</target>
+        </trans-unit>
         <trans-unit id="Table 3427878711 - Field 3689166646 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bal. Accout No.</source>
           <target>Modkonto nr.</target>
@@ -10366,6 +10378,10 @@
         <trans-unit id="TableExtension 2316993817 - Method 4118242957 - NamedType 225200001" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 is not applicable for source type %2.</source>
           <target>%1 gælder ikke for kildetypen %2.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2880424959 - Field 986416288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>C/A Account No.</source>
+          <target>C/A-kontonr.</target>
         </trans-unit>
         <trans-unit id="TableExtension 2995621085 - Field 1510001031 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Analysis Entry</source>
