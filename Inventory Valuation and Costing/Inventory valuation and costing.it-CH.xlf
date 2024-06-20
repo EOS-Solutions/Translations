@@ -83,10 +83,6 @@
           <source>%1 type invalid in this function</source>
           <target>Tipo %1 non previsto per questa funzione</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3362265698 - Method 145985684 - NamedType 2136568042" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total standard subcontracting costs</source>
-          <target>Totale costi di conto lavoro standard</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3362265698 - NamedType 1327832897" translate="yes" size-unit="char" xml:space="preserve">
           <source>Generating Tree @1@@@@@@@</source>
           <target>Generazione albero @1@@@@@@@</target>
@@ -378,6 +374,14 @@
         <trans-unit id="Page 1045935795 - Action 4259720451 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Cost Shares</source>
           <target>Dettaglio costi - ricalcolo</target>
+        </trans-unit>
+        <trans-unit id="Page 1045935795 - Action 587303844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View how the costs of underlying items in the BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply. Each item level can be collapsed or expanded to obtain an overview or detailed view.</source>
+          <target>Visualizza il modo in cui i costi degli articoli sottostanti nella distinta base vengono riportati all'articolo principale. Le informazioni sono organizzate in base alla struttura della distinta base per riflettere a quali livelli si applicano i singoli costi. Ogni livello di elemento può essere compresso o espanso per ottenere una panoramica o una vista dettagliata.</target>
+        </trans-unit>
+        <trans-unit id="Page 1045935795 - Action 587303844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost Shares</source>
+          <target>Dettaglio costi articolo</target>
         </trans-unit>
         <trans-unit id="Page 1045935795 - Action 737847898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost</source>
@@ -943,6 +947,10 @@
           <source>Specifies where to define the unit costs.</source>
           <target>Specifica dove definire i costi unitari.</target>
         </trans-unit>
+        <trans-unit id="Page 1226601917 - Control 1300608141 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Budget Overhead Rate Sum field.</source>
+          <target>Specifica il valore del campo somma costi generali budget</target>
+        </trans-unit>
         <trans-unit id="Page 1226601917 - Control 1604404954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual percentage of the center's cost that includes indirect costs, such as machine maintenance.</source>
           <target>Specifica la percentuale effettiva del centro di costo che include i costi indiretti, ad esempio la manutenzione delle macchine.</target>
@@ -978,6 +986,10 @@
         <trans-unit id="Page 1226601917 - Control 3299657368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the percentage of the center's cost that includes indirect costs, such as machine maintenance.</source>
           <target>Specifica la percentuale del centro di costo che include i costi indiretti, ad esempio la manutenzione delle macchine.</target>
+        </trans-unit>
+        <trans-unit id="Page 1226601917 - Control 3698595704 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the History Overhead Rate Sum field.</source>
+          <target>Specifica il valore del campo somma costi generali storico</target>
         </trans-unit>
         <trans-unit id="Page 1226601917 - Control 3757846886 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual overhead rate of this work center.</source>
@@ -1575,6 +1587,10 @@
           <source>Specifies whether to use the work center cost.</source>
           <target>Specifica se utilizzare il costo dell'area di produzione.</target>
         </trans-unit>
+        <trans-unit id="Page 2499481919 - Control 1300608141 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Budget Overhead Rate Sum field.</source>
+          <target>Specifica il valore del campo somma costi generali budget</target>
+        </trans-unit>
         <trans-unit id="Page 2499481919 - Control 1604404954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual percentage of the center's cost that includes indirect costs, such as machine maintenance.</source>
           <target>Specifica la percentuale effettiva del centro di costo che include i costi indiretti, ad esempio la manutenzione delle macchine.</target>
@@ -1630,6 +1646,10 @@
         <trans-unit id="Page 2499481919 - Control 3512234762 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the scrap percentage.</source>
           <target>Specifica il fattore di scarto in percentuale.</target>
+        </trans-unit>
+        <trans-unit id="Page 2499481919 - Control 3698595704 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the History Overhead Rate Sum field.</source>
+          <target>Specifica il valore del campo somma costi generali storico</target>
         </trans-unit>
         <trans-unit id="Page 2499481919 - Control 3757846886 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual overhead rate of this machine center.</source>
@@ -3639,9 +3659,9 @@
           <source>Specifies the capacity costs related to the item's parent item and other items in the parent item's BOM.</source>
           <target>Specifica i costi di capacità correlati all'articolo principale dell'articolo e ad altri articoli nella distinta base dell'articolo principale.</target>
         </trans-unit>
-        <trans-unit id="Page 37749907 - NamedType 225820054" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Page 37749907 - NamedType 1382978684" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item History standard cost is different from calculated standard cost</source>
-          <target>Il costo storico standard dell'articolo è diverso dal costo standard calcolato</target>
+          <target>Il costo standard dello storico articoli è diverso dal costo standard calcolato</target>
         </trans-unit>
         <trans-unit id="Page 37749907 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>None of the items in the filter have a BOM.</source>
@@ -3818,6 +3838,34 @@
         <trans-unit id="Page 3909408967 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Cost (IVC)</source>
           <target>Costi aggiuntivi (IVC)</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 1390656416 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the kind of capacity type to use for the operation.</source>
+          <target>Specifica il tipo di capacità da utilizzare per l'operazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the kind of type.</source>
+          <target>Specifica il tipo della natura.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 2053609798 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the cost nature for this operation.</source>
+          <target>Specifica la natura di costo dell'operazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 2598133084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the period code.</source>
+          <target>Specifica il cod. periodo.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 381961415 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost for this operation.</source>
+          <target>Specifica il costo unitario per questa operazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of Work Center or Machine Center corresponding to capacity type.</source>
+          <target>Specifica il numero di area di produzione o centro di lavoro corrispondente al tipo di capacità.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>History Cost Nature for Production Area</source>
+          <target>Storico nature di costo aree di produzione/centri di lavoro</target>
         </trans-unit>
         <trans-unit id="Page 4087155669 - Control 1251760580 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the standard total cost of all components on the parent item's BOM.</source>
@@ -4102,6 +4150,14 @@
         <trans-unit id="Page 4157661377 - Action 4259720451 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Cost Shares</source>
           <target>Dettaglio costi - ricalcolo</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Action 587303844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View how the costs of underlying items in the BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply. Each item level can be collapsed or expanded to obtain an overview or detailed view.</source>
+          <target>Visualizza il modo in cui i costi degli articoli sottostanti nella distinta base vengono riportati all'articolo principale. Le informazioni sono organizzate in base alla struttura della distinta base per riflettere a quali livelli si applicano i singoli costi. Ogni livello di elemento può essere compresso o espanso per ottenere una panoramica o una vista dettagliata.</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Action 587303844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost Shares</source>
+          <target>Dettaglio costi articolo</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Action 737847898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost</source>
@@ -8183,6 +8239,10 @@
           <source>Use Work Center Cost</source>
           <target>Usa costo area di produzione</target>
         </trans-unit>
+        <trans-unit id="Table 2679012623 - Field 1300608141 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Budget Overhead Rate Sum</source>
+          <target>Somma costi generali effettivi/budget</target>
+        </trans-unit>
         <trans-unit id="Table 2679012623 - Field 1604404954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Overhead Cost %</source>
           <target>Costi generali % eff./budget</target>
@@ -8250,6 +8310,10 @@
         <trans-unit id="Table 2679012623 - Field 3512234762 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scrap %</source>
           <target>% scarto</target>
+        </trans-unit>
+        <trans-unit id="Table 2679012623 - Field 3698595704 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>History Overhead Rate Sum</source>
+          <target>Somma dei costi generali storico</target>
         </trans-unit>
         <trans-unit id="Table 2679012623 - Field 3757846886 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Overhead Rate</source>
@@ -9119,6 +9183,46 @@
           <source>Additional Cost</source>
           <target>Costo aggiuntivo</target>
         </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 1390656416 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Capacity Type</source>
+          <target>Tipo di capacità</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 1390656416 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Work Center,Machine Center</source>
+          <target>Area di produzione,Centro di lavoro</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 1878130204 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>History,Actual/Budget</source>
+          <target>Storico,Effettivo/Budget</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 2053609798 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost Nature Code</source>
+          <target>Cod. natura di costo</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 2598133084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Period Code</source>
+          <target>Cod. periodo</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 381961415 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit Cost</source>
+          <target>Costo unitario</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 541974475 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Modified</source>
+          <target>Modificato</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>History Cost Nature for Production Area</source>
+          <target>Storico nature di costo aree di produzione/centri di lavoro</target>
+        </trans-unit>
         <trans-unit id="Table 4087155669 - Field 1251760580 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Std. Single-Level Add. Cost</source>
           <target>Costo standard - Livello sing.</target>
@@ -9391,6 +9495,10 @@
           <source>Specific Unit Cost</source>
           <target>Costo unitario specifico</target>
         </trans-unit>
+        <trans-unit id="Table 4182196371 - Field 1300608141 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Budget Overhead Rate Sum</source>
+          <target>Somma costi generali effettivi/budget</target>
+        </trans-unit>
         <trans-unit id="Table 4182196371 - Field 1604404954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Overhead Cost %</source>
           <target>Costi generali % eff./budget</target>
@@ -9438,6 +9546,10 @@
         <trans-unit id="Table 4182196371 - Field 3299657368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Cost %</source>
           <target>% costo gen.</target>
+        </trans-unit>
+        <trans-unit id="Table 4182196371 - Field 3698595704 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>History Overhead Rate Sum</source>
+          <target>Somma dei costi generali storico</target>
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 3757846886 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Overhead Rate</source>

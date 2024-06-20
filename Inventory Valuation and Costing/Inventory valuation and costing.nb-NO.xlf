@@ -83,10 +83,6 @@
           <source>%1 type invalid in this function</source>
           <target>%1 type ugyldig i denne funksjonen</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3362265698 - Method 145985684 - NamedType 2136568042" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total standard subcontracting costs</source>
-          <target>Totale standard underleverandørkostnader</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3362265698 - NamedType 1327832897" translate="yes" size-unit="char" xml:space="preserve">
           <source>Generating Tree @1@@@@@@@</source>
           <target>Generere tre @1@@@@@@@</target>
@@ -378,6 +374,14 @@
         <trans-unit id="Page 1045935795 - Action 4259720451 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Cost Shares</source>
           <target>Rullet opp kostnadsandeler</target>
+        </trans-unit>
+        <trans-unit id="Page 1045935795 - Action 587303844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View how the costs of underlying items in the BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply. Each item level can be collapsed or expanded to obtain an overview or detailed view.</source>
+          <target>Se hvordan kostnadene for underliggende varer i stykklisten ruller opp til den overordnede varen. Informasjonen er organisert etter stykklistestrukturen for å reflektere på hvilke nivåer de enkelte kostnadene gjelder. Hvert elementnivå kan skjules eller utvides for å få en oversikt eller detaljert visning.</target>
+        </trans-unit>
+        <trans-unit id="Page 1045935795 - Action 587303844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost Shares</source>
+          <target>Varekostnadsandeler</target>
         </trans-unit>
         <trans-unit id="Page 1045935795 - Action 737847898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost</source>
@@ -943,6 +947,10 @@
           <source>Specifies where to define the unit costs.</source>
           <target>Angir hvor enhetskosten skal defineres.</target>
         </trans-unit>
+        <trans-unit id="Page 1226601917 - Control 1300608141 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Budget Overhead Rate Sum field.</source>
+          <target>Angir verdien av feltet Budget Overhead Rate Sum.</target>
+        </trans-unit>
         <trans-unit id="Page 1226601917 - Control 1604404954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual percentage of the center's cost that includes indirect costs, such as machine maintenance.</source>
           <target>Angir den faktiske prosenten av senterets kostnad som inkluderer indirekte kostnader, for eksempel maskinvedlikehold.</target>
@@ -978,6 +986,10 @@
         <trans-unit id="Page 1226601917 - Control 3299657368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the percentage of the center's cost that includes indirect costs, such as machine maintenance.</source>
           <target>Angir prosenten av senterets kostnad som inkluderer indirekte kostnader, for eksempel maskinvedlikehold.</target>
+        </trans-unit>
+        <trans-unit id="Page 1226601917 - Control 3698595704 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the History Overhead Rate Sum field.</source>
+          <target>Angir verdien av feltet History Overhead Rate Sum.</target>
         </trans-unit>
         <trans-unit id="Page 1226601917 - Control 3757846886 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual overhead rate of this work center.</source>
@@ -1575,6 +1587,10 @@
           <source>Specifies whether to use the work center cost.</source>
           <target>Angir om arbeidssenterkostnaden skal brukes.</target>
         </trans-unit>
+        <trans-unit id="Page 2499481919 - Control 1300608141 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Budget Overhead Rate Sum field.</source>
+          <target>Angir verdien av feltet Budget Overhead Rate Sum.</target>
+        </trans-unit>
         <trans-unit id="Page 2499481919 - Control 1604404954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual percentage of the center's cost that includes indirect costs, such as machine maintenance.</source>
           <target>Angir den faktiske prosenten av senterets kostnad som inkluderer indirekte kostnader, for eksempel maskinvedlikehold.</target>
@@ -1630,6 +1646,10 @@
         <trans-unit id="Page 2499481919 - Control 3512234762 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the scrap percentage.</source>
           <target>Angir svinnprosenten.</target>
+        </trans-unit>
+        <trans-unit id="Page 2499481919 - Control 3698595704 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the History Overhead Rate Sum field.</source>
+          <target>Angir verdien av feltet History Overhead Rate Sum.</target>
         </trans-unit>
         <trans-unit id="Page 2499481919 - Control 3757846886 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual overhead rate of this machine center.</source>
@@ -3639,7 +3659,7 @@
           <source>Specifies the capacity costs related to the item's parent item and other items in the parent item's BOM.</source>
           <target>Spesifiserer kapasitetskostnadene knyttet til varens overordnede vare og andre varer i den overordnede varens stykkliste.</target>
         </trans-unit>
-        <trans-unit id="Page 37749907 - NamedType 225820054" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Page 37749907 - NamedType 1382978684" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item History standard cost is different from calculated standard cost</source>
           <target>Varehistorikk standardkostnad er forskjellig fra beregnet standardkostnad</target>
         </trans-unit>
@@ -3818,6 +3838,34 @@
         <trans-unit id="Page 3909408967 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Cost (IVC)</source>
           <target>Tilleggskostnader (IVC)</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 1390656416 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the kind of capacity type to use for the operation.</source>
+          <target>Angir typen kapasitetstype som skal brukes for operasjonen.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the kind of type.</source>
+          <target>Angir type type.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 2053609798 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the cost nature for this operation.</source>
+          <target>Angir kostnadsarten for denne operasjonen.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 2598133084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the period code.</source>
+          <target>Angir periodekoden.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 381961415 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost for this operation.</source>
+          <target>Angir enhetskostnaden for denne operasjonen.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of Work Center or Machine Center corresponding to capacity type.</source>
+          <target>Angir antall Work Center eller Maskinsenter som tilsvarer kapasitetstypen.</target>
+        </trans-unit>
+        <trans-unit id="Page 3996669604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>History Cost Nature for Production Area</source>
+          <target>Storico natur kostnadene er av produksjon</target>
         </trans-unit>
         <trans-unit id="Page 4087155669 - Control 1251760580 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the standard total cost of all components on the parent item's BOM.</source>
@@ -4102,6 +4150,14 @@
         <trans-unit id="Page 4157661377 - Action 4259720451 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Cost Shares</source>
           <target>Rullet opp kostnadsandeler</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Action 587303844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View how the costs of underlying items in the BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply. Each item level can be collapsed or expanded to obtain an overview or detailed view.</source>
+          <target>Se hvordan kostnadene for underliggende varer i stykklisten ruller opp til den overordnede varen. Informasjonen er organisert etter stykklistestrukturen for å reflektere på hvilke nivåer de enkelte kostnadene gjelder. Hvert elementnivå kan skjules eller utvides for å få en oversikt eller detaljert visning.</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Action 587303844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost Shares</source>
+          <target>Varekostnadsandeler</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Action 737847898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost</source>
@@ -8183,6 +8239,10 @@
           <source>Use Work Center Cost</source>
           <target>Bruk Work Center Cost</target>
         </trans-unit>
+        <trans-unit id="Table 2679012623 - Field 1300608141 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Budget Overhead Rate Sum</source>
+          <target>summen av budsjettoverheadkostnader</target>
+        </trans-unit>
         <trans-unit id="Table 2679012623 - Field 1604404954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Overhead Cost %</source>
           <target>Budsjett indirekte kostnader %</target>
@@ -8250,6 +8310,10 @@
         <trans-unit id="Table 2679012623 - Field 3512234762 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scrap %</source>
           <target>skrap %</target>
+        </trans-unit>
+        <trans-unit id="Table 2679012623 - Field 3698595704 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>History Overhead Rate Sum</source>
+          <target>summen av historiske faste kostnader</target>
         </trans-unit>
         <trans-unit id="Table 2679012623 - Field 3757846886 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Overhead Rate</source>
@@ -9119,6 +9183,46 @@
           <source>Additional Cost</source>
           <target>Ekstra kostnader</target>
         </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 1390656416 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Capacity Type</source>
+          <target>Kapasitetstype</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 1390656416 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Work Center,Machine Center</source>
+          <target>Arbeidssenter, Maskinsenter</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 1878130204 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>History,Actual/Budget</source>
+          <target>Historie,Faktisk/budsjett</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 2053609798 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost Nature Code</source>
+          <target>Type kostnadskode</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 2598133084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Period Code</source>
+          <target>periode kode</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 381961415 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit Cost</source>
+          <target>Enhetskostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nei.</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Field 541974475 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Modified</source>
+          <target>Modifisert</target>
+        </trans-unit>
+        <trans-unit id="Table 3996669604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>History Cost Nature for Production Area</source>
+          <target>Storico natur kostnadene er av produksjon</target>
+        </trans-unit>
         <trans-unit id="Table 4087155669 - Field 1251760580 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Std. Single-Level Add. Cost</source>
           <target>Std. Single-nivå Legg til. Koste</target>
@@ -9391,6 +9495,10 @@
           <source>Specific Unit Cost</source>
           <target>Spesifikk enhetskostnaden</target>
         </trans-unit>
+        <trans-unit id="Table 4182196371 - Field 1300608141 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Budget Overhead Rate Sum</source>
+          <target>summen av budsjettoverheadkostnader</target>
+        </trans-unit>
         <trans-unit id="Table 4182196371 - Field 1604404954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Overhead Cost %</source>
           <target>Budsjett indirekte kostnader %</target>
@@ -9438,6 +9546,10 @@
         <trans-unit id="Table 4182196371 - Field 3299657368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Cost %</source>
           <target>Indirekte kostnad  %</target>
+        </trans-unit>
+        <trans-unit id="Table 4182196371 - Field 3698595704 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>History Overhead Rate Sum</source>
+          <target>summen av historiske faste kostnader</target>
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 3757846886 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Budget Overhead Rate</source>
