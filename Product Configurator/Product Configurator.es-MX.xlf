@@ -11,6 +11,9 @@
           <source>%1 with %2 %3 cannot be found. Check %4 %5 %6 %7.</source>
           <target>%1 con %2 %3 no se puede encontrar. Comprobación %4 %5 %6 %7.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1219423288 - Method 3106010446 - NamedType 3001356450" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Characteristic %1 value %2 not expected (from Value %3 to Value %4) in the rule %5 of Item No. %6 WBS No. %7</source>
+        </trans-unit>
         <trans-unit id="Codeunit 1219423288 - Method 3361475080 - NamedType 166022308" translate="yes" size-unit="char" xml:space="preserve">
           <source>The configuration already exists %1. View the item card?</source>
           <target>La configuración ya existe %1. ¿Ver la tarjeta de artículos?</target>
@@ -51,10 +54,6 @@
         <trans-unit id="Codeunit 1219423288 - NamedType 16697238" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant Code %1 is too long. Item %2.</source>
           <target>El código de variante %1 es demasiado largo. Punto %2.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1219423288 - NamedType 1858590414" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invalid Characteristic Value %1</source>
-          <target>Valor de característica no válido %1</target>
         </trans-unit>
         <trans-unit id="Codeunit 1219423288 - NamedType 225200001" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unable to open the configurator in lite mode. The item is already configured.</source>
@@ -1042,8 +1041,8 @@
           <target>Especifica el valor de los nos estándar. Campo</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 3370548576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>It allows to define from which level the product configurator starts to search for the values of the characteristics used in the relations / formulas / conditions. The allowed values are: 1) Starting from the current level. Recommended. 2) Starting from the upper level.</source>
-          <target>Especifica el valor del charac de búsqueda. para Sublev. Campo L. MAT</target>
+          <source>It allows to define from which level the product configurator starts to search for the values of the characteristics used in the conditions. The allowed values are: 1) Starting from the current level. Recommended. 2) Starting from the upper level.</source>
+          <target>Permite definir a partir de qué nivel el configurador de productos comienza a buscar los valores de las características utilizadas en las condiciones. Los valores permitidos son: 1) A partir del nivel actual. Recomendado. 2) A partir del nivel superior.</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 3428440432 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If enabled, allows to save Item/Variant description in language after configuration.</source>
@@ -1612,6 +1611,9 @@
         <trans-unit id="Page 2434863672 - Control 3798681774 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Variant Code field</source>
           <target>Especifica el valor del campo Código de variante</target>
+        </trans-unit>
+        <trans-unit id="Page 2434863672 - NamedType 1858590414" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error %1 in item %2 reconfiguration variant code %3</source>
         </trans-unit>
         <trans-unit id="Page 2434863672 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Error %1 in item %2</source>
@@ -6846,15 +6848,14 @@
           <source>Neutral Item</source>
           <target>Artículo neutro</target>
         </trans-unit>
+        <trans-unit id="Table 3246210835 - Method 916710296 - NamedType 3001356450" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Characteristic %1 value %2 not expected (from value %3 to value %4) in the rule %5 of Item No. %6 WBS No. %7</source>
+        </trans-unit>
         <trans-unit id="Table 3246210835 - NamedType 1858590414" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value %1 Must Be Numeric</source>
           <target>Valor de característica %1 debe ser numérico</target>
         </trans-unit>
         <trans-unit id="Table 3246210835 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invalid Characteristic Value %1</source>
-          <target>Valor de característica no válido %1</target>
-        </trans-unit>
-        <trans-unit id="Table 3246210835 - NamedType 672156893" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invalid Characteristic Value %1</source>
           <target>Valor de característica no válido %1</target>
         </trans-unit>

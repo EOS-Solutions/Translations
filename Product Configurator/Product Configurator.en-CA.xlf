@@ -608,10 +608,10 @@
           <note from="Developer" annotates="general" priority="2">%1 = Characteristic Value</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Config. Charac. - NamedType Text002Err</note>
         </trans-unit>
-        <trans-unit id="Table 3246210835 - NamedType 672156893" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invalid Characteristic Value %1</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Characteristic Value</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Config. Charac. - NamedType Text003Err</note>
+        <trans-unit id="Table 3246210835 - Method 916710296 - NamedType 3001356450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Characteristic %1 value %2 not expected (from value %3 to value %4) in the rule %5 of Item No. %6 WBS No. %7</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Config. Charac. - Method CheckCharacteristicOnValidate - NamedType DecimalValueNotExpectedErr</note>
         </trans-unit>
         <trans-unit id="Table 3246210835 - Field 3965671451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allowed Charac. Code</source>
@@ -4853,11 +4853,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS028 CFG Configurator Mgt. - NamedType Text001Qst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1219423288 - NamedType 1858590414" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invalid Characteristic Value %1</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Characteristic Value</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS028 CFG Configurator Mgt. - NamedType Text002Err</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1219423288 - NamedType 672156893" size-unit="char" translate="yes" xml:space="preserve">
           <source>Characteristic %1 mandatory, item %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Characteristic Code; %2 = Item No.</note>
@@ -4927,6 +4922,11 @@
           <source>Unable to open the configurator in lite mode. The item is already configured.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS028 CFG Configurator Mgt. - NamedType Text016Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1219423288 - Method 3106010446 - NamedType 3001356450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Characteristic %1 value %2 not expected (from Value %3 to Value %4) in the rule %5 of Item No. %6 WBS No. %7</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS028 CFG Configurator Mgt. - Method CheckCharacteritcs - NamedType DecimalValueNotExpectedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1219423288 - Method 4246950621 - NamedType 1079023464" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error creating %1: %2 </source>
@@ -6489,7 +6489,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control BOMSublevelsCalculationType - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 3370548576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>It allows to define from which level the product configurator starts to search for the values of the characteristics used in the relations / formulas / conditions. The allowed values are: 1) Starting from the current level. Recommended. 2) Starting from the upper level.</source>
+          <source>It allows to define from which level the product configurator starts to search for the values of the characteristics used in the conditions. The allowed values are: 1) Starting from the current level. Recommended. 2) Starting from the upper level.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control SearchCharacforSublevBOM - Property ToolTip</note>
         </trans-unit>
@@ -7247,6 +7247,11 @@
           <source>Error %1 in item %2</source>
           <note from="Developer" annotates="general" priority="2">%1 = Error text; %2 = Item No.;</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Item Config. Keys - NamedType Text001Err</note>
+        </trans-unit>
+        <trans-unit id="Page 2434863672 - NamedType 1858590414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error %1 in item %2 reconfiguration variant code %3</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Error text; %2 = Item No.; %3 = Variant Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Item Config. Keys - NamedType Text002Err</note>
         </trans-unit>
         <trans-unit id="Page 2434863672 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Description field</source>
