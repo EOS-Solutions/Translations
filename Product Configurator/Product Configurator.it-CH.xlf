@@ -459,6 +459,18 @@
           <source>Configurator Closing</source>
           <target>Chiusura configuratore</target>
         </trans-unit>
+        <trans-unit id="Enum 439594847 - EnumValue 3510972785 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>2 minutes</source>
+          <target>2 minuti</target>
+        </trans-unit>
+        <trans-unit id="Enum 439594847 - EnumValue 3913689804 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>5 minutes</source>
+          <target>5 minuti</target>
+        </trans-unit>
+        <trans-unit id="Enum 439594847 - EnumValue 475514385 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Realtime</source>
+          <target>Realtime</target>
+        </trans-unit>
         <trans-unit id="Enum 547129361 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
           <target> </target>
@@ -1246,6 +1258,10 @@
         <trans-unit id="Page 1762500533 - Control 4046993864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If enabled, it allows for a configuration made in a sales document to save the price calculated by the configurator in the standard Business Central price lists. Price lists are created/modified for all valid price matrix. The feature handles both Business Central pricing experiences. The individual surcharge lines are not saved in the price lists but if the «Enable surcharge lines» field is disabled in the configurator setup, the stored price includes all the surcharges.</source>
           <target>Se abilitato consente a fronte di una configurazione, fatta in un documento di vendita, di salvare il prezzo calcolato dal configuratore nei listini standard di Business Central. I listini vengono creati/modificati per tutte le matrici prezzo valide. La funzionalità gestisce entrambe le esperienze prezzo di Business Central. Le singole righe di maggiorazione non vengono salvate nei listini ma se nel setup del configuratore il campo «Abilita righe maggiorazione» è disabilitato nel listino viene memorizzato il prezzo comprensivo di tutte le maggiorazioni.</target>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Control 405274042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This parameter specifies how often the cached setups are checked to ensure they are up-to-date with any changes made. 'Realtime' means that the cache is checked every time it is used, which may impact performance. The cache cannot be disabled.</source>
+          <target>Questo parametro specifica la frequenza con cui vengono controllate le impostazioni memorizzate nella cache per assicurarsi che siano aggiornate con le modifiche apportate. "Realtime" significa che la cache viene controllata ogni volta che viene utilizzata, il che può influire sulle prestazioni. La cache non può essere disabilitata.</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 4069789961 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>The Azure application Client Secret</source>
@@ -2893,21 +2909,27 @@
         </trans-unit>
         <trans-unit id="Page 3674701915 - Control 1165969121 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3674701915 - Control 1751003220 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3674701915 - Control 2392829959 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3674701915 - Control 4136959197 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3674701915 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3674701915 - Control 692831658 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3674701915 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Configurator Conditions Lines</source>
@@ -3083,21 +3105,27 @@
         </trans-unit>
         <trans-unit id="Page 3808563631 - Control 1067433626 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3808563631 - Control 13618793 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3808563631 - Control 2183437288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3808563631 - Control 3801928269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3808563631 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3808563631 - Control 707698490 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Page 3808563631 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristics Set Lines</source>
@@ -4270,6 +4298,14 @@
         <trans-unit id="PageExtension 2062827037 - Control 3146609363 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Ref. Surcharge Line No. field</source>
           <target>Specifica il valore del campo Rif. riga maggiorazioni</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2086173335 - Control 2804847381 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Variant Code field</source>
+          <target>Specifica il valore del campo Cod. variante</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2086173335 - Control 2804847381 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="PageExtension 2170450287 - Action 1008018847 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Configured Item action</source>
@@ -6423,6 +6459,10 @@
           <source>Enable Weight Calculation &amp; Volume</source>
           <target>Abilita calcolo pesi e volume</target>
         </trans-unit>
+        <trans-unit id="Table 1762500533 - Field 405274042 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cache check frequency</source>
+          <target>Frequenza di controllo della cache</target>
+        </trans-unit>
         <trans-unit id="Table 1762500533 - Field 4155537764 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Surcharge Description (Negative)</source>
           <target>Descrizione maggiorazioni (negative)</target>
@@ -6777,6 +6817,7 @@
         </trans-unit>
         <trans-unit id="Table 2558502198 - Field 1711712149 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry Guid</source>
+          <target>Guid movimento</target>
         </trans-unit>
         <trans-unit id="Table 2558502198 - Field 328122214 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delete Executed</source>
@@ -8314,6 +8355,14 @@
           <source>TempGlobal</source>
           <target>TempGlobal</target>
         </trans-unit>
+        <trans-unit id="Table 3599018846 - Field 3017471043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table No.</source>
+          <target>Nr. tabella</target>
+        </trans-unit>
+        <trans-unit id="Table 3599018846 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+        </trans-unit>
         <trans-unit id="Table 3758075521 - Field 1032786358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 1</source>
           <target>A valore numerico caratteristica 1</target>
@@ -9232,6 +9281,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 1753995630 - Field 2175242516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Routing</source>
+          <target>Copia ciclo</target>
         </trans-unit>
         <trans-unit id="TableExtension 1753995630 - Field 3383377015 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Production BOM</source>

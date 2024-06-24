@@ -3,6 +3,16 @@
   <file datatype="xml" source-language="en-US" target-language="en-CA" original="Product Configurator">
     <body>
       <group id="body">
+        <trans-unit id="Table 3599018846 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG CacheSynch - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3599018846 - Field 3017471043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG CacheSynch - Field Table No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3854042679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Characteristics Buffer</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1367,6 +1377,11 @@
           <source>BOM Sublevels Calculation Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Setup - Field BOM Sublevels Calculation Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1762500533 - Field 405274042 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cache check frequency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Setup - Field Cache check frequency - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1365229884 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Change to Comment Line</source>
@@ -6403,6 +6418,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control General - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1762500533 - Control 405274042 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This parameter specifies how often the cached setups are checked to ensure they are up-to-date with any changes made. 'Realtime' means that the cache is checked every time it is used, which may impact performance. The cache cannot be disabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control Cache check frequency - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1762500533 - Control 479181087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>It is used to calculate prices and surcharges when using the configurator from the item or in general from all managements that are not a sales or purchase document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11228,6 +11248,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18091286 - Control EOSItemVarCharF - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2086173335 - Control 2804847381 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3926735721">
+          <source>Specifies the value of the Variant Code field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18091287 - Control EOSVariantCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2086173335 - Control 2804847381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3926735721">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18091287 - Control EOSVariantCode - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1448476718 - Control 2246414297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 40725609">
           <source>Item Variant Characteristics Factbox</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11682,6 +11712,21 @@
           <source>During Process</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS028 CFG BOM Sublevels Calculation Type - EnumValue During Process - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 439594847 - EnumValue 3510972785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>2 minutes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS028 CFG Cache Check Freq. - EnumValue 2 minutes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 439594847 - EnumValue 3913689804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>5 minutes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS028 CFG Cache Check Freq. - EnumValue 5 minutes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 439594847 - EnumValue 475514385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Realtime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS028 CFG Cache Check Freq. - EnumValue Realtime - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1637308859 - EnumValue 1383905037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Default</source>
