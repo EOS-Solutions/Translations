@@ -431,6 +431,14 @@
           <source>WMS Warehouse Activities for %1 have been disabled due to missing Resource No. on Employee</source>
           <target>Le attività warehouse di PowerWMS per %1 sono state disabilitate per la mancanza della risorsa sul dipendente.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - Method 2799382195 - NamedType 1813513483" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 invalid activities found and hidden from the activity list.</source>
+          <target>%1 attività non gestite rimosse dalla lista attività.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - Method 2799382195 - NamedType 4281977334" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invalid activities have been found and hidden from the activity list</source>
+          <target>Sono state trovate e rimosse attività non gestite.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2996632548 - Method 3445231037 - NamedType 3969280229" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Warehouse Activities for users with Resource No. %1 have been disabled due to missing Linked User Id On Resource</source>
           <target>Le attività warehouse di PowerWMS per gli utenti con risorsa nr. %1 sono state disabilitate per la mancanza di un utente collegato alla risorsa </target>
@@ -1887,6 +1895,10 @@
           <source>Activity</source>
           <target>Attività</target>
         </trans-unit>
+        <trans-unit id="Page 1710398744 - Control 4152810933 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activities with unknown status are not visible in the activities list. This mean that there is no interface that handle activities.</source>
+          <target>Le attività con stato "Sconosciuto" non sono visibili nella lista. Questo significa che non è presente nessuna interfaccia per gestire le attività sconosciute.</target>
+        </trans-unit>
         <trans-unit id="Page 1710398744 - Control 4171342510 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Badge No.</source>
           <target>Nr. badge</target>
@@ -2844,7 +2856,7 @@
           <target>Utenti (WMS)</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 1482668068 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Lot No.</source>
+          <source>Lot No.</source>
           <target>Nr. lotto</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 2161572060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -2856,7 +2868,7 @@
           <target>Unità di misura base articolo</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 2443841526 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Unit Of Measure Code</source>
+          <source>Unit Of Measure Code</source>
           <target>Cod. unità di misura</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 2626366431 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -2864,7 +2876,7 @@
           <target>Dettagli</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 2704404533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Quantity</source>
+          <source>Quantity</source>
           <target>Quantità</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 2814799924 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -2876,7 +2888,7 @@
           <target>Nuovo cod. collocazione</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 3179217921 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Quantity in Base Unit Of Measure</source>
+          <source>Quantity in Base Unit Of Measure</source>
           <target>Quantità (base)</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 3338825283 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -2884,27 +2896,35 @@
           <target>Cod. collocazione originale</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 3450651614 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Variant Code</source>
+          <source>Variant Code</source>
           <target>Cod. variante</target>
+        </trans-unit>
+        <trans-unit id="Page 2925866076 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrizione</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 3516735208 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Location Code</source>
           <target>Nuovo cod. ubicazione</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 4240543679 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Package No.</source>
+          <source>Package No.</source>
           <target>Nr. collo</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 47037625 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Serial No.</source>
+          <source>Serial No.</source>
           <target>Nr. seriale</target>
+        </trans-unit>
+        <trans-unit id="Page 2925866076 - Control 47657272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Descrizione 2</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 529505251 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Original Location Code</source>
           <target>Cod. ubicazione originale</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 568743302 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Item No.</source>
+          <source>Item No.</source>
           <target>Nr. articolo</target>
         </trans-unit>
         <trans-unit id="Page 2925866076 - Control 627063663 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3587,6 +3607,10 @@
           <source>User Item Journal Setup (WMS)</source>
           <target>Setup giornali utente (WMS)</target>
         </trans-unit>
+        <trans-unit id="PageExtension 233171105 - Control 2249866315 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates that this line was scanned with PowerWMS</source>
+          <target>Indica se la riga è stata processata tramite PowerWMS</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3252745167 - Method 1817543442 - NamedType 883623271" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tracking Specification reference is not temporary.</source>
           <target>Il riferimento all'oggetto "Specifica tracciabilità" non è temporanero</target>
@@ -4235,6 +4259,10 @@
           <source>Resource No.</source>
           <target>Nr. risorsa</target>
         </trans-unit>
+        <trans-unit id="Table 1905338988 - Field 4152810933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unknown Activities</source>
+          <target>Attività sconosciute</target>
+        </trans-unit>
         <trans-unit id="Table 1905338988 - Field 4171342510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Badge No.</source>
           <target>Nr. badge</target>
@@ -4503,6 +4531,10 @@
           <source>Notifications (WMS)</source>
           <target>Notifiche (WMS)</target>
         </trans-unit>
+        <trans-unit id="Table 2013420453 - Field 1050738298 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Warranty Date Editable</source>
+          <target>Data garanzia modificabile</target>
+        </trans-unit>
         <trans-unit id="Table 2013420453 - Field 12837806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Automatic Tracking</source>
           <target>Tracciabilità automatica</target>
@@ -4615,6 +4647,10 @@
           <source>Source ID</source>
           <target>Id origine</target>
         </trans-unit>
+        <trans-unit id="Table 2013420453 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrizione</target>
+        </trans-unit>
         <trans-unit id="Table 2013420453 - Field 3478481273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Activity Scan Id</source>
           <target>Id scansione attività</target>
@@ -4640,8 +4676,8 @@
           <target>Nr. riga ord. prod. origine</target>
         </trans-unit>
         <trans-unit id="Table 2013420453 - Field 3951649563 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item Tracking Code</source>
-          <target>Codice tracciabilità articolo</target>
+          <source>Expiration Date Editable</source>
+          <target>Data scadenza modificabile</target>
         </trans-unit>
         <trans-unit id="Table 2013420453 - Field 4046532848 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scan Line Id</source>
@@ -4654,6 +4690,10 @@
         <trans-unit id="Table 2013420453 - Field 47037625 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Serial No.</source>
           <target>Nr. seriale</target>
+        </trans-unit>
+        <trans-unit id="Table 2013420453 - Field 47657272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Descrizione 2</target>
         </trans-unit>
         <trans-unit id="Table 2013420453 - Field 529505251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Original Location Code</source>
@@ -4979,6 +5019,10 @@
           <source>Qty. Rounding Precision (Base)</source>
           <target>Precisione arrotondamento (base)</target>
         </trans-unit>
+        <trans-unit id="Table 3024641548 - Field 2866940747 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2 Field No.</source>
+          <target>Nr. campo "Descrizione 2"</target>
+        </trans-unit>
         <trans-unit id="Table 3024641548 - Field 2997368426 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Prod. Order Line Field No.</source>
           <target>Nr. campo "Riga ord. prod. origine"</target>
@@ -5062,6 +5106,10 @@
         <trans-unit id="Table 3024641548 - Field 4255164074 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scan Quantity (Base)</source>
           <target>Qtà. scansione (base)</target>
+        </trans-unit>
+        <trans-unit id="Table 3024641548 - Field 47657272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Descrizione 2</target>
         </trans-unit>
         <trans-unit id="Table 3024641548 - Field 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Date</source>
@@ -5370,6 +5418,10 @@
         <trans-unit id="Table 517974087 - Field 1006275236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity Management</source>
           <target>Gestione quantità</target>
+        </trans-unit>
+        <trans-unit id="Table 517974087 - Field 1053950132 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unknown Handler</source>
+          <target>Handler sconosciuto</target>
         </trans-unit>
         <trans-unit id="Table 517974087 - Field 1164086374 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Record Counter</source>
@@ -6004,6 +6056,10 @@
           <target>Descrizione variante WMS</target>
         </trans-unit>
         <trans-unit id="TableExtension 2535633105 - Field 2607329253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Variant Description 2</source>
+          <target>Descrizione 2 variante WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2535633105 - Field 2990690134 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Variant Description 2</source>
           <target>Descrizione 2 variante WMS</target>
         </trans-unit>
