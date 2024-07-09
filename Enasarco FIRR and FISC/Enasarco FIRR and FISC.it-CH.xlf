@@ -149,7 +149,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 745959694 - Method 2424479486 - NamedType 3811564411" translate="yes" size-unit="char" xml:space="preserve">
           <source>Another %1 %2 with same period already exists.</source>
-          <target>Esiste già un %1 %2 per lo steso periodo.</target>
+          <target>Esiste già un %1 %2 per lo stesso periodo.</target>
         </trans-unit>
         <trans-unit id="Codeunit 745959694 - Method 3165428448 - NamedType 1698007908" translate="yes" size-unit="char" xml:space="preserve">
           <source>Field %1 must contain only numbers.</source>
@@ -206,6 +206,14 @@
         <trans-unit id="Codeunit 925085343 - Method 2282782031 - NamedType 2433112000" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase document line %1 is related to %2. You cannot modify directly line amount. If needed, a manual contribution entry should be created using journals.</source>
           <target>Riga acquisto %1 è collegata a %2. Non è possibile modificare l'importo riga. Se necessario, inserire un movimento manuale di rettifica.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 925085343 - Method 3394113593 - NamedType 1842495367" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enasarco contributions have already been posted in the G/L, so the invoice line flag 'Do Not Handled Enasarco' will be set to true.</source>
+          <target>I contributi Enasarco sono già stati registrati in contabilità generale, la riga fattura sarà quindi marcata con il flag “Non calcolare Enasarco</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 925085343 - Method 3394113593 - NamedType 2536622900" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enasarco contributions have already been calculated. If necessary, delete the entries, remove the 'Do not calculate Enasarco' flag, and recalculate the contributions.</source>
+          <target>I contributi Enasarco sono già stati calcolati, eventualmente procedere all’eliminazione dei movimenti, alla rimozione del flag “Non calcolare Enasarco” ed al ricalcolo dei contributi stessi</target>
         </trans-unit>
         <trans-unit id="Enum 122049777 - EnumValue 1203324010 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Assistance</source>
@@ -4179,8 +4187,16 @@
           <source>F.I.R.R. Cost G/L Account No.</source>
           <target>Nr. conto costo F.I.R.R.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2848564694 - Field 1400825657 - Method 2126772001 - NamedType 2703356519" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You must first reverse the accounting entry and the delete the already calculated contribution entries</source>
+          <target>Occorre preventivamente procedere allo storno della scrittura contabile ed all’eliminazione dei movimenti contributi già calcolati</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848564694 - Field 1400825657 - Method 2126772001 - NamedType 529958884" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You must first delete the already calculated contribution entries.</source>
+          <target>Occorre preventivamente procedere all’eliminazione dei movimenti contributi già calcolati</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2848564694 - Field 1400825657 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Do Not Handled Enasarco</source>
+          <source>Do Not Handle Enasarco</source>
           <target>Non calcolare Enasarco</target>
         </trans-unit>
         <trans-unit id="TableExtension 3380840888 - Field 1186134123 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
