@@ -878,6 +878,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS011 Contr. Application Mgt. - Method SuggestApplicationsSingle - NamedType CompliantButNotApplLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 925085343 - Method 3394113593 - NamedType 2536622900" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enasarco contributions have already been calculated. If necessary, delete the entries, remove the 'Do not calculate Enasarco' flag, and recalculate the contributions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS011 Contr. Event Sub. - Method OnAfterValidateEventDirectUnitCost - NamedType UnHandledEnasarcoLineNotPostedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 925085343 - Method 3394113593 - NamedType 1842495367" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enasarco contributions have already been posted in the G/L, so the invoice line flag 'Do Not Handled Enasarco' will be set to true.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS011 Contr. Event Sub. - Method OnAfterValidateEventDirectUnitCost - NamedType UnHandledEnasarcoLinePostedMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 925085343 - Method 2282782031 - NamedType 2433112000" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase document line %1 is related to %2. You cannot modify directly line amount. If needed, a manual contribution entry should be created using journals.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4934,9 +4944,19 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS011 PageExt18008388 - Control EOS Exclude from FIRR/FISC - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 2848564694 - Field 1400825657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Do Not Handled Enasarco</source>
+          <source>Do Not Handle Enasarco</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS011 TableExt18008360 - Field EOS Do Not Handled Enasarco - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848564694 - Field 1400825657 - Method 2126772001 - NamedType 529958884" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2848564694">
+          <source>You must first delete the already calculated contribution entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS011 TableExt18008360 - Field EOS Do Not Handled Enasarco - Method OnValidate - NamedType MustDelCalculatedContrEntriesNotPosted</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848564694 - Field 1400825657 - Method 2126772001 - NamedType 2703356519" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2848564694">
+          <source>You must first reverse the accounting entry and the delete the already calculated contribution entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS011 TableExt18008360 - Field EOS Do Not Handled Enasarco - Method OnValidate - NamedType MustDelCalculatedContrEntriesPosted</note>
         </trans-unit>
         <trans-unit id="TableExtension 3380840888 - Field 26928936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
           <source>Amount subject to Enasarco</source>
