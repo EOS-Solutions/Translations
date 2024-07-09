@@ -417,6 +417,15 @@
           <source>User %1 has not permission to change Status %2.</source>
           <target>El usuario %1 no tiene permiso para cambiar el estado %2.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 842517887 - Method 4123031304 - NamedType 1030298708" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To change EDS Status from %1 to %2 a valid record is required for the table %3</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 842517887 - Method 4123031304 - NamedType 1455215975" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To change EDS Status from %1 to %2 no record must be found for the table %3</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 842517887 - Method 4123031304 - NamedType 2648863469" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To change EDS Status from %1 to %2 a valid record is required for the table %3 with the condition %4 %5 %6</source>
+        </trans-unit>
         <trans-unit id="Codeunit 842517887 - Method 520907101 - NamedType 1062699422" translate="yes" size-unit="char" xml:space="preserve">
           <source>To change EDS Status from %1 to %2 a value is required for Field %3 (if %4).</source>
           <target>Para cambiar el estado de EDS de %1 a %2 se requiere un valor para el campo %3 (si %4).</target>
@@ -545,6 +554,54 @@
         <trans-unit id="Enum 3349777243 - EnumValue 3702499555 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Always</source>
         </trans-unit>
+        <trans-unit id="Enum 911212223 - EnumValue 1365275863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Empty</source>
+        </trans-unit>
+        <trans-unit id="Enum 911212223 - EnumValue 2965920042 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Father Field Filter</source>
+        </trans-unit>
+        <trans-unit id="Enum 911212223 - EnumValue 3132936412 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Not Empty</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 1334313545 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Status field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 1682702926 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the From Status field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 3017471043 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table No. field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 3090661100 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Filter field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 3135334477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table ID field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 3165189583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table Option Type field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 3304877602 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Formula field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 3808951907 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table Name field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 3951756669 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table Field Name field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 4274887077 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table Occurence field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 696389717 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Condition field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Control 807169827 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Father Field Name field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1150370733 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DS Table Preconditions</source>
+        </trans-unit>
         <trans-unit id="Page 1283734436 - Action 1181470318 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Change Status" action</source>
         </trans-unit>
@@ -584,6 +641,51 @@
         <trans-unit id="Page 1283734436 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Mandatory Field Header</source>
           <target>Encabezado de campo obligatorio</target>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 1334313545 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Status field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 1350352618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Text Comment field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 1682702926 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the From Status field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 2846557100 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Text Code field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 3017471043 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table No. field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 3090661100 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Filter field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 3135334477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table ID field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 3165189583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table Option Type field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 3304877602 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Formula field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 3461589025 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the No of Preconditions field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 3808951907 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table Name field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 3951756669 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table Field Name field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 696389717 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Condition field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Control 807169827 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Father Field Name field.</source>
+        </trans-unit>
+        <trans-unit id="Page 1486151721 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DS Status Table Mandatory</source>
         </trans-unit>
         <trans-unit id="Page 15030465 - Control 2190072985 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Funct. Code" field</source>
@@ -629,6 +731,18 @@
           <source>Lines</source>
           <target>Líneas</target>
         </trans-unit>
+        <trans-unit id="Page 1669200580 - Control 1459640594 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 1-CUE 1" field</source>
+        </trans-unit>
+        <trans-unit id="Page 1669200580 - Control 1459640594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 1-CUE 1</source>
+        </trans-unit>
+        <trans-unit id="Page 1669200580 - Control 1494346071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 1-CUE 2" field</source>
+        </trans-unit>
+        <trans-unit id="Page 1669200580 - Control 1494346071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 1-CUE 2</source>
+        </trans-unit>
         <trans-unit id="Page 1669200580 - Control 1722293559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "CUE Title" field</source>
           <target>Especifica el valor del campo "Título de CUE"</target>
@@ -644,6 +758,12 @@
         <trans-unit id="Page 1669200580 - Control 2045925634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary EDS Custom 1-CUE 1</source>
           <target>Resumen EDS Custom 1-CUE 1</target>
+        </trans-unit>
+        <trans-unit id="Page 1669200580 - Control 2396675104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 1-CUE 3" field</source>
+        </trans-unit>
+        <trans-unit id="Page 1669200580 - Control 2396675104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 1-CUE 3</source>
         </trans-unit>
         <trans-unit id="Page 1669200580 - Control 2927758336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Summary EDS Custom 1-CUE 3" field</source>
@@ -867,6 +987,18 @@
           <source>EDS Notification Text List</source>
           <target>Lista de texto de notificación EDS</target>
         </trans-unit>
+        <trans-unit id="Page 2198000723 - Control 1459640594 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Sales 3-CUE 1" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2198000723 - Control 1459640594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Sales 3-CUE 1</source>
+        </trans-unit>
+        <trans-unit id="Page 2198000723 - Control 1494346071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Sales 3-CUE 2" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2198000723 - Control 1494346071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Sales 3-CUE 2</source>
+        </trans-unit>
         <trans-unit id="Page 2198000723 - Control 1722293559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "CUE Title" field</source>
           <target>Especifica el valor del campo "Título de CUE"</target>
@@ -882,6 +1014,12 @@
         <trans-unit id="Page 2198000723 - Control 2045925634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary EDS Sales 3-CUE 1</source>
           <target>Resumen EDS Ventas 3-CUE 1</target>
+        </trans-unit>
+        <trans-unit id="Page 2198000723 - Control 2396675104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Sales 3-CUE 3" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2198000723 - Control 2396675104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Sales 3-CUE 3</source>
         </trans-unit>
         <trans-unit id="Page 2198000723 - Control 2927758336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Summary EDS Sales 3-CUE 3" field</source>
@@ -911,6 +1049,18 @@
           <source>Summary EDS Sales 3</source>
           <target>Resumen de ventas de EDS 3</target>
         </trans-unit>
+        <trans-unit id="Page 2306897197 - Control 1459640594 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 2-CUE 1" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2306897197 - Control 1459640594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 2-CUE 1</source>
+        </trans-unit>
+        <trans-unit id="Page 2306897197 - Control 1494346071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 2-CUE 2" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2306897197 - Control 1494346071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 2-CUE 2</source>
+        </trans-unit>
         <trans-unit id="Page 2306897197 - Control 1722293559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "CUE Title" field</source>
           <target>Especifica el valor del campo "Título de CUE"</target>
@@ -926,6 +1076,12 @@
         <trans-unit id="Page 2306897197 - Control 2045925634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary EDS Custom 2-CUE 1</source>
           <target>Resumen EDS Custom 2-CUE 1</target>
+        </trans-unit>
+        <trans-unit id="Page 2306897197 - Control 2396675104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 2-CUE 3" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2306897197 - Control 2396675104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 3-CUE 3</source>
         </trans-unit>
         <trans-unit id="Page 2306897197 - Control 2927758336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Summary EDS Custom 2-CUE 3" field</source>
@@ -1258,6 +1414,18 @@
           <source>Role Center</source>
           <target>Role Center</target>
         </trans-unit>
+        <trans-unit id="Page 2496513948 - Control 1459640594 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary ADS Purchase 1-CUE 1" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2496513948 - Control 1459640594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary ADS Purchase 1-CUE 1</source>
+        </trans-unit>
+        <trans-unit id="Page 2496513948 - Control 1494346071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary ADS Purchase 1-CUE 2" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2496513948 - Control 1494346071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary ADS Purchase 1-CUE 2</source>
+        </trans-unit>
         <trans-unit id="Page 2496513948 - Control 1722293559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "CUE Title" field</source>
           <target>Especifica el valor del campo "Título de CUE"</target>
@@ -1273,6 +1441,12 @@
         <trans-unit id="Page 2496513948 - Control 2045925634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary EDS Purchase 1-CUE 1</source>
           <target>Resumen EDS Compra 1-CUE 1</target>
+        </trans-unit>
+        <trans-unit id="Page 2496513948 - Control 2396675104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary ADS Purchase 1-CUE 3" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2496513948 - Control 2396675104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary ADS Purchase 1-CUE 3</source>
         </trans-unit>
         <trans-unit id="Page 2496513948 - Control 2927758336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Summary EDS Purchase 1-CUE 3" field</source>
@@ -1314,6 +1488,21 @@
           <source>Import Data</source>
           <target>Importar datos</target>
         </trans-unit>
+        <trans-unit id="Page 2506693251 - Action 3151568533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use new tables and keys</source>
+        </trans-unit>
+        <trans-unit id="Page 2506693251 - Action 3151568533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use the new implementation</source>
+        </trans-unit>
+        <trans-unit id="Page 2506693251 - Action 49314715 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EDS Transaction Log</source>
+        </trans-unit>
+        <trans-unit id="Page 2506693251 - Action 664812375 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EDS Record Status View</source>
+        </trans-unit>
+        <trans-unit id="Page 2506693251 - Control 2439890738 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "New Implementation" field</source>
+        </trans-unit>
         <trans-unit id="Page 2506693251 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>General</target>
@@ -1333,6 +1522,30 @@
         <trans-unit id="Page 2506693251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EDS Setup</source>
           <target>Configuración de EDS</target>
+        </trans-unit>
+        <trans-unit id="Page 2565318168 - Control 1334313545 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the To Status.</source>
+        </trans-unit>
+        <trans-unit id="Page 2565318168 - Control 1497076986 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Change Path Code</source>
+        </trans-unit>
+        <trans-unit id="Page 2565318168 - Control 1682702926 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the From Status.</source>
+        </trans-unit>
+        <trans-unit id="Page 2565318168 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+        </trans-unit>
+        <trans-unit id="Page 2565318168 - Control 3135334477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Table ID.</source>
+        </trans-unit>
+        <trans-unit id="Page 2565318168 - Control 3165189583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Table Option Type.</source>
+        </trans-unit>
+        <trans-unit id="Page 2565318168 - Control 3808951907 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Table Name.</source>
+        </trans-unit>
+        <trans-unit id="Page 2565318168 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mandatory Table Header</source>
         </trans-unit>
         <trans-unit id="Page 2649396677 - Action 3000749517 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "All Users" action</source>
@@ -1448,6 +1661,39 @@
         <trans-unit id="Page 275093063 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lines</source>
           <target>Líneas</target>
+        </trans-unit>
+        <trans-unit id="Page 2766677331 - Control 1350352618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Text Comment field.</source>
+        </trans-unit>
+        <trans-unit id="Page 2766677331 - Control 1735995239 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Father Field Name field.</source>
+        </trans-unit>
+        <trans-unit id="Page 2766677331 - Control 1735995239 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Father Field Value</source>
+        </trans-unit>
+        <trans-unit id="Page 2766677331 - Control 2846557100 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Text Code field.</source>
+        </trans-unit>
+        <trans-unit id="Page 2766677331 - Control 3090661100 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Filter field.</source>
+        </trans-unit>
+        <trans-unit id="Page 2766677331 - Control 3304877602 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Formula field.</source>
+        </trans-unit>
+        <trans-unit id="Page 2766677331 - Control 3461589025 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the No of Preconditions field.</source>
+        </trans-unit>
+        <trans-unit id="Page 2766677331 - Control 3808951907 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the caption of the field on which the data template is based. The caption comes from the Caption property of the field.</source>
+        </trans-unit>
+        <trans-unit id="Page 2766677331 - Control 3951756669 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table Field Name field.</source>
+        </trans-unit>
+        <trans-unit id="Page 2766677331 - Control 696389717 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Condition field.</source>
+        </trans-unit>
+        <trans-unit id="Page 2766677331 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
         </trans-unit>
         <trans-unit id="Page 2768375650 - Action 1973585131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Import/Export setup</source>
@@ -1925,6 +2171,18 @@
           <source>EDS Notification Text</source>
           <target>Texto de notificación EDS</target>
         </trans-unit>
+        <trans-unit id="Page 2775684791 - Control 1459640594 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 4-CUE 1" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2775684791 - Control 1459640594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 4-CUE 1</source>
+        </trans-unit>
+        <trans-unit id="Page 2775684791 - Control 1494346071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 4-CUE 2" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2775684791 - Control 1494346071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 4-CUE 2</source>
+        </trans-unit>
         <trans-unit id="Page 2775684791 - Control 1722293559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "CUE Title" field</source>
           <target>Especifica el valor del campo "Título de CUE"</target>
@@ -1940,6 +2198,12 @@
         <trans-unit id="Page 2775684791 - Control 2045925634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary EDS Custom 4-CUE 1</source>
           <target>Resumen EDS Custom 4-CUE 1</target>
+        </trans-unit>
+        <trans-unit id="Page 2775684791 - Control 2396675104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 4-CUE 3" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2775684791 - Control 2396675104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 4-CUE 3</source>
         </trans-unit>
         <trans-unit id="Page 2775684791 - Control 2927758336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Summary EDS Custom 4-CUE 3" field</source>
@@ -2065,6 +2329,12 @@
           <source>User Permissions</source>
           <target>Permisos de usuario</target>
         </trans-unit>
+        <trans-unit id="Page 2819442872 - Action 1654515846 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Mandatory Tables" action</source>
+        </trans-unit>
+        <trans-unit id="Page 2819442872 - Action 1654515846 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mandatory Tables</source>
+        </trans-unit>
         <trans-unit id="Page 2819442872 - Action 1845383578 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Mandatory Fields" action</source>
           <target>Ejecuta la acción "Campos obligatorios"</target>
@@ -2136,6 +2406,18 @@
           <source>EDS Status Transaction List</source>
           <target>Lista de transacciones de estado EDS</target>
         </trans-unit>
+        <trans-unit id="Page 2835697340 - Control 1459640594 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Sales 2-CUE 1" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2835697340 - Control 1459640594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Sales 2-CUE 1</source>
+        </trans-unit>
+        <trans-unit id="Page 2835697340 - Control 1494346071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Sales 2-CUE 2" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2835697340 - Control 1494346071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Sales 2-CUE 2</source>
+        </trans-unit>
         <trans-unit id="Page 2835697340 - Control 1722293559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "CUE Title" field</source>
           <target>Especifica el valor del campo "Título de CUE"</target>
@@ -2151,6 +2433,12 @@
         <trans-unit id="Page 2835697340 - Control 2045925634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary EDS Sales 2-CUE 1</source>
           <target>Resumen EDS Ventas 2-CUE 1</target>
+        </trans-unit>
+        <trans-unit id="Page 2835697340 - Control 2396675104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Sales 2-CUE 3" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2835697340 - Control 2396675104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Sales 2-CUE 3</source>
         </trans-unit>
         <trans-unit id="Page 2835697340 - Control 2927758336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Summary EDS Sales 2-CUE 3" field</source>
@@ -2180,6 +2468,18 @@
           <source>Summary EDS Sales 2</source>
           <target>Resumen de ventas de EDS 2</target>
         </trans-unit>
+        <trans-unit id="Page 2944593814 - Control 1459640594 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 3-CUE 1" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2944593814 - Control 1459640594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 3-CUE 1</source>
+        </trans-unit>
+        <trans-unit id="Page 2944593814 - Control 1494346071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 3-CUE 2" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2944593814 - Control 1494346071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 3-CUE 2</source>
+        </trans-unit>
         <trans-unit id="Page 2944593814 - Control 1722293559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "CUE Title" field</source>
           <target>Especifica el valor del campo "Título de CUE"</target>
@@ -2195,6 +2495,12 @@
         <trans-unit id="Page 2944593814 - Control 2045925634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary EDS Custom 3-CUE 1</source>
           <target>Resumen EDS Custom 3-CUE 1</target>
+        </trans-unit>
+        <trans-unit id="Page 2944593814 - Control 2396675104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Custom 3-CUE 3" field</source>
+        </trans-unit>
+        <trans-unit id="Page 2944593814 - Control 2396675104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Custom 3-CUE 3</source>
         </trans-unit>
         <trans-unit id="Page 2944593814 - Control 2927758336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Summary EDS Custom 3-CUE 3" field</source>
@@ -2244,6 +2550,18 @@
           <source>Child Table Setup List</source>
           <target>Lista de configuración de tablas secundarias</target>
         </trans-unit>
+        <trans-unit id="Page 3134210565 - Control 1459640594 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary ADS Purchase 2-CUE 2" field</source>
+        </trans-unit>
+        <trans-unit id="Page 3134210565 - Control 1459640594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary ADS Purchase 2-CUE 2</source>
+        </trans-unit>
+        <trans-unit id="Page 3134210565 - Control 1494346071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary ADS Purchase 2-CUE 2" field</source>
+        </trans-unit>
+        <trans-unit id="Page 3134210565 - Control 1494346071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary ADS Purchase 2-CUE 2</source>
+        </trans-unit>
         <trans-unit id="Page 3134210565 - Control 1722293559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "CUE Title" field</source>
           <target>Especifica el valor del campo "Título de CUE"</target>
@@ -2259,6 +2577,12 @@
         <trans-unit id="Page 3134210565 - Control 2045925634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary SDS Purchase 2-CUE 1</source>
           <target>Resumen SDS Compra 2-CUE 1</target>
+        </trans-unit>
+        <trans-unit id="Page 3134210565 - Control 2396675104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary ADS Purchase 2-CUE 3" field</source>
+        </trans-unit>
+        <trans-unit id="Page 3134210565 - Control 2396675104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary ADS Purchase 2-CUE 3</source>
         </trans-unit>
         <trans-unit id="Page 3134210565 - Control 2927758336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Summary ADS Purchase 2-CUE 3" field</source>
@@ -2356,6 +2680,18 @@
           <source>EDS Tables List</source>
           <target>Lista de tablas EDS</target>
         </trans-unit>
+        <trans-unit id="Page 3473393957 - Control 1459640594 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Sales 1-CUE 1" field</source>
+        </trans-unit>
+        <trans-unit id="Page 3473393957 - Control 1459640594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Sales 1-CUE 1</source>
+        </trans-unit>
+        <trans-unit id="Page 3473393957 - Control 1494346071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Sales 1-CUE 2" field</source>
+        </trans-unit>
+        <trans-unit id="Page 3473393957 - Control 1494346071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Sales 1-CUE 2</source>
+        </trans-unit>
         <trans-unit id="Page 3473393957 - Control 1722293559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "CUE Title" field</source>
           <target>Especifica el valor del campo "Título de CUE"</target>
@@ -2371,6 +2707,12 @@
         <trans-unit id="Page 3473393957 - Control 2045925634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary EDS Sales 1-CUE 1</source>
           <target>Resumen EDS Ventas 1-CUE 1</target>
+        </trans-unit>
+        <trans-unit id="Page 3473393957 - Control 2396675104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Sales 1-CUE 3" field</source>
+        </trans-unit>
+        <trans-unit id="Page 3473393957 - Control 2396675104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Sales 1-CUE 3</source>
         </trans-unit>
         <trans-unit id="Page 3473393957 - Control 2927758336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Summary EDS Sales 1-Sales" field</source>
@@ -2432,6 +2774,30 @@
           <source>EDS Status</source>
           <target>Estado EDS</target>
         </trans-unit>
+        <trans-unit id="Page 3748941387 - Control 3711240756 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the object ID.</source>
+        </trans-unit>
+        <trans-unit id="Page 3748941387 - Control 3811799877 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the caption of the object.</source>
+        </trans-unit>
+        <trans-unit id="Page 3748941387 - Control 3811799877 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Name</source>
+        </trans-unit>
+        <trans-unit id="Page 3748941387 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DS Table View</source>
+        </trans-unit>
+        <trans-unit id="Page 3771907182 - Control 1459640594 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Purchase 3-CUE 1" field</source>
+        </trans-unit>
+        <trans-unit id="Page 3771907182 - Control 1459640594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Purchase 3-CUE 1</source>
+        </trans-unit>
+        <trans-unit id="Page 3771907182 - Control 1494346071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Purchase 3-CUE 2" field</source>
+        </trans-unit>
+        <trans-unit id="Page 3771907182 - Control 1494346071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Purchase 3-CUE 1</source>
+        </trans-unit>
         <trans-unit id="Page 3771907182 - Control 1722293559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "CUE Title" field</source>
           <target>Especifica el valor del campo "Título de CUE"</target>
@@ -2447,6 +2813,12 @@
         <trans-unit id="Page 3771907182 - Control 2045925634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary EDS Purchase 3-CUE 1</source>
           <target>Resumen EDS Compra 3-CUE 1</target>
+        </trans-unit>
+        <trans-unit id="Page 3771907182 - Control 2396675104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Summary EDS Purchase 3-CUE 3" field</source>
+        </trans-unit>
+        <trans-unit id="Page 3771907182 - Control 2396675104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Summary EDS Purchase 3-CUE 3</source>
         </trans-unit>
         <trans-unit id="Page 3771907182 - Control 2927758336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Summary EDS Purchase 3-CUE 3" field</source>
@@ -2554,6 +2926,9 @@
           <source>Status Change %1?</source>
           <target>Cambio de estado %1?</target>
         </trans-unit>
+        <trans-unit id="Page 3892983424 - NamedType 3076304982" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show Mandatory Tables</source>
+        </trans-unit>
         <trans-unit id="Page 3892983424 - NamedType 3425905034" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Mandatory Fields</source>
           <target>Mostrar campos obligatorios</target>
@@ -2581,6 +2956,12 @@
         <trans-unit id="Page 4019868779 - Action 215142402 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Mandatory Field</source>
           <target>Mostrar campo obligatorio</target>
+        </trans-unit>
+        <trans-unit id="Page 4019868779 - Action 2910621198 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Show Mandatory Table" action</source>
+        </trans-unit>
+        <trans-unit id="Page 4019868779 - Action 2910621198 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show Mandatory Table</source>
         </trans-unit>
         <trans-unit id="Page 4019868779 - Action 3450954181 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Next Status" action</source>
@@ -3343,6 +3724,9 @@
           <source>Specifies the value of the "EOS DS Status Code" field</source>
           <target>Especifica el valor del campo "Código de estado de EOS DS"</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1784496227 - Control 3110349897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS DS Status Code" field</source>
+        </trans-unit>
         <trans-unit id="PageExtension 1853560662 - Control 3110349897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS DS Status Code" field</source>
           <target>Especifica el valor del campo "Código de estado de EOS DS"</target>
@@ -3518,6 +3902,69 @@
           <source>Mandatory Field Header</source>
           <target>Encabezado de campo obligatorio</target>
         </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 1334313545 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Status</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 1350352618 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Text Comment</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 1497076986 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Change Path Code</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 1682702926 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>From Status</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 2730166909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Field No.</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 2846557100 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Text Code</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 3017471043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table No.</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 3090661100 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filter</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 3135334477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table ID</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 3165189583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Option Type</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 3165189583 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 3304877602 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Formula</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 3304877602 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source> ,equal,major,major or equal,minor,minor or equal,not equal</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 3461589025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No of Preconditions</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 3601038339 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Father Field No.</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 3808951907 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Name</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 3951756669 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Field Name</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 4274887077 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Occurence</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 696389717 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Condition</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Field 807169827 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Father Field Name</source>
+        </trans-unit>
+        <trans-unit id="Table 1486151721 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DS Status Table Mandatory</source>
+        </trans-unit>
         <trans-unit id="Table 1709058874 - Field 1234124704 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subject</source>
           <target>Asunto</target>
@@ -3629,9 +4076,84 @@
           <source>EDS E-Mail Queue</source>
           <target>Cola de correo electrónico EDS</target>
         </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 1270592468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>F6</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 1282583599 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Synchronization Time</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 1497076986 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Change Path Code</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 1789400218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 1908289085 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>F5</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 2377076679 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>F3</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 2379948459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status Code</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 2545985702 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>F4</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 2647579790 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status Description</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 2845864273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>F9</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 3014773296 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>F2</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 3123527090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Info</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 3135334477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table ID</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 3165189583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Type</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 3165189583 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 329862384 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Synchronization Date</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 3483560890 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>F8</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 3652469913 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>F1</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 397261633 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Position</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 4007031892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Change Status Error</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 468980696 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Counter</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 632895851 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>F7</source>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Field 827239506 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Old Status Code</source>
+        </trans-unit>
         <trans-unit id="Table 1848987329 - NamedType 703165691" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot rename a %1.</source>
           <target>No se puede cambiar el nombre de un %1.</target>
+        </trans-unit>
+        <trans-unit id="Table 1848987329 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EDS Record Status OLD</source>
         </trans-unit>
         <trans-unit id="Table 2136114817 - Field 1184412181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Value 2</source>
@@ -3702,6 +4224,60 @@
         <trans-unit id="Table 2136114817 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EDS Status Field Mandatory</source>
           <target>Campo de estado EDS obligatorio</target>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 1497076986 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Change Path Code</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 2145116173 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Rec. No.</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 2379948459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status Code</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 2544561501 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Event No.</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 2708250016 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>User ID</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 3135334477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table ID</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 3319631365 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transaction No.</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 3473334774 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Rec. Doc. No. Occurrence</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 3517726613 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Change Time</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 3871777911 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Rec. Line No.</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 3970350934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Change Date</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 397261633 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Position</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 716107803 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Rec. Version No.</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 827239506 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Old Status Code</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 916478873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Rec. Option Type</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Field 916478873 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19</source>
+        </trans-unit>
+        <trans-unit id="Table 2164925430 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EDS Status Transaction Log</source>
         </trans-unit>
         <trans-unit id="Table 2438731754 - Field 1497076986 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Change Path Code</source>
@@ -3778,6 +4354,9 @@
           <source>Primary Key</source>
           <target>Clave primaria</target>
         </trans-unit>
+        <trans-unit id="Table 2506693251 - Field 2439890738 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Implementation</source>
+        </trans-unit>
         <trans-unit id="Table 2506693251 - Field 2750405254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delete Processed Mail</source>
           <target>Eliminar correo procesado</target>
@@ -3789,6 +4368,33 @@
         <trans-unit id="Table 2506693251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EDS Setup</source>
           <target>Configuración de EDS</target>
+        </trans-unit>
+        <trans-unit id="Table 2565318168 - Field 1334313545 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Status</source>
+        </trans-unit>
+        <trans-unit id="Table 2565318168 - Field 1497076986 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Change Path Code</source>
+        </trans-unit>
+        <trans-unit id="Table 2565318168 - Field 1682702926 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>From Status</source>
+        </trans-unit>
+        <trans-unit id="Table 2565318168 - Field 3135334477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table ID</source>
+        </trans-unit>
+        <trans-unit id="Table 2565318168 - Field 3165189583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Option Type</source>
+        </trans-unit>
+        <trans-unit id="Table 2565318168 - Field 3165189583 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19</source>
+        </trans-unit>
+        <trans-unit id="Table 2565318168 - Field 3808951907 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Name</source>
+        </trans-unit>
+        <trans-unit id="Table 2565318168 - Field 4232407352 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rec RecordId</source>
+        </trans-unit>
+        <trans-unit id="Table 2565318168 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>003 Mandatory Table Header</source>
         </trans-unit>
         <trans-unit id="Table 2616436854 - Field 1184412181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Value 2</source>
@@ -4440,6 +5046,63 @@
           <source>EDS Record Status Info OLD</source>
           <target>Información sobre el estado del registro EDS</target>
         </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 1334313545 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Status</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 1497076986 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Change Path Code</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 1682702926 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>From Status</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 2730166909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Field No.</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 3017471043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table No.</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 3090661100 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filter</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 3135334477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table ID</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 3165189583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Option Type</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 3165189583 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 3304877602 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Formula</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 3304877602 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source> ,equal,major,major or equal,minor,minor or equal,not equal</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 3601038339 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Father Field No.</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 3808951907 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Name</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 3951756669 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Field Name</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 4274887077 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Occurence</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 696389717 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Condition</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Field 807169827 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Father Field Name</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - NamedType 703165691" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You cannot rename a %1.</source>
+        </trans-unit>
+        <trans-unit id="Table 3404459563 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EDS Table preconditions</source>
+        </trans-unit>
         <trans-unit id="Table 3681624494 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code</source>
           <target>Código</target>
@@ -4704,6 +5367,12 @@
           <source>User Name</source>
           <target>Nombre de usuario</target>
         </trans-unit>
+        <trans-unit id="Table 548787030 - Field 1459640594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status (1) Count</source>
+        </trans-unit>
+        <trans-unit id="Table 548787030 - Field 1494346071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status (2) Count</source>
+        </trans-unit>
         <trans-unit id="Table 548787030 - Field 1580022084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Text 2 Filter</source>
           <target>Filtro texto 2</target>
@@ -4714,6 +5383,9 @@
         <trans-unit id="Table 548787030 - Field 2233462725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Text 1 Filter</source>
           <target>Texto 1 Filtro</target>
+        </trans-unit>
+        <trans-unit id="Table 548787030 - Field 2396675104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status (3) Count</source>
         </trans-unit>
         <trans-unit id="Table 548787030 - Field 2518340611 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Text 3 Filter</source>
@@ -5320,6 +5992,10 @@
           <source>EDS Status Code</source>
           <target>Código de estado EDS</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1826145118 - Field 3110349897 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EDS Status Code</source>
+          <target>Código de estado EDS</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1960352045 - Field 3110349897 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EDS Status Code</source>
           <target>Código de estado EDS</target>
@@ -5335,6 +6011,10 @@
         <trans-unit id="TableExtension 2114667891 - Field 3407067892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Posting,All</source>
           <target> ,Posting,Todos</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2294932712 - Field 3110349897 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EDS Status Code</source>
+          <target>Código de estado EDS</target>
         </trans-unit>
         <trans-unit id="TableExtension 2598048662 - Field 3110349897 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EDS Status Code</source>
@@ -5371,6 +6051,9 @@
         <trans-unit id="TableExtension 539396086 - Field 3110349897 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EDS Status Code</source>
           <target>Código de estado EDS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 684958811 - Field 3110349897 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EDS Status Code</source>
         </trans-unit>
         <trans-unit id="TableExtension 839274657 - Field 3110349897 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EDS Status Code</source>
