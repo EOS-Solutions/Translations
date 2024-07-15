@@ -83,6 +83,9 @@
           <source>Configurator with Variants is not supported in %1 %2 (No. %3)</source>
           <target>Konfigurator mit Varianten wird in %1 %2 nicht unterstützt (Nr. %3)</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1219423288 - NamedType 2588886854" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Align Item\\#1#################################</source>
+        </trans-unit>
         <trans-unit id="Codeunit 1219423288 - NamedType 2612244671" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 (%2) must be greater than %3 (%4). Check formula code %5.</source>
           <target>%1 (%2) muss größer als %3 (%4) sein. Überprüfen Sie den Formelcode %5.</target>
@@ -99,13 +102,12 @@
           <source>Characteristic %1 item %2 %3 is not present in the sales item. Wrong bill.</source>
           <target>Merkmal %1 Artikel %2 %3 ist im Verkaufsartikel nicht vorhanden. Falsche Rechnung.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1219423288 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Save configuration?</source>
-          <target>Konfiguration speichern?</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1219423288 - NamedType 4193775749" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No. %1 is too long.</source>
           <target>Artikel Nr. %1 ist zu lang.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1219423288 - NamedType 466029040" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No. %1 Rule %2</source>
         </trans-unit>
         <trans-unit id="Codeunit 1219423288 - NamedType 672156893" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic %1 mandatory, item %2.</source>
@@ -1035,6 +1037,15 @@
           <source>Delete table Import Neutral Rules</source>
           <target>Importtabelle für neutrale Regeln löschen</target>
         </trans-unit>
+        <trans-unit id="Page 1762500533 - Action 3642607228 - Method 1377591017 - NamedType 1603347576" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to proceed with the creation of default configuration ?</source>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Action 3642607228 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Save the default configuration for neutral items saving time when opening the configurator.</source>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Action 3642607228 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Save default configuration</source>
+        </trans-unit>
         <trans-unit id="Page 1762500533 - Action 3836025439 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update "Numeric Value" field from the characteristic value in Rule Relations and Characteristics Set for "Measure" type characteristics.</source>
           <target>Aktualisiert das Feld "Numerischer Wert" aus dem Merkmalswert in Regelbeziehungen und Feature-Sets für Merkmale vom Typ "Kennzahl".</target>
@@ -1062,6 +1073,9 @@
         <trans-unit id="Page 1762500533 - Control 1207415938 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Surcharge/Optional</source>
           <target>Zuschlag/Optional</target>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Control 123932214 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, the default configuration is used when opening the configurator from the neutral item. Use the action "Save default configuration" to create it.</source>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 1247743551 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Stockkeeping Unit</source>
@@ -4383,6 +4397,15 @@
           <source>Copy Rule Characteristics To Item</source>
           <target>Regelmerkmale in Artikel kopieren</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2170450287 - Action 85803539 - Method 1377591017 - NamedType 1603347576" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to proceed with the creation of default configuration ?</source>
+        </trans-unit>
+        <trans-unit id="PageExtension 2170450287 - Action 85803539 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Save the default configuration for neutral item saving time when opening the configurator.</source>
+        </trans-unit>
+        <trans-unit id="PageExtension 2170450287 - Action 85803539 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Save default configuration</source>
+        </trans-unit>
         <trans-unit id="PageExtension 2170450287 - Action 965632324 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Default Item Characteristics action</source>
           <target>Führt die Aktion "Standardartikelmerkmale" aus</target>
@@ -6258,6 +6281,9 @@
         <trans-unit id="Table 1762500533 - Field 1175723985 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>New,Certified,Under Development</source>
           <target>Neu,Zertifiziert,In Entwicklung</target>
+        </trans-unit>
+        <trans-unit id="Table 1762500533 - Field 123932214 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Default Configuration</source>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1281786249 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Get Prices for Customer</source>
