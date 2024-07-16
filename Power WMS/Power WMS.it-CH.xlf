@@ -503,10 +503,6 @@
           <source>Line No. is missing</source>
           <target>Nr. riga mancante</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3378049008 - Method 2889841251 - NamedType 290340832" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Source scan not found</source>
-          <target>Scansione origine non trovata</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3378049008 - Method 3106174921 - NamedType 249417525" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No. is missing</source>
           <target>Nr. riga mancante</target>
@@ -534,10 +530,6 @@
         <trans-unit id="Codeunit 3378049008 - Method 3561787028 - NamedType 249417525" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No. is missing</source>
           <target>Nr. riga mancante</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3378049008 - Method 3561787028 - NamedType 290340832" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Source scan not found</source>
-          <target>Scansione origine non trovata</target>
         </trans-unit>
         <trans-unit id="Codeunit 3487004505 - Method 3514624047 - NamedType 1742701991" translate="yes" size-unit="char" xml:space="preserve">
           <source>Activity %1 not allowed for Source %2</source>
@@ -671,6 +663,10 @@
           <source>Provide a valid Source Type</source>
           <target>Indicare un tipo origine valido</target>
         </trans-unit>
+        <trans-unit id="Codeunit 4082995776 - Method 3473243069 - NamedType 3696240891" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Something went wrong sychronizing scans between warehouse receipt and put-away</source>
+          <target>Errore imprevisto durante la sincronizzazione delle scansioni tra carico warehouse e stoccaggio</target>
+        </trans-unit>
         <trans-unit id="Codeunit 4082995776 - Method 3514624047 - NamedType 1742701991" translate="yes" size-unit="char" xml:space="preserve">
           <source>Activity %1 not allowed for Source %2</source>
           <target>Attività %1 non consentita per origine %2</target>
@@ -771,9 +767,17 @@
           <source>Tracking Type must have a value in order to automatically assign tracking</source>
           <target>Tipo tracciabilità deve avere un valore per assegnare la tracciabilità automaticamente</target>
         </trans-unit>
+        <trans-unit id="Codeunit 4258442599 - Method 1599998615 - NamedType 290340832" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source scan not found</source>
+          <target>Scansione origine non trovata</target>
+        </trans-unit>
         <trans-unit id="Codeunit 4258442599 - Method 1702350131 - NamedType 722915285" translate="yes" size-unit="char" xml:space="preserve">
           <source>Serial No. %1 was already scanned</source>
           <target>Nr. seriale %1 è già stato scansionato</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4258442599 - Method 2142451037 - NamedType 290340832" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source scan not found</source>
+          <target>Scansione origine non trovata</target>
         </trans-unit>
         <trans-unit id="Codeunit 4258442599 - Method 3834236106 - NamedType 2922352347" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scan action not allowed</source>
@@ -1895,10 +1899,6 @@
           <source>Activity</source>
           <target>Attività</target>
         </trans-unit>
-        <trans-unit id="Page 1710398744 - Control 4152810933 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Activities with unknown status are not visible in the activities list. This mean that there is no interface that handle activities.</source>
-          <target>Le attività con stato "Sconosciuto" non sono visibili nella lista. Questo significa che non è presente nessuna interfaccia per gestire le attività sconosciute.</target>
-        </trans-unit>
         <trans-unit id="Page 1710398744 - Control 4171342510 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Badge No.</source>
           <target>Nr. badge</target>
@@ -2779,6 +2779,10 @@
           <source>View</source>
           <target>Vista</target>
         </trans-unit>
+        <trans-unit id="Page 2535728483 - Control 594532045 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, the "Qty. To Handle" field will be hidden in PowerWMS</source>
+          <target>Se abilitato, il campo "Quantità da gestire" viene nascosto nel PowerWMS</target>
+        </trans-unit>
         <trans-unit id="Page 2535728483 - Control 659317815 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Activity Type</source>
           <target>Tipo attività</target>
@@ -3076,8 +3080,8 @@
           <target>Messaggio di errore</target>
         </trans-unit>
         <trans-unit id="Page 3282379267 - Control 2960574539 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>For activities related to a document, this field specifies the Posted Document No.</source>
-          <target>Per le attività legate a documenti, il campo indica il nr. documento registrato</target>
+          <source>This field specifies the Posted Document No.. Can refer to a document or a journal</source>
+          <target>Indica il nr. documento registrato. Può fare riferimento a un documento registrato, o al nr. documento di un batch.</target>
         </trans-unit>
         <trans-unit id="Page 3282379267 - Control 313599960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the call stack when the error occurred</source>
@@ -3739,6 +3743,10 @@
           <source>Scanner Detail (WMS)</source>
           <target>Dettaglio scanner (WMS)</target>
         </trans-unit>
+        <trans-unit id="Table 1155905017 - Field 1050738298 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Warranty Date Editable</source>
+          <target>Data garanzia modificabile</target>
+        </trans-unit>
         <trans-unit id="Table 1155905017 - Field 12837806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Automatic Tracking</source>
           <target>Tracciabilità automatica</target>
@@ -3890,6 +3898,10 @@
         <trans-unit id="Table 1155905017 - Field 370558406 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Prod. Order Line</source>
           <target>Nr. riga ord. prod. origine</target>
+        </trans-unit>
+        <trans-unit id="Table 1155905017 - Field 3951649563 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Expiration Date Editable</source>
+          <target>Data scadenza modificabile</target>
         </trans-unit>
         <trans-unit id="Table 1155905017 - Field 4119412504 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Activity Line No.</source>
@@ -4258,10 +4270,6 @@
         <trans-unit id="Table 1905338988 - Field 3961767479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource No.</source>
           <target>Nr. risorsa</target>
-        </trans-unit>
-        <trans-unit id="Table 1905338988 - Field 4152810933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Unknown Activities</source>
-          <target>Attività sconosciute</target>
         </trans-unit>
         <trans-unit id="Table 1905338988 - Field 4171342510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Badge No.</source>
@@ -5627,6 +5635,10 @@
           <source>Location Filter 1 Text</source>
           <target>Filtro ubicazione 1 (testo)</target>
         </trans-unit>
+        <trans-unit id="Table 517974087 - Field 594532045 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Hide Quantity To Handle</source>
+          <target>Nascondi quantità da gestire</target>
+        </trans-unit>
         <trans-unit id="Table 517974087 - Field 659317815 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Activity</source>
           <target>Attività</target>
@@ -5690,6 +5702,10 @@
         <trans-unit id="Table 74532078 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>User Item Journal Setup (WMS)</source>
           <target>Setup giornali utente (WMS)</target>
+        </trans-unit>
+        <trans-unit id="Table 790863525 - Field 1050738298 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Warranty Date Editable</source>
+          <target>Data garanzia modificabile</target>
         </trans-unit>
         <trans-unit id="Table 790863525 - Field 12837806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Automatic Tracking</source>
@@ -5814,6 +5830,10 @@
         <trans-unit id="Table 790863525 - Field 3606232630 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Scans Errors</source>
           <target>Errori scansioni origine</target>
+        </trans-unit>
+        <trans-unit id="Table 790863525 - Field 3951649563 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Expiration Date Editable</source>
+          <target>Data scadenza modificabile</target>
         </trans-unit>
         <trans-unit id="Table 790863525 - Field 4240543679 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Package No.</source>
@@ -6051,13 +6071,13 @@
           <source>WMS Activity Type Filter</source>
           <target>Filtro attività WMS</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2535633105 - Field 2441268330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Calculate Inventory</source>
+          <target>WMS calcola giacenza</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2535633105 - Field 2555861251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Variant Description</source>
           <target>Descrizione variante WMS</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 2535633105 - Field 2607329253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>WMS Variant Description 2</source>
-          <target>Descrizione 2 variante WMS</target>
         </trans-unit>
         <trans-unit id="TableExtension 2535633105 - Field 2990690134 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Variant Description 2</source>
