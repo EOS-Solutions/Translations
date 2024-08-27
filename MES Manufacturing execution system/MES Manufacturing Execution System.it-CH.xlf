@@ -211,6 +211,10 @@
           <source>Impossible to create a rework if there isn't a record with Prod. order %1, line %2, operation %3 without scrap quantity</source>
           <target>Impossibile creare una rilavorazione se non è presente un record con ordine Prod. %1, riga %2, operazione %3 senza quantità di scarto</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3360059988 - NamedType 2977197649" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Upload file %1 as %2 language translation?</source>
+          <target>Caricare il file %1 come traduzione in lingua %2?</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 345267685 - NamedType 994240841" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource stop already declared.</source>
           <target>Stop risorsa già dichiarata.</target>
@@ -426,6 +430,13 @@
         <trans-unit id="Enum 1215111042 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MES Interface Action</source>
           <target>Azioni interfaccia MES</target>
+        </trans-unit>
+        <trans-unit id="Enum 1238674176 - EnumValue 1423562403 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App</source>
+          <target>App</target>
+        </trans-unit>
+        <trans-unit id="Enum 1238674176 - EnumValue 188051615 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Production Panel</source>
         </trans-unit>
         <trans-unit id="Enum 1360883003 - EnumValue 1270866090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>QRCode</source>
@@ -2495,7 +2506,7 @@
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 2377467855 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable PowerMES Interface Log</source>
-          <target>Abilita il log dell'interfaccia PowerWMS</target>
+          <target>Abilita il log dell'interfaccia PowerMES</target>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 2377467855 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Log</source>
@@ -3407,6 +3418,7 @@
         </trans-unit>
         <trans-unit id="Page 3448781404 - Control 4167531009 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set the time (in seconds) after that the IoT data is freshed</source>
+          <target>Imposta il periodo di refresh dell'Hub IoT</target>
         </trans-unit>
         <trans-unit id="Page 3448781404 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "No." field</source>
@@ -3632,6 +3644,54 @@
           <source>Tracking Lines (MES)</source>
           <target>Righe tracciabilità (MES)</target>
         </trans-unit>
+        <trans-unit id="Page 378648129 - Action 1100141636 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defaults</source>
+          <target>Predefinito</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Action 187681480 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download official translation selecting a language as a file</source>
+          <target>Scarica il file delle traduzioni ufficiale, selezionando una lingua tra quelle supportate</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Action 187681480 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download Translation</source>
+          <target>Scarica file traduzioni</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Action 2507180263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download current translation selecting a language as a file</source>
+          <target>Scarica le traduzioni come file, selezionando la lingua</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Action 2507180263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download Current Translation</source>
+          <target>Scarica traduzioni</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Action 271608351 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download official translation selecting an available language</source>
+          <target>Ottiene la traduzione ufficiale selezionando una lingua tra quelle supportate</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Action 271608351 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Translation</source>
+          <target>Ottieni traduzione</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Action 3360059988 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Upload Custom Translation, setting for wich language the translation is valid</source>
+          <target>Carica un file di traduzioni indicando per quale codice lingua verranno utilizzate</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Action 3360059988 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Upload Custom Translation</source>
+          <target>Carica traduzioni personalizzate</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Action 3431463797 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Custom</source>
+          <target>Personalizzato</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Action 3679729512 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download all official translations</source>
+          <target>Ottiene tutte le traduzioni ufficiali disponibili</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Action 3679729512 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get All Translations</source>
+          <target>Ottiene tutte le traduzioni</target>
+        </trans-unit>
         <trans-unit id="Page 378648129 - Control 2273653569 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Language Code" field</source>
           <target>Specifica il valore del campo "Codice lingua"</target>
@@ -3643,6 +3703,10 @@
         <trans-unit id="Page 378648129 - Control 3549953867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Caption Name" field</source>
           <target>Specifica il valore del campo "Nome etichetta"</target>
+        </trans-unit>
+        <trans-unit id="Page 378648129 - Control 593885934 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the scope of the translation</source>
+          <target>Indica il contesto della traduzione</target>
         </trans-unit>
         <trans-unit id="Page 378648129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Caption Translations (MES)</source>
@@ -3667,6 +3731,30 @@
         <trans-unit id="Page 3997804741 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Team Members (MES)</source>
           <target>Membri team (MES)</target>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Action 1100141636 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defaults</source>
+          <target>Predefinito</target>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Action 4162757232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download official themes</source>
+          <target>Ottiene i temi ufficiali</target>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Action 4162757232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Themes</source>
+          <target>Ottieni temi</target>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Theme Name</source>
+          <target>Nome tema</target>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Theme Description</source>
+          <target>Descrizione tema</target>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Themes (MES)</source>
+          <target>Temi (MES)</target>
         </trans-unit>
         <trans-unit id="PageExtension 1097886108 - Control 2081051893 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Employee's Badge No.</source>
@@ -4000,14 +4088,6 @@
           <source>IoT Hub Setup</source>
           <target>Setup Hub IoT</target>
         </trans-unit>
-        <trans-unit id="Table 1282519859 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry No.</source>
-          <target>Nr. movimento</target>
-        </trans-unit>
-        <trans-unit id="Table 1282519859 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Employee Entry Index</source>
-          <target>Indice mov. dipendente</target>
-        </trans-unit>
         <trans-unit id="Table 1125446740 - Field 1105065701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Max Treshold</source>
           <target>Soglia massima</target>
@@ -4054,6 +4134,14 @@
         </trans-unit>
         <trans-unit id="Table 1125446740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>IoT Device Twin</source>
+        </trans-unit>
+        <trans-unit id="Table 1282519859 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+        </trans-unit>
+        <trans-unit id="Table 1282519859 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee Entry Index</source>
+          <target>Indice mov. dipendente</target>
         </trans-unit>
         <trans-unit id="Table 138191184 - Field 1409525680 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Field Class</source>
@@ -4134,6 +4222,30 @@
         <trans-unit id="Table 1693284234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MES Cue</source>
           <target>Pila MES</target>
+        </trans-unit>
+        <trans-unit id="Table 1746977672 - Field 1383905037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default</source>
+          <target>Predefinito</target>
+        </trans-unit>
+        <trans-unit id="Table 1746977672 - Field 2961552353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Name</source>
+          <target>Nome</target>
+        </trans-unit>
+        <trans-unit id="Table 1746977672 - Field 3272624915 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>System Entry</source>
+          <target>Record di sistema</target>
+        </trans-unit>
+        <trans-unit id="Table 1746977672 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Nr. riga</target>
+        </trans-unit>
+        <trans-unit id="Table 1746977672 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrizione</target>
+        </trans-unit>
+        <trans-unit id="Table 1746977672 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Theme (MES)</source>
+          <target>Tema (MES)</target>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Field 111215004 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity Multiplier</source>
@@ -5031,6 +5143,10 @@
           <source>Show Barcode in Prod. Reports</source>
           <target>Mostra barcode fasi</target>
         </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 116830272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Theme Id</source>
+          <target>Id tema</target>
+        </trans-unit>
         <trans-unit id="Table 2865843814 - Field 1347615962 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Output Only Text</source>
           <target>Versamento solo quantità</target>
@@ -5455,6 +5571,10 @@
           <source>IoT Device Method</source>
           <target>Funzione dispositivo IoT</target>
         </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 116830272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Theme Id</source>
+          <target>Id tema</target>
+        </trans-unit>
         <trans-unit id="Table 3448781404 - Field 1351594800 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. Series</source>
           <target>Nr. serie</target>
@@ -5665,6 +5785,14 @@
         <trans-unit id="Table 378648129 - Field 3549953867 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Caption Name</source>
           <target>Nome etichetta</target>
+        </trans-unit>
+        <trans-unit id="Table 378648129 - Field 3676432449 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Language Code</source>
+          <target>Cod. lingua</target>
+        </trans-unit>
+        <trans-unit id="Table 378648129 - Field 593885934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scope</source>
+          <target>Ambito</target>
         </trans-unit>
         <trans-unit id="Table 378648129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MES Caption Translations</source>
