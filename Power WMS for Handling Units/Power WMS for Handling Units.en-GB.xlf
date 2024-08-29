@@ -178,6 +178,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU Event Subs. - Method CU18060016_CheckForUniqueHUToken - NamedType HUNoMustBeUniqueErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3998682346 - Method 1286229918 - NamedType 2689195079" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Handling Unit No. %1 is already assigned to another location or bin</source>
+          <note from="Developer" annotates="general" priority="2">%1: Handling Unit No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU Event Subs. - Method CU18060039_OnBeforeModifyWarehouseActivityLine - NamedType HUAssignedToAnotherLocationOrBinErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1889695942 - Method 3086679857 - NamedType 272352229" size-unit="char" translate="yes" xml:space="preserve">
           <source>Nothing to post</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -192,6 +197,16 @@
           <source>No Handling Unit Activity set</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU Management - Method OnRun - NamedType NoActivitySetErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738904635 - NamedType 171272735" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Procedure not allowed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU PickPack Imp. - NamedType ProcedureNotAllowedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738904635 - Method 2813625424 - NamedType 327841553" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must assign the %1 activity to the user before enable Pick&amp;Pack functionality.</source>
+          <note from="Developer" annotates="general" priority="2">%1: Activity Type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU PickPack Imp. - Method EnableActivity - NamedType PickingNotFoundErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3664020331 - NamedType 171272735" size-unit="char" translate="yes" xml:space="preserve">
           <source>Procedure not allowed</source>
@@ -393,10 +408,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS08901PageExt18060023 - Control EOS Packaging Material No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3703357350 - Control 2021207185 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2925866076">
+          <source>Specifies the Assigned Handling Unit No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS08901PageExt18060024 - Control EOS Assigned Handling Unit No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3703357350 - Control 2599229313 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2925866076">
           <source>Specifies the Handling Unit No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS08901PageExt18060024 - Control EOS Handling Unit No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3703357350 - Control 3801726478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2925866076">
+          <source>Specifies if the line is managed with Pick &amp; Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS08901PageExt18060024 - Control EOS Pick And Pack - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3703357350 - Control 916942796 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2925866076">
           <source>Specifies the Handling Unit Type</source>
@@ -412,6 +437,26 @@
           <source>Scanner Setup Code for Handling Unit</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS089WMSPageExt18060010 - Control EOS HU Scanner Setup Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3928483275 - Control 3801726478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 489589600">
+          <source>Specifies if the line is managed with Pick &amp; Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt5780 - Control EOS Pick And Pack - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3928483275 - Control 1989372108 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 489589600">
+          <source>Handling Unit No. for Pick &amp; Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt5780 - Control EOS Pick And Pack HU No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 78957275 - Control 3801726478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2952916557">
+          <source>Specifies if the line is managed with Pick &amp; Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt5799 - Control EOS Pick And Pack - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 78957275 - Control 1989372108 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2952916557">
+          <source>Handling Unit No. for Pick &amp; Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt5799 - Control EOS Pick And Pack HU No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 3098922748 - Field 308965652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 200314826">
           <source>Handling Unit Scanner Setup Code</source>
@@ -438,6 +483,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt18060017 - Field EOS Packaging Material No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1185832897 - Field 3801726478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 790863525">
+          <source>Pick &amp; Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt18060017 - Field EOS Pick And Pack - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3905528388 - Field 2599229313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1155905017">
           <source>Handling Unit No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -452,6 +502,11 @@
           <source>Packaging Material No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt18060018 - Field EOS Packaging Material No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3905528388 - Field 3801726478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1155905017">
+          <source>Pick &amp; Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt18060018 - Field EOS Pick And Pack - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2286121933 - Field 2021207185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2013420453">
           <source>Assigned Handling Unit No.</source>
@@ -472,6 +527,31 @@
           <source>Packaging Material No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt18060020 - Field EOS Packaging Material No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2286121933 - Field 3801726478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2013420453">
+          <source>Pick &amp; Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt18060020 - Field EOS Pick And Pack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2331533567 - Field 3801726478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2624270058">
+          <source>Pick &amp; Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt5767 - Field EOS Pick And Pack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2331533567 - Field 1989372108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2624270058">
+          <source>Pick &amp; Pack HU No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt5767 - Field EOS Pick And Pack HU No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1607002052 - Field 3801726478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3893619904">
+          <source>Pick &amp; Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt5773 - Field EOS Pick And Pack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1607002052 - Field 1989372108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3893619904">
+          <source>Pick &amp; Pack HU No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt5773 - Field EOS Pick And Pack HU No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3917790852 - Field 1798156839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1296692852">
           <source>WMS Activity Type Filter</source>
@@ -582,6 +662,11 @@
           <source>Handling Units Phys. Inventory</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS08901EnumExt18060331 - EnumValue EOSPhysInvHU - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 364565159 - EnumValue 3688538390 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 4244104744">
+          <source>Handling Units Pick and Pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS08901EnumExt18060331 - EnumValue EOSPickAndPack - Property Caption</note>
         </trans-unit>
         <trans-unit id="EnumExtension 364565159 - EnumValue 3433244447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 4244104744">
           <source>Handling Units Reclassification</source>

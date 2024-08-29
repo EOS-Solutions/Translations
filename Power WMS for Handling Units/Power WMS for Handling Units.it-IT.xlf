@@ -83,6 +83,14 @@
           <source>Procedure not allowed</source>
           <target>Procedura non consentita.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2738904635 - Method 2813625424 - NamedType 327841553" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You must assign the %1 activity to the user before enable Pick&amp;Pack functionality.</source>
+          <target>Per abilitare la funzionalità di Pick&amp;Pack è necessario assegnare all'utente l'attività di prelievo</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738904635 - NamedType 171272735" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Procedure not allowed</source>
+          <target>Procedura non consentita.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3664020331 - Method 1455323374 - NamedType 1543872662" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 (%2)</source>
           <target>%1 (%2)</target>
@@ -119,10 +127,6 @@
           <source>Handling Unit Reclass. Batch</source>
           <target>Riclassificazione articolo</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3664020331 - Method 78462856 - NamedType 461257577" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Handling Unit Reclass. Batch</source>
-          <target>Unità di carico</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3664020331 - NamedType 171272735" translate="yes" size-unit="char" xml:space="preserve">
           <source>Procedure not allowed</source>
           <target>Procedura non consentita.</target>
@@ -134,6 +138,10 @@
         <trans-unit id="Codeunit 3903601876 - Method 1665861916 - NamedType 1501499269" translate="yes" size-unit="char" xml:space="preserve">
           <source>No Handling Unit Activity set</source>
           <target>Nessuna attività per unità di carico impostata</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3998682346 - Method 1286229918 - NamedType 2689195079" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Handling Unit No. %1 is alreadi assigned to another location or bin</source>
+          <target>L'unità di carico %1 è già stata assegnata a un altra ubicazione / collocazione.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3998682346 - Method 3339046163 - NamedType 3712845694" translate="yes" size-unit="char" xml:space="preserve">
           <source>Handling Unit No. token must be the only token in setup</source>
@@ -215,6 +223,10 @@
           <source>Handling Units Reclassification</source>
           <target>Riclassificazione unità di carico</target>
         </trans-unit>
+        <trans-unit id="EnumExtension 364565159 - EnumValue 3688538390 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Handling Units Pick and Pack</source>
+          <target>Pick &amp; Pack unità di carico</target>
+        </trans-unit>
         <trans-unit id="EnumExtension 364565159 - EnumValue 4113054055 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Handling Units Management</source>
           <target>Gestione unità di carico</target>
@@ -295,9 +307,17 @@
           <source>Specifies the Handling Unit Type</source>
           <target>Indica il tipo di unità di carico</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3703357350 - Control 2021207185 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Assigned Handling Unit No.</source>
+          <target>Indica l'unità di carico assegnata</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3703357350 - Control 2599229313 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Handling Unit No.</source>
           <target>Indica il nr. unità di carico</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3703357350 - Control 3801726478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the line is managed with Pick &amp; Pack</source>
+          <target>Indica che la riga è gestita con la funzionalità Pick &amp; Pack</target>
         </trans-unit>
         <trans-unit id="PageExtension 3703357350 - Control 4015572302 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Packaging Material No.</source>
@@ -306,6 +326,14 @@
         <trans-unit id="PageExtension 3703357350 - Control 916942796 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Handling Unit Type</source>
           <target>Indica il tipo di unità di carico</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3928483275 - Control 1989372108 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Handling Unit No. for Pick &amp; Pack</source>
+          <target>Nr. unità di carico per Pick &amp; Pack</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3928483275 - Control 3801726478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the line is managed with Pick &amp; Pack</source>
+          <target>Indica che la riga è gestita con la funzionalità Pick &amp; Pack</target>
         </trans-unit>
         <trans-unit id="PageExtension 3945942496 - Control 2599229313 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Handling Unit No.</source>
@@ -318,6 +346,14 @@
         <trans-unit id="PageExtension 3945942496 - Control 916942796 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Handling Unit Type</source>
           <target>Indica il tipo di unità di carico</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 78957275 - Control 1989372108 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Handling Unit No. for Pick &amp; Pack</source>
+          <target>Nr. unità di carico per Pick &amp; Pack</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 78957275 - Control 3801726478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the line is managed with Pick &amp; Pack</source>
+          <target>Indica che la riga è gestita con la funzionalità Pick &amp; Pack</target>
         </trans-unit>
         <trans-unit id="PermissionSet 1695169947 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Power WMS for Handling Units - Super</source>
@@ -399,6 +435,10 @@
           <source>Handling Unit No.</source>
           <target>Nr. unità di carico</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1185832897 - Field 3801726478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Pick &amp; Pack</source>
+          <target>Pick &amp; Pack</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1185832897 - Field 4015572302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Packaging Material No.</source>
           <target>Nr. materiale di imballaggio</target>
@@ -406,6 +446,14 @@
         <trans-unit id="TableExtension 1185832897 - Field 916942796 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Handling Unit Type</source>
           <target>Tipo unità di carico</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1607002052 - Field 1989372108 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Pick &amp; Pack HU No.</source>
+          <target>Nr. unità di carico Pick &amp; Pack</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1607002052 - Field 3801726478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Pick &amp; Pack</source>
+          <target>Pick &amp; Pack</target>
         </trans-unit>
         <trans-unit id="TableExtension 2286121933 - Field 2021207185 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Assigned Handling Unit No.</source>
@@ -415,6 +463,10 @@
           <source>Handling Unit No.</source>
           <target>Nr. unità di carico</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2286121933 - Field 3801726478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Pick &amp; Pack</source>
+          <target>Pick &amp; Pack</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2286121933 - Field 4015572302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Packaging Material No.</source>
           <target>Nr. materiale di imballaggio</target>
@@ -422,6 +474,14 @@
         <trans-unit id="TableExtension 2286121933 - Field 916942796 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Handling Unit Type</source>
           <target>Tipo unità di carico</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2331533567 - Field 1989372108 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Pick &amp; Pack HU No.</source>
+          <target>Nr. unità di carico Pick &amp; Pack</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2331533567 - Field 3801726478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Pick &amp; Pack</source>
+          <target>Pick &amp; Pack</target>
         </trans-unit>
         <trans-unit id="TableExtension 260520173 - Field 1473799866 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Item Identifier</source>
@@ -454,6 +514,10 @@
         <trans-unit id="TableExtension 3905528388 - Field 2599229313 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Handling Unit No.</source>
           <target>Nr. unità di carico</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3905528388 - Field 3801726478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Pick &amp; Pack</source>
+          <target>Pick &amp; Pack</target>
         </trans-unit>
         <trans-unit id="TableExtension 3905528388 - Field 4015572302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Packaging Material No.</source>
