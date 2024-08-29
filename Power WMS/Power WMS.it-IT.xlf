@@ -343,6 +343,10 @@
           <source>Manually suspended</source>
           <target>Sospeso manualmente</target>
         </trans-unit>
+        <trans-unit id="Codeunit 248115937 - Method 3921596049 - NamedType 3431371440" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manually suspended from parent entry</source>
+          <target>Sospeso manualmente dall'attività principale</target>
+        </trans-unit>
         <trans-unit id="Codeunit 248115937 - Method 4164913808 - NamedType 3776306353" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to restore the default fields?</source>
           <target>Ripristinare i campi predefiniti?</target>
@@ -478,6 +482,10 @@
         <trans-unit id="Codeunit 3378049008 - Method 1665861916 - NamedType 1377352706" translate="yes" size-unit="char" xml:space="preserve">
           <source>Action not allowed</source>
           <target>Azione non consentita</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3378049008 - Method 1983700343 - NamedType 520683647" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Parent activity not executed</source>
+          <target>Attività principale non eseguita</target>
         </trans-unit>
         <trans-unit id="Codeunit 3378049008 - Method 2146897157 - NamedType 1374823494" translate="yes" size-unit="char" xml:space="preserve">
           <source>Barcode %1 not managed</source>
@@ -1054,6 +1062,14 @@
         <trans-unit id="Enum 2367871102 - EnumValue 4114427160 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Save</source>
           <target>Salvataggio</target>
+        </trans-unit>
+        <trans-unit id="Enum 2579088126 - EnumValue 147413794 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Power WMS</source>
+          <target>Power WMS</target>
+        </trans-unit>
+        <trans-unit id="Enum 2579088126 - EnumValue 3190500101 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity Action</source>
+          <target>Azione attività</target>
         </trans-unit>
         <trans-unit id="Enum 2660413776 - EnumValue 1864907812 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Disabled</source>
@@ -2899,6 +2915,10 @@
           <source>Activity Group. Specifies in which group the activity will be shown in the PowerWMS menu.</source>
           <target>Gruppo attività. Indica in quale gruppo viene posizionata l'attività nel menù PowerWMS</target>
         </trans-unit>
+        <trans-unit id="Page 2535728483 - Method 912389269 - NamedType 2848026798" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity %1 is visible as activity action in another activity</source>
+          <target>L'attività "%1" è visibile come azione in un'altra attività</target>
+        </trans-unit>
         <trans-unit id="Page 2535728483 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>User Activity Card (WMS)</source>
           <target>Scheda attività utente (WMS)</target>
@@ -4158,6 +4178,10 @@
         <trans-unit id="Table 1697157516 - Field 2960574539 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posted Document No.</source>
           <target>Nr. documento registrato</target>
+        </trans-unit>
+        <trans-unit id="Table 1697157516 - Field 3102751489 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attached-To Entry No.</source>
+          <target>Collegato-a Nr. movimento</target>
         </trans-unit>
         <trans-unit id="Table 1697157516 - Field 312545736 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Line No.</source>
@@ -5739,6 +5763,10 @@
           <source>Ascending,Descending</source>
           <target>Crescente, Decrescente</target>
         </trans-unit>
+        <trans-unit id="Table 517974087 - Field 3217673354 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Visibility</source>
+          <target>Visibilità</target>
+        </trans-unit>
         <trans-unit id="Table 517974087 - Field 3320277590 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allow Scan Edit</source>
           <target>Consenti modifica scansioni</target>
@@ -6379,9 +6407,17 @@
           <source>WMS Employee No. Filter</source>
           <target>Filtro nr. dipendente WMS</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2310178209 - Field 4209500838 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Unit Of Measure Code Filter</source>
+          <target>WMS Filtro cod. unità di misura</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2310178209 - Field 444886471 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Source Template Filter</source>
           <target>Filtro def. registrazione origine WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2310178209 - Field 728613080 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Bin Content Exists</source>
+          <target>WMS Esiste cont. collocazione</target>
         </trans-unit>
         <trans-unit id="TableExtension 242772512 - Field 1473799866 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Item Identifier</source>
