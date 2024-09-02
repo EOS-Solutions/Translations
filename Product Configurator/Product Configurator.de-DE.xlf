@@ -99,10 +99,6 @@
           <source>Characteristic %1 item %2 %3 is not present in the sales item. Wrong bill.</source>
           <target>Merkmal %1 Artikel %2 %3 ist im Verkaufsartikel nicht vorhanden. Falsche Rechnung.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1219423288 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Save configuration?</source>
-          <target>Konfiguration speichern?</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1219423288 - NamedType 4193775749" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No. %1 is too long.</source>
           <target>Artikel Nr. %1 ist zu lang.</target>
@@ -298,6 +294,14 @@
         <trans-unit id="Enum 1063736548 - EnumValue 875067955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Higher</source>
           <target>Höher</target>
+        </trans-unit>
+        <trans-unit id="Enum 1232723643 - EnumValue 223131788 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>During Process</source>
+          <target>Während des Prozesses</target>
+        </trans-unit>
+        <trans-unit id="Enum 1232723643 - EnumValue 2318284850 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Configurator Closing</source>
+          <target>Konfigurator-Schließen</target>
         </trans-unit>
         <trans-unit id="Enum 1388199427 - EnumValue 223131788 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>During Process</source>
@@ -1030,6 +1034,10 @@
         <trans-unit id="Page 1762500533 - Control 1365229884 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If enabled, changes to comment the document line of configured item, after the creation of document lines from BOM lines.</source>
           <target>Auskommentiert die Belegposition des konfigurierten Artikels, nachdem Belegpositionen aus Stücklistenpositionen angelegt wurden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Control 1369852538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines when the configurator calculates price and surcharges (Optional are not included). The allowed values are: 1) During process: Each time a characteristic value changes, it calculates price and surcharges; 2) Configurator Closing: At the end of the configuration it calculates price and surcharges. </source>
+          <target>2) Chiusura Configuratore: a fine configurazione calcola il prezzo e le maggiorazioni.</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 143828174 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enables the creation of sales document lines from Production BOM lines after item configuration.</source>
