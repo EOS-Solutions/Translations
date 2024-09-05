@@ -35,6 +35,30 @@
           <source>There was selected a routing record with Production Order: %1, Line No.: %2, Operation No.: %3. The current barcode is %4</source>
           <target>È stato selezionato un record del ciclo di lavorazione con Ordine produzione: %1, Nr. Riga: %2, Nr. Operazione: %3. Il codice a barre corrente è %4</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 1604863551" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Dates - Times are equal to original values</source>
+          <target>Data-ora di inzio e fine sono uguali ai valori originali.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 1713639944" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Confirm undo of selected entry?</source>
+          <target>Confermare l'annullamento per il movimento selezionato?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 1801178502" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No time correctly selected</source>
+          <target>Tempi non selezionati correttamente</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 3352353739" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Journal %1 Batch %2 is not empty</source>
+          <target>Sono presenti delle righe daregistrare nel giornale di registrazione %1 %2</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 4174210593" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Output lines to be posted for Employee Entry No. %1</source>
+          <target>Esistono righe da registrare per il movimento dipendente nr. %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 770950667" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No posted entries found for Employee Entry No. %1.\Do you want to continue?</source>
+          <target>Nessun movimento registrato trovato per il movimento dipendente %1.\Continuare?</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 1203328325 - NamedType 1148611086" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Time: %1</source>
           <target>Tempo indiretto: %1</target>
@@ -211,10 +235,6 @@
           <source>Impossible to create a rework if there isn't a record with Prod. order %1, line %2, operation %3 without scrap quantity</source>
           <target>Impossibile creare una rilavorazione se non è presente un record con ordine Prod. %1, riga %2, operazione %3 senza quantità di scarto</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1423286042 - Method 3360059988 - NamedType 2977197649" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Upload file %1 as %2 language translation?</source>
-          <target>Caricare il file %1 come traduzione in lingua %2?</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 345267685 - NamedType 994240841" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource stop already declared.</source>
           <target>Stop risorsa già dichiarata.</target>
@@ -315,6 +335,10 @@
           <source>Stapling</source>
           <target>Pinzatura</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1743381984 - Method 3360059988 - NamedType 2977197649" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Upload file %1 as %2 language translation?</source>
+          <target>Caricare il file %1 come traduzione in lingua %2?</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2503755138 - Method 1283243607 - NamedType 1075421739" translate="yes" size-unit="char" xml:space="preserve">
           <source>Key %1 not found</source>
           <target>Chiave %1 non trovata.</target>
@@ -338,6 +362,10 @@
         <trans-unit id="Codeunit 2503755138 - Method 1696640233 - NamedType 459928890" translate="yes" size-unit="char" xml:space="preserve">
           <source>Action %1 not found</source>
           <target>Azione %1 non trovata</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2503755138 - Method 2416011485 - NamedType 1166100223" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee entrie not exists.</source>
+          <target>Nr. movimento dipendente non esiste.</target>
         </trans-unit>
         <trans-unit id="Codeunit 2503755138 - Method 3144137688 - NamedType 2184892397" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item %1 not found.</source>
@@ -427,6 +455,10 @@
           <source>Deleting Entries...</source>
           <target>Eliminazione movimenti...</target>
         </trans-unit>
+        <trans-unit id="Codeunit 941607552 - Method 3955068393 - NamedType 2255984604" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Only one record can be selected</source>
+          <target>È possibile selezionare un solo record</target>
+        </trans-unit>
         <trans-unit id="Enum 1215111042 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MES Interface Action</source>
           <target>Azioni interfaccia MES</target>
@@ -437,6 +469,7 @@
         </trans-unit>
         <trans-unit id="Enum 1238674176 - EnumValue 188051615 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Panel</source>
+          <target>Pannello produzione</target>
         </trans-unit>
         <trans-unit id="Enum 1360883003 - EnumValue 1270866090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>QRCode</source>
@@ -457,6 +490,10 @@
         <trans-unit id="Enum 1360883003 - EnumValue 780568423 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Interleaved2of5</source>
           <target>Interleaved2of5</target>
+        </trans-unit>
+        <trans-unit id="Enum 1569657534 - EnumValue 1654862770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Asynchronous Post</source>
+          <target>Registrazione asincrona</target>
         </trans-unit>
         <trans-unit id="Enum 1569657534 - EnumValue 2971788393 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry + Post</source>
@@ -526,6 +563,18 @@
           <source>Stop</source>
           <target>Arresta</target>
         </trans-unit>
+        <trans-unit id="Enum 1735171052 - EnumValue 2248886284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error</source>
+          <target>Errore</target>
+        </trans-unit>
+        <trans-unit id="Enum 1735171052 - EnumValue 3665605423 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Completed</source>
+          <target>Completato</target>
+        </trans-unit>
+        <trans-unit id="Enum 1735171052 - EnumValue 3955473374 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Warning</source>
+          <target>Attenzione</target>
+        </trans-unit>
         <trans-unit id="Enum 1847307580 - EnumValue 1314278117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>LogIn</source>
           <target>Log In</target>
@@ -568,6 +617,7 @@
         </trans-unit>
         <trans-unit id="Enum 2589360044 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>IoT Device Twin Categories</source>
+          <target>Categoria IoT Device Twin</target>
         </trans-unit>
         <trans-unit id="Enum 2768397507 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>IoT Device Method Types</source>
@@ -656,6 +706,18 @@
         <trans-unit id="Enum 3094680767 - EnumValue 350249191 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Maintenance</source>
           <target>Manutenzione</target>
+        </trans-unit>
+        <trans-unit id="Enum 3672348131 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="Enum 3672348131 - EnumValue 2248886284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error</source>
+          <target>Errore</target>
+        </trans-unit>
+        <trans-unit id="Enum 3672348131 - EnumValue 35450067 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posted</source>
+          <target>Registrato</target>
         </trans-unit>
         <trans-unit id="Enum 3936157652 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
@@ -1149,6 +1211,14 @@
           <source>Setup</source>
           <target>Setup</target>
         </trans-unit>
+        <trans-unit id="Page 1413335261 - Action 2061428202 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows notifications</source>
+          <target>Mostra le notifiche</target>
+        </trans-unit>
+        <trans-unit id="Page 1413335261 - Action 2061428202 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notifications</source>
+          <target>Notifiche</target>
+        </trans-unit>
         <trans-unit id="Page 1413335261 - Action 722101725 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Contacts" action</source>
           <target>Apre la pagina dei contatti</target>
@@ -1289,6 +1359,18 @@
           <source>Resource Scraps (MES)</source>
           <target>Scarti (MES)</target>
         </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 1586936474 - Method 1377591017 - NamedType 1997510694" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download Parameters</source>
+          <target>Scarica parametri</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 1586936474 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download the parameters of the selected entry</source>
+          <target>Scarica i parametri di registrazione del movimento selezionato</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 1586936474 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download Parameters</source>
+          <target>Scarica parametri</target>
+        </trans-unit>
         <trans-unit id="Page 1920932823 - Action 1587411120 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Undo selected entry, reverting timesm output and consumptions if necessary.</source>
           <target>Storna il movimento selezionato, inclusi tempi, versamenti e consumi se necessario.</target>
@@ -1337,6 +1419,14 @@
           <source>Capacity Ledger Entry</source>
           <target>Mov. contabili capacità</target>
         </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 3789388190 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open the Async Posting Log page</source>
+          <target>Apre il log delle registrazioni asincrone per il record selezionato</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 3789388190 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Async Posting Log</source>
+          <target>Log registrazioni asincrone</target>
+        </trans-unit>
         <trans-unit id="Page 1920932823 - Action 4055413014 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open the tracking lines page</source>
           <target>Apre l'elenco delle righe tracciabilità movimento</target>
@@ -1344,6 +1434,14 @@
         <trans-unit id="Page 1920932823 - Action 4055413014 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tracking Lines</source>
           <target>Tracciabilità</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 408815192 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Undo selected entry times and generate new entries with the new times.</source>
+          <target>Annulla tempi per il movimento selezionato e genera un nuovo movimento con dei nuovi tempi</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 408815192 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Employe Entry Times</source>
+          <target>Aggiorna tempi movimento impiegato</target>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Control 1152644207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Posting Time</source>
@@ -1783,6 +1881,7 @@
         </trans-unit>
         <trans-unit id="Page 205406101 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>IoT Device Twins</source>
+          <target>IoT Device Twins</target>
         </trans-unit>
         <trans-unit id="Page 2252130505 - Control 1152644207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Posting Time</source>
@@ -2053,8 +2152,8 @@
           <target>Specifica il valore del campo "Formato"</target>
         </trans-unit>
         <trans-unit id="Page 2481736433 - Control 2872754765 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Column Width %</source>
-          <target>% larghezza colonna </target>
+          <source>Column Width (px)</source>
+          <target>Larghezza colonna (px)</target>
         </trans-unit>
         <trans-unit id="Page 2481736433 - Control 2891538263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enabled</source>
@@ -2184,6 +2283,34 @@
           <source>IoT Hub Explorer (MES)</source>
           <target>IoT Hub Explorer (MES)</target>
         </trans-unit>
+        <trans-unit id="Page 2637177897 - Control 2119658478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Read field.</source>
+          <target>Indica che il messaggio è stato letto</target>
+        </trans-unit>
+        <trans-unit id="Page 2637177897 - Control 3080618677 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Message field.</source>
+          <target>Indica il messaggio ricevuto</target>
+        </trans-unit>
+        <trans-unit id="Page 2637177897 - Control 3128688872 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Panel Setup Id field.</source>
+          <target>Indica l'ID del setup pannello</target>
+        </trans-unit>
+        <trans-unit id="Page 2637177897 - Control 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <target>Indica il nr. movimento del log</target>
+        </trans-unit>
+        <trans-unit id="Page 2637177897 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Async Posting Log (MES)</source>
+          <target>Log registrazioni asincrone (MES)</target>
+        </trans-unit>
+        <trans-unit id="Page 2647740909 - Action 2061428202 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows notifications</source>
+          <target>Mostra le notifiche</target>
+        </trans-unit>
+        <trans-unit id="Page 2647740909 - Action 2061428202 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notifications</source>
+          <target>Notifiche</target>
+        </trans-unit>
         <trans-unit id="Page 2647740909 - Action 3432668166 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Reason Codes" action</source>
           <target>Apre la lista delle causali</target>
@@ -2199,6 +2326,14 @@
         <trans-unit id="Page 2647740909 - Action 347328507 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Employees</source>
           <target>Dipendenti</target>
+        </trans-unit>
+        <trans-unit id="Page 2647740909 - Action 3955068393 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow to copy reason codes from another panel</source>
+          <target>Consenti di copiare i codici causali da un altro pannello</target>
+        </trans-unit>
+        <trans-unit id="Page 2647740909 - Action 3955068393 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Reason Codes</source>
+          <target>Copia Causali</target>
         </trans-unit>
         <trans-unit id="Page 2647740909 - Action 722101725 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Contacts" action</source>
@@ -2828,6 +2963,34 @@
           <source>MES Setup (MES)</source>
           <target>Setup MES (MES)</target>
         </trans-unit>
+        <trans-unit id="Page 2920695980 - Control 103958798 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete old Reason Codes from selected Production Panel Setup</source>
+          <target>Eliminazione dei vecchi codici causali dall'impostazione del pannello di produzione selezionata</target>
+        </trans-unit>
+        <trans-unit id="Page 2920695980 - Control 103958798 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Old Reason Codes</source>
+          <target>Elimina i vecchi codici causali</target>
+        </trans-unit>
+        <trans-unit id="Page 2920695980 - Control 1999484495 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Custom Actions from selected Production Panel Setup</source>
+          <target>Copia le azioni personalizzate dall'impostazione del pannello di produzione selezionato</target>
+        </trans-unit>
+        <trans-unit id="Page 2920695980 - Control 1999484495 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Custom Actions</source>
+          <target>Copia azioni personalizzate</target>
+        </trans-unit>
+        <trans-unit id="Page 2920695980 - Control 3908214318 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update old Reason Codes from selected Production Panel Setup</source>
+          <target>Aggiorna i vecchi codici causali dall'impostazione del pannello di produzione selezionata</target>
+        </trans-unit>
+        <trans-unit id="Page 2920695980 - Control 3908214318 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Old Reason Codes</source>
+          <target>Aggiorna i vecchi codici causali</target>
+        </trans-unit>
+        <trans-unit id="Page 2920695980 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select Production Panel Setup</source>
+          <target>Seleziona l'impostazione del pannello di produzione</target>
+        </trans-unit>
         <trans-unit id="Page 3009655385 - Control 1376599419 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Filter Prod. Order Routing Line for this Machine Center Name</source>
           <target>Filtra riga ciclo ordine Prod. per questo nome centro di lavoro</target>
@@ -3040,6 +3203,10 @@
           <source>Interface Log (MES)</source>
           <target>Log interfaccia (MES)</target>
         </trans-unit>
+        <trans-unit id="Page 3093956008 - Control 3686346558 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Error</source>
+          <target>Errore registrazione</target>
+        </trans-unit>
         <trans-unit id="Page 3093956008 - Method 1738908163 - NamedType 1026168854" translate="yes" size-unit="char" xml:space="preserve">
           <source>MACHINE TIME</source>
           <target>TEMPO MACCHINA</target>
@@ -3064,6 +3231,42 @@
           <source>Contact List (MES)</source>
           <target>Lista contatti (MES)</target>
         </trans-unit>
+        <trans-unit id="Page 3230716678 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set the resource type</source>
+          <target>Tipo risorsa</target>
+        </trans-unit>
+        <trans-unit id="Page 3230716678 - Control 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
+        </trans-unit>
+        <trans-unit id="Page 3230716678 - Control 2544235875 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select the Panel No.</source>
+          <target>Indica il pannello di produzione</target>
+        </trans-unit>
+        <trans-unit id="Page 3230716678 - Control 2544235875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Panel No.</source>
+          <target>Nr. pannello</target>
+        </trans-unit>
+        <trans-unit id="Page 3230716678 - Control 3014885516 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set the order of resources</source>
+          <target>Imposta la sequenza delle risorse</target>
+        </trans-unit>
+        <trans-unit id="Page 3230716678 - Control 3014885516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sequence No.</source>
+          <target>Nr. sequenza</target>
+        </trans-unit>
+        <trans-unit id="Page 3230716678 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select the Resource No.</source>
+          <target>Seleziona il nr. risorsa</target>
+        </trans-unit>
+        <trans-unit id="Page 3230716678 - Control 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+        </trans-unit>
+        <trans-unit id="Page 3230716678 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Production Panel Setup (MES)</source>
+          <target>Setup pannello di produzione (MES)</target>
+        </trans-unit>
         <trans-unit id="Page 3279960439 - Control 1061132607 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Filter will be always evaluate</source>
           <target>Il filtro contiene variabili di sistema, quindi verrà sempre ricalcolato</target>
@@ -3084,6 +3287,14 @@
           <source>Custom Filters (MES)</source>
           <target>Filtri personalizzati (MES)</target>
         </trans-unit>
+        <trans-unit id="Page 3338615813 - Action 2061428202 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows notifications</source>
+          <target>Mostra le notifiche</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Action 2061428202 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notifications</source>
+          <target>Notifiche</target>
+        </trans-unit>
         <trans-unit id="Page 3338615813 - Action 3432668166 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Reason Codes" action</source>
           <target>Apre la lista delle causali</target>
@@ -3099,6 +3310,14 @@
         <trans-unit id="Page 3338615813 - Action 347328507 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Employees</source>
           <target>Dipendenti</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Action 3955068393 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow to copy reason codes from another panel</source>
+          <target>Consenti di copiare i codici causali da un altro pannello</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Action 3955068393 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Reason Codes</source>
+          <target>Copia Causali</target>
         </trans-unit>
         <trans-unit id="Page 3338615813 - Action 722101725 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Contacts" action</source>
@@ -3244,6 +3463,10 @@
           <source>Custom Lists</source>
           <target>Liste personalizzabili</target>
         </trans-unit>
+        <trans-unit id="Page 3448781404 - Action 1293655218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee Entry</source>
+          <target>Movimenti timbrature</target>
+        </trans-unit>
         <trans-unit id="Page 3448781404 - Action 1514883969 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Setup resources available on this panel</source>
           <target>Imposta le risorse disponibili nel pannello</target>
@@ -3256,6 +3479,14 @@
           <source>Prod. Order Routing Lines</source>
           <target>Righe cicli ord. produzione</target>
         </trans-unit>
+        <trans-unit id="Page 3448781404 - Action 2703253542 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open custom list setup for selected record</source>
+          <target>Apre il setup dei campi personalizzati per le righe cicli OdP</target>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Action 2703253542 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup</source>
+          <target>Setup</target>
+        </trans-unit>
         <trans-unit id="Page 3448781404 - Action 3864838382 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reset custom list for selected table</source>
           <target>Esegue l'azione di ripristino</target>
@@ -3263,6 +3494,14 @@
         <trans-unit id="Page 3448781404 - Action 3864838382 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reset</source>
           <target>Ripristino</target>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Action 3950587503 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset custom list for selected table</source>
+          <target>Esegue l'azione di ripristino</target>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Action 3950587503 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset</source>
+          <target>Ripristina</target>
         </trans-unit>
         <trans-unit id="Page 3448781404 - Action 414037231 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open custom list setup for selected record</source>
@@ -3712,6 +3951,30 @@
           <source>Caption Translations (MES)</source>
           <target>Traduzioni etichette (MES)</target>
         </trans-unit>
+        <trans-unit id="Page 3814133824 - Control 1123684309 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Message</source>
+          <target>Messaggio</target>
+        </trans-unit>
+        <trans-unit id="Page 3814133824 - Control 2683860767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+        </trans-unit>
+        <trans-unit id="Page 3814133824 - Control 3092263724 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SystemId</source>
+          <target>SystemId</target>
+        </trans-unit>
+        <trans-unit id="Page 3814133824 - Control 3416902862 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Read</source>
+          <target>Letta</target>
+        </trans-unit>
+        <trans-unit id="Page 3814133824 - Control 366342085 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee Entry Entry No.</source>
+          <target>Nr. movimento dipendente</target>
+        </trans-unit>
+        <trans-unit id="Page 3814133824 - Control 4114018880 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Panel Setup Id</source>
+          <target>ID Setup pannello</target>
+        </trans-unit>
         <trans-unit id="Page 3997804741 - Control 1964419135 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Employee No." field</source>
           <target>Specifica il valore del campo "Nr. dipendente"</target>
@@ -3755,6 +4018,118 @@
         <trans-unit id="Page 4140402057 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Themes (MES)</source>
           <target>Temi (MES)</target>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Action 3574903023 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mark selected notifications as read</source>
+          <target>Imposta le notifiche selezionate come lette</target>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Action 3574903023 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mark As Read</source>
+          <target>Letto</target>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Control 2359697831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notification Type</source>
+          <target>Tipo notifica</target>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Control 2818640026 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notification Message</source>
+          <target>Messaggio notifica</target>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Control 577209412 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notification Date and Time</source>
+          <target>Data-Ora notifica</target>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Method 716454850 - NamedType 4144284393" translate="yes" size-unit="char" xml:space="preserve">
+          <source>These notifications will be shown only on the production panel %1 - %2 %3.</source>
+          <target>Le seguenti notifiche verranno mostrate solamente sul pannello produzione %1 - %2 %3.</target>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Method 716454850 - NamedType 833648744" translate="yes" size-unit="char" xml:space="preserve">
+          <source>These notifications will be shown on all production panels.</source>
+          <target>Le seguenti notifiche verranno mostrate su tutti i pannelli produzione.</target>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notifications (MES)</source>
+          <target>Notifiche (MES)</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 1506918390 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current operation duration</source>
+          <target>Durata operazione</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 1506918390 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current operation duration</source>
+          <target>Durata operazione</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 2671550343 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the new starting date/time</source>
+          <target>Inserire la nuova data/ora inizio</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 2671550343 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New starting date/time</source>
+          <target>Nuova data/ora inizio</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3184354228 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current starting date/time</source>
+          <target>Data/ora inizio operazione</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3184354228 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current starting date/time</source>
+          <target>Data/ora inizio operazione</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3443262675 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current values</source>
+          <target>Valori operazione</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3943727433 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current ending date/time</source>
+          <target>Data/ora fine operazione</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3943727433 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current ending date/time</source>
+          <target>Data/ora fine operazione</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 4287905046 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the new ending date/time</source>
+          <target>Inserire la nuova data/ora fine</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 4287905046 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New ending date/time</source>
+          <target>Nuova data/ora fine</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 895955549 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation duration</source>
+          <target>Durata operazione</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 895955549 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation duration</source>
+          <target>Nuova durata operazione</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 969644539 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New time values</source>
+          <target>Nuovi valori operazione</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 1024040387" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New ending date/time is equal to new starting date/time. Do you want to continue?</source>
+          <target>Il nuovo data ora fine è uguale al nuovo data ora inizio. Sicuri di voler procedere con questi dati?</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 247886300" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New ending date/time is required</source>
+          <target>Nuovo data ora fine deve essere compilato</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 3861114427" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New ending date/time must be greater than or equal to new starting date/time</source>
+          <target>Nuovo data ora fine deve essere maggiore o uguale al nuovo data ora inizio</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 675186806" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New ending date/time is equal to new starting date/time</source>
+          <target>Il nuovo data ora fine è guguale al nuovo data ora inizio</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 675944113" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New starting date/time is required</source>
+          <target>Nuovo data ora inizio deve essere compilato</target>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Request New Time (MES)</source>
+          <target>MES Richiesta nuovi tempi</target>
         </trans-unit>
         <trans-unit id="PageExtension 1097886108 - Control 2081051893 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Employee's Badge No.</source>
@@ -4134,6 +4509,7 @@
         </trans-unit>
         <trans-unit id="Table 1125446740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>IoT Device Twin</source>
+          <target>IoT Device Twin</target>
         </trans-unit>
         <trans-unit id="Table 1282519859 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry No.</source>
@@ -4250,6 +4626,10 @@
         <trans-unit id="Table 1859070565 - Field 111215004 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity Multiplier</source>
           <target>Moltiplicatore quantità</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 1114156066 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Async Posting</source>
+          <target>Registrazione asincrona</target>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Field 1152644207 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Time</source>
@@ -4551,6 +4931,10 @@
           <source>Ending Date</source>
           <target>Data fine</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 459518406 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Parameters</source>
+          <target>Parametri registrazione</target>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 479284569 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>System Closed</source>
           <target>Chiuso da sistema</target>
@@ -4562,6 +4946,10 @@
         <trans-unit id="Table 1859070565 - Field 561421623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Task No.</source>
           <target>Nr. task commessa</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 564277726 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Error</source>
+          <target>Errore registrazione</target>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
@@ -4602,6 +4990,10 @@
         <trans-unit id="Table 1859070565 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry No.</source>
           <target>Nr. movimento</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 942402152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Status</source>
+          <target>Stato registrazione</target>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Employee Entry</source>
@@ -4938,6 +5330,30 @@
         <trans-unit id="Table 2427368581 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rework</source>
           <target>Rilavorazione</target>
+        </trans-unit>
+        <trans-unit id="Table 2637177897 - Field 2119658478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Read</source>
+          <target>Letta</target>
+        </trans-unit>
+        <trans-unit id="Table 2637177897 - Field 3080618677 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Message</source>
+          <target>Messaggio</target>
+        </trans-unit>
+        <trans-unit id="Table 2637177897 - Field 3128688872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Panel Setup Id</source>
+          <target>ID Setup pannello</target>
+        </trans-unit>
+        <trans-unit id="Table 2637177897 - Field 562554751 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee Entry Entry No.</source>
+          <target>Nr. movimento dipendente</target>
+        </trans-unit>
+        <trans-unit id="Table 2637177897 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+        </trans-unit>
+        <trans-unit id="Table 2637177897 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Async Posting Log (MES)</source>
+          <target>Log registrazioni asincrone (MES)</target>
         </trans-unit>
         <trans-unit id="Table 2647740909 - Field 1751291442 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary UoM Management</source>
@@ -5661,6 +6077,7 @@
         </trans-unit>
         <trans-unit id="Table 3448781404 - Field 4167531009 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>IoT Refresh</source>
+          <target>Aggiornamento IoT</target>
         </trans-unit>
         <trans-unit id="Table 3448781404 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
@@ -5802,6 +6219,26 @@
           <source>Parent Id Filter</source>
           <target>Id filtro padre</target>
         </trans-unit>
+        <trans-unit id="Table 392679671 - Field 1478212078 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Parent Id Filter</source>
+          <target>Id filtro padre</target>
+        </trans-unit>
+        <trans-unit id="Table 392679671 - Field 1566949934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Column 7 Value</source>
+          <target>Valore colonna 7</target>
+        </trans-unit>
+        <trans-unit id="Table 392679671 - Field 1682499872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Column 9 Value</source>
+          <target>Valore colonna 9</target>
+        </trans-unit>
+        <trans-unit id="Table 392679671 - Field 1684949941 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Column 6 Value</source>
+          <target>Valore colonna 6</target>
+        </trans-unit>
+        <trans-unit id="Table 392679671 - Field 2115908695 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Parent Id Filter</source>
+          <target>Id filtro padre</target>
+        </trans-unit>
         <trans-unit id="Table 392679671 - Field 2277065436 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Column 5 Value</source>
           <target>Valore colonna 5</target>
@@ -5814,9 +6251,25 @@
           <source>Table No. Filter</source>
           <target>Filtro Nr. tabella</target>
         </trans-unit>
+        <trans-unit id="Table 392679671 - Field 2609692935 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Column 8 Value</source>
+          <target>Valore colonna 8</target>
+        </trans-unit>
+        <trans-unit id="Table 392679671 - Field 2753605312 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Parent Id Filter</source>
+          <target>Id filtro padre</target>
+        </trans-unit>
+        <trans-unit id="Table 392679671 - Field 2831429086 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Parent Id Filter</source>
+          <target>Id filtro padre</target>
+        </trans-unit>
         <trans-unit id="Table 392679671 - Field 3017471043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table No.</source>
           <target>Nr. tabella</target>
+        </trans-unit>
+        <trans-unit id="Table 392679671 - Field 311499256 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Column 10 Value</source>
+          <target>Valore colonna 10</target>
         </trans-unit>
         <trans-unit id="Table 392679671 - Field 3390308561 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Column 2 Value</source>
@@ -5845,6 +6298,10 @@
         <trans-unit id="Table 392679671 - Field 656859000 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Column 1 Value</source>
           <target>Valore colonna 1</target>
+        </trans-unit>
+        <trans-unit id="Table 392679671 - Field 840515461 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Parent Id Filter</source>
+          <target>Id filtro padre</target>
         </trans-unit>
         <trans-unit id="Table 392679671 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry No.</source>
@@ -5917,6 +6374,38 @@
         <trans-unit id="Table 4063490916 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MES Team</source>
           <target>Squadre MES</target>
+        </trans-unit>
+        <trans-unit id="Table 4084998028 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
+        </trans-unit>
+        <trans-unit id="Table 4084998028 - Field 2119658478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Read</source>
+          <target>Letta</target>
+        </trans-unit>
+        <trans-unit id="Table 4084998028 - Field 2359697831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notification Type</source>
+          <target>Tipo notifica</target>
+        </trans-unit>
+        <trans-unit id="Table 4084998028 - Field 2544235875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Panel No.</source>
+          <target>Nr. pannello</target>
+        </trans-unit>
+        <trans-unit id="Table 4084998028 - Field 2818640026 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notification Message</source>
+          <target>Messaggio notifica</target>
+        </trans-unit>
+        <trans-unit id="Table 4084998028 - Field 3553709163 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry Id</source>
+          <target>Id movimento</target>
+        </trans-unit>
+        <trans-unit id="Table 4084998028 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 4084998028 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notifications (MES)</source>
+          <target>Notifiche (MES)</target>
         </trans-unit>
         <trans-unit id="Table 4279585036 - Field 2252144466 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Uri</source>
