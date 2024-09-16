@@ -17,9 +17,9 @@ All fixes and modifications will be reviewed by EOS before they're inserted in n
 
 There are several official master branches in this repository. They reflect the supported BC versions. So you can find :
 - master-bc14
-- master-bc22
 - master-bc23
 - master-bc24
+- master-bc25
 
 No pure "master" branch is present/used!
 
