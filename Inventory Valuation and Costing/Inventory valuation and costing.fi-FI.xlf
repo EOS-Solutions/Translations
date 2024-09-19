@@ -2627,13 +2627,17 @@
           <source>Specifies which method to be use for weighed average cost</source>
           <target>Määrittää, mitä menetelmää käytetään punnituissa keskimääräisissä kustannuksissa</target>
         </trans-unit>
+        <trans-unit id="Page 3119941560 - Control 2734585587 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If this flag is active, the WIP Calculation procedure uses the value of the Expected Operation Cost field present in the routing lines of the single production order in determining the WIP capacity amount; otherwise, it recalculates this value, applying the cost type set in the “Capacity Cost Calculation” field.</source>
+          <target>Jos tämä lippu on aktiivinen, WIP-laskentaproseduuri käyttää yhden tuotantotilauksen sykliriveillä olevan Odotetut käyttökustannukset -kentän arvoa kapasiteetin WIP-määrän määrittämisessä; muussa tapauksessa se laskee tämän arvon uudelleen käyttämällä "Kapasiteettikustannuslaskenta" -kentässä asetettua kustannustyyppiä.</target>
+        </trans-unit>
         <trans-unit id="Page 3119941560 - Control 2765545487 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if calculate costs for lot no. and serial no.</source>
           <target>Määrittää, lasketaanko erän nron kustannukset. ja sarjanumero.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 2816710344 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Average Cost - Include Purch. Cr. Memo field.</source>
-          <target>Määrittää Keskihinta - Sisällytä ostohyvityslasku -kentän arvon.</target>
+          <source>If this flag is active when the program calculates the value of the purchases, the document types Shipment Return Purchase and Purchase Credit Note will also be included in the movements to be analyzed.</source>
+          <target>Jos tämä lippu on aktiivinen, ohjelman laskeessa ostojen arvoa, myös tositetyypit Ostopalautuslähetys ja Ostohyvityslasku sisällytetään analysoitaviin tapahtumiin.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 2960043152 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which method to use for third level of subcontracting cost</source>
@@ -2720,8 +2724,8 @@
           <target>Määrittää, mikä on kapasiteetin kustannustyyppiin liittyvä oletustuonnin kustannuskoodi.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 747511446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether or not to consider purchases in the BOM calculation. This option can be useful for hybrid items that are both produced and purchased.</source>
-          <target>Määrittää, otetaanko ostot huomioon tuoteluettelon laskennassa. Tämä vaihtoehto voi olla hyödyllinen hybridituotteille, joita valmistetaan ja ostetaan.</target>
+          <source>Allows you to specify, for items with a “Production Order” replenishment system and cost calculation performed based on the “Standard Routing/BOM” value, whether or not to consider purchase entries. This option can be useful in the case of items managed with a hybrid logic, i.e. produced and purchased.</source>
+          <target>Voit määrittää tuotteille, joissa on "Tuotantotilaus"-täydennysjärjestelmä ja "Standard Routing/BOM"-arvon perusteella suoritettu kustannuslaskelma, harkitaanko ostomerkintöjä. Tämä vaihtoehto voi olla hyödyllinen, kun kyseessä ovat hybridilogiikalla hallitut tuotteet eli tuotteet on valmistettu ja ostettu.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 917035920 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which is the default addition cost code related to material cost type.</source>
@@ -7530,6 +7534,10 @@
         <trans-unit id="Table 1573099788 - Field 2702036118 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Weighed Average Cost Method</source>
           <target>Punnittu keskimääräinen kustannusmenetelmä</target>
+        </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 2734585587 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WIP - Use Entry Actual Cost</source>
+          <target>WIP - Käytä sisääntulon todellisia kustannuksia</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 2765545487 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Specific Cost Calc.</source>

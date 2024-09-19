@@ -2627,13 +2627,17 @@
           <source>Specifies which method to be use for weighed average cost</source>
           <target>Gibt an, welche Methode für gewogene Durchschnittskosten verwendet werden soll</target>
         </trans-unit>
+        <trans-unit id="Page 3119941560 - Control 2734585587 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If this flag is active, the WIP Calculation procedure uses the value of the Expected Operation Cost field present in the routing lines of the single production order in determining the WIP capacity amount; otherwise, it recalculates this value, applying the cost type set in the “Capacity Cost Calculation” field.</source>
+          <target>Wenn dieses Flag aktiv ist, verwendet das WIP-Berechnungsverfahren den Wert des Felds „Erwartete Betriebskosten“, der in den Zykluszeilen des einzelnen Produktionsauftrags vorhanden ist, um den Kapazitäts-WIP-Betrag zu ermitteln. andernfalls wird dieser Wert neu berechnet und dabei der im Feld „Kapazitätskostenberechnung“ festgelegte Kostentyp angewendet.</target>
+        </trans-unit>
         <trans-unit id="Page 3119941560 - Control 2765545487 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if calculate costs for lot no. and serial no.</source>
           <target>Gibt an, ob die Kosten für los nr. und Seriennummer.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 2816710344 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Average Cost - Include Purch. Cr. Memo field.</source>
-          <target>Gibt den Wert des Felds "Durchschnittskosten - Kaufgutschrift einschließen" an.</target>
+          <source>If this flag is active when the program calculates the value of the purchases, the document types Shipment Return Purchase and Purchase Credit Note will also be included in the movements to be analyzed.</source>
+          <target>Wenn dieses Flag aktiviert ist, werden bei der Berechnung des Einkaufswerts auch die Belegarten Einkaufsretoure und Einkaufsgutschrift in die zu analysierenden Transaktionen einbezogen.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 2960043152 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which method to use for third level of subcontracting cost</source>
@@ -2720,8 +2724,8 @@
           <target>Gibt an, welcher Standardkostencode für die Kapazitätskostenart ist.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 747511446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether or not to consider purchases in the BOM calculation. This option can be useful for hybrid items that are both produced and purchased.</source>
-          <target>Gibt an, ob Einkäufe bei der Stücklistenberechnung berücksichtigt werden sollen oder nicht. Diese Option kann für Hybridartikel nützlich sein, die sowohl produziert als auch gekauft werden.</target>
+          <source>Allows you to specify, for items with a “Production Order” replenishment system and cost calculation performed based on the “Standard Routing/BOM” value, whether or not to consider purchase entries. This option can be useful in the case of items managed with a hybrid logic, i.e. produced and purchased.</source>
+          <target>Hier können Sie für Artikel mit einem Nachschubsystem „Produktionsauftrag“ und einer Kostenberechnung auf Grundlage des Werts „Standard-Arbeitsplan/Stückliste“ angeben, ob Einkaufseinträge berücksichtigt werden sollen oder nicht. Diese Option kann bei Artikeln nützlich sein, die mit einer hybriden Logik verwaltet werden, d. h. produziert und gekauft werden.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 917035920 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which is the default addition cost code related to material cost type.</source>
@@ -7530,6 +7534,10 @@
         <trans-unit id="Table 1573099788 - Field 2702036118 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Weighed Average Cost Method</source>
           <target>Gewogene Durchschnittliche Kostenmethode</target>
+        </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 2734585587 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WIP - Use Entry Actual Cost</source>
+          <target>WIP - Eintrag Istkosten verwenden</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 2765545487 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Specific Cost Calc.</source>
