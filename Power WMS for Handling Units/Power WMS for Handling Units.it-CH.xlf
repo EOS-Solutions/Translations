@@ -83,9 +83,21 @@
           <source>Procedure not allowed</source>
           <target>Procedura non consentita.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 2738904635 - Method 2813625424 - NamedType 327841553" translate="yes" size-unit="char" xml:space="preserve">
-          <source>You must assign the %1 activity to the user before enable Pick&amp;Pack functionality.</source>
-          <target>Per abilitare la funzionalità di Pick&amp;Pack è necessario assegnare all'utente l'attività di prelievo</target>
+        <trans-unit id="Codeunit 247256618 - Method 2751622608 - NamedType 2708210574" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activities for Power WMS for Handling Units are hidden due to missing subscription for Handling Unit Management</source>
+          <target>Sottoscrizione non trovata per Handling Units Management</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 247256618 - Method 3217729004 - NamedType 2708210574" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activities for Power WMS for Packing List are hidden due to missing subscription for Packing List</source>
+          <target>Sottoscrizione non trovata per Packing List</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 247256618 - Method 3543808490 - NamedType 2267428010" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The use of Power WMS for Packing List is not permitted.</source>
+          <target>L'utilizzo di Power WMS for Packing List non è consentito.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 247256618 - Method 3837287494 - NamedType 2267428010" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The use of Power WMS for Handling Units is not permitted.</source>
+          <target>L'utilizzo di Power WMS for Handling Units non è consentito.</target>
         </trans-unit>
         <trans-unit id="Codeunit 2738904635 - NamedType 171272735" translate="yes" size-unit="char" xml:space="preserve">
           <source>Procedure not allowed</source>
@@ -140,7 +152,7 @@
           <target>Nessuna attività per unità di carico impostata</target>
         </trans-unit>
         <trans-unit id="Codeunit 3998682346 - Method 1286229918 - NamedType 2689195079" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Handling Unit No. %1 is alreadi assigned to another location or bin</source>
+          <source>Handling Unit No. %1 is already assigned to another location or bin</source>
           <target>L'unità di carico %1 è già stata assegnata a un altra ubicazione / collocazione.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3998682346 - Method 3339046163 - NamedType 3712845694" translate="yes" size-unit="char" xml:space="preserve">
@@ -347,6 +359,18 @@
           <source>Specifies the Handling Unit Type</source>
           <target>Indica il tipo di unità di carico</target>
         </trans-unit>
+        <trans-unit id="PageExtension 4172144944 - Control 1031853090 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allows assignment of handling units to scans</source>
+          <target>Consente l'assegnazione di unità di carico alle scansioni</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4172144944 - Control 3344976053 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Handling Units</source>
+          <target>Unità di carico</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4172144944 - Control 3772004562 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allows scans of existing handling unit</source>
+          <target>Consente la scansione di unità di carico esistenti</target>
+        </trans-unit>
         <trans-unit id="PageExtension 78957275 - Control 1989372108 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Handling Unit No. for Pick &amp; Pack</source>
           <target>Nr. unità di carico per Pick &amp; Pack</target>
@@ -542,6 +566,14 @@
         <trans-unit id="TableExtension 3917790852 - Field 90226144 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Pending Activities</source>
           <target>Attività pendenti WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 79348686 - Field 1031853090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Handling Unit Assignment</source>
+          <target>Abilita assegnazione unità di carico</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 79348686 - Field 3772004562 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Handling Unit Scan</source>
+          <target>Abilita scansione unità di carico</target>
         </trans-unit>
       </group>
     </body>
