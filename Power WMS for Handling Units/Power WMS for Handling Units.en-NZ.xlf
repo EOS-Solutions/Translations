@@ -198,15 +198,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU Management - Method OnRun - NamedType NoActivitySetErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 247256618 - Method 2751622608 - NamedType 2708210574" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activities for Power WMS for Handling Units are hidden due to missing subscription for Handling Unit Management</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU Mgmt. - Method GetHUMMissingSubscriptionErrorText - NamedType MissingSubscritionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 247256618 - Method 3217729004 - NamedType 2708210574" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activities for Power WMS for Packing List are hidden due to missing subscription for Packing List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU Mgmt. - Method GetPKGMissingSubscriptionErrorText - NamedType MissingSubscritionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 247256618 - Method 3837287494 - NamedType 2267428010" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The use of Power WMS for Handling Units is not permitted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU Mgmt. - Method IsHUMAllowed - NamedType PowerWMSNotAllowedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 247256618 - Method 3543808490 - NamedType 2267428010" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The use of Power WMS for Packing List is not permitted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU Mgmt. - Method IsPKGAllowed - NamedType PowerWMSNotAllowedErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2738904635 - NamedType 171272735" size-unit="char" translate="yes" xml:space="preserve">
           <source>Procedure not allowed</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU PickPack Imp. - NamedType ProcedureNotAllowedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2738904635 - Method 2813625424 - NamedType 327841553" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You must assign the %1 activity to the user before enable Pick&amp;Pack functionality.</source>
-          <note from="Developer" annotates="general" priority="2">%1: Activity Type</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089.01 WMS HU PickPack Imp. - Method EnableActivity - NamedType PickingNotFoundErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3664020331 - NamedType 171272735" size-unit="char" translate="yes" xml:space="preserve">
           <source>Procedure not allowed</source>
@@ -393,6 +408,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS08901PageExt18060019 - Control EOS Packaging Material No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4172144944 - Control 3344976053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2535728483">
+          <source>Handling Units</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS08901PageExt18060022 - Control EOSHandlingUnits - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4172144944 - Control 1031853090 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2535728483">
+          <source>Allows assignment of handling units to scans</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS08901PageExt18060022 - Control EOS Enable Handling Unit Ass. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4172144944 - Control 3772004562 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2535728483">
+          <source>Allows scans of existing handling unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS08901PageExt18060022 - Control EOS Enable Handling Unit Scan - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3534448327 - Control 2599229313 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2077015856">
           <source>Specifies the Handling Unit No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -462,6 +492,16 @@
           <source>Handling Unit Scanner Setup Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt18060010 - Field EOS HU Scanner Setup Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 79348686 - Field 1031853090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 517974087">
+          <source>Enable Handling Unit Assignment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt18060012 - Field EOS Enable Handling Unit Ass. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 79348686 - Field 3772004562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 517974087">
+          <source>Enable Handling Unit Scan</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS08901TableExt18060012 - Field EOS Enable Handling Unit Scan - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3736619365 - Field 3871306609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4250493740">
           <source>Handling Unit Token Exists</source>
