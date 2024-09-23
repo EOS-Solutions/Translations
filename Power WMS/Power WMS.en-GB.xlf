@@ -703,6 +703,51 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Field - Field Table No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3473501094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Information (WMS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 659317815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Info - Field Activity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 1903703588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allowed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Info - Field Allowed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 3834798520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Info - Field App Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 1256520770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Info - Field App Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 3702373668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Info - Field Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 739346273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Info - Field Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 193255295 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Need Warehouse Employee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Info - Field Need Warehouse Employee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 3651943459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Allowed Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Info - Field Not Allowed Reason - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 521021991 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Activity Issue (WMS)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3498,6 +3543,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS Item Tracking Impl. - Method SourceTableDescription - NamedType SourceDescLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 698810022 - Method 532107056 - NamedType 2708210574" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activities for Power WMS are hidden due to missing subscription for Power WMS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS Management - Method GetMissingSubscriptionErrorText - NamedType MissingSubscritionErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 698810022 - Method 4102214791 - NamedType 4061495205" size-unit="char" translate="yes" xml:space="preserve">
           <source>Init setup with default values?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3942,6 +3992,11 @@
           <source>WMS User %1 has been disabled</source>
           <note from="Developer" annotates="general" priority="2">%1: Employee No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS User Activity Mgmt. - Method DisableWMSUser - NamedType WMSUserDisabledLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - Method 1762526664 - NamedType 2324101057" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Activities are hidden due to missing Warehouse Employee on WMS User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS User Activity Mgmt. - Method GetAvailableActivities - NamedType HideWarehouseActivitiesMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2996632548 - Method 1948108999 - NamedType 2355372627" size-unit="char" translate="yes" xml:space="preserve">
           <source>User Activity Not Found for Employee No. %1 Activity %2</source>
@@ -5212,6 +5267,46 @@
           <source>Restore</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Activity Fields - Action RestoreActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Information (WMS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Activity Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 659317815 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Activity Info - Control Activity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 1903703588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Available" field</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Activity Info - Control Allowed - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 1256520770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "App Name" field</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Activity Info - Control App Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 3702373668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Activity Info - Control Category - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 739346273 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Group" field</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Activity Info - Control Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 193255295 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Need Warehouse Employee" field</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Activity Info - Control Need Warehouse Employee - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 3651943459 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Not Allowed Reason" field</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Activity Info - Control Not Allowed Reason - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1404353874 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Activity Issues (WMS)</source>

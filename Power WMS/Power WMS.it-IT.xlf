@@ -51,10 +51,6 @@
           <source>Token is not a value</source>
           <target>Il token non è un valore</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1287496496 - Method 1283243607 - NamedType 3885548950" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Json Data is empty</source>
-          <target>Oggetto Json vuoto</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1287496496 - Method 1420023585 - NamedType 1075421739" translate="yes" size-unit="char" xml:space="preserve">
           <source>Key %1 not found</source>
           <target>Chiave %1 non trovata</target>
@@ -434,6 +430,10 @@
         <trans-unit id="Codeunit 2996632548 - Method 1750707128 - NamedType 121301690" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location filter updated on activities</source>
           <target>Il filtro ubicazione è stato aggiornato sulle attività</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - Method 1762526664 - NamedType 2324101057" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Warehouse Activities are hidden due to missing Warehouse Employee on WMS User</source>
+          <target>Attività di warehouse non visibili perché l'impiegato non è un impiegato warehouse</target>
         </trans-unit>
         <trans-unit id="Codeunit 2996632548 - Method 1948108999 - NamedType 2355372627" translate="yes" size-unit="char" xml:space="preserve">
           <source>User Activity Not Found for Employee No. %1 Activity %2</source>
@@ -842,6 +842,10 @@
         <trans-unit id="Codeunit 698810022 - Method 4102214791 - NamedType 4061495205" translate="yes" size-unit="char" xml:space="preserve">
           <source>Init setup with default values?</source>
           <target>Inizializzare il setup con i valori di default?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 698810022 - Method 532107056 - NamedType 2708210574" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activities for Power WMS are hidden due to missing subscription for Power WMS</source>
+          <target>Sottoscrizione non trovata per Power WMS</target>
         </trans-unit>
         <trans-unit id="Codeunit 73925163 - Method 1978962747 - NamedType 2485552466" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 No. %2 posted successfully</source>
@@ -3323,6 +3327,38 @@
           <source>Notifications (WMS)</source>
           <target>Notifiche (WMS)</target>
         </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 1256520770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "App Name" field</source>
+          <target>Indica il nome dell'app che gestisce l'attività</target>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 1903703588 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Available" field</source>
+          <target>Indica se l'attività è consentita in base a sottoscrizioni o ulteriori controlli</target>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 193255295 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Need Warehouse Employee" field</source>
+          <target>Indica se per l'attività è necessario che l'impiegato sia indicato come impiegato warehouse</target>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 3651943459 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Not Allowed Reason" field</source>
+          <target>Indica il motivo per cui l'attività non è consentita</target>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 3702373668 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity Category</source>
+          <target>Categoria</target>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 659317815 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity</source>
+          <target>Attività</target>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Control 739346273 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Group" field</source>
+          <target>Indica il gruppo di appartenenza dell'attività</target>
+        </trans-unit>
+        <trans-unit id="Page 3473501094 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity Information (WMS)</source>
+          <target>Informazioni attività (WMS)</target>
+        </trans-unit>
         <trans-unit id="Page 3523194963 - Control 12837806 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the the item tracking was handled by Business Central</source>
           <target>Indica se la tracciabilità è stata gestita automaticamente</target>
@@ -5418,6 +5454,42 @@
         <trans-unit id="Table 3421058100 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Theme (WMS)</source>
           <target>Tema (WMS)</target>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 1256520770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Name</source>
+          <target>Nome App</target>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 1903703588 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allowed</source>
+          <target>Consentito</target>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 193255295 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Need Warehouse Employee</source>
+          <target>Impiegato warehouse necessario</target>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 3651943459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Not Allowed Reason</source>
+          <target>Cauale indisponibilità</target>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 3702373668 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Category</source>
+          <target>Categoria</target>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 3834798520 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Id</source>
+          <target>Id App</target>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 659317815 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity</source>
+          <target>Attività</target>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Field 739346273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Group</source>
+          <target>Gruppo</target>
+        </trans-unit>
+        <trans-unit id="Table 3473501094 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity Information (WMS)</source>
+          <target>Informazioni attività (WMS)</target>
         </trans-unit>
         <trans-unit id="Table 3586555738 - Field 1461151337 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Mandatory</source>
