@@ -38,6 +38,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Allocation Entry - Field Journal Template Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 548237356 - Field 3744289816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reversed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Allocation Entry - Field Reversed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 548237356 - Field 1956996216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reversed By Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Allocation Entry - Field Reversed By Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 548237356 - Field 4022792525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reversed By User Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Allocation Entry - Field Reversed By User Id - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2290333542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Application Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -992,6 +1007,11 @@
           <source>Nota Credito Acquisto Nr. %1 del %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Ledger Entry - NamedType Text004_ITALbl</note>
+        </trans-unit>
+        <trans-unit id="Table 559801399 - Method 2924688512 - NamedType 1374303688" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 must not have any %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Ledger Entry - Method TestNoAllocations - NamedType NoAllocationErr</note>
         </trans-unit>
         <trans-unit id="Table 559801399 - Field 592951229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount (LCY)</source>
@@ -3293,11 +3313,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS075 Bonus Reversal - NamedType ReverseEntriesQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4064944010 - Method 892462309 - NamedType 883549673" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This is a reversed entry and cannot be reversed.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS075 Bonus Reversal - Method ReverseSingleSettlementEntry - NamedType AlreadyReversedErr</note>
-        </trans-unit>
         <trans-unit id="Page 3199425634 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Allocation Entries (SPB)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3337,6 +3352,16 @@
           <source>Specifies the value for the field Journal Template Name.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Allocation Entries - Control Journal Template Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3199425634 - Control 3744289816 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if this entry has been reversed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Allocation Entries - Control Reversed - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3199425634 - Control 4022792525 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies by whom (if any) this entry has been reversed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Allocation Entries - Control Reversed By User Id - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3199425634 - Action 3079681960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the "Show G/L Entry" action.</source>
@@ -3727,6 +3752,11 @@
           <source>&amp;Navigate</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Applied Entries - Action &amp;Navigate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 905483125 - Action 3015475257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverses the selected settlement entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Applied Entries - Action ReverseSettlementEntryAction - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 905483125 - Action 3015475257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reverse Settlement Entry</source>
@@ -4603,6 +4633,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control Remaining Amount (LCY) - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 3744289816 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if this entry has been reversed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control Reversed - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 1956996216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies by which entry (if any) this entry has been reversed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control Reversed By Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 4022792525 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies by whom (if any) this entry has been reversed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control Reversed By User Id - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3822340309 - Control 3596011399 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Sell-to/Buy-from Name.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4797,6 +4842,11 @@
           <source>Journal</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Action Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Action 3015475257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverses the selected settlement entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Action ReverseSettlementEntryAction - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Action 3015475257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reverse Settlement Entry</source>
@@ -12912,6 +12962,11 @@
           <source>Paid Amount (Partial)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS075SettleableAmountCalc - EnumValue Paid Amount (Partial) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2016734575 - EnumValue 4153663454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2626761488">
+          <source>Bonus Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS075EnumExt18059900 - EnumValue EOS075BonusEntry - Property Caption</note>
         </trans-unit>
       </group>
     </body>
