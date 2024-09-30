@@ -23,10 +23,6 @@
           <source>Operation completed. Do you want to open journal lines?</source>
           <target>La operación se realizó. ¿Quieres abrir líneas de diario?</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3557387855 - Method 921747108 - NamedType 3709150527" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The selected entries are not balanced! Cannot continue</source>
-          <target>¡Las entradas seleccionadas no están equilibradas! No se puede continuar</target>
-        </trans-unit>
         <trans-unit id="Enum 718233067 - EnumValue 3052399569 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CreditMemo</source>
           <target>Nota de crédito</target>
@@ -498,6 +494,346 @@
         <trans-unit id="TableExtension 3056689733 - Field 1625826471 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Compensation</source>
           <target>Compensación</target>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 4080021232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Code" field.</source>
+          <target>Especifica el valor del campo "Código".</target>
+          <note>Page EOS Compensation - Control EOS FilterCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 661498327 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Show Open Entries" field.</source>
+          <target>Especifica el valor del campo "Mostrar entradas abiertas".</target>
+          <note>Page EOS Compensation - Control EOS FilterOpen - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 2765076227 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Type" field.</source>
+          <target>Especifica el valor del campo "Tipo".</target>
+          <note>Page EOS Compensation - Control EOS FilterType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3370881839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date" field.</source>
+          <target>Especifica el valor del campo "Fecha de contabilización".</target>
+          <note>Page EOS Compensation - Control EOS PostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3301652662 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Journal Batch Name" field.</source>
+          <target>Especifica el valor del campo "Nombre de lote de diario".</target>
+          <note>Page EOS Compensation - Control EOS JnlBatchName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 812695767 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date Filter" field.</source>
+          <target>Especifica el valor del campo "Filtro de fecha de registro".</target>
+          <note>Page EOS Compensation - Control EOS FilterPostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3955030665 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document No." field.</source>
+          <target>Especifica el valor del campo "N.º de documento".</target>
+          <note>Page EOS Compensation - Control EOS DocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 283758386 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Journal Template Name" field.</source>
+          <target>Especifica el valor del campo "Nombre de la plantilla de diario".</target>
+          <note>Page EOS Compensation - Control EOS JnlTemplateName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3449046714 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Currency Filter" field.</source>
+          <target>Especifica el valor del campo "Filtro de moneda".</target>
+          <note>Page EOS Compensation - Control EOS FilterCurrency - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3916294320 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Especifica el valor del campo "Filtro de método de pago".</target>
+          <note>Page EOS Compensation - Control EOS FilterPaymentMethod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 2197495811 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Selected Entries Balance (LCY)" field.</source>
+          <target>Especifica el valor del campo "Saldo de entradas seleccionadas (DL)".</target>
+          <note>Page EOS Compensation - Control EOS SelectedNetBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 4252509755 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Comp. Sel. Vendor Entries" action</source>
+          <target>Ejecuta la acción "Comp. Sel. Entradas de proveedor"</target>
+          <note>Page EOS Compensation - Action EOS Vendor Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 3348956396 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Clear all" action</source>
+          <target>Ejecuta la acción "Borrar todo"</target>
+          <note>Page EOS Compensation - Action EOS Reset Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 3813797379 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Comp. Sel. Customer Entries" action</source>
+          <target>Ejecuta la acción "Entradas de cliente de compensación selectiva"</target>
+          <note>Page EOS Compensation - Action EOS Customer entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3366293494 - Control 680745034 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Comp. Gen. Jnl. Batch" field.</source>
+          <target>Especifica el valor del campo "Comp. Gen. Jnl. Batch".</target>
+          <note>Page EOS Compensation Setup - Control EOS Comp. Gen. Jnl. Batch - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 974379476 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Open Journal Batch" action</source>
+          <target>Ejecuta la acción "Abrir lote de diario"</target>
+          <note>Page EOS Compensation - Action EOS Open Journal Batch - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 931262976 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Create Journal Lines" action</source>
+          <target>Ejecuta la acción "Crear líneas de diario"</target>
+          <note>Page EOS Compensation - Action EOS Suggest Compensation Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 1226746027 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Customer Balance (LCY)" field.</source>
+          <target>Especifica el valor del campo "Saldo de cliente (DL)".</target>
+          <note>Page EOS Compensation - Control EOS CustomerTotalBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 2914249964 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Net Balance (LCY)" field.</source>
+          <target>Especifica el valor del campo "Saldo neto (DL)".</target>
+          <note>Page EOS Compensation - Control EOS NetBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 1224454435 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Vendor Balance (LCY)" field.</source>
+          <target>Especifica el valor del campo "Saldo de proveedor (DL)".</target>
+          <note>Page EOS Compensation - Control EOS VendorTotalBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 949770657 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description" field.</source>
+          <target>Especifica el valor del campo "Descripción".</target>
+          <note>Page EOS Compensation Subform - Control EOS Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 2962378592 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Selected" field.</source>
+          <target>Especifica el valor del campo "Seleccionado".</target>
+          <note>Page EOS Compensation Subform - Control EOS Applyed - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 1295091726 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Cust. /Vend. Entry" field.</source>
+          <target>Especifica el valor de "Cust. /Vend. Entrada".</target>
+          <note>Page EOS Compensation Subform - Control EOS Cust. /Vend. Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3632010517 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Original Amount (LCY)" field.</source>
+          <target>Especifica el valor del campo "Importe original (DL)".</target>
+          <note>Page EOS Compensation Subform - Control EOS Original Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 702581186 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document Type" field.</source>
+          <target>Especifica el valor del campo "Tipo de documento".</target>
+          <note>Page EOS Compensation Subform - Control EOS Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3255617327 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date" field.</source>
+          <target>Especifica el valor del campo "Fecha de contabilización".</target>
+          <note>Page EOS Compensation Subform - Control EOS Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 1419731019 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document No." field.</source>
+          <target>Especifica el valor del campo "N.º de documento".</target>
+          <note>Page EOS Compensation Subform - Control EOS Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 63720737 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Applied Amount (LCY)" field.</source>
+          <target>Especifica el valor del campo "Importe aplicado (DL)".</target>
+          <note>Page EOS Compensation Subform - Control EOS Applied Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 1309738240 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "External Document No." field.</source>
+          <target>Especifica el valor del campo "N.º de documento externo".</target>
+          <note>Page EOS Compensation Subform - Control EOS External Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3366293494 - Control 4142163308 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Comp. Jnl. Template Name" field.</source>
+          <target>Especifica el valor del campo "Comp. Jnl. Template Name".</target>
+          <note>Page EOS Compensation Setup - Control EOS Comp. Journal Template Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3405962141 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Name" field.</source>
+          <target>Especifica el valor del campo "Nombre".</target>
+          <note>Page EOS Compensation Subform - Control EOS SourceName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Action 965687654 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Unselect" action</source>
+          <target>Ejecuta la acción "Anular selección"</target>
+          <note>Page EOS Compensation Subform - Action EOS Unselect - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Action 4153610395 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Select" action</source>
+          <target>Ejecuta la acción "Seleccionar"</target>
+          <note>Page EOS Compensation Subform - Action EOS Select - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 925483193 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Currency Filter" field.</source>
+          <target>Especifica el valor del campo "Filtro de moneda".</target>
+          <note>Report EOS Cust. Sugg. Compensation - Control FilterCurrency - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3916214306 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Remaining Amount (LCY)" field.</source>
+          <target>Especifica el valor del campo "Importe restante (DL)".</target>
+          <note>Page EOS Compensation Subform - Control EOS Remaining Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Action 683961291 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "&amp;Navigate" action</source>
+          <target>Ejecuta la acción "&amp;Navigate"</target>
+          <note>Page EOS Compensation Subform - Action EOS Navi&amp;ga - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 309010296 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Source Type" field.</source>
+          <target>Especifica el valor del campo "Tipo de origen".</target>
+          <note>Page EOS Compensation Subform - Control EOS Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 384231925 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Source No." field.</source>
+          <target>Especifica el valor del campo "N.º de origen".</target>
+          <note>Page EOS Compensation Subform - Control EOS Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 3117834186 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document No." field.</source>
+          <target>Especifica el valor del campo "N.º de documento".</target>
+          <note>Report EOS Cust. Sugg. Compensation - Control DocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 4026317927 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Especifica el valor del campo "Filtro de método de pago".</target>
+          <note>Report EOS Cust. Sugg. Compensation - Control FilterPaymentMethod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Compensation" action</source>
+          <target>Ejecuta la acción "Compensación"</target>
+          <note>PageExtension EOS PageExt18122465 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 3037438984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date" field.</source>
+          <target>Especifica el valor del campo "Fecha de contabilización".</target>
+          <note>Report EOS Vendor Sugg. Compensation - Control PostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 4108872837 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Journal Batch Name" field.</source>
+          <target>Especifica el valor del campo "Nombre de lote de diario".</target>
+          <note>Report EOS Vendor Sugg. Compensation - Control JnlBatchName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 3117834186 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document No." field.</source>
+          <target>Especifica el valor del campo "N.º de documento".</target>
+          <note>Report EOS Vendor Sugg. Compensation - Control DocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 4026317927 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Especifica el valor del campo "Filtro de método de pago".</target>
+          <note>Report EOS Vendor Sugg. Compensation - Control FilterPaymentMethod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 3037438984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date" field.</source>
+          <target>Especifica el valor del campo "Fecha de contabilización".</target>
+          <note>Report EOS Cust. Sugg. Compensation - Control PostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 2817775577 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Journal Template Name" field.</source>
+          <target>Especifica el valor del campo "Nombre de la plantilla de diario".</target>
+          <note>Report EOS Vendor Sugg. Compensation - Control JnlTemplateName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 2817775577 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Journal Template Name" field.</source>
+          <target>Especifica el valor del campo "Nombre de la plantilla de diario".</target>
+          <note>Report EOS Cust. Sugg. Compensation - Control JnlTemplateName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 4108872837 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Journal Batch Name" field.</source>
+          <target>Especifica el valor del campo "Nombre de lote de diario".</target>
+          <note>Report EOS Cust. Sugg. Compensation - Control JnlBatchName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 925483193 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Currency Filter" field.</source>
+          <target>Especifica el valor del campo "Filtro de moneda".</target>
+          <note>Report EOS Vendor Sugg. Compensation - Control FilterCurrency - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 4218060920 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Vendor Net Change (LCY)" field.</source>
+          <target>Especifica el valor del campo "Cambio neto de proveedor (DL)".</target>
+          <note>PageExtension EOS PageExt18122465 - Control EOS VendorNetChange - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 499241380 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Compensation" action</source>
+          <target>Ejecuta la acción "Compensación"</target>
+          <note>PageExtension EOS PageExt18122469 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2074513185 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Compensation" action</source>
+          <target>Ejecuta la acción "Compensación"</target>
+          <note>PageExtension EOS PageExt18122466 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Compensation" action</source>
+          <target>Ejecuta la acción "Compensación"</target>
+          <note>PageExtension EOS PageExt18122467 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 4218060920 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Customer Net Change (LCY)" field.</source>
+          <target>Especifica el valor del campo "Cambio neto del cliente (DL)".</target>
+          <note>PageExtension EOS PageExt18122467 - Control EOS VendorNetChange - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 4100941605 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Vendor Balance (LCY)" field.</source>
+          <target>Especifica el valor del campo "Saldo de proveedor (DL)".</target>
+          <note>PageExtension EOS PageExt18122465 - Control EOS VendorBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4156512059 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Compensation" action</source>
+          <target>Ejecuta la acción "Compensación"</target>
+          <note>PageExtension EOS PageExt18122468 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 3628358551 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Comp. Customer No." field.</source>
+          <target>Especifica el valor del campo "Nº de cliente de compensación".</target>
+          <note>PageExtension EOS PageExt18122467 - Control EOS Comp. Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 1615985007 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Comp. Vendor No." field.</source>
+          <target>Especifica el valor del campo "Nº de proveedor de comp.".</target>
+          <note>PageExtension EOS PageExt18122465 - Control EOS Comp. Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 4100941605 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Customer Balance (LCY)" field.</source>
+          <target>Especifica el valor del campo "Saldo de cliente (DL)".</target>
+          <note>PageExtension EOS PageExt18122467 - Control EOS VendorBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2557893956 - Action 3059963869 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "From Customers" action</source>
+          <target>Ejecuta la acción "De los clientes"</target>
+          <note>PageExtension EOS PageExt18122470 - Action EOS FromCustomer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2557893956 - Action 3187025301 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "From Vendor" action</source>
+          <target>Ejecuta la acción "Del proveedor"</target>
+          <note>PageExtension EOS PageExt18122470 - Action EOS FromVendor - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 499241380 - Action 3059963869 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "From Customers" action</source>
+          <target>Ejecuta la acción "De los clientes"</target>
+          <note>PageExtension EOS PageExt18122469 - Action EOS FromCustomer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2557893956 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Compensation" action</source>
+          <target>Ejecuta la acción "Compensación"</target>
+          <note>PageExtension EOS PageExt18122470 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1920197339 - Action 3059963869 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "From Customers" action</source>
+          <target>Ejecuta la acción "De los clientes"</target>
+          <note>PageExtension EOS PageExt18122471 - Action EOS FromCustomer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1920197339 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Compensation" action</source>
+          <target>Ejecuta la acción "Compensación"</target>
+          <note>PageExtension EOS PageExt18122471 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1920197339 - Action 3187025301 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "From Vendor" action</source>
+          <target>Ejecuta la acción "Del proveedor"</target>
+          <note>PageExtension EOS PageExt18122471 - Action EOS FromVendor - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 499241380 - Action 3187025301 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "From Vendor" action</source>
+          <target>Ejecuta la acción "Del proveedor"</target>
+          <note>PageExtension EOS PageExt18122469 - Action EOS FromVendor - Property ToolTip</note>
         </trans-unit>
       </group>
     </body>
