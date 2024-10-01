@@ -183,10 +183,6 @@
           <source>%1 must be %2</source>
           <target>%1 deve essere %2</target>
         </trans-unit>
-        <trans-unit id="Codeunit 4064944010 - Method 892462309 - NamedType 883549673" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This is a reversed entry and cannot be reversed.</source>
-          <target>Questo è un movimento di storno e non può essere stornato.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 4064944010 - NamedType 2626561907" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document %1 was created. Do you want to open it?</source>
           <target>È stato creato il documento %1. Aprirlo?</target>
@@ -486,6 +482,10 @@
         <trans-unit id="Enum 81202845 - EnumValue 4042331808 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Credit Memo</source>
           <target>Nota credito acquisto</target>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2016734575 - EnumValue 4153663454 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bonus Entry</source>
+          <target>Movimento bonus</target>
         </trans-unit>
         <trans-unit id="Page 1202362214 - Action 1181470318 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Change Status</source>
@@ -4135,6 +4135,14 @@
           <source>Specifies the value for the field Journal Template Name.</source>
           <target>Specifica il valore per il campo Nome modello giornale di registrazione.</target>
         </trans-unit>
+        <trans-unit id="Page 3199425634 - Control 3744289816 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if this entry has been reversed.</source>
+          <target>Specifica se questo movimento è stato stornato.</target>
+        </trans-unit>
+        <trans-unit id="Page 3199425634 - Control 4022792525 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies by whom (if any) this entry has been reversed.</source>
+          <target>Specifica da chi (se presente) questo movimento è stato stornato.</target>
+        </trans-unit>
         <trans-unit id="Page 3199425634 - Control 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value for the field Entry No.</source>
           <target>Specifica il valore del campo Nr. movimento.</target>
@@ -4339,6 +4347,10 @@
           <source>Ent&amp;ry</source>
           <target>M&amp;ovimento</target>
         </trans-unit>
+        <trans-unit id="Page 3822340309 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverses the selected settlement entries.</source>
+          <target>Storna i movimenti di liquidazione selezionati.</target>
+        </trans-unit>
         <trans-unit id="Page 3822340309 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse Settlement Entry</source>
           <target>Storna mov. liquidazione</target>
@@ -4462,6 +4474,10 @@
         <trans-unit id="Page 3822340309 - Control 1903399862 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Attached to Entry No..</source>
           <target>Specifica associato al nr. movimento.</target>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 1956996216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies by which entry (if any) this entry has been reversed.</source>
+          <target>Specifica con quale movimento (se presente) questo movimento è stato stornato.</target>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Control 1932217774 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value for the field G/L Register no.</source>
@@ -4647,6 +4663,10 @@
           <source>Settlement Exclusion</source>
           <target>Escludi da liquidazione</target>
         </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 3744289816 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if this entry has been reversed.</source>
+          <target>Specifica se questo movimento è stato stornato.</target>
+        </trans-unit>
         <trans-unit id="Page 3822340309 - Control 3792756061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Bill-to/Pay-to No..</source>
           <target>Specifica Fatturare a/Pagare a Nr.</target>
@@ -4666,6 +4686,10 @@
         <trans-unit id="Page 3822340309 - Control 401773189 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Value Type.</source>
           <target>Specifica il tipo di valore.</target>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 4022792525 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies by whom (if any) this entry has been reversed.</source>
+          <target>Specifica da chi (se presente) questo movimento è stato stornato.</target>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Control 4162822152 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Header Batch Name.</source>
@@ -5650,6 +5674,10 @@
         <trans-unit id="Page 905483125 - Action 2256583518 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ent&amp;ry</source>
           <target>M&amp;ovimento</target>
+        </trans-unit>
+        <trans-unit id="Page 905483125 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverses the selected settlement entries.</source>
+          <target>Storna i movimenti di liquidazione selezionati.</target>
         </trans-unit>
         <trans-unit id="Page 905483125 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse Settlement Entry</source>
@@ -9191,6 +9219,14 @@
           <source>Journal Template Name</source>
           <target>Nome def. registrazioni</target>
         </trans-unit>
+        <trans-unit id="Table 548237356 - Field 3744289816 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reversed</source>
+          <target>Stornato</target>
+        </trans-unit>
+        <trans-unit id="Table 548237356 - Field 4022792525 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reversed By User Id</source>
+          <target>Stornato da ID utente</target>
+        </trans-unit>
         <trans-unit id="Table 548237356 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry No.</source>
           <target>Nr. movimento</target>
@@ -9622,6 +9658,10 @@
         <trans-unit id="Table 559801399 - Field 93325028 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ref. Snapshot Entry No.</source>
           <target>Nr. mov. snapshot di riferimento</target>
+        </trans-unit>
+        <trans-unit id="Table 559801399 - Method 2924688512 - NamedType 1374303688" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The %1 %2 must not have any %3.</source>
+          <target>%1 %2 non deve avere %3.</target>
         </trans-unit>
         <trans-unit id="Table 559801399 - NamedType 1043677575" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fattura Vendita Nr. %1 del %2</source>
@@ -10374,6 +10414,10 @@
         <trans-unit id="TableExtension 971065770 - Field 353333288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Bonus Group</source>
           <target>Gruppo bonus prodotto</target>
+        </trans-unit>
+        <trans-unit id="Table 548237356 - Field 1956996216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reversed By Entry No.</source>
+          <target>Stornato da nr. mov.</target>
         </trans-unit>
         <trans-unit id="Page 1975384163 - Method 840079035 - NamedType 690371804" translate="yes" size-unit="char" xml:space="preserve">
           <source>Collecting items ...</source>
