@@ -35,6 +35,24 @@
           <source>There was selected a routing record with Production Order: %1, Line No.: %2, Operation No.: %3. The current barcode is %4</source>
           <target>Un enregistrement de routage a été sélectionné avec l’ordre de production : %1, ligne no : %2, numéro d’opération : %3. Le code-barres actuel est %4</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 1604863551" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Dates - Times are equal to original values</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 1713639944" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Confirm undo of selected entry?</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 1801178502" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No time correctly selected</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 3352353739" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Journal %1 Batch %2 is not empty</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 4174210593" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Output lines to be posted for Employee Entry No. %1</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 770950667" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No posted entries found for Employee Entry No. %1.\Do you want to continue?</source>
+        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 1203328325 - NamedType 1148611086" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Time: %1</source>
         </trans-unit>
@@ -1180,6 +1198,12 @@
         </trans-unit>
         <trans-unit id="Page 1920932823 - Action 4055413014 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tracking Lines</source>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 408815192 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Undo selected entry times and generate new entries with the new times.</source>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 408815192 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Employe Entry Times</source>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Control 1152644207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Posting Time</source>
@@ -3107,6 +3131,108 @@
         </trans-unit>
         <trans-unit id="Page 3997804741 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Team Members (MES)</source>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Action 1100141636 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defaults</source>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Action 4162757232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download official themes</source>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Action 4162757232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Themes</source>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Theme Name</source>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Theme Description</source>
+        </trans-unit>
+        <trans-unit id="Page 4140402057 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Themes (MES)</source>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Action 3574903023 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mark selected notifications as read</source>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Action 3574903023 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mark As Read</source>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Control 2359697831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notification Type</source>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Control 2818640026 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notification Message</source>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Control 577209412 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notification Date and Time</source>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Method 716454850 - NamedType 4144284393" translate="yes" size-unit="char" xml:space="preserve">
+          <source>These notifications will be shown only on the production panel %1 - %2 %3.</source>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Method 716454850 - NamedType 833648744" translate="yes" size-unit="char" xml:space="preserve">
+          <source>These notifications will be shown on all production panels.</source>
+        </trans-unit>
+        <trans-unit id="Page 4179897133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notifications (MES)</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 1506918390 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current operation duration</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 1506918390 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current operation duration</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 2671550343 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the new starting date/time</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 2671550343 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New starting date/time</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3184354228 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current starting date/time</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3184354228 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current starting date/time</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3443262675 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current values</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3943727433 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current ending date/time</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3943727433 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current ending date/time</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 4287905046 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the new ending date/time</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 4287905046 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New ending date/time</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 895955549 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculated operation duration</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 895955549 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation duration</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 969644539 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New time values</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 1024040387" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New ending date/time is equal to new starting date/time. Do you want to continue?</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 247886300" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New ending date/time is required</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 3861114427" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New ending date/time must be greater than or equal to new starting date/time</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 675186806" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New ending date/time is equal to new starting date/time</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 675944113" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New starting date/time is required</source>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Request New Time (MES)</source>
         </trans-unit>
         <trans-unit id="PageExtension 1097886108 - Control 2081051893 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Employee's Badge No.</source>

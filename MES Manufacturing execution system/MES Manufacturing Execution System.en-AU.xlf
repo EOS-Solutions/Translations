@@ -2648,6 +2648,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method UndoEmployeeEntry - NamedType PostedLinesNotFoundQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 1713639944" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirm undo of selected entry?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method UpdateEmployeEntry - NamedType ConfirmUndoQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 4174210593" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output lines to be posted for Employee Entry No. %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method UpdateEmployeEntry - NamedType LineNotPostedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 770950667" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No posted entries found for Employee Entry No. %1.\Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method UpdateEmployeEntry - NamedType PostedLinesNotFoundQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 1801178502" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No time correctly selected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method UpdateEmployeEntry - NamedType TextNewTimesSelectionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 1604863551" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dates - Times are equal to original values</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method UpdateEmployeEntry - NamedType TextStartingAndEndingDateEqualOriginalErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 1044942694 - NamedType 3352353739" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal %1 Batch %2 is not empty</source>
+          <note from="Developer" annotates="general" priority="2">%1: Template Name, %2: Batch Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method UpdateEmployeEntry - NamedType BatchNotEmptyErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 769605941 - NamedType 4204058380" size-unit="char" translate="yes" xml:space="preserve">
           <source>Badge not exist</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4093,6 +4123,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Employee Entries - Action UndoEntry - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 408815192 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Undo selected entry times and generate new entries with the new times.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Employee Entries - Action UpdateEmployeEntryTimes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 408815192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Employe Entry Times</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Employee Entries - Action UpdateEmployeEntryTimes - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3058297784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Interface Log (MES)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4827,6 +4867,106 @@
           <source>Show Enabled</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Reason Codes - Action ShowEnabledActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request New Time (MES)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 675944113" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New starting date/time is required</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Method CheckData - NamedType TextStartingDateTimeCheckErr</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 247886300" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New ending date/time is required</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Method CheckData - NamedType TextEndingDateTimeCheckErr</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 3861114427" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New ending date/time must be greater than or equal to new starting date/time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Method CheckData - NamedType TextDateTimesConsecutivityCheckErr</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 1024040387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New ending date/time is equal to new starting date/time. Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Method CheckData - NamedType TextStartingAndEndingDateEqualCheckQst</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Method 759306978 - NamedType 675186806" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New ending date/time is equal to new starting date/time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Method CheckData - NamedType TextStartingAndEndingDateEqualCheckErr</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3443262675 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current values</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control CurrentData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3943727433 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current ending date/time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control CurrentEndingDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3943727433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current ending date/time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control CurrentEndingDateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 1506918390 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current operation duration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control CurrentOperationDuration - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 1506918390 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current operation duration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control CurrentOperationDuration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3184354228 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current starting date/time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control CurrentStartingDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 3184354228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current starting date/time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control CurrentStartingDateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 969644539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New time values</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control RequestData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 4287905046 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter the new ending date/time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control NewEndingDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 4287905046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New ending date/time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control NewEndingDateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 2671550343 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter the new starting date/time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control NewStartingDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 2671550343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New starting date/time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control NewStartingDateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 895955549 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation duration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control OperationDuration - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 418903471 - Control 895955549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation duration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Request New Time - Control OperationDuration - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1880966753 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Resource Scraps (MES)</source>
