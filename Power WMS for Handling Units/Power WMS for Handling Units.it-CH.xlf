@@ -27,30 +27,6 @@
           <source>Activity %1 not allowed for Source %2</source>
           <target>Attività %1 non consentita per origine %2</target>
         </trans-unit>
-        <trans-unit id="Codeunit 2192872288 - Method 52997276 - NamedType 1198758932" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Remove parent HU</source>
-          <target>Rimuovi padre</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2192872288 - Method 52997276 - NamedType 1401086976" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Dismantle selected HU</source>
-          <target>Smonta l'unità di carico selezionata</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2192872288 - Method 52997276 - NamedType 1790265545" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Change the handling unit status to Load</source>
-          <target>Cambia lo stato dell'unità di carico in "Caricato"</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2192872288 - Method 52997276 - NamedType 2416099001" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Remove parent HU from selected from HU</source>
-          <target>Rimuove l'unità di carico padre dall'unità di carico selezionata</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2192872288 - Method 52997276 - NamedType 2613256661" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Dismantle</source>
-          <target>Smonta</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2192872288 - Method 52997276 - NamedType 3109707012" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Change Status</source>
-          <target>Cambia stato</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2315025825 - Method 1455323374 - NamedType 1543872662" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 (%2)</source>
           <target>%1 (%2)</target>
@@ -574,17 +550,45 @@
         <trans-unit id="PageExtension 4172144944 - Control 3564458858 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Pick &amp; Pack</source>
           <target>Abilita Pick &amp; Pack</target>
-          <note>PageExtension EOS08901PageExt18060022 - Control EOS Enable Pick &amp; Pack - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 4172144944 - Control 3435466009 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Allows assignment of handling units to scans</source>
-          <target>Consente l'assegnazione di unità di carico alle scansioni</target>
-          <note>PageExtension EOS08901PageExt18060022 - Control Enable Handling Unit Ass. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4172144944 - Control 3564458858 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Handling Units Pick &amp; Pack management</source>
           <target>Abilita la gestione Pick &amp; Pack delle unità di carico</target>
-          <note>PageExtension EOS08901PageExt18060022 - Control EOS Enable Pick &amp; Pack - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2192872288 - Method 67697926 - NamedType 1401086976" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Dismantle selected HU</source>
+          <target>Smonta l'unità di carico selezionata</target>
+          <note>Codeunit EOS089.01 WMS Manage HU Impl. - Method InitActivityActions - NamedType DismantleActionDescLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2192872288 - Method 67697926 - NamedType 1198758932" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remove parent HU</source>
+          <target>Rimuovi padre</target>
+          <note>Codeunit EOS089.01 WMS Manage HU Impl. - Method InitActivityActions - NamedType RemoveParentActionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4172144944 - Control 1031853090 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allows assignment of handling units to scans</source>
+          <target>Consente l'assegnazione di unità di carico alle scansioni</target>
+          <note>PageExtension EOS08901PageExt18060022 - Control EOS Enable Handling Unit Ass. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2192872288 - Method 67697926 - NamedType 3109707012" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Change Status</source>
+          <target>Cambia stato</target>
+          <note>Codeunit EOS089.01 WMS Manage HU Impl. - Method InitActivityActions - NamedType ChangeStatusActionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2192872288 - Method 67697926 - NamedType 1790265545" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Change the handling unit status to Load</source>
+          <target>Cambia lo stato dell'unità di carico in "Caricato"</target>
+          <note>Codeunit EOS089.01 WMS Manage HU Impl. - Method InitActivityActions - NamedType ChangeStatusActionDescLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2192872288 - Method 67697926 - NamedType 2613256661" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Dismantle</source>
+          <target>Smonta</target>
+          <note>Codeunit EOS089.01 WMS Manage HU Impl. - Method InitActivityActions - NamedType DismantleActionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2192872288 - Method 67697926 - NamedType 2416099001" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remove parent HU from selected from HU</source>
+          <target>Rimuove l'unità di carico padre dall'unità di carico selezionata</target>
+          <note>Codeunit EOS089.01 WMS Manage HU Impl. - Method InitActivityActions - NamedType RemoveParentActionDescLbl</note>
         </trans-unit>
       </group>
     </body>
