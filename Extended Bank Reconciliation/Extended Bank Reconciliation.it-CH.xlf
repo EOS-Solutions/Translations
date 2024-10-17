@@ -73,7 +73,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4278920954 - NamedType 1625896033" translate="yes" size-unit="char" xml:space="preserve">
           <source>No subscription for EBR present! - this report cannot be generated!</source>
-          <target>Nessun abbonamento per la BERS presente! - questa relazione non può essere generata!</target>
+          <target>Nessun abbonamento per la EBR presente! - questa relazione non può essere generata!</target>
         </trans-unit>
         <trans-unit id="Codeunit 4278920954 - NamedType 1772493744" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Version</source>
@@ -81,7 +81,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4278920954 - NamedType 3269160490" translate="yes" size-unit="char" xml:space="preserve">
           <source>No subscription for EBR present! - Action not allowed!</source>
-          <target>Nessun abbonamento per la BERS presente! - Azione non consentita!</target>
+          <target>Nessun abbonamento per la EBR presente! - Azione non consentita!</target>
         </trans-unit>
         <trans-unit id="Codeunit 4278920954 - NamedType 3560163384" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set up a subscription</source>
@@ -89,7 +89,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4278920954 - NamedType 4128705988" translate="yes" size-unit="char" xml:space="preserve">
           <source>No subscription for EBR present! - this page cannot be edited!</source>
-          <target>Nessun abbonamento per la BERS presente! - questa pagina non può essere modificata!</target>
+          <target>Nessun abbonamento per la EBR presente! - questa pagina non può essere modificata!</target>
         </trans-unit>
         <trans-unit id="Codeunit 4278920954 - NamedType 4205745040" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subscribe for an activation</source>
@@ -147,6 +147,10 @@
           <source>Header</source>
           <target>Testata</target>
         </trans-unit>
+        <trans-unit id="EnumExtension 962172809 - EnumValue 969009788 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CBI</source>
+          <target>CBI</target>
+        </trans-unit>
         <trans-unit id="Page 1003002491 - Action 1465391635 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View File Import Entries.</source>
           <target>Visualizzare i movimenti relativi al file importato.</target>
@@ -185,7 +189,7 @@
         </trans-unit>
         <trans-unit id="Page 1003002491 - Action 2277901766 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Bank Account</source>
-          <target>Crea conto bancario</target>
+          <target>Crea C/C bancario (EBR)</target>
         </trans-unit>
         <trans-unit id="Page 1003002491 - Action 2665042526 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Export the file.</source>
@@ -685,7 +689,7 @@
         </trans-unit>
         <trans-unit id="Page 3829760619 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CBI File Import Entries (EBR)</source>
-          <target>Movimenti Importazione file CBI(EBR)</target>
+          <target>Movimenti Importazione file CBI (EBR)</target>
         </trans-unit>
         <trans-unit id="Page 4166083002 - Control 1659701640 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a code that represents the xml file with a data exchange definition that you have created in the Data Exchange Framework. It is used for CBI file import Balance and Entries.</source>
@@ -816,8 +820,8 @@
           <target>Visualizzare i valori presenti nel file del rendiconto bancario importato per la riga selezionata.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1212830181 - Action 3904849957 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Bank Transaction Details</source>
-          <target>Dettagli transazione bancaria</target>
+          <source>Bank Transaction Details (EBR)</source>
+          <target>Dettagli transazione bancaria (EBR)</target>
         </trans-unit>
         <trans-unit id="PageExtension 1212830181 - Control 1757311261 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the data exchange entry number.</source>
@@ -879,25 +883,73 @@
           <source>Specifies the data exchange line number.</source>
           <target>Specifica il numero riga scambio dati.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Action 3061791270 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Export the file.</source>
+          <target>Esportare il file.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Action 3061791270 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Export File</source>
+          <target>Esporta file</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Action 351579992 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View the log details.</source>
+          <target>Visualizzare i dettagli del registro.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Action 351579992 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity Log</source>
+          <target>Log attività</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Action 3727868267 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View File Import Entries.</source>
+          <target>Visualizzare i movimenti relativi al file importato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Action 3727868267 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>File Entries</source>
+          <target>Movimenti file</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Action 3750347790 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create a bank account from file entries.</source>
+          <target>Crea un conto bancario dai movimenti file.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Action 3750347790 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Bank Account (EBR)</source>
+          <target>Crea C/C bancario (EBR)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Action 48773077 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import a file.</source>
+          <target>Importare il file.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Action 48773077 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import File</source>
+          <target>Importa file</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Action 969009788 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EBR</source>
+          <target>EBR</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2042782119 - Method 2427542021 - NamedType 4288424883" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Successfully created</source>
+          <target>Creato correttamente</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2319314392 - Action 1161287290 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Automatically search for and match bank statement lines.</source>
           <target>Ricercare e confrontare automaticamente le righe dei rendiconti bancari.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2319314392 - Action 1161287290 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Match Automatically</source>
-          <target>Corrispondenza automatica</target>
+          <source>Match Automatically (EBR)</source>
+          <target>Corrispondenza automatica (EBR)</target>
         </trans-unit>
         <trans-unit id="PageExtension 2319314392 - Action 1924728547 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create bank account ledger entries suggestions and enter them automatically.</source>
           <target>Creare suggerimenti per i movimenti contabili del conto corrente bancario e li immette automaticamente.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2319314392 - Action 1924728547 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Suggest Reconciliation Lines</source>
-          <target>Suggerisci righe riconciliazione</target>
+          <source>Suggest Lines (EBR)</source>
+          <target>Suggerisci righe (EBR)</target>
         </trans-unit>
         <trans-unit id="PageExtension 2319314392 - Action 3908979171 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Print reconciliation</source>
-          <target>Stampa riconciliazione</target>
+          <source>Print reconciliation (EBR)</source>
+          <target>Stampa riconciliazione (EBR)</target>
         </trans-unit>
         <trans-unit id="PageExtension 2319314392 - NamedType 971919354" translate="yes" size-unit="char" xml:space="preserve">
           <source>No bank statement lines exist. Choose the Suggest Lines action to fill in the lines, or enter lines manually.</source>
@@ -910,10 +962,6 @@
         <trans-unit id="PageExtension 2680478736 - Action 3904849957 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bank Transaction Details</source>
           <target>Dettagli transazione bancaria</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2957011009 - Change 1527563463 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a document number that refers to the customer's or vendor's numbering system. For entries related to bank statement lines specifies a document number that refers to the bank file's entry.</source>
-          <target>Specifica un numero di documento in riferimento al sistema di numerazione del cliente o del fornitore. Per movimenti relazionati ad un rendiconto bancario specifica un numero di documento in riferimento al movimento del file bancario.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2957011009 - Control 184719150 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the bank statement number.</source>
@@ -984,8 +1032,8 @@
           <target>Visualizzare i valori presenti nel file del rendiconto bancario importato per la riga selezionata.</target>
         </trans-unit>
         <trans-unit id="PageExtension 4232404243 - Action 3904849957 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Bank Transaction Details</source>
-          <target>Dettagli transazione bancaria</target>
+          <source>Bank Transaction Details (EBR)</source>
+          <target>Dettagli transazione bancaria (EBR)</target>
         </trans-unit>
         <trans-unit id="PageExtension 4232404243 - Control 127863516 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a filter for the Account No. for which entries will be shown in window.</source>
@@ -1045,7 +1093,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 575133564 - Action 1825682907 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Apply Automatically</source>
-          <target>Collega automaticamente</target>
+          <target>Collega automaticamente (EBR)</target>
         </trans-unit>
         <trans-unit id="PageExtension 575133564 - Action 3788829354 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Apply payments to their related open entries based on data matches between bank transaction text and entry information.</source>
@@ -1053,19 +1101,15 @@
         </trans-unit>
         <trans-unit id="PageExtension 575133564 - Action 3788829354 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Apply Automatically by CBI Reason</source>
-          <target>Collega automaticamente per causale CBI</target>
+          <target>Collega automaticamente (EBR)</target>
         </trans-unit>
         <trans-unit id="PageExtension 575133564 - Action 3904849957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the values that exist in an imported bank statement file for the selected line.</source>
           <target>Visualizzare i valori presenti nel file del rendiconto bancario importato per la riga selezionata.</target>
         </trans-unit>
         <trans-unit id="PageExtension 575133564 - Action 3904849957 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Bank Transaction Details</source>
-          <target>Dettagli transazione bancaria</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 575133564 - Change 2464252759 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Post</source>
-          <target>Registra</target>
+          <source>Bank Transaction Details (EBR)</source>
+          <target>Dettagli transazione bancaria (EBR)</target>
         </trans-unit>
         <trans-unit id="PageExtension 575133564 - Control 1060936522 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the group number for a set of entries.</source>
@@ -1110,6 +1154,10 @@
         <trans-unit id="PageExtension 575133564 - Control 642701435 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CBI Reason Code Filter</source>
           <target>Filtro causale CBI</target>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2493976780 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS EBR</source>
+          <target>EOS EBR</target>
         </trans-unit>
         <trans-unit id="Report 1944207489 - Control 1778444360 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the span of days before and after the bank account ledger entry posting date within which the function will search for matching transaction dates in the bank statement. If you enter 0 or leave the field blank, then the Match Automatically function will only search for matching transaction dates on the bank account ledger entry posting date.</source>
@@ -2029,7 +2077,7 @@
         </trans-unit>
         <trans-unit id="Table 4166083002 - Field 3230768830 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Nos.</source>
-          <target>Nr. Estratto Conto</target>
+          <target>Nr. prospetto riconciliazione pagam.</target>
         </trans-unit>
         <trans-unit id="Table 4166083002 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bank Acc. Reconciliation Setup</source>
@@ -2101,7 +2149,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 1513074382 - Field 2698784359 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posted Reconc. Ledger Entry Nos.</source>
-          <target>Nr. movimenti riconc. registrate</target>
+          <target>Nr. registrazione transazioni bancarie</target>
         </trans-unit>
         <trans-unit id="TableExtension 1981861976 - Field 1060936522 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Group No.</source>
