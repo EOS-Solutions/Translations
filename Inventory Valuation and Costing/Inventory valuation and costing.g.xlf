@@ -1313,6 +1313,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Item Costing Setup - Field Estimated WIP Consumption - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 3822628701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Item Charge on Transfer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Item Costing Setup - Field Incl. Item Charge on Transfer - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1573099788 - Field 747511446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Consider Purchase in Standard BOM</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5373,16 +5378,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History Card - Action BOM History - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1045935795 - Action 587303844 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>View how the costs of underlying items in the BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply. Each item level can be collapsed or expanded to obtain an overview or detailed view.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History Card - Action Item Cost Shares - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1045935795 - Action 587303844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Cost Shares</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History Card - Action Item Cost Shares - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 1045935795 - Action 4257166242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View Routing History</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5657,16 +5652,6 @@
           <source>BOM History</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History List - Action BOM History - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 4157661377 - Action 587303844 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>View how the costs of underlying items in the BOM roll up to the parent item. The information is organized according to the BOM structure to reflect at which levels the individual costs apply. Each item level can be collapsed or expanded to obtain an overview or detailed view.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History List - Action Item Cost Shares - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 4157661377 - Action 587303844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Cost Shares</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History List - Action Item Cost Shares - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Action 4257166242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View Routing History</source>
@@ -6332,6 +6317,11 @@
           <source>If a part of the production order has been produced (Finished quantity &lt; Quantity): the system calculates the consumption of materials and the times to be costed as a ratio between the 2 quantities (as in the calculation of the true WIP). If, on the other hand, the production order has been completed (Finished quantity &gt;= Quantity), regardless of the status of the order, the system only costs the materials and actual times recorded (it does not recalculate anything). This logic also determines the calculation of the final amounts and the final unit costs present in the routing history.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Costing Setup Card - Control Estimated WIP Consumption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3119941560 - Control 3822628701 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If this flag is active when the program calculates the value of the purchases, the item charge for transfer entry will also be included in the movements to be analyzed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Costing Setup Card - Control Incl. Item Charge on Transfer - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 747511446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allows you to specify, for items with a “Production Order” replenishment system and cost calculation performed based on the “Standard Routing/BOM” value, whether or not to consider purchase entries. This option can be useful in the case of items managed with a hybrid logic, i.e. produced and purchased.</source>
