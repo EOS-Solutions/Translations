@@ -123,10 +123,6 @@
           <source>Default Journal</source>
           <target>Standard Buch.-Blatt</target>
         </trans-unit>
-        <trans-unit id="Codeunit 2981225386 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Processing...\\Line #1###### #2##################\\#3################################\\@4@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@5@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</source>
-          <target>Verarbeitung...\\Zeile #1###### #2#################\\#3################################\\@4@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@5@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2981225386 - NamedType 1225457715" translate="yes" size-unit="char" xml:space="preserve">
           <source>Double table %1.</source>
           <target>Doppelte Tabelle %1.</target>
@@ -4344,8 +4340,8 @@
           <target>&amp;Posten</target>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reverses the selected settlement entries.</source>
-          <target>Storniert die ausgewählten Abrechnungsposten.</target>
+          <source>Reverses all the selected settlement entries.</source>
+          <target>Storniert alle markierten Abrechnungsposten.</target>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse Settlement Entry</source>
@@ -5640,8 +5636,8 @@
           <target>&amp;Posten</target>
         </trans-unit>
         <trans-unit id="Page 905483125 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reverses the selected settlement entries.</source>
-          <target>Storniert die ausgewählten Abrechnungsposten.</target>
+          <source>Reverses the selected settlement entry.</source>
+          <target>Storniert den markierten Abrechnungsposten.</target>
         </trans-unit>
         <trans-unit id="Page 905483125 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse Settlement Entry</source>
@@ -10290,7 +10286,6 @@
         <trans-unit id="Table 548237356 - Field 1956996216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reversed By Entry No.</source>
           <target>Storniert durch Lfd.-Nr.</target>
-          <note>Table EOS Bonus Allocation Entry - Field Reversed By Entry No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1975384163 - Method 840079035 - NamedType 690371804" translate="yes" size-unit="char" xml:space="preserve">
           <source>Collecting items ...</source>
@@ -10324,13 +10319,37 @@
           <source>Specifies the reference date for which to calculate validity.</source>
           <target>Gibt das Referenzdatum an, für das die Gültigkeit berechnet werden soll.</target>
         </trans-unit>
-        <trans-unit id="Page 3822340309 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reverses all the selected settlement entries.</source>
-          <target>Storniert alle markierten Abrechnungsposten.</target>
+        <trans-unit id="Codeunit 2981225386 - Method 2544564587 - NamedType 3603708091" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processing...</source>
+          <target>Verarbeitung...</target>
         </trans-unit>
-        <trans-unit id="Page 905483125 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reverses the selected settlement entry.</source>
-          <target>Storniert den markierten Abrechnungsposten.</target>
+        <trans-unit id="Codeunit 2981225386 - Method 2544564587 - NamedType 3098819098" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line #1### of #2###</source>
+          <target>Zeile #1### von #2###</target>
+        </trans-unit>
+        <trans-unit id="Enum 17980919 - EnumValue 3287221575 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Actual Value</source>
+          <target>Effektiver Wert</target>
+        </trans-unit>
+        <trans-unit id="Enum 17980919 - EnumValue 1981248427 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Proportional (to Base Amount)</source>
+          <target>Proportional (zum Basisbetrag)</target>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - Field 3856859470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry Amount Distribution</source>
+          <target>Verteilung Posten-Betrag</target>
+        </trans-unit>
+        <trans-unit id="Page 2565869148 - Control 3856859470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how calculated bonus amounts are distributed to the bonus ledger entries.</source>
+          <target>Gibt an, wie die berechneten Bonusbeträge auf die Bonusposten verteilt werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348237060 - Control 3856859470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how calculated bonus amounts are distributed to the bonus ledger entries.</source>
+          <target>Gibt an, wie die berechneten Bonusbeträge auf die Bonusposten verteilt werden.</target>
+        </trans-unit>
+        <trans-unit id="Table 2104373699 - Field 3856859470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry Amount Distribution</source>
+          <target>Verteilung Posten-Betrag</target>
         </trans-unit>
       </group>
     </body>

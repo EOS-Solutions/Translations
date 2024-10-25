@@ -123,10 +123,6 @@
           <source>Default Journal</source>
           <target>Registrazioni di default</target>
         </trans-unit>
-        <trans-unit id="Codeunit 2981225386 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Processing...\\Line #1###### #2##################\\#3################################\\@4@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@5@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</source>
-          <target>Elaborazione in corso...\\Riga #1###### #2##################\\#3################################\\@4@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@5@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2981225386 - NamedType 1225457715" translate="yes" size-unit="char" xml:space="preserve">
           <source>Double table %1.</source>
           <target>Double table %1.</target>
@@ -4344,8 +4340,8 @@
           <target>M&amp;ovimento</target>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reverses the selected settlement entries.</source>
-          <target>Storna i movimenti di liquidazione selezionati.</target>
+          <source>Reverses all the selected settlement entries.</source>
+          <target>Storna tutti movimenti di liquidazione selezionati.</target>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse Settlement Entry</source>
@@ -5640,8 +5636,8 @@
           <target>M&amp;ovimento</target>
         </trans-unit>
         <trans-unit id="Page 905483125 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reverses the selected settlement entries.</source>
-          <target>Storna i movimenti di liquidazione selezionati.</target>
+          <source>Reverses the selected settlement entry.</source>
+          <target>Storna il movimento di liquidazione selezionato.</target>
         </trans-unit>
         <trans-unit id="Page 905483125 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse Settlement Entry</source>
@@ -10290,7 +10286,6 @@
         <trans-unit id="Table 548237356 - Field 1956996216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reversed By Entry No.</source>
           <target>Stornato da nr. mov.</target>
-          <note>Table EOS Bonus Allocation Entry - Field Reversed By Entry No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1975384163 - Method 840079035 - NamedType 690371804" translate="yes" size-unit="char" xml:space="preserve">
           <source>Collecting items ...</source>
@@ -10324,13 +10319,37 @@
           <source>Specifies the reference date for which to calculate validity.</source>
           <target>Specifica la data di riferimento per la quale deve essere calcolata la validità.</target>
         </trans-unit>
-        <trans-unit id="Page 3822340309 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reverses all the selected settlement entries.</source>
-          <target>Storna tutti movimenti di liquidazione selezionati.</target>
+        <trans-unit id="Codeunit 2981225386 - Method 2544564587 - NamedType 3603708091" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processing...</source>
+          <target>Elaborazione...</target>
         </trans-unit>
-        <trans-unit id="Page 905483125 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reverses the selected settlement entry.</source>
-          <target>Storna il movimento di liquidazione selezionato.</target>
+        <trans-unit id="Codeunit 2981225386 - Method 2544564587 - NamedType 3098819098" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line #1### of #2###</source>
+          <target>Riga #1### di #2###</target>
+        </trans-unit>
+        <trans-unit id="Enum 17980919 - EnumValue 3287221575 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Actual Value</source>
+          <target>Valore effettivo</target>
+        </trans-unit>
+        <trans-unit id="Enum 17980919 - EnumValue 1981248427 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Proportional (to Base Amount)</source>
+          <target>Proporzionale (all'importo base)</target>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - Field 3856859470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry Amount Distribution</source>
+          <target>Distribuzione importo movimenti</target>
+        </trans-unit>
+        <trans-unit id="Page 2565869148 - Control 3856859470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how calculated bonus amounts are distributed to the bonus ledger entries.</source>
+          <target>Specifica il modo in cui gli importi del bonus calcolati vengono distribuiti tra i movimenti bonus.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348237060 - Control 3856859470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how calculated bonus amounts are distributed to the bonus ledger entries.</source>
+          <target>Specifica il modo in cui gli importi del bonus calcolati vengono distribuiti tra i movimenti bonus.</target>
+        </trans-unit>
+        <trans-unit id="Table 2104373699 - Field 3856859470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry Amount Distribution</source>
+          <target>Distribuzione importo movimenti</target>
         </trans-unit>
       </group>
     </body>
