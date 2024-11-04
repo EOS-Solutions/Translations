@@ -18,15 +18,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS069.02 Arxivar Setup - Field Primary Key - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1810500678 - Field 318699115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile Creation Mode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS069.02 Arxivar Setup - Field Profile Creation Mode - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1927304012 - NamedType 331638123" size-unit="char" translate="yes" xml:space="preserve">
           <source>DCS Arxivar: Error when trying to find the Site</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS069.02 Arxivar API Caller - NamedType ErrorMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1927304012 - Method 1139572727 - NamedType 675202270" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 1927304012 - Method 1340049543 - NamedType 675202270" size-unit="char" translate="yes" xml:space="preserve">
           <source>Missing value for required field %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS069.02 Arxivar API Caller - Method UploadFile - NamedType MissingRequirementsLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS069.02 Arxivar API Caller - Method InsertProfileFields - NamedType MissingRequirementsLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 1421581447 - NamedType 3602120196" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cannot reach the host, check internet connection</source>
@@ -54,7 +59,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS069.02 iArxivar - Method FromIdentToRecRef - NamedType DecodeErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1440581896 - Method 984330097 - NamedType 2061460328" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Cannot open file location for Arxivar Storage</source>
+          <source>Arxivar: cannot open the file location, this is unsupported</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS069.02 iArxivar - Method OpenFileLocation - NamedType CannotOpenMsg</note>
         </trans-unit>
@@ -102,6 +107,11 @@
           <source>The Client Secret from ARXivarNextAuthentication</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS069.02 Arxivar Setup - Control Client Secret - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1810500678 - Control 318699115 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Profile Creation Mode" field</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS069.02 Arxivar Setup - Control Profile Creation Mode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3185495808 - Control 499096451 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the EOS Arxivar Password field</source>
@@ -218,6 +228,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18121990 - Control EOS Arxivar API URL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3814872172 - Control 3726167381 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2704839719">
+          <source>Specifies the value of the "Conflict Behavior" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18121990 - Control EOS Conflict Behavior - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3814872172 - Control 702581186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2704839719">
           <source>Specifies the Document Type, use the drilldown to help</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -283,6 +298,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18121990 - Field EOS Arxivar API URL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2954966799 - Field 3726167381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2283061939">
+          <source>Duplicate Files</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18121990 - Field EOS Conflict Behavior - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2954966799 - Field 702581186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2283061939">
           <source>Document Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -312,6 +332,31 @@
           <source>Arxivar User</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18121991 - Field EOS069.02 Arxivar User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2010066580 - EnumValue 2108159406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Throw Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS069.02 Conflict Behavior - EnumValue Fail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2010066580 - EnumValue 3194217980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS069.02 Conflict Behavior - EnumValue Rename - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2010066580 - EnumValue 2485630326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upload Duplicate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS069.02 Conflict Behavior - EnumValue Upload Anyway - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2801089311 - EnumValue 3073768583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One per File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS06902 Profile Creation Mode - EnumValue One per File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2801089311 - EnumValue 1008924994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One per Record</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS06902 Profile Creation Mode - EnumValue One per Record - Property Caption</note>
         </trans-unit>
       </group>
     </body>
