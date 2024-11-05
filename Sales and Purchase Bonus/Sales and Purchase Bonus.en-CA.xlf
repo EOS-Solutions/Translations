@@ -1583,6 +1583,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - Method TestNoEntriesExist - NamedType RecordNotEmptyErr</note>
         </trans-unit>
+        <trans-unit id="Table 2314441710 - Method 3757111906 - NamedType 2389546359" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bonus line %1 %2 %3 has entries to be accrued.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - Method TestNoToBeAccruedEntries - NamedType NoToBeAccruedEntriesErr</note>
+        </trans-unit>
         <trans-unit id="Table 2314441710 - Method 4159301246 - NamedType 411164334" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Line %1 %2 will be excluded from settlement, are you sure?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3272,6 +3277,16 @@
           <source>Selected %1 must be greater than negative selected %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bonus Settl. Management - Method MatchDocumentLines - NamedType Text003Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1294261829 - Method 2842381151 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to post the settlement?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bonus Settl. Management - Method PostPostedDocumentSettlementYesNo - NamedType ConfirmQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1294261829 - Method 2842381151 - NamedType 1864180750" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The journal lines have been posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bonus Settl. Management - Method PostPostedDocumentSettlementYesNo - NamedType EntriesPostedMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 1294261829 - Method 3861049316 - NamedType 1034882455" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot modify this document because it is connected to a %1.</source>
@@ -6653,11 +6668,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cust. Bonus Journal Subf. - Action P&amp;ost - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1939217450 - Action 4236135242 - Method 1377591017 - NamedType 3318682924" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post selected entries?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cust. Bonus Journal Subf. - Action P&amp;ost - Method OnAction - NamedType confirmLbl</note>
-        </trans-unit>
         <trans-unit id="Page 1939217450 - Action 2748363056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Run Post Source Order.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9688,11 +9698,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Journal Subf. - Action P&amp;ost - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 180068439 - Action 4236135242 - Method 1377591017 - NamedType 3318682924" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post selected entries?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Journal Subf. - Action P&amp;ost - Method OnAction - NamedType confirmLbl</note>
-        </trans-unit>
         <trans-unit id="Page 180068439 - Action 2748363056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Run Post Source Order.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10928,10 +10933,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 2339826591 - Method 2642478942 - NamedType 173658532" size-unit="char" translate="yes" xml:space="preserve">
-          <source>"New Amount" must be greater than the sum of negative entries (%1)</source>
+        <trans-unit id="Report 2339826591 - Method 2096890086 - NamedType 173658532" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"New Amount" must be greater than the sum of negative entries (%1).</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Method ValidateAmount - NamedType GtNegEntriesErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Method SetNewAmount - NamedType GtNegEntriesErr</note>
         </trans-unit>
         <trans-unit id="Report 2339826591 - Control 698539839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Settings</source>
@@ -10999,7 +11004,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control DocTypeFld - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2339826591 - Control 2416541386 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "New Doc Amout" field</source>
+          <source>Specifies the value of the field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control New Doc Amout - Property ToolTip</note>
         </trans-unit>
@@ -11038,30 +11043,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - NamedType BonusJnlLineAmountErr</note>
         </trans-unit>
-        <trans-unit id="Report 3226906145 - NamedType 641658287" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Only one document can be selected for matching.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - NamedType OnlyOneDocToMatchErr</note>
-        </trans-unit>
-        <trans-unit id="Report 3226906145 - Method 3916275527 - NamedType 1858590414" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 3226906145 - Method 2401887333 - NamedType 1858590414" size-unit="char" translate="yes" xml:space="preserve">
           <source>Selected %1 must be greater than %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - Method ForExternalDocMatching - NamedType Text002Err</note>
-        </trans-unit>
-        <trans-unit id="Report 3226906145 - Method 3839134711 - NamedType 2201725277" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The matching G/L Account does not correspond to the one in the Class</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - Method SetParam - NamedType classErr</note>
-        </trans-unit>
-        <trans-unit id="Report 3226906145 - Method 3839134711 - NamedType 2685700126" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The matching G/L Account does not correspond to the one in the Setup</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - Method SetParam - NamedType SetupErr</note>
-        </trans-unit>
-        <trans-unit id="Report 3226906145 - Method 3839134711 - NamedType 1858590414" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Selected %1 must be greater than %2</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - Method SetParam - NamedType Text002Err</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - Method InitRequest - NamedType Text002Err</note>
         </trans-unit>
         <trans-unit id="Report 3226906145 - RequestPage 2516438534 - Method 716454850 - NamedType 84136701" size-unit="char" translate="yes" xml:space="preserve">
           <source>External Document Matching</source>
@@ -11112,21 +11097,6 @@
           <source>Bonus Line No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - Control Bonus Line No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3226906145 - Control 3877896800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Matching Type" field</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - Control DistributionTypeFld - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3226906145 - Control 3877896800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Matching Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - Control DistributionTypeFld - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3226906145 - Control 3877896800 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Standard,Proportional</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - Control DistributionTypeFld - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Report 3226906145 - Control 3944564206 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Document Line No." field</source>
@@ -11393,6 +11363,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059903 - Control EOS Exclude From Bonus - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2702290277 - Method 76755751 - NamedType 2542504872" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2702290277">
+          <source>Do you want to set "%1" from %2 to %3?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059904 - Method ToggleAvailableForSettlement - NamedType ToggleQst</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2702290277 - Action 1709380529 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
           <source>Open Customer Bonus Settlement Journal.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11404,7 +11379,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059904 - Action EOS Bonus Matching - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2702290277 - Action 129387338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
-          <source>Toggle the field Available for Bonus Settlement.</source>
+          <source>Toggles this document to be available for bonus settlement.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059904 - Action EOS Available for Settlement - Property ToolTip</note>
         </trans-unit>
@@ -11419,12 +11394,17 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059904 - Control EOS Bonus - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2702290277 - Control 1906820934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
-          <source>Specifies the value of the Available for Bonus Settl. field</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059904 - Control EOS Available for Bonus Settl. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2702290277 - Control 1906820934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>Available for Bonus Settlement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059904 - Control EOS Available for Bonus Settl. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2702290277 - Control 3256906083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
-          <source>Specifies Bus. Bonus Group.</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059904 - Control EOS Bus. Bonus Group - Property ToolTip</note>
         </trans-unit>
@@ -11623,6 +11603,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059915 - Control EOS Exclude From Bonus - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 614096228 - Method 76755751 - NamedType 2542504872" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 614096228">
+          <source>Do you want to set "%1" from %2 to %3?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059916 - Method ToggleAvailableForSettlement - NamedType ToggleQst</note>
+        </trans-unit>
         <trans-unit id="PageExtension 614096228 - Action 1709380529 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2854365759">
           <source>Open Customer Bonus Settlement Journal.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11634,7 +11619,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059916 - Action EOS Bonus Matching - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 614096228 - Action 129387338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2854365759">
-          <source>Toggle the field Available for Bonus Settlement.</source>
+          <source>Toggles this document to be available for bonus settlement.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059916 - Action EOS Available for Settlement - Property ToolTip</note>
         </trans-unit>
@@ -11649,17 +11634,22 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059916 - Control EOS Bonus - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 614096228 - Control 1906820934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2854365759">
-          <source>Specifies the value of the Available for Bonus Settl. field</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059916 - Control EOS Available for Bonus Settl. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 614096228 - Control 1906820934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2854365759">
+          <source>Available for Bonus Settlement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059916 - Control EOS Available for Bonus Settl. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 614096228 - Control 3256906083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2854365759">
-          <source>Specifies Bus. Bonus Group.</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059916 - Control EOS Bus. Bonus Group - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 614096228 - Control 1791709744 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2854365759">
-          <source>Specifies Exclude From Bonus.</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059916 - Control EOS Exclude From Bonus - Property ToolTip</note>
         </trans-unit>
@@ -11923,6 +11913,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059933 - Control EOS Exclude From Bonus - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2425758004 - Method 76755751 - NamedType 2542504872" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2425758004">
+          <source>Do you want to set "%1" from %2 to %3?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059934 - Method ToggleAvailableForSettlement - NamedType ToggleQst</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2425758004 - Action 1709380529 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
           <source>Open Customer Bonus Settlement Journal.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11934,7 +11929,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059934 - Action EOS Bonus Matching - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2425758004 - Action 129387338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
-          <source>Toggle the field Available for Bonus Settlement.</source>
+          <source>Toggles this document to be available for bonus settlement.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059934 - Action EOS Available for Settlement - Property ToolTip</note>
         </trans-unit>
@@ -11949,14 +11944,24 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059934 - Control EOS Bonus - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2425758004 - Control 1906820934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
-          <source>Specifies the value of the Available for Bonus Settl. field</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059934 - Control EOS Available for Bonus Settl. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2425758004 - Control 1906820934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
+          <source>Available for Bonus Settlement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059934 - Control EOS Available for Bonus Settl. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2425758004 - Control 3256906083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
-          <source>Specifies Bus. Bonus Group.</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059934 - Control EOS Bus. Bonus Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1788061387 - Method 76755751 - NamedType 2542504872" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1788061387">
+          <source>Do you want to set "%1" from %2 to %3?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059935 - Method ToggleAvailableForSettlement - NamedType ToggleQst</note>
         </trans-unit>
         <trans-unit id="PageExtension 1788061387 - Action 1709380529 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
           <source>Open Customer Bonus Settlement Journal.</source>
@@ -11969,7 +11974,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059935 - Action EOS Bonus Matching - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1788061387 - Action 129387338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
-          <source>Toggle the field Available for Bonus Settlement.</source>
+          <source>Toggles this document to be available for bonus settlement.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059935 - Action EOS Available for Settlement - Property ToolTip</note>
         </trans-unit>
@@ -11984,17 +11989,22 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059935 - Control EOS Bonus - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1788061387 - Control 1906820934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
-          <source>Specifies the value of the Available for Bonus Settl. field</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059935 - Control EOS Available for Bonus Settl. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1788061387 - Control 1906820934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
+          <source>Available for Bonus Settlement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059935 - Control EOS Available for Bonus Settl. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1788061387 - Control 3256906083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
-          <source>Specifies Bus. Bonus Group.</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059935 - Control EOS Bus. Bonus Group - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1788061387 - Control 1791709744 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
-          <source>Specifies Exclude From Bonus.</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059935 - Control EOS Exclude From Bonus - Property ToolTip</note>
         </trans-unit>
