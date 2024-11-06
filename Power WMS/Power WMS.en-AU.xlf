@@ -53,6 +53,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Act. Action Param. - Field Max Length - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3586555738 - Field 2350089734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Protected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Act. Action Param. - Field Protected - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3586555738 - Field 4154341761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sequence</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -442,6 +447,11 @@
           <source>Parameters</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Action - Field Parameters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1698014622 - Field 2350089734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Protected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Activity Action - Field Protected - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1698014622 - Field 593885934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scope</source>
@@ -3528,6 +3538,21 @@
           <note from="Developer" annotates="general" priority="2">%1: Activity, %2: Source Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS Item Tracking Impl. - Method CheckSourceAllowedForActivity - NamedType ActivityNotAllowedErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3491895975 - Method 2732484217 - NamedType 1539194389" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 can not be update by this function</source>
+          <note from="Developer" annotates="general" priority="2">%1: Item No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS Item Tracking Impl. - Method CreateActivityScanDetail - NamedType ItemNotValidErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3491895975 - Method 3086679857 - NamedType 2557885798" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 has no inventory. You can update only items with inventory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS Item Tracking Impl. - Method FillReclassJournal - NamedType NothingToReclassErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3491895975 - Method 3086679857 - NamedType 599628624" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Found %1 %2 in %3 location. In order to update tracking, all items must be in the same location.</source>
+          <note from="Developer" annotates="general" priority="2">%1: Quantity, %2: Unit of Measure, %3: Location Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS Item Tracking Impl. - Method FillReclassJournal - NamedType ItemInAnotherDimensionErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3491895975 - Method 1455323374 - NamedType 1543872662" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 (%2)</source>
           <note from="Developer" annotates="general" priority="2">%1: Table Caption, %2: Type</note>
@@ -3552,6 +3577,11 @@
           <source>Nothing to post</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS Item Tracking Impl. - Method PostSource - NamedType NothingToPostErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3491895975 - Method 1983700343 - NamedType 3684579634" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No changes to apply. Set new expiration date and/or new warranty date to continue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS Item Tracking Impl. - Method PostSource - NamedType NoChangesToApplyErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3491895975 - Method 4101658359 - NamedType 2602220690" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Reclass. Batch</source>
@@ -4273,6 +4303,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Act. Action Params. - Control Max Length - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1931085439 - Control 2350089734 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If set, the action can not be modified nor deleted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Act. Action Params. - Control Protected - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1931085439 - Control 4154341761 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Sequence" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4902,6 +4937,11 @@
           <source>Specifies the value of the "Parameters" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Activity Actions - Control Parameters - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1743488459 - Control 2350089734 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If set, the action can not be modified nor deleted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Activity Actions - Control Protected - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1743488459 - Control 593885934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Scope" field</source>
@@ -7562,6 +7602,11 @@
           <source>WMS New Bin Code Set</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS089TableExt18060016 - Field EOS WMS New Bin Code Set - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2535633105 - Field 3415451849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>WMS Tracking Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS089TableExt18060016 - Field EOS WMS Tracking Filter - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2535633105 - Field 2990690134 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>WMS Variant Description 2</source>

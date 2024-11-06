@@ -6857,7 +6857,7 @@
         </trans-unit>
         <trans-unit id="Page 1931085439 - Control 3935613677 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If set, the action is managed by the system and can not be modified nor deleted</source>
-          <target>Se attivo, l'azione è gestita dal sistema e non può essere modificata</target>
+          <target>Se attivo, l'azione è gestita dal sistema e non può essere modificata o eliminata</target>
         </trans-unit>
         <trans-unit id="Table 3586555738 - Field 3935613677 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>System Action</source>
@@ -6869,11 +6869,51 @@
         </trans-unit>
         <trans-unit id="Page 1743488459 - Control 3935613677 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If set, the action is managed by the system and can not be modified nor deleted</source>
-          <target>Se attivo, l'azione è gestita dal sistema e non può essere modificata</target>
+          <target>Se attivo, l'azione è gestita dal sistema e non può essere modificata o eliminata</target>
         </trans-unit>
         <trans-unit id="Codeunit 248115937 - Method 2194342120 - NamedType 3425603037" translate="yes" size-unit="char" xml:space="preserve">
           <source>Updating system activity actions...</source>
           <target>Aggiornamento azioni attività di sistema...</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2535633105 - Field 3415451849 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Tracking Filter</source>
+          <target>Filtro tracciabilità WMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3491895975 - Method 2732484217 - NamedType 1539194389" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item %1 can not be update by this function</source>
+          <target>Articolo %1 non gestitibile</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3491895975 - Method 3086679857 - NamedType 2557885798" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item %1 has no inventory. You can update only items with inventory</source>
+          <target>L'articolo %1 non è in magazzino. L'aggiornamento è consentito solo per articoli con giacenza</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3491895975 - Method 3086679857 - NamedType 599628624" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Found %1 %2 in %3 location. In order to update tracking, all items must be in the same location.</source>
+          <target>Trovati %1 %2 nell'ubicazione %3. Per aggiornare la tracciabilità, tutti gli articoli devono essere nella stessa ubicazione</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3491895975 - Method 1983700343 - NamedType 3684579634" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No changes to apply. Set new expiration date and/or new warranty date to continue</source>
+          <target>Niente da aggiornare. Impostare una nuova data scadenza / data garanzia</target>
+        </trans-unit>
+        <trans-unit id="Table 3586555738 - Field 2350089734 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Protected</source>
+          <target>Protetta</target>
+          <note>Table EOS089 WMS Act. Action Param. - Field Protected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1698014622 - Field 2350089734 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Protected</source>
+          <target>Protetta</target>
+          <note>Table EOS089 WMS Activity Action - Field Protected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1931085439 - Control 2350089734 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If set, the action can not be modified nor deleted</source>
+          <target>Se attivo, l'azione non può essere modificata o eliminata</target>
+          <note>Page EOS089 WMS Act. Action Params. - Control Protected - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1743488459 - Control 2350089734 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If set, the action can not be modified nor deleted</source>
+          <target>Se attivo, l'azione non può essere modificata o eliminata</target>
+          <note>Page EOS089 WMS Activity Actions - Control Protected - Property ToolTip</note>
         </trans-unit>
       </group>
     </body>
