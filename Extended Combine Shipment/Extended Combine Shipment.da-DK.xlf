@@ -31,6 +31,14 @@
           <source>Subscribe for a free trial or a full activation</source>
           <target>Kostenlose Testversion oder Voll-Abonnement beantragen</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3312399922 - Method 3795892919 - NamedType 611326923" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS ECS Scheduler</source>
+          <target>EOS ECS Planer</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3312399922 - Method 592375044 - NamedType 476920216" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Job Queue Entry for the report "EOS050 ECS Scheduler" not found. Please create it through the action "Open Job Queue" in the setup page before scheduling the report.</source>
+          <target>Job Queue Eintrag für den Report "EOS050 ECS Scheduler" nicht gefunden. Bitte erstellen Sie es über die Aktion "Job-Warteschlange öffnen" auf der Einrichtungsseite, bevor Sie den Bericht planen.</target>
+        </trans-unit>
         <trans-unit id="Page 1031541067 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Type</source>
           <target>Gibt den Typ an</target>
@@ -127,9 +135,41 @@
           <source>Insert default setup</source>
           <target>Vorgabeeinrichtung einfügen</target>
         </trans-unit>
+        <trans-unit id="Page 4266467808 - Action 1905791958 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Job Queue</source>
+          <target>Job-Queue erstellen</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Action 1905791958 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creates a job queue entry for the ECS Scheduler report.</source>
+          <target>Erstellt einen Job-Warteschlangeneintrag für den ECS Scheduler-Bericht.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Action 1905791958 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Job Queue</source>
+          <target>Offene Auftragswarteschlange</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 1338398870 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If this field is enabled, the report is automatically in schedule mode.</source>
+          <target>Wenn dieses Feld aktiviert ist, befindet sich der Bericht automatisch im Zeitplanmodus.</target>
+        </trans-unit>
         <trans-unit id="Page 4266467808 - Control 1408322834 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Default Inv. Method Code</source>
           <target>Gibt den Standard-Inv.-Methodencode an</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 1783185553 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Customer Filters field.</source>
+          <target>Gibt den Wert des Felds Kundenfilter an.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 1783185553 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer Filters</source>
+          <target>Kunden-Filter</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 2918219645 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Shipment Filters field.</source>
+          <target>Gibt den Wert des Felds "Sendungsfilter" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 2918219645 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shipment Filters</source>
+          <target>Filter für Sendungen</target>
         </trans-unit>
         <trans-unit id="Page 4266467808 - Control 628100881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If this field is enabled, the 'Sell To' customer from the invoice header will always be retrieved from the 'Sell To' of the first processed order. If the flag is instead disabled (recommended choice), the 'Sell to' customer of the invoice header will be retrieved from the order, in case of a single 'Sell to' present in the combined shipments; otherwise, it will be forced to match the 'Bill to' customer</source>
@@ -138,6 +178,70 @@
         <trans-unit id="Page 4266467808 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extended Combine Shipment Setup (ECS)</source>
           <target>Erweiterter Kombinierter Versand Setup (ECS)</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Action 3551104171 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View Last Stack Error</source>
+          <target>Fehler beim letzten Stack anzeigen</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Action 3551104171 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View Last Stack Error</source>
+          <target>Fehler beim letzten Stack anzeigen</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Action 3682109780 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View Source</source>
+          <target>Quelle ansehen</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Action 3682109780 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View Source</source>
+          <target>Quelle ansehen</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 1046374066 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Customer No.</source>
+          <target>Quelle Kunden-Nr.</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 1553201050 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Customer No.</source>
+          <target>Quelle Kunden-Nr.</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 1829104285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Log lines below refers to this Session ID</source>
+          <target>Die folgenden Protokollzeilen beziehen sich auf diese Sitzungs-ID</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 2034429472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Log Type</source>
+          <target>Logotyp</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 2429513770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>TimeStamp of Transaction</source>
+          <target>Zeitstempel der Transaktion</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 2708250016 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>User ID who scheduled the report.</source>
+          <target>Benutzer-ID, die den Bericht geplant hat.</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 3135334477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table ID</source>
+          <target>Tabellen-ID</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 3263943300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Movements</source>
+          <target>Lagerplatzumlagerungen</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 345314420 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source ID</source>
+          <target>Herkunfts-ID</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 3726466383 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Details</source>
+          <target>Details</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 3858531078 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Log Description</source>
+          <target>Beschreibung des Protokolls</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoicing Dashboard (ECS)</source>
+          <target>Dashboard für die Rechnungsstellung (ECS)</target>
         </trans-unit>
         <trans-unit id="PageExtension 3411038477 - Control 1135824849 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Invoicing Method Code for the customer</source>
@@ -171,6 +275,14 @@
           <source>Operation Occured Date</source>
           <target>Datum des Vorgangs</target>
         </trans-unit>
+        <trans-unit id="Report 1490119125 - Control 2888694590 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If checked, the report will run in background and will not show any dialog. It is possibile to follow the execution from the page "Open Sessions (ECS)".</source>
+          <target>Wenn diese Option aktiviert ist, wird der Bericht im Hintergrund ausgeführt und es werden keine Dialogfelder angezeigt. Es ist möglich, die Ausführung von der Seite "Open Sessions (ECS)" aus zu verfolgen.</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Control 2888694590 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Schedule execution</source>
+          <target>Ausführung planen</target>
+        </trans-unit>
         <trans-unit id="Report 1490119125 - Control 3037438984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Documents created will use this date as "Posting Date", "Document Date", "Shipment Date" and "Order Date". If empty the "Reference Date" will be used.</source>
           <target>Erstellte Dokumente verwenden dieses Datum als "Buchungsdatum". Wenn leer, wird das "Referenzdatum" verwendet.</target>
@@ -203,6 +315,18 @@
           <source>Electr. Doc. Type</source>
           <target>Elektrin an. Dokumenttyp</target>
         </trans-unit>
+        <trans-unit id="Report 1490119125 - Method 1155137290 - NamedType 2972836881" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error generating invoice. With error: %1</source>
+          <target>Fehler beim Generieren der Rechnung. Mit Fehler: %1</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Method 1155137290 - NamedType 3811408288" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error during the generation of the invoice. With error: %1\Continue anyway?</source>
+          <target>Fehler bei der Erstellung der Rechnung. Mit Fehler: %1\Trotzdem fortfahren?</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Method 1155137290 - NamedType 521427780" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice generation interrupted.</source>
+          <target>Rechnungserstellung unterbrochen.</target>
+        </trans-unit>
         <trans-unit id="Report 1490119125 - Method 2736589801 - NamedType 1642412726" translate="yes" size-unit="char" xml:space="preserve">
           <source>\%2 shipments skipped by %3.</source>
           <target>\%2 sendungen von %3 übersprungen.</target>
@@ -219,13 +343,73 @@
           <source>Customer: #1#\#2#</source>
           <target>Kunde: #1#\#2#</target>
         </trans-unit>
-        <trans-unit id="Report 1490119125 - NamedType 643810467" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Creating invoice: %1</source>
-          <target>Erstellen einer Rechnung: %1</target>
-        </trans-unit>
         <trans-unit id="Report 1490119125 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extended Combine Shipments (ECS)</source>
           <target>Erweiterter Kombinierter Versand (ECS)</target>
+        </trans-unit>
+        <trans-unit id="Report 3419020624 - NamedType 2850832468" translate="yes" size-unit="char" xml:space="preserve">
+          <source>End of ECS Procedures</source>
+          <target>Ende der ECS-Verfahren</target>
+        </trans-unit>
+        <trans-unit id="Report 3419020624 - NamedType 3572372561" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Start of ECS Procedures</source>
+          <target>Beginn der ECS-Verfahren</target>
+        </trans-unit>
+        <trans-unit id="Report 3419020624 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scheduled Procedures (ECS)</source>
+          <target>Geplante Verfahren (ECS)</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 1046374066 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Customer No.</source>
+          <target>Quelle Kunden-Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 1553201050 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Customer Name</source>
+          <target>Name des Quellkunden</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 1829104285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Session ID</source>
+          <target>Session-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 2034144896 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Stack Error</source>
+          <target>Fehler beim letzten Stapel</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 2615700224 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Timestamp</source>
+          <target>Zeitstempel</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 2708250016 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>User ID</source>
+          <target>Benutzer-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 312545736 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Line No.</source>
+          <target>Herkunftszeilennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 3135334477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table ID</source>
+          <target>Tabellen-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 345314420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source ID</source>
+          <target>Herkunfts-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 3858531078 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Log Description</source>
+          <target>Beschreibung des Protokolls</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 587895070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Document Type</source>
+          <target>Quelldokumenttyp</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Lfd. Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Traced Invoicing Log (ECS)</source>
+          <target>Verfolgtes Rechnungsprotokoll (ECS)</target>
         </trans-unit>
         <trans-unit id="Table 3656066566 - Field 168471254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice to</source>
@@ -275,13 +459,25 @@
           <source>Invoicing Method</source>
           <target>Fakturierungsmethode</target>
         </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 1338398870 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Schedule Invoice Creation</source>
+          <target>Planen der Rechnungserstellung</target>
+        </trans-unit>
         <trans-unit id="Table 4266467808 - Field 1408322834 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default Inv. Method Code</source>
           <target>Default Fakt.-Methodencode</target>
         </trans-unit>
         <trans-unit id="Table 4266467808 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Key</source>
-          <target>Primärschlüssel</target>
+          <target>Primær nøgle</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 1783185553 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer Filters</source>
+          <target>Kunden-Filter</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 2918219645 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shipment Filters</source>
+          <target>Filter für Sendungen</target>
         </trans-unit>
         <trans-unit id="Table 4266467808 - Field 628100881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Retrieve Sell-To Customer from Order</source>
@@ -290,6 +486,262 @@
         <trans-unit id="TableExtension 2566720634 - Field 1135824849 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoicing Method Code</source>
           <target>Code Fakturierungsmethode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 766926214 - Field 1199716414 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Created by ECS</source>
+          <target>Erstellt von ECS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 766926214 - Field 2620568401 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ECS Session ID</source>
+          <target>ECS-Sitzungs-ID</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Method 165558284 - NamedType 3400510451" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EDS status changed successfully</source>
+          <target>EDS-status ændret med succes</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 757625839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Created Invoices EDS Path field.</source>
+          <target>Angiver værdien i feltet EDS-sti til oprettede fakturaer.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 2452906024 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Created Invoices EDS Status field.</source>
+          <target>Angiver værdien i feltet EDS-status for oprettede fakturaer.</target>
+        </trans-unit>
+        <trans-unit id="Table 3656066566 - Field 3009100708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Document Class</source>
+          <target>Faktura dokumentklasse</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 3009100708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Document Class</source>
+          <target>Faktura dokumentklasse</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 2027008957 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete log older than (days)</source>
+          <target>Slet log ældre end (dage)</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 1256834338 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice EDS Path</source>
+          <target>Faktura EDS-sti</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 1789400218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Name</source>
+          <target>Tabelens navn</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 4183396051 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Class</source>
+          <target>Dokument-klasse</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 1420579801 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice EDS Status</source>
+          <target>Faktura EDS-status</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 655597566 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deletion Chunk Size</source>
+          <target>Størrelse på sletningsdel</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 4140851411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Log Retention Policy</source>
+          <target>Aktivér politik for opbevaring af logfiler</target>
+        </trans-unit>
+        <trans-unit id="Page 533037680 - Control 1789400218 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Name</source>
+          <target>Tabelens navn</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 2027008957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Delete log older than (days) field.</source>
+          <target>Angiver værdien i feltet Slet log, der er ældre end (dage).</target>
+        </trans-unit>
+        <trans-unit id="Page 4138601875 - Control 3009100708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Invoice Document Class" field</source>
+          <target>Angiver værdien i feltet "Fakturadokumentklasse"</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 3823155104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Log retention</source>
+          <target>Opbevaring af logfiler</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 655597566 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Deletion Chunk Size field.</source>
+          <target>Angiver værdien i feltet Størrelse på sletningsstykke.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 3009100708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Document Class of invoices created through ECS.</source>
+          <target>Angiver dokumentklassen for fakturaer, der er oprettet via ECS.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 4140851411 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Enable Log Retention Policy field.</source>
+          <target>Angiver værdien i feltet Aktivér politik for opbevaring af logfiler.</target>
+        </trans-unit>
+        <trans-unit id="Enum 1715462967 - EnumValue 1994964448 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer</source>
+          <target>Kunde</target>
+        </trans-unit>
+        <trans-unit id="Enum 1715462967 - EnumValue 821689635 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice</source>
+          <target>Faktura</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Method 1155137290 - NamedType 2717561527" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice generated successfully.</source>
+          <target>Faktura genereret.</target>
+        </trans-unit>
+        <trans-unit id="Enum 1715462967 - EnumValue 3711954950 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>End procedure</source>
+          <target>Afslut proceduren</target>
+        </trans-unit>
+        <trans-unit id="Enum 1715462967 - EnumValue 733953070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Begin procedure</source>
+          <target>Begynd proceduren</target>
+        </trans-unit>
+        <trans-unit id="Enum 1635187508 - EnumValue 3665605423 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Completed</source>
+          <target>Afsluttet</target>
+        </trans-unit>
+        <trans-unit id="Enum 1635187508 - EnumValue 1752522425 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Running</source>
+          <target>Løb</target>
+        </trans-unit>
+        <trans-unit id="Enum 1635187508 - EnumValue 957872088 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Planned</source>
+          <target>Planlagt</target>
+        </trans-unit>
+        <trans-unit id="Table 146977506 - Field 2708250016 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>User ID</source>
+          <target>Benutzer-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 146977506 - Field 1829104285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Session ID</source>
+          <target>Session-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 146977506 - Field 2014922888 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Started At</source>
+          <target>Startede kl</target>
+        </trans-unit>
+        <trans-unit id="Table 146977506 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Status</target>
+        </trans-unit>
+        <trans-unit id="Table 146977506 - Field 1097286736 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scheduled At</source>
+          <target>Planlagt kl</target>
+        </trans-unit>
+        <trans-unit id="Table 146977506 - Field 1921533101 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>RequestPageFields</source>
+          <target>RequestPageFields</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 376360952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Minimum Log Level</source>
+          <target>Mindste logniveau</target>
+        </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 2600785769 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Log Severity</source>
+          <target>Log alvorsgrad</target>
+        </trans-unit>
+        <trans-unit id="Table 146977506 - Field 3470450981 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ended At</source>
+          <target>Sluttede kl</target>
+        </trans-unit>
+        <trans-unit id="Table 146977506 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoicing Sessions (ECS)</source>
+          <target>Faktureringssessioner (ECS)</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoicing Sessions (ECS)</source>
+          <target>Faktureringssessioner (ECS)</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Control 264920029 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error Count</source>
+          <target>Antal fejl</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Control 264920029 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The number of errors in the session</source>
+          <target>Antallet af fejl i sessionen</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <target>Angiver værdien i feltet Status.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 376360952 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Minimum Log level for the messages to be logged. Verbose: All messages are logged. Information: Only informational, warning and error messages are logged. Warning: Only warning and error messages are logged. Error: Only error messages are logged.</source>
+          <target>Angiver det mindste logniveau for de meddelelser, der skal logføres. Verbose: Alle meddelelser logføres. Information: Kun informations-, advarsels- og fejlmeddelelser logges. Advarsel: Kun advarsels- og fejlmeddelelser logges. Fejl: Det er kun fejlmeddelelser, der logges.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 2577198478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Data Security</source>
+          <target>Datasikkerhed</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Control 3470450981 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Ended At field.</source>
+          <target>Angiver værdien af feltet Afsluttet den.</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Control 1829104285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Session ID field.</source>
+          <target>Angiver værdien i feltet Sessions-id.</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Control 1097286736 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Scheduled At field.</source>
+          <target>Angiver værdien i feltet Planlagt til.</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Control 2014922888 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Started At field.</source>
+          <target>Angiver værdien i feltet Startet den.</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Action 1271523265 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Session</source>
+          <target>Slet session</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Action 597170678 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Dashboard</source>
+          <target>Åbn Dashboard</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Action 1271523265 - Method 1377591017 - NamedType 2390104563" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want delete this session?</source>
+          <target>Vil du slette denne session?</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Action 597170678 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the dashboard and shows the session log</source>
+          <target>Åbner dashboardet og viser sessionsloggen</target>
+        </trans-unit>
+        <trans-unit id="Report 3419020624 - NamedType 3348858779" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finished procedure for customer %1 - Advanced %2%</source>
+          <target>Afsluttet procedure for kunde %1 - Avanceret %2%</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Action 1271523265 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allows to delete a planned sessione</source>
+          <target>Gør det muligt at slette en planlagt session</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Action 1271523265 - Method 1377591017 - NamedType 643870047" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Only planned sessions can be deleted. Use retention feature to delete completed sessions.</source>
+          <target>Kun planlagte sessioner kan slettes. Brug opbevaringsfunktionen til at slette afsluttede sessioner.</target>
+        </trans-unit>
+        <trans-unit id="Report 3419020624 - NamedType 3996886084" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error in procedure for customer %1 - Advanced %2%</source>
+          <target>Fejl i proceduren for kunde %1 - Avanceret %2%</target>
+        </trans-unit>
+        <trans-unit id="Page 638835983 - Control 2708250016 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the User ID field.</source>
+          <target>Angiver værdien i feltet Bruger-id.</target>
+        </trans-unit>
+        <trans-unit id="Enum 2538128937 - EnumValue 2248886284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error</source>
+          <target>Fejl</target>
+        </trans-unit>
+        <trans-unit id="Enum 2538128937 - EnumValue 3955473374 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Warning</source>
+          <target>Advarsel</target>
+        </trans-unit>
+        <trans-unit id="Enum 2538128937 - EnumValue 419426744 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Information</source>
+          <target>Information</target>
+        </trans-unit>
+        <trans-unit id="Enum 2538128937 - EnumValue 540986563 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Debug</source>
+          <target>Verbose</target>
+        </trans-unit>
+        <trans-unit id="Report 3419020624 - ReportDataItem 1155137290 - Method 3245603402 - NamedType 1091511284" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Time to process customer %1: %2</source>
+          <target>Tid til at behandle kunde %1: %2</target>
+        </trans-unit>
+        <trans-unit id="Enum 2538128937 - EnumValue 2191941238 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Verbose</source>
+          <target>Detaljeret</target>
         </trans-unit>
       </group>
     </body>
