@@ -823,14 +823,6 @@
           <source>Unknow parameter "%1".</source>
           <target>Unknow parameter "%1".</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 234975533 - NamedType 238945643" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The export file must have a name.</source>
-          <target>The export file must have a name.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 234975533 - NamedType 3415447349" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1%2_%3.xml</source>
-          <target>%1%2_%3.xml</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3842445359 - Method 4165217952 - NamedType 811335887" translate="yes" size-unit="char" xml:space="preserve">
           <source>If you need to specify Ecobonus you must mark at least one line as "Ecobonus" and add a Scontomaggiorazione record in %1 that has %2 equal to Ecobonus</source>
           <target>If you need to specify Ecobonus you must mark at least one line as "Ecobonus" and add a Scontomaggiorazione record in %1 that has %2 equal to Ecobonus</target>
@@ -863,7 +855,11 @@
           <source>%1 must be filled.</source>
           <target>%1 must be filled.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 4259227924 - Method 3159585621 - NamedType 512198047" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Codeunit 4259227924 - Method 3092933868 - NamedType 512198047" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document line %1</source>
+          <target>Document line %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4259227924 - Method 3189345625 - NamedType 512198047" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document line for VAT %1</source>
           <target>Document line for VAT %1</target>
         </trans-unit>
@@ -1006,6 +1002,14 @@
         <trans-unit id="Codeunit 979456391 - NamedType 3388173854" translate="yes" size-unit="char" xml:space="preserve">
           <source>TAG %1 cannot be blank.</source>
           <target>TAG %1 cannot be blank.</target>
+        </trans-unit>
+        <trans-unit id="Enum 1427093133 - EnumValue 1383905037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default</source>
+          <target>Default</target>
+        </trans-unit>
+        <trans-unit id="Enum 1427093133 - EnumValue 751350114 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current Document</source>
+          <target>Current Document</target>
         </trans-unit>
         <trans-unit id="Enum 3114465641 - EnumValue 3557664220 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Percentage</source>
@@ -2010,6 +2014,10 @@
         <trans-unit id="Page 2536233598 - Control 2570600718 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if this TD is related to a purchase self-invoice.</source>
           <target>Specifies if this TD is related to a purchase self-invoice.</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 584462561 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If true, the document will not be discarded in inbound, even if the Purch. Self-Invoice field is true.</source>
+          <target>If true, the document will not be discarded in inbound, even if the Purch. Self-Invoice field is true.</target>
         </trans-unit>
         <trans-unit id="Page 2536233598 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Doc. Catalogs</source>
@@ -4095,6 +4103,10 @@
           <source>File Storage</source>
           <target>File Storage</target>
         </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1259582761 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field identifies the G/L account that will be used in the lines by the third-party purchase invoice function.</source>
+          <target>Specifies the value of the "Third-party Self-Invoice Account" field.</target>
+        </trans-unit>
         <trans-unit id="Page 326399071 - Control 1360245513 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies last file ID used (with AssisEdit you can simulate field increment)</source>
           <target>Specifies last file ID used (with AssisEdit you can simulate field increment)</target>
@@ -4107,9 +4119,17 @@
           <source>Specifies whether lines with zero quantity should be skipped or exported to the XML.</source>
           <target>Specifies whether lines with zero quantity should be skipped or exported to the XML.</target>
         </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1581346738 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Third-party Self-Invoice</source>
+          <target>Third-party Self-Invoice</target>
+        </trans-unit>
         <trans-unit id="Page 326399071 - Control 1767460216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies existing vendor which data will be used in DatiTrasmissione tags value</source>
           <target>Specifies existing vendor which data will be used in DatiTrasmissione tags value</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1809755017 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field enables the management of third-party purchase invoices, and fields and actions that were previously not visible will appear.</source>
+          <target>Specifies the value of the "Enable third-party self-invoice management" field.</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Control 1861570902 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "File Storage Code" field.</source>
@@ -6495,6 +6515,14 @@
           <source>Specifies the value of the "Inv. Discount Amount" field.</source>
           <target>Specifies the value of the "Inv. Discount Amount" field.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Action 1554931883 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This action imports the document lines of the Applied-To document as Account C/G lines</source>
+          <target>This action imports the document lines of the Applied-To document as Account C/G lines</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Action 1554931883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import document lines for third-party self-invoice (FTE)</source>
+          <target>Import document lines for third-party self-invoice (FTE)</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1195400348 - Control 1385835226 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies related ID SDI. If integrated connector is used, is retrieved from Applies-to Document No..</source>
           <target>Specifies related ID SDI. If integrated connector is used, is retrieved from Applies-to Document No..</target>
@@ -6514,6 +6542,10 @@
         <trans-unit id="PageExtension 1195400348 - Control 2232794015 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies related document no.. This must be filled for TD that need this info and is different from current document. Available document list is filtered by Applies-to Vendor No..</source>
           <target>Specifies related document no.. This must be filled for TD that need this info and is different from current document. Available document list is filtered by Applies-to Vendor No..</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT transactions (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <target>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1195400348 - Control 2710226098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attachments</source>
@@ -6818,6 +6850,10 @@
         <trans-unit id="PageExtension 2248996788 - Control 2232794015 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies related document no.. This must be filled for TD that need this info and is different from current document. Available document list is filtered by Applies-to Vendor No..</source>
           <target>Specifies related document no.. This must be filled for TD that need this info and is different from current document. Available document list is filtered by Applies-to Vendor No..</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2248996788 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT transactions (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <target>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2248996788 - Control 3974409690 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies related vendor code. This must be filled for TD that need this info and is different from document vendor.</source>
@@ -7411,6 +7447,10 @@
           <source>Status</source>
           <target>Status</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3938442137 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <target>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3938442137 - Control 2710226098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attachments</source>
           <target>Attachments</target>
@@ -7595,6 +7635,14 @@
           <source>Specifies default electr. document type used to initialize sales documents.</source>
           <target>Specifies default electr. document type used to initialize sales documents.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Action 1554931883 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This action imports the document lines of the Applied-To document as Account G/L lines</source>
+          <target>This action imports the document lines of the Applied-To document as Account C/G lines</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Action 1554931883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import document lines for third-party self-invoice (FTE)</source>
+          <target>Import document lines for third-party self-invoice (FTE)</target>
+        </trans-unit>
         <trans-unit id="PageExtension 557703731 - Control 1385835226 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies related ID SDI. If integrated connector is used, is retrieved from Applies-to Document No..</source>
           <target>Specifies related ID SDI. If integrated connector is used, is retrieved from Applies-to Document No..</target>
@@ -7614,6 +7662,10 @@
         <trans-unit id="PageExtension 557703731 - Control 2232794015 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies related document no.. This must be filled for TD that need this info and is different from current document. Available document list is filtered by Applies-to Vendor No..</source>
           <target>Specifies related document no.. This must be filled for TD that need this info and is different from current document. Available document list is filtered by Applies-to Vendor No..</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT Entry (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <target>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</target>
         </trans-unit>
         <trans-unit id="PageExtension 557703731 - Control 2710226098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attachments</source>
@@ -7798,6 +7850,10 @@
         <trans-unit id="PageExtension 88916137 - Control 2556255346 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
           <target>Status</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 88916137 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <target>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</target>
         </trans-unit>
         <trans-unit id="PageExtension 88916137 - Control 2710226098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attachments</source>
@@ -10503,6 +10559,10 @@
           <source>Description</source>
           <target>Description</target>
         </trans-unit>
+        <trans-unit id="Table 2536233598 - Field 584462561 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Third-party Document</source>
+          <target>Third-party Document</target>
+        </trans-unit>
         <trans-unit id="Table 2536233598 - NamedType 2347499375" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table %1 contains data for type %2. Do you want to continue?</source>
           <target>Table %1 contains data for type %2. Do you want to continue?</target>
@@ -11415,6 +11475,10 @@
           <source>Address</source>
           <target>Address</target>
         </trans-unit>
+        <trans-unit id="Table 326399071 - Field 1259582761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Third-party self-invoice Account</source>
+          <target>Third-party self-invoice Account</target>
+        </trans-unit>
         <trans-unit id="Table 326399071 - Field 1360245513 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last File ID Used</source>
           <target>Last File ID Used</target>
@@ -11438,6 +11502,10 @@
         <trans-unit id="Table 326399071 - Field 1796090796 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Date Used</source>
           <target>Last Date Used</target>
+        </trans-unit>
+        <trans-unit id="Table 326399071 - Field 1809755017 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable third-party self-invoice management</source>
+          <target>Enable third-party self-invoice management</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 1861570902 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Storage Code</source>
@@ -11496,8 +11564,8 @@
           <target>Line Disc. Export Method</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 3124414295 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purch. Self-Invoice File Path</source>
-          <target>Purch. Self-Invoice File Path</target>
+          <source>Purchase Self-Invoice File Path</source>
+          <target>Purchase Self-Invoice File Path</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 3128184946 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Name</source>
@@ -11596,8 +11664,8 @@
           <target>Ecobonus text</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 679402117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Self-Invoice File Path</source>
-          <target>Self-Invoice File Path</target>
+          <source>Purchase Self-Invoice File Path</source>
+          <target>Purchase Self-Invoice File Path</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 689635933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Path</source>
@@ -12779,6 +12847,10 @@
           <source>Applies-to Document No.</source>
           <target>Applies-to Document No.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1307459574 - Field 2688292465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>XML Document Lines Origin</source>
+          <target>XML Document Lines Origin</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1307459574 - Field 3974409690 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Applies-to Vendor No.</source>
           <target>Applies-to Vendor No.</target>
@@ -12790,6 +12862,10 @@
         <trans-unit id="TableExtension 1307459574 - Field 913622389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Manual Electr. Doc. Type</source>
           <target>Manual Electr. Doc. Type</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1307459574 - Method 1554931883 - NamedType 58812377" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document must have no lines for the action to be executed</source>
+          <target>Document must have no lines for the action to be executed</target>
         </trans-unit>
         <trans-unit id="TableExtension 1330805872 - Field 1123390653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Name</source>
@@ -13251,6 +13327,10 @@
           <source>Applies-to Document No.</source>
           <target>Applies-to Document No.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 331944911 - Field 2688292465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>XML Document Lines Origin</source>
+          <target>XML Document Lines Origin</target>
+        </trans-unit>
         <trans-unit id="TableExtension 331944911 - Field 2935461753 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Filename</source>
           <target>Electr. Document Filename</target>
@@ -13594,6 +13674,10 @@
         <trans-unit id="TableExtension 969641528 - Field 2232794015 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Applies-to Document No.</source>
           <target>Applies-to Document No.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 969641528 - Field 2688292465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>XML Document Lines Origin</source>
+          <target>XML Document Lines Origin</target>
         </trans-unit>
         <trans-unit id="TableExtension 969641528 - Field 2935461753 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Filename</source>

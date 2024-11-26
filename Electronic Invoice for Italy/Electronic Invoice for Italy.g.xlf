@@ -128,6 +128,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS EDoc. Catalogs - Field Supported Format - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="Table 2536233598 - Field 584462561 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Third-party Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS EDoc. Catalogs - Field Third-party Document - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2536233598 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5048,6 +5053,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Outb. Electr. Doc. Setup - Field Add StabileOrganizzazione - S - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 326399071 - Field 1809755017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable third-party self-invoice management</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Outb. Electr. Doc. Setup - Field Enable 3rd-party self-inv mngt - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 326399071 - Field 3122932264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enable CIG CUP Legacy Mode</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5314,12 +5324,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Outb. Electr. Doc. Setup - Field Self Inv. Electr. Doc. Rec. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 679402117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Self-Invoice File Path</source>
+          <source>Purchase Self-Invoice File Path</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Outb. Electr. Doc. Setup - Field Self-Invoice File Path - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 3124414295 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Purch. Self-Invoice File Path</source>
+          <source>Purchase Self-Invoice File Path</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Outb. Electr. Doc. Setup - Field Self-Invoice File Path FAPI - Property Caption</note>
         </trans-unit>
@@ -5332,6 +5342,11 @@
           <source>Skip Zero Quantity Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Outb. Electr. Doc. Setup - Field Skip Zero Quantity Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 326399071 - Field 1259582761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Third-party self-invoice Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Outb. Electr. Doc. Setup - Field Third-party Self-Inv. Account - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3341411733 - Field 428616085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EOS Codice CIG</source>
@@ -6883,16 +6898,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Inb. EDoc. FS - Method ImportFolder - NamedType fileCorruptedLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 234975533 - NamedType 3415447349" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1%2_%3.xml</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Outb. Purch. EDoc. Mgt. - Method RunEDocFileCreation - NamedType FileNameLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 234975533 - NamedType 238945643" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The export file must have a name.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Outb. Purch. EDoc. Mgt. - Method RunEDocFileCreation - NamedType EmptyFileNameErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 4259227924 - Method 1841498753 - NamedType 3745211309" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must be filled.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6903,15 +6908,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Outb. Purch. EDoc. Wrt. - Method BuildTempCessionarioCommittenteBuffer - NamedType EmptyValueErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4259227924 - Method 3159585621 - NamedType 512198047" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 4259227924 - Method 3092933868 - NamedType 512198047" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document line %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Outb. Purch. EDoc. Wrt. - Method BuildTempDocumentLinesBuffer - NamedType LineDescrTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4259227924 - Method 3189345625 - NamedType 512198047" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document line for VAT %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Outb. Purch. EDoc. Wrt. - Method BuildTempDocumentLineBuffer - NamedType LineDescrTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Outb. Purch. EDoc. Wrt. - Method BuildTempVATLineBuffer - NamedType LineDescrTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 4259227924 - Method 1709091868 - NamedType 1570355211" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 cannot be blank in %2 %3.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Outb. Purch. EDoc. Wrt. - Method GetTaxRepresentativeData - NamedType CannotBeBlankErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 88004037 - Method 3753405299 - NamedType 4051101099" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The total amount %1 of invoice %2 differs from the amount %3 of the posted invoice %4.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = current document amount, %2 = current document no., %3 = posted document amount, %4 = posted document no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Outb. Purch. Events - Method TestThirdpartyPurchaseInvoice - NamedType AmountMistmatchErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 88004037 - Method 3753405299 - NamedType 1820712809" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document %1 can contain only one line.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Outb. Purch. Events - Method TestThirdpartyPurchaseInvoice - NamedType TooManyLinesErr</note>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Duty Stamp Setup (FTE)</source>
@@ -6998,6 +7018,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS EDoc. Catalogs - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS EDoc. Catalogs - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Description" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS EDoc. Catalogs - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 1183965735 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Ordinary/Simple" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS EDoc. Catalogs - Control Ordinary/Simple - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2536233598 - Control 2570600718 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if this TD is related to a purchase self-invoice.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7007,6 +7042,26 @@
           <source>Specifies if this TD needs a related vendor to be specified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS EDoc. Catalogs - Control Related Vendor Mandatory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 2786407699 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Supported Document Type" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS EDoc. Catalogs - Control Supported Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 1412156535 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Supported Format" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS EDoc. Catalogs - Control Supported Format - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 584462561 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If true, the document will not be discarded in inbound, even if the Purch. Self-Invoice field is true.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS EDoc. Catalogs - Control Third-party Document - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Type" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS EDoc. Catalogs - Control Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2536233598 - Action 2621406067 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Restore Default Settings. Present values will be overwritten</source>
@@ -12288,6 +12343,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Outb. Electr. Doc. Setup - Control EOS Shareholder Status - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1581346738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Third-party Self-Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Outb. Electr. Doc. Setup - Control third-party Self-Inv. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1809755017 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This field enables the management of third-party purchase invoices, and fields and actions that were previously not visible will appear.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Outb. Electr. Doc. Setup - Control Enable 3rd-party self-inv mngt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1259582761 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This field identifies the G/L account that will be used in the lines by the third-party purchase invoice function.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Outb. Electr. Doc. Setup - Control Third-party Self-Inv. Account - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 326399071 - Action 540986563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Debug</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12668,6 +12738,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Posted Purch. CM Data - Control EOS Electr. Doc. Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 357018280 - Control 2688292465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Posted Purch. CM Data - Control EOS XML Document Lines Source - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 357018280 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code for the location used when you posted the credit memo.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12912,6 +12987,11 @@
           <source>Specifies type of electronic document (TD) to export.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Posted Purch. Inv. Data - Control EOS Electr. Doc. Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3342461831 - Control 2688292465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Posted Purch. Inv. Data - Control EOS XML Document Lines Source - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3342461831 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code for the location where the items are registered.</source>
@@ -14583,6 +14663,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123020 - Control EOS Keep Electr. Doc. Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2248996788 - Control 2688292465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT transactions (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123020 - Control EOS XML Document Lines Source - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1611300171 - Control 2743690823 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 416138076">
           <source>Specifies the value of the "Ecobonus" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -15573,6 +15658,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123055 - Control EOS Electr. Doc. Related Docs. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Action 1554931883 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
+          <source>This action imports the document lines of the Applied-To document as Account G/L lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123056 - Action EOSImportThirdpartySelfInvoiceLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Action 1554931883 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
+          <source>Import document lines for third-party self-invoice (FTE)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123056 - Action EOSImportThirdpartySelfInvoiceLines - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 557703731 - Control 4094955275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
           <source>Electronic Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -15633,10 +15728,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123056 - Control EOS Keep Electr. Doc. Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Control 2688292465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT Entry (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123056 - Control EOS XML Document Lines Source - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Action 1554931883 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4042331808">
+          <source>This action imports the document lines of the Applied-To document as Account C/G lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123057 - Action EOSImportThirdpartySelfInvoiceLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Action 1554931883 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4042331808">
+          <source>Import document lines for third-party self-invoice (FTE)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123057 - Action EOSImportThirdpartySelfInvoiceLines - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1195400348 - Control 4094955275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4042331808">
           <source>Electronic Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123057 - Control EOS Electr. Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Control 705705510 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4042331808">
+          <source>Specifies the entry number of the electronic document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123057 - Control EOS Electr. Document Entry No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1195400348 - Control 705705510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4042331808">
           <source>Electr. Document Entry No.</source>
@@ -15692,6 +15807,11 @@
           <source>Specifies if type of electronic document (TD) has been manually modified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123057 - Control EOS Keep Electr. Doc. Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Control 2688292465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4042331808">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT transactions (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123057 - Control EOS XML Document Lines Source - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 88916137 - Action 2645228001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
           <source>Electronic Document</source>
@@ -15787,6 +15907,11 @@
           <source>Specifies type of electronic document (TD) to export.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123058 - Control EOS Electr. Doc. Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 88916137 - Control 2688292465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123058 - Control EOS XML Document Lines Source - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 88916137 - Control 2556255346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
           <source>Status</source>
@@ -16057,6 +16182,11 @@
           <source>Specifies type of electronic document (TD) to export.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123063 - Control EOS Electr. Doc. Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3938442137 - Control 2688292465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2854365759">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123063 - Control EOS XML Document Lines Source - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3938442137 - Control 2556255346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2854365759">
           <source>Status</source>
@@ -17068,6 +17198,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123056 - Field EOS Electr. Document Status - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 969641528 - Field 2688292465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1592379974">
+          <source>XML Document Lines Origin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123056 - Field EOS XML Document Lines Source - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 331944911 - Field 2232794015 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2271228953">
           <source>Applies-to Document No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -17118,6 +17253,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123057 - Field EOS Electr. Document Status - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 331944911 - Field 2688292465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2271228953">
+          <source>XML Document Lines Origin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123057 - Field EOS XML Document Lines Source - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1307459574 - Method 1554931883 - NamedType 58812377" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1307459574">
+          <source>Document must have no lines for the action to be executed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123058 - Method EOSImportThirdpartySelfInvoiceLines - NamedType EmptyDocumentErr</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1307459574 - Method 1554931883 - NamedType 872178025" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1307459574">
+          <source>Operation completed successfully</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123058 - Method EOSImportThirdpartySelfInvoiceLines - NamedType OperationSUccessMsg</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1307459574 - Field 2232794015 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
           <source>Applies-to Document No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -17153,6 +17303,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123058 - Field EOS Keep Electr. Doc. Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1307459574 - Field 2688292465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+          <source>XML Document Lines Origin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123058 - Field EOS XML Document Lines Source - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 4146238534 - EnumValue 2572667290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>All Customers</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -17182,6 +17337,16 @@
           <source>Ecobonus</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS063 ScontoMaggiorazione legislation - EnumValue Ecobonus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1427093133 - EnumValue 751350114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS063 XML Doc. Lines Source - EnumValue Current Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1427093133 - EnumValue 1383905037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS063 XML Doc. Lines Source - EnumValue Default - Property Caption</note>
         </trans-unit>
         <trans-unit id="EnumExtension 786434782 - EnumValue 375574010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3690615169">
           <source>EOS Retention Policies</source>

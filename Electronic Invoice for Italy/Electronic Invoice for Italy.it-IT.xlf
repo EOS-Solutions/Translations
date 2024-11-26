@@ -823,14 +823,6 @@
           <source>Unknow parameter "%1".</source>
           <target>Parametro "%1" sconosciuto.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 234975533 - NamedType 238945643" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The export file must have a name.</source>
-          <target>Il file di export deve avere un nome.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 234975533 - NamedType 3415447349" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1%2_%3.xml</source>
-          <target>%1%2_%3.xml</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3842445359 - Method 4165217952 - NamedType 811335887" translate="yes" size-unit="char" xml:space="preserve">
           <source>If you need to specify Ecobonus you must mark at least one line as "Ecobonus" and add a Scontomaggiorazione record in %1 that has %2 equal to Ecobonus</source>
           <target>Se si desidera specificare un Ecobonus, è necessario contrassegnare almeno una riga come "Ecobonus" e aggiungere un record Scontomaggiorazione in %1 con %2 uguale a Ecobonus</target>
@@ -863,7 +855,11 @@
           <source>%1 must be filled.</source>
           <target>%1 deve essere compilato.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 4259227924 - Method 3159585621 - NamedType 512198047" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Codeunit 4259227924 - Method 3092933868 - NamedType 512198047" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document line %1</source>
+          <target>Riga documento %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4259227924 - Method 3189345625 - NamedType 512198047" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document line for VAT %1</source>
           <target>Riga documento per IVA %1</target>
         </trans-unit>
@@ -1006,6 +1002,14 @@
         <trans-unit id="Codeunit 979456391 - NamedType 3388173854" translate="yes" size-unit="char" xml:space="preserve">
           <source>TAG %1 cannot be blank.</source>
           <target>Il TAG %1 non può essere vuoto.</target>
+        </trans-unit>
+        <trans-unit id="Enum 1427093133 - EnumValue 1383905037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default</source>
+          <target>Predefinito</target>
+        </trans-unit>
+        <trans-unit id="Enum 1427093133 - EnumValue 751350114 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current Document</source>
+          <target>Documento corrente</target>
         </trans-unit>
         <trans-unit id="Enum 3114465641 - EnumValue 3557664220 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Percentage</source>
@@ -2011,6 +2015,10 @@
           <source>Specifies if this TD is related to a purchase self-invoice.</source>
           <target>Specifica se il TD è relativo a integrazioni/autofatture acquisto.</target>
         </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 584462561 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If true, the document will not be discarded in inbound, even if the Purch. Self-Invoice field is true.</source>
+          <target>Se impostato a vero, il documento di questo non verrà scartato in entrata anche se impostato per le autofatture</target>
+        </trans-unit>
         <trans-unit id="Page 2536233598 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Doc. Catalogs</source>
           <target>Repertori doc. elettronico</target>
@@ -2305,7 +2313,7 @@
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 650382431 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies lower limit for document total amount to be included in duty stamp routine</source>
-          <target>Specifica un limite inferiore per l'importo totale del documento da includere nella routine di timbro da zio</target>
+          <target>Specifica un limite inferiore per l'importo totale del documento da includere nella routine del bollo</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 992756663 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document</source>
@@ -4106,6 +4114,10 @@
         <trans-unit id="Page 326399071 - Control 1467129095 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies whether lines with zero quantity should be skipped or exported to the XML.</source>
           <target>Specifica se le righe con quantità zero devono essere ignorate o esportate nel codice XML.</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1581346738 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Third-party Self-Invoice</source>
+          <target>Autofattura conto terzi</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Control 1767460216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies existing vendor which data will be used in DatiTrasmissione tags value</source>
@@ -6511,6 +6523,10 @@
           <source>Specifies related document no.. This must be filled for TD that need this info and is different from current document. Available document list is filtered by Applies-to Vendor No..</source>
           <target>Specifica il nr. documento collegato. Deve essere compilato per i tipo doc. elettronico che lo prevedono. La lista dei documenti è filtrata per collega a nr. fornitore.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT transactions (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <target>Questo campo specifica quale deve essere l'origine delle righe per la generazione della fattura elettronica. "Predefinito" indica i movimenti IVA (comportamento storico), "Documento Corrente" indica che saranno prese le righe del documento.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1195400348 - Control 2710226098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attachments</source>
           <target>Allegati</target>
@@ -6814,6 +6830,10 @@
         <trans-unit id="PageExtension 2248996788 - Control 2232794015 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies related document no.. This must be filled for TD that need this info and is different from current document. Available document list is filtered by Applies-to Vendor No..</source>
           <target>Specifica il nr. documento collegato. Deve essere compilato per i tipo doc. elettronico che lo prevedono. La lista dei documenti è filtrata per collega a nr. fornitore.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2248996788 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT transactions (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <target>Questo campo specifica quale deve essere l'origine delle righe per la generazione della fattura elettronica. "Predefinito" indica i movimenti IVA (comportamento storico), "Documento Corrente" indica che saranno prese le righe del documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2248996788 - Control 3974409690 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies related vendor code. This must be filled for TD that need this info and is different from document vendor.</source>
@@ -7407,6 +7427,10 @@
           <source>Status</source>
           <target>Stato</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3938442137 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <target>Specifica l'origine delle righe del documento XML. Se questo campo è vuoto, l'XML verrà generato in base ai movimenti IVA. Il valore 'Documento applicato' genererà un codice XML contenente le righe del documento applicato. Scegliendo 'Documento corrente' verrà generato un codice XML contenente le righe del documento da cui viene eseguita l'azione.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3938442137 - Control 2710226098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attachments</source>
           <target>Allegati</target>
@@ -7611,6 +7635,10 @@
           <source>Specifies related document no.. This must be filled for TD that need this info and is different from current document. Available document list is filtered by Applies-to Vendor No..</source>
           <target>Specifica il nr. documento collegato. Deve essere compilato per i tipo doc. elettronico che lo prevedono. La lista dei documenti è filtrata per collega a nr. fornitore.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT Entry (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <target>Questo campo specifica quale deve essere l'origine delle righe per la generazione della fattura elettronica. "Predefinito" indica i movimenti IVA (comportamento storico), "Documento Corrente" indica che saranno prese le righe del documento.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 557703731 - Control 2710226098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attachments</source>
           <target>Allegati</target>
@@ -7794,6 +7822,10 @@
         <trans-unit id="PageExtension 88916137 - Control 2556255346 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
           <target>Stato</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 88916137 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <target>Specifica l'origine delle righe del documento XML. Se questo campo è vuoto, l'XML verrà generato in base ai movimenti IVA. Il valore 'Documento applicato' genererà un codice XML contenente le righe del documento applicato. Scegliendo 'Documento corrente' verrà generato un codice XML contenente le righe del documento da cui viene eseguita l'azione.</target>
         </trans-unit>
         <trans-unit id="PageExtension 88916137 - Control 2710226098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attachments</source>
@@ -10343,6 +10375,10 @@
           <source>Description</source>
           <target>Descrizione</target>
         </trans-unit>
+        <trans-unit id="Table 2536233598 - Field 584462561 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Third-party Document</source>
+          <target>Documento Conto Terzi</target>
+        </trans-unit>
         <trans-unit id="Table 2536233598 - NamedType 2347499375" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table %1 contains data for type %2. Do you want to continue?</source>
           <target>La tabella %1 contiene dati per il tipo %2. Vuoi continuare?</target>
@@ -11279,6 +11315,10 @@
           <source>Last Date Used</source>
           <target>Ultima data utilizzata</target>
         </trans-unit>
+        <trans-unit id="Table 326399071 - Field 1809755017 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable third-party self-invoice management</source>
+          <target>Abilita gestione autofattura conto terzi</target>
+        </trans-unit>
         <trans-unit id="Table 326399071 - Field 1861570902 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Storage Code</source>
           <target>Codice configurazione servizio</target>
@@ -11336,8 +11376,8 @@
           <target>Metodo esportazione sconti riga</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 3124414295 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purch. Self-Invoice File Path</source>
-          <target>Purch. Percorso del file di autofattura</target>
+          <source>Purchase Self-Invoice File Path</source>
+          <target>Percorso del file di autofattura acquisto</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 3128184946 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Name</source>
@@ -11436,8 +11476,8 @@
           <target>Dicitura Ecobonus</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 679402117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Self-Invoice File Path</source>
-          <target>Percorso file integr./autofattura</target>
+          <source>Purchase Self-Invoice File Path</source>
+          <target>Percorso del file di autofattura acquisto</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 689635933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Path</source>
@@ -12619,6 +12659,10 @@
           <source>Applies-to Document No.</source>
           <target>Collega-a nr. documento</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1307459574 - Field 2688292465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>XML Document Lines Origin</source>
+          <target>Origine righe del documento XML</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1307459574 - Field 3974409690 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Applies-to Vendor No.</source>
           <target>Collega-a nr. fornitore</target>
@@ -13091,6 +13135,10 @@
           <source>Applies-to Document No.</source>
           <target>Collega-a nr. documento</target>
         </trans-unit>
+        <trans-unit id="TableExtension 331944911 - Field 2688292465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>XML Document Lines Origin</source>
+          <target>Origine righe del documento XML</target>
+        </trans-unit>
         <trans-unit id="TableExtension 331944911 - Field 2935461753 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Filename</source>
           <target>Nome file documento elettr.</target>
@@ -13435,6 +13483,10 @@
           <source>Applies-to Document No.</source>
           <target>Collega-a nr. documento</target>
         </trans-unit>
+        <trans-unit id="TableExtension 969641528 - Field 2688292465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>XML Document Lines Origin</source>
+          <target>Origine righe del documento XML</target>
+        </trans-unit>
         <trans-unit id="TableExtension 969641528 - Field 2935461753 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Filename</source>
           <target>Nome file documento elettr.</target>
@@ -13454,6 +13506,86 @@
         <trans-unit id="TableExtension 969641528 - Field 705705510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Entry No.</source>
           <target>Nr. mov. documento elettr.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Action 1554931883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import document lines for third-party self-invoice (FTE)</source>
+          <target>Importa righe documento per autofattura di terze parti (FTE)</target>
+        </trans-unit>
+        <trans-unit id="Table 326399071 - Field 1259582761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Third-party self-invoice Account</source>
+          <target>Conto C/G autofattura terze parti</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Action 1554931883 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This action imports the document lines of the Applied-To document as Account G/L lines</source>
+          <target>Questa azione consente di importare le righe del documento Destinatario applicato come righe C/G conto</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Action 1554931883 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This action imports the document lines of the Applied-To document as Account C/G lines</source>
+          <target>Questa azione consente di importare le righe del documento Destinatario applicato come righe C/G conto</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Action 1554931883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import document lines for third-party self-invoice (FTE)</source>
+          <target>Importa righe documento per autofattura di terze parti (FTE)</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1809755017 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field enables the management of third-party purchase invoices, and fields and actions that were previously not visible will appear.</source>
+          <target>Questo campo abilita la gestione delle fatture acquisto conto terzi e compariranno campi e azioni prima non visibili.</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1259582761 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field identifies the G/L account that will be used in the lines by the third-party purchase invoice function.</source>
+          <target>Questo campo identifica il conto di contabilità che sarà usato nelle righe dalla funzione fatture acquisto conto terzi</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1307459574 - Method 1554931883 - NamedType 58812377" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document must have no lines for the action to be executed</source>
+          <target>Il documento non deve avere righe per l'esecuzione dell'azione</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 88004037 - Method 3753405299 - NamedType 4051101099" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The total amount %1 of invoice %2 differs from the amount %3 of the posted invoice %4.</source>
+          <target>L'importo totale %1 della fattura %2 differisce dall'importo %3 della fattura registrata %4.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1307459574 - Method 1554931883 - NamedType 872178025" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation completed successfully</source>
+          <target>Operazione completata con successo</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description" field.</source>
+          <target>Specifica il valore del campo "Descrizione".</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Type" field.</source>
+          <target>Specifica il valore del campo "Tipo".</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 1183965735 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Ordinary/Simple" field.</source>
+          <target>Specifica il valore del campo "Ordinario/Semplice".</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Code" field.</source>
+          <target>Specifica il valore del campo "Codice".</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 2786407699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Supported Document Type" field.</source>
+          <target>Specifica il valore del campo "Tipo di documento supportato".</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 1412156535 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Supported Format" field.</source>
+          <target>Specifica il valore del campo "Formato supportato".</target>
+        </trans-unit>
+        <trans-unit id="Page 357018280 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <target>Questo campo specifica quale deve essere l'origine delle righe per la generazione della fattura elettronica. "Predefinito" indica i movimenti IVA (comportamento storico), "Documento Corrente" indica che saranno prese le righe del documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 3342461831 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <target>Questo campo specifica quale deve essere l'origine delle righe per la generazione della fattura elettronica. "Predefinito" indica i movimenti IVA (comportamento storico), "Documento Corrente" indica che saranno prese le righe del documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Control 705705510 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the entry number of the electronic document.</source>
+          <target>Specifica il numero di voce del documento elettronico.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 88004037 - Method 3753405299 - NamedType 1820712809" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document %1 can contain only one line.</source>
+          <target>Il documento %1 può contenere una sola riga.</target>
         </trans-unit>
         <trans-unit id="Table 1880619335 - Field 1246077090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT %</source>
@@ -13750,6 +13882,42 @@
         <trans-unit id="Codeunit 501445889 - NamedType 3431447212" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to continue?</source>
           <target>Vuoi continuare?</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3712683317 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Stato</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1330805872 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status Message</source>
+          <target>Messaggio stato</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1330805872 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Stato</target>
+        </trans-unit>
+        <trans-unit id="Table 181332593 - Field 334143858 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>RiferimentoNormativo</source>
+          <target>RiferimentoNormativo</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 55412638 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status Message</source>
+          <target>Messaggio stato</target>
+        </trans-unit>
+        <trans-unit id="Page 807332812 - Action 3408142566 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import Folder</source>
+          <target> Cartella Importati</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3712683317 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status Message</source>
+          <target>Messaggio stato</target>
+        </trans-unit>
+        <trans-unit id="Page 807332812 - Action 3408142566 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Imports from a file storage folder.</source>
+          <target>Importa da una cartella specificata nel setup in ingresso.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 55412638 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Stato</target>
         </trans-unit>
       </group>
     </body>

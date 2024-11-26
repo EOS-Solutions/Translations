@@ -823,14 +823,6 @@
           <source>Unknow parameter "%1".</source>
           <target>Unbekannter Parameter "%1".</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 234975533 - NamedType 238945643" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The export file must have a name.</source>
-          <target>Die Exportdatei muss einen Namen haben.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 234975533 - NamedType 3415447349" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1%2_%3.xml</source>
-          <target>%1%2_%3.xml</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3842445359 - Method 4165217952 - NamedType 811335887" translate="yes" size-unit="char" xml:space="preserve">
           <source>If you need to specify Ecobonus you must mark at least one line as "Ecobonus" and add a Scontomaggiorazione record in %1 that has %2 equal to Ecobonus</source>
           <target>Wenn Sie Ecobonus angeben müssen, müssen Sie mindestens eine Zeile als "Ecobonus" markieren und einen Scontomaggiorazione-Datensatz in %1 hinzufügen, der %2 gleich Ecobonus hat.</target>
@@ -862,10 +854,6 @@
         <trans-unit id="Codeunit 4259227924 - Method 1841498753 - NamedType 3745211309" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must be filled.</source>
           <target>%1 muss gefüllt werden.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 4259227924 - Method 3159585621 - NamedType 512198047" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document line for VAT %1</source>
-          <target>Belegzeile für MwSt. %1</target>
         </trans-unit>
         <trans-unit id="Codeunit 4259227924 - Method 383777362 - NamedType 3745211309" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must be filled.</source>
@@ -11308,7 +11296,7 @@
           <target>Exportmethode für Zeilenrabatt</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 3124414295 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purch. Self-Invoice File Path</source>
+          <source>Purchase Self-Invoice File Path</source>
           <target>Kaufen. Pfad der Selbstrechnungsdatei</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 3128184946 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -11408,7 +11396,7 @@
           <target>Ecobonus-Text</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 679402117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Self-Invoice File Path</source>
+          <source>Purchase Self-Invoice File Path</source>
           <target>Dateipfad für Selbstrechnungen</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 689635933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -13738,6 +13726,206 @@
         <trans-unit id="Codeunit 501445889 - NamedType 3431447212" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to continue?</source>
           <target>Möchten Sie fortfahren?</target>
+        </trans-unit>
+        <trans-unit id="Table 181332593 - Field 334143858 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>RiferimentoNormativo</source>
+          <target>RiferimentoNormativo</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Type" field.</source>
+          <target>Gibt den Wert des Feldes "Art" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 807332812 - Action 3408142566 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Imports from a file storage folder.</source>
+          <target>Importiert aus einem Dateispeicherordner.</target>
+        </trans-unit>
+        <trans-unit id="Page 807332812 - Action 3408142566 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import Folder</source>
+          <target>Ordner importieren</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3712683317 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status Message</source>
+          <target>Statusmeldung</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1330805872 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status Message</source>
+          <target>Statusmeldung</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1330805872 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Status</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 55412638 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status Message</source>
+          <target>Statusmeldung</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3712683317 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Status</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 55412638 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Status</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Action 3865784523 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Migrate Data</source>
+          <target>Daten migrieren</target>
+        </trans-unit>
+        <trans-unit id="Enum 1427093133 - EnumValue 1383905037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default</source>
+          <target>Standard</target>
+        </trans-unit>
+        <trans-unit id="Table 4260823758 - Field 2585582419 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exposed</source>
+          <target>Herausgestellt</target>
+        </trans-unit>
+        <trans-unit id="Table 2536233598 - Field 584462561 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Third-party Document</source>
+          <target>Dokument eines Drittanbieters</target>
+        </trans-unit>
+        <trans-unit id="Table 326399071 - Field 1809755017 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable third-party self-invoice management</source>
+          <target>Aktivieren der Verwaltung von Eigenrechnungen von Drittanbietern</target>
+        </trans-unit>
+        <trans-unit id="Table 326399071 - Field 1259582761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Third-party self-invoice Account</source>
+          <target>Konto auf Eigenrechnung eines Drittanbieters</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 88004037 - Method 3753405299 - NamedType 4051101099" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The total amount %1 of invoice %2 differs from the amount %3 of the posted invoice %4.</source>
+          <target>Der Gesamtbetrag %1 der Rechnung %2 unterscheidet sich vom Betrag %3 der gebuchten Rechnung %4.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4259227924 - Method 3092933868 - NamedType 512198047" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document line %1</source>
+          <target>Belegposition %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 88004037 - Method 3753405299 - NamedType 1820712809" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document %1 can contain only one line.</source>
+          <target>Dokument %1 darf nur eine Zeile enthalten.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4259227924 - Method 3189345625 - NamedType 512198047" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document line for VAT %1</source>
+          <target>Belegposition für MwSt. %1</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Code" field.</source>
+          <target>Gibt den Wert des Feldes "Code" an.</target>
+        </trans-unit>
+        <trans-unit id="Table 1838186892 - Field 2424948093 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable advanced grouping DatiOrdineAcquisto/DatiDDT</source>
+          <target>Aktivieren der erweiterten Gruppierung DatiOrdineAcquisto/DatiDDT</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 1412156535 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Supported Format" field.</source>
+          <target>Gibt den Wert des Felds "Unterstütztes Format" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Action 3865784523 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Migrate data from old version (not in extension)</source>
+          <target>Migrieren von Daten aus der alten Version (nicht in der Erweiterung)</target>
+        </trans-unit>
+        <trans-unit id="Page 1838186892 - Control 2424948093 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the advanced group DatiOrdiniAcquisto/DatiDDT is enabled</source>
+          <target>Gibt an, ob die erweiterte Gruppe DatiOrdiniAcquisto/DatiDDT aktiviert ist</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 584462561 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If true, the document will not be discarded in inbound, even if the Purch. Self-Invoice field is true.</source>
+          <target>Wenn true, wird das Dokument bei eingehendem Dokument nicht verworfen, auch wenn der Einkauf. Das Feld "Selbstrechnung" ist true.</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description" field.</source>
+          <target>Gibt den Wert des Feldes "Beschreibung" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 2786407699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Supported Document Type" field.</source>
+          <target>Gibt den Wert des Felds "Unterstützter Dokumenttyp" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1809755017 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field enables the management of third-party purchase invoices, and fields and actions that were previously not visible will appear.</source>
+          <target>Dieses Feld ermöglicht die Verwaltung von Eingangsrechnungen von Drittanbietern, und es werden Felder und Aktionen angezeigt, die zuvor nicht sichtbar waren.</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1259582761 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field identifies the G/L account that will be used in the lines by the third-party purchase invoice function.</source>
+          <target>Dieses Feld kennzeichnet das Sachkonto, das von der Funktion für Eingangsrechnungen des Streckeninhabers in den Zeilen verwendet wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1581346738 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Third-party Self-Invoice</source>
+          <target>Selbstfakturierung durch Dritte</target>
+        </trans-unit>
+        <trans-unit id="Page 2536233598 - Control 1183965735 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Ordinary/Simple" field.</source>
+          <target>Gibt den Wert des Feldes "Gewöhnlich/Einfach" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Action 1554931883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import document lines for third-party self-invoice (FTE)</source>
+          <target>Import von Belegpositionen für die Streckeneigenrechnung (FTE)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Action 1554931883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import document lines for third-party self-invoice (FTE)</source>
+          <target>Import von Belegpositionen für die Streckeneigenrechnung (FTE)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2248996788 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT transactions (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <target>Dieses Feld gibt die Quelle der Zeilen für die Generierung der elektronischen Rechnung an. Standard gibt Mehrwertsteuertransaktionen an (historisches Verhalten), Aktuelles Dokument gibt an, dass die Zeilen des Dokuments übernommen werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 357018280 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <target>Gibt die Quelle der XML-Dokumentzeilen an. Wenn dieses Feld leer ist, wird das XML auf der Grundlage des MwSt.-Eintrags generiert. Der Wert "Angewendetes Dokument" generiert eine XML-Datei, die die Dokumentzeilen des angewendeten Dokuments enthält. Wenn Sie "Aktuelles Dokument" auswählen, wird ein XML-Code generiert, der die Dokumentzeilen des Dokuments enthält, aus dem die Aktion ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Control 705705510 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the entry number of the electronic document.</source>
+          <target>Gibt die Eintragsnummer des elektronischen Dokuments an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Action 1554931883 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This action imports the document lines of the Applied-To document as Account C/G lines</source>
+          <target>Mit dieser Aktion werden die Belegzeilen des Belegs "Angewendet auf" als Konto-C/G-Zeilen importiert</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Action 1554931883 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This action imports the document lines of the Applied-To document as Account G/L lines</source>
+          <target>Diese Aktion importiert die Belegzeilen des Belegs "Angelegt auf" als Konto-Sachkontozeilen</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195400348 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT transactions (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <target>Dieses Feld gibt die Quelle der Zeilen für die Generierung der elektronischen Rechnung an. Standard gibt Mehrwertsteuertransaktionen an (historisches Verhalten), Aktuelles Dokument gibt an, dass die Zeilen des Dokuments übernommen werden.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 557703731 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field specifies the source of the lines for generating the electronic invoice. Default indicates VAT Entry (historical behavior), Current Document indicates that the lines of the document will be taken.</source>
+          <target>Dieses Feld gibt die Quelle der Zeilen für die Generierung der elektronischen Rechnung an. Standard gibt an, dass MwSt.-Eintrag (historisches Verhalten) verwendet wird, Aktuelles Dokument gibt an, dass die Zeilen des Dokuments übernommen werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 3342461831 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <target>Gibt die Quelle der XML-Dokumentzeilen an. Wenn dieses Feld leer ist, wird das XML auf der Grundlage des MwSt.-Eintrags generiert. Der Wert "Angewendetes Dokument" generiert eine XML-Datei, die die Dokumentzeilen des angewendeten Dokuments enthält. Wenn Sie "Aktuelles Dokument" auswählen, wird ein XML-Code generiert, der die Dokumentzeilen des Dokuments enthält, aus dem die Aktion ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1307459574 - Method 1554931883 - NamedType 872178025" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation completed successfully</source>
+          <target>Vorgang erfolgreich abgeschlossen</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1307459574 - Method 1554931883 - NamedType 58812377" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document must have no lines for the action to be executed</source>
+          <target>Das Dokument darf keine Zeilen enthalten, damit die Aktion ausgeführt werden kann</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 331944911 - Field 2688292465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>XML Document Lines Origin</source>
+          <target>Herkunft der XML-Dokumentzeilen</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 969641528 - Field 2688292465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>XML Document Lines Origin</source>
+          <target>Herkunft der XML-Dokumentzeilen</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1307459574 - Field 2688292465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>XML Document Lines Origin</source>
+          <target>Herkunft der XML-Dokumentzeilen</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 88916137 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <target>Gibt die Quelle der XML-Dokumentzeilen an. Wenn dieses Feld leer ist, wird das XML auf der Grundlage des MwSt.-Eintrags generiert. Der Wert "Angewendetes Dokument" generiert eine XML-Datei, die die Dokumentzeilen des angewendeten Dokuments enthält. Wenn Sie "Aktuelles Dokument" auswählen, wird ein XML-Code generiert, der die Dokumentzeilen des Dokuments enthält, aus dem die Aktion ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="Enum 1427093133 - EnumValue 751350114 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current Document</source>
+          <target>Aktuelles Dokument</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3938442137 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
+          <target>Gibt die Quelle der XML-Dokumentzeilen an. Wenn dieses Feld leer ist, wird das XML auf der Grundlage des MwSt.-Eintrags generiert. Der Wert "Angewendetes Dokument" generiert eine XML-Datei, die die Dokumentzeilen des angewendeten Dokuments enthält. Wenn Sie "Aktuelles Dokument" auswählen, wird ein XML-Code generiert, der die Dokumentzeilen des Dokuments enthält, aus dem die Aktion ausgeführt wird.</target>
         </trans-unit>
       </group>
     </body>
