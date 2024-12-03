@@ -523,10 +523,6 @@
           <source>Line No. is missing</source>
           <target>Nr. riga mancante</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3378049008 - Method 3106174921 - NamedType 2544032012" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Remaining quantity to assign</source>
-          <target>Quantità da assegnare residua</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3378049008 - Method 3106174921 - NamedType 3085223924" translate="yes" size-unit="char" xml:space="preserve">
           <source>No line found in document for assign scan</source>
           <target>Nessuna riga trovata nell'entità compatibile con la scansione</target>
@@ -678,10 +674,6 @@
         <trans-unit id="Codeunit 4082995776 - Method 2735382040 - NamedType 3818907427" translate="yes" size-unit="char" xml:space="preserve">
           <source>Provide a valid Source Type</source>
           <target>Indicare un tipo origine valido</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 4082995776 - Method 3473243069 - NamedType 3696240891" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Something went wrong sychronizing scans between warehouse receipt and put-away</source>
-          <target>Errore imprevisto durante la sincronizzazione delle scansioni tra carico warehouse e stoccaggio</target>
         </trans-unit>
         <trans-unit id="Codeunit 4082995776 - Method 3514624047 - NamedType 1742701991" translate="yes" size-unit="char" xml:space="preserve">
           <source>Activity %1 not allowed for Source %2</source>
@@ -862,10 +854,6 @@
         <trans-unit id="Codeunit 73925163 - Method 3514624047 - NamedType 1742701991" translate="yes" size-unit="char" xml:space="preserve">
           <source>Activity %1 not allowed for Source %2</source>
           <target>Attività %1 non consentita per origine %2</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 73925163 - Method 3766657958 - NamedType 3696240891" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Something went wrong sychronizing scans between picking and warehouse shipment.</source>
-          <target>Errore imprevisto durante la sincronizzazione delle scansioni tra prelievo e spedizione warehouse</target>
         </trans-unit>
         <trans-unit id="Codeunit 73925163 - Method 4101658359 - NamedType 2602220690" translate="yes" size-unit="char" xml:space="preserve">
           <source>Whse. Pick</source>
@@ -6308,7 +6296,7 @@
           <target>Scansione attività (WMS)</target>
         </trans-unit>
         <trans-unit id="TableExtension 1518165746 - Field 1313423577 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>EOS WMS Split By PowerWMS</source>
+          <source>WMS Split By PowerWMS</source>
           <target>WMS Divsione da PowerWMS</target>
         </trans-unit>
         <trans-unit id="TableExtension 1518165746 - Field 1473799866 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -6344,7 +6332,7 @@
           <target>Filtro nr. dipendente WMS</target>
         </trans-unit>
         <trans-unit id="TableExtension 1518165746 - Field 4015544413 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>EOS WMS Fixed Id</source>
+          <source>WMS Fixed Id</source>
           <target>WMS Id fisso</target>
         </trans-unit>
         <trans-unit id="TableExtension 1518165746 - Field 914633412 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -6898,22 +6886,162 @@
         <trans-unit id="Table 3586555738 - Field 2350089734 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Protected</source>
           <target>Protetta</target>
-          <note>Table EOS089 WMS Act. Action Param. - Field Protected - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1698014622 - Field 2350089734 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Protected</source>
           <target>Protetta</target>
-          <note>Table EOS089 WMS Activity Action - Field Protected - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1931085439 - Control 2350089734 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If set, the action can not be modified nor deleted</source>
           <target>Se attivo, l'azione non può essere modificata o eliminata</target>
-          <note>Page EOS089 WMS Act. Action Params. - Control Protected - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1743488459 - Control 2350089734 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If set, the action can not be modified nor deleted</source>
           <target>Se attivo, l'azione non può essere modificata o eliminata</target>
-          <note>Page EOS089 WMS Activity Actions - Control Protected - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1082828451 - NamedType 726521061" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 queued correctly</source>
+          <target>%1 accodato correttamente</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 870867722 - Action 351590570 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remove WMS Source Scans from all lines</source>
+          <target>Rimuove le scansioni origine WMS relative al documento</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1508564339 - Action 351590570 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remove WMS Source Scans from selected line</source>
+          <target>Rimuove le scansioni origine WMS relative alla riga selezionata</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 870867722 - Action 351590570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remove WMS Source Scans</source>
+          <target>Rimuovi scansioni origine WMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3097684992 - Method 712326128 - NamedType 2666334578" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are no WMS source scans related to this activity.</source>
+          <target>Nessuna scansione origine trovata.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3097684992 - Method 712326128 - NamedType 2341113479" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to delete the WMS source scans related to this activity?</source>
+          <target>Rimuovere le scansioni origine WMS relative al documento selezionato?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3097684992 - Method 712326128 - NamedType 1751838824" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to delete the WMS source scans related to this activity line?</source>
+          <target>Rimuovere le scansioni origine WMS relative alla riga selezionata?</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1508564339 - Action 351590570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remove WMS Source Scans</source>
+          <target>Rimuovi scansioni origine WMS</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2146260956 - Action 351590570 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remove WMS Source Scans from all lines</source>
+          <target>Rimuove le scansioni origine WMS relative al documento</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2783957573 - Action 351590570 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remove WMS Source Scans from selected line</source>
+          <target>Rimuove le scansioni origine WMS relative alla riga selezionata</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2783957573 - Action 351590570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remove WMS Source Scans</source>
+          <target>Rimuovi scansioni origine WMS</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2146260956 - Action 351590570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remove WMS Source Scans</source>
+          <target>Rimuovi scansioni origine WMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3097684992 - Method 712326128 - NamedType 1481159857" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are no WMS source scans related to this activity.</source>
+          <target>Nessuna scansione origine trovata.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 248115937 - Method 2718652379 - NamedType 1696835043" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Can not process request due to pending activities in progress</source>
+          <target>Impossibile completare la richiesta a causa di processi pendenti in corso</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3097684992 - Method 3473243069 - NamedType 3696240891" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Something went wrong sychronizing scans between warehouse receipt and put-away</source>
+          <target>Errore durante la sincronizzazione delle scansioni tra carico warehouse e stoccaggio</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2125535759 - Method 1978962747 - NamedType 2485552466" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 No. %2 posted successfully</source>
+          <target>%1 nr. %2 registrato correttamente</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2125535759 - NamedType 171272735" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Procedure not allowed</source>
+          <target>Procedura non consentita.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2125535759 - Method 3514624047 - NamedType 1742701991" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity %1 not allowed for Source %2</source>
+          <target>Attività %1 non consentita per origine %2</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2125535759 - Method 2731000887 - NamedType 3239513518" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 No. %2 reset successfully</source>
+          <target>%1 nr. %2 ripristinato correttamente</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2125535759 - Method 1983700343 - NamedType 272352229" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Nothing to post</source>
+          <target>Niente da registrare</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2125535759 - Method 78462856 - NamedType 461257577" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posted Invt. Movement</source>
+          <target>Movimento di magazzino regiistrato</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2125535759 - Method 4101658359 - NamedType 2602220690" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invt. Movement</source>
+          <target>Movimento di magazzino</target>
+        </trans-unit>
+        <trans-unit id="Enum 4244104744 - EnumValue 3320151018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invt. Movement</source>
+          <target>Movimento di magazzino</target>
+        </trans-unit>
+        <trans-unit id="Table 1155905017 - Field 3409729579 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reload Source Record</source>
+          <target>Ricarica origine</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1518165746 - Field 2306560299 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Original Lot No.</source>
+          <target>WMS Nr. lotto originale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1518165746 - Field 2713252312 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Original Package No.</source>
+          <target>WMS Nr. collo originale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1518165746 - Field 288183466 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Original Serial No.</source>
+          <target>WMS Nr. seriale originale</target>
+        </trans-unit>
+        <trans-unit id="Table 1155905017 - Field 1801240912 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scan Mode</source>
+          <target>Modalità di scansione</target>
+        </trans-unit>
+        <trans-unit id="Table 790863525 - Field 1801240912 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scan Mode</source>
+          <target>Modalità di scansione</target>
+        </trans-unit>
+        <trans-unit id="Table 1155905017 - Field 2039166918 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bin Code 2</source>
+          <target>Cod. collocazione 2</target>
+        </trans-unit>
+        <trans-unit id="Table 1155905017 - Field 3543273187 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Feature Code</source>
+          <target>Codice funzionalità</target>
+        </trans-unit>
+        <trans-unit id="Table 1155905017 - Field 3179590734 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Code 2</source>
+          <target>Cod. ubicazione 2</target>
+        </trans-unit>
+        <trans-unit id="Table 790863525 - Field 3543273187 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Feature Code</source>
+          <target>Codice funzionalità</target>
+        </trans-unit>
+        <trans-unit id="Table 2013420453 - Field 3543273187 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Feature Code</source>
+          <target>Codice funzionalità</target>
+        </trans-unit>
+        <trans-unit id="Table 790863525 - Field 2039166918 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bin Code 2</source>
+          <target>Cod. collocazione 2</target>
+        </trans-unit>
+        <trans-unit id="Table 790863525 - Field 3179590734 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Code 2</source>
+          <target>Cod. ubicazione 2</target>
         </trans-unit>
       </group>
     </body>
