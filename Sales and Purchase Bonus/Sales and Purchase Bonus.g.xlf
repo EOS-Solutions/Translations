@@ -373,6 +373,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Journal Line - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 150122365 - Method 944283761 - NamedType 205655972" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to find excess document to post the settlement for %1 %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Journal Line - Method CopyFromExcessDocument - NamedType UnableToCopyFromExcessDocumentErr</note>
+        </trans-unit>
         <trans-unit id="Table 150122365 - Field 592951229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1023,6 +1028,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Ledger Entry - Field Amount Ded. (LCY) - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 559801399 - Field 212967616 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount on settlement entries for this entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Ledger Entry - Field Amount on Settl. Entries (LCY) - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Table 559801399 - Field 212967616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount on Settl. Entries (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1187,6 +1197,11 @@
           <source>Gross Weight</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Ledger Entry - Field Gross Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 559801399 - Field 3761336887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Has Settlement Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Ledger Entry - Field Has Settlement Entries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 559801399 - Field 4162822152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Header Batch Name</source>
@@ -2693,6 +2708,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Purchase Invoice Doc. Class - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 682335893 - Field 4078107311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if any excess entries should also be reversed when reversing a settlement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Reverse Excess Settlements - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 4078107311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Excess Settlements</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Reverse Excess Settlements - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 682335893 - Field 2067102111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Cr.Memo Doc. Class</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3343,6 +3368,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS075 Bonus Reversal - NamedType ReverseEntriesQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - Method 4290390508 - NamedType 2202588976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to reverse the settlement for %1 %2?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS075 Bonus Reversal - Method GetSettlementReversalMessage - NamedType ReverseSingleQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - Method 4290390508 - NamedType 1568326706" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to reverse the settlement for the selected %1 documents?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS075 Bonus Reversal - Method GetSettlementReversalMessage - NamedType ReverseMultipleQst</note>
+        </trans-unit>
         <trans-unit id="Page 3199425634 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Allocation Entries (SPB)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3422,11 +3457,6 @@
           <source>Amount (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Applied Entries - Control Amount LCY - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 905483125 - Control 212967616 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies Amount on Settl. Entries (LCY).</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Applied Entries - Control Amount on Settl. Entries (LCY) - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 905483125 - Control 2184786169 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Applied Amount (LCY).</source>
@@ -4333,11 +4363,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control Amount Ded. (LCY) - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3822340309 - Control 212967616 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies Amount on Settl. Entries (LCY).</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control Amount on Settl. Entries (LCY) - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 3822340309 - Control 1903399862 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Attached to Entry No..</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4882,6 +4907,16 @@
           <source>Reverse Settlement Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Action ReverseSettlementEntryAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Action 438919192 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows all settlement entries for the selected bonus line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Action ShowSettlementEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Action 438919192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Settlement Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Action ShowSettlementEntries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2248036170 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Line Card (SPB)</source>
@@ -5918,20 +5953,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Settlement Entries - Control Suspended Document Type - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 531766781 - Action 1556994205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;Line</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Settlement Entries - Action Ri&amp;ga - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 531766781 - Action 4125097576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Card.</source>
+          <source>Opens the document card for the selected document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Settlement Entries - Action Card - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 531766781 - Action 4125097576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Card</source>
+          <source>Document Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Settlement Entries - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 531766781 - Action 1556994205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Settlement Entries - Action Ri&amp;ga - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 531766781 - Action 3015475257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the "Reverse Settlement Entry" action.</source>
@@ -6729,7 +6764,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card - Control Lines - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3138936008 - Action 1417652054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Bonus Ledger Entries.</source>
+          <source>Shows all bonus ledger entries for the selected bonus line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card - Action Bonus Ledger Entries - Property ToolTip</note>
         </trans-unit>
@@ -7154,7 +7189,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Control Sell-to/Buy-from No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2565869148 - Control 3728125814 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Settled Amount To Be Accrued (LCY) field</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Control Sett. Amount To Be Accr. (LCY) - Property ToolTip</note>
         </trans-unit>
@@ -7189,7 +7224,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Control Settled Amount (LCY) - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2565869148 - Control 67205030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Settlement Amount To Be Accrued (LCY)" field</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Control Settlement Amnt To Accr. (LCY) - Property ToolTip</note>
         </trans-unit>
@@ -7249,7 +7284,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Control Threshold Line No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2565869148 - Control 2319313478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Total Settled Amount (LCY)" field</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Control Total Settled Amount (LCY) - Property ToolTip</note>
         </trans-unit>
@@ -7308,16 +7343,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action &amp;Line - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2565869148 - Action 1417652054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Bonus Ledger Entries.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action Bonus Ledger Entries - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2565869148 - Action 1417652054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bonus Ledger Entries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action Bonus Ledger Entries - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 2565869148 - Action 3649905842 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Customer Bonus Settlement Journal.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7367,6 +7392,36 @@
           <source>Error Log</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action ErrorLog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2565869148 - Action 1417652054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows all bonus ledger entries for the selected bonus line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action Bonus Ledger Entries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2565869148 - Action 1417652054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Ledger Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action Bonus Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2565869148 - Action 2945165961 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows all settlement entries (in excess) for the selected bonus line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action ShowExcessSettlementEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2565869148 - Action 2945165961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Settlement Entries (in excess)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action ShowExcessSettlementEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2565869148 - Action 438919192 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows all settlement bonus ledger entries for the selected bonus line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action ShowSettlementEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2565869148 - Action 438919192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Settlement Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action ShowSettlementEntries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2565869148 - Action 1979318928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shows the calculation log for the selected line.</source>
@@ -7669,7 +7724,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Journal - Control VAT % - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 500900675 - Action 1417652054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Bonus Ledger Entries.</source>
+          <source>Shows all bonus ledger entries for the selected bonus line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Journal - Action Bonus Ledger Entries - Property ToolTip</note>
         </trans-unit>
@@ -7744,7 +7799,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus List - Action &lt;Action1130013&gt; - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2730843214 - Action 2827438757 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Bonus Ledger Entries.</source>
+          <source>Shows all bonus ledger entries for the selected bonus line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus List - Action &lt;Action1130015&gt; - Property ToolTip</note>
         </trans-unit>
@@ -8103,11 +8158,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Get Bonus Ledger Entries - Control Amount (LCY) - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 938254039 - Control 212967616 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies Amount on Settl. Entries (LCY).</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Get Bonus Ledger Entries - Control Amount on Settl. Entries (LCY) - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 938254039 - Control 2341042250 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Base Amount (LCY).</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8394,7 +8444,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card - Control Lines - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3669854560 - Action 1417652054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Bonus Ledger Entries.</source>
+          <source>Shows all bonus ledger entries for the selected bonus line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card - Action Bonus Ledger Entries - Property ToolTip</note>
         </trans-unit>
@@ -8809,7 +8859,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Control Sell-to/Buy-from No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1348237060 - Control 3728125814 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Settled Amount To Be Accrued (LCY) field</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Control Sett. Amount To Be Accr. (LCY) - Property ToolTip</note>
         </trans-unit>
@@ -8844,7 +8894,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Control Settled Amount (LCY) - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1348237060 - Control 67205030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Settlement Amount To Be Accrued (LCY)" field</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Control Settlement Amnt To Accr. (LCY) - Property ToolTip</note>
         </trans-unit>
@@ -8904,7 +8954,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Control Threshold Line No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1348237060 - Control 2319313478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Total Settled Amount (LCY)" field</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Control Total Settled Amount (LCY) - Property ToolTip</note>
         </trans-unit>
@@ -8963,16 +9013,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action &amp;Line - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1348237060 - Action 1417652054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Bonus Ledger Entries.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action Bonus Ledger Entries - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1348237060 - Action 1417652054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bonus Ledger Entries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action Bonus Ledger Entries - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 1348237060 - Action 3649905842 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Customer Bonus Settlement Journal.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9022,6 +9062,36 @@
           <source>Error Log</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action ErrorLog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1348237060 - Action 1417652054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows all bonus ledger entries for the selected bonus line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action Bonus Ledger Entries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1348237060 - Action 1417652054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Ledger Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action Bonus Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1348237060 - Action 2945165961 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows all settlement entries (in excess) for the selected bonus line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action ShowExcessSettlementEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1348237060 - Action 2945165961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Settlement Entries (in excess)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action ShowExcessSettlementEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1348237060 - Action 438919192 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows all settlement bonus ledger entries for the selected bonus line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action ShowSettlementEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1348237060 - Action 438919192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Settlement Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action ShowSettlementEntries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1348237060 - Action 1979318928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shows the calculation log for the selected line.</source>
@@ -9409,7 +9479,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Journal - Control VAT % - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1405008379 - Action 1417652054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Bonus Ledger Entries.</source>
+          <source>Shows all bonus ledger entries for the selected bonus line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Journal - Action Bonus Ledger Entries - Property ToolTip</note>
         </trans-unit>
@@ -11004,7 +11074,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control DocTypeFld - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2339826591 - Control 2416541386 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the field</source>
+          <source>Specifies the value of the field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control New Doc Amout - Property ToolTip</note>
         </trans-unit>
@@ -11032,6 +11102,86 @@
           <source>Source Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control SourceTextField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Excess Settlement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Method 855318958 - NamedType 3412532509" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no settlement entries to reverse.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Method AssertHasEntries - NamedType NoSettlementEntriesErr</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Method 2642478942 - NamedType 1050985060" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The amount to reverse (%1) is invalid.\The maximum amount that can be reversed is %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Method ValidateAmount - NamedType AmountInvalidErr</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 1423652785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control OptionsGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 1648730711 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control AmountToReverseField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 1648730711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount to Reverse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control AmountToReverseField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 1670803819 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if a document should be created for the reversal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control CreateDocumentField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 1670803819 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control CreateDocumentField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 1799957115 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control CustomerNameField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 1799957115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer/Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control CustomerNameField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 3262284157 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control CustVendNoField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 3262284157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer/Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control CustVendNoField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 2488229775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control DocumentTypeField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 2488229775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control DocumentTypeField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 127016515 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control ExternalDocumentNoField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 414589156 - Control 127016515 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Excess Settlmt.-Reverse - Control ExternalDocumentNoField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3226906145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Proportional Bonus Matching</source>
@@ -12877,6 +13027,16 @@
           <source>Proportional (to Base Amount)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS075 Amount Distribution - EnumValue Proportional - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3937454808 - EnumValue 3702499555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Always</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS075 Excess Entry Reversal - EnumValue Always - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3937454808 - EnumValue 374497366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Never</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS075 Excess Entry Reversal - EnumValue Never - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2187032467 - EnumValue 4176727438 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Line/Dimension</source>
