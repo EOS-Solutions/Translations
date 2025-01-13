@@ -583,10 +583,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Maintenance Cycle Head. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2447441136 - NamedType 3633469478" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2447441136 - Method 3861859510 - NamedType 3633469478" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want create a new maintenance cycle version?</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Maintenance Cycle Head. - NamedType CreateConfLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Maintenance Cycle Head. - Method CreateNewVersion - NamedType CreateConfLbl</note>
         </trans-unit>
         <trans-unit id="Table 2447441136 - Method 804474859 - NamedType 4204058380" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot rename a %1.</source>
@@ -2743,6 +2743,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Request Cycle - Field Work Request No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1778933465 - Field 2579094800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Group No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Request Cycle - Field Work Request Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1338905761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Work Request Status Log</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2857,6 +2862,11 @@
           <source>Do you want to post the journal lines?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Machine Journal - Post - NamedType PostJnlLinesQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1634792758 - Method 2796420149 - NamedType 3950098385" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creating work request: #1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Maintenance Mgt. - Method CreateWorkRequestFromMaintenancePoint - NamedType ProgressLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 1634792758 - Method 2796420149 - NamedType 223995371" size-unit="char" translate="yes" xml:space="preserve">
           <source>Work request %1 has been created. Do you want to open the work request?</source>
@@ -4483,6 +4493,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle List - Control Starting Date - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 885230668 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Status of the Maintenance Cycle.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle List - Control Status - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 885230668 - Control 1684721775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the Version number of the Maintenance Cycle.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4797,6 +4812,11 @@
           <source>Specifies the starting date.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Starting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1752173526 - Control 2967437008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attachments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Attached Documents List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1752173526 - Action 503024588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View comments.</source>
@@ -8828,6 +8848,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS060 Calc. Resource Calendar - Control Options - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 4269694120 - Control 3063135450 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculates the calendar entries for the selected resources.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS060 Calc. Resource Calendar - Control CalculateResource - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4269694120 - Control 3063135450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Resource</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS060 Calc. Resource Calendar - Control CalculateResource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4269694120 - Control 530178235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculates the calendar entries for the selected resource groups.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS060 Calc. Resource Calendar - Control CalculateResourceGroup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4269694120 - Control 530178235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Resource Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS060 Calc. Resource Calendar - Control CalculateResourceGroup - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 4269694120 - Control 3592094765 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the final date that you will create new calendar entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9312,6 +9352,11 @@
           <source>Work Request No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS060TableExt18122612 - Field EOS060 Work Request No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3433783232 - Field 4293920087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 282138634">
+          <source>Machine No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS060TableExt18122613 - Field EOS060 Machine No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2693721432 - EnumValue 2672704373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard</source>
