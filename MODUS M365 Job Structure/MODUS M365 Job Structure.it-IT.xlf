@@ -7417,7 +7417,7 @@
         </trans-unit>
         <trans-unit id="Page 3710421013 - Control 1925936578 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Standard Routing Nos.</source>
-          <target>N. routing standard</target>
+          <target>Nr. ciclo standard</target>
         </trans-unit>
         <trans-unit id="Page 3710421013 - Control 2359280162 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>The status "Manual" must be taken from the table "Project Status". It is chosen when you want to see something in the disposition, without possibility to order anything yet.</source>
@@ -15430,12 +15430,90 @@
         <trans-unit id="Page 2089987705 - Control 3592094765 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the ending date</source>
           <target>In questo campo viene visualizzata la data di fine</target>
-          <note>Page M365 Job Struct Templ Subform - Control EndingDate - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2089987705 - Control 543275552 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the starting date</source>
           <target>In questo campo viene visualizzata la data di inizio</target>
-          <note>Page M365 Job Struct Templ Subform - Control StartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 2661486968 - NamedType 716329142" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Projects, Jobmanagement</source>
+          <target>Progetti, Gestione progetti</target>
+          <note>Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterManualGuidedExperienceSetup - NamedType keywordsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 4198369197 - NamedType 123183160" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You have already completed the Assisted Setup for %1. Do you want to run it again?</source>
+          <target>Il setup assistito per %1 è già stato completato. Vuoi eseguirlo di nuovo?</target>
+          <note>Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnReRunOfCompletedGuidedExperienceAssistedSetup - NamedType youHaveAlreadyCompletedTheAssistedSetupQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 2785112668 - NamedType 2047573738" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup the MODUS M365 Project Structure extension</source>
+          <target>Configurare l'estensione MODUS M365 Struttura progetto</target>
+          <note>Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterAssistedGuidedExperienceSetup - NamedType descriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 2661486968 - NamedType 3224028340" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup engineering extension</source>
+          <target>Estensione setup engineering</target>
+          <note>Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterManualGuidedExperienceSetup - NamedType titleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 2785112668 - NamedType 3184923246" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup MODUS M365 Project Structure</source>
+          <target>Impostazione della struttura progetto MODUS M365</target>
+          <note>Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterAssistedGuidedExperienceSetup - NamedType shortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 2785112668 - NamedType 3224028340" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup MODUS M365 Project Structure</source>
+          <target>Impostazione della struttura progetto MODUS M365</target>
+          <note>Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterAssistedGuidedExperienceSetup - NamedType titleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 2661486968 - NamedType 2047573738" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup the MODUS Project Structure extension</source>
+          <target>Configurare l'estensione MODUS Struttura progetto</target>
+          <note>Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterManualGuidedExperienceSetup - NamedType descriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 3710421013 - Field 3103870731 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Project Transfer Location</source>
+          <target>Ubicazione trasferimento tra progetti</target>
+          <note>Table M365 Engineering Setup - Field Job Transfer Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3691235047 - Action 3472351511 - Method 1377591017 - NamedType 3497011449" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There is no planning line for this project structure line</source>
+          <target>Non esiste alcuna riga di pianificazione per questa riga della struttura progetto</target>
+          <note>Page M365 Job Struct Link - Action LinkToLine - Method OnAction - NamedType noPlanningLineErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3932771532 - Method 2430212832 - NamedType 2396695906" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Credit Memo created</source>
+          <target>Nota di credito creata</target>
+          <note>Page M365 Job Structure Disposition - Method CreatePurchaseCrMemo - NamedType createSuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 278747505 - Method 169069189 - NamedType 3816312272" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The production order is already finished, do you really want to create an additional production order?</source>
+          <target>L'ordine di produzione è già chiuso, vuoi davvero creare un ulteriore ordine di produzione?</target>
+          <note>Page M365 Job Struct. Line Subform - Method CreateAssemblyJournal - NamedType prodOrderFinishedMsg</note>
+        </trans-unit>
+        <trans-unit id="Table 3790414227 - Field 587519199 - Method 2126772001 - NamedType 1483480657" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Please update production order, after changing this field.</source>
+          <target>Si prega di aggiornare l'ordine di produzione, dopo aver modificato questo campo.</target>
+          <note>Table M365 Job Structure Line - Field Next Operation No. - Method OnValidate - NamedType updateProdOrderMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 487021155 - Control 829789177 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sets the initial G/L Account Type at the project structure line.</source>
+          <target>Imposta il tipo di conto C/G iniziale nella riga della struttura progetto.</target>
+          <note>PageExtension M365 MEB GL Account Card - Control M365GLAccountType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3790414227 - Field 3364019069 - Method 2126772001 - NamedType 1483480657" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Please update production order, after changing this field.</source>
+          <target>Si prega di aggiornare l'ordine di produzione, dopo aver modificato questo campo.</target>
+          <note>Table M365 Job Structure Line - Field Previous Operation No. - Method OnValidate - NamedType updateProdOrderMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3710421013 - Control 1440965347 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The project transfer location is used for reclassing items from one project structure line to another. Its only temporary used.</source>
+          <target>L'ubicazione trasferimento tra progetti viene utilizzata per riclassificare gli articoli da una riga della struttura progetto a un'altra. È solo usato temporaneamente.</target>
+          <note>Page M365 Engineering Setup - Control JobTransferLocation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3932771532 - Method 2430212832 - NamedType 668402577" translate="yes" size-unit="char" xml:space="preserve">
+          <source>G/L Account Type has to be Value</source>
+          <target>Il tipo di conto C/G deve essere Valore</target>
+          <note>Page M365 Job Structure Disposition - Method CreatePurchaseCrMemo - NamedType wrongAccountTypeErr</note>
         </trans-unit>
       </group>
     </body>
