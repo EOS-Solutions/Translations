@@ -323,6 +323,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Subscription Plan - Field Is Trial - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1999515531 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Access Check Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS004 APP Access Check Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1999515531 - Field 3834798520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS004 APP Access Check Setup - Field App Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1999515531 - Field 455574273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment Key Calculation Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS004 APP Access Check Setup - Field Env. Key Calc. Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1999515531 - Field 506530350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS004 APP Access Check Setup - Field Environment Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1999515531 - Field 919027472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment Key Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS004 APP Access Check Setup - Field Environment Key Check - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1620188913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>AzFS Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1092,6 +1117,11 @@
           <source>A subscription is required, but there is currently no active subscription for '%1'.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS.004 Subscr. Dispatcher - NamedType SubscriptipnRequiredTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2978578402 - Method 3232828464 - NamedType 1164587259" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This operation cannot be executed because the app %1 by %2 is currently locked on this environment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 APP Access Check - Method AssertIsActive - NamedType APPLockedLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 421553356 - Method 1024226327 - NamedType 1915816412" size-unit="char" translate="yes" xml:space="preserve">
           <source>The column '%1' does not exist in the dataset.</source>
@@ -2332,6 +2362,116 @@
           <source>Back</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Subscription SignUp - Action PreviousStepAct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Access Check Setup (EAL)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to proceed?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - NamedType ConfirmLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - NamedType 3829621511" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Procedure Cancelled by user.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - NamedType ErrorCanceledLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - NamedType 2740281649" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(not installed) AppID %1 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - NamedType NotInstalledLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Method 2005570468 - NamedType 2740281649" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AppID %1 (not installed)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Method GetAppName - NamedType NotInstalledLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 3834798520 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the App Id field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Control App Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 1256520770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the App Id field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Control App Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 1256520770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Control App Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 1873086231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Status" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Control APP Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 1873086231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Control APP Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 1764047810 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Environment Key Calculation Type field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Control Company Required - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 506530350 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Environment Key field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Control Environment Key - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 919027472 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Environment Key Check field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Control Environment Key Check - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 2675496269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Action Process - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1950833259 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Access Check. This will enable the validation of the Environment Key for the selected App. If the internal key does not match the calculated environment key, an access check error will be raised on the consumer APP.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Action Activate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1950833259 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Access Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Action Activate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1264867804 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the CleanSetupIfNotInstalled action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Action CleanSetupIfNotInstalled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1264867804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clean Setup for non-installed apps.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Action CleanSetupIfNotInstalled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1497922030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Unlock APP action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Action RefreshKey - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1497922030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unlock</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Action RefreshKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1959063254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disable Access Check action. When disabled, the APP will be unlocked and no check errors will be raised.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Action Unactivate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1959063254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disable Access Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - Action Unactivate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 136020747 - Method 697954495 - NamedType 1335670301" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delete the selected entry?</source>
@@ -4288,6 +4428,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18122310 - Method EOS004AddNewEntry - NamedType TemporaryErr</note>
         </trans-unit>
+        <trans-unit id="Enum 1080767165 - EnumValue 3846472926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS004 Access Check Status - EnumValue Locked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1080767165 - EnumValue 2508148963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unlocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS004 Access Check Status - EnumValue Unlocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1080767165 - EnumValue 2276732210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unlocked (Check Disabled)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS004 Access Check Status - EnumValue Unlocked (Check Disabled) - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 4141036094 - EnumValue 2234473039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allow Cache</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4307,6 +4462,21 @@
           <source>Prefer Cache</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS004 Cache Option - EnumValue Prefer Cache - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 163060654 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment Key Calculation Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS004 Env. Key Calc. Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 163060654 - EnumValue 1383905037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS004 Env. Key Calc. Type - EnumValue Default - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 163060654 - EnumValue 2164111185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default+Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS004 Env. Key Calc. Type - EnumValue Default+Company - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1977147216 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>

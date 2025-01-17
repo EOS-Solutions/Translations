@@ -27,6 +27,10 @@
           <source>Invalid xPath</source>
           <target>Ungültiger xPath</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2978578402 - Method 3232828464 - NamedType 1164587259" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This operation cannot be executed because the app %1 by %2 is currently locked on this environment</source>
+          <target>Dieser Vorgang kann nicht ausgeführt werden, da die App %1 von %2 derzeit in dieser Umgebung gesperrt ist</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3177185736 - Method 507077789 - NamedType 2186308552" translate="yes" size-unit="char" xml:space="preserve">
           <source>A HTTP request has failed with status HTTP%1</source>
           <target>Eine HTTP-Anforderung ist mit dem Status HTTP%1 fehlgeschlagen</target>
@@ -86,6 +90,30 @@
         <trans-unit id="Codeunit 442212062 - NamedType 2164942842" translate="yes" size-unit="char" xml:space="preserve">
           <source>This operation is not supported.</source>
           <target>Dieser Vorgang wird nicht unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="Enum 1080767165 - EnumValue 2276732210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unlocked (Check Disabled)</source>
+          <target>Entsperrt (Prüfung deaktiviert)</target>
+        </trans-unit>
+        <trans-unit id="Enum 1080767165 - EnumValue 2508148963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unlocked</source>
+          <target>Entsperrt</target>
+        </trans-unit>
+        <trans-unit id="Enum 1080767165 - EnumValue 3846472926 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Locked</source>
+          <target>Gesperrt</target>
+        </trans-unit>
+        <trans-unit id="Enum 163060654 - EnumValue 1383905037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default</source>
+          <target>Default</target>
+        </trans-unit>
+        <trans-unit id="Enum 163060654 - EnumValue 2164111185 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default+Company</source>
+          <target>Default+Mandant</target>
+        </trans-unit>
+        <trans-unit id="Enum 163060654 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Environment Key Calculation Type</source>
+          <target>Berechnungsart Environment Key</target>
         </trans-unit>
         <trans-unit id="Enum 1977147216 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
@@ -618,6 +646,62 @@
         <trans-unit id="Page 1820702909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Configuration</source>
           <target>Konfiguration</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1264867804 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the CleanSetupIfNotInstalled action.</source>
+          <target>Löscht das Setup der ausgewählten Zeile, nur wenn die App zu diesem Zeitpunkt nicht installiert ist.</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1264867804 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Clean Setup for non-installed apps.</source>
+          <target>Löschen des Setups für nicht installierte Apps</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1497922030 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the Unlock APP action.</source>
+          <target>Entsperrt die ausgewählte App, indem ein Environment Key basierend auf der aktuellen Umgebung generiert wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1497922030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unlock</source>
+          <target>Entsperren</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1950833259 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Access Check. This will enable the validation of the Environment Key for the selected App. If the internal key does not match the calculated environment key, an access check error will be raised on the consumer APP.</source>
+          <target>Aktiviert die Zugriffsprüfung. Dadurch wird die Validierung des Environment Keys für die ausgewählte App aktiviert. Wenn der interne Schlüssel nicht mit dem berechneten Environment Key übereinstimmt, wird ein Fehler bei der Zugriffsprüfung in der Consumer-App ausgelöst.</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1950833259 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Access Check</source>
+          <target>Zugriffsprüfung aktivieren</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1959063254 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Access Check action. When disabled, the APP will be unlocked and no check errors will be raised.</source>
+          <target>Deaktiviert die Zugriffsprüfung. Wenn diese Option deaktiviert ist, wird die App entsperrt und es werden keine Prüffehler ausgelöst.</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 1959063254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Access Check</source>
+          <target>Zugriffsprüfung deaktivieren</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Verarbeitung</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 1873086231 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Status</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Method 2005570468 - NamedType 2740281649" translate="yes" size-unit="char" xml:space="preserve">
+          <source>AppID %1 (not installed)</source>
+          <target>AppID %1 (nicht installiert)</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - NamedType 3764383116" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to proceed?</source>
+          <target>Möchten Sie fortfahren?</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - NamedType 3829621511" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Procedure Cancelled by user.</source>
+          <target>Prozedur vom Benutzer abgebrochen.</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Access Check Setup (EAL)</source>
+          <target>Einrichtung App-Zugriffsprüfung (EAL)</target>
         </trans-unit>
         <trans-unit id="Page 2019971729 - Action 1786049364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Loads data from the API.</source>
@@ -2159,6 +2243,90 @@
           <source>Text Editor</source>
           <target>Text-Editor</target>
         </trans-unit>
+        <trans-unit id="Page 634544562 - Action 1207395983 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enables the feature.</source>
+          <target>Aktiviert das Feature.</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Action 1207395983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Feature</source>
+          <target>Feature aktivieren</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Action 222701588 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disables the feature, if it is reversible.</source>
+          <target>Deaktiviert das Feature, wenn es reversibel ist.</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Action 222701588 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Feature</source>
+          <target>Feature deaktivieren</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 125974321 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the feature can again be disabled, once it has been enabled.</source>
+          <target>Gibt an, ob das Feature nach der Aktivierung wieder deaktiviert werden kann.</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 1585293996 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the feature can be enabled for specific companies or for all companies.</source>
+          <target>Gibt an, ob das Feature für bestimmte Mandanten oder für alle Mandanten aktiviert werden kann.</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 1907234846 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies by whom the feature was last modified.</source>
+          <target>Gibt an, von wem das Feature zuletzt geändert wurde.</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 1907234846 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Modified By</source>
+          <target>Modified By</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 2174523888 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the app this feature flag belongs to.</source>
+          <target>Gibt den Namen der App an, zu der dieses Feature gehört.</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 2174523888 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Name</source>
+          <target>App-Name</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 284195533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filters</source>
+          <target>Filter</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 2891538263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the feature flag is currently enabled.</source>
+          <target>Gibt an, ob das Feature derzeit aktiviert ist.</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 2891538263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enabled</source>
+          <target>Aktiviert</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The unique code of the feature flag.</source>
+          <target>Der eindeutige Code des Features.</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 317369864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies when the feature was last modified.</source>
+          <target>Gibt an, wann das Feature zuletzt geändert wurde.</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 317369864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Modified At</source>
+          <target>Geändert um</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>A description of the feature flag. If there is additional help available, click the "Help" button or drilldown to show.</source>
+          <target>Eine Beschreibung des Feature-Flags. Wenn zusätzliche Hilfe verfügbar ist, klicken Sie auf die Schaltfläche "Hilfe" oder auf einen Drilldown, um sie anzuzeigen.</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 3883304322 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "App Filter" field.</source>
+          <target>Gibt den Wert des Feldes "App-Filter" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Control 3883304322 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Filter</source>
+          <target>App-Filter</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Method 2884274632 - NamedType 3347598715" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All apps</source>
+          <target>Alle Apps</target>
+        </trans-unit>
+        <trans-unit id="Page 634544562 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Feature Flags (EAL)</source>
+          <target>Feature-Flags (EAL)</target>
+        </trans-unit>
         <trans-unit id="Page 695816558 - Action 1107918703 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Moves back one level.</source>
           <target>Eine Ebene zurück bewegen.</target>
@@ -2663,6 +2831,26 @@
           <source>Telemetry Analysis Worksheet</source>
           <target>Arbeitsblatt Telemetrieanalyse</target>
         </trans-unit>
+        <trans-unit id="Table 1999515531 - Field 3834798520 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Id</source>
+          <target>App-Id</target>
+        </trans-unit>
+        <trans-unit id="Table 1999515531 - Field 455574273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Environment Key Calculation Type</source>
+          <target>Berechnungsart Environment Key</target>
+        </trans-unit>
+        <trans-unit id="Table 1999515531 - Field 506530350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Environment Key</source>
+          <target>Environment Key</target>
+        </trans-unit>
+        <trans-unit id="Table 1999515531 - Field 919027472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Environment Key Check</source>
+          <target>Prüfung Environment Key</target>
+        </trans-unit>
+        <trans-unit id="Table 1999515531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Access Check Setup</source>
+          <target>Einrichtung App-Zugriffsprüfung</target>
+        </trans-unit>
         <trans-unit id="Table 2254683198 - Field 1558222909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Worksheet Code</source>
           <target>Arbeitsblattcode</target>
@@ -2722,6 +2910,26 @@
         <trans-unit id="Table 2459492009 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>BlobSpec</source>
           <target>BlobSpec</target>
+        </trans-unit>
+        <trans-unit id="Table 2468765639 - Field 378058222 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If specified, indicates the major BC version in which the feature will become mandatory.</source>
+          <target>Falls angegeben, gibt die BC-Majorversion an, in der die Funktion obligatorisch wird.</target>
+        </trans-unit>
+        <trans-unit id="Table 2468765639 - Method 3194489595 - NamedType 1550261799" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to set the status of the feature to "%1"?</source>
+          <target>Möchten Sie den Status des Features auf "%1" setzen?</target>
+        </trans-unit>
+        <trans-unit id="Table 2468765639 - Method 3194489595 - NamedType 1971721663" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enabled</source>
+          <target>Aktiviert</target>
+        </trans-unit>
+        <trans-unit id="Table 2468765639 - Method 3194489595 - NamedType 1996803239" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This action cannot be undone.</source>
+          <target>Diese Aktion kann nicht rückgängig gemacht werden.</target>
+        </trans-unit>
+        <trans-unit id="Table 2468765639 - Method 3194489595 - NamedType 3983178948" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disabled</source>
+          <target>Deaktiviert</target>
         </trans-unit>
         <trans-unit id="Table 2505612573 - Field 1545435603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Filename</source>
@@ -3219,109 +3427,37 @@
           <source>The record must be temporary.</source>
           <target>Der Datensatz muss temporär sein.</target>
         </trans-unit>
-        <trans-unit id="Page 634544562 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Feature Flags (EAL)</source>
-          <target>Feature-Flags (EAL)</target>
+        <trans-unit id="Page 1999515531 - Control 3834798520 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the App Id field.</source>
+          <target>Gibt den Wert des Feldes "App-ID" an.</target>
         </trans-unit>
-        <trans-unit id="Page 634544562 - Control 2174523888 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Page 1999515531 - Control 1256520770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>App Name</source>
           <target>App-Name</target>
         </trans-unit>
-        <trans-unit id="Table 2468765639 - Method 3194489595 - NamedType 1971721663" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enabled</source>
-          <target>Aktiviert</target>
+        <trans-unit id="Page 1999515531 - Control 1256520770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the App Id field.</source>
+          <target>Gibt den Wert des Feldes "App-ID" an.</target>
         </trans-unit>
-        <trans-unit id="Page 634544562 - Method 2884274632 - NamedType 3347598715" translate="yes" size-unit="char" xml:space="preserve">
-          <source>All apps</source>
-          <target>Alle Apps</target>
+        <trans-unit id="Page 1999515531 - NamedType 2740281649" translate="yes" size-unit="char" xml:space="preserve">
+          <source>(not installed) AppID %1 </source>
+          <target>(nicht installiert) AppID %1</target>
         </trans-unit>
-        <trans-unit id="Page 634544562 - Control 284195533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Filters</source>
-          <target>Filter</target>
+        <trans-unit id="Page 1999515531 - Control 1873086231 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Status" field.</source>
+          <target>Gibt den Wert des Feldes "Status" an.</target>
         </trans-unit>
-        <trans-unit id="Page 634544562 - Control 3883304322 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>App Filter</source>
-          <target>App-Filter</target>
+        <trans-unit id="Page 1999515531 - Control 506530350 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Environment Key field.</source>
+          <target>Gibt den Wert des Feldes "Environment Key" an.</target>
         </trans-unit>
-        <trans-unit id="Page 634544562 - Control 3883304322 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "App Filter" field.</source>
-          <target>Gibt den Wert des Feldes "App-Filter" an.</target>
+        <trans-unit id="Page 1999515531 - Control 919027472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Environment Key Check field.</source>
+          <target>Gibt den Wert des Feldes "Environment Key-Kontrolle" an.</target>
         </trans-unit>
-        <trans-unit id="Table 2468765639 - Method 3194489595 - NamedType 3983178948" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Disabled</source>
-          <target>Deaktiviert</target>
-        </trans-unit>
-        <trans-unit id="Table 2468765639 - Method 3194489595 - NamedType 1996803239" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This action cannot be undone.</source>
-          <target>Diese Aktion kann nicht rückgängig gemacht werden.</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Control 2174523888 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the name of the app this feature flag belongs to.</source>
-          <target>Gibt den Namen der App an, zu der dieses Feature gehört.</target>
-        </trans-unit>
-        <trans-unit id="Table 2468765639 - Method 3194489595 - NamedType 1550261799" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Do you want to set the status of the feature to "%1"?</source>
-          <target>Möchten Sie den Status des Features auf "%1" setzen?</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Control 2891538263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enabled</source>
-          <target>Aktiviert</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Control 1907234846 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Modified By</source>
-          <target>Modified By</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Control 317369864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Modified At</source>
-          <target>Geändert um</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Control 317369864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies when the feature was last modified.</source>
-          <target>Gibt an, wann das Feature zuletzt geändert wurde.</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Control 2891538263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if the feature flag is currently enabled.</source>
-          <target>Gibt an, ob das Feature derzeit aktiviert ist.</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The unique code of the feature flag.</source>
-          <target>Der eindeutige Code des Features.</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Control 1585293996 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if the feature can be enabled for specific companies or for all companies.</source>
-          <target>Gibt an, ob das Feature für bestimmte Mandanten oder für alle Mandanten aktiviert werden kann.</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Control 125974321 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if the feature can again be disabled, once it has been enabled.</source>
-          <target>Gibt an, ob das Feature nach der Aktivierung wieder deaktiviert werden kann.</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Control 1907234846 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies by whom the feature was last modified.</source>
-          <target>Gibt an, von wem das Feature zuletzt geändert wurde.</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>A description of the feature flag. If there is additional help available, click the "Help" button or drilldown to show.</source>
-          <target>Eine Beschreibung des Feature-Flags. Wenn zusätzliche Hilfe verfügbar ist, klicken Sie auf die Schaltfläche "Hilfe" oder auf einen Drilldown, um sie anzuzeigen.</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Action 1207395983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enable Feature</source>
-          <target>Feature aktivieren</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Action 222701588 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Disable Feature</source>
-          <target>Feature deaktivieren</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Action 1207395983 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enables the feature.</source>
-          <target>Aktiviert das Feature.</target>
-        </trans-unit>
-        <trans-unit id="Page 634544562 - Action 222701588 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Disables the feature, if it is reversible.</source>
-          <target>Deaktiviert das Feature, wenn es reversibel ist.</target>
-        </trans-unit>
-        <trans-unit id="Table 2468765639 - Field 378058222 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>If specified, indicates the major BC version in which the feature will become mandatory.</source>
-          <target>Falls angegeben, gibt die BC-Majorversion an, in der die Funktion obligatorisch wird.</target>
+        <trans-unit id="Page 1999515531 - Control 1764047810 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Environment Key Calculation Type field.</source>
+          <target>Gibt den Wert des Feldes "Environment Key-Berechnungstyp" an.</target>
         </trans-unit>
       </group>
     </body>
