@@ -2267,13 +2267,13 @@
           <source>Restore Default</source>
           <target>Ripristina predefinito</target>
         </trans-unit>
-        <trans-unit id="Page 2701325435 - Control 110272201 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies VAT Prod. Posting Group to use in system generated document line for duty stamp</source>
-          <target>Specifica l'IVA prod. Categoria di registrazione da utilizzare nella riga del documento generata dal sistema per l'imposta</target>
+        <trans-unit id="Table 4260823758 - Field 933195232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IdDocumento IsBlank</source>
+          <target>IdDocumento IsBlank</target>
         </trans-unit>
-        <trans-unit id="Page 2701325435 - Control 1291150214 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies VAT Bus. Posting Group to use in system generated document line for duty stamp</source>
-          <target>Specifica il bus IVA. Categoria di registrazione da utilizzare nella riga del documento generata dal sistema per l'imposta</target>
+        <trans-unit id="Page 2701325435 - Control 4015853450 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Duty Gen. Prod. Posting Group" field.</source>
+          <target>Specifica il valore del campo "Cat. reg. articolo/servizio Bollo".</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 1864907812 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if duty stamp line creation feature is enabled</source>
@@ -2284,8 +2284,8 @@
           <target>Specifica il limite di inizio per la data di registrazione del documento da includere nella routine del bollo</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 2099279595 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies G/L Account to use in system generated document line for duty stamp</source>
-          <target>Specifica il conto C/G da utilizzare nella riga del documento generato dal sistema per l'imposta del dazio</target>
+          <source>Specifies the G/L account to be used in the creation of duty stamp lines on documents</source>
+          <target>Specifica il conto di contabilità che sarà usato nella creazione delle righe bollo sui documenti</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 2376387033 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Creation</source>
@@ -2296,24 +2296,24 @@
           <target>Generale</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 3240110397 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies Gen. Bus. Posting Group to use in system generated document line for duty stamp</source>
-          <target>Specifica Bus gen. Categoria di registrazione da utilizzare nella riga del documento generata dal sistema per l'imposta</target>
+          <source>Specifies the value of the "Duty Gen. Bus. Posting Group" field.</source>
+          <target>Specifica il valore del campo "Cat. reg. business Bollo".</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 328917862 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If filled, specific text will be exported in Causale tag</source>
           <target>Se compilato, il testo specifico verrà esportato nel tag Causale</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 3329891757 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies duty stamp amount to be consider in documents</source>
-          <target>Importo del bollo specificato da considerare nei documenti</target>
+          <source>Specifies the duty stamp amount in Euro</source>
+          <target>Specifica l'importo in euro del bollo</target>
         </trans-unit>
-        <trans-unit id="Page 2701325435 - Control 4015853450 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies Gen. Prod. Posting Group to use in system generated document line for duty stamp</source>
-          <target>Specifica Gen. Prod. Categoria di registrazione da utilizzare nella riga del documento generata dal sistema per l'imposta</target>
+        <trans-unit id="Page 2701325435 - Control 110272201 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Duty VAT Prod. Posting Group" field.</source>
+          <target>Specifica il valore del campo "Cat. reg. art./serv. IVA Bollo".</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 650382431 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies lower limit for document total amount to be included in duty stamp routine</source>
-          <target>Specifica un limite inferiore per l'importo totale del documento da includere nella routine del bollo</target>
+          <source>Specifies a minimum limit for document amounts (in Euro) subject to duty stamp, above which the duty stamp will be charged.</source>
+          <target>Specifica un limite minimo per gli importi dei documenti (in Euro) soggetti a bollo, al di sopra del quale verrà addebitato il bollo</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 992756663 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document</source>
@@ -7976,8 +7976,8 @@
           <target>Lista documenti con bollo (FTE)</target>
         </trans-unit>
         <trans-unit id="Report 1439355717 - ReportLabel 1582233333" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Minimum Invoice Amount (LCY)</source>
-          <target>Importo minimo fattura (VL)</target>
+          <source>Minimum Invoice Amount (EUR)</source>
+          <target>Importo minimo fattura (EUR)</target>
         </trans-unit>
         <trans-unit id="Report 1439355717 - ReportLabel 1840679139" translate="yes" size-unit="char" xml:space="preserve">
           <source>Duty Stamp Amount</source>
@@ -10804,16 +10804,16 @@
           <target>Testo causale</target>
         </trans-unit>
         <trans-unit id="Table 2701325435 - Field 3329891757 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Duty Stamp Amount</source>
-          <target>Importo bollo</target>
+          <source>Duty Stamp Amount (EUR)</source>
+          <target>Importo bollo (EUR)</target>
         </trans-unit>
         <trans-unit id="Table 2701325435 - Field 4015853450 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Duty Gen. Prod. Posting Group</source>
           <target>Cat. reg. articolo/servizio bollo</target>
         </trans-unit>
         <trans-unit id="Table 2701325435 - Field 650382431 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Minimum Invoice Amount (LCY)</source>
-          <target>Importo minimo fattura (VL)</target>
+          <source>Minimum Invoice Amount (EUR)</source>
+          <target>Importo minimo fattura (EUR)</target>
         </trans-unit>
         <trans-unit id="Table 2701325435 - Method 1583998716 - NamedType 283072355" translate="yes" size-unit="char" xml:space="preserve">
           <source>Restoring default settings present values will be overwritten. Do you want to proceed?</source>
@@ -13883,57 +13883,17 @@
           <source>Do you want to continue?</source>
           <target>Vuoi continuare?</target>
         </trans-unit>
-        <trans-unit id="TableExtension 3712683317 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status</source>
-          <target>Stato</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 1330805872 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status Message</source>
-          <target>Messaggio stato</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 1330805872 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status</source>
-          <target>Stato</target>
-        </trans-unit>
-        <trans-unit id="Table 181332593 - Field 334143858 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>RiferimentoNormativo</source>
-          <target>RiferimentoNormativo</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 55412638 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status Message</source>
-          <target>Messaggio stato</target>
-        </trans-unit>
-        <trans-unit id="Page 807332812 - Action 3408142566 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Import Folder</source>
-          <target> Cartella Importati</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 3712683317 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status Message</source>
-          <target>Messaggio stato</target>
-        </trans-unit>
-        <trans-unit id="Page 807332812 - Action 3408142566 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Imports from a file storage folder.</source>
-          <target>Importa da una cartella specificata nel setup in ingresso.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 55412638 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status</source>
-          <target>Stato</target>
-        </trans-unit>
-        <trans-unit id="Page 326399071 - Action 3865784523 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Migrate Data</source>
-          <target>Migra Dati</target>
-        </trans-unit>
-        <trans-unit id="Page 326399071 - Action 3865784523 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Migrate data from old version (not in extension)</source>
-          <target>Migra dati dalla vecchia versione (non in estensione)</target>
-        </trans-unit>
         <trans-unit id="TableExtension 224321661 - Field 2278076796 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Disable Duty Stamp Charge</source>
           <target>Disabilita addebito bollo</target>
         </trans-unit>
         <trans-unit id="PageExtension 1978659690 - Control 2278076796 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Disable Duty Stamp Charge field.</source>
-          <target>Specifica il valore del campo Disabilita addebito bollo</target>
+          <target>Specifica se la gestione bollo è attiva (flag falso, valore predefinito) o disattivata (flag vero)</target>
+        </trans-unit>
+        <trans-unit id="Page 2701325435 - Control 1291150214 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Duty VAT Bus. Posting Group" field.</source>
+          <target>Specifica il valore del campo "Cat. reg. business IVA Bollo".</target>
         </trans-unit>
       </group>
     </body>

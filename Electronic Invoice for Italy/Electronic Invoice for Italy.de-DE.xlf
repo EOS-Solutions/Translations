@@ -2235,13 +2235,13 @@
           <source>Restore Default</source>
           <target>Standard wiederherstellen</target>
         </trans-unit>
-        <trans-unit id="Page 2701325435 - Control 110272201 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies VAT Prod. Posting Group to use in system generated document line for duty stamp</source>
-          <target>Gibt MwSt.-Prod an. Buchungsgruppe zur Verwendung in systemgenerierter Belegzeile für Denduty-Stempel</target>
+        <trans-unit id="TableExtension 224321661 - Field 2278076796 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Duty Stamp Charge</source>
+          <target>Stempelsteuergebühr deaktivieren</target>
         </trans-unit>
-        <trans-unit id="Page 2701325435 - Control 1291150214 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies VAT Bus. Posting Group to use in system generated document line for duty stamp</source>
-          <target>Gibt MwSt.-Bus an. Buchungsgruppe zur Verwendung in systemgenerierter Belegzeile für Denduty-Stempel</target>
+        <trans-unit id="Table 4260823758 - Field 933195232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IdDocumento IsBlank</source>
+          <target>IdDocumento IsBlank</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 1864907812 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if duty stamp line creation feature is enabled</source>
@@ -2252,8 +2252,8 @@
           <target>Gibt das Startlimit für das Buchungsdatum des Belegs an, das in die Zollstempelroutine einbezogen werden soll.</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 2099279595 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies G/L Account to use in system generated document line for duty stamp</source>
-          <target>Gibt das Sachkonto an, das in der vom System generierten Belegzeile für den Zollstempel verwendet werden soll.</target>
+          <source>Specifies the G/L account to be used in the creation of duty stamp lines on documents</source>
+          <target>Gibt das Buchhaltungskonto an, das bei der Erstellung der Stempelsteuerzeilen in Dokumenten verwendet wird</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 2376387033 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Creation</source>
@@ -2263,25 +2263,25 @@
           <source>General</source>
           <target>Allgemein</target>
         </trans-unit>
-        <trans-unit id="Page 2701325435 - Control 3240110397 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies Gen. Bus. Posting Group to use in system generated document line for duty stamp</source>
-          <target>Gibt Gen. Bus an. Buchungsgruppe zur Verwendung in systemgenerierter Belegzeile für Denduty-Stempel</target>
+        <trans-unit id="PageExtension 1978659690 - Control 2278076796 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Disable Duty Stamp Charge field.</source>
+          <target>Gibt an, ob die Stempelsteuerverwaltung aktiv (falsches Flag, Standardwert) oder deaktiviert (wahres Flag) ist</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 328917862 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If filled, specific text will be exported in Causale tag</source>
           <target>Wenn sie gefüllt sind, wird bestimmter Text in das Causale-Tag exportiert.</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 3329891757 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies duty stamp amount to be consider in documents</source>
-          <target>Angegebener Zollstempelbetrag, der in Dokumenten berücksichtigt werden soll</target>
+          <source>Specifies the duty stamp amount in Euro</source>
+          <target>Gibt den Betrag der Stempelsteuer in Euro an.</target>
         </trans-unit>
-        <trans-unit id="Page 2701325435 - Control 4015853450 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies Gen. Prod. Posting Group to use in system generated document line for duty stamp</source>
-          <target>Gibt Gen. Prod an. Buchungsgruppe zur Verwendung in systemgenerierter Belegzeile für Denduty-Stempel</target>
+        <trans-unit id="Page 2701325435 - Control 1291150214 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Duty VAT Bus. Posting Group" field.</source>
+          <target>Gibt den Wert des Feldes "Mwst-Geschäftsbuchungsgruppe" an.</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 650382431 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies lower limit for document total amount to be included in duty stamp routine</source>
-          <target>Gibt eine untere Grenze für den Beleggesamtbetrag an, der in die Zollstempelroutine einbezogen werden soll.</target>
+          <source>Specifies a minimum limit for document amounts (in Euro) subject to duty stamp, above which the duty stamp will be charged.</source>
+          <target>Gibt eine Mindestgrenze für Dokumentbeträge (in Euro) an, die der Stempelsteuer unterliegen, über der die Stempelsteuer erhoben wird</target>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Control 992756663 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document</source>
@@ -7908,7 +7908,7 @@
           <target>Liste Belege mit Stempelmarke (FTE)</target>
         </trans-unit>
         <trans-unit id="Report 1439355717 - ReportLabel 1582233333" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Minimum Invoice Amount (LCY)</source>
+          <source>Minimum Invoice Amount (EUR)</source>
           <target>Minimalbetrag (MW)</target>
         </trans-unit>
         <trans-unit id="Report 1439355717 - ReportLabel 1840679139" translate="yes" size-unit="char" xml:space="preserve">
@@ -10728,7 +10728,7 @@
           <target>Causale Text</target>
         </trans-unit>
         <trans-unit id="Table 2701325435 - Field 3329891757 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Duty Stamp Amount</source>
+          <source>Duty Stamp Amount (EUR)</source>
           <target>Stempelsteuer Betrag</target>
         </trans-unit>
         <trans-unit id="Table 2701325435 - Field 4015853450 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -10736,8 +10736,8 @@
           <target>Produktbuchungsgruppe Stempelsteuer</target>
         </trans-unit>
         <trans-unit id="Table 2701325435 - Field 650382431 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Minimum Invoice Amount (LCY)</source>
-          <target>Minimalbetrag (MW)</target>
+          <source>Minimum Invoice Amount (EUR)</source>
+          <target>Minimalbetrag (EUR)</target>
         </trans-unit>
         <trans-unit id="Table 2701325435 - Method 1583998716 - NamedType 283072355" translate="yes" size-unit="char" xml:space="preserve">
           <source>Restoring default settings present values will be overwritten. Do you want to proceed?</source>
@@ -13727,49 +13727,9 @@
           <source>Do you want to continue?</source>
           <target>Möchten Sie fortfahren?</target>
         </trans-unit>
-        <trans-unit id="Table 181332593 - Field 334143858 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>RiferimentoNormativo</source>
-          <target>RiferimentoNormativo</target>
-        </trans-unit>
         <trans-unit id="Page 2536233598 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Type" field.</source>
           <target>Gibt den Wert des Feldes "Art" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 807332812 - Action 3408142566 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Imports from a file storage folder.</source>
-          <target>Importiert aus einem Dateispeicherordner.</target>
-        </trans-unit>
-        <trans-unit id="Page 807332812 - Action 3408142566 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Import Folder</source>
-          <target>Ordner importieren</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 3712683317 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status Message</source>
-          <target>Statusmeldung</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 1330805872 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status Message</source>
-          <target>Statusmeldung</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 1330805872 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status</source>
-          <target>Status</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 55412638 - Field 646110853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status Message</source>
-          <target>Statusmeldung</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 3712683317 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status</source>
-          <target>Status</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 55412638 - Field 4251852095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status</source>
-          <target>Status</target>
-        </trans-unit>
-        <trans-unit id="Page 326399071 - Action 3865784523 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Migrate Data</source>
-          <target>Daten migrieren</target>
         </trans-unit>
         <trans-unit id="Enum 1427093133 - EnumValue 1383905037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default</source>
@@ -13818,10 +13778,6 @@
         <trans-unit id="Page 2536233598 - Control 1412156535 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Supported Format" field.</source>
           <target>Gibt den Wert des Felds "Unterstütztes Format" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 326399071 - Action 3865784523 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Migrate data from old version (not in extension)</source>
-          <target>Migrieren von Daten aus der alten Version (nicht in der Erweiterung)</target>
         </trans-unit>
         <trans-unit id="Page 1838186892 - Control 2424948093 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the advanced group DatiOrdiniAcquisto/DatiDDT is enabled</source>
@@ -13926,6 +13882,18 @@
         <trans-unit id="PageExtension 3938442137 - Control 2688292465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the XML Document Lines Source. If this field is blank the XML will be generated based on the VAT Entry. The 'Applied Document' value will generate an XML containing the document lines of the applied document. Choosing 'Current Document' will generate an XML containing the document lines of the document from which the action is executed.</source>
           <target>Gibt die Quelle der XML-Dokumentzeilen an. Wenn dieses Feld leer ist, wird das XML auf der Grundlage des MwSt.-Eintrags generiert. Der Wert "Angewendetes Dokument" generiert eine XML-Datei, die die Dokumentzeilen des angewendeten Dokuments enthält. Wenn Sie "Aktuelles Dokument" auswählen, wird ein XML-Code generiert, der die Dokumentzeilen des Dokuments enthält, aus dem die Aktion ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 2701325435 - Control 4015853450 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Duty Gen. Prod. Posting Group" field.</source>
+          <target>Gibt den Wert des Feldes "Steuer-Produktbuchungsgruppe" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2701325435 - Control 3240110397 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Duty Gen. Bus. Posting Group" field.</source>
+          <target>Gibt den Wert des Feldes "Steuer-Geschäftsbuchungsgruppe" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2701325435 - Control 110272201 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Duty VAT Prod. Posting Group" field.</source>
+          <target>Gibt den Wert des Feldes "Mwst-Produktbuchungsgruppe" an.</target>
         </trans-unit>
       </group>
     </body>
