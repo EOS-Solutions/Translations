@@ -383,9 +383,17 @@
           <source>Open stapling entries exists. You must close them before close operation.</source>
           <target>Chiudere le pinzature in corso.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 2156609432" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Code not managed</source>
+          <target>Causale non gestita</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 3941493968" translate="yes" size-unit="char" xml:space="preserve">
           <source>Starting DateTime nor Ending DateTime set</source>
           <target>Data/Ora inizio e/o Data/Ora fine non indicata</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 902951225" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Code "%1" not found</source>
+          <target>Causale %1 non trovata</target>
         </trans-unit>
         <trans-unit id="Codeunit 3497152283 - Method 2901095472 - NamedType 2572014162" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are open %1 related to %2 %3.</source>
@@ -1755,6 +1763,10 @@
           <source>Specifies the value of "Last Error Text" field</source>
           <target>Specifica il valore del campo "Ultimo messaggio di errore"</target>
         </trans-unit>
+        <trans-unit id="Page 1930833055 - Control 313599960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of "Call Stack" field</source>
+          <target>Indica il valore del campo "Stack chiamate"</target>
+        </trans-unit>
         <trans-unit id="Page 1930833055 - Control 323917633 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Enqueued DateTime" field</source>
           <target>Specifica il valore del campo "Data-Ora accodamento"</target>
@@ -1859,6 +1871,10 @@
           <source>Specifies the value of the "Min Treshold" field</source>
           <target>Specifica il valore del campo "Soglia minima"</target>
         </trans-unit>
+        <trans-unit id="Page 205406101 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Unit of Measure Code" field</source>
+          <target>Specifica il valore del campo "Cod. unità di misura"</target>
+        </trans-unit>
         <trans-unit id="Page 205406101 - Control 2891538263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Enabled" field</source>
           <target>Specifica il valore del campo "Abilitato"</target>
@@ -1874,6 +1890,10 @@
         <trans-unit id="Page 205406101 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Description" field</source>
           <target>Specifica il valore del campo "Descrizione"</target>
+        </trans-unit>
+        <trans-unit id="Page 205406101 - Control 3600856495 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Category Color" field. Use hexadecimal format (e.g., #RRGGBBAA) for RGB and transparency.</source>
+          <target>Specifica il valore del campo "Colore categoria". Usa il formato esadecimale (ad esempio, #RRGGBBAA) per RGB e trasparenza.</target>
         </trans-unit>
         <trans-unit id="Page 205406101 - Control 3702373668 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Category" field</source>
@@ -2298,6 +2318,10 @@
         <trans-unit id="Page 2637177897 - Control 3128688872 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Panel Setup Id field.</source>
           <target>Indica l'ID del setup pannello</target>
+        </trans-unit>
+        <trans-unit id="Page 2637177897 - Control 313599960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the call stack from where the last error occurred.</source>
+          <target>Se valorizzato, riporta lo stack delle chiamate che hanno generato l'errore</target>
         </trans-unit>
         <trans-unit id="Page 2637177897 - Control 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Entry No. field.</source>
@@ -4475,6 +4499,10 @@
           <source>Min Treshold</source>
           <target>Soglia minima</target>
         </trans-unit>
+        <trans-unit id="Table 1125446740 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Cod. unità di misura</target>
+        </trans-unit>
         <trans-unit id="Table 1125446740 - Field 2681758783 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Device ID</source>
           <target>ID dispositivo</target>
@@ -4498,6 +4526,10 @@
         <trans-unit id="Table 1125446740 - Field 3553845924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Hub Name</source>
           <target>Nome hub</target>
+        </trans-unit>
+        <trans-unit id="Table 1125446740 - Field 3600856495 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Category Color</source>
+          <target>Colore categoria</target>
         </trans-unit>
         <trans-unit id="Table 1125446740 - Field 3702373668 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Category</source>
@@ -4635,6 +4667,10 @@
           <source>Posting Time</source>
           <target>Tempo Registrazione</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 1162188048 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Telemetry Entry No. 2</source>
+          <target>Nr. movimento telemetria IoT 2</target>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 1170402026 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ending DateTime</source>
           <target>Data-Ora fine</target>
@@ -4770,6 +4806,10 @@
         <trans-unit id="Table 1859070565 - Field 2937233469 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Price</source>
           <target>Prezzo unitario</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 2984838899 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Asynch Schedule Time</source>
+          <target>Ora schedulazione asincrona</target>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Field 3075034104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Custom Duration Calculation</source>
@@ -5331,6 +5371,10 @@
           <source>Rework</source>
           <target>Rilavorazione</target>
         </trans-unit>
+        <trans-unit id="Table 2637177897 - Field 1056736273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Call Stack Blob</source>
+          <target>Blob stack chiamate</target>
+        </trans-unit>
         <trans-unit id="Table 2637177897 - Field 2119658478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Read</source>
           <target>Letta</target>
@@ -5342,6 +5386,10 @@
         <trans-unit id="Table 2637177897 - Field 3128688872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Panel Setup Id</source>
           <target>ID Setup pannello</target>
+        </trans-unit>
+        <trans-unit id="Table 2637177897 - Field 313599960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Call Stack</source>
+          <target>Stack chiamate</target>
         </trans-unit>
         <trans-unit id="Table 2637177897 - Field 562554751 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Employee Entry Entry No.</source>
@@ -5927,6 +5975,14 @@
           <source>MES Tracking Line</source>
           <target>Righe tracciabilità MES</target>
         </trans-unit>
+        <trans-unit id="Table 3241182029 - Field 1056736273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Call Stack Blob</source>
+          <target>Blob stack chiamate</target>
+        </trans-unit>
+        <trans-unit id="Table 3241182029 - Field 1896530827 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Error Blob</source>
+          <target>Blob ultimo errore</target>
+        </trans-unit>
         <trans-unit id="Table 3241182029 - Field 2681758783 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Device ID</source>
           <target>ID Dispositivo</target>
@@ -5934,6 +5990,10 @@
         <trans-unit id="Table 3241182029 - Field 2969359993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Error Text</source>
           <target>Ultimo messaggio di errore</target>
+        </trans-unit>
+        <trans-unit id="Table 3241182029 - Field 313599960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Call Stack</source>
+          <target>Stack chiamate</target>
         </trans-unit>
         <trans-unit id="Table 3241182029 - Field 323917633 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enqueued DateTime</source>
