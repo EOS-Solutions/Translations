@@ -868,6 +868,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS055 Handling Unit - Field Status - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1296692852 - Field 2123103222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS055 Handling Unit - Field Transfer Order No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1296692852 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1798,6 +1803,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS055 Packaging Setup - Method InitDefaults - NamedType EmptiesSourceCodeDescTxt</note>
         </trans-unit>
+        <trans-unit id="Table 3448884395 - Method 1031482276 - NamedType 1465843243" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This will update all Transfer Routes. Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS055 Packaging Setup - Method UpdateTransferRoutes - NamedType UpdateRoutesLbl</note>
+        </trans-unit>
         <trans-unit id="Table 3448884395 - Field 2475898370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create GL Account lines on empties invoice</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1857,6 +1867,11 @@
           <source>Single Source Document,Multiple Source Documents</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS055 Packaging Setup - Field HU Assignment Policy - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 3448884395 - Field 890903652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Handling Unit Mgt. in Transfer order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS055 Packaging Setup - Field HU Mgt. Transfer Order - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3448884395 - Field 4122840112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inventory Check Policy</source>
@@ -2217,6 +2232,11 @@
           <source>First unassigned item:</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS055.01 HU Assignment - Method ThrowHuDoesNotFitError - NamedType UnassignedLinesTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1651101036 - Method 2526521931 - NamedType 3620161551" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Align Hu\\#1#################################</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Dialog counter</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS055.01 HU Assignment - Method TransferOutboundHuInWhseRcpt - NamedType TextAssignHuProgressMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2889517058 - Method 1992242203 - NamedType 1299237151" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to reassign the select %1 handling units?</source>
@@ -4698,6 +4718,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Packaging Setup - Control EOS055 Enable Assignment Source Line - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3448884395 - Control 890903652 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how to manage the outbound Handling Units in Transfer order. The value "Transfer Outbound HU" enables the transfer of handling units from outbound to inbound after posting a transfer shipment. The handling units are assigned to the order if the inbound location does not require the warehouse receipt, otherwise they are assigned at creation of receipt from the order. The value "Ship Outbound HU" allows to change the status to "Shipped" and empty the handling units when posting a transfer shipment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Packaging Setup - Control HU Mgt. Transfer Order - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3448884395 - Control 4122840112 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Indicates the way HU inventory checks are performed when posting item entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6868,6 +6893,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18126577 - Action EOS029_Containers - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 212612534 - Action 323158171 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2447066187">
+          <source>Assign the handling units for the transfer orders in the warehouse receipt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18126577 - Action EOS05501_HuMgtTransferOrder - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 212612534 - Action 323158171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2447066187">
+          <source>Assign HUs for Transfer Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18126577 - Action EOS05501_HuMgtTransferOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 212612534 - Action 323158171 - Method 1377591017 - NamedType 2382501440" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 212612534">
+          <source>Do you want to assign handling units for the transfer orders in the warehouse receipt?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18126577 - Action EOS05501_HuMgtTransferOrder - Method OnAction - NamedType TransferHuLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3532065167 - Action 3685842706 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2889212609">
           <source>Executes the "Assign Handling Unit" action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6998,6 +7038,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18126892 - Control EOS Container Entry Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1810308368 - Control 3600407507 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 66664215">
+          <source>Specifies how to manage the outbound Handling Units in Transfer order. The value "Transfer Outbound HU" enables the transfer of handling units from outbound to inbound after posting a transfer shipment. The handling units are assigned to the order if the inbound location does not require the warehouse receipt, otherwise they are assigned at creation of receipt from the order. The value "Ship Outbound HU" allows to change the status to "Shipped" and empty the handling units when posting a transfer shipment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18126892 - Control EOS055.01 HU Mgt. Transf Order - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1172611751 - Action 2298047618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2714855698">
           <source>Empties</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7062,6 +7107,16 @@
           <source>Specifies the value of the "Assignment Source" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70491907 - Control EOS05501 Assignment Source - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 994270856 - Control 3796279355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4290153">
+          <source>Handling Unit (HUM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70491914 - Control EOS HUM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 994270856 - Control 3600407507 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4290153">
+          <source>Specifies how to manage the outbound Handling Units in Transfer order. The value "Transfer Outbound HU" enables the transfer of handling units from outbound to inbound after posting a transfer shipment. The handling units are assigned to the order if the inbound location does not require the warehouse receipt, otherwise they are assigned at creation of receipt from the order. The value "Ship Outbound HU" allows to change the status to "Shipped" and empty the handling units when posting a transfer shipment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70491914 - Control EOS055.01 HU Mgt. Transf Order - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 3715256232 - Field 485371385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
           <source>Handling Unit No.</source>
@@ -7513,6 +7568,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS055.01 TableExt18126560 - Field EOS Container Entry Type - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1839054162 - Field 3600407507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 151805736">
+          <source>Handling Unit Mgt. in Transfer order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS055.01 TableExt18126560 - Field EOS055.01 HU Mgt. Transf Order - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1201357545 - Field 2429835511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4218928473">
           <source>Packaging Instruction No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7532,6 +7592,11 @@
           <source>Inbound,Outbound</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS055.01 TableExt18126562 - Field EOS Container Entry Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4220931607 - Field 3600407507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3520647894">
+          <source>Handling Unit Mgt. in Transfer order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS055.01 TableExt18126563 - Field EOS055.01 HU Mgt. Transf Order - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 913891065 - Field 2928009311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1173465396">
           <source>Container</source>
@@ -7997,6 +8062,21 @@
           <source>Package</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS055.01 Handling Unit Type - EnumValue Package - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3600407507 - EnumValue 1383905037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS055.01 HU Mgt. Transf Order - EnumValue Default - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3600407507 - EnumValue 1681740525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship Outbound HU</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS055.01 HU Mgt. Transf Order - EnumValue Ship Outbound HU - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3600407507 - EnumValue 1499403174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Outbound HU</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS055.01 HU Mgt. Transf Order - EnumValue Transfer Outbound HU - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1751503290 - EnumValue 1508634494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Manual</source>
