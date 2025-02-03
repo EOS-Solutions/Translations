@@ -561,7 +561,7 @@
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 1977110138 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Document Subtype</source>
-          <target>Sottotipo documento</target>
+          <target>Sottotipo documento origine</target>
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit of Measure Code</source>
@@ -573,7 +573,7 @@
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 2704404533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity</source>
-          <target>Quantià</target>
+          <target>Quantità</target>
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 3179217921 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity (Base)</source>
@@ -585,7 +585,7 @@
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 3371451125 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Document Line No.</source>
-          <target>Nr. riga documento</target>
+          <target>Nr. riga documento origine</target>
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
@@ -613,7 +613,7 @@
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 4267346559 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Document No.</source>
-          <target>Nr. documento</target>
+          <target>Nr. documento origine</target>
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 47657272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description 2</source>
@@ -629,7 +629,7 @@
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 587895070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Document Type</source>
-          <target>Tipo di documento</target>
+          <target>Tipo di documento origine</target>
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 629385458 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoiced Quantity</source>
@@ -862,7 +862,31 @@
         <trans-unit id="Codeunit 2513428523 - NamedType 1497386908" translate="yes" size-unit="char" xml:space="preserve">
           <source>The Posting Policy "%1" is not allowed in %2.</source>
           <target>Il criterio di registrazione "%1" non è consentito in %2.</target>
-          <note>Codeunit EOS041 CDW Tests - NamedType PostingPolicyNotAllowedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3069543008 - Method 1702494891 - NamedType 320218345" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The following document line has already been fully invoiced and therefore cannot be closed\%1 %2 line %3</source>
+          <target>La seguente riga documento è già stata completamente fatturata pertanto non può essere chiusa\%1 %2 riga %3</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3069543008 - Method 1702494891 - NamedType 139936246" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Shipment no.</source>
+          <target>Spedizione vendita nr.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3069543008 - Method 1702494891 - NamedType 3627108193" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Receipt no.</source>
+          <target>Ricezione acquisto nr.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3069543008 - Method 1702494891 - NamedType 2357292028" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Return Shipment no.</source>
+          <target>Spedizione reso nr.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3069543008 - Method 1702494891 - NamedType 1892566544" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Return Receipt no.</source>
+          <target>Carico da reso nr.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3069543008 - Method 1702494891 - NamedType 3552848047" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The following document line has changed after the journal was created, before posting you need to regenerate the journal\%1 %2 line %3</source>
+          <target>La seguente riga documento è variata dopo che è stato creato il giornale, prima di registrare occorre rigenerare il giornale.\%1 %2 riga %3</target>
+          <note>Codeunit EOS041 CDW Post - Method CheckSourceDocumentInvoiced - NamedType SourceDocument2Err</note>
         </trans-unit>
       </group>
     </body>
