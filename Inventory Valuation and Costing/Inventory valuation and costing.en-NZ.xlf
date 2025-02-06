@@ -1213,6 +1213,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Item Costing Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1573099788 - NamedType 2522836183" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attention, %1 wrong %2=%3 cannot be used with %4=%5</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Caption of Item Costing Setup; %2 = Caption of Production Cost Calculation; %3 = option value of Production Cost Calculation; %4 = Caption of Capacity Cost Calculation; %5 = option value of Capacity Cost Calculation</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Item Costing Setup - NamedType CapacityCostSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1573099788 - NamedType 3062464347" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attention, %1 wrong %2=%3 cannot be used with subcontracting cost priority = %4 and %5=%6</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Caption of Item Costing Setup; %2 = Caption of Production Cost Calculation; %3 = option value of Production Cost Calculation; %4 = option value of Subcontracting Cost priority; %5 = caption of Include True Manu. in Std. BOM; %6 = option value of Include True Manu. in Std. BOM;</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Item Costing Setup - NamedType CapacityCostWithSubcontractingSetupErr</note>
+        </trans-unit>
         <trans-unit id="Table 1573099788 - NamedType 876234982" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code just used</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1332,6 +1342,16 @@
           <source>Include,Exclude</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Item Costing Setup - Field Include Purchase in Stand. BOM - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 1736346587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Read actual entries with Standard Routing/BOM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Item Costing Setup - Field Include True Manu. in Std. BOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 1736346587 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Mfg.,Exclude Consumption and internal capacity,Exclude compution and all capacity (also subcontracting)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Item Costing Setup - Field Include True Manu. in Std. BOM - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 2765545487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Specific Cost Calc.</source>
@@ -6312,6 +6332,11 @@
           <source>Allows you to specify, for items with a “Production Order” replenishment system and cost calculation performed based on the “Standard Routing/BOM” value, whether or not to consider purchase entries. This option can be useful in the case of items managed with a hybrid logic, i.e. produced and purchased.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Costing Setup Card - Control Include Purchase in Stand. BOM - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3119941560 - Control 1736346587 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allows you to define whether in the case of cost calculation with "Standard routing/BOM" the actual consumption entry and capacity entry relating to internal/external phases must still be read.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Costing Setup Card - Control Include True Manu. in Std. BOM - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 2765545487 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if calculate costs for lot no. and serial no.</source>
