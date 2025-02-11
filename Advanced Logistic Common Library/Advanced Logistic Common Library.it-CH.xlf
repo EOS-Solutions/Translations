@@ -1461,7 +1461,7 @@
         </trans-unit>
         <trans-unit id="Page 2072884643 - Control 3812840519 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert the load carrier used to pack the item.</source>
-          <target>Inserire il supporto di carico utilizzato per imballare l'articolo.</target>
+          <target>Inserire il portacarico usato per l'imballaggio dell'articolo.</target>
         </trans-unit>
         <trans-unit id="Page 2072884643 - Control 3943050797 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert the packaging material used to pack the item.</source>
@@ -1608,8 +1608,8 @@
           <target>Quando è impostato, è necessario specificare un imballaggio nel documento di spedizione.</target>
         </trans-unit>
         <trans-unit id="Page 2369791735 - Control 1732878394 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Qty. of packages on each layer.</source>
-          <target>Qtà dei pacchetti su ogni strato.</target>
+          <source>Number of packaging material for each layer of the load carrier. Use only if the instruction contains both packaging material and a load carrier, otherwise set to 1.</source>
+          <target>Quantità del materiale di imballaggio per ogni strato del portacarico. Da utilizzare solo se l’istruzione prevede sia un materiale di imballaggio che un portacarico, in caso contrario impostare 1.</target>
         </trans-unit>
         <trans-unit id="Page 2369791735 - Control 1753214751 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source for which the item should packed.</source>
@@ -1628,12 +1628,12 @@
           <target>Inserire l'unità di misura dell'articolo imballato, ad esempio scatola</target>
         </trans-unit>
         <trans-unit id="Page 2369791735 - Control 2416624906 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No. of layers if more packagings could be stacked</source>
-          <target>Nr. di strati se più imballaggi potrebbero essere impilati</target>
+          <source>Number of layers in which the packaging materials are arranged inside the load carrier. If the instruction does not contain a packaging material, indicate the number of layers in which the items are arranged in the load carrier.</source>
+          <target>Nr. di strati con cui vengono disposti i materiali di imballaggio all’interno del portacarico. Se l’istruzione non contiene un materiale di imballaggio, indica il numero di strati con cui vengono disposti gli articoli nel portacarico.</target>
         </trans-unit>
         <trans-unit id="Page 2369791735 - Control 2704404533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Filling quantity</source>
-          <target>Quantità di riempimento</target>
+          <source>Quantity per packaging material (e.g. 20 pcs per box). If the instruction does not specify a packaging material but only a load carrier, the quantity per load carrier is intended.</source>
+          <target>Quantità per materiale di imballaggio (ad esempio 20 pz per scatola). Se l’istruzione non prevede un materiale di imballaggio ma solo un portacarico si intende quantità per portacarico.</target>
         </trans-unit>
         <trans-unit id="Page 2369791735 - Control 2984475554 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which handling units are created during suggestion of the packing list for this instruction.</source>
@@ -6462,6 +6462,150 @@
         <trans-unit id="PageExtension 212612534 - Action 323158171 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Assign HUs for Transfer Orders</source>
           <target>Assegna Unità di carico per gli ordini di trasferimento</target>
+        </trans-unit>
+        <trans-unit id="Page 3448884395 - Action 3386795356 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup Wizard</source>
+          <target>Setup Wizard</target>
+        </trans-unit>
+        <trans-unit id="Page 3448884395 - Control 4122840112 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inventory Check Policy</source>
+          <target>Criteri di Controllo Giacenza</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Control 2704404533 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Quantità</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Control 1732878394 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity per Layer</source>
+          <target>Quantità per strato</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Control 3943050797 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packaging Material No.</source>
+          <target>Nr. Materiale di imballaggio</target>
+        </trans-unit>
+        <trans-unit id="Page 3448884395 - Control 3832340604 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packaging Material Nos.</source>
+          <target>Nr. Materiale di imballaggio</target>
+        </trans-unit>
+        <trans-unit id="Page 3448884395 - Control 2854774621 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packaging Instruction Nos.</source>
+          <target>Nr. serie istruzioni di imballaggio</target>
+        </trans-unit>
+        <trans-unit id="Page 3448884395 - Control 2854774621 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the default number series for packaging instructions.</source>
+          <target>Specifica il nr. di serie di default per le istruzioni per l'imballaggio.</target>
+        </trans-unit>
+        <trans-unit id="Page 1543794048 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Handling Unit</source>
+          <target>Unità di carico</target>
+        </trans-unit>
+        <trans-unit id="Page 3448884395 - Control 3832340604 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the default number series for packaging materials.</source>
+          <target>Specifica il nr. di serie di default per i materiali di imballaggio.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4134979151 - Method 2648269774 - NamedType 899644925" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to create a new Sales Order and the packing list?</source>
+          <target>Vuoi creare un nuovo Ordine di vendita e la packing list?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4134979151 - Method 2648269774 - NamedType 1392294842" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Order created successfully! Open the Sales Order %1 ?</source>
+          <target>Ordine creato con successo! Aprire l'ordine di vendita %1 ?</target>
+        </trans-unit>
+        <trans-unit id="Page 1543794048 - Control 3943050797 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packaging Material</source>
+          <target>Materiale di imballaggio</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Control 2416624906 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of Layers</source>
+          <target>Nr. di strati</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Control 3812840519 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Load Carrier No.</source>
+          <target>Nr. portacarico</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packaging Instructions</source>
+          <target>Istruzioni di imballaggio</target>
+        </trans-unit>
+        <trans-unit id="Page 3222051637 - Action 1474712111 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Handling Unit</source>
+          <target>Nuova Unità di carico</target>
+        </trans-unit>
+        <trans-unit id="Page 3222051637 - Action 1696752077 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Suggests the packing list for the current document from packaging instructions.</source>
+          <target>Suggerisce la Packing list per il documento corrente dalle istruzioni di imballaggio.</target>
+        </trans-unit>
+        <trans-unit id="Page 3222051637 - Action 1696752077 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Suggest Packing List</source>
+          <target>Suggerisci riga per imballaggio</target>
+        </trans-unit>
+        <trans-unit id="Page 1543794048 - Control 3943050797 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The packaging material specifies the type of the handling unit. It can be **Load Carrier** (e.g. pallet) or **Package** (e.g. box).</source>
+          <target>Il materiale di imballaggio specifica il tipo di unità di carico. Può essere **Portacarico** (ad es. pallet) o **Collo** (ad es. scatola).</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packaging instructions are used to define how items are packed into handling units. The packaging instructions are used to suggest the packing list for the document.</source>
+          <target>Le istruzioni di imballaggio vengono utilizzate per definire il modo in cui gli articoli vengono imballati nelle unità di carico. Le istruzioni di imballaggio servono a suggerire la packing list per il documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 1543794048 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Handling Unit can be created from the packing list, from the journals and manually and can be assigned to the document.</source>
+          <target>L'Unità di carico può essere creata dalla Packing List, dai giornali di registrazione e manualmente e può essere assegnata al documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 3222051637 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Handling Units Assigned</source>
+          <target>Unità di carico assegnate</target>
+        </trans-unit>
+        <trans-unit id="Page 3222051637 - Action 3514624300 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Add Content</source>
+          <target>Aggiungi</target>
+        </trans-unit>
+        <trans-unit id="Page 3222051637 - Action 3514624300 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Add items in the selected handling unit from order lines.</source>
+          <target>Aggiungi articoli nell'unità di carico selezionata dalle righe ordine.</target>
+        </trans-unit>
+        <trans-unit id="Page 3222051637 - Action 1474712111 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create a new empty handling unit from a packaging material and then use the action **"Add Content"** to add items.</source>
+          <target>Crea una nuova unità di carico vuota da un materiale di imballaggio e usa l'azione **"Aggiungi"** per aggiungere articoli.</target>
+        </trans-unit>
+        <trans-unit id="Page 3222051637 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows the handling units assigned to the document and allows to assign and create new handling units.</source>
+          <target>Mostra le unità di carico assegnate al documento e consente di assegnare e creare nuove unità di carico.</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Control 3943050797 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the packaging material used to pack the item.</source>
+          <target>Specifica il materiale di imballaggio utilizzato per l'imballaggio dell'articolo.</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Control 2416624906 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Number of layers in which the packaging materials are arranged inside the load carrier. If the instruction does not contain a packaging material, indicate the number of layers in which the items are arranged in the load carrier.</source>
+          <target>Nr. di strati con cui vengono disposti i materiali di imballaggio all’interno del portacarico. Se l’istruzione non contiene un materiale di imballaggio, indica il numero di strati con cui vengono disposti gli articoli nel portacarico.</target>
+        </trans-unit>
+        <trans-unit id="Page 3448884395 - Control 4122840112 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Inventory Check Policy specifies the way handling unit inventory checks are performed when posting item entries.</source>
+          <target>Specifica il modo in cui vengono eseguiti i controlli di giacenza UdC durante la registrazione di movimenti articolo.</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Control 1732878394 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Number of packaging material for each layer of the load carrier. Use only if the instruction contains both packaging material and a load carrier, otherwise set to 1.</source>
+          <target>Quantità del materiale di imballaggio per ogni strato del portacarico. Da utilizzare solo se l’istruzione prevede sia un materiale di imballaggio che un portacarico, in caso contrario impostare 1.</target>
+        </trans-unit>
+        <trans-unit id="Page 3448884395 - Action 3386795356 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>**New Setup Wizard** creates default data to start using the packing list and handling units. It is recommended to run it in a Test Environment!</source>
+          <target>**Nuovo Setup Wizard** crea i dati predefiniti per iniziare a utilizzare la Packing List e le unità di carico. Si consiglia di eseguirlo in un ambiente di test!</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Control 2704404533 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity per packaging material (e.g. 20 pcs per box). If the instruction does not specify a packaging material but only a load carrier, the quantity per load carrier is intended.</source>
+          <target>Quantità per materiale di imballaggio (ad esempio 20 pz per scatola). Se l’istruzione non prevede un materiale di imballaggio ma solo un portacarico si intende quantità per portacarico.</target>
+        </trans-unit>
+        <trans-unit id="Page 2369791735 - Control 3812840519 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the load carrier used to pack the item.</source>
+          <target>Inserire il portacarico usato per l'imballaggio dell'articolo.</target>
+        </trans-unit>
+        <trans-unit id="Page 3448884395 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>In the "Packaging Setup" page you can configure default data to start using the Packing List and Handling Units.</source>
+          <target>Nella pagina "Setup Imballaggio" è possibile configurare i dati predefiniti per iniziare a utilizzare la Packing List e le Unità di Carico.</target>
+        </trans-unit>
+        <trans-unit id="Page 3448884395 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packaging Setup</source>
+          <target>Setup Imballaggio</target>
         </trans-unit>
       </group>
     </body>
