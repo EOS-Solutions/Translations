@@ -251,6 +251,26 @@
           <source>Phase is open</source>
           <target>La fase è aperta</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3625121881 - NamedType 1308367811" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode not valid - Separator not found in barcode - Prod. Order Line No. and Operation No.</source>
+          <target>Barcode non valido - Separatore non trovato nel barcode - Nr. riga e nr. operazione ordine di produzione</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3625121881 - NamedType 2821524737" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode not valid - Separator not set</source>
+          <target>Barcode non valido - Separatore non impostato</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3625121881 - NamedType 2897836818" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode not valid - Separator not found in barcode - Prod. Order No.</source>
+          <target>Barcode non valido - Separatore non trovato nel barcode - Nr. ordine di produzione</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3625121881 - NamedType 663522644" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode not valid - Prod. Order Line No. Token is not valid</source>
+          <target>Barcode non valido - Il token del nr. riga ordine di produzione non è valido</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3625121881 - NamedType 989914192" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode not valid - MES Setup not found</source>
+          <target>Barcode non valido - Setup MES non trovato</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 3770160373 - NamedType 3253884700" translate="yes" size-unit="char" xml:space="preserve">
           <source>No Employee Entries modified for family production order %1 with Routing No. %2 and Operation No. %3. Records not found</source>
           <target>Nessun movimento dipendente aggiornato per ordine di produzione %1 con nr. ciclo %2 e nr. operazione %3. Movimenti non trovati</target>
@@ -310,10 +330,6 @@
         <trans-unit id="Codeunit 1423286042 - Method 995385846 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Order %1 not exists or is not released</source>
           <target>L'ordine di produzione %1 non esiste o non è stato rilasciato</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1423286042 - Method 995385846 - NamedType 2643262487" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Barcode not valid.</source>
-          <target>Barcode non valido.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 995385846 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>Wrong Barcode</source>
@@ -382,6 +398,10 @@
         <trans-unit id="Codeunit 2503755138 - Method 964694333 - NamedType 1227823353" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open stapling entries exists. You must close them before close operation.</source>
           <target>Chiudere le pinzature in corso.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2968607447 - Method 982591392 - NamedType 3764383116" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to reset the synoptic NumberSequence?\Be aware that Synoptic Entries will be deleted!</source>
+          <target>Reimpostare il Number Sequence per il sinottico?\I movimenti sinottico verranno eliminati.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 2156609432" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reason Code not managed</source>
@@ -2479,6 +2499,14 @@
           <source>Reload Panels Reason Codes</source>
           <target>Aggiorna causali pannelli</target>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Action 982591392 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Synoptic Number Sequence</source>
+          <target>Reimposta Number Sequence sinottico</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Action 982591392 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Synoptic NumberSequence</source>
+          <target>Reimposta Number Sequence sinottico</target>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 100554923 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set / Choose default language</source>
           <target>Lingua predefinita</target>
@@ -2522,6 +2550,14 @@
         <trans-unit id="Page 2865843814 - Control 1347615962 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Output Only Text</source>
           <target>Output solo quantità</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1366966071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the timeout for the job queue.</source>
+          <target>Specifica il timeout per la coda processi.</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1366966071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Job Queue Timeout</source>
+          <target>Timeout coda processi</target>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 1477710767 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set Job Journal Batch Name for Indirect Time Management</source>
@@ -2915,6 +2951,10 @@
           <source>Production Panel Nos.</source>
           <target>Numeratore pannelli di produzione</target>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 4219020610 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Job Queue</source>
+          <target>Coda processi</target>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 528789897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Barcode Encoder" if the Barcode Method is "Function API".</source>
           <target>Specifica il valore del "Barcode Encoder" se il Barcode metodo è "Function API".</target>
@@ -2974,10 +3014,6 @@
         <trans-unit id="Page 2865843814 - Control 995088734 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default Theme</source>
           <target>Tema di default</target>
-        </trans-unit>
-        <trans-unit id="Page 2865843814 - Method 1026192128 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 is not enabled with barcode method %2</source>
-          <target>%1 non è abilitato con il metodo barcode %2</target>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MES Setup (MES)</source>
@@ -5615,6 +5651,10 @@
           <source>Output Only Text</source>
           <target>Versamento solo quantità</target>
         </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 1366966071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Job Queue Timeout</source>
+          <target>Timeout coda processi</target>
+        </trans-unit>
         <trans-unit id="Table 2865843814 - Field 1477710767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Journal Template Name</source>
           <target>Eos.XliffEditor.Vm.LanguageGridColumnVm</target>
@@ -6515,6 +6555,14 @@
           <source>Prod. Line Quantity</source>
           <target>Quantità righe ordine di produzione</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 1215528133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Actual Scrap Quantity</source>
+          <target>Totale quantità di scarto effettiva</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 1289454795 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Actual Entries Exists</source>
+          <target>Esistono movimenti effettivi</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 1827610623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Actual Entries Exists</source>
           <target>Movimenti effettivi</target>
@@ -6522,6 +6570,14 @@
         <trans-unit id="TableExtension 1861560906 - Field 2128523937 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Line Rem. Quantity</source>
           <target>Quantità residua righe ordine di produzione</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 2263584056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Expected Output Quantity</source>
+          <target>Totale quantità di output prevista</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 231607816 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Expected Run Time</source>
+          <target>Totale tempo lavorazione previsto</target>
         </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 2360466669 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>PowerMES Custom Filter 5</source>
@@ -6539,6 +6595,14 @@
           <source>Prod. Order Source Type</source>
           <target>Tipo origine ordine di produzione</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 270139855 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Resource Run Time</source>
+          <target>Totale tempo lavorazione risorsa</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 2819656284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Expected Scrap Quantity</source>
+          <target>Totale quantità di scarto prevista</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 2829254263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>PowerMES Custom Filter 3</source>
           <target>Filtro PowerMES personalizzato 3</target>
@@ -6554,6 +6618,10 @@
         <trans-unit id="TableExtension 1861560906 - Field 3130965540 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Needed Time (ms)</source>
           <target>Tempo necessario (ms)</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 3142378497 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Actual Run Time</source>
+          <target>Totale tempo lavorazione</target>
         </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 3324354622 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Panel ID Filter</source>
@@ -6582,6 +6650,14 @@
         <trans-unit id="TableExtension 1861560906 - Field 4104647497 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>PowerMES Custom Filter 1</source>
           <target>Filtro PowerMES personalizzato 1</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 4134743974 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Expected Entries Exists</source>
+          <target>Esistono movimenti previsti</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 543856649 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Actual Output Quantity</source>
+          <target>Totale quantità versata effettiva</target>
         </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 663672673 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Expected Scrap Quantity</source>

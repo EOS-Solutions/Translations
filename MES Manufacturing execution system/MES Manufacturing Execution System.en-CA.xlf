@@ -2123,6 +2123,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Setup - Field Job Journal Template Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 1366966071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue Timeout</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Setup - Field Job Queue Timeout - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2865843814 - Field 3007775564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>New Lot No. For Output</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2708,11 +2713,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method CheckBarcode - NamedType Text004Err</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1423286042 - Method 995385846 - NamedType 2643262487" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Barcode not valid.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method CheckBarcode - NamedType Text005Err</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 3487161493 - NamedType 2316870939" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 %2 not allowed for %3 %4.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2947,6 +2947,31 @@
           <source>Phase is open</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method StaplingRemoveLine - NamedType Text000Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3625121881 - NamedType 989914192" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barcode not valid - MES Setup not found</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method TryRetrieveInfoFromBarcode2 - NamedType Error001Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3625121881 - NamedType 2821524737" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barcode not valid - Separator not set</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method TryRetrieveInfoFromBarcode2 - NamedType Error002Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3625121881 - NamedType 2897836818" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barcode not valid - Separator not found in barcode - Prod. Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method TryRetrieveInfoFromBarcode2 - NamedType Error003Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3625121881 - NamedType 1308367811" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barcode not valid - Separator not found in barcode - Prod. Order Line No. and Operation No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method TryRetrieveInfoFromBarcode2 - NamedType Error004Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3625121881 - NamedType 663522644" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barcode not valid - Prod. Order Line No. Token is not valid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method TryRetrieveInfoFromBarcode2 - NamedType Error005Err</note>
         </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 952758506 - NamedType 1713639944" size-unit="char" translate="yes" xml:space="preserve">
           <source>Confirm undo of selected entry?</source>
@@ -6217,6 +6242,21 @@
           <source>IoT Default Scrap Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control IoT Default Scrap Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 4219020610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Job Queue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1366966071 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the timeout for the job queue.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Job Queue Timeout - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1366966071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue Timeout</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Job Queue Timeout - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 638666288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Power MES</source>
