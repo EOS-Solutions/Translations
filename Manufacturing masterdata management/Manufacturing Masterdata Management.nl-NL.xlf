@@ -1368,8 +1368,8 @@
           <target>Ruilpositie</target>
         </trans-unit>
         <trans-unit id="Report 3583675429 - Control 3259248974 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>New Version Starting Date</source>
-          <target>Begindatum nieuwe versie</target>
+          <source>Change version date on accepted component worksheet lines: if create version is set, the version date is changed only on the new created version.</source>
+          <target>Wijzig de versiedatum op de geaccepteerde componentwerkbladregels: Als het maken van versies is ingesteld, wordt de versiedatum alleen gewijzigd in de nieuw gemaakte versie.</target>
         </trans-unit>
         <trans-unit id="Report 3583675429 - Control 3259248974 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Version Starting Date</source>
@@ -1384,8 +1384,8 @@
           <target>Koppeling naar exchange-routering</target>
         </trans-unit>
         <trans-unit id="Report 3583675429 - Control 3396950588 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Certify Bom</source>
-          <target>Certificeren Bom</target>
+          <source>Certify Bom on accepted component worksheet lines.</source>
+          <target>Certificeert productiestuklijst op geaccepteerde werkbladregels.</target>
         </trans-unit>
         <trans-unit id="Report 3583675429 - Control 3396950588 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Certify Bom</source>
@@ -2230,6 +2230,190 @@
         <trans-unit id="TableExtension 597490360 - Field 455086261 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>BOM Personnel Lines</source>
           <target>Bom Personeel lijnen</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3388361542 - Method 2747638034 - NamedType 1218464063" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Output</source>
+          <target>Uitvoer</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3388361542 - Method 2747638034 - NamedType 3073746241" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Consumption</source>
+          <target>Verbruik</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3388361542 - NamedType 1603347576" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The journal lines were successfully posted.</source>
+          <target>De journaalregels zijn correct geboekt.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3388361542 - Method 2747638034 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Batch type not supported</source>
+          <target>Niet-ondersteund batchtype</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 913786763 - Method 999213296 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invalid parameters number</source>
+          <target>Ongeldig aantal parameters</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3388361542 - Method 4289051840 - NamedType 2396470215" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to delete all the lines in the current view?</source>
+          <target>Wilt u alle rijen in de huidige weergave wissen?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 913786763 - Method 999213296 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting type not valid</source>
+          <target>Ongeldig registratietype</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3388361542 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Errors occurred during posting.</source>
+          <target>Er zijn fouten opgetreden tijdens de registratie.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3388361542 - Method 3618967696 - NamedType 2712918880" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to post all the lines in the current batch?</source>
+          <target>Wil je alle rijen in de huidige batch boeken?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3388361542 - Method 2525024026 - NamedType 2712918880" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to post all the lines for the production order %1?</source>
+          <target>Wil je alle regels voor productieorder %1 boeken?</target>
+        </trans-unit>
+        <trans-unit id="Page 3476705023 - Control 1976356074 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current line</source>
+          <target>Huidige rij</target>
+        </trans-unit>
+        <trans-unit id="Page 3476705023 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Production Posting Errors</source>
+          <target>Fouten bij het boeken van productie</target>
+        </trans-unit>
+        <trans-unit id="Page 3476705023 - NamedType 1083629271" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No issues found.</source>
+          <target>Geen problemen gedetecteerd.</target>
+        </trans-unit>
+        <trans-unit id="Page 3476705023 - Action 1648717640 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show errors</source>
+          <target>Fouten weergeven</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3388361542 - Method 1072249615 - NamedType 3819082293" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 posting with job queue</source>
+          <target>%1 registreren met taakwachtrij</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2076866724 - Action 1323435731 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete All Lines (MMM)</source>
+          <target>Alle rijen wissen (MMM)</target>
+        </trans-unit>
+        <trans-unit id="Page 3476705023 - Action 1648717640 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show errors from last posting</source>
+          <target>Fouten van de laatste opname weergeven</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3388361542 - Method 1605029063 - NamedType 2712918880" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to post all the lines in the current view?</source>
+          <target>Wilt u alle rijen in de huidige weergave opnemen?</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2076866724 - Action 1323435731 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete all the lines in the current view.</source>
+          <target>Hiermee wist u alle rijen in de huidige weergave.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3388361542 - Method 1072249615 - NamedType 1068754970" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The job queue entry already exists for the journal template name %1 and journal batch name %2. Do you want to open it?</source>
+          <target>De taakwachtrijvermelding bestaat al voor de sjabloonnaam %1 en voor de batchnaam %2 van het journaal. Wil je het openen?</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2076866724 - Action 821810876 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Filtered Lines</source>
+          <target>Gefilterde rijen registreren</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2076866724 - Action 3441540868 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Batch</source>
+          <target>Batch opnemen</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2076866724 - Action 3758043814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Selected Prod Order</source>
+          <target>Geselecteerde productieorder boeken</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2076866724 - Action 3627832736 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set up the job queue to schedule consumption posting.</source>
+          <target>Configureer de taakwachtrij om verbruiksregistratie te plannen</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2076866724 - Action 4108018442 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post (MMM)</source>
+          <target>Opnemen (MMM)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2076866724 - Action 821810876 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Try to post all the lines in the current view if possible (errors are ignored and lines not posted remain on journal).</source>
+          <target>Probeer indien mogelijk alle regels in de huidige weergave vast te leggen (fouten worden genegeerd en niet-geregistreerde regels blijven in het journaal staan).</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2076866724 - Action 3627832736 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Schedule consumption posting with job queue (MMM)</source>
+          <target>Verbruiksregistratie plannen met Job Queue (MMM)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2076866724 - Action 3441540868 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Try to post all the lines in the batch if possible, excluding any user filters (errors are ignored and lines not posted remain on journal).</source>
+          <target>Probeer indien mogelijk alle regels in de batch te boeken, met uitzondering van eventuele gebruikersfilters (fouten worden genegeerd en niet-geboekte regels blijven in het journaal staan).</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2076866724 - Action 3758043814 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Try to post all the lines for the production order of the selected journal line if possible, excluding any user filters (errors are ignored and lines not posted remain on journal).</source>
+          <target>Probeer indien mogelijk alle regels voor de productieorder van de geselecteerde journaalregel te boeken, met uitzondering van eventuele gebruikersfilters (fouten worden genegeerd en niet-geboekte regels blijven in het journaal staan).</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204857094 - Action 3758043814 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Try to post all the lines for the production order of the selected journal line if possible, excluding any user filters (errors are ignored and lines not posted remain on journal).</source>
+          <target>Probeer indien mogelijk alle regels voor de productieorder van de geselecteerde journaalregel te boeken, met uitzondering van eventuele gebruikersfilters (fouten worden genegeerd en niet-geboekte regels blijven in het journaal staan).</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204857094 - Action 821810876 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Filtered Lines</source>
+          <target>Gefilterde rijen registreren</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204857094 - Action 821810876 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Try to post all the lines in the current view if possible (errors are ignored and lines not posted remain on journal).</source>
+          <target>Probeer indien mogelijk alle regels in de huidige weergave vast te leggen (fouten worden genegeerd en niet-geregistreerde regels blijven in het journaal staan).</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204857094 - Action 1323435731 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete all the lines in the current view.</source>
+          <target>Hiermee wist u alle rijen in de huidige weergave.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204857094 - Action 3441540868 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Batch</source>
+          <target>Batch opnemen</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204857094 - Action 3441540868 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Try to post all the lines in the batch if possible, excluding any user filters (errors are ignored and lines not posted remain on journal).</source>
+          <target>Probeer indien mogelijk alle regels in de batch te boeken, met uitzondering van eventuele gebruikersfilters (fouten worden genegeerd en niet-geboekte regels blijven in het journaal staan).</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204857094 - Action 1323435731 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete All Lines (MMM)</source>
+          <target>Alle rijen wissen (MMM)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4047783013 - Control 4051917290 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Physically save error messages of production posting (consumption, output and production order), using action "Post (MMM)" from journals.</source>
+          <target>Hiermee worden de foutmeldingen van de productiejournalen (verbruik, output en productieorder) fysiek opgeslagen met behulp van de actie "Boeken (MMM)" van de journalen.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204857094 - Action 3627832736 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set up the job queue to schedule output posting.</source>
+          <target>Configureer de taakwachtrij om uitvoerlogboekregistratie te plannen</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204857094 - Action 3627832736 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Schedule output posting with job queue (MMM)</source>
+          <target>Uitvoerregistratie plannen met taakwachtrij (MMM)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204857094 - Action 3758043814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Selected Prod Order</source>
+          <target>Geselecteerde productieorder boeken</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4204857094 - Action 4108018442 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post (MMM)</source>
+          <target>Opnemen (MMM)</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4047783013 - Field 4051917290 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Production Posting Log</source>
+          <target>Logboeken voor productieregistratie inschakelen</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4047783013 - Control 2078755139 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manufacturing Management (MMM)</source>
+          <target>Productiebeheer (MMM)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3448458594 - Action 821810876 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Filtered Lines</source>
+          <target>Gefilterde rijen registreren</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3448458594 - Action 821810876 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Try to post all the lines in the current view if possible (errors are ignored and lines not posted remain on journal).</source>
+          <target>Probeer indien mogelijk alle regels in de huidige weergave vast te leggen (fouten worden genegeerd en niet-geregistreerde regels blijven in het journaal staan).</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3448458594 - Action 4108018442 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post (MMM)</source>
+          <target>Opnemen (MMM)</target>
         </trans-unit>
       </group>
     </body>
