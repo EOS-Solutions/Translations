@@ -1808,6 +1808,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Purchase Receipt Prefix - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3009369369 - Field 1987017010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Return Order Prefix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Purchase Ret Order Prefix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3009369369 - Field 456397972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Return Shipment Prefix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Purchase Ret Shipment Prefix - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3009369369 - Field 2368710276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remove Country Code from VAT Reg. No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1817,6 +1827,16 @@
           <source>Sales Order Prefix</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Sales Order Prefix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3009369369 - Field 1784761039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Return Order Prefix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Sales Ret Order Prefix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3009369369 - Field 509644457 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Return Receipt Prefix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Sales Ret Receipt Prefix - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3009369369 - Field 1370614220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Shipment Prefix</source>
@@ -1952,11 +1972,6 @@
           <source>The sum of those batch lines does not equal zero: %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Try Batch Insert - Method CheckIfSumOfAllProgressiveReturnsZero - NamedType HeaderTextErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2077446059 - Method 4089338765 - NamedType 1685067840" size-unit="char" translate="yes" xml:space="preserve">
-          <source>If you change Currency Code, the existing sales lines will be deleted and new sales lines based on the new information on the header will be created.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX002 DCF Test - Method CurrencyUIHandler - NamedType MessageCurrency</note>
         </trans-unit>
         <trans-unit id="Codeunit 3600054511 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial subscription for DocFinance found - day %1 of %2</source>
@@ -2998,10 +3013,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Purchase Receipt Prefix - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3009369369 - Control 1717271313 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The prefix to identify Purchase Return Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Purchase Return Order Prefix - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Control 1809979147 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The prefix to identify Purchase Return Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Purchase Return Shipment Prefix - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3009369369 - Control 3370527994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>The prefix to identify Sales Orders</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Sales Order Prefix - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Control 4236056584 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The prefix to identify Sales Return Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Sales Return Order Prefix - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Control 2261778818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The prefix to identify Sales Return Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Sales Return Receipt Prefix - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Control 1370614220 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>The prefix to identify Sales Shipments</source>
@@ -3432,6 +3467,11 @@
           <source>Reminder</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS DCF DocumentType - EnumValue Reminder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 533126262 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EOS002 DCF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet EOS002 DCF - Property Caption</note>
         </trans-unit>
       </group>
     </body>
