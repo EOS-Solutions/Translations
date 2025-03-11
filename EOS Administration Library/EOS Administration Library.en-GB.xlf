@@ -1173,6 +1173,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 REST Client - Method ThrowIfNotSuccessStatus - NamedType GenericFailureErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3154161482 - NamedType 3426205567" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Subscription</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 Subscription - NamedType CheckSubscriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3154161482 - Method 1128006672 - NamedType 2370979344" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your subscription for %1 has expired on %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 Subscription - Method GetExpiredText - NamedType SubscriptionExpiredTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3154161482 - Method 2893388455 - NamedType 2873711450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your subscription for %1 is expiring on %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 Subscription - Method GetExpiringText - NamedType ExpiringTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3154161482 - Method 908438611 - NamedType 828711478" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An active subscription for %1 is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 Subscription - Method GetNoSubscriptionText - NamedType SubscriptionRequiredTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3154161482 - Method 824146115 - NamedType 2947572966" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have %1 days left in your trial for %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 Subscription - Method GetTrialText - NamedType TrialTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2454517920 - NamedType 936237932" size-unit="char" translate="yes" xml:space="preserve">
           <source>No app has been specified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1958,26 +1983,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Subscr. Control Panel - Action DownloadSubscrCache - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1804287764 - Action 1168089130 - Method 1377591017 - NamedType 394231959" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SubscrCache.json</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Subscr. Control Panel - Action DownloadSubscrCache - Method OnAction - NamedType ToFileTok</note>
-        </trans-unit>
-        <trans-unit id="Page 1804287764 - Action 1168089130 - Method 1377591017 - NamedType 2726950570" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Download Subscription Cache</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Subscr. Control Panel - Action DownloadSubscrCache - Method OnAction - NamedType DownloadSubscrCacheTxt</note>
-        </trans-unit>
-        <trans-unit id="Page 1804287764 - Action 1168089130 - Method 1377591017 - NamedType 3089172956" size-unit="char" translate="yes" xml:space="preserve">
-          <source>JSON Files (*.json)|*.json</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Subscr. Control Panel - Action DownloadSubscrCache - Method OnAction - NamedType JsonFilterTok</note>
-        </trans-unit>
-        <trans-unit id="Page 1804287764 - Action 1168089130 - Method 1377591017 - NamedType 2129913380" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There is no subscription cache.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Subscr. Control Panel - Action DownloadSubscrCache - Method OnAction - NamedType NoCacheErr</note>
-        </trans-unit>
         <trans-unit id="Page 1804287764 - Action 4040426973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Subscription</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2377,11 +2382,6 @@
           <source>Procedure Cancelled by user.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - NamedType ErrorCanceledLbl</note>
-        </trans-unit>
-        <trans-unit id="Page 1999515531 - NamedType 2740281649" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(not installed) AppID %1 </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 APP Access Check Setup - NamedType NotInstalledLbl</note>
         </trans-unit>
         <trans-unit id="Page 1999515531 - Method 2005570468 - NamedType 2740281649" size-unit="char" translate="yes" xml:space="preserve">
           <source>AppID %1 (not installed)</source>
