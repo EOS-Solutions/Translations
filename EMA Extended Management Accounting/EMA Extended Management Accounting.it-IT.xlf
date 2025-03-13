@@ -789,7 +789,7 @@
         </trans-unit>
         <trans-unit id="Table 2660126533 - Field 2562339678 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Combine Entries</source>
-          <target>Compressione mov.</target>
+          <target>Compressione mov. profittabilità</target>
         </trans-unit>
         <trans-unit id="Table 2660126533 - Field 3995035435 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blocked</source>
@@ -2369,7 +2369,7 @@
         </trans-unit>
         <trans-unit id="Table 2600377917 - Field 2937905708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Combined Entry</source>
-          <target>Mov. Compresso</target>
+          <target>Movimento compresso</target>
         </trans-unit>
         <trans-unit id="Table 2600377917 - Field 834138311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bal. C/A Account No.</source>
@@ -3147,10 +3147,6 @@
           <source>ALLOC</source>
           <target>ALLOCAZ</target>
         </trans-unit>
-        <trans-unit id="Table 1807575381 - NamedType 1915138178" translate="yes" size-unit="char" xml:space="preserve">
-          <source>INVREC</source>
-          <target>GLRIC</target>
-        </trans-unit>
         <trans-unit id="Table 1807575381 - NamedType 17661673" translate="yes" size-unit="char" xml:space="preserve">
           <source>CAJOUR</source>
           <target>REGCOSTI</target>
@@ -3185,7 +3181,7 @@
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 2562339678 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Combine Entries</source>
-          <target>Compressione mov.</target>
+          <target>Compressione mov. sincronizzazione C/G con C/A</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 2562339678 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>None,Day,Month</source>
@@ -3208,7 +3204,7 @@
           <target>Dim. centro di costo</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 2664949759 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Combine Entries C/Ind</source>
+          <source>Profitability Combine Entries</source>
           <target>Compressione mov. profittabilità</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 460052557 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
@@ -5641,7 +5637,7 @@
         </trans-unit>
         <trans-unit id="Page 2773799606 - Control 2562339678 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the option to allow for general ledger entries to be posted individually or as a combined posting per day or month.</source>
-          <target>Specifica l'opzione per consentire che le voci di contabilità generale vengano registrate singolarmente o come registrazioni combinate al giorno o al mese.</target>
+          <target>Specifica l'opzione per consentire l'inserimento di movimenti di profittabilità singolarmente o combinate al giorno o al mese o alla data fine periodo di analisi.</target>
         </trans-unit>
         <trans-unit id="Page 2773799606 - Property 2019332006" translate="yes" size-unit="char" xml:space="preserve">
           <source>New,Process,Report,Update,Entry,Navigate</source>
@@ -7589,7 +7585,7 @@
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 2664949759 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the option to allow for industrial ledger entries to be posted individually or as a combined posting per day or month.</source>
-          <target>Specifica l'opzione per consentire l'inserimento di registrazioni contabili analitiche singolarmente o come registrazioni combinate al giorno o al mese.</target>
+          <target>Specifica l'opzione per consentire l'inserimento di movimenti di profittabilità singolarmente o combinate al giorno o al mese o alla data fine periodo di analisi.</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1760325300 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Telemetry Enabled for Transfer Entries to C/A field.</source>
@@ -10898,6 +10894,30 @@
         <trans-unit id="Codeunit 3429295233 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculate allocation ...\\</source>
           <target>Calcolo allocazioni ...\\</target>
+        </trans-unit>
+        <trans-unit id="Table 1807575381 - Field 3107103905 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Combine Entries C/A Analysis</source>
+          <target>Compressione mov. analisi C/A</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 3107103905 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Combine Entries C/A Analysis field.</source>
+          <target>Specifica l'opzione per consentire l'inserimento di registrazioni contabili analitiche singolarmente o come registrazioni combinate al giorno o al mese.</target>
+        </trans-unit>
+        <trans-unit id="Table 2660126533 - Field 3107103905 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Day,Month,Maximum</source>
+          <target>Giorno,Mese,Massimo</target>
+        </trans-unit>
+        <trans-unit id="Table 2660126533 - Field 3107103905 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Combine Entries C/A Analysis</source>
+          <target>Compressione mov. analisi C/A</target>
+        </trans-unit>
+        <trans-unit id="Table 1807575381 - Field 3107103905 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Day,Month,Maximum</source>
+          <target>Giorno,Mese,Massimo</target>
+        </trans-unit>
+        <trans-unit id="Page 2773799606 - Control 3107103905 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Combine Entries C/A Analysis field.</source>
+          <target>Specifica l'opzione per consentire l'inserimento di registrazioni contabili analitiche singolarmente o come registrazioni combinate al giorno o al mese.</target>
         </trans-unit>
       </group>
     </body>
