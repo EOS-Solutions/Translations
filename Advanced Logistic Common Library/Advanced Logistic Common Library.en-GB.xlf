@@ -23,6 +23,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS029 Container Entry - Field Account Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2620756771 - Field 2814799924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS029 Container Entry - Field Bin Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2620756771 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2283,10 +2288,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS055.01 SDH - Purch. Line - Method PackagingInstruction_OnBeforeDeleteEvent - NamedType PackagingInstructionUsedErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1920298961 - Method 1680896043 - NamedType 122533203" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Undoing all shipment lines and handling units?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS055.01 SDH - Return Shpt. - Method UndoShipmentAndHandlingUnits - NamedType MsgConfirmUndoLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 395379254 - Method 3079319167 - NamedType 2945320687" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot delete %1 %2 because it is used in %3 %4.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS055.01 SDH - Sales Line - Method PackagingInstruction_OnBeforeDeleteEvent - NamedType PackagingInstructionUsedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3684960087 - Method 1680896043 - NamedType 122533203" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Undoing all shipment lines and handling units?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS055.01 SDH - Sales Shpt. - Method UndoShipmentAndHandlingUnits - NamedType MsgConfirmUndoLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2728795330 - Method 223252996 - NamedType 4027807923" size-unit="char" translate="yes" xml:space="preserve">
           <source>Undo Transfer Shipment is not supported with HU.</source>
@@ -2347,6 +2362,11 @@
           <source>Specifies the value of the "Account Type" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS029 Container Entries - Control Account Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2038523609 - Control 2814799924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Bin Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS029 Container Entries - Control Bin Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2038523609 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Description" field.</source>
@@ -6243,6 +6263,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS029PageExt18126564 - Action EOS030DocHandlingUnits - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1153017333 - Action 3858583163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Undo all shipment lines and handling units for the current document. The handling units will be moved to the "Loaded" status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS029PageExt18126564 - Action EOS05501UndoShipmentAndHandlingUnits - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1153017333 - Action 3858583163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Undo Shipment lines and Handling Units</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS029PageExt18126564 - Action EOS05501UndoShipmentAndHandlingUnits - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1790713950 - Action 303127236 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4073709604">
           <source>Shows the empties balance of the shipping agent.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6412,6 +6442,16 @@
           <source>Handling Units</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS029PageExt18126571 - Action EOS030DocHandlingUnits - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1467489081 - Action 3858583163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1514853781">
+          <source>Undo all shipment lines and handling units for the current document. The handling units will be moved to the "Loaded" status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS029PageExt18126571 - Action EOS05501UndoShipmentAndHandlingUnits - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1467489081 - Action 3858583163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1514853781">
+          <source>Undo Shipment lines and Handling Units</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS029PageExt18126571 - Action EOS05501UndoShipmentAndHandlingUnits - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 829792464 - Action 2298047618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52957233">
           <source>Empties</source>
