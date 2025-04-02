@@ -1,0 +1,2129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 3778155242 - NamedType 3166200292" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Field %1 mandatory</source>
+          <target>%1 Pflichtfeld</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3778155242 - NamedType 3732014633" translate="yes" size-unit="char" xml:space="preserve">
+          <source>For Operation TAGL at least two records are needed for the base product.</source>
+          <target>Die Operation TAGL benötigt mindestens zwei Zeilen für das Basisprodukt.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3778155242 - NamedType 4273301329" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The ICQRF code must be the same in all the selected operations</source>
+          <target>Der ICQRF Code muss derselbe in allen ausgewählten Operationen sein</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 754948096 - Method 1065373784 - NamedType 4000745368" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Are you sure to confirm the operation?</source>
+          <target>Sind Sie sicher dass Sie die Operation bestätigen wollen?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 754948096 - Method 2320742523 - NamedType 2103495642" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All the selected subjects must be from the same type</source>
+          <target>Alle ausgewählen Subjekte müssen vom selben Typ sein</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 754948096 - Method 842178652 - NamedType 2103495642" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All the selected subjects must be from the same type</source>
+          <target>Alle ausgewählen Subjekte müssen vom selben Typ sein</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 754948096 - NamedType 1446885954" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All the selected operations must be controlled and sent, but not cancelled</source>
+          <target>Alle ausgewählten Operationen müssen kontrolliert und gesendet, nicht aber gelöscht sein</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 754948096 - NamedType 1538043798" translate="yes" size-unit="char" xml:space="preserve">
+          <source>A part of the selected operations are already expired and cannot be deleted anymore</source>
+          <target>Ein Teil der ausgewählen Operationen sind schon abgelaufen und können somit nicht mehr gelöscht werden</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 754948096 - NamedType 1578598990" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All the selected operations must be controlled, but not sent or cancelled</source>
+          <target>Alle ausgewählten Operationen mussten kontrolliert, aber nicht gesendet oder gelöscht sein</target>
+        </trans-unit>
+        <trans-unit id="Enum 1409759036 - EnumValue 1082329495 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EX</source>
+          <target>EX</target>
+        </trans-unit>
+        <trans-unit id="Enum 1409759036 - EnumValue 1897391324 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>UE</source>
+          <target>UE</target>
+        </trans-unit>
+        <trans-unit id="Enum 1409759036 - EnumValue 960171255 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IT</source>
+          <target>IT</target>
+        </trans-unit>
+        <trans-unit id="Enum 1940606671 - EnumValue 1533105589 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Negative Adjmt.</source>
+          <target>Abgang</target>
+        </trans-unit>
+        <trans-unit id="Enum 1940606671 - EnumValue 1994235757 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Positive Adjmt.</source>
+          <target>Zugang</target>
+        </trans-unit>
+        <trans-unit id="Enum 1940606671 - EnumValue 222541771 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Assembly Output</source>
+          <target>Montage-Istmeldung</target>
+        </trans-unit>
+        <trans-unit id="Enum 1940606671 - EnumValue 2315137949 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sale</source>
+          <target>Verkauf</target>
+        </trans-unit>
+        <trans-unit id="Enum 1940606671 - EnumValue 395510365 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase</source>
+          <target>Einkauf</target>
+        </trans-unit>
+        <trans-unit id="Enum 1940606671 - EnumValue 3961040049 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Output</source>
+          <target>Istmeldung</target>
+        </trans-unit>
+        <trans-unit id="Enum 1940606671 - EnumValue 4224198349 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transfer</source>
+          <target>Umlagerung</target>
+        </trans-unit>
+        <trans-unit id="Enum 1940606671 - EnumValue 737498079 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Consumption</source>
+          <target>Verbrauch</target>
+        </trans-unit>
+        <trans-unit id="Enum 1940606671 - EnumValue 756438461 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Assembly Consumption</source>
+          <target>Verbrauch für Montage</target>
+        </trans-unit>
+        <trans-unit id="Enum 1952739904 - EnumValue 642782499 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update</source>
+          <target>Aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="Enum 1952739904 - EnumValue 710972128 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create</source>
+          <target>erstellen</target>
+        </trans-unit>
+        <trans-unit id="Enum 2872144170 - EnumValue 1936001480 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor</source>
+          <target>Kreditor</target>
+        </trans-unit>
+        <trans-unit id="Enum 2872144170 - EnumValue 1994964448 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer</source>
+          <target>Debitor</target>
+        </trans-unit>
+        <trans-unit id="Enum 2872144170 - EnumValue 2271291437 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shipping Agent</source>
+          <target>Zusteller</target>
+        </trans-unit>
+        <trans-unit id="Enum 2872144170 - EnumValue 2611991338 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Campaign</source>
+          <target>Kampagne</target>
+        </trans-unit>
+        <trans-unit id="Enum 2872144170 - EnumValue 3133801257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Company</source>
+          <target>Unternehmen</target>
+        </trans-unit>
+        <trans-unit id="Enum 2872144170 - EnumValue 3276313895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item</source>
+          <target>Artikel</target>
+        </trans-unit>
+        <trans-unit id="Enum 3234241885 - EnumValue 3939861283 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>A</source>
+          <target>A</target>
+        </trans-unit>
+        <trans-unit id="Enum 3234241885 - EnumValue 451499627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>I</source>
+          <target>I</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 1105015590 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SVIN</source>
+          <target>SVIN</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 1283803715 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>GIIN</source>
+          <target>GIIN</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 1323938941 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SFEC</source>
+          <target>SFEC</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 1339518226 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>TAGL</source>
+          <target>TAGL</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 1380027166 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DERI</source>
+          <target>DERI</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 1404211436 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>AUCO</source>
+          <target>AUCO</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 1672143757 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ACET</source>
+          <target>ACET</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 182562353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SCDS</source>
+          <target>SCDS</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 1914118961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>APRT</source>
+          <target>APRT</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 2172609101 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PERD</source>
+          <target>PERD</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 2278167161 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>AVLT</source>
+          <target>AVLT</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 229026487 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CASD</source>
+          <target>CASD</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 2441165041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ACID</source>
+          <target>ACID</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 2653353585 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PIGI</source>
+          <target>PIGI</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 2984525514 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EVAL</source>
+          <target>EVAL</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 2994014457 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DISA</source>
+          <target>DISA</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 3048016668 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>FRGS</source>
+          <target>FRGS</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 312519254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>BABS</source>
+          <target>BABS</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 3457571295 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ARMC</source>
+          <target>ARMC</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 3479060789 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DENT</source>
+          <target>DENT</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 3500741526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DIST</source>
+          <target>DIST</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 3692632709 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SUPE</source>
+          <target>SUPE</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 3840119531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IMBO</source>
+          <target>IMBO</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 3847866044 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CERT</source>
+          <target>CERT</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 3867367777 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>FRAB</source>
+          <target>FRAB</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 3896457904 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>LIEL</source>
+          <target>LIEL</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 3903058512 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DOLC</source>
+          <target>DOLC</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 414538265 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ELMC</source>
+          <target>ELMC</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 4150290250 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>AARD</source>
+          <target>AARD</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 415111894 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>TRSO</source>
+          <target>TRSO</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 619447051 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>USSD</source>
+          <target>USSD</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 875407755 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SCZC</source>
+          <target>SCZC</target>
+        </trans-unit>
+        <trans-unit id="Enum 377092713 - EnumValue 998047561 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SPGS</source>
+          <target>SPGS</target>
+        </trans-unit>
+        <trans-unit id="Enum 3916841764 - EnumValue 1974672357 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transfer Shipment</source>
+          <target>Umlagerungsausgang</target>
+        </trans-unit>
+        <trans-unit id="Enum 3916841764 - EnumValue 2746818404 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Shipment</source>
+          <target>Verkaufslieferung</target>
+        </trans-unit>
+        <trans-unit id="Enum 490818672 - EnumValue 1920046521 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit of Measure</source>
+          <target>Einheit</target>
+        </trans-unit>
+        <trans-unit id="Enum 490818672 - EnumValue 2588654952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Origin</source>
+          <target>Herkunft</target>
+        </trans-unit>
+        <trans-unit id="Enum 490818672 - EnumValue 3108107879 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operations</source>
+          <target>Operationen</target>
+        </trans-unit>
+        <trans-unit id="Enum 490818672 - EnumValue 3321894977 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transport Reason</source>
+          <target>Transportgrund</target>
+        </trans-unit>
+        <trans-unit id="Enum 490818672 - EnumValue 3702373668 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Category</source>
+          <target>Kategorie</target>
+        </trans-unit>
+        <trans-unit id="Enum 490818672 - EnumValue 61007498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Enum 490818672 - EnumValue 714498981 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transport</source>
+          <target>Transport</target>
+        </trans-unit>
+        <trans-unit id="Page 1280904284 - Action 2324378151 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get product stock</source>
+          <target>Lagerinhalt abfragen</target>
+        </trans-unit>
+        <trans-unit id="Page 1280904284 - Action 2324378151 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get product stock</source>
+          <target>Lagerinhalt abfragen</target>
+        </trans-unit>
+        <trans-unit id="Page 1280904284 - Action 3153743028 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Stock</source>
+          <target>Lagerbestand</target>
+        </trans-unit>
+        <trans-unit id="Page 1280904284 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description" field</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Page 1280904284 - Control 47657272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description 2" field</source>
+          <target>Beschreibung 2</target>
+        </trans-unit>
+        <trans-unit id="Page 140911090 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 140911090 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 140911090 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 140911090 - Control 4043271770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 1533615196 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
+          <target>Zeilen</target>
+        </trans-unit>
+        <trans-unit id="Page 1552227754 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 1552227754 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 1552227754 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 1552227754 - Control 4043271770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 1753524338 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 1753524338 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 1753524338 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 1753524338 - Control 4043271770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 1762730 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Page 1762730 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Page 1762730 - Control 3591349006 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="Page 1911662414 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 1911662414 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 1911662414 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 1911662414 - Control 4043271770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 1915412801 - Control 2832340769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Year" field</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Page 1915412801 - Control 333414773 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "SIAN Classification" field</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Page 1915412801 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description" field</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Page 1915412801 - Control 3642078097 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Secondary Code" field</source>
+          <target>Sekundärer Code</target>
+        </trans-unit>
+        <trans-unit id="Page 1915412801 - Control 637863499 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Primary Code" field</source>
+          <target>Primärer Code</target>
+        </trans-unit>
+        <trans-unit id="Page 2057365140 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 2057365140 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 2057365140 - Action 3383181603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Data</source>
+          <target>Daten aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 2057365140 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 2057365140 - Control 2278520725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 2057365140 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Vineyard Card</source>
+          <target>SIAN Weinbergkarte</target>
+        </trans-unit>
+        <trans-unit id="Page 2117727659 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description" field</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Page 2117727659 - Control 3704927951 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description 3" field</source>
+          <target>Beschreibung 3</target>
+        </trans-unit>
+        <trans-unit id="Page 2117727659 - Control 47657272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description 2" field</source>
+          <target>Beschreibung 2</target>
+        </trans-unit>
+        <trans-unit id="Page 2211657039 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Allgemein</target>
+        </trans-unit>
+        <trans-unit id="Page 2211657039 - Control 2832340769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Page 2211657039 - Control 333414773 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Page 2211657039 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Action 720998867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get response from last deletion operation</source>
+          <target>Antwort von letzter Löschoperation erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 1125016866 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Maximum Lines Number</source>
+          <target>Maximale Zeilenanzahl</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 1502400274 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operations</source>
+          <target>Operationen</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 1532816877 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numbering</source>
+          <target>Nummerierung</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 1812376208 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Response Code</source>
+          <target>Letzter Antwortencode</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 2130869156 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default SIAN Enological Practice</source>
+          <target>Standard SIAN önologisches Verfahren</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Eigenschaften</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 2413538671 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Attributes Secondary Code</source>
+          <target>Sekundärer Code</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Allgemein</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 4075710125 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default Values</source>
+          <target>Standard Werte</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 4166986742 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Response Message</source>
+          <target>Letzte Antwortennachricht</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 826895832 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Units of measure</source>
+          <target>Einheiten</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 847365148 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Skip Receipt Tank Code</source>
+          <target>Weinbehältercode in Wareneingang überspringen</target>
+        </trans-unit>
+        <trans-unit id="Page 2219623836 - Control 997360486 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Attributes Primary Nos.</source>
+          <target>Artikeleigenschaften Primäre Nummern</target>
+        </trans-unit>
+        <trans-unit id="Page 2223356098 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 2223356098 - Action 1059894216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 2223356098 - Action 2611259241 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Split Operation</source>
+          <target>Operation teilen</target>
+        </trans-unit>
+        <trans-unit id="Page 2223356098 - Action 2611259241 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Split Operation</source>
+          <target>Operation teilen</target>
+        </trans-unit>
+        <trans-unit id="Page 2223356098 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 2223356098 - Action 3538210097 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Navigate</source>
+          <target>Navigieren</target>
+        </trans-unit>
+        <trans-unit id="Page 2223356098 - Action 3538210097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Navigate</source>
+          <target>Navigieren</target>
+        </trans-unit>
+        <trans-unit id="Page 2223356098 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 2223356098 - Control 2278520725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 2223356098 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Allgemein</target>
+        </trans-unit>
+        <trans-unit id="Page 2223356098 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Document No.</source>
+          <target>Dokumentnr.</target>
+        </trans-unit>
+        <trans-unit id="Page 2278640744 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 2278640744 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 2278640744 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 2278640744 - Control 4043271770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 2319755208 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 2319755208 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 2319755208 - Action 3383181603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Data</source>
+          <target>Daten aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 2319755208 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 2319755208 - Control 2278520725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 2319755208 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Customer Card</source>
+          <target>SIAN Debitorenkarte</target>
+        </trans-unit>
+        <trans-unit id="Page 2440858028 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 2440858028 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 2440858028 - Action 3383181603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Data</source>
+          <target>Daten aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 2440858028 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 2440858028 - Control 2278520725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 2440858028 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Item Card</source>
+          <target>SIAN Artikelkarte</target>
+        </trans-unit>
+        <trans-unit id="Page 2463351559 - Control 2832340769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Page 2463351559 - Control 394351785 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Container</source>
+          <target>Contenitore</target>
+        </trans-unit>
+        <trans-unit id="Page 2463351559 - Control 61007498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Page 247528384 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 247528384 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 247528384 - Action 3383181603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Data</source>
+          <target>Daten aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 247528384 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 247528384 - Control 2278520725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 247528384 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Vendor Card</source>
+          <target>SIAN Kreditorenkarte</target>
+        </trans-unit>
+        <trans-unit id="Page 275417508 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 275417508 - Action 1059894216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 275417508 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 275417508 - Action 2884316743 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Web Service</source>
+          <target>Web Service</target>
+        </trans-unit>
+        <trans-unit id="Page 275417508 - Action 3258398772 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Operation</source>
+          <target>Operation kopieren</target>
+        </trans-unit>
+        <trans-unit id="Page 275417508 - Action 3258398772 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Operation</source>
+          <target>Operation kopieren</target>
+        </trans-unit>
+        <trans-unit id="Page 275417508 - Action 3874805895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Helpers</source>
+          <target>Helfer</target>
+        </trans-unit>
+        <trans-unit id="Page 275417508 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 275417508 - Control 4043271770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 275417508 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Document No.</source>
+          <target>Dokumentnr.</target>
+        </trans-unit>
+        <trans-unit id="Page 2935584241 - Control 2832340769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies SIAN Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Page 2935584241 - Control 333414773 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies SIAN Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Page 2935584241 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Page 2935584241 - Control 47657272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Description 2</source>
+          <target>Beschreibung 2</target>
+        </trans-unit>
+        <trans-unit id="Page 2935584241 - Control 568743302 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Item No.</source>
+          <target>Artikelnr.</target>
+        </trans-unit>
+        <trans-unit id="Page 2935584241 - NamedType 2699453193" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to store the inserted SIAN Item Attributes?</source>
+          <target>Möchten Sie die eingegebenen SIAN Artikeleigenschaften speichern?</target>
+        </trans-unit>
+        <trans-unit id="Page 2935584241 - NamedType 499287411" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to update field %1 with the same value for all items of the same category?</source>
+          <target>Möchten Sie das Feld %1 für alle Artikel derselben Kategorie aktualisieren?</target>
+        </trans-unit>
+        <trans-unit id="Page 3011268696 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
+          <target>Zeilen</target>
+        </trans-unit>
+        <trans-unit id="Page 3098654515 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Allgemein</target>
+        </trans-unit>
+        <trans-unit id="Page 3098654515 - Control 2832340769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Page 3098654515 - Control 333414773 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Page 3098654515 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Page 3162275650 - Control 2588654952 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Origin</source>
+          <target>Herkunft</target>
+        </trans-unit>
+        <trans-unit id="Page 3162275650 - Control 2609919304 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Treatment</source>
+          <target>Behandlung</target>
+        </trans-unit>
+        <trans-unit id="Page 3162275650 - Control 2832340769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Page 3162275650 - Control 2898143332 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Note</source>
+          <target>Notiz</target>
+        </trans-unit>
+        <trans-unit id="Page 3162275650 - Control 394351785 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Container</source>
+          <target>Container</target>
+        </trans-unit>
+        <trans-unit id="Page 3162275650 - Control 61007498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Page 3162275650 - Control 762499963 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packages</source>
+          <target>Anzahl Packungen</target>
+        </trans-unit>
+        <trans-unit id="Page 3174049541 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Page 3174049541 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Action 114159022 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Functions</source>
+          <target>Funktionen</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Action 1234124704 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Subject</source>
+          <target>Subjekt</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Action 2079994637 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Line</source>
+          <target>Zeile kopieren</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Action 2079994637 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Line</source>
+          <target>Zeile kopieren</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Action 2214754025 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Product Card</source>
+          <target>Produktkarte</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Action 2214754025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Product Card</source>
+          <target>Produktkarte</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Action 2324378151 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get product stock</source>
+          <target>Lagerinhalt abfragen</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Action 2324378151 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get product stock</source>
+          <target>Lagerinhalt abfragen</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Action 3153743028 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Stock</source>
+          <target>Lagerbestand</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Action 605068622 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lot No. Information List</source>
+          <target>Chargennr.-Informationsliste</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Action 605068622 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lot No. Information List</source>
+          <target>Chargennr.-Informationsliste</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Control 2832340769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Control 394351785 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Container</source>
+          <target>Contenitore</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Control 568743302 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Item No.</source>
+          <target>Artikelnr.</target>
+        </trans-unit>
+        <trans-unit id="Page 3179537690 - Control 61007498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Page 3203431428 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Document No.</source>
+          <target>Dokumentnr.</target>
+        </trans-unit>
+        <trans-unit id="Page 3412172508 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
+          <target>Zeilen</target>
+        </trans-unit>
+        <trans-unit id="Page 3425926088 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
+          <target>Zeilen</target>
+        </trans-unit>
+        <trans-unit id="Page 3669978388 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 3669978388 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 3669978388 - Action 3383181603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Data</source>
+          <target>Daten aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 3669978388 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 3669978388 - Control 2278520725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 3765489371 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Lot No. Information</source>
+          <target>SIAN Chargennr.-Information</target>
+        </trans-unit>
+        <trans-unit id="Page 3781530640 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
+          <target>Zeilen</target>
+        </trans-unit>
+        <trans-unit id="Page 4001692866 - Control 2435970385 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Code</source>
+          <target>Steuernummer</target>
+        </trans-unit>
+        <trans-unit id="Page 4001692866 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Page 4001692866 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Page 4001692866 - Control 3638947533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Valid For transmission</source>
+          <target>Gültig für Übertragung</target>
+        </trans-unit>
+        <trans-unit id="Page 4001692866 - Control 3732224266 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Test</source>
+          <target>Test</target>
+        </trans-unit>
+        <trans-unit id="Page 509436604 - Control 1462588013 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Page 509436604 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Einheitencode</target>
+        </trans-unit>
+        <trans-unit id="Page 509436604 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Page 509436604 - Control 3704927951 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 3</source>
+          <target>Beschreibung 3</target>
+        </trans-unit>
+        <trans-unit id="Page 509436604 - Control 47657272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Beschreibung 2</target>
+        </trans-unit>
+        <trans-unit id="Page 570484142 - Control 1053022444 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Product Number</source>
+          <target>Produktnummer</target>
+        </trans-unit>
+        <trans-unit id="Page 570484142 - Control 3156524383 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Type</source>
+          <target>Operationstyp</target>
+        </trans-unit>
+        <trans-unit id="Page 570484142 - Control 385409882 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Product Number Description</source>
+          <target>Beschreibung Produktnummer</target>
+        </trans-unit>
+        <trans-unit id="Page 579274452 - Control 2832340769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Page 579274452 - Control 61007498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Page 579274452 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
+          <target>Zeilen</target>
+        </trans-unit>
+        <trans-unit id="Page 632688838 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 632688838 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Prozess</target>
+        </trans-unit>
+        <trans-unit id="Page 632688838 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 632688838 - Control 4043271770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 767276272 - Action 1059894216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Selected Register</source>
+          <target>Ausgewählte Register zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="Page 767276272 - Action 3383181603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Data</source>
+          <target>Daten aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 767276272 - Action 4281609737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Response</source>
+          <target>Antwort erhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 767276272 - Control 2278520725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Response</source>
+          <target>Antwort SIAN</target>
+        </trans-unit>
+        <trans-unit id="Page 767276272 - Control 2369664869 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Created By</source>
+          <target>Erstellt von</target>
+        </trans-unit>
+        <trans-unit id="Page 767276272 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Allgemein</target>
+        </trans-unit>
+        <trans-unit id="Page 767276272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Vase Card</source>
+          <target>SIAN Behälterkarte</target>
+        </trans-unit>
+        <trans-unit id="Page 856402722 - Control 2116944671 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PEC Validation</source>
+          <target>PEC-Validierung</target>
+        </trans-unit>
+        <trans-unit id="Page 856402722 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies Document No.</source>
+          <target>Dokumentnr.</target>
+        </trans-unit>
+        <trans-unit id="Page 856402722 - Control 959278725 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PEC Code</source>
+          <target>PEC-Code</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1570073497 - Control 1881325007 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exemption Derogation</source>
+          <target>Entlastung Ausnahmeregelung</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1570073497 - Control 3908946481 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN</source>
+          <target>SIAN</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1745177695 - Control 3470098836 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the SIAN Primary Code</source>
+          <target>Primärer Code</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1745177695 - Control 3908946481 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN</source>
+          <target>SIAN</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1745177695 - Control 4162174874 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the SIAN Secondary Code</source>
+          <target>Sekundärer Code</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1745177695 - Control 592087081 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exclude from SIAN Management</source>
+          <target>Von SIAN Verwaltung ausschließen</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1853096857 - Control 3908946481 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN</source>
+          <target>SIAN</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1914086718 - Control 2585911648 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority Name</source>
+          <target>Name zugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1914086718 - Control 2585911648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority Name</source>
+          <target>Name zugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1914086718 - Control 2655485680 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority City</source>
+          <target>Ortzugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1914086718 - Control 2655485680 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority City</source>
+          <target>Ortzugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1914086718 - Control 3175218872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority</source>
+          <target>Zugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1914086718 - Control 3827497922 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority Post Code</source>
+          <target>PLZ-Code zugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1914086718 - Control 3827497922 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority Post Code</source>
+          <target>PLZ-Code zugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1914086718 - Control 543928215 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority Address</source>
+          <target>Adresse zugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1914086718 - Control 543928215 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority Address</source>
+          <target>Adresse zugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 294680263 - Control 3743699556 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 294680263 - Control 3908946481 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN</source>
+          <target>SIAN</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3483163348 - Control 3908946481 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN</source>
+          <target>SIAN</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3783041919 - Control 4277648761 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transport Reason Code</source>
+          <target>Transportgrundcode</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4120859965 - Control 371676717 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Subject</source>
+          <target>SIAN Subjekt</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4120859965 - Control 3743699556 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 854235896 - Control 1378250006 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Enological Practice</source>
+          <target>SIAN önologisches Verfahren</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 854235896 - Control 1881325007 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exemption Derogation</source>
+          <target>Entlastung Ausnahmeregelung</target>
+        </trans-unit>
+        <trans-unit id="Report 1147702058 - Control 1060207642 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Action Type</source>
+          <target>Aktionsart</target>
+        </trans-unit>
+        <trans-unit id="Report 1147702058 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Eigenschaften</target>
+        </trans-unit>
+        <trans-unit id="Report 1147702058 - Control 3591349006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="Report 1238622935 - Control 1792520506 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Dokumentnr.</target>
+        </trans-unit>
+        <trans-unit id="Report 1238622935 - Control 458406397 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Enddatum</target>
+        </trans-unit>
+        <trans-unit id="Report 1238622935 - Control 460889064 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Startdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 1238622935 - NamedType 371538958" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending Date cannot occur before Starting Date</source>
+          <target>Enddatum kann nicht vor Startdatum sein</target>
+        </trans-unit>
+        <trans-unit id="Report 1238622935 - NamedType 445784155" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date, Ending Date and Document No. must contain values</source>
+          <target>Startdatum, Enddatum und Dokumentnr. müssen einen Wert enhalten</target>
+        </trans-unit>
+        <trans-unit id="Report 1324365091 - Control 1060207642 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Action Type</source>
+          <target>Aktionsart</target>
+        </trans-unit>
+        <trans-unit id="Report 1324365091 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Eigenschaften</target>
+        </trans-unit>
+        <trans-unit id="Report 1380299657 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Eigenschaften</target>
+        </trans-unit>
+        <trans-unit id="Report 1847888606 - Control 1060207642 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Action Type</source>
+          <target>Aktionsart</target>
+        </trans-unit>
+        <trans-unit id="Report 1847888606 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Eigenschaften</target>
+        </trans-unit>
+        <trans-unit id="Report 1847888606 - Control 3591349006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="Report 2996177595 - Control 1060207642 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Action Type</source>
+          <target>Aktionsart</target>
+        </trans-unit>
+        <trans-unit id="Report 2996177595 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Eigenschaften</target>
+        </trans-unit>
+        <trans-unit id="Report 344094339 - Control 1060207642 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Action Type</source>
+          <target>Aktionsart</target>
+        </trans-unit>
+        <trans-unit id="Report 344094339 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Eigenschaften</target>
+        </trans-unit>
+        <trans-unit id="Report 344094339 - Control 3591349006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="Report 3623244351 - Control 1060207642 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Action Type</source>
+          <target>Aktionsart</target>
+        </trans-unit>
+        <trans-unit id="Report 3623244351 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Eigenschaften</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 1099903468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Response Message</source>
+          <target>Antwort</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 1407200743 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creation Date</source>
+          <target>Erstellungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 1716707450 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Response Code</source>
+          <target>Antwortencode</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 2116944671 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PEC Validation</source>
+          <target>PEC-Validierung</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 2363328873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Belegart</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 2369664869 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Created By</source>
+          <target>Erstellt von</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 2561328176 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sent</source>
+          <target>Gesendet</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 2898143332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Note</source>
+          <target>Notiz</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 2971054162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Canceled Datetime</source>
+          <target>Zeitpunkt gelöscht</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 3200015516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sent Date</source>
+          <target>Sendedatum</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 3564872192 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Canceled By</source>
+          <target>Gelöscht von</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 376165593 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sent By</source>
+          <target>Gesendet von</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 3844911025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Canceled</source>
+          <target>Gelöscht</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 486908828 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Dokumentnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1367072967 - Field 959278725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PEC Unique Code</source>
+          <target>PEC Eindeutiger Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1411345932 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1411345932 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 1432128086 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1432128086 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 1432128086 - Field 3642078097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Code</source>
+          <target>Sekundärer Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1432128086 - Field 637863499 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary Code</source>
+          <target>Primärer Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1523070273 - Field 1482668068 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lot No.</source>
+          <target>Chargennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1523070273 - Field 2052333445 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Operation Entry No.</source>
+          <target>SIAN Operation Lfd. Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1523070273 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Zeilennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1523070273 - Field 3450651614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Variantencode</target>
+        </trans-unit>
+        <trans-unit id="Table 1523070273 - Field 47037625 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Serial No.</source>
+          <target>Seriennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1523070273 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Artikelnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1523070273 - Field 575532888 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Initial Mark No.</source>
+          <target>Startnummer Markierungen</target>
+        </trans-unit>
+        <trans-unit id="Table 1523070273 - Field 762499963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packages</source>
+          <target>Anzahl Packungen</target>
+        </trans-unit>
+        <trans-unit id="Table 1523070273 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Lfd. Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1523070273 - Field 968910418 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Final Mark No.</source>
+          <target>Endnummer Markierungen</target>
+        </trans-unit>
+        <trans-unit id="Table 1523070273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Lot No. Information</source>
+          <target>SIAN Chargennr.-Information</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 1037119892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Category Code</source>
+          <target>Artikelkategoriencode</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 1052392383 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Decrement Qty.</source>
+          <target>Dekrement Menge</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 1343707150 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Name</source>
+          <target>Herkunftsname</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 1482668068 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lot No.</source>
+          <target>Chargennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 149522872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry Type</source>
+          <target>Postenart</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 1614453709 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Increment Qty.</source>
+          <target>Erhöhen Menge</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 1680605642 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Certificate Number</source>
+          <target>Zertifikatsnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 1772960288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>External Doc. No.</source>
+          <target>Externe Belegnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 1908046867 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Code</source>
+          <target>Ursachencode</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Lagerortcode</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 231643163 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Product Group Code</source>
+          <target>Produktgruppencode</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 2336225448 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bottle Volume</source>
+          <target>Flaschenvolumen</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 2363328873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Belegart</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 2367056265 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remaining Quantity</source>
+          <target>Restmenge</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 2768526835 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CCIAA Document No.</source>
+          <target>CCIAA Belegnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 2828584035 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Certificate Date</source>
+          <target>Zertifikatsdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 2863385071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Tank Code</source>
+          <target>Tankcode</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Zeilennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 3432792075 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Increment Weight</source>
+          <target>Erhöhen Gewicht</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 3450651614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Variantencode</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 3456063670 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CCIAA Document Date</source>
+          <target>CCIAA Belegdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 3584765150 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Secondary Code</source>
+          <target>Sekundärer Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 3591349006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 3710982960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 4093374881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Decrement Weight</source>
+          <target>Dekrement Gewicht</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 486908828 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Dokumentnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 551145680 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Primary Code</source>
+          <target>Primärer Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Artikelnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Date</source>
+          <target>Belegdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 650694743 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Wine Type</source>
+          <target>Weinart</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Lfd. Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1524116410 - Field 924801878 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>External Lot</source>
+          <target>Externe Charge</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 1093055731 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Request Type</source>
+          <target>Anfragentyp</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 1099903468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Response Message</source>
+          <target>Antwort</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 1352474148 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Accepted Datetime</source>
+          <target>Zeitpunkt angenommen</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 1407200743 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creation Date</source>
+          <target>Erstellungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 1716707450 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Response Code</source>
+          <target>Antwortencode</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 1924565022 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Subject Legal Person</source>
+          <target>Subjekt juristische Person</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 2154463854 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Controlled</source>
+          <target>Kontrolliert</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 2309376528 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Subject Type</source>
+          <target>Subjekttyp</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 2369664869 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Created By</source>
+          <target>Erstellt von</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 2561328176 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sent</source>
+          <target>Gesendet</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 281878947 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Subject Code</source>
+          <target>Subjektcode</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 2898143332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Note</source>
+          <target>Notiz</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 2971054162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Canceled Datetime</source>
+          <target>Zeitpunkt gelöscht</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 346708723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Accepted</source>
+          <target>Angenommen</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 3532020595 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Controlled By</source>
+          <target>Kontrolliert von</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 3564872192 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Canceled By</source>
+          <target>Gelöscht von</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 3591349006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 3618406572 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Date Sent</source>
+          <target>Zeitpunkt gesendet</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 376165593 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sent By</source>
+          <target>Gesendet von</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 3788799864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Subject Physical Person</source>
+          <target>Subjekt physische Person</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 3844911025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Canceled</source>
+          <target>Gelöscht</target>
+        </trans-unit>
+        <trans-unit id="Table 1717635848 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Lfd. Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 192854607 - Field 1482668068 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lot No.</source>
+          <target>Chargennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 192854607 - Field 2105307182 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inventory</source>
+          <target>Lagerbestand</target>
+        </trans-unit>
+        <trans-unit id="Table 192854607 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 192854607 - Field 3642078097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Code</source>
+          <target>Sekundärer Code</target>
+        </trans-unit>
+        <trans-unit id="Table 192854607 - Field 47657272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Beschreibung 2</target>
+        </trans-unit>
+        <trans-unit id="Table 192854607 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Artikelnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 192854607 - Field 637863499 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary Code</source>
+          <target>Primärer Code</target>
+        </trans-unit>
+        <trans-unit id="Table 192854607 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Lfd. Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 2211657039 - Field 2771287875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Subject</source>
+          <target>SIAN Subjekt</target>
+        </trans-unit>
+        <trans-unit id="Table 2211657039 - Field 2832340769 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Table 2211657039 - Field 333414773 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Table 2211657039 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 2211657039 - Field 3543129988 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Blocked</source>
+          <target>Gesperrt</target>
+        </trans-unit>
+        <trans-unit id="Table 2211657039 - Field 3642078097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Code</source>
+          <target>Sekundärer Code</target>
+        </trans-unit>
+        <trans-unit id="Table 2211657039 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Artikelnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 2211657039 - Field 637863499 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary Code</source>
+          <target>Primärer Code</target>
+        </trans-unit>
+        <trans-unit id="Table 2219623836 - Field 1125016866 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Maximum Lines Number</source>
+          <target>Maximale Zeilenanzahl</target>
+        </trans-unit>
+        <trans-unit id="Table 2219623836 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Prim´Š¢rschl´Š¢ssel</target>
+        </trans-unit>
+        <trans-unit id="Table 2219623836 - Field 1812376208 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Response Code</source>
+          <target>Letzter Antwortencode</target>
+        </trans-unit>
+        <trans-unit id="Table 2219623836 - Field 2413538671 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Attributes Secondary Code</source>
+          <target>Sekundärer Code</target>
+        </trans-unit>
+        <trans-unit id="Table 2219623836 - Field 4166986742 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Response Message</source>
+          <target>Letzte Antwortennachricht</target>
+        </trans-unit>
+        <trans-unit id="Table 2219623836 - Field 847365148 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Skip Receipt Tank Code</source>
+          <target>Weinbehältercode in Wareneingang überspringen</target>
+        </trans-unit>
+        <trans-unit id="Table 2219623836 - Field 997360486 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Attributes Primary Nos.</source>
+          <target>Artikeleigenschaften Primäre Nummern</target>
+        </trans-unit>
+        <trans-unit id="Table 2219623836 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Setup</source>
+          <target>SIAN Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="Table 3117838544 - Field 1482668068 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lot No.</source>
+          <target>Chargennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3117838544 - Field 2588654952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Origin</source>
+          <target>Herkunft</target>
+        </trans-unit>
+        <trans-unit id="Table 3117838544 - Field 2609919304 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Treatment</source>
+          <target>Behandlung</target>
+        </trans-unit>
+        <trans-unit id="Table 3117838544 - Field 2832340769 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Table 3117838544 - Field 2898143332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Note</source>
+          <target>Notiz</target>
+        </trans-unit>
+        <trans-unit id="Table 3117838544 - Field 394351785 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Container</source>
+          <target>Container</target>
+        </trans-unit>
+        <trans-unit id="Table 3117838544 - Field 47037625 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Serial No.</source>
+          <target>Seriennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3117838544 - Field 61007498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Table 3117838544 - Field 762499963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packages</source>
+          <target>Anzahl Packungen</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 1093055731 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Request Type</source>
+          <target>Anfragentyp</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 1099903468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Response Message</source>
+          <target>Antwort</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 1352474148 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Accepted Datetime</source>
+          <target>Zeitpunkt angenommen</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 1407200743 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creation Date</source>
+          <target>Erstellungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 1527594213 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor No.</source>
+          <target>Kreditorennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 1579714849 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Expiration Date</source>
+          <target>Ablaufdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 1716707450 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Response Code</source>
+          <target>Antwortencode</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 1908046867 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Code</source>
+          <target>Ursachencode</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 1924565022 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Subject legal Person</source>
+          <target>Subjekt juristische Person</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 2154463854 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Controlled</source>
+          <target>Kontrolliert</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Lagerortcode</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 2363184011 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Date</source>
+          <target>Operationsdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 2363328873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Belegart</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 2369664869 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Created By</source>
+          <target>Erstellt von</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 2561328176 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sent</source>
+          <target>Gesendet</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 2898143332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Note</source>
+          <target>Notiz</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 2971054162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Canceled Datetime</source>
+          <target>Zeitpunkt gelöscht</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 3156524383 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Type</source>
+          <target>Operationstyp</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 3162383302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation No.</source>
+          <target>Operationsnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 3429587560 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Justification Date</source>
+          <target>Rechtfertigungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 346708723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Accepted</source>
+          <target>Angenommen</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 3532020595 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Controlled By</source>
+          <target>Kontrolliert von</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 3564872192 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Canceled By</source>
+          <target>Gelöscht von</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 3591349006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 3596956041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Justification No.</source>
+          <target>Rechtfertigungsnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 3710982960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 376165593 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sent By</source>
+          <target>Gesendet von</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 3788799864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Subject Physical Person</source>
+          <target>Subjekt physische Person</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 3844911025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Canceled</source>
+          <target>Gelöscht</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 4178960831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Document No.</source>
+          <target>Dokumentnr. Operation</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 486908828 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Dokumentnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3291822478 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry no.</source>
+          <target>Lfd. Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3449513035 - Field 1037119892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Category Code</source>
+          <target>Artikelkategoriencode</target>
+        </trans-unit>
+        <trans-unit id="Table 3449513035 - Field 2105307182 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inventory</source>
+          <target>Lagerbestand</target>
+        </trans-unit>
+        <trans-unit id="Table 3449513035 - Field 2832340769 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Table 3449513035 - Field 333414773 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Table 3449513035 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 3449513035 - Field 3552920614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inventory</source>
+          <target>Lagerbestand</target>
+        </trans-unit>
+        <trans-unit id="Table 3449513035 - Field 47657272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Beschreibung 2</target>
+        </trans-unit>
+        <trans-unit id="Table 3449513035 - Field 541974475 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Modified</source>
+          <target>Bearbeitet</target>
+        </trans-unit>
+        <trans-unit id="Table 3449513035 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Artikelnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3449513035 - Field 650694743 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Wine Type</source>
+          <target>Weinart</target>
+        </trans-unit>
+        <trans-unit id="Table 3780428926 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Einheitencode</target>
+        </trans-unit>
+        <trans-unit id="Table 3780428926 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 3780428926 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 3780428926 - Field 3704927951 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 3</source>
+          <target>Beschreibung 3</target>
+        </trans-unit>
+        <trans-unit id="Table 3780428926 - Field 47657272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Beschreibung 2</target>
+        </trans-unit>
+        <trans-unit id="Table 4001692866 - Field 2435970385 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Code</source>
+          <target>Steuernummer</target>
+        </trans-unit>
+        <trans-unit id="Table 4001692866 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 4001692866 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 4001692866 - Field 3638947533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Valid for transmission</source>
+          <target>Gültig für Übertragung</target>
+        </trans-unit>
+        <trans-unit id="Table 4001692866 - Field 3732224266 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Test</source>
+          <target>Test</target>
+        </trans-unit>
+        <trans-unit id="Table 442308177 - Field 2369664869 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Created By</source>
+          <target>Erstellt von</target>
+        </trans-unit>
+        <trans-unit id="Table 442308177 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Lfd. Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 1037119892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Category Code</source>
+          <target>Artikelkategoriencode</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 1053022444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Product Number</source>
+          <target>Produktnummer</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 1222736926 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary Product Code</source>
+          <target>Primärer Produktcode</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 1482668068 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lot No.</source>
+          <target>Chargennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 16658203 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Item Attribute Code</source>
+          <target>SIAN Artikeleigenschaftencode</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 2052333445 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Operation Entry No.</source>
+          <target>SIAN Operation Lfd. Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Einheitencode</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 2588654952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Origin</source>
+          <target>Herkunft</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 2609919304 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Treatment</source>
+          <target>Behandlung</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 2704404533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Menge</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 2832340769 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 3156524383 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Type</source>
+          <target>Operationstyp</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 3450651614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Variantencode</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 3591349006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 3702373668 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Category</source>
+          <target>Kategorie</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 394351785 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Container</source>
+          <target>Container</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 4162055376 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Product Code</source>
+          <target>Sekundärer Produktcode</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 47037625 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Serial No.</source>
+          <target>Seriennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Artikelnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 575532888 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Initial Mark No.</source>
+          <target>Startnummer Markierungen</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 61007498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 650694743 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Wine Type</source>
+          <target>Weinart</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 762499963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packages</source>
+          <target>Anzahl Packungen</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Lfd. Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 450638080 - Field 968910418 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Final Mark No.</source>
+          <target>Endnummer Markierungen</target>
+        </trans-unit>
+        <trans-unit id="Table 496800895 - Field 2771287875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Subject</source>
+          <target>SIAN Subjekt</target>
+        </trans-unit>
+        <trans-unit id="Table 496800895 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 496800895 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 496800895 - Field 3591349006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="Table 570484142 - Field 1053022444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Product Number</source>
+          <target>Produktnummer</target>
+        </trans-unit>
+        <trans-unit id="Table 570484142 - Field 3156524383 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Type</source>
+          <target>Operationstyp</target>
+        </trans-unit>
+        <trans-unit id="Table 570484142 - Field 385409882 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Product Number Description</source>
+          <target>Beschreibung Produktnummer</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 1222736926 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary Product Code</source>
+          <target>Primärer Produktcode</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 16658203 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Item Attribute Code</source>
+          <target>SIAN Artikeleigenschaftencode</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 1856816140 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Country</source>
+          <target>Land</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 1956934725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Surname</source>
+          <target>Nachname</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 2309376528 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Subject Type</source>
+          <target>Subjekttyp</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 2588654952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Origin</source>
+          <target>Herkunft</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 2798944312 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Attribute Code</source>
+          <target>Artikeleigenschaftencode</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 281878947 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Subject Code</source>
+          <target>Subjektcode</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 2832340769 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Year</source>
+          <target>Jahrgang</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 3168444338 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Address</source>
+          <target>Adresse</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Zeilennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 3702373668 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Category</source>
+          <target>Kategorie</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 3997336476 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Company Name</source>
+          <target>Mandantenname</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 4162055376 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Product Code</source>
+          <target>Sekundärer Produktcode</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 61007498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Classification</source>
+          <target>Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 714791889 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>City</source>
+          <target>Ort</target>
+        </trans-unit>
+        <trans-unit id="Table 880761071 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Lfd. Nr.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 177193351 - Field 1881325007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exemption Derogation</source>
+          <target>Entlastung Ausnahmeregelung</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2129967092 - Field 1378250006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Enological Practice</source>
+          <target>SIAN önologisches Verfahren</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2129967092 - Field 1881325007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exemption Derogation</source>
+          <target>Entlastung Ausnahmeregelung</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3044195982 - Field 2585911648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority Name</source>
+          <target>Name zugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3044195982 - Field 2655485680 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority City</source>
+          <target>Ortzugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3044195982 - Field 3827497922 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority Post Code</source>
+          <target>PLZ-Code zugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3044195982 - Field 543928215 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Competent Authority Address</source>
+          <target>Adresse zugehörige Behörde</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4003373053 - Field 3743699556 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 854573858 - Field 371676717 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SIAN Subject</source>
+          <target>SIAN Subjekt</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 854573858 - Field 3743699556 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ICQRF Code</source>
+          <target>ICQRF Code</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
