@@ -23,9 +23,17 @@
           <source>No anomalies have been detected for this VAT Register.</source>
           <target>Für dieses MwSt.-Register wurden keine Anomalien festgestellt.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 2555724484" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Protocol Sequence anomaly detected in \ VAT Register: %1 \ Document Nos: %2.</source>
+          <target>Protokollsequenzanomalie in \ MwSt.-Register: %1 \ Dokument Nr. %2 erkannt</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 2717171120" translate="yes" size-unit="char" xml:space="preserve">
           <source>Protocol Sequence anomaly detected in Document Nos: %1.</source>
           <target>Protokollsequenzanomalie in Dokument Nr. %1 erkannt</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 3128398753" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No anomalies have been detected for VAT Register: %1.</source>
+          <target>Für dieses MwSt.-Register wurden keine Anomalien festgestellt.</target>
         </trans-unit>
         <trans-unit id="Codeunit 2488446996 - Method 2595010497 - NamedType 593697739" translate="yes" size-unit="char" xml:space="preserve">
           <source>The %1 must have a %2 because at least one other line on this document has a %2.</source>
@@ -1499,6 +1507,10 @@
           <source>Last Printed VAT Register Page</source>
           <target>Letzte Seite MwSt.-Register</target>
         </trans-unit>
+        <trans-unit id="Report 3911460565 - Control 3882449426 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Document Sequence</source>
+          <target>Prüfen von Protokollsequenzen</target>
+        </trans-unit>
         <trans-unit id="Report 3911460565 - Control 4013105843 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Starting Date</source>
           <target>Periodenstartdatum</target>
@@ -1686,6 +1698,10 @@
         <trans-unit id="Report 4167835328 - Control 2937449465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print TEST text</source>
           <target>TEST Druck</target>
+        </trans-unit>
+        <trans-unit id="Report 4167835328 - Control 3882449426 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Document Sequence</source>
+          <target>Prüfen von Protokollsequenzen</target>
         </trans-unit>
         <trans-unit id="Report 4167835328 - Control 4013105843 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Starting Date</source>
@@ -2359,6 +2375,10 @@
           <source>Force VAT Exemption</source>
           <target>MwSt.-Befreiung erzwingen</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2556270658 - Field 3803707464 - Method 2126772001 - NamedType 3750027638" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The selected VAT Exemption does not apply to the current Customer.</source>
+          <target>Die ausgewählte Mehrwertsteuerbefreiung gilt nicht für den aktuellen Debitor.</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2556270658 - Field 3803707464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Exemption No.</source>
           <target>MwSt.-Befreiungsnr.</target>
@@ -2370,6 +2390,10 @@
         <trans-unit id="TableExtension 2936828549 - Field 3555836978 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Force VAT Exemption</source>
           <target>MwSt.-Befreiung erzwingen</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2936828549 - Field 3803707464 - Method 2126772001 - NamedType 3750027638" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The selected VAT Exemption does not apply to the current Customer.</source>
+          <target>Die ausgewählte Mehrwertsteuerbefreiung gilt nicht für den aktuellen Debitor.</target>
         </trans-unit>
         <trans-unit id="TableExtension 2936828549 - Field 3803707464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Exemption No.</source>
@@ -2427,6 +2451,10 @@
           <source>Force VAT Exemption</source>
           <target>MwSt.-Befreiung erzwingen</target>
         </trans-unit>
+        <trans-unit id="TableExtension 386042081 - Field 3803707464 - Method 2126772001 - NamedType 839920809" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The selected VAT Exemption does not apply to the current Vendor.</source>
+          <target>Die ausgewählte Mehrwertsteuerbefreiung gilt nicht für den aktuellen Lieferanten.</target>
+        </trans-unit>
         <trans-unit id="TableExtension 386042081 - Field 3803707464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Exemption No.</source>
           <target>MwSt.-Befreiungsnr.</target>
@@ -2454,22 +2482,6 @@
         <trans-unit id="TableExtension 86163510 - Field 2614126101 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore VAT Exemption</source>
           <target>Ignorieren der Mehrwertsteuerbefreiung</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 3128398753" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No anomalies have been detected for VAT Register: %1.</source>
-          <target>Für dieses MwSt.-Register wurden keine Anomalien festgestellt.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 2555724484" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Protocol Sequence anomaly detected in \ VAT Register: %1 \ Document Nos: %2.</source>
-          <target>Protokollsequenzanomalie in \ MwSt.-Register: %1 \ Dokument Nr. %2 erkannt</target>
-        </trans-unit>
-        <trans-unit id="Report 3911460565 - Control 3882449426 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Check Document Sequence</source>
-          <target>Prüfen von Protokollsequenzen</target>
-        </trans-unit>
-        <trans-unit id="Report 4167835328 - Control 3882449426 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Check Document Sequence</source>
-          <target>Prüfen von Protokollsequenzen</target>
         </trans-unit>
       </group>
     </body>

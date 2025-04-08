@@ -23,9 +23,17 @@
           <source>No anomalies have been detected for this VAT Register.</source>
           <target>Non sono state rilevate anomalie per questo Registro IVA.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 2555724484" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Protocol Sequence anomaly detected in \ VAT Register: %1 \ Document Nos: %2.</source>
+          <target>Rilevata anomalia sequenzialità protocollo in \ Registro IVA: %1 \ Nr. Documento: %2.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 2717171120" translate="yes" size-unit="char" xml:space="preserve">
           <source>Protocol Sequence anomaly detected in Document Nos: %1.</source>
           <target>Rilevata anomalia sequenzialità protocollo nei seguenti Nr. Documento: %1.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 3128398753" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No anomalies have been detected for VAT Register: %1.</source>
+          <target>Non sono state rilevate anomalie per Registro IVA: %1.</target>
         </trans-unit>
         <trans-unit id="Codeunit 2488446996 - Method 2595010497 - NamedType 593697739" translate="yes" size-unit="char" xml:space="preserve">
           <source>The %1 must have a %2 because at least one other line on this document has a %2.</source>
@@ -1499,6 +1507,10 @@
           <source>Last Printed VAT Register Page</source>
           <target>Ultima pagina stampata registro IVA</target>
         </trans-unit>
+        <trans-unit id="Report 3911460565 - Control 3882449426 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Document Sequence</source>
+          <target>Verifica sequenzialità protocolli</target>
+        </trans-unit>
         <trans-unit id="Report 3911460565 - Control 4013105843 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Starting Date</source>
           <target>Data inizio periodo</target>
@@ -1686,6 +1698,10 @@
         <trans-unit id="Report 4167835328 - Control 2937449465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print TEST text</source>
           <target>Stampa dicitura di TEST</target>
+        </trans-unit>
+        <trans-unit id="Report 4167835328 - Control 3882449426 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Document Sequence</source>
+          <target>Verifica sequenzialità protocolli</target>
         </trans-unit>
         <trans-unit id="Report 4167835328 - Control 4013105843 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Starting Date</source>
@@ -2359,6 +2375,10 @@
           <source>Force VAT Exemption</source>
           <target>Forza dich. d'intento</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2556270658 - Field 3803707464 - Method 2126772001 - NamedType 3750027638" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The selected VAT Exemption does not apply to the current Customer.</source>
+          <target>La dich. intento selezionata non è assegnata al cliente corrente</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2556270658 - Field 3803707464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Exemption No.</source>
           <target>Nr. dich. d'intento</target>
@@ -2370,6 +2390,10 @@
         <trans-unit id="TableExtension 2936828549 - Field 3555836978 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Force VAT Exemption</source>
           <target>Forza dich. d'intento</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2936828549 - Field 3803707464 - Method 2126772001 - NamedType 3750027638" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The selected VAT Exemption does not apply to the current Customer.</source>
+          <target>La dich. intento selezionata non è assegnata al cliente corrente</target>
         </trans-unit>
         <trans-unit id="TableExtension 2936828549 - Field 3803707464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Exemption No.</source>
@@ -2427,6 +2451,10 @@
           <source>Force VAT Exemption</source>
           <target>Forza dich. d'intento</target>
         </trans-unit>
+        <trans-unit id="TableExtension 386042081 - Field 3803707464 - Method 2126772001 - NamedType 839920809" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The selected VAT Exemption does not apply to the current Vendor.</source>
+          <target>La dich. intento selezionata non è assegnata al fornitore corrente</target>
+        </trans-unit>
         <trans-unit id="TableExtension 386042081 - Field 3803707464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Exemption No.</source>
           <target>Nr. dich. d'intento</target>
@@ -2454,22 +2482,6 @@
         <trans-unit id="TableExtension 86163510 - Field 2614126101 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore VAT Exemption</source>
           <target>Ignora dich. intento</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 2555724484" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Protocol Sequence anomaly detected in \ VAT Register: %1 \ Document Nos: %2.</source>
-          <target>Rilevata anomalia sequenzialità protocollo in \ Registro IVA: %1 \ Nr. Documento: %2.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 3128398753" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No anomalies have been detected for VAT Register: %1.</source>
-          <target>Non sono state rilevate anomalie per Registro IVA: %1.</target>
-        </trans-unit>
-        <trans-unit id="Report 3911460565 - Control 3882449426 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Check Document Sequence</source>
-          <target>Verifica sequenzialità protocolli</target>
-        </trans-unit>
-        <trans-unit id="Report 4167835328 - Control 3882449426 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Check Document Sequence</source>
-          <target>Verifica sequenzialità protocolli</target>
         </trans-unit>
       </group>
     </body>
