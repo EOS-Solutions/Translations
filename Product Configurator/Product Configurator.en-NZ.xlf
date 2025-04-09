@@ -1253,6 +1253,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - Field Price - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 127178702 - Field 1995076330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. BOM Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - Field Prod. BOM Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127178702 - Field 1390189972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. BOM No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - Field Prod. BOM No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127178702 - Field 2623819220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. BOM Version Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - Field Prod. BOM Version Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 127178702 - Field 2287818464 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Production BOM No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1469,7 +1484,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Setup - Field Enable BOM Explosion OnClosing - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 281024570 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enable BOM Reconfiguration</source>
+          <source>Enable Prod./Assembly BOM Reconfiguration</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Setup - Field Enable BOM Reconfiguration - Property Caption</note>
         </trans-unit>
@@ -1657,6 +1672,11 @@
           <source>New,Certified,Under Development</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Setup - Field Routing Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1762500533 - Field 3825163979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run Configurator on item validation on BOM lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Setup - Field Run Configurator BOM Lines - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1609557317 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Save Configuration for New Items</source>
@@ -7459,7 +7479,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control Enable Check On First Level - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 867969914 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>If enabled, the product configurator, when using an already existing configuration, recreates the production BOM and routing starting from the neutral code. If it is disabled, the production BOM and the routing are calculated only the first time. However, the item description is recalculated in both cases. Enabling may have an impact on performance.</source>
+          <source>If enabled, the product configurator, when using an already existing configuration, recreates the production/assembly BOM and routing starting from the neutral code. If it is disabled, the production/assembly BOM and the routing are calculated only the first time. However, the item description is recalculated in both cases. Enabling may have an impact on performance.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control EnableBOMReconfiguration - Property ToolTip</note>
         </trans-unit>
@@ -7487,6 +7507,11 @@
           <source>Status in which configured routings are generated.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control RoutingStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Control 3825163979 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, the configurator will be run on item validation on Production/Assembly BOM lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control Run Configurator BOM Lines - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 3905587625 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allows to generate the sublevels tree when closing configurator, saving time when opening it. It is used with sublevels calculation type "Configurator Closing".</source>
@@ -11648,6 +11673,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090704 - Control EOSItemVarCharF - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2814425421 - Action 1882267398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1505092936">
+          <source>Configurator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090705 - Action EOSCFG_ProductConfigurator - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2814425421 - Action 4285968434 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1505092936">
+          <source>Shows the characteristics of the configured item/variant.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090705 - Action EOSCFG_Charac - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2814425421 - Action 4285968434 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1505092936">
+          <source>Characteristics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090705 - Action EOSCFG_Charac - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2814425421 - Action 3935760739 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1505092936">
+          <source>Executes the Product Configurator.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090705 - Action EOSCFG_Configurator - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2814425421 - Action 3935760739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1505092936">
+          <source>Configurator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090705 - Action EOSCFG_Configurator - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2814425421 - Control 2315620118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1505092936">
           <source>Specifies the value of the Formula Code field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11717,6 +11767,31 @@
           <source>Specifies the value of the Copy Routing field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090707 - Control EOS Copy Routing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 94729930 - Action 1882267398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3967890522">
+          <source>Configurator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090708 - Action EOSCFG_ProductConfigurator - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 94729930 - Action 4285968434 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3967890522">
+          <source>Shows the characteristics of the configured item/variant.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090708 - Action EOSCFG_Charac - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 94729930 - Action 4285968434 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3967890522">
+          <source>Characteristics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090708 - Action EOSCFG_Charac - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 94729930 - Action 3935760739 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3967890522">
+          <source>Executes the Product Configurator.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090708 - Action EOSCFG_Configurator - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 94729930 - Action 3935760739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3967890522">
+          <source>Configurator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090708 - Action EOSCFG_Configurator - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 94729930 - Control 2315620118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3967890522">
           <source>Specifies the value of the Formula Code field</source>
@@ -12327,6 +12402,31 @@
           <source>Specifies the value of the Unconfirmed Charac. field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18091270 - Control EOSUnconfirmedCharac - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3169311248 - Action 1882267398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2070474202">
+          <source>Configurator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18091271 - Action EOSCFG_ProductConfigurator - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3169311248 - Action 4285968434 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2070474202">
+          <source>Shows the characteristics of the configured item/variant.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18091271 - Action EOSCFG_Charac - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3169311248 - Action 4285968434 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2070474202">
+          <source>Characteristics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18091271 - Action EOSCFG_Charac - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3169311248 - Action 3935760739 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2070474202">
+          <source>Executes the Product Configurator.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18091271 - Action EOSCFG_Configurator - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3169311248 - Action 3935760739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2070474202">
+          <source>Configurator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18091271 - Action EOSCFG_Configurator - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 3154636689 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2070474202">
           <source>Enables the creation of a new purchase document line after item configuration</source>
@@ -13338,6 +13438,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS028 CFG Search Charac. for Sublev. BOM - EnumValue Upper Level - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Enum 2079927104 - EnumValue 3967890522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly BOM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS028 CFG Source Type - EnumValue Assembly BOM - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 2079927104 - EnumValue 2362195403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Config. Item</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -13362,6 +13467,11 @@
           <source>Production</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS028 CFG Source Type - EnumValue Production - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2079927104 - EnumValue 1211261581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production BOM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS028 CFG Source Type - EnumValue Production BOM - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2079927104 - EnumValue 395510365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase</source>
