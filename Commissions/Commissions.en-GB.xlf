@@ -948,11 +948,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commission Ledger Entry - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3965484439 - Method 3152277940 - NamedType 2638230919" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You cannot delete a %1.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commission Ledger Entry - Method OnDelete - NamedType NoDeleteErr</note>
-        </trans-unit>
         <trans-unit id="Table 3965484439 - Field 3182586253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Batch Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2093,6 +2088,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Cust. Network Combination - Field Default - Method OnValidate - NamedType FieldMustBeUniqueErr</note>
         </trans-unit>
+        <trans-unit id="Table 890796851 - Field 1383905037 - Method 2126772001 - NamedType 2214517664" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The default sales network for customer %1 and ship-to address "%2" is %3. Set sales network %4 as the default?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Cust. Network Combination - Field Default - Method OnValidate - NamedType DeactivateOtherSalesNetworkQst</note>
+        </trans-unit>
         <trans-unit id="Table 890796851 - Field 910022474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Network</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2398,6 +2398,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Sales Network - Field Description - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 4294824369 - Field 4150046037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Sales Network - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4294824369 - Field 4150046037 - Method 2126772001 - NamedType 1802222120" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updating customers #1###########</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Sales Network - Field EOS Salesperson Set ID - Method OnValidate - NamedType WindowTxt</note>
+        </trans-unit>
         <trans-unit id="Table 1106949063 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Salespersons Combination</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2438,10 +2448,90 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Salesperson Role - Field Description - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1973429469 - NamedType 1663538591" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Commissions were not generated correctly.\Expected value = %5. Actual Value = %6 \%1 set to %2. \Workdate=%3 \Document Date=%4.</source>
+        <trans-unit id="Table 429737215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Role-Salesperson Sets</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 010 CMS RecDate Test - NamedType UnexpectedCmsErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Role-Salesperson Sets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 429737215 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Role-Salesperson Sets - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 429737215 - Field 553464652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Role-Salesperson Sets - Field Salesperson Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 429737215 - Field 2007791635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Role</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Role-Salesperson Sets - Field Salesperson Role - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Set Tree Node</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesp. Set Tree Node - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Field 942667584 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Use</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesp. Set Tree Node - Field In Use - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Field 2452690498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parent Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesp. Set Tree Node - Field Parent Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Field 1270654214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesp. Set Tree Node - Field Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Field 2379322021 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Value ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesp. Set Tree Node - Field Salesperson Value ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Method 2756474656 - NamedType 1740316390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parameter "SalespersonSetEntry" must be temporary.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesperson Set Entry - Method GetSalespersonSetID - NamedType ParameterNotTemporaryErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Method 3152277940 - NamedType 4018276749" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record cannot be deleted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesperson Set Entry - Method OnDelete - NamedType RecordcannotbedeletedErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 278459229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Role-Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesperson Set Entry - Field Role-Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 553464652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesperson Set Entry - Field Salesperson Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 940688118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesperson Set Entry - Field Salesperson Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 2007791635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salespersons Role</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesperson Set Entry - Field Salesperson Role - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 3908857010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Role Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesperson Set Entry - Field Salesperson Role Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 1270654214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salespersons Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS010 Salesperson Set Entry - Field Salesperson Set ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 4246534158 - Method 419044455 - NamedType 1178781371" size-unit="char" translate="yes" xml:space="preserve">
           <source>Processing #1############## Record #2####### to #3#######</source>
@@ -2482,6 +2572,11 @@
           <source>%1 must be the same between credit memo (%2) and return order (%3)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Commission Event Mgt. - Method T6661_OnAftertInsertInvLineFromRetRcptLine - NamedType SalesNetworkMustBeEqualErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4102068244 - Method 2570048681 - NamedType 3015316829" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission lines with the "modified" flag were found in the document, but since no salesperson is present in the Ship-to address, the commissions were not updated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Commission Event Mgt. - Method UpdateSalesPersons - NamedType ModifiedCommissionFoundForMissingSalespShiptoAddressMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 3639294878 - NamedType 2016735090" size-unit="char" translate="yes" xml:space="preserve">
           <source>cannot be greater than %1.</source>
@@ -2568,6 +2663,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Commission Journal Mgt. - Method TemplateSelection - NamedType DescriptionTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2673019789 - Method 860045314 - NamedType 380555342" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The new salesperson engine is not enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Commission Setup Mgt. - Method RaiseErrorIfNewSalesPersonEngineIsDisabled - NamedType NewSalesPersonEngineDisabledErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673019789 - Method 2327904653 - NamedType 2797927825" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This action or feature is disabled if the new salesperson engine is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Commission Setup Mgt. - Method RaiseErrorIfNewSalesPersonEngineIsEnabled - NamedType NewSalesPersonEngineEnabledErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2673019789 - Method 480764991 - NamedType 3860189983" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 is missing.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2648,6 +2753,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX010 Core Mgt. - NamedType MessageLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1945984599 - Method 296254200 - NamedType 2172963897" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comm. exchange rate diff. to be settled: salesperson %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Purchase Document Mgt. - Method CreateExchRateDiffJournal - NamedType CommExchangeRateLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1945984599 - Method 4175537134 - NamedType 2506578050" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase document no. %1 created/updated. Do you want to open the document card?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2707,6 +2817,71 @@
           <source>Trial Version</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Subscription - NamedType TrialVersLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 3997739837" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error in data upgrade. \Old set %1 \New set %2. \Reference "EOS Add. Salesperson/Purchaser" %3 \Contact technical support.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - NamedType DataUpgradeCheckErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 417816387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation completed. Reinstall the disabled apps. Disconnect this session and log in again.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - NamedType OperationCompletedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 4016678605" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing Table #1# \Record #2# \Operation progress #3# \Expected completion time #4# </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - NamedType ProcessingDialogTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 1421459110" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DataMigration Quality Check... \Testing Table #1##### \Testing Sample #2##### over #3#####</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - NamedType QualityCheckMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 3256779152" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unknown Header Type %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - NamedType UnknowHeaderErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 547949954 - NamedType 2210146166" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The subscriber %1 of the object %2 %3 is no longer supported. Contact the app provider %4 for a fix.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - Method AnalyzeInstalledApps - NamedType UnsupportedSubscriberErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 1850627436 - NamedType 2790530795" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The field %1 (%2) of the table %3 (%4) is no longer supported. Contact the app provider %5 for a fix.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - Method AnalyzeTableExtensions - NamedType UnSupportedExtensionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 2289071063 - NamedType 1965727753" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The following apps are currently installed: %1. To speed up the upgrade, it is recommended to uninstall them. You can reinstall them after the upgrade is complete. Do you still want to proceed with the upgrade?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - Method CheckInterferences - NamedType InstalledAppQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 2179621140 - NamedType 3480504564" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Missing Salesperson Role: %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - Method CheckMissingRolesAndSalesPersons - NamedType MissingSalesPRoleTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 2179621140 - NamedType 724475599" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Missing Salesperson Purchasers: %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - Method CheckMissingRolesAndSalesPersons - NamedType MissingSalesPPurchaserTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 2179621140 - NamedType 195496386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>\ Unknown salespersons and unknown roles will not be migrated. Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - Method CheckMissingRolesAndSalesPersons - NamedType MissingRoleSalesPQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 2179621140 - NamedType 2209929909" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation aborted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - Method CheckMissingRolesAndSalesPersons - NamedType OperationabortedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 2822125193 - NamedType 3581100494" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creating Role-Salesperson sets ... #1########### #2################</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - Method CreateAllRoleSalespersons - NamedType CreatingSalespersonRoleLbl</note>
         </trans-unit>
         <trans-unit id="Page 3091491843 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Add. Salespersons/Purchasers Archive</source>
@@ -6038,6 +6213,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Doc. Commission Line - Action Reset Lines - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2467455471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit Salesperson Set Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Edit Salesp Set Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - NamedType 1347929637" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Network is enabled. You cannot edit this page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Edit Salesp Set Entries - NamedType SalesNetworkActiveMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 553464652 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Edit Salesp Set Entries - Control Salesperson Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 940688118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Name" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Edit Salesp Set Entries - Control Salesperson Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 2007791635 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Salespersons Role" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Edit Salesp Set Entries - Control Salesperson Role - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 3908857010 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Role Name" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Edit Salesp Set Entries - Control Salesperson Role Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Action 2815836242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For internal test use only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Edit Salesp Set Entries - Action TestDeleteAll - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Action 2815836242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete All (Internal test use only)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Edit Salesp Set Entries - Action TestDeleteAll - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2253698030 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
           <source>New,Process,Report,Navigate</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6413,6 +6628,31 @@
           <note from="Developer" annotates="general" priority="2">ITA=Inizializza un record per ruolo</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Salesperson Combination - Action InitRecordsForRoles - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3804388472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Set Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Salesperson Set Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 940688118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the descriptive name of the Salesperson Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Salesperson Set Entries - Control Salesperson Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 2007791635 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Salesperson Role.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Salesperson Set Entries - Control Salesperson Role - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 3908857010 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the descriptive name of the Salesperson Role field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Salesperson Set Entries - Control Salesperson Role Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 3153055517 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Salesperson Code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Salesperson Set Entries - Control SalespersonValueCode - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4028065092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Salespersons Roles (CMS)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6427,6 +6667,11 @@
           <source>Specifies the description of the salesperson role.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Salespersons Roles - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2076732582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EOS AddSalesP Importer (CMS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS AddSalesP Importer - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1343196591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Commission Advance Calculation (CMS)</source>
@@ -6882,16 +7127,6 @@
           <source>Processing #1############## #2#######</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Fetch Entries - NamedType ProcessLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3044685614 - Method 1048590915 - NamedType 3334061755" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Commission deleted</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Fetch Entries - Method DeleteOrphanEntries - NamedType LogDeletedEntriesLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3044685614 - Method 1048590915 - NamedType 1074372818" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Commission not deleted, the Entry has a settlement in progress or it is closed.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Fetch Entries - Method DeleteOrphanEntries - NamedType LogNonDeletedEntriesLbl</note>
         </trans-unit>
         <trans-unit id="Report 3044685614 - ReportDataItem 1724164490 - Method 3245603402 - NamedType 4242511204" size-unit="char" translate="yes" xml:space="preserve">
           <source>Commission calculated.</source>
@@ -7879,12 +8114,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008291 - Action EOS Open Sales Network - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2952746364 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Opens list of salesperson related to the customer. Salesperson are linked directly or by sales network depending on general setup.</source>
+          <source>Opens list of salespersons related to the customer. Salesperson are linked directly or by sales network depending on general setup.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008291 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2952746364 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008291 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -7908,6 +8143,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008291 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2952746364 - Control 4150046037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the value of the "Salesperson Set ID" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008291 - Control EOS Salesperson Set ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2952746364 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008291 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3590442981 - Control 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7924,12 +8169,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008293 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 4228139598 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008293 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4228139598 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008293 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -7968,18 +8213,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008293 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4228139598 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>No. of salesperson related to the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008293 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4059230575 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008294 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 4059230575 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008294 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4059230575 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008294 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8024,12 +8274,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008296 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1039656513 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1379883806">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008296 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1039656513 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1379883806">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008296 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8124,12 +8374,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008300 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3548822579 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008300 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3548822579 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008300 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8168,18 +8418,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008300 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3548822579 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>No. of salesperson related to the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008300 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4186519196 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 4186519196 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4186519196 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8218,18 +8473,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4186519196 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>No. of salesperson related to the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 529248517 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008302 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 529248517 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008302 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 529248517 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008302 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8268,6 +8528,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008302 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 529248517 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
+          <source>No. of salesperson related to the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008302 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1998846954 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2079885696">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8279,7 +8544,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083025 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1998846954 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2079885696">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083025 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8308,6 +8573,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083025 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1998846954 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2079885696">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083025 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 85757103 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 327261204">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8319,7 +8589,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083026 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 85757103 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 327261204">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083026 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8348,6 +8618,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083026 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 85757103 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 327261204">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083026 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 723453720 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1833997609">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8359,7 +8634,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083027 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 723453720 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1833997609">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083027 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8388,6 +8663,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083027 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 723453720 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1833997609">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083027 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 423575149 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 388992258">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8399,7 +8679,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083028 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 423575149 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 388992258">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083028 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8428,6 +8708,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083028 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 423575149 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 388992258">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt180083028 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1166945134 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2259427799">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8439,7 +8724,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008303 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1166945134 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2259427799">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008303 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8478,6 +8763,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008303 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1166945134 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2259427799">
+          <source>No. of salesperson related to the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008303 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 998036111 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 884441745">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8489,7 +8779,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008304 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 998036111 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 884441745">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008304 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8524,12 +8814,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008305 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1635732728 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3689007477">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008305 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1635732728 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3689007477">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008305 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8564,12 +8854,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008306 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2273429345 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1056066689">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008306 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2273429345 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1056066689">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008306 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8604,12 +8894,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008307 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2911125962 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 416138076">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008307 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2911125962 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 416138076">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008307 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8644,12 +8934,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008308 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 60460923 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008308 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 60460923 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008308 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8688,18 +8978,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008308 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 60460923 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>No. of salesperson related to the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008308 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 698157540 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008309 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 698157540 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008309 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 698157540 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008309 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8738,18 +9033,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008309 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 698157540 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
+          <source>No. of salesperson related to the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008309 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2756810116 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1257057922">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008310 - Action EOS Commissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2756810116 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1257057922">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008310 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2756810116 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1257057922">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008310 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8789,7 +9089,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008311 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2119113499 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008311 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8828,6 +9128,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008311 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2119113499 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
+          <source>No. of salesperson related to the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008311 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4032203350 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3053760138">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8839,7 +9144,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008312 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4032203350 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3053760138">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008312 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8889,7 +9194,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008313 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3394506733 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1187003046">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008313 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8908,6 +9213,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008313 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3394506733 - Control 4150046037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1187003046">
+          <source>Specifies the value of the "Salesperson Set ID" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008313 - Control EOS Salesperson Set ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3394506733 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1187003046">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008313 - Control EOS Salespersons Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 206023648 - Action 907450760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Commissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8924,12 +9239,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008314 - Action EOS Open Sales Network - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 206023648 - Action 3858488728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
-          <source>Opens list of salesperson related to the customer. Salesperson are linked directly or by sales network depending on general setup.</source>
+          <source>Opens list of salespersons related to the customer. Salesperson are linked directly or by sales network depending on general setup.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008314 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 206023648 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008314 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -8954,9 +9269,14 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008315 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3863294327 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4270809572">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008315 - Action EOS Salesperson - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3863294327 - Control 3638072049 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4270809572">
+          <source>Specifies default sales network assigned. To change sales network use related action in ribbon.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008315 - Control EOSSalesNetwork - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1481416882 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
           <source>Commissions</source>
@@ -9259,7 +9579,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008329 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 161888998 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4117186890">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008329 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -9289,7 +9609,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008330 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2220541574 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1893889982">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008330 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -9319,7 +9639,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008331 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1582844957 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1234581291">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008331 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -9349,7 +9669,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008332 - Action EOS Salesperson - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 945148340 - Action 3858488728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3390728890">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008332 - Action EOS Salesperson - Property Caption</note>
         </trans-unit>
@@ -9478,6 +9798,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008292 - Field EOS Salesperson Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2306130378 - Field 4150046037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008292 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2306130378 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Salespersons Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008292 - Field EOS Salespersons Count - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1668433761 - Field 1080730330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Commission Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9518,6 +9848,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008294 - Field EOS Salesperson Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3581523612 - Field 4150046037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008294 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3581523612 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Salespersons Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008294 - Field EOS Salespersons Count - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2943826995 - Field 204582133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
           <source>Commission Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9537,6 +9877,16 @@
           <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008295 - Field EOS Salesperson Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2943826995 - Field 4150046037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008295 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2943826995 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Salespersons Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008295 - Field EOS Salespersons Count - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 561949550 - Field 1080730330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 348912950">
           <source>Commission Group Code</source>
@@ -9573,13 +9923,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008299 - Field EOS Salesperson Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1199646167 - Field 4150046037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008299 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1199646167 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Salespersons Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008299 - Field EOS Salespersons Count - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3720766296 - Field 4268549222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
           <source>Comm. Allocation Register No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008300 - Field EOS Comm. All. Register No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3720766296 - Field 1213963406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
-          <source>Commission Reason</source>
+          <source>Commission Reason Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008300 - Field EOS Comm. Reason Code - Property Caption</note>
         </trans-unit>
@@ -9623,6 +9983,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008301 - Field EOS Sales Network - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3083069679 - Field 4150046037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008301 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 701192234 - Field 1080730330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
           <source>Commission Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9642,6 +10007,11 @@
           <source>Sales Network</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008302 - Field EOS Sales Network - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 701192234 - Field 4150046037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008302 - Field EOS Salesperson Set ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 63495617 - Field 1080730330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
           <source>Commission Group Code</source>
@@ -9663,6 +10033,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008303 - Field EOS Sales Network - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 63495617 - Field 4150046037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008303 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1976585468 - Field 4294824369 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1187003046">
           <source>Sales Network</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9672,6 +10047,16 @@
           <source>Salespersons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008304 - Field EOS Salesperson Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1976585468 - Field 4150046037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1187003046">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008304 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1976585468 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1187003046">
+          <source>Salespersons Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008304 - Field EOS Salespersons Count - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1338888851 - Field 204582133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
           <source>Commission Group</source>
@@ -9693,6 +10078,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008305 - Field EOS Salesperson Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1338888851 - Field 4150046037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008305 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1338888851 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
+          <source>Salespersons Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008305 - Field EOS Salespersons Count - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3251978702 - Field 1080730330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2903552224">
           <source>Commission Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9712,6 +10107,11 @@
           <source>Sales Network</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008306 - Field EOS Sales Network - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3251978702 - Field 4150046037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2903552224">
+          <source>Salesperson Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008306 - Field EOS Salesperson Set ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2614282085 - Field 1080730330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 990077888">
           <source>Commission Group Code</source>
@@ -9802,6 +10202,26 @@
           <source>Insert new salesperson/role - overwrite existing salesperson/role</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Salesperson Update Action - EnumValue Update line value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3216931404 - EnumValue 1212016952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record Delete</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS010 Trigger Type - EnumValue Record Delete - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3216931404 - EnumValue 3015189414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record Insert</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS010 Trigger Type - EnumValue Record Insert - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3216931404 - EnumValue 3149989263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record Modify</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS010 Trigger Type - EnumValue Record Modify - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3216931404 - EnumValue 1607146239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record Rename</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS010 Trigger Type - EnumValue Record Rename - Property Caption</note>
         </trans-unit>
       </group>
     </body>

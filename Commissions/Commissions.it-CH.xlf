@@ -87,6 +87,10 @@
           <source>cannot be greater than %1.</source>
           <target>non può essere maggiorne di %1.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 4102068244 - Method 1461816314 - NamedType 3015316829" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission lines with the "modified" flag were found in the document, but since no salesperson is present in the Ship-to address, the commissions were not updated.</source>
+          <target>Sono state trovate delle righe di provvigione con il flag "modificato" nel documento e dato che nell'indirizzo di spedizione non è presente un agente le provvigioni non sono state aggiornate</target>
+        </trans-unit>
         <trans-unit id="Codeunit 4102068244 - Method 1766848453 - NamedType 4279622457" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must be the same between credit memo (%2) and return order (%3)</source>
           <target>%1 deve essere lo stesso tra la nota di credito (%2) e l'ordine di reso (%3)</target>
@@ -1805,7 +1809,7 @@
         </trans-unit>
         <trans-unit id="Page 2907241629 - Control 4025239562 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Network Filter</source>
-          <target>Filtro di rete vendita</target>
+          <target>Filtro rete vendita</target>
         </trans-unit>
         <trans-unit id="Page 2907241629 - Control 4063593187 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies customer which commission setup line refers to. You can use filter string in this field. Do not exceed using filters to avoid performance issues.</source>
@@ -2145,7 +2149,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2157377117 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agente sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2157377117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quote</source>
@@ -2165,7 +2169,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2665160000 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agente sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2665160000 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cr. Memo</source>
@@ -2185,7 +2189,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3145626574 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore nel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agentel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3145626574 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order</source>
@@ -2197,7 +2201,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3278703442 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore nel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agente nel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3278703442 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blanket Order</source>
@@ -2217,7 +2221,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3584280162 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore nel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agentel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3584280162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Return Order</source>
@@ -2225,7 +2229,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3732648922 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore nel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agentel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3732648922 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quote</source>
@@ -2245,7 +2249,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3771644211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore nel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agente nel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3771644211 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cr. Memo</source>
@@ -2253,7 +2257,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 388506308 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agente sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 388506308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice</source>
@@ -2261,7 +2265,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 395797077 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agente sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 395797077 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Return Order</source>
@@ -2277,7 +2281,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 4098063865 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the commission does not be calculated on posting.</source>
-          <target>Disabilita il calcolo delle provvigioni in fase di rilascio del documento. Consigliato solo in caso di elevati volumi di transazione con decadimento delle performance</target>
+          <target>Creazione movimenti provvigioni consentito solo tramite report “Crea mov. Provvigione”. Consigliato solo in caso di elevati volumi di transazione con decadimento delle performance. Resta attiva la visualizzazione delle provvigioni attese per documento, il valore effettivo per il documento registrato viene calcolato alla data impostata in Data calcolo provvigioni</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 501661907 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculation</source>
@@ -2297,7 +2301,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 688384879 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore nel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agente nel lato intestazione inserito o modificato. Mantieni valore riga: se esiste già un ruolo specifico, nessun aggiornamento; se non esiste, verrà inserito un nuovo ruolo per la riga. Aggiorna valore riga: l'agente per un ruolo specifico verrà aggiornato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 688384879 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice</source>
@@ -2313,7 +2317,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 763749129 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agente sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 763749129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order</source>
@@ -2325,7 +2329,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 90220357 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
-          <target>Specifica come aggiornare le righe quando un venditore sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
+          <target>Specifica come aggiornare le righe quando un agente sul lato dell'intestazione eliminata. Mantieni il valore della riga: la persona vendicatore nelle righe non verrà eliminata. Aggiorna valore riga: l'agente per un ruolo specifico verrà eliminato nella riga del documento. Nessun aggiornamento: i venditori nelle righe non verranno comunque aggiornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 90220357 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blanket Order</source>
@@ -3252,11 +3256,11 @@
           <target>Provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 1039656513 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1039656513 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agenti</target>
         </trans-unit>
         <trans-unit id="PageExtension 1039656513 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3288,7 +3292,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1166945134 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 1166945134 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3392,7 +3396,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1582844957 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 1582844957 - Control 1080730330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3416,7 +3420,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 161888998 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 161888998 - Control 1080730330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3436,11 +3440,11 @@
           <target>Provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 1635732728 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1635732728 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 1635732728 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3552,7 +3556,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1998846954 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 1998846954 - Control 204582133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3584,11 +3588,11 @@
           <target>Rete di vendita</target>
         </trans-unit>
         <trans-unit id="PageExtension 206023648 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the customer. Salesperson are linked directly or by sales network depending on general setup.</source>
+          <source>Opens list of salespersons related to the customer. Salesperson are linked directly or by sales network depending on general setup.</source>
           <target>Apre l'elenco degli agenti correlati al cliente. L'agente è collegato direttamente o tramite rete di vendita a seconda della configurazione generale.</target>
         </trans-unit>
         <trans-unit id="PageExtension 206023648 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 206023648 - Action 907450760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -3604,7 +3608,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2119113499 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 2119113499 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3644,7 +3648,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2220541574 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 2220541574 - Control 1080730330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3664,11 +3668,11 @@
           <target>Provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 2273429345 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2273429345 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 2273429345 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3736,11 +3740,11 @@
           <target>Provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 2756810116 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2756810116 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agenti</target>
         </trans-unit>
         <trans-unit id="PageExtension 2756810116 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3768,11 +3772,11 @@
           <target>Provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 2911125962 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2911125962 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 2911125962 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3804,11 +3808,11 @@
           <target>Rete di vendita</target>
         </trans-unit>
         <trans-unit id="PageExtension 2952746364 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the customer. Salesperson are linked directly or by sales network depending on general setup.</source>
+          <source>Opens list of salespersons related to the customer. Salesperson are linked directly or by sales network depending on general setup.</source>
           <target>Apre l'elenco degli agenti correlati al cliente. L'agente è collegato direttamente o tramite rete di vendita a seconda della configurazione generale.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2952746364 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agenti</target>
         </trans-unit>
         <trans-unit id="PageExtension 2952746364 - Action 907450760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -3885,7 +3889,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3327025785 - Control 1080730330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Reason Code</source>
-          <target>Codice causale provvigioni</target>
+          <target>Codice causale provvigione</target>
         </trans-unit>
         <trans-unit id="PageExtension 3394506733 - Action 1045475525 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens list of sales network related to the customer. One of those sales network must be marked as default.</source>
@@ -3900,7 +3904,7 @@
           <target>Apre l'elenco degli agenti correlati al cliente. L'agente è collegato direttamente o tramite rete di vendita a seconda della configurazione generale.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3394506733 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 3394506733 - Action 907450760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -3924,11 +3928,11 @@
           <target>Provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 3548822579 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3548822579 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 3548822579 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4020,7 +4024,7 @@
           <target>Apre l'elenco degli agenti correlati al cliente. L'agente è collegato direttamente o tramite rete di vendita a seconda della configurazione generale.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3863294327 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 3863294327 - Action 907450760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -4052,7 +4056,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 4032203350 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 4032203350 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4080,11 +4084,11 @@
           <target>Provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 4059230575 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 4059230575 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 4059230575 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4107,16 +4111,12 @@
           <source>Specifies if the line must be excluded from commission calculation.</source>
           <target>Specifica se la riga deve essere esclusa dal calcolo della provvigione</target>
         </trans-unit>
-        <trans-unit id="PageExtension 4186519196 - Action 1150962569 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commissions</source>
-          <target>Provvigioni</target>
-        </trans-unit>
         <trans-unit id="PageExtension 4186519196 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 4186519196 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 4186519196 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4152,11 +4152,11 @@
           <target>Provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 4228139598 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 4228139598 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 4228139598 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4196,7 +4196,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 423575149 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 423575149 - Control 204582133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4236,11 +4236,11 @@
           <target>Provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 529248517 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 529248517 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 529248517 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4276,11 +4276,11 @@
           <target>Provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 60460923 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 60460923 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agenti</target>
         </trans-unit>
         <trans-unit id="PageExtension 60460923 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4316,11 +4316,11 @@
           <target>Provvigioni</target>
         </trans-unit>
         <trans-unit id="PageExtension 698157540 - Action 3858488728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens list of salesperson related to the document.</source>
+          <source>Opens list of salespersons related to the document.</source>
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 698157540 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agenti</target>
         </trans-unit>
         <trans-unit id="PageExtension 698157540 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4360,7 +4360,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 723453720 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 723453720 - Control 204582133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4404,7 +4404,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 85757103 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 85757103 - Control 204582133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4436,7 +4436,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 945148340 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 945148340 - Control 1080730330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4460,7 +4460,7 @@
           <target>Apre l'elenco degli agenti correlati al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 998036111 - Action 3858488728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Salesperson</source>
+          <source>Salespersons</source>
           <target>Agente</target>
         </trans-unit>
         <trans-unit id="PageExtension 998036111 - Action 92489897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -5415,14 +5415,6 @@
           <source>Overwrite Existing</source>
           <target>Sovrascrivi esistente</target>
         </trans-unit>
-        <trans-unit id="Report 3044685614 - Method 1048590915 - NamedType 1074372818" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commission not deleted, the Entry has a settlement in progress or it is closed.</source>
-          <target>Provvigione non cancellata, il movimento ha una liquidazione in corso o è chiusa.</target>
-        </trans-unit>
-        <trans-unit id="Report 3044685614 - Method 1048590915 - NamedType 3334061755" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commission deleted</source>
-          <target>Provvigione cancellata</target>
-        </trans-unit>
         <trans-unit id="Report 3044685614 - NamedType 1178781371" translate="yes" size-unit="char" xml:space="preserve">
           <source>Processing #1############## #2#######</source>
           <target>Elaborazione #1############## #2#######</target>
@@ -5650,6 +5642,10 @@
         <trans-unit id="Table 1230933914 - Field 1908046867 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reason Code</source>
           <target>Codice causale</target>
+        </trans-unit>
+        <trans-unit id="Table 1230933914 - Field 2324056710 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Currency Factor</source>
+          <target>Fattore valuta</target>
         </trans-unit>
         <trans-unit id="Table 1230933914 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
@@ -7095,10 +7091,6 @@
           <source>Date Filter</source>
           <target>Filtro data</target>
         </trans-unit>
-        <trans-unit id="Table 3965484439 - Method 3152277940 - NamedType 2638230919" translate="yes" size-unit="char" xml:space="preserve">
-          <source>You cannot delete a %1.</source>
-          <target>Non è possibile eliminare un %1.</target>
-        </trans-unit>
         <trans-unit id="Table 3965484439 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Ledger Entry</source>
           <target>Movimenti contabili provvigioni</target>
@@ -7772,8 +7764,8 @@
           <target>Escludi dalla provvigione</target>
         </trans-unit>
         <trans-unit id="TableExtension 3720766296 - Field 1213963406 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commission Reason</source>
-          <target>Codice causale provvigioni</target>
+          <source>Commission Reason Code</source>
+          <target>Codice causale provvigione</target>
         </trans-unit>
         <trans-unit id="TableExtension 3720766296 - Field 4268549222 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Comm. Allocation Register No.</source>
@@ -7822,6 +7814,346 @@
         <trans-unit id="TableExtension 701192234 - Field 466366624 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude from Commission</source>
           <target>Escludi dalla provvigione</target>
+        </trans-unit>
+        <trans-unit id="Table 1230933914 - Field 2324056710 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Currency Factor</source>
+          <target>Fattore valuta</target>
+        </trans-unit>
+        <trans-unit id="Table 429737215 - Field 2007791635 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Role</source>
+          <target>Ruolo agente</target>
+        </trans-unit>
+        <trans-unit id="Table 429737215 - Field 553464652 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <target>Codice agente</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 940688118 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Name</source>
+          <target>Nome agente</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 553464652 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <target>Codice agente</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4186519196 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of salesperson related to the document.</source>
+          <target>Agenti collegati al documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3548822579 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of salesperson related to the document.</source>
+          <target>Agenti collegati al documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4228139598 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of salesperson related to the document.</source>
+          <target>Agenti collegati al documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1166945134 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of salesperson related to the document.</source>
+          <target>Agenti collegati al documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 60460923 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of salesperson related to the document.</source>
+          <target>Agenti collegati al documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2119113499 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of salesperson related to the document.</source>
+          <target>Agenti collegati al documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 698157540 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of salesperson related to the document.</source>
+          <target>Agenti collegati al documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 529248517 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of salesperson related to the document.</source>
+          <target>Agenti collegati al documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Action 2815836242 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete All (Internal test use only)</source>
+          <target>Delete All (Internal test use only)</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Action 2815836242 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>For internal test use only</source>
+          <target>For internal test use only</target>
+        </trans-unit>
+        <trans-unit id="Table 429737215 - Field 3641927271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ID</source>
+          <target>ID</target>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Field 942667584 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>In Use</source>
+          <target>In uso</target>
+        </trans-unit>
+        <trans-unit id="Enum 3216931404 - EnumValue 1212016952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record Delete</source>
+          <target>Record Delete</target>
+        </trans-unit>
+        <trans-unit id="Enum 3216931404 - EnumValue 3015189414 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record Insert</source>
+          <target>Record Insert</target>
+        </trans-unit>
+        <trans-unit id="Enum 3216931404 - EnumValue 3149989263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record Modify</source>
+          <target>Record Modify</target>
+        </trans-unit>
+        <trans-unit id="Enum 3216931404 - EnumValue 1607146239 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record Rename</source>
+          <target>Record Rename</target>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Field 2379322021 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Value ID</source>
+          <target>ID valore Agente</target>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Field 1270654214 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="Table 4294824369 - Field 4150046037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Field 2452690498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Parent Salesperson Set ID</source>
+          <target>ID set agente padre</target>
+        </trans-unit>
+        <trans-unit id="Table 4294824369 - Field 4150046037 - Method 2126772001 - NamedType 1802222120" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Updating customers #1###########</source>
+          <target>Aggiornamento dei clienti #1###########</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Method 3152277940 - NamedType 4018276749" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record cannot be deleted.</source>
+          <target>Il record non può essere eliminato.</target>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set Tree Node</source>
+          <target>Nodo albero set agenti</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Method 2756474656 - NamedType 1740316390" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Parameter "SalespersonSetEntry" must be temporary.</source>
+          <target>Il parametro "SalespersonSetEntry" deve essere temporaneo.</target>
+        </trans-unit>
+        <trans-unit id="Table 429737215 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Role-Salesperson Sets</source>
+          <target>Set ruolo-agente</target>
+        </trans-unit>
+        <trans-unit id="Table 890796851 - Field 1383905037 - Method 2126772001 - NamedType 2214517664" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The default sales network for customer %1 and ship-to address "%2" is %3. Set sales network %4 as the default?</source>
+          <target>La rete di vendita predefinita per il cliente %1 e l'indirizzo di spedizione "%2" è %3. Impostare la rete di vendita %4 come predefinita?</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 278459229 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Role-Salesperson Set ID</source>
+          <target>Ruolo-ID set agente</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 1270654214 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit Salesperson Set Entries</source>
+          <target>Modifica voci set agente</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673019789 - Method 2327904653 - NamedType 2797927825" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This action or feature is disabled if the new salesperson engine is enabled.</source>
+          <target>Questa azione o funzionalità è disabilitata se il nuovo motore agenti è abilitato.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3396113157 - Method 425154674 - NamedType 1608146540" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unexpected record type detected (table %1), proper support for the table must be implemented.</source>
+          <target>Rilevato tipo di record imprevisto (tabella %1), è necessario implementare un supporto adeguato per la tabella.</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 2007791635 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons Role</source>
+          <target>Ruolo Agenti</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 3908857010 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Role Name</source>
+          <target>Nome ruolo agente</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673019789 - Method 860045314 - NamedType 380555342" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The new salesperson engine is not enabled.</source>
+          <target>Il nuovo motore agenti non è abilitato.</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 553464652 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Code" field.</source>
+          <target>Specifica il valore del campo "Codice agente".</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3396113157 - Method 425154674 - NamedType 3090844914" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unexpected %1 value detected, proper logic must be implemented..</source>
+          <target>Rilevato valore %1 imprevisto, è necessario implementare la logica corretta.</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 2007791635 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salespersons Role" field.</source>
+          <target>Specifica il valore del campo "Ruolo venditori".</target>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 940688118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the descriptive name of the Salesperson Code field.</source>
+          <target>Specifica il nome descrittivo del campo Codice agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set Entries</source>
+          <target>Movimenti set agenti</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 940688118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Name" field.</source>
+          <target>Specifica il valore del campo "Nome Agente".</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 3908857010 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Role Name" field.</source>
+          <target>Specifica il valore del campo "Nome ruolo Agente".</target>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 2007791635 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Salesperson Role.</source>
+          <target>Specifica il ruolo dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1998846954 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <target>Specifica il valore del campo "Nr. agenti".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2952746364 - Control 4150046037 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Set ID" field.</source>
+          <target>Specifica il valore del campo "ID set agente".</target>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 3908857010 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the descriptive name of the Salesperson Role field.</source>
+          <target>Specifica il nome descrittivo del campo Ruolo Agente.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3394506733 - Control 4150046037 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Set ID" field.</source>
+          <target>Specifica il valore del campo "ID set Agente".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2952746364 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <target>Specifica il valore del campo "Nr. agenti".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 85757103 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <target>Specifica il valore del campo "Nr. agenti".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 423575149 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <target>Specifica il valore del campo "Nr. agenti".</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2306130378 - Field 4150046037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 723453720 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <target>Specifica il valore del campo "Nr. agenti".</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3581523612 - Field 4150046037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2306130378 - Field 2704558232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons Count</source>
+          <target>Nr. agenti</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1199646167 - Field 4150046037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 3153055517 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Salesperson Code.</source>
+          <target>Specifica il codice dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2943826995 - Field 4150046037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2943826995 - Field 2704558232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons Count</source>
+          <target>Nr. agenti</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3394506733 - Control 2704558232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salespersons Count" field.</source>
+          <target>Specifica il valore del campo "Nr. agenti".</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3581523612 - Field 2704558232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons Count</source>
+          <target>Nr. agenti</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1338888851 - Field 4150046037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3083069679 - Field 4150046037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 63495617 - Field 4150046037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1199646167 - Field 2704558232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons Count</source>
+          <target>Nr. agenti</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1338888851 - Field 2704558232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons Count</source>
+          <target>Nr. agenti</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1976585468 - Field 2704558232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons Count</source>
+          <target>Nr. agenti</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1976585468 - Field 4150046037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 701192234 - Field 4150046037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3251978702 - Field 4150046037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set ID</source>
+          <target>ID set agente</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4186519196 - Action 1150962569 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commissions</source>
+          <target>Provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - NamedType 1347929637" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Network is enabled. You cannot edit this page.</source>
+          <target>La rete di vendita è abilitata. Non è possibile modificare questa pagina.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1945984599 - Method 296254200 - NamedType 2172963897" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Comm. exchange rate diff. to be settled: salesperson %1</source>
+          <target>Differenza cambi provvig. da liquidare: agente %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 2289071063 - NamedType 1965727753" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The following apps are currently installed: %1. To speed up the upgrade, it is recommended to uninstall them. You can reinstall them after the upgrade is complete. Do you still want to proceed with the upgrade?</source>
+          <target>Le seguenti app sono attualmente installate: %1. Per velocizzare l'aggiornamento, si consiglia di disinstallarle. Potrai reinstallarle una volta completato l'aggiornamento. Vuoi comunque procedere con l'aggiornamento?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 547949954 - NamedType 2210146166" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The subscriber %1 of the object %2 %3 is no longer supported. Contact the app provider %4 for a fix.</source>
+          <target>Il sottoscrittore %1 dell'oggetto %2 %3 non è più supportata. Contatta il fornitore dell'app %4 per una correzione.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 417816387" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation completed. Reinstall the disabled apps. Disconnect this session and log in again.</source>
+          <target>Operazione completata. Reinstalla le app disabilitate. Disconnetti questa sessione ed effettua nuovamente l'accesso.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 2179621140 - NamedType 195496386" translate="yes" size-unit="char" xml:space="preserve">
+          <source>\ Unknown salespersons and unknown roles will not be migrated. Do you want to continue?</source>
+          <target>\ Gli agenti sconosciuti e i ruoli sconosciuti non saranno migrati. Vuoi continuare?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 2179621140 - NamedType 2209929909" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation aborted.</source>
+          <target>Operazione annullata.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 2822125193 - NamedType 3581100494" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creating Role-Salesperson sets ... #1########### #2################</source>
+          <target>Creazione Set Ruoli-Agenti ... #1########### #2################</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 1850627436 - NamedType 2790530795" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The field %1 (%2) of the table %3 (%4) is no longer supported. Contact the app provider %5 for a fix.</source>
+          <target>Il campo %1 (%2) della tabella %3 (%4) non è più supportato. Contattare il fornitore dell'app %5 per una correzione.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 1421459110" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DataMigration Quality Check... \Testing Table #1##### \Testing Sample #2##### over #3#####</source>
+          <target>Controllo Qualità Migrazione Dati... \Test Tabella #1##### \Test Campione #2##### su #3#####</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 4016678605" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processing Table #1# \Record #2# \Operation progress #3# \Expected completion time #4# </source>
+          <target>Elaborazione Tabella #1# \Record #2# \Avanzamento operazione #3# \Tempo stimato di completamento #4#</target>
         </trans-unit>
       </group>
     </body>
