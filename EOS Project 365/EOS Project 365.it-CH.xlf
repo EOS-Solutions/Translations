@@ -343,8 +343,8 @@
           <target>Stato</target>
         </trans-unit>
         <trans-unit id="Table 2189657858 - Field 513339096 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>New,Sent,Accepted,Rejected,Canceled</source>
-          <target>Nuovo,Inviato,Accettato,Rifiutato,Stornato</target>
+          <source>New,Sent,Accepted,Rejected,Canceled,Send Error</source>
+          <target>Nuovo,Inviato,Accettato,Rifiutato,Stornato,Errore Invio</target>
         </trans-unit>
         <trans-unit id="Table 2189657858 - Field 886652524 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Responsibility Center</source>
@@ -24257,7 +24257,7 @@
         </trans-unit>
         <trans-unit id="Table 1506548980 - Field 513339096 - Method 2126772001 - NamedType 3307661965" translate="yes" size-unit="char" xml:space="preserve">
           <source>A job activity can only be In Progress if the related work package is also In Progress or Open.</source>
-          <target>Lo stato di un To-Do può essere in corso soltanto qunado la WBS correlata è in stato in corso" oppure "aperto"."""</target>
+          <target>Lo stato di un To-Do può essere in corso soltanto quando la WBS correlata è in stato in "corso" oppure "aperto".</target>
         </trans-unit>
         <trans-unit id="Table 1506548980 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
@@ -93835,6 +93835,34 @@
         <trans-unit id="XmlPort 1956230677 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Session Manager</source>
           <target>Session Manager</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 618082185 - Field 2415166907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2556642749">
+          <source>Job Line Description Type</source>
+          <target>Tipo descrizione progetto</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 432827692 - Method 3528901023 - NamedType 3604058956" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Development and testing</source>
+          <target>Sviluppo e test</target>
+        </trans-unit>
+        <trans-unit id="Enum 2402159607 - EnumValue 1940786348 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fixed Description</source>
+          <target>Descrizione fissa</target>
+        </trans-unit>
+        <trans-unit id="Enum 2402159607 - EnumValue 1123849512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Budget Line</source>
+          <target>Riga budget</target>
+        </trans-unit>
+        <trans-unit id="Enum 2402159607 - EnumValue 671508926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job PSP Line</source>
+          <target>Riga WBS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 618082185 - Field 4143107461 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2556642749">
+          <source>Work Report Required</source>
+          <target>Rapporto Lavori richiesto</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 618082185 - Field 4143107461 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2556642749">
+          <source>No,On Cost,Yes,On Cost + Travel,Chargeable</source>
+          <target>No,Time Material,Sì,Time Material + Trasferta,Addebitabile</target>
         </trans-unit>
       </group>
     </body>
