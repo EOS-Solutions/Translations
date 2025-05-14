@@ -1743,6 +1743,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Plant Maintenance Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1852736102 - Method 361639093 - NamedType 4204058380" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An error occurred during setup initialization: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Error text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Plant Maintenance Setup - Method InsertSetupWizard - NamedType Text000Err</note>
+        </trans-unit>
         <trans-unit id="Table 1852736102 - Field 302561067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Activity Number Sequence</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4308,6 +4313,21 @@
           <note from="Developer" annotates="general" priority="2">%1: Table Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Fast Work Request Impl. - Method GetActivityTableCaption1 - NamedType TableCaptionLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3105831675 - Method 4060470554 - NamedType 903502523" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up Plant Maintenance (PMM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Installer - Method InsertAssistedSetup - NamedType Title1Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3105831675 - Method 4060470554 - NamedType 1182413170" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up Plant Maintenance (PMM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Installer - Method InsertAssistedSetup - NamedType SmallTitle1Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3105831675 - Method 4060470554 - NamedType 2270306401" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Follow along this guide to set up the Plant Maintenance.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Installer - Method InsertAssistedSetup - NamedType Description1Txt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3815376592 - Method 3461975673 - NamedType 2870538072" size-unit="char" translate="yes" xml:space="preserve">
           <source>Field %1 not editable</source>
           <note from="Developer" annotates="general" priority="2">%1: Field No.</note>
@@ -5903,6 +5923,16 @@
           <note from="Developer" annotates="general" priority="2">%</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 LUp Rel. LookUp - Control Source Table No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2799047250 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machines (PMM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 2799047250 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machines are the company plants where maintenance activities must be performed. For each machine, general information can be defined such as the manufacturer, purchase date, installation date, warranty date, etc. You can also define and consult:  Spare Parts,  Components, Characteristics,  Work Requests, Maintenance Points, Planning Values, Movement History</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Property AboutText</note>
+        </trans-unit>
         <trans-unit id="Page 2799047250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Machine</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5953,10 +5983,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Control Blocked - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2799047250 - Control 2230709327 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Maintenance Point No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Control Default Maintenance Point No. - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 2799047250 - Control 2230709327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the default maintenance point no.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Control Default Maintenance Point No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2799047250 - Control 2230709327 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default maintenance point for the machine. It is used as the maintenance point for work requests automatically created by the system against a resolution code that provides the follow up action: Create work request (Default maintenance point no.).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Control Default Maintenance Point No. - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 2799047250 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the machine description.</source>
@@ -5983,10 +6023,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Control Location Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2799047250 - Control 3829088071 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Control Machine Category - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 2799047250 - Control 3829088071 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the machine category.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Control Machine Category - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2799047250 - Control 3829088071 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the category to which the machine belongs, it can be useful for classifying plants and for research purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Control Machine Category - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 2799047250 - Control 1348195699 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the machine center.</source>
@@ -6198,20 +6248,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Action Maintenanance - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2799047250 - Action 2171921814 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Points List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Action MaintenancePoints - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 2799047250 - Action 2171921814 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View machine maintenance points.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Action MaintenancePoints - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2799047250 - Action 2171921814 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The action displays all maintenance points associated with the machine.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Action MaintenancePoints - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 2799047250 - Action 2171921814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maintenance Points</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Action MaintenancePoints - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2799047250 - Action 3880636949 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Requests List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Action WorkRequests - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 2799047250 - Action 3880636949 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View machine work requests.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Action WorkRequests - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2799047250 - Action 3880636949 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The action displays all work requests associated with the machine.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Machine Card - Action WorkRequests - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 2799047250 - Action 3880636949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Work Requests</source>
@@ -7028,6 +7098,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maint. Parameter List - Control No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1479131370 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Cycles (PMM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Card - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 1479131370 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The maintenance cycle represents the set of work phases of a request. For each phase it is possible to define: the parameter to be verified and its description, the resource or resource group and the expected duration. For each maintenance cycle it is possible to manage n versions, each with its own validity start date. The maintenance cycle and its version can be associated with a maintenance point. Then, during the creation of work requests, if indicated, they are automatically inherited.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Card - Property AboutText</note>
+        </trans-unit>
         <trans-unit id="Page 1479131370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maintenance Cycle</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7108,10 +7188,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Card - Control Starting Date - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1479131370 - Control 513339096 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Card - Control Status - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 1479131370 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the Status of the Maintenance Cycle.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Card - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1479131370 - Control 513339096 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Defines the status of the maintenance cycle, the allowed values are: New, Certified, Under development, Closed. The maintenance cycle must be in Certified status before being used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Card - Control Status - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 1479131370 - Control 1684721775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the Version number of the Maintenance Cycle.</source>
@@ -7218,10 +7308,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Subp - Control Next Operation No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2013640426 - Control 3648548930 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parameter No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Subp - Control Parameter No. - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 2013640426 - Control 3648548930 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Parameter No." field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Subp - Control Parameter No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2013640426 - Control 3648548930 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Defines the operation that must be performed within the maintenance cycle. The parameters, which are not mandatory, can be codified in the appropriate table.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Subp - Control Parameter No. - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 2013640426 - Control 56735747 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Position" field.</source>
@@ -7278,6 +7378,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Subp - Action Resolution Codes - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1752173526 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Points (PMM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 1752173526 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance points define the type of maintenance to be performed on a machine and are used to automatically create work requests. The types managed are: **Automatic creation**. If enabled, the new work request is automatically created when the previous one is completed, **Recurring creation based on a time limit and periodicity**, **Creation via planning criteria**. For example, the work request is created after 100 hours of operation or after 10000 pieces. **Creation via job queue**.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Property AboutText</note>
+        </trans-unit>
         <trans-unit id="Page 1752173526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maintenance Point</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7328,25 +7438,55 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control External Maintenance - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1752173526 - Control 1747721638 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Machine No. - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 1752173526 - Control 1747721638 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the machine.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Machine No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1752173526 - Control 1747721638 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The machine no. is the company plant where the maintenance activity must be carried out.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Machine No. - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 1752173526 - Control 2502852842 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Cycle No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Maintanance Cycle No. - Property AboutTitle</note>
         </trans-unit>
         <trans-unit id="Page 1752173526 - Control 2502852842 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the No. of the Maintenance Cycle.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Maintanance Cycle No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1752173526 - Control 2502852842 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The maintenance cycle represents the set of work phases of a request. For each phase it is possible to define: the parameter to be verified and its description, the resource or resource group and the expected duration. It is used for all work requests generated by the maintenance point.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Maintanance Cycle No. - Property AboutText</note>
+        </trans-unit>
         <trans-unit id="Page 1752173526 - Control 3328668997 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the version of the Maintenance Cycle.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Maintanance Cycle Version - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1752173526 - Control 2155264991 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Maintenance Type - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 1752173526 - Control 2155264991 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the type of maintenance according to the UNI 10147 standard.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Maintenance Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1752173526 - Control 2155264991 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Defines the type of maintenance according to the UNI 10147 standard.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Maintenance Type - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 1752173526 - Control 4077268732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the maintenance type.</source>
@@ -7368,10 +7508,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Planned Starting Time - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1752173526 - Control 4165422672 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Predicted Maintenance Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Predicted Maintenance Time - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 1752173526 - Control 4165422672 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the predicted maintenance time.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Predicted Maintenance Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1752173526 - Control 4165422672 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Defines the expected duration of the maintenance activity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Predicted Maintenance Time - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 1752173526 - Control 2021312970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the priority.</source>
@@ -7823,6 +7973,221 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Work Types - Control Description - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3779517333 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plant Maintenance Setup (PMM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 3915919903" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Checkout this video</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType CheckoutThisVideoLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 204409577" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Follow this guide</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType FollowThisGuideLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 1601324261" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Learn more</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType LearnMoreLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 3025738409" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType MachineLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 2027089080" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType MachinesLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 1654102999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Cycle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType MaintCycleLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 1475672186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Cycles</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType MaintCyclesLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 1612793299" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Point</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType MaintPointLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 838895638" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Points</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType MaintPointsLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 3494195350" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Setup Wizard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType NewSetupWizardLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 2893858417" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plant Maintenance Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType PlantMaintenanceSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 3746426553" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not available. Run the setup wizard first.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType RunSetupWizardLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 187318519" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType WorkReqLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - NamedType 2777910874" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Requests</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - NamedType WorkReqsLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 2859305099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Let's go!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Let's go - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 3856546351 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Next to continue.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control group121 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 3800514526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome to the Plant Maintenance Assisted Setup (PMM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Welcome - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 24171474 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We're gonna set up Plant Maintenance in order to start using it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control group111 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 90230088 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run the "New Setup Wizard" to create default data and start using the Plant Maintenance. It is recommended to use it in a Test Environment!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Group21 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 90230088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Wizard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Group21 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 3494195350 - Method 1845446376 - NamedType 4103709050" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to run the Setup Wizard?\It is recommended to run it in a Test Environment!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control NewSetupWizardLbl - Method OnDrillDown - NamedType NewSetupWizardQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 3494195350 - Method 1845446376 - NamedType 3667098245" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup wizard completed successfully!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control NewSetupWizardLbl - Method OnDrillDown - NamedType SetupWizardCompletedLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 727926705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A work request has been created:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Group22 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 2153548775 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Setup Wizard first sets the following fields in "Plant Maintenance Setup (PMM)".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control group31 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 2153548775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step by Step</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control group31 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 2797180110 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The machine is the object of the maintenance process.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Group41 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 2797180110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Group41 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 884090259 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance point defines the type of maintenance to be performed on a machine, therefore the work requests that can be created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Group42 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 884090259 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Point</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Group42 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 1521786876 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Cycle represents the set of work phases of a request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Group43 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 1521786876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Cycle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Group43 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 708986061 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Request represents the maintenance order to be performed on a machine.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Group51 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 708986061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control Group51 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 3169205740 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have finished this guide! You can now utilize the Plant Maintenance.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control group61 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 3169205740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Congrats!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control group61 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Control 3806902357 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click on the Finish button to complete this wizard.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Control group62 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Action 742034285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Go back to the previous step</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Action Back - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Action 742034285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Action Back - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Action 2667510389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish this guide</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Action Finish - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Action 2667510389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Action Finish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Action 1235620153 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Proceed with the next step</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Action Next - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3779517333 - Action 1235620153 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 ONB Setup - Action Next - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3461681861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Planning Criteria List (PMM)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7863,6 +8228,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Planning Values Factbox - Control Description - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1852736102 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plant Maintenance Setup (PMM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 1852736102 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set in this page the Plant Maintenance features.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Property AboutText</note>
+        </trans-unit>
         <trans-unit id="Page 1852736102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Plant Maintenance Setup (PMM)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7888,10 +8263,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Default Work Req. Status - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1852736102 - Control 3072430731 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Machine No. Series - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 1852736102 - Control 3072430731 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the series number of the machine.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Machine No. Series - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1852736102 - Control 3072430731 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The series number of the machines. It is also possible to set the series numbers of maintenance points, maintenance cycles and work requests.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Machine No. Series - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 1852736102 - Control 239884675 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the series number of the maintenance cycle.</source>
@@ -7938,10 +8323,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Job Journal Template Name - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1852736102 - Control 496762593 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project No. Mandatory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Job No. Mandatory - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 1852736102 - Control 496762593 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies whether the Project No. and Project Task No. fields are mandatory on maintenance points.</source>
+          <source>It allows you to connect plant maintenance postings to projects management, making the compilation of the project and the related activity mandatory.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Job No. Mandatory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1852736102 - Control 496762593 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It allows you to connect plant maintenance postings to projects management, making the compilation of the project and the related activity mandatory.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Job No. Mandatory - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 1852736102 - Control 3514849255 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether project entries should be automatically posted.</source>
@@ -7978,10 +8373,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Use Wk. Req. Descr. Post Act. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1852736102 - Control 1923515934 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Work Request Cycle Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Use Work Req. Cycle Posting - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 1852736102 - Control 1923515934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether to suggest values to be posted using work request cycle entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Use Work Req. Cycle Posting - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1852736102 - Control 1923515934 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to suggest values to be posted using work request cycle entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Use Work Req. Cycle Posting - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 1852736102 - Control 2915650802 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the work request status to set when the maintenance cycle is completed.</source>
@@ -8132,6 +8537,31 @@
           <source>Initialize Defaults</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Action InitDefaults - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1852736102 - Action 3386795356 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Wizard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Action NewSetupWizard - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 1852736102 - Action 3386795356 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the New Setup Wizard action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Action NewSetupWizard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1852736102 - Action 3386795356 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>**New Setup Wizard** creates default data to start using the Plant Maintenance. It is recommended to use it in a Test Environment!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Action NewSetupWizard - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 1852736102 - Action 3386795356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Setup Wizard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Action NewSetupWizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1852736102 - Action 3386795356 - Method 1377591017 - NamedType 1603347576" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to proceed with the creation of a setup wizard (inclusion in a test or demo environment is recommended)?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Action NewSetupWizard - Method OnAction - NamedType Text000Msg</note>
         </trans-unit>
         <trans-unit id="Page 4082189049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Comments</source>
@@ -11363,6 +11793,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Calendar - Action ShowMatrix - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2212518253 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Requests (PMM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 2212518253 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work requests are used to plan and execute maintenance activities. They can be created manually or through maintenance points. The main features are:  Ability to assign them to a group/resource, Define a planned start date, Define any necessary spare parts, Define the maintenance cycle, Estimated time, Purchasing management: ability to issue purchase orders/quotes, Status management: Planned, Released, In Progress, Completed etc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Property AboutText</note>
+        </trans-unit>
         <trans-unit id="Page 2212518253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Work Request</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11473,25 +11913,55 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control From Work Request - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2212518253 - Control 1747721638 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Machine No. - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 2212518253 - Control 1747721638 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the machine.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Machine No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2212518253 - Control 1747721638 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The machine no. is the company plant where the maintenance activity must be carried out.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Machine No. - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 2212518253 - Control 2502852842 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Cycle No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Maintanance Cycle No. - Property AboutTitle</note>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Control 2502852842 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the No. of the Maintenance Cycle.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Maintanance Cycle No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2212518253 - Control 2502852842 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The maintenance cycle represents the set of work phases of a request. For each phase it is possible to define: the parameter to be verified and its description, the resource or resource group and the expected duration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Maintanance Cycle No. - Property AboutText</note>
+        </trans-unit>
         <trans-unit id="Page 2212518253 - Control 3328668997 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the version of the Maintenance Cycle.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Maintanance Cycle Version - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2212518253 - Control 10077250 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance Point No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Maintenance Point No. - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 2212518253 - Control 10077250 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the maintenance point.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Maintenance Point No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2212518253 - Control 10077250 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintenance points define the type of maintenance to be performed on a machine and are used to automatically create work requests. The types managed are:  **Automatic creation**. If enabled, the new work request is created automatically upon completion of the previous one, **Recurring creation based on a time limit and periodicity**,  **Creation via planning criteria**. For example, the work request is created after 100 hours of operation or after 10000 pieces, **Creation via job queue**.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Maintenance Point No. - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Control 2155264991 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the type of maintenance according to the UNI 10147 standard.</source>
@@ -11678,10 +12148,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Action ChangeStatus - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2212518253 - Action 2282416948 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Work Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Action Post - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 2212518253 - Action 2282416948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Finalize the document or journal by posting the amounts and quantities to the related accounts in your company books.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Action Post - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2212518253 - Action 2282416948 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting allows you to finalize the work request by posting the activities performed by individual resources with related times and costs. It also allows you to post the consumption of spare parts used for maintenance.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Action Post - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Action 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>P&amp;ost</source>
@@ -11933,10 +12413,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Cycles - Action Duplicate - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1306352976 - Action 620325036 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Work Request Cycle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Cycles - Action Start - Property AboutTitle</note>
+        </trans-unit>
         <trans-unit id="Page 1306352976 - Action 620325036 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Start</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Cycles - Action Start - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1306352976 - Action 620325036 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Start function action, used together with the Stop and Complete actions, allows to automatically calculate the execution time of a given phase. The time can also be entered manually.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Cycles - Action Start - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 1306352976 - Action 620325036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Start</source>
@@ -13317,6 +13807,11 @@
           <source>Work Request</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS060EnumExt18122604 - EnumValue EOS060 Work Request - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 86272210 - EnumValue 2801831291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1150498218">
+          <source>EOS Get started with Plant Maintenance (PMM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS060EnumExt18122605 - EnumValue EOS PMM - Property Caption</note>
         </trans-unit>
       </group>
     </body>
