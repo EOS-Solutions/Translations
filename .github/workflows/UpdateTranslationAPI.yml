@@ -1,0 +1,46 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Translation API Call
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master-bc26" branch
+  push:
+    branches: [ "master-bc26" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    name: Translation API Call
+    # The type of runner that the job will run on
+    runs-on: windows-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Run delete translation powershell script
+        run: |
+          .\.github\workflows\deleteFiles.ps1
+        env:
+          APIURL: ${{ vars.APIURL }}
+      
+      - name: Run update translation powershell script
+        run: |
+          .\.github\workflows\uploadFiles.ps1
+        env:
+          APIURL: ${{ vars.APIURL }}
+      
+      - name: Force create tag
+        run: |
+          git tag -f dbversion
+          git push origin dbversion --force
