@@ -2493,6 +2493,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS ADR Scheduled Mailings - Method SendSingleScheduledSetupWithConfirmation - NamedType NothingErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2615611148 - Method 496963337 - NamedType 2284344656" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no "To" address for the email. Please check the recipients.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Adv Mail Processing - Method CheckRequest - NamedType NoToAddrErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3955452010 - Method 2017441489 - NamedType 1816756024" size-unit="char" translate="yes" xml:space="preserve">
           <source>The mail has not been send correctly, check "%1" page.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3369,37 +3374,37 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Control EOS Group - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1248600184 - Control 834542580 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value for the field EOS E-Mail Text Code</source>
+          <source>Specifies the E-Mail Text code to use for sending the document, this is the text that will be used in the body of the email</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Control EOS E-Mail Text Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1248600184 - Control 625141706 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value for the field EOS Language Code</source>
+          <source>Specifies the Language code to use for sending the document. This is read from the source document and will be used to determine the language of the report</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Control EOS Language Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1248600184 - Control 229798437 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value for the field EOS Last Error</source>
+          <source>If the request has failed, this field will contain the error message that was generated during processing</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Control EOS Last Error - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1248600184 - Control 1146862196 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value for the field EOS Mailbox Code</source>
+          <source>Specifies the Mailbox code to use for sending the document</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Control EOS Mailbox Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1248600184 - Control 2900586655 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value for the field EOS Report Setup Code</source>
+          <source>Specifies which report setup code to use for printing the document</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Control EOS Report Setup Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1248600184 - Control 539677424 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value for the field EOS Request Status</source>
+          <source>Specifies the status of the request: Ready: the request is ready to be processed, Processing: the request is currently being processed, Completed: the request has been completed, Failed: the request has failed</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Control EOS Request Status - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1248600184 - Control 477594852 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value for the field EOS Request Type</source>
+          <source>Specifies if the request is a single or multi mail. Single mail is used for sending a single document to a single recipient. Multi mail is used for sending multiple documents to multiple recipients.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Control EOS Request Type - Property ToolTip</note>
         </trans-unit>
@@ -3434,12 +3439,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Action EOSShowFiles - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1248600184 - Action 3335453145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Files</source>
+          <source>Attachments</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Action EOSShowFiles - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1248600184 - Action 2571750490 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the action Send</source>
+          <source>Sends the document to the recipients. This will send the document to the recipients that are linked to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Action EOSExecute - Property ToolTip</note>
         </trans-unit>
@@ -3449,7 +3454,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Action EOSExecute - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1248600184 - Action 919931371 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the action Multi Mail</source>
+          <source>Changes the request type to Multi Mail. This is used for sending multiple documents to multiple recipients.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Action EOSMultiMail - Property ToolTip</note>
         </trans-unit>
@@ -3459,7 +3464,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Action EOSMultiMail - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1248600184 - Action 1618815174 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the action Single Mail</source>
+          <source>Changes the request type to Single Mail. This is used for sending a single document to a single recipient.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvDoc Mail Header - Action EOSSingleMail - Property ToolTip</note>
         </trans-unit>
