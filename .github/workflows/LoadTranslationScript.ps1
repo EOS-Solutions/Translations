@@ -28,7 +28,6 @@ function Send-Translations {
                             -SkipCertificateCheck
     }
     catch {
-        Write-Error "Error processing batch of translations"
         Write-Error $_.Exception.Message
     }
 }
