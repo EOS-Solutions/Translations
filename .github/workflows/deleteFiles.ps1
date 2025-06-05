@@ -9,7 +9,7 @@ function CallAPIFileName {
         $apiUrl = "$($env:APIURL)/deleteFile"
 
         $headers = @{
-            "x-api-key" = $($env:APIURL)
+            "x-api-key" = $($env:APIKEY)
         }
 
         Invoke-RestMethod   -Uri $apiUrl `
