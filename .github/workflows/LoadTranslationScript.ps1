@@ -28,7 +28,7 @@ function Send-Translations {
                             -SkipCertificateCheck
     }
     catch {
-        Write-Error $_.Exception.Message
+        Write-Error "Error occurred while calling API for file '$FileName' at URL '$apiUrl': $($_.Exception.Message)"
     }
 }
 

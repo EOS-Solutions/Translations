@@ -5,13 +5,12 @@ function CallAPIFileName {
     )
 
     $body = "{`"FileName`": `"$FileName`"}"
+    $apiUrl = "$($env:APIURL)/deleteFile"
+    $headers = @{
+        "x-api-key" = $($env:APIKEY)
+    }
+
     try {
-        $apiUrl = "$($env:APIURL)/deleteFile"
-
-        $headers = @{
-            "x-api-key" = $($env:APIKEY)
-        }
-
         Invoke-RestMethod   -Uri $apiUrl `
                             -Method Post `
                             -Body $body `
@@ -20,7 +19,7 @@ function CallAPIFileName {
                             -SkipCertificateCheck
     }
     catch {
-        Write-Error $_.Exception.Message
+        Write-Error "Error occurred while calling API for file '$FileName' at URL '$apiUrl': $($_.Exception.Message)"
     }
 }
 
