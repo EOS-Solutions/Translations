@@ -3,16 +3,26 @@ function CallAPIFileName {
         [Parameter(Mandatory=$true)]
         [string]$FileName
     )
-    
-    $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
-    $headers.Add("Content-Type", "application/json")
 
     $body = "{`"FileName`": `"$FileName`"}"
-    
-    $apiUrl = "$($env:APIURL)/deleteFile"
+    try {
+        $apiUrl = "$($env:APIURL)/deleteFile"
 
-    $response = Invoke-RestMethod $apiUrl -Method 'POST' -Headers $headers -Body $body
-    $response | ConvertTo-Json
+        $headers = @{
+            "x-api-key" = $env:APIKEY
+        }
+
+        Invoke-RestMethod   -Uri $apiUrl `
+                            -Method Post `
+                            -Body $body `
+                            -Headers $headers `
+                            -ContentType "application/json" `
+                            -SkipCertificateCheck
+    }
+    catch {
+        Write-Error "Error processing batch of translations"
+        Write-Error $_.Exception.Message
+    }
 }
 
 # Execute git command to get the list of changed files
