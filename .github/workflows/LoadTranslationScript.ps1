@@ -17,7 +17,7 @@ function Send-Translations {
         $apiUrl = "$($env:APIURL)/newTranslation"
 
         $headers = @{
-            "x-api-key" = $env:APIKEY
+            "x-api-key" = $($env:APIURL)
         }
 
         Invoke-RestMethod   -Uri $apiUrl `
