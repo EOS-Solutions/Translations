@@ -93,7 +93,7 @@ foreach ($file in $xlfFiles) {
         }
     }
     catch {
-        Write-Error "Error processing file: $($fileObj.FullName)"
+        Write-Error "Error processing file: $($fileObj.FullName): $($_.Exception.Message)"
         Write-Error $_.Exception.Message
     }
 }

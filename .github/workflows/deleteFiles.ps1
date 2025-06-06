@@ -23,6 +23,8 @@ function CallAPIFileName {
     }
 }
 
+return;
+
 # Execute git command to get the list of changed files
 $gitDiffOutput = git --no-pager diff --name-only dbversion HEAD
 
