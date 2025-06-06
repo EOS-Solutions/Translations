@@ -12,7 +12,7 @@ function Send-Translations {
         [array]$translations
     )
     
-    $body = $translations | ConvertTo-Json
+    $body = $translations | ConvertTo-Json -AsArray
     try {
         $apiUrl = "$($env:APIURL)/newTranslation"
 
