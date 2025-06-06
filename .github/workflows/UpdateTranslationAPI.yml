@@ -36,12 +36,14 @@ jobs:
           .\.github\workflows\deleteFiles.ps1
         env:
           APIURL: ${{ vars.APIURL }}
+          APIKEY: ${{ secrets.APIKEY_UPDATE }}
       
       - name: Run update translation powershell script
         run: |
           .\.github\workflows\uploadFiles.ps1
         env:
           APIURL: ${{ vars.APIURL }}
+          APIKEY: ${{ secrets.APIKEY_UPDATE }}
       
       - name: Force create tag
         run: |

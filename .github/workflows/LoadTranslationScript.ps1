@@ -12,21 +12,23 @@ function Send-Translations {
         [array]$translations
     )
     
-    $body = $translations | ConvertTo-Json
+    $body = $translations | ConvertTo-Json -AsArray
     try {
-        #$apiUrl = "$($env:APIURL)/newTranslation"
-        $apiUrl = "https://gordon-translationapi-hmg8cpctcjaxa5g0.italynorth-01.azurewebsites.net/newTranslation"
+        $apiUrl = "$($env:APIURL)/newTranslation"
 
-        Invoke-RestMethod -Uri $apiUrl `
-                                    -Method Post `
-                                      -Body $body `
-                                      -ContentType "application/json" `
-                                      -SkipCertificateCheck
+        $headers = @{
+            "x-api-key" = $($env:APIKEY)
+        }
+
+        Invoke-RestMethod   -Uri $apiUrl `
+                            -Method Post `
+                            -Body $body `
+                            -Headers $headers `
+                            -ContentType "application/json" `
+                            -SkipCertificateCheck
     }
     catch {
-        Write-Error "Error processing batch of translations"
-        Write-Error $_.Exception.Message
-        #$_ | Out-File -FilePath "C:/Dati/_Git_LabsTools/GordonLoadTranslationScript/ErrorLog.txt" -Append
+        Write-Error "Error occurred while calling API for file '$FileName' at URL '$apiUrl': $($_.Exception.Message)"
     }
 }
 
@@ -91,7 +93,7 @@ foreach ($file in $xlfFiles) {
         }
     }
     catch {
-        Write-Error "Error processing file: $($fileObj.FullName)"
+        Write-Error "Error processing file: $($fileObj.FullName): $($_.Exception.Message)"
         Write-Error $_.Exception.Message
     }
 }

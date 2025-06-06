@@ -3,16 +3,24 @@ function CallAPIFileName {
         [Parameter(Mandatory=$true)]
         [string]$FileName
     )
-    
-    $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
-    $headers.Add("Content-Type", "application/json")
 
     $body = "{`"FileName`": `"$FileName`"}"
-    
     $apiUrl = "$($env:APIURL)/deleteFile"
+    $headers = @{
+        "x-api-key" = $($env:APIKEY)
+    }
 
-    $response = Invoke-RestMethod $apiUrl -Method 'POST' -Headers $headers -Body $body
-    $response | ConvertTo-Json
+    try {
+        Invoke-RestMethod   -Uri $apiUrl `
+                            -Method Post `
+                            -Body $body `
+                            -Headers $headers `
+                            -ContentType "application/json" `
+                            -SkipCertificateCheck
+    }
+    catch {
+        Write-Error "Error occurred while calling API for file '$FileName' at URL '$apiUrl': $($_.Exception.Message)"
+    }
 }
 
 # Execute git command to get the list of changed files
