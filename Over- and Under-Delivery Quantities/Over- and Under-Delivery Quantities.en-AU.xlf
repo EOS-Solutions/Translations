@@ -134,7 +134,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS047 Setup Line - Field Source Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2222465197 - Field 1753214751 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source> ,Customer,Vendor,Location</source>
+          <source> ,Customer,Vendor,Location,Service</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS047 Setup Line - Field Source Type - Property OptionCaption</note>
         </trans-unit>
@@ -448,6 +448,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS047PageExt18123320 - Control EOS Line Closed - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3556195096 - Control 2924721467 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2145436509">
+          <source>If this flag is active, the next ship posting will reduce all outstanding quantities to zero.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS047PageExt18123324 - Control EOS Ignore Outstanding Qty. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4162618568 - Control 1557396958 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4284303991">
           <source>Indicates the quantity to pick for this line. If this is zero, the full outstanding quantity will be picked.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -648,6 +653,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18123322 - Control EOS Close Assembly Order - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 427060740 - Action 2727351743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 997019036">
+          <source>Shows all currently configured over-/underdelivery setup lines that are applicable to the selected document line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18123323 - Action EOSShowApplicableSetupLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 427060740 - Action 2727351743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 997019036">
+          <source>Over-/Underdelivery Setup Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18123323 - Action EOSShowApplicableSetupLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 427060740 - Control 2924721467 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 997019036">
+          <source>If this flag is active, the next ship posting will reduce the outstanding quantity to zero.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18123323 - Control EOS Ignore Outstanding Qty. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 427060740 - Control 30164623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 997019036">
+          <source>Marks this document line as closed, reducing any outstanding quantities to zero.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18123323 - Control EOS Line Closed - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2492364987 - Field 1557396958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3659122181">
           <source>Qty. to Pick</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -752,6 +777,31 @@
           <source>Line Closed</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123310 - Field EOS Line Closed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4189132321 - Field 2924721467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2682833765">
+          <source>Ignore Outstanding Qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123312 - Field EOS Ignore Outstanding Qty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4189132321 - Field 30164623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2682833765">
+          <source>Line Closed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123312 - Field EOS Line Closed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 531861642 - NamedType 4158711813" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 531861642">
+          <source>The Ignore Outstanding Quantity field was not updated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123313 - NamedType IgnoreOutstandingQtyErr</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 531861642 - NamedType 2928641300" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 531861642">
+          <source>All Service Lines will be modified accordingly. Do you want to proceed?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123313 - NamedType IgnoreOutstandingQtyQst</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 531861642 - Field 2924721467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3610197182">
+          <source>Ignore Outstanding Qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123313 - Field EOS Ignore Outstanding Qty. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3917372840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Over Quantity Calc. Method in Blanket Order</source>
