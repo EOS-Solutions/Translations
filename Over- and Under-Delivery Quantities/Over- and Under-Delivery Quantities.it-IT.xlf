@@ -400,8 +400,8 @@
           <target>Tipo origine</target>
         </trans-unit>
         <trans-unit id="Table 2222465197 - Field 1753214751 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,Customer,Vendor,Location</source>
-          <target> ,Cliente,Fornitore,Ubicazione</target>
+          <source> ,Customer,Vendor,Location,Service</source>
+          <target> ,Cliente,Fornitore,Ubicazione,Assistenza</target>
         </trans-unit>
         <trans-unit id="Table 2222465197 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Type</source>
@@ -610,11 +610,50 @@
         <trans-unit id="Page 3242332114 - Control 70476910 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable the feature of the Over-/Underdelivery Setup lines.</source>
           <target>Abilita la funzionalità del Setup consegne per eccesso/difetto.</target>
-          <note>Page EOS047 OVR Setup - Control Enable OVR - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2762525860 - Method 716454850 - NamedType 3736023293" translate="yes" size-unit="char" xml:space="preserve">
           <source>The feature will be active after enabling OVR in the Setup (OVR).</source>
           <target>La funzionalità sarà attiva dopo aver abilitato l'OVR nel Setup (OVR).</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4189132321 - Field 30164623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line Closed</source>
+          <target>Riga chiusa</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 427060740 - Control 30164623 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Marks this document line as closed, reducing any outstanding quantities to zero.</source>
+          <target>Contrassegna la riga del documento come chiusa, riducendo le quantità inevase a zero.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 531861642 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ignore Outstanding Qty.</source>
+          <target>Ignora quantità residua</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4189132321 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ignore Outstanding Qty.</source>
+          <target>Ignora quantità residua</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 427060740 - Control 2924721467 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If this flag is active, the next ship posting will reduce the outstanding quantity to zero.</source>
+          <target>Se questo flag è attivo, la successiva spedizione ridurrà la quantità residua a zero.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 427060740 - Action 2727351743 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Over-/Underdelivery Setup Lines</source>
+          <target>Righe setup consegne per eccesso/difetto</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 427060740 - Action 2727351743 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows all currently configured over-/underdelivery setup lines that are applicable to the selected document line.</source>
+          <target>Mostra tutte le righe setup consegne per eccesso/difetto attualmente configurate e valide per la riga documento selezionata.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 531861642 - NamedType 4158711813" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Ignore Outstanding Quantity field was not updated</source>
+          <target>Il campo Ignora quantità residua non è stato aggiornato</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3556195096 - Control 2924721467 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If this flag is active, the next ship posting will reduce all outstanding quantities to zero.</source>
+          <target>Se questo flag è attivo, la successiva spedizione ridurrà tutte le quantità residue a zero.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 531861642 - NamedType 2928641300" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All Service Lines will be modified accordingly. Do you want to proceed?</source>
+          <target>Tutte le righe di assistenza saranno modificate di conseguenza. Vuoi procedere?</target>
         </trans-unit>
       </group>
     </body>
