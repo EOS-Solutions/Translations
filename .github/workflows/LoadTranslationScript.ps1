@@ -56,6 +56,7 @@ foreach ($file in $xlfFiles) {
         
         # Get target language from the file element
         $targetLanguage = $xmlContent.xliff.file.GetAttribute("target-language")
+        $targetLanguage =  ($targetLanguage -split '-')[0]
         
         # Process each trans-unit using proper namespace
         $transUnits = $xmlContent.SelectNodes("//x:trans-unit", $nsManager)
