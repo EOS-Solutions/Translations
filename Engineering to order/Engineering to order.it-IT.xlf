@@ -444,8 +444,8 @@
           <target>Specifica il valore del campo "Ubicazione processo specifica"</target>
         </trans-unit>
         <trans-unit id="PageExtension 405861631 - Control 2468224292 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Automatic Location Creation" field</source>
-          <target>Specifica il valore del campo "Creazione automatica ubicazione"</target>
+          <source>Automatically create project location according to established rules</source>
+          <target>Crea in automatico l'ubicazione di progetto secondo le regole stabilite</target>
         </trans-unit>
         <trans-unit id="PageExtension 405861631 - Control 2587108868 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If this field is enabled, the Copy Document action will also copy the project related data(Project No., Project Task No., Project Structure Entry No).</source>
@@ -456,12 +456,12 @@
           <target>Warehouse</target>
         </trans-unit>
         <trans-unit id="PageExtension 405861631 - Control 3269271037 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Prevent Project Structure Negative Inventory field"</source>
-          <target>Specificare il valore del campo "Evita giacenza negativa (strutture progetto)"</target>
+          <source>Prevents the posting of item ledger entries for which there is insufficient inventory at the project structure line level (Project Structure Entry No.)</source>
+          <target>Impedisce la registrazione di movimenti contabili articoli per i quali non vi è giacenza sufficiente a livello di riga struttura progetto (Nr. Mov. Struttura Progetto)</target>
         </trans-unit>
         <trans-unit id="PageExtension 405861631 - Control 4270095269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Apply Specific Location To All Lines"</source>
-          <target>Specificare il valore del campo "Applica ubicazione specifica a tutte le righe"</target>
+          <source>When active, sets the location indicated in the Project Structure header in all new rows. When not active, the location for items with Standard Production or Standard Purchase will be the one indicated in the "Project Location" field in Engineering Setup</source>
+          <target>Quando attivo, imposta l'ubicazione indicata nella testata della Struttura di Progetto in tutte le nuove righe. Quando non attivo, l'ubicazione per gli articoli aventi Produzione Standard o Acquisto Standard sarà quella indicata nel campo "Ubicazione Progetto" in Setup Engineering</target>
         </trans-unit>
         <trans-unit id="PageExtension 405861631 - Control 882669031 - Method 2126772001 - NamedType 262843440" translate="yes" size-unit="char" xml:space="preserve">
           <source>Are you sure you want to change this setting ?</source>
@@ -1082,12 +1082,54 @@
         <trans-unit id="PageExtension 848825691 - Control 2332208705 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number for the associated project structure entry no.</source>
           <target>Specifica il numero per il campo Numero struttura progetto associato</target>
-          <note>PageExtension EOS09004 ETO PageExt70623616 - Control EOS M365 Entry No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 848825691 - Control 968027827 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number for the associated project structure no.</source>
           <target>Specifica il numero per il campo Progetto associato </target>
-          <note>PageExtension EOS09004 ETO PageExt70623616 - Control EOS M365 Job Structure No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3091707095 - Method 3514315408 - NamedType 995296918" translate="yes" size-unit="char" xml:space="preserve">
+          <source>A SKU on location %1 of %2 "%3" with %4 "%5" already exists\\Do you want to change it to %2 "%6" with %4 "%7" ?</source>
+          <target>Una SKU su ubicazione %1 di %2 "%3" con %4 "%5" è già esistente\\Vuoi modificarla in %2 "%6" con %4 "%7" ?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3091707095 - Method 2340401493 - NamedType 3195776229" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Stockkeeping Unit are created for:  Item: %1 Variant: %2 Location: %3</source>
+          <target>Unità di stockkeeping viene creata per: Articolo: %1 Variante: %2 Ubicazione: %3</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3091707095 - Method 2340401493 - NamedType 3206256880" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Stockkeeping Unit are changed for:  Item: %1 Variant: %2 Location: %3</source>
+          <target>Unità di stockkeeping viene modificata per: Articolo: %1 Variante: %2 Ubicazione: %3</target>
+        </trans-unit>
+        <trans-unit id="Enum 4168857362 - EnumValue 4220601299 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Dynamic SKU creation</source>
+          <target>Creazione dinamica SKU</target>
+        </trans-unit>
+        <trans-unit id="Enum 4168857362 - EnumValue 1581693616 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No SKU</source>
+          <target>Nessuna SKU</target>
+        </trans-unit>
+        <trans-unit id="Enum 4168857362 - EnumValue 2672704373 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Standard</source>
+          <target>Standard</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 910873115 - Field 4129529225 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default SKU Reordering Policy</source>
+          <target>Metodo di riordino default SKU</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 910873115 - Field 2964939593 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generate SKU Policy</source>
+          <target>Politica Creazione SKU</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 405861631 - Control 4129529225 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicate the default Reordering Policy for SKU created for new project structure lines with standard production (if the Reordering Policy in the item card is empty)</source>
+          <target>Indicare il metodo di riordino di default per le SKU create per nuove righe struttura progetto con produzione standard (se il metodo di riordino in scheda articolo è vuoto)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 405861631 - Control 2964939593 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Determines the policy with which the system manages the Stockkeeping Units from the Project Structures. "Standard": The system creates the SKU according to the basic logic. "No SKU": The system does not generate any SKU. "Dynamic SKU creation": the system creates or proposes the modification of SKUs when the replenishment system changes.</source>
+          <target>Determina la politica con la quale il sistema gestisce le Stocckeeping Unit dalle Strutture di Progetto. "Standard": il sistema crea la SKU secondo la logica di base. "Nessuna SKU": il sistema non genera alcuna SKU. "Creazione dinamica SKU": il sistema crea o propone la modifica delle SKU al cambio del sistema di rifornimento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 405861631 - Control 3575863125 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Stockkeeping Units</source>
+          <target>Unità di stockkeeping</target>
         </trans-unit>
       </group>
     </body>

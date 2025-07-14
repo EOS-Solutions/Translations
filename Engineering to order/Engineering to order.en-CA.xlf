@@ -223,6 +223,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS090 Job Struct. Line Mgt. - Method CheckAssignOnSalesLine - NamedType Message1Qst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3091707095 - Method 3514315408 - NamedType 995296918" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A SKU on location %1 of %2 "%3" with %4 "%5" already exists\\Do you want to change it to %2 "%6" with %4 "%7" ?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS090 Stockkeeping Unit Mgt. - Method GenerateSingleSKU - NamedType ChangeSKUMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3091707095 - Method 2340401493 - NamedType 3195776229" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stockkeeping Unit are created for:  Item: %1 Variant: %2 Location: %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS090 Stockkeeping Unit Mgt. - Method GenerateSKUNotification - NamedType noteInsertSkuMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3091707095 - Method 2340401493 - NamedType 3206256880" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stockkeeping Unit are changed for:  Item: %1 Variant: %2 Location: %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS090 Stockkeeping Unit Mgt. - Method GenerateSKUNotification - NamedType noteModifySkuMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1285022905 - Method 2450142765 - NamedType 1364431794" size-unit="char" translate="yes" xml:space="preserve">
           <source>is not sufficient to complete this action. The quantity in the bin with project structure entry no. %3 is %1. %2 units are not available</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -699,12 +714,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS09004 ETO PageExt18126550 - Action EOSCreateJobLocations - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 405861631 - Control 4270095269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3710421013">
-          <source>Specifies the value of the "Apply Specific Location To All Lines"</source>
+          <source>When active, sets the location indicated in the Project Structure header in all new rows. When not active, the location for items with Standard Production or Standard Purchase will be the one indicated in the "Project Location" field in Engineering Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS09004 ETO PageExt18126551 - Control EOS Apply Spec. Location - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 405861631 - Control 2468224292 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3710421013">
-          <source>Specifies the value of the "Automatic Location Creation" field</source>
+          <source>Automatically create project location according to established rules</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS09004 ETO PageExt18126551 - Control EOS Automatic Location Creation - Property ToolTip</note>
         </trans-unit>
@@ -714,7 +729,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS09004 ETO PageExt18126551 - Control EOS Copy JobFields in CopyDoc - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 405861631 - Control 3269271037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3710421013">
-          <source>Specifies the value of the "Prevent Project Structure Negative Inventory field"</source>
+          <source>Prevents the posting of item ledger entries for which there is insufficient inventory at the project structure line level (Project Structure Entry No.)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS09004 ETO PageExt18126551 - Control EOS Prevent JS Neg. Inv. - Property ToolTip</note>
         </trans-unit>
@@ -752,6 +767,21 @@
           <source>Are you sure you want to change this setting ?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS09004 ETO PageExt18126551 - Control EOS Whse. Integration Active - Method OnValidate - NamedType confirmQst</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 405861631 - Control 3575863125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3710421013">
+          <source>Stockkeeping Units</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS09004 ETO PageExt18126551 - Control Stockkeeping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 405861631 - Control 4129529225 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3710421013">
+          <source>Indicate the default Reordering Policy for SKU created for new project structure lines with standard production (if the Reordering Policy in the item card is empty)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS09004 ETO PageExt18126551 - Control EOS Default SKU Reord. Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 405861631 - Control 2964939593 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3710421013">
+          <source>Determines the policy with which the system manages the Stockkeeping Units from the Project Structures. "Standard": The system creates the SKU according to the basic logic. "No SKU": The system does not generate any SKU. "Dynamic SKU creation": the system creates or proposes the modification of SKUs when the replenishment system changes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS09004 ETO PageExt18126551 - Control EOS Generate SKU Policy - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2318951482 - Control 2158492364 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 465925326">
           <source>This field shows the project structure entry no.</source>
@@ -1093,6 +1123,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS09004 ETO TableExt18126550 - Field EOS Automatic Loc Creation - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 910873115 - Field 4129529225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3710421013">
+          <source>Default SKU Reordering Policy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS09004 ETO TableExt18126550 - Field EOS Default SKU Reord. Policy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 910873115 - Field 2964939593 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3710421013">
+          <source>Generate SKU Policy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS09004 ETO TableExt18126550 - Field EOS Generate SKU Policy - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 910873115 - Field 3269271037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3710421013">
           <source>Prevent Project Structure Negative Inventory</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1337,6 +1377,21 @@
           <source>No. Series</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS EX09004 ETO Job Location Type - EnumValue No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4168857362 - EnumValue 4220601299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dynamic SKU creation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS090 Generate SKU Policy - EnumValue Dynamic SKU creation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4168857362 - EnumValue 1581693616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No SKU</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS090 Generate SKU Policy - EnumValue No SKU - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4168857362 - EnumValue 2672704373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS090 Generate SKU Policy - EnumValue Standard - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4164597788 - EnumValue 2818324089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Project</source>
