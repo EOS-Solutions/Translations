@@ -208,6 +208,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS MDI Factbox Buffer - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3792542264 - Field 689242118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The company code associated with the MDI record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS MDI Factbox Buffer - Field Company Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3792542264 - Field 689242118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS MDI Factbox Buffer - Field Company Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3792542264 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -232,6 +242,21 @@
           <source>No. 2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS MDI Factbox Buffer - Field No. 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3792542264 - Field 2897660500 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS MDI Factbox Buffer - Field Record ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3792542264 - Field 1101052533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The synchronization status of the MDI record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS MDI Factbox Buffer - Field Synch Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3792542264 - Field 1101052533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synch Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS MDI Factbox Buffer - Field Synch Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3792542264 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Table ID</source>
@@ -362,16 +387,6 @@
           <source>Client ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS MDI Setup - Field Client Id - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3001785898 - Field 2529110793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Client Secret</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS MDI Setup - Field Client Secret - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3001785898 - Field 2529110793 - Method 2126772001 - NamedType 1167773202" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Client Secret not correct! Be sure to have copied the value, not the id!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS MDI Setup - Field Client Secret - Method OnValidate - NamedType ValueErr</note>
         </trans-unit>
         <trans-unit id="Table 3001785898 - Field 2572597316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Client Secret Expiration Date</source>
@@ -3678,6 +3693,81 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox - Action SynchOKAction - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2407694287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record FactBox (MDI)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - NamedType 1304884515" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The synchronization module is not active or no valid synchronization profile has been found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - NamedType NotSynchronizableMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Method 476038912 - NamedType 1021046467" size-unit="char" translate="yes" xml:space="preserve">
+          <source>no valid license was found for the MDI app</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Method HandleClick - NamedType NoLiceseErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Method 476038912 - NamedType 193132053" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No valid and active setup for synchronization.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Method HandleClick - NamedType NoSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Method 476038912 - NamedType 265200745" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronization status to company %1 is ok.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Method HandleClick - NamedType SynchronizationOkMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 2632017440 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Synchronize" action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Action ForceSynchAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 2632017440 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronize</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Action ForceSynchAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 2465399866 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Not synchronizable" action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Action NotSynchronizableAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 2465399866 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not synchronizable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Action NotSynchronizableAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 187046939 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Setup" action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Action SetupAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 187046939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Action SetupAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 404518510 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Synch. Errors" action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Action SynchFailedAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 404518510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synch. Errors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Action SynchFailedAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 4219505703 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Synch. OK" action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Action SynchOKAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 4219505703 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synch. OK</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS MDI Record FactBox v2 - Action SynchOKAction - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3001785898 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
           <source>MDI Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5763,15 +5853,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008110 - Control EOSMDIIntercompany - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2912234454 - Control 3238957275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>MDI Intercompany</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008110 - Control EOSMDIRecordFactBox - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2274537837 - Control 1774663854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
           <source>MDI Intercompany</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008111 - Control EOSMDIIntercompany - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2274537837 - Control 3238957275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>MDI Intercompany</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008111 - Control EOSMDIRecordFactBox - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1636841220 - Control 1774663854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>MDI Intercompany</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008112 - Control EOSMDIIntercompany - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1636841220 - Control 3238957275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>MDI Intercompany</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008112 - Control EOSMDIRecordFactBox - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3381022048 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1577392894">
           <source>AAD Application Card</source>
