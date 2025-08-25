@@ -7,14 +7,6 @@
           <source>The field %1 (%2) of the table %3 (%4) is no longer supported. Contact the app provider %5 for a fix.</source>
           <target>Het veld %1 (%2) van de tabel %3 (%4) wordt niet langer ondersteund. Neem contact op met de app-aanbieder %5 voor een oplossing.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1072582484 - Method 2179621140 - NamedType 195496386" translate="yes" size-unit="char" xml:space="preserve">
-          <source>\ Unknown salespersons and unknown roles will not be migrated. Do you want to continue?</source>
-          <target>\ Onbekende verkopers en onbekende rollen worden niet gemigreerd. Wilt u doorgaan?</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072582484 - Method 2179621140 - NamedType 2209929909" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Operation aborted.</source>
-          <target>Operatie geannuleerd.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1072582484 - Method 2289071063 - NamedType 1965727753" translate="yes" size-unit="char" xml:space="preserve">
           <source>The following apps are currently installed: %1. To speed up the upgrade, it is recommended to uninstall them. You can reinstall them after the upgrade is complete. Do you still want to proceed with the upgrade?</source>
           <target>De volgende apps zijn momenteel geïnstalleerd: %1. Om de upgrade te versnellen, wordt aanbevolen om ze te deïnstalleren. U kunt ze opnieuw installeren nadat de upgrade is voltooid. Wilt u toch doorgaan met de upgrade?</target>
@@ -4260,7 +4252,7 @@
           <target>Verkoopnetwerk met betrekking tot het document.</target>
         </trans-unit>
         <trans-unit id="PageExtension 423575149 - Control 466366624 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if the document must be excluded from commission calculation</source>
+          <source>Specifies if the document must be excluded from commission calculation.</source>
           <target>Hiermee geeft u op of het document moet worden uitgesloten van commissieberekening</target>
         </trans-unit>
         <trans-unit id="PageExtension 423575149 - Control 907950537 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -7882,6 +7874,722 @@
         <trans-unit id="Codeunit 2772362839 - Method 3526856164 - NamedType 2153276533" translate="yes" size-unit="char" xml:space="preserve">
           <source>Partial settlement not allowed in the Commission Settlement Journal Lines</source>
           <target>Gedeeltelijke afwikkeling is niet toegestaan in de regels van het provisieafwikkelingsdagboek</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 2363328873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Documenttype</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 3302998458 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Doc. No. Occurrence</source>
+          <target>Dokter. Voorkomen</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 553464652 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <target>Code verkoper</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Status</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Regel nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 2007791635 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Role</source>
+          <target>Rol verkoper</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 1684721775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Version No.</source>
+          <target>Versie nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>№.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 4016678605" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processing Table #1# \Record #2# \Operation progress #3# \Expected completion time #4# </source>
+          <target>Verwerken Tabel #1# \Record #2# \Voortgang van de operatie #3# \Verwachte voltooiingstijd #4#</target>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - ReportDataItem 1724164490 - Method 3245603402 - NamedType 1642791401" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Missing calculation setup</source>
+          <target>Er is geen berekeningsinstelling</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3863294327 - Control 3638072049 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies default sales network assigned. To change sales network use related action in ribbon.</source>
+          <target>Hiermee geeft u standaardverkoopnetwerk op dat is toegewezen. Als u de actie Verkoopnetwerk wilt wijzigen, wordt de bijbehorende actie op het lint gebruikt.</target>
+        </trans-unit>
+        <trans-unit id="Enum 1380557116 - EnumValue 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Date</source>
+          <target>Documentdatum</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3396113157 - Method 425154674 - NamedType 1608146540" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unexpected record type detected (table %1), proper support for the table must be implemented.</source>
+          <target>Onverwacht recordtype gedetecteerd (tabel %1), juiste ondersteuning voor de tabel moet worden geïmplementeerd.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3396113157 - Method 425154674 - NamedType 3090844914" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unexpected %1 value detected, proper logic must be implemented..</source>
+          <target>Onverwachte %1-waarde gedetecteerd, juiste logica moet worden geïmplementeerd.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673019789 - Method 860045314 - NamedType 380555342" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The new salesperson engine is not enabled.</source>
+          <target>De nieuwe verkopersengine is niet ingeschakeld.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673019789 - Method 2327904653 - NamedType 2797927825" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This action or feature is disabled if the new salesperson engine is enabled.</source>
+          <target>Deze actie of functie is uitgeschakeld als de nieuwe verkopersengine is ingeschakeld.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2285542597 - Method 4104093556 - NamedType 3398443600" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to enable the "Salesperson Integration" Synch? If you already have MDI configured, this may cause an immediate synchronization.</source>
+          <target>Wilt u de synchronisatie "Verkoperintegratie" inschakelen? Als u MDI al hebt geconfigureerd, kan dit een onmiddellijke synchronisatie veroorzaken.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 3997739837" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error in data upgrade. \Old set %1 \New set %2. \Reference "EOS Add. Salesperson/Purchaser" %3 \Contact technical support.</source>
+          <target>Fout bij gegevensupgrade. \Oude set %1 \Nieuwe set %2. \Referentie ""EOS Add. Salesperson/Purchaser"" %3 \Neem contact op met technische ondersteuning.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 3256779152" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unknown Header Type %1</source>
+          <target>Onbekend koptype %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 3136915667" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are already imported records. Do you want to check them?</source>
+          <target>Er zijn al geïmporteerde records. Wilt u deze controleren?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 1771936690" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checking imported salesperson data... #1########  #2########</source>
+          <target>Geïmporteerde verkopersgegevens worden gecontroleerd... #1######## #2########</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 3878710581" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checked %1 records, found %2 errors.</source>
+          <target>%1 records gecontroleerd, %2 fouten gevonden.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 3997739837" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error in data upgrade. \Old set %1 \New set %2. \Reference "EOS Add. Salesperson/Purchaser" %3 \Contact technical support.</source>
+          <target>Fout bij gegevensupgrade. \Oude set %1 \Nieuwe set %2. \Referentie ""EOS Add. Salesperson/Purchaser"" %3 \Neem contact op met technische ondersteuning.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 1633180709" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All lines with status "Error" must be fixed or deleted before applying the import.</source>
+          <target>Alle regels met status ""Fout"" moeten worden gecorrigeerd of verwijderd voordat de import wordt toegepast.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 4134152422" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to apply the entire import?</source>
+          <target>Wilt u de volledige import toepassen?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 1421459110" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import Quality Check... \Testing Table #1##### \Testing Sample #2##### over #3#####</source>
+          <target>Import kwaliteitscontrole... \Testen van tabel #1##### \Testen van steekproef #2##### over #3#####</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3845247178 - NamedType 2726870861" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot apply package %1 because it contains "Salesperson Set Entries", "Role-Salesperson Sets" or "Salesperson Set Tree Nodes" tables.</source>
+          <target>Kan pakket %1 niet toepassen omdat het de tabellen "Verkopersetregels", "Rol-verkopersets" of "Verkopersetboomknooppunten" bevat.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3845247178 - NamedType 2747712380" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Similar to Dimension tables, you cannot force the population of these tables because it would create inconsistent data and unrepairable errors. Use the native import procedures of the CMS app.</source>
+          <target>Net als bij dimensietabellen kunt u het vullen van deze tabellen niet forceren omdat dit inconsistente gegevens en niet-herstelbare fouten zou veroorzaken. Gebruik de standaard importprocedures van de CMS-app.</target>
+        </trans-unit>
+        <trans-unit id="Enum 909268964 - EnumValue 1891195793 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CSV 1 (TableID;DocumentType;DocumentNo;LineNo;SalespersonCode;SalespersonName)</source>
+          <target>CSV 1 (TableID;DocumentType;DocumentNo;LineNo;SalespersonCode;SalespersonName)</target>
+        </trans-unit>
+        <trans-unit id="Enum 909268964 - EnumValue 1253499176 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CSV 2 (TableID;CustomerNo;SalespersonCode;SalespersonName)</source>
+          <target>CSV 2 (TableID;CustomerNo;SalespersonCode;SalespersonName)</target>
+        </trans-unit>
+        <trans-unit id="Enum 1683901892 - EnumValue 3011664586 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bulk Load (max speed)</source>
+          <target>Bulkimport (maximale snelheid)</target>
+        </trans-unit>
+        <trans-unit id="Enum 1683901892 - EnumValue 1159788431 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Raise error if duplicate</source>
+          <target>Geef fout bij duplicaat</target>
+        </trans-unit>
+        <trans-unit id="Enum 1683901892 - EnumValue 3347011752 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ignore duplicates</source>
+          <target>Negeer duplicaten</target>
+        </trans-unit>
+        <trans-unit id="Page 1994358204 - Control 4198939294 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Currency Code field.</source>
+          <target>Specificeert de waarde van het veld Valutacode.</target>
+        </trans-unit>
+        <trans-unit id="Page 1994358204 - Control 2820242056 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Line Total field.</source>
+          <target>Specificeert de waarde van het veld Regeltotaal.</target>
+        </trans-unit>
+        <trans-unit id="Page 764216790 - Control 636392376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Amount field.</source>
+          <target>Specificeert de waarde van het veld Bedrag.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Method 716454850 - NamedType 3279720729" translate="yes" size-unit="char" xml:space="preserve">
+          <source> (New SalesPersons Engine)</source>
+          <target>(Nieuwe verkopersengine)</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3342573389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Commissions Calculation Date field.</source>
+          <target>Specificeert de waarde van het veld Provisieberekeningsdatum.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1738388099 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>if activated, the value of the field “Direct unit cost excluding VAT” of the single commission settlement prospect/invoice line, is calculated based on the original exchange rate present in the related record of the “Commission Ledger Entries (CMS)” page. This logic is applied ONLY in case the Currency Code of the Commission Entry (CMS) matches with the one of the Vendor/Salesperson and is different from the one of the company.</source>
+          <target>Indien geactiveerd, wordt de waarde van het veld "Directe kostprijs excl. btw" van de enkele provisieafwikkelingsvoorstel-/factuurregel berekend op basis van de oorspronkelijke wisselkoers die aanwezig is in het gerelateerde record van de pagina "Provisieboekingen (CMS)". Deze logica wordt ALLEEN toegepast als de valutacode van de provisieboeking (CMS) overeenkomt met die van de leverancier/verkoper en verschilt van die van het bedrijf.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 22810526 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>if the flag “Foreign Curr. Comm. - Create exchange rate entries” is active, the possible exchange rate differences are going to be Settled using this GL Account. N.B. the curr. exch. entry for any exchange rate difference will be generated: Following the posting of the passive invoice for the total settlement of the accrued commissions; If the Commission entry to settle the accounting entry for the allocation of Costs @ Commissions to be settled has been previuosly generated (usually in commissions settled on payment).</source>
+          <target>Als de optie "Foreign Curr. Comm. - Create exchange rate entries" actief is, worden de mogelijke wisselkoersverschillen verrekend via deze grootboekrekening. NB: de valutawisselboeking voor elk verschil wordt aangemaakt: Na het boeken van de inkoopfactuur voor de totale afwikkeling van de opgebouwde provisies; Als de provisieboeking voor het afwikkelen van de boeking voor de toewijzing van kosten @ provisies al eerder is aangemaakt (meestal bij provisies die bij betaling worden afgewikkeld).</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 2210355246 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enabling this will allow the Salesperson Integration for MDI (Master Data Integration) purposes. This allows the system to manage Salesperson data across different tables and ensure consistency in Salesperson roles and codes.</source>
+          <target>Door dit in te schakelen wordt de verkoperintegratie voor MDI (Master Data Integration) mogelijk. Dit stelt het systeem in staat om verkopersgegevens in verschillende tabellen te beheren en consistentie in verkopersrollen en -codes te waarborgen.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 167818191 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Data Upgrade</source>
+          <target>Upgrade verkopersgegevens</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3992564679 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "SalesPerson DataUpdate Date" field.</source>
+          <target>Specificeert de waarde van het veld ""SalesPerson DataUpdate Date"".</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1240711999 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "SalesPerson DataUpdate Status" field.</source>
+          <target>Specificeert de waarde van het veld ""SalesPerson DataUpdate Status"".</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 897643732 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "SalesPerson DataUpdate User" field.</source>
+          <target>Specificeert de waarde van het veld ""SalesPerson DataUpdate User"".</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Action 1083813853 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the Salesperson Integration page.</source>
+          <target>Opent de pagina Verkoperintegratie.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Action 1083813853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Integration</source>
+          <target>Verkoperintegratie</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Action 4184627849 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes a report that updates salespersons on documents.</source>
+          <target>Voert een rapport uit dat verkopers op documenten bijwerkt.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Action 4184627849 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Salespersons On Documents</source>
+          <target>Werk verkopers bij op documenten</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit Salesperson Set Entries</source>
+          <target>Bewerk verkopersetregels</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 553464652 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Code" field.</source>
+          <target>Specificeert de waarde van het veld ""Verkopercode"".</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 940688118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Name" field.</source>
+          <target>Specificeert de waarde van het veld ""Verkopernaam"".</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 2007791635 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salespersons Role" field.</source>
+          <target>Specificeert de waarde van het veld ""Verkopersrol"".</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Control 3908857010 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Role Name" field.</source>
+          <target>Specificeert de waarde van het veld ""Naam verkopersrol"".</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Action 2815836242 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>For internal test use only</source>
+          <target>Alleen voor intern testgebruik</target>
+        </trans-unit>
+        <trans-unit id="Page 2467455471 - Action 2815836242 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete All (Internal test use only)</source>
+          <target>Alles verwijderen (alleen intern testgebruik)</target>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set Entries</source>
+          <target>Verkopersetregels</target>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 940688118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the descriptive name of the Salesperson Code field.</source>
+          <target>Specificeert de beschrijvende naam van het veld Verkopercode.</target>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 2007791635 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Salesperson Role.</source>
+          <target>Specificeert de verkopersrol.</target>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 3908857010 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the descriptive name of the Salesperson Role field.</source>
+          <target>Specificeert de beschrijvende naam van het veld Verkopersrol.</target>
+        </trans-unit>
+        <trans-unit id="Page 3804388472 - Control 3153055517 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Salesperson Code.</source>
+          <target>Specificeert de verkopercode.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Import (CMS)</source>
+          <target>Verkoperimport (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 1417232546 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Name" field.</source>
+          <target>Specificeert de waarde van het veld ""Naam"".</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 3302998458 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the document number occurrence.</source>
+          <target>Specificeert het voorkomen van het documentnummer.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 1476062623 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Error Text" field.</source>
+          <target>Specificeert de waarde van het veld ""Fouttekst"".</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 1978408910 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the header ID.</source>
+          <target>Specificeert de kop-ID.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 262448665 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the header reference number.</source>
+          <target>Specificeert het referentienummer van de kop.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 3465608581 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the header subtype.</source>
+          <target>Specificeert het subtype van de kop.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 3072753081 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the header type.</source>
+          <target>Specificeert het type van de kop.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 2631753164 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the salesperson code.</source>
+          <target>Specificeert de verkopercode.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 4086080147 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the salesperson role.</source>
+          <target>Specificeert de verkopersrol.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 1684721775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the version number.</source>
+          <target>Specificeert het versienummer.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 101221315 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import all checked records from the import table into the system.</source>
+          <target>Importeer alle aangevinkte records uit de importtabel in het systeem.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 101221315 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Apply Import</source>
+          <target>Import toepassen</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 759306978 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Actions related to checking and processing data.</source>
+          <target>Acties met betrekking tot het controleren en verwerken van gegevens.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 759306978 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check</source>
+          <target>Controleren</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 1171683825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check the imported salesperson data for errors.</source>
+          <target>Controleer de geïmporteerde verkopersgegevens op fouten.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 1171683825 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Data (All)</source>
+          <target>Gegevens controleren (alles)</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 668643538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check the imported salesperson data for errors.</source>
+          <target>Controleer de geïmporteerde verkopersgegevens op fouten.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 668643538 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Data (Selected Records)</source>
+          <target>Gegevens controleren (geselecteerde records)</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 1801250140 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create dummy documents for testing purposes.</source>
+          <target>Maak testdocumenten aan voor testdoeleinden.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 2957767720 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete the visible (filtered) records from the import table.</source>
+          <target>Verwijder de zichtbare (gefilterde) records uit de importtabel.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 2957767720 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Record (Filtered)</source>
+          <target>Record verwijderen (gefilterd)</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 2957767720 - Method 1377591017 - NamedType 2367821945" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to delete %1 records?</source>
+          <target>Wilt u %1 records verwijderen?</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 3201496503 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Actions related to importing data.</source>
+          <target>Acties met betrekking tot het importeren van gegevens.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 3201496503 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import</source>
+          <target>Importeren</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 15074807 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import salesperson data from an external source.</source>
+          <target>Importeer verkopersgegevens uit een externe bron.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 15074807 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import Data</source>
+          <target>Gegevens importeren</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Integration (CMS)</source>
+          <target>Verkoperintegratie (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 3477117687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the text representation of the Salesperson Role and Code Dictionary in a readable format.</source>
+          <target>Toont de tekstuele weergave van de verkopersrol- en codewoordenlijst in een leesbaar formaat.</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 3477117687 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Dictionary Text</source>
+          <target>Woordenlijsttekst</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first Code field for the MDI integration.</source>
+          <target>Specificeert het eerste codeveld voor de MDI-integratie.</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 1558849903 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second Code field for the MDI integration.</source>
+          <target>Specificeert het tweede codeveld voor de MDI-integratie.</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 763888291 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Stores the JSON representation of the Salesperson Role and Code Dictionary for intercompany integration.</source>
+          <target>Slaat de JSON-representatie van de verkopersrol- en codewoordenlijst op voor intercompany-integratie.</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 3017471043 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the table number for the MDI integration.</source>
+          <target>Specificeert het tabelnummer voor de MDI-integratie.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2952746364 - Control 4150046037 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Set ID" field.</source>
+          <target>Specificeert de waarde van het veld ""Verkoperset-ID"".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3394506733 - Control 4150046037 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Salesperson Set ID" field.</source>
+          <target>Specificeert de waarde van het veld ""Verkoperset-ID"".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3327025785 - Control 1080730330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies commission reason code for the journal line.</source>
+          <target>Specificeert de provisieredencode voor de journaalregel.</target>
+        </trans-unit>
+        <trans-unit id="Report 2076732582 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS AddSalesP Importer (CMS)</source>
+          <target>EOS AddSalesP Importer (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - NamedType 980109615" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The report is about to process the Commission Ledger Entries for ALL lines in: \%1: %2  \%3: %4 \are you sure you want to continue?</source>
+          <target>Het rapport staat op het punt de provisieboekingen te verwerken voor ALLE regels in: %1: %2 %3: %4 \weet u zeker dat u wilt doorgaan?</target>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - Control 4026041789 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Entries</source>
+          <target>Verwijder regels</target>
+        </trans-unit>
+        <trans-unit id="Report 2836188360 - Control 2227132174 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>if true all the lines will be printed, both included and excluded</source>
+          <target>indien waar, worden alle regels afgedrukt, zowel inbegrepen als uitgesloten</target>
+        </trans-unit>
+        <trans-unit id="Report 2836188360 - Control 2227132174 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Include Excluded Entries</source>
+          <target>Inclusief uitgesloten regels</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Salesp. On Docs (CMS)</source>
+          <target>Werk verkopers bij op docs (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - NamedType 960129613" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No action selected.</source>
+          <target>Geen actie geselecteerd.</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Method 2736589801 - NamedType 2499179930" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Salespersons On Docs report Log (CMS)</source>
+          <target>Log rapport Werk verkopers bij op docs (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 2232234320 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how Salespersons will be copied from Customer to Document Header.</source>
+          <target>Specificeert hoe verkopers worden gekopieerd van klant naar documentkop.</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 2232234320 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer to Header propagation</source>
+          <target>Klant naar kop propagatie</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 2232234320 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No Action,Add Missing,Overwrite</source>
+          <target>Geen actie,Ontbrekende toevoegen,Overschrijven</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 99405531 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gets an Excel file Log with the processed records and the changes done by the report</source>
+          <target>Haalt een Excel-logbestand op met de verwerkte records en de wijzigingen die door het rapport zijn aangebracht</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 99405531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Excel Log</source>
+          <target>Excel-log ophalen</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 331095309 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how Salespersons will be copied from Document Header to Document Line.</source>
+          <target>Specificeert hoe verkopers worden gekopieerd van documentkop naar documentregel.</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 331095309 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Header to Line propagation</source>
+          <target>Kop naar regel propagatie</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 331095309 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No Action,Add Missing,Overwrite</source>
+          <target>Geen actie,Ontbrekende toevoegen,Overschrijven</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 2119454732 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if Posted Sales Cr. Memos will be updated.</source>
+          <target>Specificeert of geboekte verkoopcreditnota’s worden bijgewerkt.</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 2119454732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Posted Sales Cr. Memos</source>
+          <target>Werk geboekte verkoopcreditnota’s bij</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 1933819208 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if Sales Headers will be updated.</source>
+          <target>Specificeert of verkoopkoppen worden bijgewerkt.</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 1933819208 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Sales Headers</source>
+          <target>Werk verkoopkoppen bij</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 2622989254 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if Posted Sales Invoices will be updated.</source>
+          <target>Specificeert of geboekte verkoopfacturen worden bijgewerkt.</target>
+        </trans-unit>
+        <trans-unit id="Report 1709093808 - Control 2622989254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Posted Sales Invoices</source>
+          <target>Werk geboekte verkoopfacturen bij</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Data Import (CMS)</source>
+          <target>Verkopergegevens importeren (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Method 1544076788 - NamedType 2605880746" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Imported %1 lines, ignored %2 lines. Import completed in %3</source>
+          <target>%1 regels geïmporteerd, %2 regels genegeerd. Import voltooid in %3</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - RequestPage 2516438534 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Teaching tip title</source>
+          <target>Titel van leermelding</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - RequestPage 2516438534 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Teaching tip content</source>
+          <target>Inhoud van leermelding</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 2502051699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the column separator used in the import file.</source>
+          <target>Specificeert het kolomscheidingsteken dat in het importbestand wordt gebruikt.</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 2502051699 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Column Separator</source>
+          <target>Kolomscheidingsteken</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 4112730686 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether to delete existing records before importing new data.</source>
+          <target>Specificeert of bestaande records moeten worden verwijderd voordat nieuwe gegevens worden geïmporteerd.</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 4112730686 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Clear the contents of the worksheet before importing</source>
+          <target>Leeg het werkblad voordat u importeert</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 2013153202 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the import file format.</source>
+          <target>Specificeert het importbestandsformaat.</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 2013153202 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import File Format</source>
+          <target>Importbestandsformaat</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 1443067686 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the mode for importing the file. Bulk Load is the fastest mode, while "Error on Duplicates" raises an error with the line number if a duplicate record is found. "Ignore Duplicates" silently skips duplicates. Try first "Bulk Load" and switch to "Error on Duplicates" or "Ignore Duplicates" if you encounter issues.</source>
+          <target>Specificeert de modus voor het importeren van het bestand. Bulkimport is de snelste modus, terwijl "Fout bij duplicaten" een fout geeft met het regelnummer als een duplicaat wordt gevonden. "Negeer duplicaten" slaat duplicaten stilletjes over. Probeer eerst "Bulkimport" en schakel over naar "Fout bij duplicaten" of "Negeer duplicaten" als u problemen ondervindt.</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 1443067686 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import File Mode</source>
+          <target>Importbestandsmodus</target>
+        </trans-unit>
+        <trans-unit id="Table 279592673 - Field 2820242056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line Total</source>
+          <target>Regeltotaal</target>
+        </trans-unit>
+        <trans-unit id="Table 1230933914 - Field 1738388099 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Foreign Curr. Comm. - Create exchange rate entries</source>
+          <target>Fremdwähr. Provv. - Maak valutakoersboekingen aan</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 1738388099 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Foreign Curr. Comm. - Create exchange rate entries</source>
+          <target>Fremdwähr. Provv. - Maak valutakoersboekingen aan</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 22810526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Currency Commission Conversion Account</source>
+          <target>Valutaprovisie-conversierekening</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 2210355246 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enables the Salesperson Integration for MDI (Master Data Integration) purposes. This allows the system to manage Salesperson data across different tables and ensure consistency in Salesperson roles and codes.</source>
+          <target>Activeert de verkoperintegratie voor MDI (Master Data Integration). Dit stelt het systeem in staat om verkopersgegevens in verschillende tabellen te beheren en consistentie in verkopersrollen en -codes te waarborgen.</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 2210355246 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable SalesPerson Integration</source>
+          <target>Activeer verkoperintegratie</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 6620776 - Method 2126772001 - NamedType 3382506742" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No existing commission line will be updated automatically, you must update them manually if needed.</source>
+          <target>Geen bestaande provisieregel wordt automatisch bijgewerkt, u moet deze handmatig bijwerken indien nodig.</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3992564679 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SalesPerson DataUpdate Date</source>
+          <target>SalesPerson DataUpdate Datum</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 184624927 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SalesPerson DataUpdate Log</source>
+          <target>SalesPerson DataUpdate Log</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 1240711999 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SalesPerson DataUpdate Status</source>
+          <target>SalesPerson DataUpdate Status</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 1240711999 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Not Started,In Progress,Completed,Error</source>
+          <target>Niet gestart,In behandeling,Voltooid,Fout</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 897643732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SalesPerson DataUpdate User</source>
+          <target>SalesPerson DataUpdate Gebruiker</target>
+        </trans-unit>
+        <trans-unit id="Table 890796851 - Field 1383905037 - Method 2126772001 - NamedType 2214517664" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The default sales network for customer %1 and ship-to address "%2" is %3. Set sales network %4 as the default?</source>
+          <target>Het standaard verkoopnetwerk voor klant %1 en afleveradres ""%2"" is %3. Verkoopnetwerk %4 als standaard instellen?</target>
+        </trans-unit>
+        <trans-unit id="Table 429737215 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Role-Salesperson Sets</source>
+          <target>Rol-verkopersets</target>
+        </trans-unit>
+        <trans-unit id="Table 429737215 - Field 3641927271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ID</source>
+          <target>ID</target>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Set Tree Node</source>
+          <target>Verkoperset-boomknoop</target>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Field 942667584 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>In Use</source>
+          <target>In gebruik</target>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Field 2452690498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Parent Salesperson Set ID</source>
+          <target>Bovenliggend verkoperset-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 1638150390 - Field 2379322021 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Value ID</source>
+          <target>Verkoperwaarde-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Import (CMS)</source>
+          <target>Verkoperimport (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Method 3127347951 - NamedType 3351274" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 not found.</source>
+          <target>%1 niet gevonden.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Method 3127347951 - NamedType 3427299823" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unknow table %1.</source>
+          <target>Onbekende tabel %1.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Method 3127347951 - NamedType 491057770" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The %1 cannot be empty.</source>
+          <target>%1 mag niet leeg zijn.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code ID</source>
+          <target>Code-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 2167176937 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code 2</source>
+          <target>Code 2</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 1476062623 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Contains error messages if the check fails.</source>
+          <target>Bevat foutmeldingen als de controle mislukt.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 1476062623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error Text</source>
+          <target>Fouttekst</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 751065732 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ID of the import process.</source>
+          <target>ID van het importproces</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 751065732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import ID</source>
+          <target>Import-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the validation status of the record.</source>
+          <target>Geeft de validatiestatus van het record aan.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 513339096 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unchecked,Valid,Warning,Error,Imported</source>
+          <target>Niet gecontroleerd,Geldig,Waarschuwing,Fout,Geïmporteerd</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 3017471043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table No.</source>
+          <target>Tabelnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Replica (CMS)</source>
+          <target>Verkopersreplica (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 1558849903 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. 2</source>
+          <target>Nr. 2</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 763888291 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Stores the JSON representation of the Salesperson Role and Code Dictionary for intercompany integration.</source>
+          <target>Slaat de JSON-representatie van de verkopersrol- en codewoordenlijst op voor intercompany-integratie.</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 763888291 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Role/Code Json</source>
+          <target>Verkopersrol/Code Json</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 3017471043 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the table number for the MDI integration.</source>
+          <target>Specificeert het tabelnummer voor de MDI-integratie.</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 3017471043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table No.</source>
+          <target>Tabelnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Method 2756474656 - NamedType 1740316390" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Parameter "SalespersonSetEntry" must be temporary.</source>
+          <target>Parameter ""SalespersonSetEntry"" moet tijdelijk zijn.</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Method 3152277940 - NamedType 4018276749" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record cannot be deleted.</source>
+          <target>Record kan niet worden verwijderd.</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 278459229 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Role-Salesperson Set ID</source>
+          <target>Rol-verkoperset-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 2007791635 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons Role</source>
+          <target>Verkopersrol</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 3908857010 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Role Name</source>
+          <target>Naam verkopersrol</target>
+        </trans-unit>
+        <trans-unit id="Table 1641130741 - Field 1270654214 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons Set ID</source>
+          <target>Verkoperset-ID</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Simple CSV\TXT files, XLSX files are supported. Both Zip compressed or uncompressed files.</source>
+          <target>Eenvoudige CSV\TXT-bestanden en XLSX-bestanden worden ondersteund. Zowel zip-gecomprimeerde als niet-gecomprimeerde bestanden.</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 1394914705 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of lines to skip at the beginning of the import file.</source>
+          <target>Specificeert het aantal regels dat aan het begin van het importbestand moet worden overgeslagen.</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 1394914705 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Number of Lines to Skip</source>
+          <target>Aantal over te slaan regels</target>
         </trans-unit>
       </group>
     </body>

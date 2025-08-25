@@ -7,14 +7,6 @@
           <source>The field %1 (%2) of the table %3 (%4) is no longer supported. Contact the app provider %5 for a fix.</source>
           <target>Il campo %1 (%2) della tabella %3 (%4) non è più supportato. Contattare il fornitore dell'app %5 per una correzione.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1072582484 - Method 2179621140 - NamedType 195496386" translate="yes" size-unit="char" xml:space="preserve">
-          <source>\ Unknown salespersons and unknown roles will not be migrated. Do you want to continue?</source>
-          <target>\ Gli agenti sconosciuti e i ruoli sconosciuti non saranno migrati. Vuoi continuare?</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072582484 - Method 2179621140 - NamedType 2209929909" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Operation aborted.</source>
-          <target>Operazione annullata.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1072582484 - Method 2289071063 - NamedType 1965727753" translate="yes" size-unit="char" xml:space="preserve">
           <source>The following apps are currently installed: %1. To speed up the upgrade, it is recommended to uninstall them. You can reinstall them after the upgrade is complete. Do you still want to proceed with the upgrade?</source>
           <target>Le seguenti app sono attualmente installate: %1. Per velocizzare l'aggiornamento, si consiglia di disinstallarle. Potrai reinstallarle una volta completato l'aggiornamento. Vuoi comunque procedere con l'aggiornamento?</target>
@@ -302,22 +294,6 @@
         <trans-unit id="Enum 2246526461 - EnumValue 4143763818 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Keep existing salesperson/role</source>
           <target>Mantieni agenti/ruoli esistenti</target>
-        </trans-unit>
-        <trans-unit id="Enum 3216931404 - EnumValue 1212016952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Record Delete</source>
-          <target>Record Delete</target>
-        </trans-unit>
-        <trans-unit id="Enum 3216931404 - EnumValue 1607146239 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Record Rename</source>
-          <target>Record Rename</target>
-        </trans-unit>
-        <trans-unit id="Enum 3216931404 - EnumValue 3015189414 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Record Insert</source>
-          <target>Record Insert</target>
-        </trans-unit>
-        <trans-unit id="Enum 3216931404 - EnumValue 3149989263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Record Modify</source>
-          <target>Record Modify</target>
         </trans-unit>
         <trans-unit id="Enum 3509145891 - EnumValue 2176757286 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Confirm</source>
@@ -4388,7 +4364,7 @@
           <target>Rete di vendita correlata al documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 423575149 - Control 466366624 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if the document must be excluded from commission calculation</source>
+          <source>Specifies if the document must be excluded from commission calculation.</source>
           <target>Specifica se il documento deve essere escluso dal calcolo della provvigione</target>
         </trans-unit>
         <trans-unit id="PageExtension 423575149 - Control 907950537 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -8170,6 +8146,462 @@
         <trans-unit id="Codeunit 2772362839 - Method 3526856164 - NamedType 2153276533" translate="yes" size-unit="char" xml:space="preserve">
           <source>Partial settlement not allowed in the Commission Settlement Journal Lines</source>
           <target>Liquidazione parziale non consentita nelle righe del giornale di liquidazione provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 3302998458 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Doc. No. Occurrence</source>
+          <target>Occorrenza nr. doc.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Nr. riga</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 2363328873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Tipo di documento</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 2007791635 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Role</source>
+          <target>Ruolo agente</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 553464652 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <target>Codice agente</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Stato</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 1684721775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Version No.</source>
+          <target>Nr. versione</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 4016678605" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processing Table #1# \Record #2# \Operation progress #3# \Expected completion time #4# </source>
+          <target>Elaborazione Tabella #1# \Record #2# \Avanzamento operazione #3# \Tempo stimato di completamento #4#</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 2631753164 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the salesperson code.</source>
+          <target>Specifica il codice dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 4086080147 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the salesperson role.</source>
+          <target>Specifica il ruolo dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3863294327 - Control 3638072049 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies default sales network assigned. To change sales network use related action in ribbon.</source>
+          <target>Specifica la rete di vendita predefinita assegnata. Per modificare la rete di vendita, utilizzare l'azione correlata nella barra multifunzione.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 1476062623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error Text</source>
+          <target>Testo errore</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 3017471043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table No.</source>
+          <target>Nr. tabella</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 751065732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import ID</source>
+          <target>ID importazione</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 1558849903 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. 2</source>
+          <target>Nr. 2</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 3017471043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table No.</source>
+          <target>Nr. tabella</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 759306978 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check</source>
+          <target>Assegno</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 3201496503 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import</source>
+          <target>Importa</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 2502051699 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Column Separator</source>
+          <target>Separatore colonna</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 2210355246 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enables the Salesperson Integration for MDI (Master Data Integration) purposes. This allows the system to manage Salesperson data across different tables and ensure consistency in Salesperson roles and codes.</source>
+          <target>Abilita l’integrazione degli agenti per scopi MDI (Master Data Integration). Questo consente al sistema di gestire i dati degli agenti su diverse tabelle e garantire coerenza nei ruoli e nei codici degli agenti.</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 2210355246 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable SalesPerson Integration</source>
+          <target>Abilita integrazione agenti</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3992564679 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SalesPerson DataUpdate Date</source>
+          <target>Data aggiornamento dati agente</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 184624927 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SalesPerson DataUpdate Log</source>
+          <target>Log aggiornamento dati agente</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 1240711999 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SalesPerson DataUpdate Status</source>
+          <target>Stato aggiornamento dati agente</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 1240711999 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Not Started,In Progress,Completed,Error</source>
+          <target>Non iniziato,In corso,Completato,Errore</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 897643732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>SalesPerson DataUpdate User</source>
+          <target>Utente aggiornamento dati agente</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Import (CMS)</source>
+          <target>Importazione agenti (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Method 3127347951 - NamedType 3351274" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 not found.</source>
+          <target>%1 non trovato.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Method 3127347951 - NamedType 3427299823" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unknow table %1.</source>
+          <target>Tabella %1 sconosciuta.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Method 3127347951 - NamedType 491057770" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The %1 cannot be empty.</source>
+          <target>Il campo %1 non può essere vuoto.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code ID</source>
+          <target>ID codice</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 2167176937 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code 2</source>
+          <target>Codice 2</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 1476062623 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Contains error messages if the check fails.</source>
+          <target>Contiene messaggi di errore se il controllo fallisce.</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 751065732 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ID of the import process.</source>
+          <target>ID del processo di importazione</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the validation status of the record.</source>
+          <target>Indica lo stato di validazione del record</target>
+        </trans-unit>
+        <trans-unit id="Table 53443252 - Field 513339096 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unchecked,Valid,Warning,Error,Imported</source>
+          <target>Non verificato,Valido,Avviso,Errore,Importato</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Replica (CMS)</source>
+          <target>Replica agente (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 763888291 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Stores the JSON representation of the Salesperson Role and Code Dictionary for intercompany integration.</source>
+          <target>Memorizza la rappresentazione JSON del dizionario Ruolo/Codice Agente per l’integrazione intercompany.</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 763888291 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Role/Code Json</source>
+          <target>Ruolo/Codice Agente Json</target>
+        </trans-unit>
+        <trans-unit id="Table 2199446485 - Field 3017471043 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the table number for the MDI integration.</source>
+          <target>Specifica il numero tabella per l’integrazione MDI.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2285542597 - Method 4104093556 - NamedType 3398443600" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to enable the "Salesperson Integration" Synch? If you already have MDI configured, this may cause an immediate synchronization.</source>
+          <target>Vuoi abilitare la sincronizzazione “Integrazione agenti”? Se hai già configurato MDI, questo potrebbe causare una sincronizzazione immediata.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 3997739837" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error in data upgrade. \Old set %1 \New set %2. \Reference "EOS Add. Salesperson/Purchaser" %3 \Contact technical support.</source>
+          <target>Errore nell’aggiornamento dati. \Vecchio set %1 \Nuovo set %2. \Riferimento ""EOS Add. Salesperson/Purchaser"" %3 \Contattare il supporto tecnico.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - NamedType 3256779152" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unknown Header Type %1</source>
+          <target>Tipo intestazione sconosciuto %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 3136915667" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are already imported records. Do you want to check them?</source>
+          <target>Sono già presenti record importati. Vuoi controllarli?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 1771936690" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checking imported salesperson data... #1########  #2########</source>
+          <target>Controllo dati agenti importati... #1######## #2########</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 3878710581" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checked %1 records, found %2 errors.</source>
+          <target>Controllati %1 record, trovati %2 errori.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 3997739837" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error in data upgrade. \Old set %1 \New set %2. \Reference "EOS Add. Salesperson/Purchaser" %3 \Contact technical support.</source>
+          <target>Errore nell’aggiornamento dati. \Vecchio set %1 \Nuovo set %2. \Riferimento ""EOS Add. Salesperson/Purchaser"" %3 \Contattare il supporto tecnico.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 1633180709" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All lines with status "Error" must be fixed or deleted before applying the import.</source>
+          <target>Tutte le righe con stato ""Errore"" devono essere corrette o eliminate prima di applicare l’importazione.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 4134152422" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to apply the entire import?</source>
+          <target>Vuoi applicare tutta l’importazione?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658230842 - NamedType 1421459110" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import Quality Check... \Testing Table #1##### \Testing Sample #2##### over #3#####</source>
+          <target>Controllo qualità importazione... \Test tabella #1##### \Test campione #2##### su #3#####</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3845247178 - NamedType 2726870861" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot apply package %1 because it contains "Salesperson Set Entries", "Role-Salesperson Sets" or "Salesperson Set Tree Nodes" tables.</source>
+          <target>Impossibile applicare il pacchetto %1 perché contiene le tabelle "Voci Set Agenti", "Set Ruolo-Agente" o "Nodi Albero Set Agenti".</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3845247178 - NamedType 2747712380" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Similar to Dimension tables, you cannot force the population of these tables because it would create inconsistent data and unrepairable errors. Use the native import procedures of the CMS app.</source>
+          <target>Come per le tabelle Dimensioni, non è possibile forzare il popolamento di queste tabelle perché creerebbe dati inconsistenti ed errori non riparabili. Utilizzare le procedure di importazione native dell’app CMS.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Method 716454850 - NamedType 3279720729" translate="yes" size-unit="char" xml:space="preserve">
+          <source> (New SalesPersons Engine)</source>
+          <target>(Nuovo motore agenti)</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 2210355246 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enabling this will allow the Salesperson Integration for MDI (Master Data Integration) purposes. This allows the system to manage Salesperson data across different tables and ensure consistency in Salesperson roles and codes.</source>
+          <target>Abilitando questa opzione sarà possibile l’integrazione degli agenti per scopi MDI (Master Data Integration). Questo consente al sistema di gestire i dati degli agenti su diverse tabelle e garantire coerenza nei ruoli e nei codici degli agenti.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 167818191 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Data Upgrade</source>
+          <target>Aggiornamento dati agenti</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3992564679 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "SalesPerson DataUpdate Date" field.</source>
+          <target>Specifica il valore del campo ""Data aggiornamento dati agente"".</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1240711999 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "SalesPerson DataUpdate Status" field.</source>
+          <target>Specifica il valore del campo ""Stato aggiornamento dati agente"".</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 897643732 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "SalesPerson DataUpdate User" field.</source>
+          <target>Specifica il valore del campo ""Utente aggiornamento dati agente"".</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Action 1083813853 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the Salesperson Integration page.</source>
+          <target>Apre la pagina di integrazione agenti.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Action 1083813853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Integration</source>
+          <target>Integrazione agenti</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Import (CMS)</source>
+          <target>Importazione agenti (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 1417232546 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Name" field.</source>
+          <target>Specifica il valore del campo ""Nome"".</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 3302998458 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the document number occurrence.</source>
+          <target>Specifica l’occorrenza del numero documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 1476062623 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Error Text" field.</source>
+          <target>Specifica il valore del campo ""Testo errore"".</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 1978408910 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the header ID.</source>
+          <target>Specifica l’ID intestazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 262448665 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the header reference number.</source>
+          <target>Specifica il numero di riferimento intestazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 3465608581 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the header subtype.</source>
+          <target>Specifica il sottotipo intestazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 3072753081 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the header type.</source>
+          <target>Specifica il tipo intestazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 1684721775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the version number.</source>
+          <target>Specifica il numero versione.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 101221315 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import all checked records from the import table into the system.</source>
+          <target>Importa tutti i record selezionati dalla tabella di importazione nel sistema.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 101221315 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Apply Import</source>
+          <target>Applica importazione</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 759306978 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Actions related to checking and processing data.</source>
+          <target>Azioni relative al controllo e all’elaborazione dei dati.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 1171683825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check the imported salesperson data for errors.</source>
+          <target>Controlla i dati agenti importati per errori.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 1171683825 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Data (All)</source>
+          <target>Controlla dati (Tutti)</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 668643538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check the imported salesperson data for errors.</source>
+          <target>Controlla i dati agenti importati per errori.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 668643538 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Data (Selected Records)</source>
+          <target>Controlla dati (Record selezionati)</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 1801250140 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create dummy documents for testing purposes.</source>
+          <target>Crea documenti fittizi per test.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 2957767720 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete the visible (filtered) records from the import table.</source>
+          <target>Elimina i record visibili (filtrati) dalla tabella di importazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 2957767720 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Record (Filtered)</source>
+          <target>Elimina record (Filtrati)</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 2957767720 - Method 1377591017 - NamedType 2367821945" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to delete %1 records?</source>
+          <target>Vuoi eliminare %1 record?</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 3201496503 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Actions related to importing data.</source>
+          <target>Azioni relative all’importazione dati.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 15074807 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import salesperson data from an external source.</source>
+          <target>Importa dati agenti da una fonte esterna.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 15074807 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import Data</source>
+          <target>Importa dati</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Integration (CMS)</source>
+          <target>Integrazione agenti (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 3477117687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the text representation of the Salesperson Role and Code Dictionary in a readable format.</source>
+          <target>Visualizza la rappresentazione testuale del dizionario Ruolo/Codice Agente in formato leggibile.</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 3477117687 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Dictionary Text</source>
+          <target>Testo dizionario</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first Code field for the MDI integration.</source>
+          <target>Specifica il primo campo Codice per l’integrazione MDI.</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 1558849903 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second Code field for the MDI integration.</source>
+          <target>Specifica il secondo campo Codice per l’integrazione MDI.</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 763888291 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Stores the JSON representation of the Salesperson Role and Code Dictionary for intercompany integration.</source>
+          <target>Memorizza la rappresentazione JSON del dizionario Ruolo/Codice Agente per l’integrazione intercompany.</target>
+        </trans-unit>
+        <trans-unit id="Page 2199446485 - Control 3017471043 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the table number for the MDI integration.</source>
+          <target>Specifica il numero tabella per l’integrazione MDI.</target>
+        </trans-unit>
+        <trans-unit id="Report 2076732582 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS AddSalesP Importer (CMS)</source>
+          <target>EOS AddSalesP Importer (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Data Import (CMS)</source>
+          <target>Importazione dati agenti (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Method 1544076788 - NamedType 2605880746" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Imported %1 lines, ignored %2 lines. Import completed in %3</source>
+          <target>%1 righe importate, %2 righe ignorate. Importazione completata in %3</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - RequestPage 2516438534 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Teaching tip title</source>
+          <target>Titolo suggerimento didattico</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - RequestPage 2516438534 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Teaching tip content</source>
+          <target>Contenuto suggerimento didattico</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 2502051699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the column separator used in the import file.</source>
+          <target>Specifica il separatore di colonne utilizzato nel file di importazione.</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 4112730686 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether to delete existing records before importing new data.</source>
+          <target>Specifica se eliminare i record esistenti prima di importare nuovi dati.</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 4112730686 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Clear the contents of the worksheet before importing</source>
+          <target>Svuota il contenuto del prospetto prima di importare</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 2013153202 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the import file format.</source>
+          <target>Specifica il formato del file di importazione.</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 2013153202 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import File Format</source>
+          <target>Formato file di importazione</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 1443067686 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the mode for importing the file. Bulk Load is the fastest mode, while "Error on Duplicates" raises an error with the line number if a duplicate record is found. "Ignore Duplicates" silently skips duplicates. Try first "Bulk Load" and switch to "Error on Duplicates" or "Ignore Duplicates" if you encounter issues.</source>
+          <target>Specifica la modalità di importazione del file. Bulk Load è la modalità più veloce, mentre "Errore su duplicati" genera un errore con il numero di riga se viene trovato un record duplicato. "Ignora duplicati" salta silenziosamente i duplicati. Prova prima "Bulk Load" e passa a "Errore su duplicati" o "Ignora duplicati" se riscontri problemi.</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 1443067686 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import File Mode</source>
+          <target>Modalità importazione file</target>
+        </trans-unit>
+        <trans-unit id="Enum 909268964 - EnumValue 1891195793 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CSV 1 (TableID;DocumentType;DocumentNo;LineNo;SalespersonCode;SalespersonName)</source>
+          <target>CSV 1 (TableID;DocumentType;DocumentNo;LineNo;SalespersonCode;SalespersonName)</target>
+        </trans-unit>
+        <trans-unit id="Enum 909268964 - EnumValue 1253499176 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CSV 2 (TableID;CustomerNo;SalespersonCode;SalespersonName)</source>
+          <target>CSV 2 (TableID;CustomerNo;SalespersonCode;SalespersonName)</target>
+        </trans-unit>
+        <trans-unit id="Enum 1683901892 - EnumValue 3011664586 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bulk Load (max speed)</source>
+          <target>Bulk Load (massima velocità)</target>
+        </trans-unit>
+        <trans-unit id="Enum 1683901892 - EnumValue 1159788431 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Raise error if duplicate</source>
+          <target>Genera errore se duplicato</target>
+        </trans-unit>
+        <trans-unit id="Enum 1683901892 - EnumValue 3347011752 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ignore duplicates</source>
+          <target>Ignora duplicati</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 1394914705 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of lines to skip at the beginning of the import file.</source>
+          <target>Specifica il numero di righe da saltare all’inizio del file di importazione.</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 1394914705 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Number of Lines to Skip</source>
+          <target>Numero di righe da saltare</target>
+        </trans-unit>
+        <trans-unit id="Report 373403092 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Simple CSV\TXT files, XLSX files are supported. Both Zip compressed or uncompressed files.</source>
+          <target>Sono supportati semplici file CSV\TXT e file XLSX. Sia file compressi in zip che non compressi.</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 564937133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check</source>
+          <target>Assegno</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Action 3383493608 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Processo</target>
+        </trans-unit>
+        <trans-unit id="Page 53443252 - Control 2167176937 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Code 2" field.</source>
+          <target>Specifica il valore del campo "Codice 2".</target>
         </trans-unit>
       </group>
     </body>
