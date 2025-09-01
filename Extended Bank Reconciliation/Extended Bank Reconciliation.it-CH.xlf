@@ -19,10 +19,6 @@
           <source>All not existing reason codes will be created.\\Do you want to continue?</source>
           <target>Le causali CBI mancanti verranno create.\\Continuare?</target>
         </trans-unit>
-        <trans-unit id="Codeunit 2347331243 - NamedType 1422248010" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 for %2 %3 use the same %4 %5 of the %6. It is not possible to post.</source>
-          <target>%1 per %2 %3 utilizza lo stesso %4 %5 della %6. Impossibile registrare.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2347331243 - NamedType 1549244863" translate="yes" size-unit="char" xml:space="preserve">
           <source>Please wait while the operation is being completed.</source>
           <target>Attendere il completamento dell'operazione.</target>
@@ -286,18 +282,6 @@
         <trans-unit id="Page 2666428574 - Action 2863940463 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Account Mapping</source>
           <target>Mappatura testo a conto</target>
-        </trans-unit>
-        <trans-unit id="Page 2666428574 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a CBI reason code.</source>
-          <target>Specifica una causale CBI.</target>
-        </trans-unit>
-        <trans-unit id="Page 2666428574 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of what the code stands for.</source>
-          <target>Specifica una descrizione del codice.</target>
-        </trans-unit>
-        <trans-unit id="Page 2666428574 - Control 905411110 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value that will be used to assign document type to G/L ledger entries posted during the posting Payment Reconciliation process. If value is Default, document type will be Payment or Refund.</source>
-          <target>Specifica il valore che verrà utilizzata per assegnare il tipo di documento ai movimenti contabili registrati durante il processo di Registrazione riconciliazione pagamenti. Se il valore è Default, il tipo di documento impostato sarà Pagamento o Rimborso. </target>
         </trans-unit>
         <trans-unit id="Page 2666428574 - Property 2019332006" translate="yes" size-unit="char" xml:space="preserve">
           <source>New,Process,Report,Setup</source>
@@ -2250,6 +2234,50 @@
         <trans-unit id="TableExtension 875377765 - Field 3581048766 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Final Balance</source>
           <target>Saldo finale</target>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3205328608 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bank Ledger Entry Correction</source>
+          <target>Corr. mov. contabili banche</target>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3242322055 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor Ledger Entry Correction</source>
+          <target>Corr. mov. contabili fornitori</target>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 1112636591 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer Ledger Entry Correction</source>
+          <target>Corr. mov. contabili clienti</target>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3242322055 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the CBI reason code is used for vendor ledger entry correction.</source>
+          <target>Specifica se il codice motivo CBI viene utilizzato per la correzione del movimento contabile fornitore.</target>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3205328608 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the CBI reason code is used for bank ledger entry correction.</source>
+          <target>Specifica se il codice motivo CBI viene utilizzato per la correzione del movimento contabile bancario.</target>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 1112636591 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the CBI reason code is used for customer ledger entry correction.</source>
+          <target>Specifica se il codice motivo CBI viene utilizzato per la correzione del movimento contabile clienti.</target>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a description of what the code stands for.</source>
+          <target>Specifica una descrizione del codice.</target>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a CBI reason code.</source>
+          <target>Specifica una causale CBI.</target>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3799547422 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the Enhanced Algorithm is used for Reconciliation.</source>
+          <target>Specifica se l'algoritmo avanzato viene utilizzato per la riconciliazione.</target>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 905411110 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value that will be used to assign document type to G/L ledger entries posted during the posting Payment Reconciliation process. If value is Default, document type will be Payment or Refund.</source>
+          <target>Specifica il valore che verrà utilizzato per assegnare il tipo di documento ai movimenti contabili Co.Ge. registrati durante il processo di registrazione della riconciliazione pagamenti. Se il valore è Predefinito, il tipo di documento sarà Pagamento o Rimborso.</target>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3799547422 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Enhanced Algorithm</source>
+          <target>Usa algoritmo avanzato</target>
         </trans-unit>
       </group>
     </body>

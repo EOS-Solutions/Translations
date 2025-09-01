@@ -488,15 +488,60 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a CBI reason code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Field Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Table 1952623027 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Field Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of what the code stands for.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Field Description - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Table 1952623027 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3205328608 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the CBI reason code is used for bank ledger entry correction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Field EOS032 Bank Ledg. Entry Corr. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3205328608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Ledger Entry Correction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Field EOS032 Bank Ledg. Entry Corr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 1112636591 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the CBI reason code is used for customer ledger entry correction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Field EOS032 Cust. Ledg. Entry Corr. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 1112636591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Ledger Entry Correction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Field EOS032 Cust. Ledg. Entry Corr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3242322055 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the CBI reason code is used for vendor ledger entry correction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Field EOS032 Vend. Ledg. Entry Corr. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 3242322055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Ledger Entry Correction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Field EOS032 Vend. Ledg. Entry Corr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1952623027 - Field 905411110 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value that will be used to assign document type to G/L ledger entries posted during the posting Payment Reconciliation process. If value is Default, document type will be Payment or Refund.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS032 CBI Reason Code - Field Posted Entry Document Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Table 1952623027 - Field 905411110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posted Reconc. Ledger Entry Doc. Type</source>
@@ -1132,11 +1177,6 @@
           <source>%1 or %2 is mandatory in %3, %4 %5.</source>
           <note from="Developer" annotates="general" priority="2">%1-Credit Account Caption  %2-Debit Account Caption %3-CBI Reason Code Setup %4-CBI Reason Code Caption %5-CBI Reason Code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS032 CBI Bank Acc. Reconc. - NamedType Text005Err</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2347331243 - NamedType 1422248010" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 for %2 %3 use the same %4 %5 of the %6. It is not possible to post.</source>
-          <note from="Developer" annotates="general" priority="2">%1-Mapping Table Caption %2-G/L Account Caption %3-G/L Account %4-Bank Acc. Caption %5-Bank Acc. %6-Reconc. Line Caption</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS032 CBI Bank Acc. Reconc. - NamedType Text006Err</note>
         </trans-unit>
         <trans-unit id="Codeunit 2347331243 - NamedType 998548441" size-unit="char" translate="yes" xml:space="preserve">
           <source>The file %1 has been already imported.</source>
@@ -1872,21 +1912,6 @@
           <source>CBI Reason Codes (EBR)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS032 CBI Reason Codes - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2666428574 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies a CBI reason code.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS032 CBI Reason Codes - Control Code - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2666428574 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies a description of what the code stands for.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS032 CBI Reason Codes - Control Description - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2666428574 - Control 905411110 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value that will be used to assign document type to G/L ledger entries posted during the posting Payment Reconciliation process. If value is Default, document type will be Payment or Refund.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS032 CBI Reason Codes - Control Posted Entry Document Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2666428574 - Action 2863940463 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the "Account Mapping" action</source>
