@@ -578,6 +578,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Combine Shipments - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1137884171 - Field 1422343377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Direct Transfer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Enable Direct Transfer - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1137884171 - Field 495124604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enable Grouping By Activity</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1828,10 +1833,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Doc. Grouping Entry - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 4156029917 - Method 73627164 - NamedType 162258669" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 4156029917 - NamedType 162258669" size-unit="char" translate="yes" xml:space="preserve">
           <source>Overwrite info from lines?</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Doc. Grouping Entry - Method SetGroupInfoFromLines - NamedType OverwriteInfoQst</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Doc. Grouping Entry - NamedType OverwriteInfoQst</note>
         </trans-unit>
         <trans-unit id="Table 4156029917 - Field 362965381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>3rd Party Loader No.</source>
@@ -2577,6 +2582,11 @@
           <source>Nothing to post.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS CWS Shipment Mgmt - Method WhsePostShpt - NamedType NothingToPostErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4056853743 - Method 1121394186 - NamedType 1976823025" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The following transfer orders have not been received:\ %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS CWS Shipment Mgmt - Method WhsePostShpt - NamedType TransfRcptNotPostedLbl</note>
         </trans-unit>
         <trans-unit id="Page 1415163099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Combination Criteria Fields Selection</source>
@@ -4292,6 +4302,11 @@
           <source>Transfer</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Transfer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1137884171 - Control 1422343377 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enables the posting of transfer receipts when posting warehouse shipments. The receipt location must not have the warehouse. The feature must be enabled on location card too.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Enable Direct Transfer - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Action 420127398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Combination Criteria</source>
@@ -7033,6 +7048,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Source Document Info - Control Shipment Method Code Info - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4029234814 - Action 2734501957 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Overwrites the values for net weight, gross weight, volume and no. of parcels, with the values calculated from the source lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Source Document Info - Action GetInfoFromLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4029234814 - Action 2734501957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get info from lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Source Document Info - Action GetInfoFromLines - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 212810582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Address Details - Warehouse</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8188,6 +8213,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOSReceipt - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2774593727 - Control 3909659890 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
+          <source>Enables the posting of transfer receipts when posting warehouse shipments. The receipt location must not have the warehouse. The feature must be enabled on setup CWS too.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOS Enable Direct Transfer - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2774593727 - Control 754047000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
           <source>Specifies what should happen after posting warehouse document regarding its deletion.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8717,6 +8747,11 @@
           <source>Combine Shipments</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123381 - Field EOS Combine Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 428288927 - Field 3909659890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3891454143">
+          <source>Enable Direct Transfer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123381 - Field EOS Enable Direct Transfer - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 428288927 - Field 1772062450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3891454143">
           <source>Ship Not-Inventory Lines (Purchase)</source>
