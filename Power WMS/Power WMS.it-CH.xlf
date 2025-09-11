@@ -527,18 +527,6 @@
           <source>Fields Reference is not a temporary table</source>
           <target>Il riferimento alla struttura "Campi" non è temporaneo</target>
         </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3648412833 - NamedType 1381766150" translate="yes" size-unit="char" xml:space="preserve">
-          <source>List fields are not allowed for this activity</source>
-          <target>Campi lista non disponibili per l'attività</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3648412833 - NamedType 1622946021" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Activity fields settings not found</source>
-          <target>Impostazioni campi attività non trovate</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3648412833 - NamedType 708159907" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Detail fields are not allowed for this activity</source>
-          <target>Campi dettaglio non disponibili per l'attività</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2996632548 - Method 3695842173 - NamedType 2729270211" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location filter updated on PowerWMS activities</source>
           <target>Il filtro ubicazione è stato aggiornato sulle attività</target>
@@ -10311,6 +10299,442 @@
           <source>Type %1 not supported</source>
           <target>Tipo %1 non supportato</target>
         </trans-unit>
+        <trans-unit id="Page 50300091 - Control 377134953 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>UserId Filters</source>
+          <target>Filtri utente</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3190813866 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, Location View will be ignored and all locations will be available for the activity</source>
+          <target>Se attivo, il filtro sulle ubicazioni verrà ignorato e tutte le ubicazioni saranno selezionabili</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 284195533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filters</source>
+          <target>Filtri</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3127877167 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, Reclassification Batch View will be ignored and all reclassification batches will be available for the activity</source>
+          <target>Se attivo, il filtro sui giornali di riclassificazione articolo verrà ignorato e tutti i giornali saranno selezionabili</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 699423879 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, Inventory Batch View will be ignored and all inventory batches will be available for the activity</source>
+          <target>Se attivo, il filtro sui giornali di inventario verrà ignorato e tutti i giornali saranno selezionabili</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 4209146570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record Filters</source>
+          <target>Filtri record</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 2249175008 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, Journal Batch View will be ignored and all journal batches will be available for the activity</source>
+          <target>Se attivo, il filtro sui giornali di registrazione articolo verrà ignorato e tutti i giornali saranno selezionabili</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 342924961 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, records without a User Id will be available for the activity</source>
+          <target>Se attivo, entità non assegnate a nessun utente saranno selezionabili</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 4216342448 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage filters on the corrispective table</source>
+          <target>Gestione dei filtri sulla tabella corrispondente</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3635955572 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, records will be filtered by the Linked User Id value</source>
+          <target>Se attivo, le entità verranno filtrate per l'utente Business Central collegato all'utente WMS</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3209047344 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Sort</source>
+          <target>Ordinamento</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3209047344 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sort mode for the corrispective key</source>
+          <target>Ordinamento per la chiave corrispondente</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 1168358559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key used to sort records of the corrispective table</source>
+          <target>Chiave di ordinamento per la tabella corrispondente</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 176562519 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View</source>
+          <target>Vista</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 1168358559 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Value</source>
+          <target>Chiave</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 271657703 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Records Count</source>
+          <target>Conteggio record</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 40454206 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>First Table used in the activity</source>
+          <target>Prima tabella utilizzata nell'attività</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 4216342448 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View</source>
+          <target>Vista</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3081448410 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Value</source>
+          <target>Chiave</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3846743961 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sort mode for the corrispective key</source>
+          <target>Ordinamento per la chiave corrispondente</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3846743961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Sort</source>
+          <target>Ordinamento</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3081448410 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key used to sort records of the corrispective table</source>
+          <target>Chiave di ordinamento per la tabella corrispondente</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 559071769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View used to manage filters on the corrispective table</source>
+          <target>Vista utilizzata per la gestione dei filtri della tabella corrispondente</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 559071769 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View</source>
+          <target>Vista</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 2422331651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Second Table used in the activity</source>
+          <target>Seconda tabella utilizzata nell'attività</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Code" field</source>
+          <target>Indica il valore del campo "Codice"</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description" field</source>
+          <target>Indica il valore del campo "Descrizione"</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 2802866507 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detail Fields 2</source>
+          <target>Campi dettaglio 2</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 420989062 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage fields for table 1 shown in PowerWMS detail section</source>
+          <target>Gestisci i campi della tabella 1 visualizzati nella sezione di dettaglio in PowerWMS</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 1758010760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detail Fields Source Scans</source>
+          <target>Campi dettaglio scansioni</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 1758010760 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage fields for Source Scans table shown in PowerWMS detail section</source>
+          <target>Gestisci i campi della tabella "Scansioni origine" visualizzati nella sezione di dettaglio in PowerWMS</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 420989062 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detail Fields 1</source>
+          <target>Campi dettaglio 1</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 2802866507 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage fields for table 2 shown in PowerWMS detail section</source>
+          <target>Gestisci i campi della tabella 2 visualizzati nella sezione di dettaglio in PowerWMS</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 1220010177 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage fields for table 1 shown in PowerWMS list</source>
+          <target>Gestisci i campi della tabella 1 visualizzati nella lista in PowerWMS</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 1220010177 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>List Fields 1</source>
+          <target>Campi lista 1</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 582313560 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage fields for table 2 shown in PowerWMS list</source>
+          <target>Gestisci i campi della tabella 2 visualizzati nella lista in PowerWMS</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 582313560 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>List Fields 2</source>
+          <target>Campi lista 2</target>
+        </trans-unit>
+        <trans-unit id="Page 3283492582 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Code" field</source>
+          <target>Indica il valore del campo "Codice"</target>
+        </trans-unit>
+        <trans-unit id="Page 3283492582 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description" field</source>
+          <target>Indica il valore del campo "Descrizione"</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 659317815 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity</source>
+          <target>Attività</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 699423879 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow All Reclassification Batches</source>
+          <target>Consenti tutti i giornali di riclassificazione articolo</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3702373668 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Category</source>
+          <target>Categoria</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3127877167 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow All Reclassification Batches</source>
+          <target>Consenti tutti i giornali di riclassificazione articolo</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3190813866 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow All Locations</source>
+          <target>Consenti tutte le ubicazioni</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 2249175008 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow All Reclassification Batches</source>
+          <target>Consenti tutti i giornali di riclassificazione articolo</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 342924961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow Blank User Id</source>
+          <target>Consenti utenti non impostati</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3635955572 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Apply User Id Filter</source>
+          <target>Applica filtro per Id utente</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1221806125 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Custom Type</source>
+          <target>Tipo personalizzazione</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Codice</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1891058982 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key No.</source>
+          <target>Nr. chiave</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1884482133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Detail Fields 2</source>
+          <target>Abilita campi dettaglio 2</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1246785516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Detail Fields 1</source>
+          <target>Abilita campi dettaglio 1</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1188449805 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable List Fields 1</source>
+          <target>Abilita campi lista 1</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1964419135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee No.</source>
+          <target>Nr. dipendente</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 550753188 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable List Fields 2</source>
+          <target>Abilita campi lista 2</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 4272936427 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key No.</source>
+          <target>Nr. chiave</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 4228105401 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Filter 2</source>
+          <target>Filtro ubicazione 2</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3209047344 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Sort</source>
+          <target>Ordinamento</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3209047344 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ascending,Descending</source>
+          <target>Crescente, Decrescente</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3846743961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Sort</source>
+          <target>Ordinamento</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3846743961 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ascending,Descending</source>
+          <target>Crescente, Decrescente</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1168358559 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Value</source>
+          <target>Chiave</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 379315303 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Linked User Id</source>
+          <target>Id utente collegato</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3590408784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Filter 1</source>
+          <target>Filtro ubicazione 1</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 561512667 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Filter 1 Text</source>
+          <target>Filtro ubicazione 1 (testo)</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3081448410 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Value</source>
+          <target>Chiave</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 4154746910 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Filter 2 Text</source>
+          <target>Filtro ubicazione 2 (testo)</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 191795131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record View 1</source>
+          <target>Vista record 1</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1903752168 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record View 1 Text</source>
+          <target>Vista record 1 (testo)</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 2104884982 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record View 2</source>
+          <target>Vista record 2</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3961767479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource No.</source>
+          <target>Nr. risorsa</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1164086374 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show Record Counter</source>
+          <target>Mostra conteggio record</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 763475305 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record View 2 Text</source>
+          <target>Vista record 2 (testo)</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3117269734 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Id 1</source>
+          <target>Id tabella 1</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1204179883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Id 2</source>
+          <target>Id tabella 2</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 2839218638 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Textual Location Filter 1</source>
+          <target>Usa filtro ubicazione testuale 1</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 926128787 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Textual Location Filter 2</source>
+          <target>Usa filtro ubicazione testuale 2</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 748504062 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Textual View 1</source>
+          <target>Usa vista testuale 1</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3130381507 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Textual View 2</source>
+          <target>Usa vista testuale 2</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1788793769 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Warehouse Employee</source>
+          <target>Impiegato warehouse</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative User Activity View (WMS)</source>
+          <target>Viste attività alternative (WMS)</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 183296051 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fields</source>
+          <target>Campi</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative User Activity View (WMS)</source>
+          <target>Viste attività alternative (WMS)</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrizione</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 271657703 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, the number of records in the table will be shown in the card</source>
+          <target>Se attivo, verrà mostrato un badge con il conteggio dei record</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 379315303 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Linked User Id" field</source>
+          <target>Indica il valore del campo "Id utente collegato"</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3961767479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Resource No." field</source>
+          <target>Indica il valore del campo "Nr. risorsa"</target>
+        </trans-unit>
+        <trans-unit id="Page 3283492582 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative User Activity Views (WMS)</source>
+          <target>Vista attività alternativa (WMS)</target>
+        </trans-unit>
+        <trans-unit id="Page 2535728483 - Action 796482603 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage alternative views for the activity</source>
+          <target>Gestisci le viste alternative per l'attività</target>
+        </trans-unit>
+        <trans-unit id="Page 2535728483 - Action 796482603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative Views</source>
+          <target>Viste alternative</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1214584947 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Card Settings</source>
+          <target>Impostazioni scheda</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 2464534640 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Card Settings Text</source>
+          <target>Impostazioni scheda testuale</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1219052953 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Textual Card Settings</source>
+          <target>Usa impostazioni scheda testuale</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity Status. The activity will be shown in the PowerWMS menu only if the status is "Active"</source>
+          <target>Stato attività. Solo le attività abilitate vengono visualizzate in PowerWMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - NamedType 708159907" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detail fields are not allowed for this activity</source>
+          <target>Campi dettaglio non disponibili per l'attività</target>
+        </trans-unit>
+        <trans-unit id="Page 3283492582 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Status" field</source>
+          <target>Indica il valore del campo "Stato"</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - NamedType 1381766150" translate="yes" size-unit="char" xml:space="preserve">
+          <source>List fields are not allowed for this activity</source>
+          <target>Campi lista non disponibili per l'attività</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - NamedType 1622946021" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity fields settings not found</source>
+          <target>Impostazioni campi attività non trovate</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Stato</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 2176869932 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy View</source>
+          <target>Copia vista</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Action 2176869932 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy selected view to other user(s)</source>
+          <target>Copia la vista selezionata per altri utenti</target>
+        </trans-unit>
+        <trans-unit id="Table 4175453294 - Field 3242052185 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative View Code</source>
+          <target>Codice vista alternativa</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2241701447 - Method 4170727418 - NamedType 3892157113" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Can not init activity %1</source>
+          <target>Impossibile inizializzare l'attività %1</target>
+        </trans-unit>
+        <trans-unit id="Page 3283492582 - Action 2176869932 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy View</source>
+          <target>Copia vista</target>
+        </trans-unit>
+        <trans-unit id="Page 3283492582 - Action 2176869932 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy selected view to other user(s)</source>
+          <target>Copia la vista selezionata per altri utenti</target>
+        </trans-unit>
+        <trans-unit id="Report 1514309778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Alternative View (WMS)</source>
+          <target>Copia vista alternativa (WMS)</target>
+        </trans-unit>
+        <trans-unit id="Report 1514309778 - ReportDataItem 1324280615 - Method 72583909 - NamedType 4102179460" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No alternative view selected. Please set an alternative view to copy.</source>
+          <target>Nessuna vista alternativa selezionata. Selezionare una vista valida.</target>
+        </trans-unit>
+        <trans-unit id="Table 517974087 - Field 3864558939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative Views Exists</source>
+          <target>Esistono viste alternative</target>
+        </trans-unit>
         <trans-unit id="Table 3032321697 - Field 4154341761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sequence</source>
           <target>Sequenza</target>
@@ -10458,6 +10882,426 @@
         <trans-unit id="Codeunit 2996632548 - Method 1415344680 - NamedType 2221322448" translate="yes" size-unit="char" xml:space="preserve">
           <source>The activity %1 is not a custom activity.</source>
           <target>L'attività %1 non è una attività personalizzata.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 817876317 - Method 2020479295 - NamedType 3351274" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View %1 for activity %2 not found!</source>
+          <target>Vista %1 per l'attività %2 non trovata!</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 817876317 - Method 2020479295 - NamedType 3791449231" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View %1 is not enabled for activity %2!</source>
+          <target>Vista %1 non abilitata per l'attività %2!</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3811026339 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3585571443 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2155862363 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 791452277 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3431255597 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2793558980 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 565997381 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1845048717 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 734906404 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1897936488 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1518165746 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 880469129 - Field 729138814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WMS Alternative View Filter</source>
+          <target>Filtro vista alternativa WMS</target>
+        </trans-unit>
+        <trans-unit id="Table 4167401631 - Field 2931246558 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative View Filter</source>
+          <target>Filtro vista alternativa</target>
+        </trans-unit>
+        <trans-unit id="Table 2307521976 - Field 2931246558 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative View Filter</source>
+          <target>Filtro vista alternativa</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 659317815 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity</source>
+          <target>Attività</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 3702373668 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity Category. This value is managed by the system and cannot be changed.</source>
+          <target>Categoria attività. Il valore è gestito dal sistema e non può essere modificato</target>
+        </trans-unit>
+        <trans-unit id="Page 50300091 - Control 739346273 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity Group. Specifies in which group the activity will be shown in the PowerWMS menu.</source>
+          <target>Gruppo attività. Indica in quale gruppo viene posizionata l'attività nel menù PowerWMS</target>
+        </trans-unit>
+        <trans-unit id="Page 3283492582 - Control 739346273 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Group" field</source>
+          <target>Indica il gruppo di appartenenza dell'attività</target>
+        </trans-unit>
+        <trans-unit id="Page 3071704901 - Control 3242052185 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative View Code</source>
+          <target>Codice vista alternativa</target>
+        </trans-unit>
+        <trans-unit id="Page 3071704901 - Control 4168692712 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative View Description</source>
+          <target>Descrizione vista alternativa</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 739346273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Group</source>
+          <target>Gruppo</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 4154341761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sequence</source>
+          <target>Sequenza</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3955145108 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Group Index</source>
+          <target>Indice gruppo</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4018257875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow Posting</source>
+          <target>Consenti registrazione</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 699423879 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow All Reclassification Batches</source>
+          <target>Consenti tutti i giornali di riclassificazione articolo</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4167715243 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow Automatic Tracking</source>
+          <target>Consenti tracciabilità automatica</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3127877167 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow All Reclassification Batches</source>
+          <target>Consenti tutti i giornali di riclassificazione articolo</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3190813866 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow All Locations</source>
+          <target>Consenti tutte le ubicazioni</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 342924961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow Blank User Id</source>
+          <target>Consenti utenti non impostati</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 78356924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow New Record</source>
+          <target>Consenti nuovo record</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 2249175008 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow All Reclassification Batches</source>
+          <target>Consenti tutti i giornali di riclassificazione articolo</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1221806125 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Custom Type</source>
+          <target>Tipo personalizzazione</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3242052185 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative View Code</source>
+          <target>Codice vista alternativa</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 225259395 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow Source Reset</source>
+          <target>Consenti ripristino entità di origine</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3320277590 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow Scan Edit</source>
+          <target>Consenti modifica scansioni</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4168692712 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative View Description</source>
+          <target>Descrizione vista alternativa</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3702373668 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Category</source>
+          <target>Categoria</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 2422288818 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bin Code Editable</source>
+          <target>Cod. collocazione modificabile</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3635955572 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Apply User Id Filter</source>
+          <target>Applica filtro per Id utente</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 2419238578 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Block Quantity Edit</source>
+          <target>Blocco modifica quantità</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3864558939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative Views Exists</source>
+          <target>Esistono viste alternative</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1246785516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Detail Fields 1</source>
+          <target>Abilita campi dettaglio 1</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 455578370 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Group By Source Document</source>
+          <target>Raggruppa per documento origine</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1964419135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee No.</source>
+          <target>Nr. dipendente</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3910324415 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default Action</source>
+          <target>Azione predefinita</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1188449805 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable List Fields 1</source>
+          <target>Abilita campi lista 1</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1884482133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Detail Fields 2</source>
+          <target>Abilita campi dettaglio 2</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4086591002 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Focus On Quantity</source>
+          <target>Focus su Quantità</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4182490403 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Execution Mode</source>
+          <target>Modalità di esecuzione</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 739346273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Group</source>
+          <target>Gruppo</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 550753188 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable List Fields 2</source>
+          <target>Abilita campi lista 2</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3955145108 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Group Index</source>
+          <target>Indice gruppo</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 594532045 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Hide Quantity To Handle</source>
+          <target>Nascondi quantità da gestire</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4272936427 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key No.</source>
+          <target>Nr. chiave</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 97117374 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Hide Standard Fields</source>
+          <target>Nascondi campi predefiniti</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1168358559 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Value</source>
+          <target>Chiave</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1891058982 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key No.</source>
+          <target>Nr. chiave</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3209047344 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ascending,Descending</source>
+          <target>Crescente, Decrescente</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3209047344 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Sort</source>
+          <target>Ordinamento</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3846743961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Sort</source>
+          <target>Ordinamento</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3846743961 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ascending,Descending</source>
+          <target>Crescente, Decrescente</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3081448410 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Key Value</source>
+          <target>Chiave</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3590408784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Filter 1</source>
+          <target>Filtro ubicazione 1</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 561512667 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Filter 1 Text</source>
+          <target>Filtro ubicazione 1 (testo)</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 379315303 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Linked User Id</source>
+          <target>Id utente collegato</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4228105401 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Filter 2</source>
+          <target>Filtro ubicazione 2</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4154746910 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Filter 2 Text</source>
+          <target>Filtro ubicazione 2 (testo)</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3949657483 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Notify On Success</source>
+          <target>Notifica esecuzione corretta</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1006275236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity Management</source>
+          <target>Gestione quantità</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 195880051 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Execution Mode</source>
+          <target>Modalità di esecuzione registrazione</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1164086374 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show Record Counter</source>
+          <target>Mostra conteggio record</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1903752168 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record View 1 Text</source>
+          <target>Vista record 1 (testo)</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 191795131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record View 1</source>
+          <target>Vista record 1</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 2104884982 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record View 2</source>
+          <target>Vista record 2</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 763475305 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record View 2 Text</source>
+          <target>Vista record 2 (testo)</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3961767479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource No.</source>
+          <target>Nr. risorsa</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4154341761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sequence</source>
+          <target>Sequenza</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4289463787 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scan Autosave</source>
+          <target>Autosalvataggio scansioni</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 499004307 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scanner Setup</source>
+          <target>Setup scanner</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1801240912 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scan Mode</source>
+          <target>Modalità di scansione</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1700592043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Start With Scan All Lines</source>
+          <target>Scansiona tutte le righe</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3117269734 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Id 1</source>
+          <target>Id tabella 1</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1204179883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Id 2</source>
+          <target>Id tabella 2</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1053950132 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unknown Handler</source>
+          <target>Handler sconosciuto</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3130381507 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Textual View 2</source>
+          <target>Usa vista testuale 2</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Stato</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 2839218638 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Textual Location Filter 1</source>
+          <target>Usa filtro ubicazione testuale 1</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 748504062 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Textual View 1</source>
+          <target>Usa vista testuale 1</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 926128787 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Textual Location Filter 2</source>
+          <target>Usa filtro ubicazione testuale 2</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3217673354 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Visibility</source>
+          <target>Visibilità</target>
+        </trans-unit>
+        <trans-unit id="Table 3071704901 - Field 3242052185 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative View Code</source>
+          <target>Codice vista alternativa</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1788793769 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Warehouse Employee</source>
+          <target>Impiegato warehouse</target>
+        </trans-unit>
+        <trans-unit id="Table 3071704901 - Field 4168692712 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative View Description</source>
+          <target>Descrizione vista alternativa</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>User Activity Menu (WMS)</source>
+          <target>Menu attività utente (WMS)</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4234479004 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Additional Fields</source>
+          <target>Campi aggiuntivi</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 1278757647 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Additional Fields Text</source>
+          <target>Campi aggiuntivi testuale</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 4129686743 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record Counts</source>
+          <target>Conteggio record</target>
+        </trans-unit>
+        <trans-unit id="Table 2393740954 - Field 3904942098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Textual Additional Fields</source>
+          <target>Usa campi aggiuntivi testuale</target>
+        </trans-unit>
+        <trans-unit id="Table 3071704901 - Field 3639914670 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative View</source>
+          <target>Vista alternativa</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 1053950132 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unknown Handler</source>
+          <target>Handler sconosciuto</target>
+        </trans-unit>
+        <trans-unit id="Table 50300091 - Field 3217673354 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Visibility</source>
+          <target>Visibilità</target>
+        </trans-unit>
+        <trans-unit id="Page 2427010449 - Action 796482603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative Views</source>
+          <target>Viste alternative</target>
+        </trans-unit>
+        <trans-unit id="Page 2427010449 - Action 796482603 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage alternative views for the activity</source>
+          <target>Gestisci le viste alternative per l'attività</target>
         </trans-unit>
       </group>
     </body>
