@@ -152,8 +152,8 @@
           <target>Avvio dell'importazione ABI/CAB</target>
         </trans-unit>
         <trans-unit id="Page 2211807114 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Import ABI/CAB</source>
-          <target>Importazione ABI/CAB</target>
+          <source>Import ABI/CAB (CBI)</source>
+          <target>Importazione ABI/CAB (CBI)</target>
         </trans-unit>
         <trans-unit id="PageExtension 1109920666 - Control 1458601237 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the SEPA InitgPty ID</source>
@@ -1778,6 +1778,602 @@
         <trans-unit id="XmlPort 1381931340 - XmlPortNode 534614025 - Method 828199545 - NamedType 2218949446" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specify %1 for bank account no. %2 IBAN %3</source>
           <target>Specificare %1 per il C/C bancario %2 IBAN %3</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 830595890 - Method 4033754056 - NamedType 28046720" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The beneficiary account must be a %1 or %2.</source>
+          <target>Il tipo di conto beneficiario deve essere o %1 o %2</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 830595890 - Method 1921517890 - NamedType 565480431" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The %1 field must be filled.</source>
+          <target>Il campo %1 deve contenere informazioni.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 830595890 - Method 1921517890 - NamedType 2630528958" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 %2 must have a value in %3.</source>
+          <target>%1 %2 deve disporre di un valore in %3.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 830595890 - Method 908365117 - NamedType 836419982" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The balancing account must be a bank account.</source>
+          <target>Il conto di contropartita deve essere un conto bancario.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - NamedType 2146008245" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Amount must be filled in.</source>
+          <target>Importo totale deve essere compilato.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 830595890 - Method 4000578893 - NamedType 885110970" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The amount must be positive.</source>
+          <target>L'importo deve essere positivo.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 830595890 - Method 769579368 - NamedType 3014041222" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 can not be empty when %3 is %4 or %5</source>
+          <target>%1 non può essere vuoto quando %3 è %4 o %5</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 830595890 - Method 4000578893 - NamedType 2420179014" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The earliest possible transfer date is today.</source>
+          <target>La prima data di trasferimento disponibile è quella odierna.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 830595890 - Method 4000578893 - NamedType 743427178" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Only transactions in euro (EUR) are allowed, because the %1 bank account is set up to use the %2 export format.</source>
+          <target>Sono consentite solo le transazioni in euro (EUR), perché il conto bancario %1 è configurato per utilizzare il formato di esportazione %2.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - NamedType 2231609920" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IBAN should be filled in when %1 is not Vendor.</source>
+          <target>L'IBAN deve essere inserito quando %1 non è fornitore.</target>
+        </trans-unit>
+        <trans-unit id="Page 2211807114 - Property 3863440606" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import ABI/CAB (BNK)</source>
+          <target>Importazione ABI/CAB (BNK)</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - NamedType 1466440266" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary No. must be filled in.</source>
+          <target>Nr. beneficiario deve essere compilato.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - NamedType 1535741507" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Name must be filled in.</source>
+          <target>Nome beneficiario deve essere compilato.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Manual Bill Vendor Line</source>
+          <target>Crea riga effetti fornitori manuale</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 164324022 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Country/Region</source>
+          <target>Cod. paese beneficiario</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Method 4283543548 - NamedType 928489711" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No. already in use</source>
+          <target>Nr. documento già in uso</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Method 4283543548 - NamedType 2659466456" translate="yes" size-unit="char" xml:space="preserve">
+          <source>In this "Document date" (%1) the current "Document no." (%2) is already in use. Try using another one or or change "Document No.".</source>
+          <target>In questa "Data documento" (%1) il "Nr. documento" corrente (%2) è già in uso. Prova ad usarne un altro o a cambiare "Nr. documento"</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Method 4283543548 - NamedType 3513835867" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This "Document No." (%1) is already in use. Try using another one.</source>
+          <target>Questo "Nr. documento (%1) è già in uso. Prova a usarne un altro.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 526195128 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary</source>
+          <target>Beneficiario</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 1582977080 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Address</source>
+          <target>Indirizzo beneficiario</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 2216314599 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the city of the beneficiary of the payment.</source>
+          <target>Specifica la città del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 1582977080 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the address of the beneficiary of the payment.</source>
+          <target>Specifica l'indirizzo del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 164324022 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the country/region of the beneficiary of the payment.</source>
+          <target>Specifica il paese del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 2216314599 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary City</source>
+          <target>Città beneficiario</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 2728389623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary SWIFT/BIC</source>
+          <target>SWIFT/BIC beneficiario</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3252939380 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the county of the beneficiary of the payment.</source>
+          <target>Specifica la provincia del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3949594711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Name</source>
+          <target>Nome beneficiario</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 1596584410 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the IBAN of the beneficiary of the payment.</source>
+          <target>Specifica l'IBAN del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3949594711 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the beneficiary of the payment.</source>
+          <target>Specifica il nome del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 2728389623 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the SWIFT/BIC code of the beneficiary of the payment</source>
+          <target>Specifica il codice SWIFT/BIC del beneficiario del pagamento</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3252939380 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary County</source>
+          <target>Provincia beneficiario</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 1596584410 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary IBAN</source>
+          <target>IBAN beneficiario</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3786807601 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the post code of the beneficiary of the payment.</source>
+          <target>Specifica il codice postale del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3786807601 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Post Code</source>
+          <target>CAP beneficiario</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 4237283545 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the document type.</source>
+          <target>Specifica il tipo di documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 1594611733 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the document date.</source>
+          <target>Specifica la data del documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3117834186 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the document number.</source>
+          <target>Specifica il numero del documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 2861762869 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a second description of the payment.</source>
+          <target>Specifica la descrizione 2 del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3117834186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Nr. documento</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3552705779 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a description of the payment.</source>
+          <target>Specifica una descrizione del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3552705779 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrizione</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 1594611733 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Date</source>
+          <target>Data documento</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 2861762869 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Descrizione 2</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 588318770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total amount.</source>
+          <target>Specifica l'importo totale.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 4237283545 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Tipo di documento</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 117472325 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the G/L account or bank account of the payment.</source>
+          <target>Specifica il codice del conto C/G o del conto bancario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 1514967384 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Tax Base Amount</source>
+          <target>Importo imponibile</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 117472325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary No.</source>
+          <target>Nr. beneficiario</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 663983814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Type</source>
+          <target>Tipo beneficiario</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3632073096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the external document number.</source>
+          <target>Specifica il numero del documento esterno.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 663983814 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify whether the beneficiary of the payment is a G/L account or a bank account.</source>
+          <target>Specificare se il beneficiario del pagamento è un conto C/G o un conto bancario.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 3632073096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>External Doc. No.</source>
+          <target>Nr. documento esterno</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 1514967384 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the tax base amount.</source>
+          <target>Specifica l'importo imponibile.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Control 588318770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Amount</source>
+          <target>Importo totale</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3491798111 - Control 1762429682 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the IBAN of the beneficiary of the payment.</source>
+          <target>Specifica l'IBAN del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3491798111 - Control 2818498716 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the county of the beneficiary of the payment.</source>
+          <target>Specifica la provincia del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Action 2654818132 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Line</source>
+          <target>Inserisci riga</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3491798111 - Control 3812388078 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify whether the beneficiary of the payment is a G/L account or a bank account.</source>
+          <target>Specificare se il beneficiario del pagamento è un conto C/G o un conto bancario.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3491798111 - Control 3533548103 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the country/region of the beneficiary of the payment.</source>
+          <target>Specifica il paese del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Action 2654818132 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Add a line.</source>
+          <target>Aggiungi una riga.</target>
+        </trans-unit>
+        <trans-unit id="Page 2270972037 - Action 3383493608 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Processo</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3491798111 - Control 1473013872 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the address of the beneficiary of the payment.</source>
+          <target>Specifica l'indirizzo del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3491798111 - Control 3751507583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the city of the beneficiary of the payment.</source>
+          <target>Specifica la città del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3491798111 - Control 3768387247 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the beneficiary of the payment.</source>
+          <target>Specifica il nome del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 3533548103 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the country/region of the beneficiary of the payment.</source>
+          <target>Specifica il paese del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 2818498716 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the county of the beneficiary of the payment.</source>
+          <target>Specifica la provincia del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 3812388078 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify whether the beneficiary of the payment is a G/L account or a bank account.</source>
+          <target>Specificare se il beneficiario del pagamento è un conto C/G o un conto bancario.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 3751507583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the city of the beneficiary of the payment.</source>
+          <target>Specifica la città del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3491798111 - Control 879333425 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the post code of the beneficiary of the payment.</source>
+          <target>Specifica il codice postale del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 1762429682 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the IBAN of the beneficiary of the payment.</source>
+          <target>Specifica l'IBAN del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3491798111 - Control 2870663599 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the G/L account or bank account of the payment.</source>
+          <target>Specifica il codice del conto C/G o del conto bancario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 1473013872 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the address of the beneficiary of the payment.</source>
+          <target>Specifica l'indirizzo del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3491798111 - Control 3880310527 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the SWIFT/BIC code of the beneficiary of the payment</source>
+          <target>Specifica il codice SWIFT/BIC del beneficiario del pagamento</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 3812388078 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify whether the beneficiary of the payment is a G/L account or a bank account.</source>
+          <target>Specificare se il beneficiario del pagamento è un conto C/G o un conto bancario.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3660707134 - Control 3812388078 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify whether the beneficiary of the payment is a vendor, a G/L account, or a bank account.</source>
+          <target>Specifica se il beneficiario del pagamento è un fornitore, un conto C/G o un C/C bancario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 2870663599 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the G/L account or bank account of the payment.</source>
+          <target>Specifica il codice del conto C/G o del conto bancario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 1473013872 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the address of the beneficiary of the payment.</source>
+          <target>Specifica l'indirizzo del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3023010517 - Control 3812388078 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify whether the beneficiary of the payment is a vendor, a G/L account, or a bank account.</source>
+          <target>Specifica se il beneficiario del pagamento è un fornitore, un conto C/G o un C/C bancario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 3768387247 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the beneficiary of the payment.</source>
+          <target>Specifica il nome del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 3533548103 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the country/region of the beneficiary of the payment.</source>
+          <target>Specifica il paese del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 3751507583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the city of the beneficiary of the payment.</source>
+          <target>Specifica la città del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 3880310527 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the SWIFT/BIC code of the beneficiary of the payment</source>
+          <target>Specifica il codice SWIFT/BIC del beneficiario del pagamento</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4129494728 - Control 879333425 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the post code of the beneficiary of the payment.</source>
+          <target>Specifica il codice postale del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 1762429682 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the IBAN of the beneficiary of the payment.</source>
+          <target>Specifica l'IBAN del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 2818498716 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the county of the beneficiary of the payment.</source>
+          <target>Specifica la provincia del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2385313900 - Control 3812388078 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify whether the beneficiary of the payment is a vendor, a G/L account, or a bank account.</source>
+          <target>Specifica se il beneficiario del pagamento è un fornitore, un conto C/G o un C/C bancario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 879333425 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the post code of the beneficiary of the payment.</source>
+          <target>Specifica il codice postale del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2385313900 - Action 4003614988 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manually add an entry line to an existing vendor bill and have the amount applied to withholding tax, social security, and payment amounts.</source>
+          <target>Aggiungere manualmente una riga movimento a un effetto fornitore esistente e applicare l'importo agli importi di pagamento</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 3880310527 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the SWIFT/BIC code of the beneficiary of the payment</source>
+          <target>Specifica il codice SWIFT/BIC del beneficiario del pagamento</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 3768387247 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the beneficiary of the payment.</source>
+          <target>Specifica il nome del beneficiario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 3209415478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee</source>
+          <target>Cessionario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1747617283 - Control 2870663599 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the G/L account or bank account of the payment.</source>
+          <target>Specifica il codice del conto C/G o del conto bancario del pagamento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2385313900 - Action 4003614988 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Vend. Bill Line Manual</source>
+          <target>Inserisci riga effetti fornitori manuali</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 3669655161 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether the bank is a transferee. By setting this field, it will be possible to indicate the transferee data.</source>
+          <target>Specifica se la banca è un cessionario. Impostando questo campo, sarà possibile indicare i dati del cessionario.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 2628556452 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Transferee County</source>
+          <target>Specifica la provincia del cessionario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 1620110725 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Transferee Bank Account No.</source>
+          <target>Specifica il numero utilizzato dal cessionario per il conto corrente bancario.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 4137252538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Transferee Address 2</source>
+          <target>Specifica l'indirizzo 2 del cessionario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 1750023783 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Transferee Name</source>
+          <target>Specifica il nome del cessionario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 1729887274 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Transferee IBAN</source>
+          <target>Specifica il numero di conto corrente bancario internazionale del cessionario.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 1645171767 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Transferee No.</source>
+          <target>Specifica il nr. del cessionario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 2399493672 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Transferee Address</source>
+          <target>Specifica l'indirizzo del cessionario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 1178079735 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Transferee City</source>
+          <target>Specifica la città del cessionario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 242402121 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Transferee Name 2</source>
+          <target>Specifica il nome 2 del cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 1473013872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Address</source>
+          <target>Indirizzo beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 3768387247 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Name</source>
+          <target>Nome beneficiario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1916526306 - Control 3669655161 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether the vendor ledger entry is related to a credit transfer.</source>
+          <target>Specifica se il mov. contabile fornitore è correlata a un bonifico di un cessionario.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 1762429682 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary IBAN</source>
+          <target>IBAN beneficiario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 3045828457 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Transferee Post Code</source>
+          <target>Specifica il codice postale del cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 3751507583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary City</source>
+          <target>Città beneficiario</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1278829689 - Control 2228411348 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Transferee SWIFT Code</source>
+          <target>Specifica il codice SWIFT del cessionario, ovvero il codice identificativo delle banche internazionali, dell'istituto bancario presso cui il cessionario ha sottoscritto il conto corrente.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 2870663599 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary No.</source>
+          <target>Nr. beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 2818498716 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary County</source>
+          <target>Provincia beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 3533548103 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Country/Region</source>
+          <target>Cod. paese beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 3880310527 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary SWIFT</source>
+          <target>SWIFT Beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 879333425 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Post Code</source>
+          <target>CAP beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 3768387247 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Name</source>
+          <target>Nome beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 2870663599 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary No.</source>
+          <target>Nr. beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 3751507583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary City</source>
+          <target>Città beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 2818498716 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary County</source>
+          <target>Provincia beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 1762429682 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary IBAN</source>
+          <target>IBAN beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2660698795 - Field 3812388078 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Type</source>
+          <target>Tipo beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 1473013872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Address</source>
+          <target>Indirizzo beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 3533548103 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Country/Region</source>
+          <target>Cod. paese beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 2530828613 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee Country/Region Code</source>
+          <target>Cod. paese cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 879333425 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Post Code</source>
+          <target>CAP beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 3812388078 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Type</source>
+          <target>Tipo beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023002178 - Field 3880310527 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary SWIFT</source>
+          <target>SWIFT Beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 3669655161 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Credit Transfer</source>
+          <target>Cessione credito</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 747608944 - Field 3812388078 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Type</source>
+          <target>Tipo beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1385305561 - Field 3812388078 - Method 2126772001 - NamedType 2236746637" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are Lines for this type of Vendor Bill. Delete them to change Beneficiary Type.</source>
+          <target>Sono presenti righe per questo tipo di distinta fornitore. Eliminali per cambiare il tipo di beneficiario.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1385305561 - Field 3812388078 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Beneficiary Type</source>
+          <target>Tipo beneficiario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Method 1206637924 - NamedType 2189884250" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The details of the transferee will be cleaned. Confirm ?</source>
+          <target>I dati del cessionario saranno eliminati. Confermi ?</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Method 1206637924 - NamedType 560954013" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The details of the bank will be cleaned. Confirm ?</source>
+          <target>I dati della banca saranno eliminati. Confermi ?</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 1620110725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee Bank Account No.</source>
+          <target>Nr. conto corrente cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 3045828457 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee Post Code</source>
+          <target>CAP cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 1645171767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee No.</source>
+          <target>Nr. cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 2628556452 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee County</source>
+          <target>Provincia cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 1178079735 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee City</source>
+          <target>Città cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 1750023783 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee Name</source>
+          <target>Nome cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 2399493672 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee Address</source>
+          <target>Indirizzo cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 4137252538 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee Address 2</source>
+          <target>Indirizzo 2 cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 1729887274 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee IBAN</source>
+          <target>IBAN cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 242402121 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee Name 2</source>
+          <target>Nome 2 cessionario</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 109912327 - Field 2228411348 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transferee SWIFT Code</source>
+          <target>Codice SWIFT cessionario</target>
+        </trans-unit>
+        <trans-unit id="Enum 3812388078 - EnumValue 1936001480 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor</source>
+          <target>Fornitore</target>
+        </trans-unit>
+        <trans-unit id="Enum 3812388078 - EnumValue 1682139193 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bank Account</source>
+          <target>Nr. conto corrente</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3767183006 - Field 3669655161 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Credit Transfer</source>
+          <target>Cessione credito</target>
+        </trans-unit>
+        <trans-unit id="Enum 3812388078 - EnumValue 4274826855 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>G/L Account</source>
+          <target>Conto C/G</target>
         </trans-unit>
       </group>
     </body>
