@@ -253,6 +253,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Hierarchy Relation Request - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1232465395 - Method 788258546 - NamedType 411164334" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to cancel relation request %1? After this operation the request cannot be reprocessed!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Hierarchy Relation Request - Method Cancel - NamedType Text001Qst</note>
+        </trans-unit>
+        <trans-unit id="Table 1232465395 - Method 2675496269 - NamedType 411164334" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to process relation request %1 at %2? All hierarchy fields on snapshots will be updated!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Hierarchy Relation Request - Method Process - NamedType Text001Qst</note>
+        </trans-unit>
         <trans-unit id="Table 1232465395 - Field 3155995555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Current Upper Level</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1388,6 +1398,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Update Hier. Rel. Req. - Method UpdateSnapshotsByItemYesNo - NamedType UpdateSnapshotsQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 398323727 - Method 481309858 - NamedType 588201669" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The hierarchy tables already contain data.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS021 Test Data Loader - Method AssertNoRecordsExist - NamedType TableNotEmptyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 398323727 - Method 172497734 - NamedType 1138899259" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to insert default data?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS021 Test Data Loader - Method InsertDefaultDataYesNo - NamedType Text002Qst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 398323727 - Method 172497734 - NamedType 2720473193" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updating data ...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS021 Test Data Loader - Method InsertDefaultDataYesNo - NamedType Text003Msg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2552023741 - Method 29222728 - NamedType 3982416129" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trade Attribute </source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1567,11 +1592,6 @@
           <source>Insert Default Data</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Hier. Level List - Action EOS Insert Default Data - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1967521803 - Action 1727274583 - Method 1377591017 - NamedType 1881095303" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Operation completed. New captions will only be visible at the next logon!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Hier. Level List - Action EOS Insert Default Data - Method OnAction - NamedType Text001Msg</note>
         </trans-unit>
         <trans-unit id="Page 2237800740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Hierarchies (TCD)</source>
@@ -1943,11 +1963,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Hier. Rel. Request Card - Action Cancel - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 332649747 - Action 788258546 - Method 1377591017 - NamedType 411164334" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do you want to cancel relation request %1? After this operation the request cannot be reprocessed!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Hier. Rel. Request Card - Action Cancel - Method OnAction - NamedType Text001Qst</note>
-        </trans-unit>
         <trans-unit id="Page 332649747 - Action 3598099634 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Change the status to certified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1967,11 +1982,6 @@
           <source>Process</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Hier. Rel. Request Card - Action Process - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 332649747 - Action 2675496269 - Method 1377591017 - NamedType 411164334" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do you want to process relation request %1 at %2? All hierarchy fields on snapshots will be updated!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Hier. Rel. Request Card - Action Process - Method OnAction - NamedType Text001Qst</note>
         </trans-unit>
         <trans-unit id="Page 332649747 - Action 4223504235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Change the status to under development.</source>
@@ -2338,11 +2348,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Hierarchy Level List - Action EOS Insert Default Data - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1264574433 - Action 1727274583 - Method 1377591017 - NamedType 1881095303" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Operation completed. New captions will only be visible at the next logon!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Hierarchy Level List - Action EOS Insert Default Data - Method OnAction - NamedType Text001Msg</note>
-        </trans-unit>
         <trans-unit id="Page 4151859075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Hierarchies (TCD)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2597,11 +2602,6 @@
           <source>Insert Default Data</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Hier. Level List - Action EOS Insert Default Data - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1572365363 - Action 1727274583 - Method 1377591017 - NamedType 1881095303" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Operation completed. New captions will only be visible at the next logon!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Hier. Level List - Action EOS Insert Default Data - Method OnAction - NamedType Text001Msg</note>
         </trans-unit>
         <trans-unit id="Page 491791292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor Hierarchies (TCD)</source>
