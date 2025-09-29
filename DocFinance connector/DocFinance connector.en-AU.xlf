@@ -1813,6 +1813,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Loss G/L Account No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3009369369 - Field 2531314653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MasterData Export Mode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field MasterData Export Mode - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3009369369 - Field 1302724779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Note Withh. Contrib. Nos.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1842,6 +1847,11 @@
           <source>Purchase Return Shipment Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Purchase Ret Shipment Prefix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3009369369 - Field 688893787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receive/Payable Export Mode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Receive/Payable Export Mode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3009369369 - Field 2368710276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remove Country Code from VAT Reg. No.</source>
@@ -1902,6 +1912,11 @@
           <source>Missing payment method in "%1" record or "%2"</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Export Receiv/Payable - NamedType MissingPaymentMethodInSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2018922889 - Method 1665861916 - NamedType 1964414747" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 must be set to "%2" to run this action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Export Receiv/Payable - Method OnRun - NamedType WrongExportModeErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1154876898 - Method 2318984962 - NamedType 4245661659" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error happened during the import procedure. Check lines.</source>
@@ -1998,10 +2013,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Try Batch Insert - Method CheckIfSumOfAllProgressiveReturnsZero - NamedType HeaderTextErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1580263792 - Method 1665861916 - NamedType 1964414747" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 must be set to "%2" or "%3" to run this action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX002 AsyncMasterData Mngt - Method OnRun - NamedType WrongExportModeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2771688348 - Method 1665861916 - NamedType 1964414747" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 must be set to "%2" to run this action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX002 AsyncRec/Payab Mngt - Method OnRun - NamedType WrongExportModeErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2672739686 - Method 1665861916 - NamedType 3255569292" size-unit="char" translate="yes" xml:space="preserve">
           <source>Retention management is enabled, but no retention period is configured in setup.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX002 Data Retention - Method OnRun - NamedType RetentionNotConfiguredErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2077446059 - Method 4089338765 - NamedType 1685067840" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If you change %1, the existing sales lines will be deleted and new sales lines based on the new information on the header will be created.\\Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX002 DCF Test - Method CurrencyUIHandler - NamedType MessageCurrency</note>
         </trans-unit>
         <trans-unit id="Codeunit 3600054511 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial subscription for DocFinance found - day %1 of %2</source>
@@ -2593,6 +2623,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF MasterData Adm - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1932812768 - Method 2101019661 - NamedType 1462547783" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The current export mode is "%1" and no batch is prepared for export.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF MasterData Adm - Method GenerateRecordsFunc - NamedType DataNotPreparedErr</note>
+        </trans-unit>
         <trans-unit id="Page 1097547882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>MasterData Arch List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2832,6 +2867,16 @@
           <source>DocFinance Receivable/Payable</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Receiv/Payable Adm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2329955237 - Method 2101019661 - NamedType 1964414747" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This export mode is not available for Receivables/Payables</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Receiv/Payable Adm - Method GenerateRecordsFunc - NamedType WrongExportModeErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2329955237 - Method 2101019661 - NamedType 1462547783" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The current export mode is "%1" and no batch is prepared for export.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Receiv/Payable Adm - Method GenerateRecordsFunc - NamedType DataNotPreparedErr</note>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DocFinance Setup (DCF)</source>
@@ -3113,6 +3158,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Vendor Export Prefix - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3009369369 - Control 2094552352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronization Mode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control SyncMode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Control 2531314653 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the MasterData Export Mode field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control MasterData Export Mode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Control 688893787 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Receive/Payable Export Mode field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Receive/Payable Export Mode - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3009369369 - Action 3527138042 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Page to setup multiple decode for a setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3183,6 +3243,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action ClearPendingImportRecords - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 64030706 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create MasterData Job Queue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action CreateMasterDataJobQueue - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 64030706 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates a job queue that generates the records for the future DocFinance MasterData export.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action CreateMasterDataJobQueue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 64030706 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click here to create the job queue to handle the MasterData export.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action CreateMasterDataJobQueue - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 64030706 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue - Export MasterData</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action CreateMasterDataJobQueue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 821077133 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Receivables/Payables Job Queue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action CreateReceivePayableJobQueue - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 821077133 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates a job queue that generates the records for the future DocFinance Receivables/Payables export.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action CreateReceivePayableJobQueue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 821077133 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click here to create the job queue to handle the Receivables/Payables export.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action CreateReceivePayableJobQueue - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 821077133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue - Export Receivables/Payables</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action CreateReceivePayableJobQueue - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3009369369 - Action 3930624466 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create Job Queue</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3207,6 +3307,26 @@
           <source>Export Performances Benchmark</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action Performance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 1399700417 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the export as it has been done by docFinance. The records will be loaded for the future DocFinance export.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action RunAsyncExportMasterData - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 1399700417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export MasterData (Async)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action RunAsyncExportMasterData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 362490905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the export as it has been done by docFinance. The records will be loaded for the future DocFinance export.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action RunAsyncExportReceivPayable - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Action 362490905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Receiv/Payable (Async)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action RunAsyncExportReceivPayable - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Action 2046995131 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>FOR DEBUG ONLY - Executes the export as it has been done by docFinance. Nothing will be sent to DocFinance.</source>
@@ -3547,6 +3667,26 @@
           <source>Reminder</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS DCF DocumentType - EnumValue Reminder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 553086793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Mode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS DCF Export Mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 553086793 - EnumValue 3871914047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Complete Asynchronous</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS DCF Export Mode - EnumValue Complete Asynchronous - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 553086793 - EnumValue 868009632 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Complete Synchronous</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS DCF Export Mode - EnumValue Complete Synchronous - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 553086793 - EnumValue 3788325996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incremental Asynchronous</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS DCF Export Mode - EnumValue Incremental Asynchronous - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 533126262 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>EOS002 DCF</source>
