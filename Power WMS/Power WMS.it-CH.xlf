@@ -535,42 +535,6 @@
           <source>Warehouse Activities with Linked User Id %1 reopened due to missing related Warehouse Employee records</source>
           <target>Le attività warehouse di PowerWMS collegate all'utente %1 sono state disabilitate per la mancanza di setup Impiegati warehouse.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3701255594 - NamedType 1259780571" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Updating user activities...</source>
-          <target>Aggiornamento attività utenti...</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3701255594 - NamedType 1279264919" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Updating picking activities...</source>
-          <target>Aggiornamento attività di prelievo...</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3701255594 - NamedType 151214240" translate="yes" size-unit="char" xml:space="preserve">
-          <source>New Picking Engine %1 successfully!</source>
-          <target>Nuovo motore prelievi %1 con successo!</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3701255594 - NamedType 1650880347" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Resetting picking activities...</source>
-          <target>Ripristino attività di prelievo...</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3701255594 - NamedType 2632500025" translate="yes" size-unit="char" xml:space="preserve">
-          <source>enabled</source>
-          <target>abilitato</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3701255594 - NamedType 3204343634" translate="yes" size-unit="char" xml:space="preserve">
-          <source>disable</source>
-          <target>Disabilitare</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3701255594 - NamedType 3975027733" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Do you want to %1 the New Picking Engine?\\%2 User activities will be updated\%3 Picking activities will be reset\%4 Picking activities will be updated</source>
-          <target>%1 il nuovo motore prelievi?\\%2 Attività utente da aggiornare\%3 Attività di prelievo da ripristinare %4 Attività di prelievo da aggiornare</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3701255594 - NamedType 702719613" translate="yes" size-unit="char" xml:space="preserve">
-          <source>enable</source>
-          <target>Abilitare</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2996632548 - Method 3701255594 - NamedType 880711966" translate="yes" size-unit="char" xml:space="preserve">
-          <source>disabled</source>
-          <target>disabilitato</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2996632548 - Method 441765568 - NamedType 123501558" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS User %1 has been disabled</source>
           <target>Utente WMS %1 disabilitato</target>
@@ -2926,10 +2890,6 @@
         <trans-unit id="Page 200314826 - Control 3949657483 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default notification setting for activities. If enabled, a notification will be shown when an activity is successfully completed</source>
           <target>Impostazione predefinita per notificare le attività eseguite con successo</target>
-        </trans-unit>
-        <trans-unit id="Page 200314826 - Control 4000356504 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>If enabled, picking activities will use "Place" lines as source</source>
-          <target>Se attivo, le attività di prelievo utilizzeranno le righe di tipo "prendere" come origine</target>
         </trans-unit>
         <trans-unit id="Page 200314826 - Control 4018257875 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default setting for allow posting in activities</source>
@@ -6478,10 +6438,6 @@
         <trans-unit id="Table 200314826 - Field 3949657483 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Notify On Success</source>
           <target>Notifica esecuzione corretta</target>
-        </trans-unit>
-        <trans-unit id="Table 200314826 - Field 4000356504 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Picking By Place Lines</source>
-          <target>Prelievo per righe "prendere"</target>
         </trans-unit>
         <trans-unit id="Table 200314826 - Field 4018257875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allow Posting</source>
@@ -11302,6 +11258,34 @@
         <trans-unit id="Page 2427010449 - Action 796482603 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Manage alternative views for the activity</source>
           <target>Gestisci le viste alternative per l'attività</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - Method 3819966054 - NamedType 3975027733" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Start migration of picking activities?\\%1 User activities will be updated\%2 Picking activities will be reset\%3 Picking activities will be updated</source>
+          <target>Migrare le attività di prelievo?\\%1 Attività utente da aggiornare\%2 Attività di prelievo da ripristinare %3 Attività di prelievo da aggiornare</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - Method 3819966054 - NamedType 1279264919" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Updating picking activities...</source>
+          <target>Aggiornamento attività di prelievo…</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - Method 3819966054 - NamedType 1650880347" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resetting picking activities...</source>
+          <target>Ripristino attività di prelievo…</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - Method 3819966054 - NamedType 1259780571" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Updating user activities...</source>
+          <target>Aggiornamento attività utenti…</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2996632548 - Method 3819966054 - NamedType 151214240" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Picking activities migration to new engine done.</source>
+          <target>Migrazione delle attività di prelievo alla nuova gestione completata.</target>
+        </trans-unit>
+        <trans-unit id="Page 200314826 - Action 2674043607 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Picking Activities Migration</source>
+          <target>Migrazione prelievi</target>
+        </trans-unit>
+        <trans-unit id="Page 200314826 - Action 2674043607 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Migrate picking activities to the new picking engine</source>
+          <target>Effettua la migrazione delle attività di prelievo al nuovo motore di gestione prelievi</target>
         </trans-unit>
       </group>
     </body>
