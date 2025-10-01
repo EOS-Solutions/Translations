@@ -1163,10 +1163,6 @@
           <source>Reversal Invoice %1 of %2.</source>
           <target>Stornorechnung %1 von %2.</target>
         </trans-unit>
-        <trans-unit id="Report 1715760692 - NamedType 3588290151" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Please unapply document no. %1.</source>
-          <target>Bitte degelten Sie das Dokument Nr. %1.</target>
-        </trans-unit>
         <trans-unit id="Report 1715760692 - NamedType 539435802" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 documents has been created. Do you want to open the credit memo?</source>
           <target>%1-Dokumente wurden erstellt. Möchten Sie die Gutschrift öffnen?</target>
@@ -1190,10 +1186,6 @@
         <trans-unit id="Report 1813802682 - Control 2934981776 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Split Lines by VAT</source>
           <target>Geteilte Linien nach MwSt.</target>
-        </trans-unit>
-        <trans-unit id="Report 1813802682 - NamedType 1665990101" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Exist record %1 %2 %3 for order %4 line %7 not marked with %5 %6./ Proceed with update %1?</source>
-          <target>Vorhandener Datensatz %1 %2 %3 für Auftrag %4 Zeile %7 nicht mit %5 %6 markiert./ Fahren Sie mit Der Aktualisierung %1 fort?</target>
         </trans-unit>
         <trans-unit id="Report 1813802682 - NamedType 2572553217" translate="yes" size-unit="char" xml:space="preserve">
           <source>The invoice type must be closing invoice or partial closing invoice.</source>
@@ -1606,10 +1598,6 @@
         <trans-unit id="Table 2492362187 - NamedType 3028928929" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot rename a %1.</source>
           <target>Sie können eine %1 nicht umbenennen.</target>
-        </trans-unit>
-        <trans-unit id="Table 2492362187 - NamedType 3408308267" translate="yes" size-unit="char" xml:space="preserve">
-          <source>You cannot change %1 when %2 exists.</source>
-          <target>Sie können %1 nicht ändern, wenn %2 vorhanden ist.</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - NamedType 3963633886" translate="yes" size-unit="char" xml:space="preserve">
           <source>%2 %3 line %1 must be posted.</source>
@@ -2175,10 +2163,6 @@
           <source>Nothing to be invoiced for the order %1 line %2</source>
           <target>Nichts fakturiert für den Auftrag %1 Zeile %2</target>
         </trans-unit>
-        <trans-unit id="Report 2094673158 - NamedType 1665990101" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Exist record %1 %2 %3 for order %4 line %7 not marked with %5 %6./ Proceed with update %1?</source>
-          <target>Vorhandener Datensatz %1 %2 %3 für Auftrag %4 Zeile %7 nicht mit %5 %6 markiert./ Fahren Sie mit Der Aktualisierung %1 fort?</target>
-        </trans-unit>
         <trans-unit id="PageExtension 842085822 - Control 265250968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
           <target>Gibt den Wert des Feldes "EOS Invoice Plan No." an.</target>
@@ -2363,10 +2347,6 @@
           <source>Quantity Invoiced</source>
           <target>Menge fakturiert</target>
         </trans-unit>
-        <trans-unit id="TableExtension 2193470419 - Change 4200184881 - Method 3279464882 - NamedType 1545318942" translate="yes" size-unit="char" xml:space="preserve">
-          <source>You cannot change %1 when %2 is %3</source>
-          <target>Sie können %1 nicht ändern, wenn %2 %3 ist.</target>
-        </trans-unit>
         <trans-unit id="Table 3644143466 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
           <target>Zeilennr.</target>
@@ -2522,6 +2502,42 @@
         <trans-unit id="Codeunit 479265699 - Method 1757239136 - NamedType 2141140146" translate="yes" size-unit="char" xml:space="preserve">
           <source>Post %1?</source>
           <target>Nach %1?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 479265699 - Method 3019092806 - NamedType 799028103" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The line amount cannot be changed because it is linked to Invoice Plan %1. It must be changed in the Invoice Plan.</source>
+          <target>Der Zeilenbetrag kann nicht geändert werden, da er mit dem Rechnungsvorschlag %1 verknüpft ist. Er muss im Rechnungsvorschlag geändert werden.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 479265699 - Method 2031313310 - NamedType 4153884925" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The %1 %2 is closed and registrations are no longer possible.</source>
+          <target>Der %1 %2 ist geschlossen und Registrierungen sind nicht mehr möglich.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2212158426 - Method 1502877167 - NamedType 3234355563" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Service Orders</source>
+          <target>Serviceaufträge</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 1149817746 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Charge (Item)</source>
+          <target>Belastung (Artikel)</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 4231510117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost</source>
+          <target>Kosten</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 372951706 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fixed Asset</source>
+          <target>Anlage</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 4274826855 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>G/L Account</source>
+          <target>Sachkonto</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 3276313895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item</source>
+          <target>Artikel</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 348912950 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource</source>
+          <target>Ressource</target>
         </trans-unit>
       </group>
     </body>
