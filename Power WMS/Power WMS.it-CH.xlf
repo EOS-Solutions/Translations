@@ -11291,10 +11291,6 @@
           <source>Activity %1 not allowed for Source %2</source>
           <target>Attività %1 non consentita per origine %2</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3076944194 - Method 1983700343 - NamedType 272352229" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Nothing to post</source>
-          <target>Niente da registrare</target>
-        </trans-unit>
         <trans-unit id="Table 2854132005 - Field 3082294407 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WMS Activity Type Filter</source>
           <target>Filtro attività WMS</target>
@@ -11403,10 +11399,6 @@
           <source>WMS Base Unit Of Measure</source>
           <target>Cod. unità di misura base WMS</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3076944194 - Method 1978962747 - NamedType 2485552466" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 %2 No. %3 posted successfully</source>
-          <target>%1 %2 Nr. %3 registrato correttamente</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3076944194 - Method 2731000887 - NamedType 3239513518" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 %2 No. %3 reset successfully</source>
           <target>%1 %2 Nr. %3 reimpostato correttamente</target>
@@ -11426,10 +11418,6 @@
         <trans-unit id="Codeunit 3076944194 - Method 67697926 - NamedType 679799256" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reopen</source>
           <target>Riapri</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3076944194 - Method 78462856 - NamedType 461257577" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Phys. Invt. Record</source>
-          <target>Registrazione Magazzino Fisico</target>
         </trans-unit>
         <trans-unit id="Enum 4244104744 - EnumValue 1678605287 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Phys. Inventory Recording</source>
@@ -11576,16 +11564,16 @@
           <target>Creato da PowerWMS</target>
         </trans-unit>
         <trans-unit id="Codeunit 3076944194 - Method 2401455230 - NamedType 3721521464" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item %1 added!</source>
-          <target>Articolo %1 aggiunto!</target>
+          <source>Item %1 added in location %2!</source>
+          <target>Articolo %1 aggiunto nell'ubicazione %2!</target>
         </trans-unit>
         <trans-unit id="Codeunit 3076944194 - Method 2401455230 - NamedType 1035982734" translate="yes" size-unit="char" xml:space="preserve">
           <source>The quantity to add must be greater than zero.</source>
           <target>La quantità da aggiungere deve essere maggiore di 0.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3076944194 - Method 2401455230 - NamedType 3393482623" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The item %1 already exists in the physical inventory recording line for the location %2. You cannot add it.</source>
-          <target>L'articolo %1 esiste già nella registrazione inventario fisico per il magazzino %2. Impossibile eseguire l'operazione.</target>
+          <source>Item %1 already exists in the physical inventory recording line for the location %2. You cannot add it.</source>
+          <target>L'articolo %1 esiste già nella registrazione inventario fisico per l'ubicazione %2. Impossibile eseguire l'operazione.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3076944194 - Method 2401455230 - NamedType 3726136654" translate="yes" size-unit="char" xml:space="preserve">
           <source>An error occurred while adding the item to the physical inventory order.</source>
@@ -11622,6 +11610,98 @@
         <trans-unit id="PageExtension 1924464162 - Control 417637568 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicates whether the line was created by PowerWMS.</source>
           <target>Indica che la riga è stata aggiunta da PowerWMS.</target>
+        </trans-unit>
+        <trans-unit id="Table 517974087 - Field 3902036452 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Block Details Page</source>
+          <target>Blocca pagina dettagli</target>
+        </trans-unit>
+        <trans-unit id="Page 2535728483 - Control 3902036452 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, the details page will be blocked for the activity and will be open source scan list</source>
+          <target>Se attivo, la pagina dettagli verrà bloccata e al suo posto verranno mostrate le scansioni origine</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3076944194 - NamedType 171272735" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Procedure not allowed</source>
+          <target>Procedura non consentita.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3076944194 - Method 2401455230 - NamedType 1572346900" translate="yes" size-unit="char" xml:space="preserve">
+          <source> Variant Code %1</source>
+          <target> cod. variante %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3076944194 - Method 2401455230 - NamedType 3280915453" translate="yes" size-unit="char" xml:space="preserve">
+          <source> Serial No. %1</source>
+          <target> nr. seriale %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3076944194 - Method 2401455230 - NamedType 952773960" translate="yes" size-unit="char" xml:space="preserve">
+          <source> Lot No. %1</source>
+          <target> nr. lotto %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3076944194 - Method 2401455230 - NamedType 2411428814" translate="yes" size-unit="char" xml:space="preserve">
+          <source> Bin %1</source>
+          <target> collocazione %1</target>
+        </trans-unit>
+        <trans-unit id="Table 517974087 - Field 3684914430 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Skip Item Check</source>
+          <target>Salta controllo articolo</target>
+        </trans-unit>
+        <trans-unit id="Page 2535728483 - Control 3684914430 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow skipping item check in PowerWMS</source>
+          <target>Consente di saltare il controllo di coerenza dell'articolo scansionato nel PowerWMS</target>
+        </trans-unit>
+        <trans-unit id="Enum 2748641148 - EnumValue 2248886284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error</source>
+          <target>Errore</target>
+        </trans-unit>
+        <trans-unit id="Enum 2748641148 - EnumValue 3371220206 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>None</source>
+          <target>Nessuno</target>
+        </trans-unit>
+        <trans-unit id="Enum 2748641148 - EnumValue 3865570867 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Save</source>
+          <target>Salva</target>
+        </trans-unit>
+        <trans-unit id="Page 1743488459 - Control 214631595 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Scan Check" field</source>
+          <target>Indica il valore del campo "Controllo scansioni"</target>
+        </trans-unit>
+        <trans-unit id="Page 3114277007 - Control 214631595 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Scan Check" field</source>
+          <target>Indica il valore del campo "Controllo scansioni"</target>
+        </trans-unit>
+        <trans-unit id="Table 1698014622 - Field 214631595 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scan Check</source>
+          <target>Controllo scansioni</target>
+        </trans-unit>
+        <trans-unit id="Table 4088570466 - Field 214631595 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scan Check</source>
+          <target>Controllo scansioni</target>
+        </trans-unit>
+        <trans-unit id="Table 517974087 - Field 944557349 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Activity List</source>
+          <target>Disattiva lista attività</target>
+        </trans-unit>
+        <trans-unit id="Page 2535728483 - Control 944557349 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, list is not used and users must scan a code to search source entities</source>
+          <target>Se attivo, non verrà utilizzata la lista attività e gli utenti dovranno scansionare un barcode per cercare le entità di origine</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 594216281 - NamedType 171272735" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Procedure not allowed</source>
+          <target>Procedura non consentita.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 594216281 - Method 3514624047 - NamedType 1742701991" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity %1 not allowed for Source %2</source>
+          <target>Attività %1 non consentita per origine %2</target>
+        </trans-unit>
+        <trans-unit id="Enum 4244104744 - EnumValue 4168864430 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Advanced Bin Content</source>
+          <target>Cont. collocazione avanzato</target>
+        </trans-unit>
+        <trans-unit id="Enum 574059318 - EnumValue 1020675092 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bin Code</source>
+          <target>Cod. collocazione</target>
+        </trans-unit>
+        <trans-unit id="Enum 574059318 - EnumValue 39415292 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Cod. ubicazione</target>
         </trans-unit>
       </group>
     </body>
