@@ -315,10 +315,6 @@
           <source>Cannot edit questionnaire as it is already closed.</source>
           <target>Impossibile modificare un questionario non in stato Aperto.</target>
         </trans-unit>
-        <trans-unit id="Page 2199387476 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source> </source>
-          <target> </target>
-        </trans-unit>
         <trans-unit id="Page 2230297120 - Control 106776315 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Version Revision field.</source>
           <target>Specifica il valore del campo.</target>
@@ -784,7 +780,7 @@
           <target>ID Questionario</target>
         </trans-unit>
         <trans-unit id="Table 1254181967 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Status</source>
+          <source>Questionnaire Status</source>
           <target>Stato</target>
         </trans-unit>
         <trans-unit id="Table 1254181967 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -1027,10 +1023,6 @@
           <source>Package Timestamp</source>
           <target>Data/Ora Pacchetto</target>
         </trans-unit>
-        <trans-unit id="Table 2273069711 - Field 294815733 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Package Filename</source>
-          <target>Nome File</target>
-        </trans-unit>
         <trans-unit id="Table 2273069711 - Field 3829685044 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Package Language</source>
           <target>Lingua Pacchetto</target>
@@ -1177,7 +1169,7 @@
         </trans-unit>
         <trans-unit id="Table 1547226212 - Field 2085751930 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Comprehensive Module</source>
-          <target>Modulo Comprehensive</target>
+          <target>Modulo Completo</target>
         </trans-unit>
         <trans-unit id="Page 188041597 - Control 2085751930 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Comprehensive Module field.</source>
@@ -1186,6 +1178,362 @@
         <trans-unit id="Page 4213408327 - Control 2085751930 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Comprehensive Module field.</source>
           <target>Specifica il valore del campo "Modulo Comprehensive"</target>
+        </trans-unit>
+        <trans-unit id="Table 3287899552 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>054 Qstnr. Statistics Lines</source>
+          <target>Righe Statistiche Questionario (EED)</target>
+        </trans-unit>
+        <trans-unit id="Table 3287899552 - Field 2907122685 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Consolidated</source>
+          <target>Consolidato</target>
+        </trans-unit>
+        <trans-unit id="Table 3287899552 - Field 1260872790 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current Value</source>
+          <target>Valore da consolidare</target>
+        </trans-unit>
+        <trans-unit id="Page 2635395773 - Action 2757483517 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Statistics</source>
+          <target>Visualizza Statistiche</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Action 2757483517 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Statistics</source>
+          <target>Ottieni Statistiche</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Action 2223207931 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select All</source>
+          <target>Seleziona Tutto</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Action 2427105420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deselect All</source>
+          <target>Deseleziona Tutto</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Action 819650601 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Consolidate</source>
+          <target>Consolida</target>
+        </trans-unit>
+        <trans-unit id="Table 3287899552 - Field 46940709 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Question Code</source>
+          <target>Cod. Conto Statistico/Sostenibilità</target>
+        </trans-unit>
+        <trans-unit id="Table 3287899552 - Field 4129169862 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Questionnaire Code</source>
+          <target>Codice Questionario</target>
+        </trans-unit>
+        <trans-unit id="Table 3287899552 - Field 1838288250 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Value</source>
+          <target>Valore proposto</target>
+        </trans-unit>
+        <trans-unit id="Table 3287899552 - Field 90423963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Selected</source>
+          <target>Selezionato</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2827849911 - Method 2757483517 - NamedType 3759749194" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Statistics already exist for this questionnaire. Do you want to overwrite them?</source>
+          <target>Attenzione: Esistono già statistiche estratte per questo questionario. Si desidera sovrascriverle?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2827849911 - Method 2757483517 - NamedType 2400887104" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Procedure cancelled.</source>
+          <target>Procedura Annullata.</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>054 Qstn. Statistics</source>
+          <target>Statistiche Questionario (EED)</target>
+        </trans-unit>
+        <trans-unit id="Page 188041597 - Control 2085751930 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Comprehensive Module</source>
+          <target>Modulo Completo</target>
+        </trans-unit>
+        <trans-unit id="Page 188041597 - Control 1277137265 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Basic Module</source>
+          <target>Modulo Base</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 2589116512 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detail Text</source>
+          <target>Testo Dettaglio</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 1552557572 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detail Line No.</source>
+          <target>Nr. Riga Dettaglio</target>
+        </trans-unit>
+        <trans-unit id="Page 4213408327 - Control 2085751930 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Comprehensive Module</source>
+          <target>Modulo Completo</target>
+        </trans-unit>
+        <trans-unit id="Page 188041597 - Control 4129169862 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Codice</target>
+        </trans-unit>
+        <trans-unit id="Page 4213408327 - Control 1397857318 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Codice</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 3265197732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Clear when copy</source>
+          <target>Risposta da non copiare</target>
+        </trans-unit>
+        <trans-unit id="Page 188041597 - Control 3305261430 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Business Partner Module</source>
+          <target>Modulo Business Partner</target>
+        </trans-unit>
+        <trans-unit id="Page 4213408327 - Control 3305261430 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Business Partner Module</source>
+          <target>Modulo Business Partner</target>
+        </trans-unit>
+        <trans-unit id="Page 4213408327 - Control 1277137265 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Basic Module</source>
+          <target>Modulo Base</target>
+        </trans-unit>
+        <trans-unit id="Table 3287899552 - Field 3230779766 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Matrix Column Name</source>
+          <target>Nome Colonna Matrice</target>
+        </trans-unit>
+        <trans-unit id="Table 2273069711 - Field 1592060117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Package FileName</source>
+          <target>Nome File</target>
+        </trans-unit>
+        <trans-unit id="Table 3517172680 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrizione</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Control 4129169862 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Questionnaire Code field.</source>
+          <target>Specifica il valore del campo.</target>
+        </trans-unit>
+        <trans-unit id="Table 3287899552 - Field 1684721775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Version No.</source>
+          <target>Nr. versione</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 4128798387 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>is None Option on checkbox</source>
+          <target>Opzione "nessuna delle precedenti"</target>
+        </trans-unit>
+        <trans-unit id="Page 188041597 - Control 2273653569 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Language Code</source>
+          <target>Cod. lingua</target>
+        </trans-unit>
+        <trans-unit id="Page 188041597 - Control 1706732251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Questionnaire Number of Versions</source>
+          <target>Nr. Versioni Questionario</target>
+        </trans-unit>
+        <trans-unit id="Page 188041597 - Control 3178927048 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reference Year</source>
+          <target>Periodo Contabile di Riferimento</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 755247728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Answer Type</source>
+          <target>Tipo Risposta</target>
+        </trans-unit>
+        <trans-unit id="Page 188041597 - Control 1695523838 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Template Version</source>
+          <target>Versione Template</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Page 188041597 - Control 2121757368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Narrative - PAT Module</source>
+          <target>Modulo Narrativo - PAT</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 3230779766 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Matrix Column Name</source>
+          <target>Nome Colonna Matrice</target>
+        </trans-unit>
+        <trans-unit id="Page 4213408327 - Control 1916324798 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Narrative - PAT Module</source>
+          <target>Modulo Narrativo - PAT</target>
+        </trans-unit>
+        <trans-unit id="Page 4213408327 - Control 235024856 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Open Version</source>
+          <target>Ultima Versione Aperta</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 3557664220 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Percentage</source>
+          <target>Percentuale</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 2193313047 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Question Code (Internal)</source>
+          <target>Codice Domanda (Interno)</target>
+        </trans-unit>
+        <trans-unit id="Page 4213408327 - Control 2273653569 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Language Code</source>
+          <target>Cod. lingua</target>
+        </trans-unit>
+        <trans-unit id="Page 4213408327 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 456892027 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Question Sequence</source>
+          <target>Sequenza Domanda</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 1684721775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Version No.</source>
+          <target>Nr. versione</target>
+        </trans-unit>
+        <trans-unit id="Page 1858272335 - Control 4129169862 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Questionnaire Code</source>
+          <target>Codice Questionario</target>
+        </trans-unit>
+        <trans-unit id="Page 4213408327 - Control 3000435607 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Questionnaire Number of Versions</source>
+          <target>Nr. Versioni Questionario</target>
+        </trans-unit>
+        <trans-unit id="Page 4213408327 - Control 1695523838 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Template Version</source>
+          <target>Versione Template</target>
+        </trans-unit>
+        <trans-unit id="Page 2446780506 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Page 2446780506 - Control 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Stato</target>
+        </trans-unit>
+        <trans-unit id="Page 2446780506 - Control 4129169862 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Questionnaire ID</source>
+          <target>ID Questionario</target>
+        </trans-unit>
+        <trans-unit id="Page 2446780506 - Control 1684721775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Version No.</source>
+          <target>Nr. versione</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2827849911 - Method 4111435698 - NamedType 41875363" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Question Code %1: The value of %2 must be </source>
+          <target>Domanda %1: Il valore %2 dev'essere</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2827849911 - Method 4111435698 - NamedType 1395147261" translate="yes" size-unit="char" xml:space="preserve">
+          <source>greater than or equal to %1</source>
+          <target>maggiore o uguale a %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2827849911 - Method 4111435698 - NamedType 1088311803" translate="yes" size-unit="char" xml:space="preserve">
+          <source>less than or equal to %1</source>
+          <target>minore o uguale a %1</target>
+        </trans-unit>
+        <trans-unit id="Table 3517172680 - Field 3821907751 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Data Source Type</source>
+          <target>Tipo di origine dati</target>
+        </trans-unit>
+        <trans-unit id="Table 3517172680 - Field 1089109470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Measurement Type</source>
+          <target>Tipo di misurazione</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Control 1260872790 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Stat. Account Code field.</source>
+          <target>Specifica il valore del campo Codice conto statistiche.</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Control 2865359792 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Data Read Timestamp field.</source>
+          <target>Specifica il valore del campo Timestamp lettura dati.</target>
+        </trans-unit>
+        <trans-unit id="Table 3517172680 - Field 1622979514 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Account No.</source>
+          <target>Numero di conto</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Control 2907122685 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Consolidated field.</source>
+          <target>Specifica il valore del campo Consolidato.</target>
+        </trans-unit>
+        <trans-unit id="Table 3287899552 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Linea n.</target>
+        </trans-unit>
+        <trans-unit id="Table 3517172680 - Field 3699788827 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Account Type</source>
+          <target>Tipo di conto</target>
+        </trans-unit>
+        <trans-unit id="Table 3517172680 - Field 46940709 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Question Code</source>
+          <target>Codice domanda</target>
+        </trans-unit>
+        <trans-unit id="Table 3517172680 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>054 Sustainability Account Reconciliation</source>
+          <target>Riconciliazione Conti di Sostenibilità</target>
+        </trans-unit>
+        <trans-unit id="Page 188041597 - Action 278110413 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Category_New</source>
+          <target>Nuovo</target>
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Control 1622979514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the account number. Use lookup to select from the appropriate account type.</source>
+          <target>Specifica il numero di conto. Utilizza la ricerca per selezionare il tipo di account appropriato.</target>
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Control 3699788827 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the type of account (Statistics Account or Sustainability Account).</source>
+          <target>Specifica il tipo di conto (Conto Statistica o Conto Sostenibilità).</target>
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sustainability Account Reconciliation Setup (EED)</source>
+          <target>Setup Riconciliazione dei Conti di Sostenibilità/Statistici (EED)</target>
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the description of the account.</source>
+          <target>Specifica la descrizione dell'account.</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Control 1838288250 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Value field.</source>
+          <target>Specifica il valore del campo Valore.</target>
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Control 1089109470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the measurement type (Amount, CO2e, or Water Consumption).</source>
+          <target>Specifica il tipo di misurazione (Quantità, CO2e o Consumo di acqua).</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Control 90423963 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Selected field.</source>
+          <target>Specifica il valore del campo Selezionato.</target>
+        </trans-unit>
+        <trans-unit id="Enum 2855376131 - EnumValue 1161611024 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Statistics Account</source>
+          <target>Conto Statistico</target>
+        </trans-unit>
+        <trans-unit id="Enum 2855376131 - EnumValue 70217016 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sustainability Account</source>
+          <target>Conto di Sostenibilità</target>
+        </trans-unit>
+        <trans-unit id="Enum 867895263 - EnumValue 2941136431 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>System Data</source>
+          <target>Dati Predefiniti</target>
+        </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 1358484893 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CO2e Emissions</source>
+          <target>Emissioni CO2e</target>
+        </trans-unit>
+        <trans-unit id="Enum 867895263 - EnumValue 50196027 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>User Data</source>
+          <target>Dati Utente</target>
+        </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 1133388601 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Custom Amount</source>
+          <target>Importo </target>
+        </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 2723638070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fuel/Electricity</source>
+          <target>Elettricità/Combustibile</target>
+        </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 3955038361 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Statistical Amount</source>
+          <target>Importo Statistico</target>
+        </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 295241253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Waste Intensity</source>
+          <target>Intensità Rifiuti</target>
+        </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 1611086310 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Water Intensity</source>
+          <target>Intensità Acqua</target>
+        </trans-unit>
+        <trans-unit id="Page 1029598093 - Control 2865359792 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Statistics Read Timestamp</source>
+          <target>Data/Ora lettura statistiche</target>
+        </trans-unit>
+        <trans-unit id="Table 3287899552 - Field 3650109778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Question Sequence No.</source>
+          <target>Sequenza Domanda</target>
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Action 949663519 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New User Data Entry</source>
+          <target>Nuovo dato (utente)</target>
         </trans-unit>
       </group>
     </body>
