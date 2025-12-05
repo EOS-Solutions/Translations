@@ -3,18 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="it-CH" original="">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 24566561 - NamedType 3466325478" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Free Version</source>
-          <target>Versione free</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 24566561 - NamedType 3560163384" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Set up a Subscription</source>
-          <target>Richiesta abbonamento</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 24566561 - NamedType 682847406" translate="yes" size-unit="char" xml:space="preserve">
-          <source>In Free Version max. %1 items can be processed!</source>
-          <target>Nella Versione Free possono essere elaborati al massimo %1 items.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3417926313 - NamedType 1785045210" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot use a %1 which contains the following characters: %2</source>
           <target>Non è possibile usare un %1 che contiene i seguenti caratteri: %2</target>
@@ -516,8 +504,8 @@
           <target>Specifica il movimento a cui verrà applicato il documento o la riga di registrazione durante la registrazione, ad esempio per registrare il pagamento.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 636392376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Specifica l'importo della voce.</target>
+          <source>Specifies the total amount of the applied entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
+          <target>Specifica l'importo totale della voce applicata in valuta locale. Gli importi positivi rappresentano addebiti, quelli negativi accrediti.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2556136339 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the total of the ledger entries that represent credits.</source>
@@ -528,16 +516,16 @@
           <target>Specifica il totale dei movimenti contabili che rappresentano gli addebiti.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 131674586 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specifica il valore del campo "ID voce applicazione C/G".</target>
+          <source>Specifies the unique identifier of the G/L application entry that links these ledger entries together. Use this field to filter and view entries related to a specific application.</source>
+          <target>Specifica l'identificatore univoco della voce di applicazione COGE che collega queste registrazioni contabili. Utilizza questo campo per filtrare e visualizzare le registrazioni relative a una specifica applicazione.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Specifica il numero di documento della voce.</target>
+          <source>Specifies the document number of the applied entry. This is the reference number from the original transaction that created this ledger entry.</source>
+          <target>Specifica il numero documento della voce applicata. Questo è il riferimento della transazione originale che ha generato questa registrazione contabile.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Specifica una descrizione della voce.</target>
+          <source>Specifies a description of the applied ledger entry, providing details about the nature of the transaction.</source>
+          <target>Specifica una descrizione della voce contabile applicata, fornendo dettagli sulla natura della transazione.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2009139649 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the general ledger entry that is posted if you post in an additional reporting currency.</source>
@@ -568,8 +556,8 @@
           <target>Specifica il numero del movimento cespite.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3817680473 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specifica il valore del campo "ID voce applicazione C/G".</target>
+          <source>Specifies the unique identifier that links this entry to the corresponding G/L application. This ID is used to track and manage the application relationship between entries.</source>
+          <target>Specifica l'identificatore univoco che collega questa voce all'applicazione COGE corrispondente. Questo ID viene utilizzato per tracciare e gestire la relazione di applicazione tra le voci.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 63418190 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the name of the account that the entry has been posted to.</source>
@@ -604,8 +592,8 @@
           <target>Specifica la quantità registrata nel movimento.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 4259830144 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
-          <target>Specifica il valore del campo "Stato immissione".</target>
+          <source>Specifies the status of the entry: Open if it can still be applied or partially applied, Closed if it has been fully applied.</source>
+          <target>Specifica lo stato della voce: Aperta se può ancora essere applicata o è parzialmente applicata, Chiusa se è stata applicata completamente.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 1908046867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
@@ -616,8 +604,8 @@
           <target>Specifica il codice del partner interaziendale a cui è correlata la transazione se la voce è stata creata da una transazione interaziendale.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Specifica la data di registrazione del movimento.</target>
+          <source>Specifies the posting date of the applied ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
+          <target>Specifica la data di registrazione della voce contabile applicata. Questa è la data in cui la voce è stata originariamente registrata in contabilità generale.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 1337243520 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists.</source>
@@ -628,16 +616,16 @@
           <target>Specifica se la voce ha fatto parte di una transazione di storno (correzione) effettuata dalla funzione Reverse.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2975378708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Specifica il valore del campo "Importo residuo".</target>
+          <source>Specifies the remaining amount of the entry that has not yet been applied. When the entry is fully applied, this value becomes zero.</source>
+          <target>Specifica l'importo residuo della voce che non è ancora stato applicato. Quando la voce è completamente applicata, questo valore diventa zero.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 1027046424 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the correcting entry. If the field Specifies a number, the entry cannot be reversed again.</source>
           <target>Specifica il numero della voce di correzione. Se il campo Specifica un numero, l'immissione non può essere nuovamente annullata.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 34717358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Source Name" field.</source>
-          <target>Specifica il valore del campo "Nome origine".</target>
+          <source>Specifies the name of the customer, vendor, bank account, or employee associated with the source of this entry, based on the Source Type and Source No.</source>
+          <target>Specifica il nome del cliente, fornitore, conto bancario o dipendente associato alla fonte di questa voce, in base al tipo e al numero di origine.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 1882905478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the source document that the entry originates from.</source>
@@ -684,80 +672,80 @@
           <target>Esegue l'azione "Annulla iscrizione"</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2086691987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Specifica l'importo della voce.</target>
+          <source>Specifies the original total amount of the entry to apply in local currency. This is the initial amount before any applications.</source>
+          <target>Specifica l'importo totale originale della voce da applicare in valuta locale. Questo è l'importo iniziale prima di qualsiasi applicazione.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2891963741 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Specifica una descrizione della voce.</target>
+          <source>Specifies a description of the entry to apply, providing details about the nature of the transaction.</source>
+          <target>Specifica una descrizione della voce da applicare, fornendo dettagli sulla natura della transazione.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3037438984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Specifica il valore del campo "Data di registrazione".</target>
+          <source>Specifies the posting date for the application entry. This is the date when the application between entries will be recorded in the system.</source>
+          <target>Specifica la data di registrazione per la voce di applicazione. Questa è la data in cui l'applicazione tra le voci verrà registrata nel sistema.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2150952987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Specifica la data di registrazione del movimento.</target>
+          <source>Specifies the posting date of the entry to apply. This is the date when the source entry was originally recorded in the general ledger.</source>
+          <target>Specifica la data di registrazione della voce da applicare. Questa è la data in cui la voce di origine è stata registrata in contabilità generale.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 1207969031 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Specifica il valore del campo "Importo residuo".</target>
+          <source>Specifies the remaining amount of the entry that has not yet been applied to other entries. This represents the balance still available for application.</source>
+          <target>Specifica l'importo residuo della voce che non è ancora stato applicato ad altre voci. Questo rappresenta il saldo ancora disponibile per l'applicazione.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 951228777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Account No." field.</source>
-          <target>Specifica il valore del campo "Nr. conto C/G.".</target>
+          <source>Specifies the general ledger account number of the entry that you want to apply to other entries. This is the source entry for the application process.</source>
+          <target>Specifica il numero di conto contabile della voce che si desidera applicare ad altre voci. Questa è la voce di origine per il processo di applicazione.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 4076189653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Specifica il numero di documento della voce.</target>
+          <source>Specifies the document number of the entry to apply. This is the reference number from the original transaction.</source>
+          <target>Specifica il numero documento della voce da applicare. Questo è il riferimento della transazione originale.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3329140042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount to Apply" field.</source>
-          <target>Specifica il valore del campo "Importo rimanente da applicare".</target>
+          <source>Specifies the remaining amount still to be applied after considering the amounts already selected in the lines below. When this value reaches zero, the application is balanced.</source>
+          <target>Specifica l'importo residuo che deve ancora essere applicato dopo aver considerato gli importi già selezionati nelle righe sottostanti. Quando questo valore raggiunge zero, l'applicazione è bilanciata.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Specifica una descrizione della voce.</target>
+          <source>Specifies a description of the ledger entry, providing details about the nature of the transaction that can be applied.</source>
+          <target>Specifica una descrizione della voce contabile, fornendo dettagli sulla natura della transazione che può essere applicata.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 4259830144 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
-          <target>Specifica il valore del campo "Stato immissione".</target>
+          <source>Specifies the status of the entry: Open if it can still be applied or has a remaining balance, Closed if it has been fully applied and cannot be used for further applications.</source>
+          <target>Specifica lo stato della voce: Aperta se può ancora essere applicata o ha un saldo residuo, Chiusa se è stata applicata completamente e non può essere utilizzata per ulteriori applicazioni.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2809933884 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specifica il valore del campo "ID voce applicazione C/G".</target>
+          <source>Specifies the unique identifier for this application. You can enter a specific ID to link this application with others, or leave it blank to have the system assign one automatically.</source>
+          <target>Specifica l'identificatore univoco per questa applicazione. Puoi inserire un ID specifico per collegare questa applicazione ad altre, oppure lasciarlo vuoto per far assegnare automaticamente un ID dal sistema.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3093642907 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Applies-to ID" field.</source>
-          <target>Specifica il valore del campo "Si applica all'ID".</target>
+          <source>Specifies the ID used to group entries that will be applied together. This field is populated automatically when you select entries for application.</source>
+          <target>Specifica l'ID utilizzato per raggruppare le voci che verranno applicate insieme. Questo campo viene compilato automaticamente quando si selezionano le voci da applicare.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3852983238 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the account that the entry has been posted to.</source>
           <target>Specifica il numero del conto in cui è stato registrato il movimento.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2274061437 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
-          <target>Specifica il valore del campo "Importo da applicare".</target>
+          <source>Specifies the amount from this entry that you want to apply to the entry above. Enter a positive or negative value to indicate the amount you want to apply.</source>
+          <target>Specifica l'importo di questa voce che si desidera applicare alla voce sopra. Inserisci un valore positivo o negativo per indicare l'importo da applicare.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 636392376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Specifica l'importo della voce.</target>
+          <source>Specifies the original total amount of the entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
+          <target>Specifica l'importo totale originale della voce in valuta locale. Gli importi positivi rappresentano addebiti, quelli negativi accrediti.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3817680473 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specifica il valore del campo "ID voce applicazione C/G".</target>
+          <source>Specifies the unique identifier that links this entry to an existing G/L application. If blank, the entry has not been applied yet.</source>
+          <target>Specifica l'identificatore univoco che collega questa voce a un'applicazione COGE esistente. Se vuoto, la voce non è ancora stata applicata.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Specifica il numero di documento della voce.</target>
+          <source>Specifies the document number of the ledger entry that can be applied. This is the reference number from the original transaction.</source>
+          <target>Specifica il numero documento della voce contabile che può essere applicata. Questo è il riferimento della transazione originale.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the entry, as assigned from the specified number series when the entry was created.</source>
           <target>Specifica il numero della voce, assegnato dalla serie di numeri specificata al momento della creazione della voce.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Specifica la data di registrazione del movimento.</target>
+          <source>Specifies the posting date of the ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
+          <target>Specifica la data di registrazione della voce contabile. Questa è la data in cui la voce è stata originariamente registrata in contabilità generale.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 3673560479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Apply Selected" action</source>
@@ -768,92 +756,92 @@
           <target>Esegue l'azione "Rimuovi voce da applicare"</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2975378708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Specifica il valore del campo "Importo residuo".</target>
+          <source>Specifies the remaining amount of the entry that is still available for application. This is the balance that has not yet been applied to other entries.</source>
+          <target>Specifica l'importo residuo della voce che è ancora disponibile per l'applicazione. Questo è il saldo che non è ancora stato applicato ad altre voci.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 1068937304 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Post Application" action</source>
-          <target>Esegue l'azione "Pubblica domanda"</target>
+          <source>Posts the application of the selected entries. The entries will be linked together and their remaining amounts will be updated accordingly. The remaining amount to apply should be zero or balanced before posting.</source>
+          <target>Registra l'applicazione delle voci selezionate. Le voci verranno collegate tra loro e i loro importi residui saranno aggiornati di conseguenza. L'importo residuo da applicare deve essere zero o bilanciato prima della registrazione.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2613693211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Set Entry to Apply" action</source>
           <target>Esegue l'azione "Imposta voce su Applica"</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2605389538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Reset amount to apply" action</source>
-          <target>Esegue l'azione "Reimposta importo da applicare"</target>
+          <source>Clears the amount to apply for the selected entries, resetting them to zero so you can start over with a new selection.</source>
+          <target>Azzera l'importo da applicare per le voci selezionate, reimpostandolo a zero così puoi ricominciare con una nuova selezione.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 218696843 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Set amount to apply" action</source>
-          <target>Esegue l'azione "Imposta importo da applicare"</target>
+          <source>Automatically sets the amount to apply for the selected entries, using as much of their remaining amount as possible without exceeding the remaining amount to apply.</source>
+          <target>Imposta automaticamente l'importo da applicare per le voci selezionate, utilizzando quanto più possibile dell'importo residuo senza superare l'importo residuo da applicare.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2298340146 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Suggest amount to apply" action</source>
-          <target>Esegue l'azione "Suggerisci importo da applicare"</target>
+          <source>Automatically suggests entries to apply based on the remaining amount. The system will propose matching entries from the same G/L account that balance the amount to apply.</source>
+          <target>Suggerisce automaticamente le voci da applicare in base all'importo residuo. Il sistema proporrà voci corrispondenti dello stesso conto contabile che bilanciano l'importo da applicare.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 606058263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Account No." field.</source>
-          <target>Specifica il valore del campo "Nr. conto C/G.".</target>
+          <source>Specifies the general ledger account number from the journal line that you want to apply to existing entries. This is the source account for the application.</source>
+          <target>Specifica il numero di conto contabile dalla riga di registrazione che si desidera applicare alle voci esistenti. Questo è il conto di origine per l'applicazione.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2553943536 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Applied Amount" field.</source>
-          <target>Specifica il valore del campo "Importo applicato".</target>
+          <source>Specifies the total amount that has already been applied to existing entries. This is the sum of all amounts to apply selected in the lines below.</source>
+          <target>Specifica l'importo totale che è già stato applicato alle voci esistenti. Questa è la somma di tutti gli importi da applicare selezionati nelle righe sottostanti.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 636392376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Specifica l'importo della voce.</target>
+          <source>Specifies the original total amount of the entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
+          <target>Specifica l'importo totale originale della voce in valuta locale. Gli importi positivi rappresentano addebiti, quelli negativi accrediti.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2086691987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount" field.</source>
-          <target>Specifica il valore del campo "Importo".</target>
+          <source>Specifies the total amount from the journal line in local currency. This is the amount that needs to be applied to existing entries.</source>
+          <target>Specifica l'importo totale dalla riga di registrazione in valuta locale. Questo è l'importo che deve essere applicato alle voci esistenti.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 1277581322 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
-          <target>Specifica il valore del campo "Importo da applicare".</target>
+          <source>Specifies the remaining amount that still needs to be applied. This is calculated as the journal line amount minus the applied amount. This value should be zero before posting.</source>
+          <target>Specifica l'importo residuo che deve ancora essere applicato. Viene calcolato come importo della riga di registrazione meno l'importo applicato. Questo valore deve essere zero prima della registrazione.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 184448389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
-          <target>Specifica il valore del campo "Importo da applicare".</target>
+          <source>Specifies the amount from this entry that you want to apply to the journal line. Enter a positive or negative value, or use the Set Applies-to ID action to apply the full remaining amount.</source>
+          <target>Specifica l'importo di questa voce che si desidera applicare alla riga di registrazione. Inserisci un valore positivo o negativo, oppure usa l'azione “Imposta ID di applicazione” per applicare l'intero importo residuo.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2891963741 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Description" field.</source>
-          <target>Specifica il valore del campo "Descrizione".</target>
+          <source>Specifies the description from the journal line, providing details about the transaction that will be applied.</source>
+          <target>Specifica la descrizione dalla riga di registrazione, fornendo dettagli sulla transazione che verrà applicata.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3093642907 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Applies-to ID" field.</source>
-          <target>Specifica il valore del campo "Si applica all'ID".</target>
+          <source>Specifies the ID that marks this entry for application. This field is populated automatically when you select entries using the Set Applies-to ID action.</source>
+          <target>Specifica l'ID che contrassegna questa voce per l'applicazione. Questo campo viene compilato automaticamente quando si selezionano le voci utilizzando l'azione “Imposta ID di applicazione”.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2809933884 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specifica il valore del campo "ID voce applicazione C/G".</target>
+          <source>Specifies the unique identifier for this application. You can enter a specific ID to link this application with others, or leave it blank to have the system assign one automatically when you post the journal.</source>
+          <target>Specifica l'identificatore univoco per questa applicazione. Puoi inserire un ID specifico per collegare questa applicazione ad altre, oppure lasciarlo vuoto per far assegnare automaticamente un ID dal sistema quando si registra il giornale.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 4076189653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
-          <target>Specifica il valore del campo "Nr. documento".</target>
+          <source>Specifies the document number from the journal line. This will be the reference number for the application transaction.</source>
+          <target>Specifica il numero documento dalla riga di registrazione. Questo sarà il riferimento per la transazione di applicazione.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2150952987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Specifica il valore del campo "Data di registrazione".</target>
+          <source>Specifies the posting date of the journal line that will be applied. This is the date when the application will be recorded when you post the journal.</source>
+          <target>Specifica la data di registrazione della riga di registrazione che verrà applicata. Questa è la data in cui l'applicazione verrà registrata quando si registra il giornale.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2363328873 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the document type that the entry belongs to.</source>
           <target>Specifica il tipo di documento a cui appartiene la voce.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Specifica una descrizione della voce.</target>
+          <source>Specifies a description of the existing ledger entry, providing details about the nature of the transaction that can be applied.</source>
+          <target>Specifica una descrizione della voce contabile esistente, fornendo dettagli sulla natura della transazione che può essere applicata.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Specifica il numero di documento della voce.</target>
+          <source>Specifies the document number of the ledger entry that can be applied. This is the reference number from the original posted transaction.</source>
+          <target>Specifica il numero documento della voce contabile che può essere applicata. Questo è il riferimento della transazione originariamente registrata.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2796346326 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the total of the ledger entries that represent debits.</source>
           <target>Specifica il totale dei movimenti contabili che rappresentano gli addebiti.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 4259830144 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
-          <target>Specifica il valore del campo "Stato immissione".</target>
+          <source>Specifies the status of the entry: Open if it can still be applied or has a remaining balance, Closed if it has been fully applied and cannot be used for further applications.</source>
+          <target>Specifica lo stato della voce: Aperta se può ancora essere applicata o ha un saldo residuo, Chiusa se è stata applicata completamente e non può essere utilizzata per ulteriori applicazioni.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2556136339 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the total of the ledger entries that represent credits.</source>
@@ -872,16 +860,16 @@
           <target>Specifica il numero della voce, assegnato dalla serie di numeri specificata al momento della creazione della voce.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3817680473 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specifica il valore del campo "ID voce applicazione C/G".</target>
+          <source>Specifies the unique identifier of any existing application for this entry. If blank, the entry has not been applied yet and is available for application.</source>
+          <target>Specifica l'identificatore univoco di qualsiasi applicazione esistente per questa voce. Se vuoto, la voce non è ancora stata applicata ed è disponibile per l'applicazione.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 2173385693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Dimensions" action</source>
-          <target>Esegue l'azione "Dimensioni"</target>
+          <source>Opens the dimension setup for the selected ledger entry. You can view or analyze the dimension values assigned to this entry.</source>
+          <target>Apre la configurazione delle dimensioni per la voce contabile selezionata. Puoi visualizzare o analizzare i valori di dimensione assegnati a questa voce.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Specifica la data di registrazione del movimento.</target>
+          <source>Specifies the posting date of the existing ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
+          <target>Specifica la data di registrazione della voce contabile esistente. Questa è la data in cui la voce è stata originariamente registrata in contabilità generale.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 1908046867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
@@ -892,20 +880,20 @@
           <target>Specifica il numero del documento di origine da cui proviene la voce.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2975378708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Specifica il valore del campo "Importo residuo".</target>
+          <source>Specifies the remaining amount of the entry that is still available for application. This is the balance that has not yet been applied to other entries.</source>
+          <target>Specifica l'importo residuo della voce che è ancora disponibile per l'applicazione. Questo è il saldo che non è ancora stato applicato ad altre voci.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 3538210097 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Navigate" action</source>
-          <target>Esegue l'azione "Naviga"</target>
+          <source>Opens the Navigate window to find all entries and documents related to the selected ledger entry by its posting date and document number.</source>
+          <target>Apre la finestra di navigazione per trovare tutte le voci e i documenti correlati alla voce contabile selezionata in base alla data di registrazione e al numero documento.</target>
         </trans-unit>
         <trans-unit id="Page 1418530140 - Action 2569134226 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Import Data" action</source>
           <target>Esegue l'azione "Importa dati"</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 1420004405 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Set Applies-to ID" action</source>
-          <target>Esegue l'azione "Imposta ID applicazioni"</target>
+          <source>Marks the selected entries for application to the journal line. Use this action to select which existing ledger entries you want to apply to the new journal line.</source>
+          <target>Contrassegna le voci selezionate per l'applicazione alla riga di registrazione. Usa questa azione per selezionare quali voci contabili esistenti desideri applicare alla nuova riga di registrazione.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 1753214751 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the source type that applies to the source number that is shown in the Source No. field.</source>

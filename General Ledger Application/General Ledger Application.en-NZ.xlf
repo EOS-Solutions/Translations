@@ -133,21 +133,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS G/L Application Setup - Field EOS Primary Key - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 24566561 - NamedType 3560163384" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Set up a Subscription</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX022 Subscription - NamedType SetUpSubscriptionTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 24566561 - NamedType 3466325478" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Free Version</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX022 Subscription - NamedType TextFreeVerLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 24566561 - NamedType 682847406" size-unit="char" translate="yes" xml:space="preserve">
-          <source>In Free Version max. %1 items can be processed!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX022 Subscription - NamedType TextMaxRowsLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3417926313 - NamedType 42601504" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 %2 is already present.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -219,7 +204,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - NamedType ApplicationIDRenameQst</note>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 131674586 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
+          <source>Specifies the unique identifier of the G/L application entry that links these ledger entries together. Use this field to filter and view entries related to a specific application.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control EOS G/L Application Entry ID - Property ToolTip</note>
         </trans-unit>
@@ -234,7 +219,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control Additional-Currency Amount - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
+          <source>Specifies the total amount of the applied entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control Amount - Property ToolTip</note>
         </trans-unit>
@@ -259,12 +244,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control Debit Amount - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
+          <source>Specifies a description of the applied ledger entry, providing details about the nature of the transaction.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control Description - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
+          <source>Specifies the document number of the applied entry. This is the reference number from the original transaction that created this ledger entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control Document No. - Property ToolTip</note>
         </trans-unit>
@@ -299,7 +284,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control G/L Account No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3817680473 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
+          <source>Specifies the unique identifier that links this entry to the corresponding G/L application. This ID is used to track and manage the application relationship between entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control G/L Application Entry ID - Property ToolTip</note>
         </trans-unit>
@@ -339,12 +324,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control Job No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 4259830144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
+          <source>Specifies the status of the entry: Open if it can still be applied or partially applied, Closed if it has been fully applied.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control Open - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
+          <source>Specifies the posting date of the applied ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control Posting Date - Property ToolTip</note>
         </trans-unit>
@@ -359,7 +344,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control Reason Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2975378708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
+          <source>Specifies the remaining amount of the entry that has not yet been applied. When the entry is fully applied, this value becomes zero.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control Remaining Amount - Property ToolTip</note>
         </trans-unit>
@@ -394,7 +379,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control Source Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 34717358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Source Name" field.</source>
+          <source>Specifies the name of the customer, vendor, bank account, or employee associated with the source of this entry, based on the Source Type and Source No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Applied G/L Entries - Control SourceName - Property ToolTip</note>
         </trans-unit>
@@ -509,7 +494,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control Ausgleich - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3037438984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
+          <source>Specifies the posting date for the application entry. This is the date when the application between entries will be recorded in the system.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control PostingDate - Property ToolTip</note>
         </trans-unit>
@@ -524,7 +509,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control Auszugleichender Posten - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2086691987 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
+          <source>Specifies the original total amount of the entry to apply in local currency. This is the initial amount before any applications.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplAmount - Property ToolTip</note>
         </trans-unit>
@@ -534,7 +519,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplAmount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2891963741 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
+          <source>Specifies a description of the entry to apply, providing details about the nature of the transaction.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplDescription - Property ToolTip</note>
         </trans-unit>
@@ -544,7 +529,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplDescription - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 4076189653 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
+          <source>Specifies the document number of the entry to apply. This is the reference number from the original transaction.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplDocumentNo - Property ToolTip</note>
         </trans-unit>
@@ -554,7 +539,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplDocumentNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 951228777 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "G/L Account No." field.</source>
+          <source>Specifies the general ledger account number of the entry that you want to apply to other entries. This is the source entry for the application process.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplGLAcc - Property ToolTip</note>
         </trans-unit>
@@ -564,7 +549,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplGLAcc - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2150952987 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
+          <source>Specifies the posting date of the entry to apply. This is the date when the source entry was originally recorded in the general ledger.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplPostingDate - Property ToolTip</note>
         </trans-unit>
@@ -574,7 +559,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplPostingDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 1207969031 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
+          <source>Specifies the remaining amount of the entry that has not yet been applied to other entries. This represents the balance still available for application.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplRemainingAmount - Property ToolTip</note>
         </trans-unit>
@@ -584,7 +569,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplRemainingAmount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3329140042 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount to Apply" field.</source>
+          <source>Specifies the remaining amount still to be applied after considering the amounts already selected in the lines below. When this value reaches zero, the application is balanced.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplRemAmntToApply - Property ToolTip</note>
         </trans-unit>
@@ -594,7 +579,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control ApplRemAmntToApply - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2809933884 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
+          <source>Specifies the unique identifier for this application. You can enter a specific ID to link this application with others, or leave it blank to have the system assign one automatically.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control GLApplicationEntryID - Property ToolTip</note>
         </trans-unit>
@@ -604,12 +589,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control GLApplicationEntryID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
+          <source>Specifies the original total amount of the entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control Amount - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2274061437 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
+          <source>Specifies the amount from this entry that you want to apply to the entry above. Enter a positive or negative value to indicate the amount you want to apply.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control AmountToApply - Property ToolTip</note>
         </trans-unit>
@@ -619,17 +604,17 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control AmountToApply - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3093642907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Applies-to ID" field.</source>
+          <source>Specifies the ID used to group entries that will be applied together. This field is populated automatically when you select entries for application.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control Applies-to ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
+          <source>Specifies a description of the ledger entry, providing details about the nature of the transaction that can be applied.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control Description - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
+          <source>Specifies the document number of the ledger entry that can be applied. This is the reference number from the original transaction.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control Document No. - Property ToolTip</note>
         </trans-unit>
@@ -644,27 +629,27 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control G/L Account No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3817680473 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
+          <source>Specifies the unique identifier that links this entry to an existing G/L application. If blank, the entry has not been applied yet.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control G/L Application Entry ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 4259830144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
+          <source>Specifies the status of the entry: Open if it can still be applied or has a remaining balance, Closed if it has been fully applied and cannot be used for further applications.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control Open - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
+          <source>Specifies the posting date of the ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control Posting Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2975378708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
+          <source>Specifies the remaining amount of the entry that is still available for application. This is the balance that has not yet been applied to other entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Control Remaining Amount - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 1068937304 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Post Application" action</source>
+          <source>Posts the application of the selected entries. The entries will be linked together and their remaining amounts will be updated accordingly. The remaining amount to apply should be zero or balanced before posting.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Action Apply - Property ToolTip</note>
         </trans-unit>
@@ -694,7 +679,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Action RemoveEntrytoApply - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2605389538 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Reset amount to apply" action</source>
+          <source>Clears the amount to apply for the selected entries, resetting them to zero so you can start over with a new selection.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Action ResetAmounttoApply - Property ToolTip</note>
         </trans-unit>
@@ -704,7 +689,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Action ResetAmounttoApply - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 218696843 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Set amount to apply" action</source>
+          <source>Automatically sets the amount to apply for the selected entries, using as much of their remaining amount as possible without exceeding the remaining amount to apply.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Action SetAmounttoApply - Property ToolTip</note>
         </trans-unit>
@@ -724,7 +709,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Action SetEntryToApply - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2298340146 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Suggest amount to apply" action</source>
+          <source>Automatically suggests entries to apply based on the remaining amount. The system will propose matching entries from the same G/L account that balance the amount to apply.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L Entries - Action SuggestApplication - Property ToolTip</note>
         </trans-unit>
@@ -744,7 +729,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Auszugleichender Posten - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 606058263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "G/L Account No." field.</source>
+          <source>Specifies the general ledger account number from the journal line that you want to apply to existing entries. This is the source account for the application.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplAccountNo - Property ToolTip</note>
         </trans-unit>
@@ -754,7 +739,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplAccountNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2086691987 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Amount" field.</source>
+          <source>Specifies the total amount from the journal line in local currency. This is the amount that needs to be applied to existing entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplAmount - Property ToolTip</note>
         </trans-unit>
@@ -764,7 +749,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplAmount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 1277581322 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
+          <source>Specifies the remaining amount that still needs to be applied. This is calculated as the journal line amount minus the applied amount. This value should be zero before posting.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplAmountToApply - Property ToolTip</note>
         </trans-unit>
@@ -774,7 +759,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplAmountToApply - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2553943536 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Applied Amount" field.</source>
+          <source>Specifies the total amount that has already been applied to existing entries. This is the sum of all amounts to apply selected in the lines below.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplAppliedAmount - Property ToolTip</note>
         </trans-unit>
@@ -784,7 +769,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplAppliedAmount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2891963741 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Description" field.</source>
+          <source>Specifies the description from the journal line, providing details about the transaction that will be applied.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplDescription - Property ToolTip</note>
         </trans-unit>
@@ -794,7 +779,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplDescription - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 4076189653 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
+          <source>Specifies the document number from the journal line. This will be the reference number for the application transaction.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplDocumentNo - Property ToolTip</note>
         </trans-unit>
@@ -804,7 +789,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplDocumentNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2150952987 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
+          <source>Specifies the posting date of the journal line that will be applied. This is the date when the application will be recorded when you post the journal.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplPostingDate - Property ToolTip</note>
         </trans-unit>
@@ -814,7 +799,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control ApplPostingDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2809933884 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
+          <source>Specifies the unique identifier for this application. You can enter a specific ID to link this application with others, or leave it blank to have the system assign one automatically when you post the journal.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control GLApplicationEntryID - Property ToolTip</note>
         </trans-unit>
@@ -824,17 +809,17 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control GLApplicationEntryID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
+          <source>Specifies the original total amount of the entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Amount - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 184448389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
+          <source>Specifies the amount from this entry that you want to apply to the journal line. Enter a positive or negative value, or use the Set Applies-to ID action to apply the full remaining amount.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Amount to Apply - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3093642907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Applies-to ID" field.</source>
+          <source>Specifies the ID that marks this entry for application. This field is populated automatically when you select entries using the Set Applies-to ID action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Applies-to ID - Property ToolTip</note>
         </trans-unit>
@@ -849,12 +834,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Debit Amount - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
+          <source>Specifies a description of the existing ledger entry, providing details about the nature of the transaction that can be applied.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Description - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
+          <source>Specifies the document number of the ledger entry that can be applied. This is the reference number from the original posted transaction.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Document No. - Property ToolTip</note>
         </trans-unit>
@@ -879,17 +864,17 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control G/L Account No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3817680473 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
+          <source>Specifies the unique identifier of any existing application for this entry. If blank, the entry has not been applied yet and is available for application.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control G/L Application Entry ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 4259830144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
+          <source>Specifies the status of the entry: Open if it can still be applied or has a remaining balance, Closed if it has been fully applied and cannot be used for further applications.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Open - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
+          <source>Specifies the posting date of the existing ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Posting Date - Property ToolTip</note>
         </trans-unit>
@@ -899,7 +884,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Reason Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2975378708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
+          <source>Specifies the remaining amount of the entry that is still available for application. This is the balance that has not yet been applied to other entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Remaining Amount - Property ToolTip</note>
         </trans-unit>
@@ -914,7 +899,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Control Source Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 2173385693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Dimensions" action</source>
+          <source>Opens the dimension setup for the selected ledger entry. You can view or analyze the dimension values assigned to this entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Action Dimensions - Property ToolTip</note>
         </trans-unit>
@@ -924,7 +909,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Action Dimensions - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 3538210097 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Navigate" action</source>
+          <source>Opens the Navigate window to find all entries and documents related to the selected ledger entry by its posting date and document number.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Action Navigate - Property ToolTip</note>
         </trans-unit>
@@ -934,7 +919,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Action Navigate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 1420004405 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Set Applies-to ID" action</source>
+          <source>Marks the selected entries for application to the journal line. Use this action to select which existing ledger entries you want to apply to the new journal line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Apply G/L from Journal - Action Set Applies-to ID - Property ToolTip</note>
         </trans-unit>
@@ -957,11 +942,6 @@
           <source>Specifies the value of the "G/L Application Entry Nos." field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Application Setup - Control G/L Application Entry Nos. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1418530140 - Action 2569134226 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Import Data" action</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Application Setup - Action ShowImport - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1418530140 - Action 2569134226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Data</source>
