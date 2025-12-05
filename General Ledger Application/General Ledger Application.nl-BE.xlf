@@ -3,18 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="nl-BE" original="">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 24566561 - NamedType 3466325478" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Free Version</source>
-          <target>Gratis versie</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 24566561 - NamedType 3560163384" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Set up a Subscription</source>
-          <target>Het opzetten van een abonnement</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 24566561 - NamedType 682847406" translate="yes" size-unit="char" xml:space="preserve">
-          <source>In Free Version max. %1 items can be processed!</source>
-          <target>In de gratis versie max. %1 items kunnen worden verwerkt!</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3417926313 - NamedType 1785045210" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot use a %1 which contains the following characters: %2</source>
           <target>U kunt geen gebruik maken van een %1, die de volgende tekens bevat: %2</target>
@@ -508,16 +496,16 @@
           <target>Te vereffenen bedrag</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 131674586 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specificeert de waarde van het veld "Grootboektoepassingsregel-ID".</target>
+          <source>Specifies the unique identifier of the G/L application entry that links these ledger entries together. Use this field to filter and view entries related to a specific application.</source>
+          <target>Specificeert de unieke identificatie van de grootboektoepassingsregel die deze boekingen aan elkaar koppelt. Gebruik dit veld om boekingen te filteren en weer te geven die bij een specifieke toepassing horen.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2009139649 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the general ledger entry that is posted if you post in an additional reporting currency.</source>
           <target>Specificeert de grootboekregel die wordt geboekt als u boekt in een aanvullende rapportagevaluta.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 636392376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Specificeert het bedrag van de regel.</target>
+          <source>Specifies the total amount of the applied entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
+          <target>Specificeert het totale bedrag van de toegepaste regel in lokale valuta. Positieve bedragen zijn debet, negatieve bedragen zijn credit.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 1891586249 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases.</source>
@@ -536,12 +524,12 @@
           <target>Specificeert het totaal van de grootboekregels die debetbedragen vertegenwoordigen.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Specificeert een beschrijving van de regel.</target>
+          <source>Specifies a description of the applied ledger entry, providing details about the nature of the transaction.</source>
+          <target>Specificeert een beschrijving van de toegepaste boekingsregel, met details over de aard van de transactie.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Specificeert het documentnummer van de regel.</target>
+          <source>Specifies the document number of the applied entry. This is the reference number from the original transaction that created this ledger entry.</source>
+          <target>Specificeert het documentnummer van de toegepaste regel. Dit is het referentienummer van de oorspronkelijke transactie die deze boekingsregel heeft aangemaakt.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2363328873 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the document type that the entry belongs to.</source>
@@ -568,8 +556,8 @@
           <target>Specificeert het nummer van de rekening waarop de regel is geboekt.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3817680473 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specificeert de waarde van het veld "Grootboektoepassingsregel-ID".</target>
+          <source>Specifies the unique identifier that links this entry to the corresponding G/L application. This ID is used to track and manage the application relationship between entries.</source>
+          <target>Specificeert de unieke identificatie die deze regel koppelt aan de bijbehorende grootboektoepassing. Deze ID wordt gebruikt om de relatie tussen de regels te volgen en te beheren.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 633819257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate ledger account according to the general posting setup.</source>
@@ -600,12 +588,12 @@
           <target>Specificeert het nummer van het gerelateerde project.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 4259830144 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
-          <target>Specificeert de waarde van het veld "Regelstatus".</target>
+          <source>Specifies the status of the entry: Open if it can still be applied or partially applied, Closed if it has been fully applied.</source>
+          <target>Specificeert de status van de regel: Open als deze nog kan worden toegepast of gedeeltelijk is toegepast, Gesloten als deze volledig is toegepast.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Specificeert de boekingsdatum van de regel.</target>
+          <source>Specifies the posting date of the applied ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
+          <target>Specificeert de boekingsdatum van de toegepaste boekingsregel. Dit is de datum waarop de regel oorspronkelijk in het grootboek is geboekt.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2704404533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the quantity that was posted on the entry.</source>
@@ -616,8 +604,8 @@
           <target>Specificeert de redencode, een aanvullende broncode waarmee u de regel kunt traceren.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2975378708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Specificeert de waarde van het veld "Resterend bedrag".</target>
+          <source>Specifies the remaining amount of the entry that has not yet been applied. When the entry is fully applied, this value becomes zero.</source>
+          <target>Specificeert het resterende bedrag van de regel dat nog niet is toegepast. Wanneer de regel volledig is toegepast, wordt deze waarde nul.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3744289816 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the entry has been part of a reverse transaction (correction) made by the Reverse function.</source>
@@ -644,8 +632,8 @@
           <target>Specificeert het brontype dat van toepassing is op het bronnummer dat wordt weergegeven in het veld Bronnummer.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 34717358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Source Name" field.</source>
-          <target>Specificeert de waarde van het veld "Bronnaam".</target>
+          <source>Specifies the name of the customer, vendor, bank account, or employee associated with the source of this entry, based on the Source Type and Source No.</source>
+          <target>Specificeert de naam van de klant, leverancier, bankrekening of medewerker die is gekoppeld aan de bron van deze regel, op basis van het bron-type en bron-nummer.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2708250016 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the ID of the user who posted the entry, to be used, for example, in the change log.</source>
@@ -676,60 +664,60 @@
           <target>Voert de actie "Toepassing opheffen" uit</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3037438984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Specificeert de waarde van het veld "Boekingsdatum".</target>
+          <source>Specifies the posting date for the application entry. This is the date when the application between entries will be recorded in the system.</source>
+          <target>Specificeert de boekingsdatum voor de toepassingsregel. Dit is de datum waarop de toepassing tussen regels in het systeem wordt geregistreerd.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2086691987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Specificeert het bedrag van de regel.</target>
+          <source>Specifies the original total amount of the entry to apply in local currency. This is the initial amount before any applications.</source>
+          <target>Specificeert het oorspronkelijke totale bedrag van de toe te passen regel in lokale valuta. Dit is het initiële bedrag vóór enige toepassing.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2891963741 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Specificeert een beschrijving van de regel.</target>
+          <source>Specifies a description of the entry to apply, providing details about the nature of the transaction.</source>
+          <target>Specificeert een beschrijving van de toe te passen regel, met details over de aard van de transactie.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 4076189653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Specificeert het documentnummer van de regel.</target>
+          <source>Specifies the document number of the entry to apply. This is the reference number from the original transaction.</source>
+          <target>Specificeert het documentnummer van de toe te passen regel. Dit is het referentienummer van de oorspronkelijke transactie.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 951228777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Account No." field.</source>
-          <target>Specificeert de waarde van het veld "Grootboekrekeningnr.".</target>
+          <source>Specifies the general ledger account number of the entry that you want to apply to other entries. This is the source entry for the application process.</source>
+          <target>Specificeert het grootboekrekeningnummer van de regel die u wilt toepassen op andere regels. Dit is de bronregel voor het toepassingsproces.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2150952987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Specificeert de boekingsdatum van de regel.</target>
+          <source>Specifies the posting date of the entry to apply. This is the date when the source entry was originally recorded in the general ledger.</source>
+          <target>Specificeert de boekingsdatum van de toe te passen regel. Dit is de datum waarop de bronregel oorspronkelijk in het grootboek is geboekt.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 1207969031 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Specificeert de waarde van het veld "Resterend bedrag".</target>
+          <source>Specifies the remaining amount of the entry that has not yet been applied to other entries. This represents the balance still available for application.</source>
+          <target>Specificeert het resterende bedrag van de regel dat nog niet op andere regels is toegepast. Dit is het saldo dat nog beschikbaar is voor toepassing.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3329140042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount to Apply" field.</source>
-          <target>Specificeert de waarde van het veld "Resterend bedrag toe te passen".</target>
+          <source>Specifies the remaining amount still to be applied after considering the amounts already selected in the lines below. When this value reaches zero, the application is balanced.</source>
+          <target>Specificeert het resterende bedrag dat nog moet worden toegepast na de reeds geselecteerde bedragen in de onderstaande regels. Wanneer deze waarde nul is, is de toepassing in balans.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2809933884 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specificeert de waarde van het veld "Grootboektoepassingsregel-ID".</target>
+          <source>Specifies the unique identifier for this application. You can enter a specific ID to link this application with others, or leave it blank to have the system assign one automatically.</source>
+          <target>Specificeert de unieke identificatie voor deze toepassing. U kunt een specifieke ID invoeren om deze toepassing met andere te koppelen, of het veld leeg laten zodat het systeem er automatisch een toewijst.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 636392376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Specificeert het bedrag van de regel.</target>
+          <source>Specifies the original total amount of the entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
+          <target>Specificeert het oorspronkelijke totale bedrag van de regel in lokale valuta. Positieve bedragen zijn debet, negatieve bedragen zijn credit.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2274061437 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
-          <target>Specificeert de waarde van het veld "Bedrag toe te passen".</target>
+          <source>Specifies the amount from this entry that you want to apply to the entry above. Enter a positive or negative value to indicate the amount you want to apply.</source>
+          <target>Specificeert het bedrag van deze regel dat u wilt toepassen op de bovenstaande regel. Voer een positief of negatief bedrag in om het toe te passen bedrag aan te geven.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3093642907 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Applies-to ID" field.</source>
-          <target>Specificeert de waarde van het veld "Toepassen op ID".</target>
+          <source>Specifies the ID used to group entries that will be applied together. This field is populated automatically when you select entries for application.</source>
+          <target>Specificeert de ID die wordt gebruikt om regels te groeperen die samen worden toegepast. Dit veld wordt automatisch ingevuld wanneer u regels selecteert voor toepassing.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Specificeert een beschrijving van de regel.</target>
+          <source>Specifies a description of the ledger entry, providing details about the nature of the transaction that can be applied.</source>
+          <target>Specificeert een beschrijving van de boekingsregel, met details over de aard van de transactie die kan worden toegepast.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Specificeert het documentnummer van de regel.</target>
+          <source>Specifies the document number of the ledger entry that can be applied. This is the reference number from the original transaction.</source>
+          <target>Specificeert het documentnummer van de boekingsregel die kan worden toegepast. Dit is het referentienummer van de oorspronkelijke transactie.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the entry, as assigned from the specified number series when the entry was created.</source>
@@ -740,24 +728,24 @@
           <target>Specificeert het nummer van de rekening waarop de regel is geboekt.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3817680473 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specificeert de waarde van het veld "Grootboektoepassingsregel-ID".</target>
+          <source>Specifies the unique identifier that links this entry to an existing G/L application. If blank, the entry has not been applied yet.</source>
+          <target>Specificeert de unieke identificatie die deze regel koppelt aan een bestaande grootboektoepassing. Als het veld leeg is, is de regel nog niet toegepast.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 4259830144 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
-          <target>Specificeert de waarde van het veld "Regelstatus".</target>
+          <source>Specifies the status of the entry: Open if it can still be applied or has a remaining balance, Closed if it has been fully applied and cannot be used for further applications.</source>
+          <target>Specificeert de status van de regel: Open als deze nog kan worden toegepast of een resterend saldo heeft, Gesloten als deze volledig is toegepast en niet meer voor verdere toepassingen kan worden gebruikt.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Specificeert de boekingsdatum van de regel.</target>
+          <source>Specifies the posting date of the ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
+          <target>Specificeert de boekingsdatum van de boekingsregel. Dit is de datum waarop de regel oorspronkelijk in het grootboek is geboekt.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2975378708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Specificeert de waarde van het veld "Resterend bedrag".</target>
+          <source>Specifies the remaining amount of the entry that is still available for application. This is the balance that has not yet been applied to other entries.</source>
+          <target>Specificeert het resterende bedrag van de regel dat nog beschikbaar is voor toepassing. Dit is het saldo dat nog niet op andere regels is toegepast.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 1068937304 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Post Application" action</source>
-          <target>Voert de actie "Toepassing boeken" uit</target>
+          <source>Posts the application of the selected entries. The entries will be linked together and their remaining amounts will be updated accordingly. The remaining amount to apply should be zero or balanced before posting.</source>
+          <target>Boekt de toepassing van de geselecteerde regels. De regels worden aan elkaar gekoppeld en hun resterende bedragen worden dienovereenkomstig bijgewerkt. Het resterende bedrag om toe te passen moet nul of in balans zijn voordat u boekt.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 3673560479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Apply Selected" action</source>
@@ -768,64 +756,64 @@
           <target>Voert de actie "Regel om toe te passen verwijderen" uit</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2605389538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Reset amount to apply" action</source>
-          <target>Voert de actie "Bedrag om toe te passen resetten" uit</target>
+          <source>Clears the amount to apply for the selected entries, resetting them to zero so you can start over with a new selection.</source>
+          <target>Leegt het toe te passen bedrag voor de geselecteerde regels, zodat deze op nul worden gezet en u opnieuw kunt beginnen met een nieuwe selectie.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 218696843 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Set amount to apply" action</source>
-          <target>Voert de actie "Bedrag om toe te passen instellen" uit</target>
+          <source>Automatically sets the amount to apply for the selected entries, using as much of their remaining amount as possible without exceeding the remaining amount to apply.</source>
+          <target>Stelt het toe te passen bedrag voor de geselecteerde regels automatisch in, door zoveel mogelijk van het resterende bedrag te gebruiken zonder het resterende bedrag om toe te passen te overschrijden.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2613693211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Set Entry to Apply" action</source>
           <target>Voert de actie "Regel om toe te passen instellen" uit</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2298340146 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Suggest amount to apply" action</source>
-          <target>Voert de actie "Bedrag om toe te passen voorstellen" uit</target>
+          <source>Automatically suggests entries to apply based on the remaining amount. The system will propose matching entries from the same G/L account that balance the amount to apply.</source>
+          <target>Stelt automatisch regels voor om toe te passen op basis van het resterende bedrag. Het systeem stelt bijpassende regels uit dezelfde grootboekrekening voor die het toe te passen bedrag in balans brengen.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 606058263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Account No." field.</source>
-          <target>Specificeert de waarde van het veld "Grootboekrekeningnr.".</target>
+          <source>Specifies the general ledger account number from the journal line that you want to apply to existing entries. This is the source account for the application.</source>
+          <target>Specificeert het grootboekrekeningnummer uit de journaalregel die u wilt toepassen op bestaande regels. Dit is de bronrekening voor de toepassing.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2086691987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount" field.</source>
-          <target>Specificeert de waarde van het veld "Bedrag".</target>
+          <source>Specifies the total amount from the journal line in local currency. This is the amount that needs to be applied to existing entries.</source>
+          <target>Specificeert het totale bedrag uit de journaalregel in lokale valuta. Dit is het bedrag dat op bestaande regels moet worden toegepast.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 1277581322 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
-          <target>Specificeert de waarde van het veld "Bedrag toe te passen".</target>
+          <source>Specifies the remaining amount that still needs to be applied. This is calculated as the journal line amount minus the applied amount. This value should be zero before posting.</source>
+          <target>Specificeert het resterende bedrag dat nog moet worden toegepast. Dit wordt berekend als het journaalregelbedrag minus het toegepaste bedrag. Deze waarde moet nul zijn voordat u boekt.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2553943536 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Applied Amount" field.</source>
-          <target>Specificeert de waarde van het veld "Toegepast bedrag".</target>
+          <source>Specifies the total amount that has already been applied to existing entries. This is the sum of all amounts to apply selected in the lines below.</source>
+          <target>Specificeert het totale bedrag dat al op bestaande regels is toegepast. Dit is de som van alle toe te passen bedragen die in de onderstaande regels zijn geselecteerd.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2891963741 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Description" field.</source>
-          <target>Specificeert de waarde van het veld "Beschrijving".</target>
+          <source>Specifies the description from the journal line, providing details about the transaction that will be applied.</source>
+          <target>Specificeert de beschrijving uit de journaalregel, met details over de transactie die zal worden toegepast.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 4076189653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
-          <target>Specificeert de waarde van het veld "Documentnummer".</target>
+          <source>Specifies the document number from the journal line. This will be the reference number for the application transaction.</source>
+          <target>Specificeert het documentnummer uit de journaalregel. Dit wordt het referentienummer voor de toepassings-transactie.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2150952987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Specificeert de waarde van het veld "Boekingsdatum".</target>
+          <source>Specifies the posting date of the journal line that will be applied. This is the date when the application will be recorded when you post the journal.</source>
+          <target>Specificeert de boekingsdatum van de journaalregel die zal worden toegepast. Dit is de datum waarop de toepassing wordt geregistreerd wanneer u het journaal boekt.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2809933884 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specificeert de waarde van het veld "Grootboektoepassingsregel-ID".</target>
+          <source>Specifies the unique identifier for this application. You can enter a specific ID to link this application with others, or leave it blank to have the system assign one automatically when you post the journal.</source>
+          <target>Specificeert de unieke identificatie voor deze toepassing. U kunt een specifieke ID invoeren om deze toepassing met andere te koppelen, of het veld leeg laten zodat het systeem er automatisch een toewijst wanneer u het journaal boekt.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 636392376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Specificeert het bedrag van de regel.</target>
+          <source>Specifies the original total amount of the entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
+          <target>Specificeert het oorspronkelijke totale bedrag van de regel in lokale valuta. Positieve bedragen zijn debet, negatieve bedragen zijn credit.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 184448389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
-          <target>Specificeert de waarde van het veld "Bedrag toe te passen".</target>
+          <source>Specifies the amount from this entry that you want to apply to the journal line. Enter a positive or negative value, or use the Set Applies-to ID action to apply the full remaining amount.</source>
+          <target>Specificeert het bedrag van deze regel dat u wilt toepassen op de journaalregel. Voer een positief of negatief bedrag in, of gebruik de actie 'Set Applies-to ID' om het volledige resterende bedrag toe te passen.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3093642907 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Applies-to ID" field.</source>
-          <target>Specificeert de waarde van het veld "Toepassen op ID".</target>
+          <source>Specifies the ID that marks this entry for application. This field is populated automatically when you select entries using the Set Applies-to ID action.</source>
+          <target>Specificeert de ID die deze regel markeert voor toepassing. Dit veld wordt automatisch ingevuld wanneer u regels selecteert met de actie 'Set Applies-to ID'.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2556136339 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the total of the ledger entries that represent credits.</source>
@@ -836,12 +824,12 @@
           <target>Specificeert het totaal van de grootboekregels die debetbedragen vertegenwoordigen.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Specificeert een beschrijving van de regel.</target>
+          <source>Specifies a description of the existing ledger entry, providing details about the nature of the transaction that can be applied.</source>
+          <target>Specificeert een beschrijving van de bestaande boekingsregel, met details over de aard van de transactie die kan worden toegepast.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Specificeert het documentnummer van de regel.</target>
+          <source>Specifies the document number of the ledger entry that can be applied. This is the reference number from the original posted transaction.</source>
+          <target>Specificeert het documentnummer van de boekingsregel die kan worden toegepast. Dit is het referentienummer van de oorspronkelijk geboekte transactie.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2363328873 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the document type that the entry belongs to.</source>
@@ -860,24 +848,24 @@
           <target>Specificeert het nummer van de rekening waarop de regel is geboekt.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3817680473 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Specificeert de waarde van het veld "Grootboektoepassingsregel-ID".</target>
+          <source>Specifies the unique identifier of any existing application for this entry. If blank, the entry has not been applied yet and is available for application.</source>
+          <target>Specificeert de unieke identificatie van een bestaande toepassing voor deze regel. Als het veld leeg is, is de regel nog niet toegepast en beschikbaar voor toepassing.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 4259830144 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
-          <target>Specificeert de waarde van het veld "Regelstatus".</target>
+          <source>Specifies the status of the entry: Open if it can still be applied or has a remaining balance, Closed if it has been fully applied and cannot be used for further applications.</source>
+          <target>Specificeert de status van de regel: Open als deze nog kan worden toegepast of een resterend saldo heeft, Gesloten als deze volledig is toegepast en niet meer voor verdere toepassingen kan worden gebruikt.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Specificeert de boekingsdatum van de regel.</target>
+          <source>Specifies the posting date of the existing ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
+          <target>Specificeert de boekingsdatum van de bestaande boekingsregel. Dit is de datum waarop de regel oorspronkelijk in het grootboek is geboekt.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 1908046867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
           <target>Specificeert de redencode, een aanvullende broncode waarmee u de regel kunt traceren.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2975378708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Specificeert de waarde van het veld "Resterend bedrag".</target>
+          <source>Specifies the remaining amount of the entry that is still available for application. This is the balance that has not yet been applied to other entries.</source>
+          <target>Specificeert het resterende bedrag van de regel dat nog beschikbaar is voor toepassing. Dit is het saldo dat nog niet op andere regels is toegepast.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 1882905478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the source document that the entry originates from.</source>
@@ -888,16 +876,16 @@
           <target>Specificeert het brontype dat van toepassing is op het bronnummer dat wordt weergegeven in het veld Bronnummer.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 2173385693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Dimensions" action</source>
-          <target>Voert de actie "Dimensies" uit</target>
+          <source>Opens the dimension setup for the selected ledger entry. You can view or analyze the dimension values assigned to this entry.</source>
+          <target>Opent de dimensie-instellingen voor de geselecteerde boekingsregel. U kunt de toegewezen dimensiewaarden voor deze regel bekijken of analyseren.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 3538210097 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Navigate" action</source>
-          <target>Voert de actie "Navigeren" uit</target>
+          <source>Opens the Navigate window to find all entries and documents related to the selected ledger entry by its posting date and document number.</source>
+          <target>Opent het navigatievenster om alle regels en documenten te vinden die gerelateerd zijn aan de geselecteerde boekingsregel op basis van boekingsdatum en documentnummer.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 1420004405 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Set Applies-to ID" action</source>
-          <target>Voert de actie "Toepassen op ID instellen" uit</target>
+          <source>Marks the selected entries for application to the journal line. Use this action to select which existing ledger entries you want to apply to the new journal line.</source>
+          <target>Markeert de geselecteerde regels voor toepassing op de journaalregel. Gebruik deze actie om te selecteren welke bestaande boekingsregels u wilt toepassen op de nieuwe journaalregel.</target>
         </trans-unit>
         <trans-unit id="Page 1418530140 - Control 1295309970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "G/L Application Entry Nos." field.</source>
