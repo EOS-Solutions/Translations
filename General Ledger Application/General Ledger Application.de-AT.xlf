@@ -3,18 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="de-AT" original="">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 24566561 - NamedType 3466325478" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Free Version</source>
-          <target>Freie Version</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 24566561 - NamedType 3560163384" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Set up a Subscription</source>
-          <target>Abonnement beantragen</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 24566561 - NamedType 682847406" translate="yes" size-unit="char" xml:space="preserve">
-          <source>In Free Version max. %1 items can be processed!</source>
-          <target>In der Freien Version können max. %1 Einträge bearbeitet werden.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3417926313 - NamedType 1785045210" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot use a %1 which contains the following characters: %2</source>
           <target>Sie können kein %1 mit folgenden Zeichen verwenden: %2</target>
@@ -512,16 +500,16 @@
           <target>Ausgleichsbetrag</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 131674586 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Gibt den Wert des Feldes "Sachpostenanwendungs-ID" an.</target>
+          <source>Specifies the unique identifier of the G/L application entry that links these ledger entries together. Use this field to filter and view entries related to a specific application.</source>
+          <target>Gibt die eindeutige Kennung des Sachpostenanwendungs-Eintrags an, der diese Buchungen miteinander verknüpft. Verwenden Sie dieses Feld, um Buchungen zu filtern und anzuzeigen, die zu einer bestimmten Anwendung gehören.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2009139649 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the general ledger entry that is posted if you post in an additional reporting currency.</source>
           <target>Gibt die Sachpostenbuchung an, die gebucht wird, wenn Sie in einer zusätzlichen Berichtswährung buchen.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 636392376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Gibt den Betrag des Postens an.</target>
+          <source>Specifies the total amount of the applied entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
+          <target>Gibt den Gesamtbetrag des angewendeten Eintrags in Landeswährung an. Positive Beträge stellen Sollbuchungen dar, negative Beträge Habenbuchungen.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 1891586249 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases.</source>
@@ -540,12 +528,12 @@
           <target>Gibt die Summe der Sachposten an, die Belastungen darstellen.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Gibt eine Beschreibung des Postens an.</target>
+          <source>Specifies a description of the applied ledger entry, providing details about the nature of the transaction.</source>
+          <target>Gibt eine Beschreibung des angewendeten Buchungspostens an und liefert Details zur Art der Transaktion.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Gibt die Belegnummer des Postens an.</target>
+          <source>Specifies the document number of the applied entry. This is the reference number from the original transaction that created this ledger entry.</source>
+          <target>Gibt die Belegnummer des angewendeten Eintrags an. Dies ist die Referenznummer der ursprünglichen Transaktion, die diesen Buchungsposten erstellt hat.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2363328873 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the document type that the entry belongs to.</source>
@@ -572,8 +560,8 @@
           <target>Gibt die Nummer des Kontos an, auf das der Posten gebucht wurde.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3817680473 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Gibt den Wert des Feldes "Sachpostenanwendungs-ID" an.</target>
+          <source>Specifies the unique identifier that links this entry to the corresponding G/L application. This ID is used to track and manage the application relationship between entries.</source>
+          <target>Gibt die eindeutige Kennung an, die diesen Eintrag mit der entsprechenden Sachpostenanwendung verknüpft. Diese ID wird verwendet, um die Anwendungsbeziehung zwischen den Einträgen zu verfolgen und zu verwalten.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 633819257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate ledger account according to the general posting setup.</source>
@@ -604,12 +592,12 @@
           <target>Gibt die Nummer des zugehörigen Projekts an.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 4259830144 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
-          <target>Gibt den Wert des Feldes "Poststatus" an.</target>
+          <source>Specifies the status of the entry: Open if it can still be applied or partially applied, Closed if it has been fully applied.</source>
+          <target>Gibt den Status des Eintrags an: Offen, wenn er noch angewendet oder teilweise angewendet werden kann, Geschlossen, wenn er vollständig angewendet wurde.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Gibt das Buchungsdatum des Postens an.</target>
+          <source>Specifies the posting date of the applied ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
+          <target>Gibt das Buchungsdatum des angewendeten Buchungspostens an. Dies ist das Datum, an dem der Eintrag ursprünglich im Hauptbuch erfasst wurde.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2704404533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the quantity that was posted on the entry.</source>
@@ -620,8 +608,8 @@
           <target>Gibt den Grundcode an, eine ergänzende Herkunftscode, mit dem Sie den Posten nachverfolgen können.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2975378708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Gibt den Wert des Feldes "Restbetrag" an.</target>
+          <source>Specifies the remaining amount of the entry that has not yet been applied. When the entry is fully applied, this value becomes zero.</source>
+          <target>Gibt den verbleibenden Betrag des Eintrags an, der noch nicht angewendet wurde. Wenn der Eintrag vollständig angewendet ist, wird dieser Wert zu Null.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 3744289816 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the entry has been part of a reverse transaction (correction) made by the Reverse function.</source>
@@ -648,8 +636,8 @@
           <target>Gibt den Ursprungstyp an, der für die im Feld Ursprungsnr. angezeigte Ursprungsnummer gilt.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 34717358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Source Name" field.</source>
-          <target>Gibt den Wert des Feldes "Herkunftsname" an.</target>
+          <source>Specifies the name of the customer, vendor, bank account, or employee associated with the source of this entry, based on the Source Type and Source No.</source>
+          <target>Gibt den Namen des Kunden, Lieferanten, Bankkontos oder Mitarbeiters an, der mit der Quelle dieses Eintrags verbunden ist, basierend auf Quellentyp und Quellnummer.</target>
         </trans-unit>
         <trans-unit id="Page 2665504998 - Control 2708250016 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the ID of the user who posted the entry, to be used, for example, in the change log.</source>
@@ -680,60 +668,60 @@
           <target>Führt die Aktion "Anwendung aufheben" aus</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3037438984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Gibt den Wert des Feldes "Buchungsdatum" an.</target>
+          <source>Specifies the posting date for the application entry. This is the date when the application between entries will be recorded in the system.</source>
+          <target>Gibt das Buchungsdatum für den Anwendungseintrag an. Dies ist das Datum, an dem die Anwendung zwischen den Einträgen im System erfasst wird.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2086691987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Gibt den Betrag des Postens an.</target>
+          <source>Specifies the original total amount of the entry to apply in local currency. This is the initial amount before any applications.</source>
+          <target>Gibt den ursprünglichen Gesamtbetrag des anzuwendenden Eintrags in Landeswährung an. Dies ist der Anfangsbetrag vor jeglicher Anwendung.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2891963741 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Gibt eine Beschreibung des Postens an.</target>
+          <source>Specifies a description of the entry to apply, providing details about the nature of the transaction.</source>
+          <target>Gibt eine Beschreibung des anzuwendenden Eintrags an und liefert Details zur Art der Transaktion.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 4076189653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Gibt die Belegnummer des Postens an.</target>
+          <source>Specifies the document number of the entry to apply. This is the reference number from the original transaction.</source>
+          <target>Gibt die Belegnummer des anzuwendenden Eintrags an. Dies ist die Referenznummer der ursprünglichen Transaktion.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 951228777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Account No." field.</source>
-          <target>Gibt den Wert des Feldes "Sachkontonr." an.</target>
+          <source>Specifies the general ledger account number of the entry that you want to apply to other entries. This is the source entry for the application process.</source>
+          <target>Gibt die Sachkontonummer des Eintrags an, den Sie auf andere Einträge anwenden möchten. Dies ist der Quelleneintrag für den Anwendungsprozess.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2150952987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Gibt das Buchungsdatum des Postens an.</target>
+          <source>Specifies the posting date of the entry to apply. This is the date when the source entry was originally recorded in the general ledger.</source>
+          <target>Gibt das Buchungsdatum des anzuwendenden Eintrags an. Dies ist das Datum, an dem der Quelleneintrag ursprünglich im Hauptbuch erfasst wurde.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 1207969031 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Gibt den Wert des Feldes "Restbetrag" an.</target>
+          <source>Specifies the remaining amount of the entry that has not yet been applied to other entries. This represents the balance still available for application.</source>
+          <target>Gibt den verbleibenden Betrag des Eintrags an, der noch nicht auf andere Einträge angewendet wurde. Dies stellt den noch verfügbaren Saldo für die Anwendung dar.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3329140042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount to Apply" field.</source>
-          <target>Gibt den Wert des Feldes "Restbetrag zur Anwendung" an.</target>
+          <source>Specifies the remaining amount still to be applied after considering the amounts already selected in the lines below. When this value reaches zero, the application is balanced.</source>
+          <target>Gibt den verbleibenden Betrag an, der nach Berücksichtigung der bereits in den untenstehenden Zeilen ausgewählten Beträge noch angewendet werden muss. Wenn dieser Wert Null erreicht, ist die Anwendung ausgeglichen.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2809933884 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Gibt den Wert des Feldes "Sachpostenanwendungs-ID" an.</target>
+          <source>Specifies the unique identifier for this application. You can enter a specific ID to link this application with others, or leave it blank to have the system assign one automatically.</source>
+          <target>Gibt die eindeutige Kennung für diese Anwendung an. Sie können eine bestimmte ID eingeben, um diese Anwendung mit anderen zu verknüpfen, oder das Feld leer lassen, damit das System automatisch eine ID zuweist.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 636392376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Gibt den Betrag des Postens an.</target>
+          <source>Specifies the original total amount of the entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
+          <target>Gibt den ursprünglichen Gesamtbetrag des Eintrags in Landeswährung an. Positive Beträge stellen Sollbuchungen dar, negative Beträge Habenbuchungen.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2274061437 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
-          <target>Gibt den Wert des Feldes "Betrag zur Anwendung" an.</target>
+          <source>Specifies the amount from this entry that you want to apply to the entry above. Enter a positive or negative value to indicate the amount you want to apply.</source>
+          <target>Gibt den Betrag aus diesem Eintrag an, den Sie auf den oberen Eintrag anwenden möchten. Geben Sie einen positiven oder negativen Wert ein, um den anzuwendenden Betrag anzugeben.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3093642907 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Applies-to ID" field.</source>
-          <target>Gibt den Wert des Feldes "Anzuwendende-ID" an.</target>
+          <source>Specifies the ID used to group entries that will be applied together. This field is populated automatically when you select entries for application.</source>
+          <target>Gibt die ID an, die verwendet wird, um Einträge zu gruppieren, die zusammen angewendet werden sollen. Dieses Feld wird automatisch ausgefüllt, wenn Sie Einträge für die Anwendung auswählen.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Gibt eine Beschreibung des Postens an.</target>
+          <source>Specifies a description of the ledger entry, providing details about the nature of the transaction that can be applied.</source>
+          <target>Gibt eine Beschreibung des Buchungspostens an und liefert Details zur Art der Transaktion, die angewendet werden kann.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Gibt die Belegnummer des Postens an.</target>
+          <source>Specifies the document number of the ledger entry that can be applied. This is the reference number from the original transaction.</source>
+          <target>Gibt die Belegnummer des Buchungspostens an, der angewendet werden kann. Dies ist die Referenznummer der ursprünglichen Transaktion.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the entry, as assigned from the specified number series when the entry was created.</source>
@@ -744,24 +732,24 @@
           <target>Gibt die Nummer des Kontos an, auf das der Posten gebucht wurde.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3817680473 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Gibt den Wert des Feldes "Sachpostenanwendungs-ID" an.</target>
+          <source>Specifies the unique identifier that links this entry to an existing G/L application. If blank, the entry has not been applied yet.</source>
+          <target>Gibt die eindeutige Kennung an, die diesen Eintrag mit einer bestehenden Sachpostenanwendung verknüpft. Wenn das Feld leer ist, wurde der Eintrag noch nicht angewendet.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 4259830144 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
-          <target>Gibt den Wert des Feldes "Poststatus" an.</target>
+          <source>Specifies the status of the entry: Open if it can still be applied or has a remaining balance, Closed if it has been fully applied and cannot be used for further applications.</source>
+          <target>Gibt den Status des Eintrags an: Offen, wenn er noch angewendet werden kann oder einen verbleibenden Saldo hat, Geschlossen, wenn er vollständig angewendet wurde und nicht mehr für weitere Anwendungen verwendet werden kann.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Gibt das Buchungsdatum des Postens an.</target>
+          <source>Specifies the posting date of the ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
+          <target>Gibt das Buchungsdatum des Buchungspostens an. Dies ist das Datum, an dem der Eintrag ursprünglich im Hauptbuch erfasst wurde.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Control 2975378708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Gibt den Wert des Feldes "Restbetrag" an.</target>
+          <source>Specifies the remaining amount of the entry that is still available for application. This is the balance that has not yet been applied to other entries.</source>
+          <target>Gibt den verbleibenden Betrag des Eintrags an, der noch für die Anwendung verfügbar ist. Dies ist der Saldo, der noch nicht auf andere Einträge angewendet wurde.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 1068937304 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Post Application" action</source>
-          <target>Führt die Aktion "Anwendung buchen" aus</target>
+          <source>Posts the application of the selected entries. The entries will be linked together and their remaining amounts will be updated accordingly. The remaining amount to apply should be zero or balanced before posting.</source>
+          <target>Bucht die Anwendung der ausgewählten Einträge. Die Einträge werden miteinander verknüpft und ihre verbleibenden Beträge entsprechend aktualisiert. Der verbleibende Betrag zur Anwendung sollte vor dem Buchen Null oder ausgeglichen sein.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 3673560479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Apply Selected" action</source>
@@ -772,64 +760,64 @@
           <target>Führt die Aktion "Posten zur Anwendung entfernen" aus</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2605389538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Reset amount to apply" action</source>
-          <target>Führt die Aktion "Betrag zur Anwendung zurücksetzen" aus</target>
+          <source>Clears the amount to apply for the selected entries, resetting them to zero so you can start over with a new selection.</source>
+          <target>Setzt den Betrag zur Anwendung für die ausgewählten Einträge zurück und setzt ihn auf Null, damit Sie mit einer neuen Auswahl beginnen können.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 218696843 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Set amount to apply" action</source>
-          <target>Führt die Aktion "Betrag zur Anwendung festlegen" aus</target>
+          <source>Automatically sets the amount to apply for the selected entries, using as much of their remaining amount as possible without exceeding the remaining amount to apply.</source>
+          <target>Setzt den Betrag zur Anwendung für die ausgewählten Einträge automatisch, indem so viel wie möglich vom verbleibenden Betrag verwendet wird, ohne den verbleibenden Betrag zur Anwendung zu überschreiten.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2613693211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Set Entry to Apply" action</source>
           <target>Führt die Aktion "Posten zur Anwendung festlegen" aus</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2298340146 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Suggest amount to apply" action</source>
-          <target>Führt die Aktion "Betrag zur Anwendung vorschlagen" aus</target>
+          <source>Automatically suggests entries to apply based on the remaining amount. The system will propose matching entries from the same G/L account that balance the amount to apply.</source>
+          <target>Schlägt automatisch Einträge zur Anwendung basierend auf dem verbleibenden Betrag vor. Das System schlägt passende Einträge aus demselben Sachkonto vor, die den Betrag zur Anwendung ausgleichen.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 606058263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Account No." field.</source>
-          <target>Gibt den Wert des Feldes "Sachkontonr." an.</target>
+          <source>Specifies the general ledger account number from the journal line that you want to apply to existing entries. This is the source account for the application.</source>
+          <target>Gibt die Sachkontonummer aus der Buchungszeile an, die Sie auf bestehende Einträge anwenden möchten. Dies ist das Quellkonto für die Anwendung.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2086691987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount" field.</source>
-          <target>Gibt den Wert des Feldes "Betrag" an.</target>
+          <source>Specifies the total amount from the journal line in local currency. This is the amount that needs to be applied to existing entries.</source>
+          <target>Gibt den Gesamtbetrag aus der Buchungszeile in Landeswährung an. Dies ist der Betrag, der auf bestehende Einträge angewendet werden muss.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 1277581322 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
-          <target>Gibt den Wert des Feldes "Betrag zur Anwendung" an.</target>
+          <source>Specifies the remaining amount that still needs to be applied. This is calculated as the journal line amount minus the applied amount. This value should be zero before posting.</source>
+          <target>Gibt den verbleibenden Betrag an, der noch angewendet werden muss. Dieser wird als Buchungszeilenbetrag minus angewendeter Betrag berechnet. Dieser Wert sollte vor dem Buchen Null sein.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2553943536 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Applied Amount" field.</source>
-          <target>Gibt den Wert des Feldes "Angewandter Betrag" an.</target>
+          <source>Specifies the total amount that has already been applied to existing entries. This is the sum of all amounts to apply selected in the lines below.</source>
+          <target>Gibt den Gesamtbetrag an, der bereits auf bestehende Einträge angewendet wurde. Dies ist die Summe aller Beträge zur Anwendung, die in den untenstehenden Zeilen ausgewählt wurden.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2891963741 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Description" field.</source>
-          <target>Gibt den Wert des Feldes "Beschreibung" an.</target>
+          <source>Specifies the description from the journal line, providing details about the transaction that will be applied.</source>
+          <target>Gibt die Beschreibung aus der Buchungszeile an und liefert Details zur Transaktion, die angewendet wird.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 4076189653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
-          <target>Gibt den Wert des Feldes "Belegnummer" an.</target>
+          <source>Specifies the document number from the journal line. This will be the reference number for the application transaction.</source>
+          <target>Gibt die Belegnummer aus der Buchungszeile an. Dies wird die Referenznummer für die Anwendungstransaktion sein.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2150952987 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Gibt den Wert des Feldes "Buchungsdatum" an.</target>
+          <source>Specifies the posting date of the journal line that will be applied. This is the date when the application will be recorded when you post the journal.</source>
+          <target>Gibt das Buchungsdatum der Buchungszeile an, die angewendet wird. Dies ist das Datum, an dem die Anwendung beim Buchen des Journals erfasst wird.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2809933884 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Gibt den Wert des Feldes "Sachpostenanwendungs-ID" an.</target>
+          <source>Specifies the unique identifier for this application. You can enter a specific ID to link this application with others, or leave it blank to have the system assign one automatically when you post the journal.</source>
+          <target>Gibt die eindeutige Kennung für diese Anwendung an. Sie können eine bestimmte ID eingeben, um diese Anwendung mit anderen zu verknüpfen, oder das Feld leer lassen, damit das System beim Buchen des Journals automatisch eine ID zuweist.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 636392376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Amount of the entry.</source>
-          <target>Gibt den Betrag des Postens an.</target>
+          <source>Specifies the original total amount of the entry in local currency. Positive amounts represent debits, negative amounts represent credits.</source>
+          <target>Gibt den ursprünglichen Gesamtbetrag des Eintrags in Landeswährung an. Positive Beträge stellen Sollbuchungen dar, negative Beträge Habenbuchungen.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 184448389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Amount to Apply" field.</source>
-          <target>Gibt den Wert des Feldes "Betrag zur Anwendung" an.</target>
+          <source>Specifies the amount from this entry that you want to apply to the journal line. Enter a positive or negative value, or use the Set Applies-to ID action to apply the full remaining amount.</source>
+          <target>Gibt den Betrag aus diesem Eintrag an, den Sie auf die Buchungszeile anwenden möchten. Geben Sie einen positiven oder negativen Wert ein oder verwenden Sie die Aktion „Set Applies-to ID“, um den gesamten verbleibenden Betrag anzuwenden.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3093642907 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Applies-to ID" field.</source>
-          <target>Gibt den Wert des Feldes "Anzuwendende-ID" an.</target>
+          <source>Specifies the ID that marks this entry for application. This field is populated automatically when you select entries using the Set Applies-to ID action.</source>
+          <target>Gibt die ID an, die diesen Eintrag für die Anwendung markiert. Dieses Feld wird automatisch ausgefüllt, wenn Sie Einträge mit der Aktion „Set Applies-to ID“ auswählen.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2556136339 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the total of the ledger entries that represent credits.</source>
@@ -840,12 +828,12 @@
           <target>Gibt die Summe der Sachposten an, die Belastungen darstellen.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a description of the entry.</source>
-          <target>Gibt eine Beschreibung des Postens an.</target>
+          <source>Specifies a description of the existing ledger entry, providing details about the nature of the transaction that can be applied.</source>
+          <target>Gibt eine Beschreibung des bestehenden Buchungspostens an und liefert Details zur Art der Transaktion, die angewendet werden kann.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's Document No.</source>
-          <target>Gibt die Belegnummer des Postens an.</target>
+          <source>Specifies the document number of the ledger entry that can be applied. This is the reference number from the original posted transaction.</source>
+          <target>Gibt die Belegnummer des Buchungspostens an, der angewendet werden kann. Dies ist die Referenznummer der ursprünglich gebuchten Transaktion.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2363328873 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the document type that the entry belongs to.</source>
@@ -864,24 +852,24 @@
           <target>Gibt die Nummer des Kontos an, auf das der Posten gebucht wurde.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3817680473 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "G/L Application Entry ID" field.</source>
-          <target>Gibt den Wert des Feldes "Sachpostenanwendungs-ID" an.</target>
+          <source>Specifies the unique identifier of any existing application for this entry. If blank, the entry has not been applied yet and is available for application.</source>
+          <target>Gibt die eindeutige Kennung einer bestehenden Anwendung für diesen Eintrag an. Wenn das Feld leer ist, wurde der Eintrag noch nicht angewendet und steht für die Anwendung zur Verfügung.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 4259830144 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Entry Status" field.</source>
-          <target>Gibt den Wert des Feldes "Poststatus" an.</target>
+          <source>Specifies the status of the entry: Open if it can still be applied or has a remaining balance, Closed if it has been fully applied and cannot be used for further applications.</source>
+          <target>Gibt den Status des Eintrags an: Offen, wenn er noch angewendet werden kann oder einen verbleibenden Saldo hat, Geschlossen, wenn er vollständig angewendet wurde und nicht mehr für weitere Anwendungen verwendet werden kann.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the entry's posting date.</source>
-          <target>Gibt das Buchungsdatum des Postens an.</target>
+          <source>Specifies the posting date of the existing ledger entry. This is the date when the entry was originally recorded in the general ledger.</source>
+          <target>Gibt das Buchungsdatum des bestehenden Buchungspostens an. Dies ist das Datum, an dem der Eintrag ursprünglich im Hauptbuch erfasst wurde.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 1908046867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
           <target>Gibt den Grundcode an, eine ergänzende Herkunftscode, mit dem Sie den Posten nachverfolgen können.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 2975378708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Gibt den Wert des Feldes "Restbetrag" an.</target>
+          <source>Specifies the remaining amount of the entry that is still available for application. This is the balance that has not yet been applied to other entries.</source>
+          <target>Gibt den verbleibenden Betrag des Eintrags an, der noch für die Anwendung verfügbar ist. Dies ist der Saldo, der noch nicht auf andere Einträge angewendet wurde.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Control 1882905478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the source document that the entry originates from.</source>
@@ -892,16 +880,16 @@
           <target>Gibt den Ursprungstyp an, der für die im Feld Ursprungsnr. angezeigte Ursprungsnummer gilt.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 2173385693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Dimensions" action</source>
-          <target>Führt die Aktion "Dimensionen" aus</target>
+          <source>Opens the dimension setup for the selected ledger entry. You can view or analyze the dimension values assigned to this entry.</source>
+          <target>Öffnet die Dimensionseinrichtung für den ausgewählten Buchungsposten. Sie können die zugewiesenen Dimensionswerte für diesen Eintrag anzeigen oder analysieren.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 3538210097 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Navigate" action</source>
-          <target>Führt die Aktion "Navigieren" aus</target>
+          <source>Opens the Navigate window to find all entries and documents related to the selected ledger entry by its posting date and document number.</source>
+          <target>Öffnet das Navigationsfenster, um alle Einträge und Dokumente zu finden, die mit dem ausgewählten Buchungsposten nach Buchungsdatum und Belegnummer verbunden sind.</target>
         </trans-unit>
         <trans-unit id="Page 2962629546 - Action 1420004405 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Set Applies-to ID" action</source>
-          <target>Führt die Aktion "Anzuwendende-ID festlegen" aus</target>
+          <source>Marks the selected entries for application to the journal line. Use this action to select which existing ledger entries you want to apply to the new journal line.</source>
+          <target>Markiert die ausgewählten Einträge für die Anwendung auf die Buchungszeile. Verwenden Sie diese Aktion, um auszuwählen, welche bestehenden Buchungsposten Sie auf die neue Buchungszeile anwenden möchten.</target>
         </trans-unit>
         <trans-unit id="Page 1418530140 - Control 1295309970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "G/L Application Entry Nos." field.</source>
