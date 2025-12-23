@@ -2308,6 +2308,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Detail Comm. Ledger Entry - Field Source Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 331222149 - Field 1277570778 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unapplied</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Detail Comm. Ledger Entry - Field Unapplied - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 788882816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Document Line Commission</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3637,6 +3642,11 @@
           <source>Specifies the cashed percentage of related sales document. In case of lines from journal, will be 100 as default.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Comm. Document Amounts - Control Cashed % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 202891349 - Control 859833575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cashed %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Comm. Document Amounts - Control Cashed % - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 202891349 - Control 63537581 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies commission base amount calculated from document line amount. This value will be used as base amount when applying commission %. Value is in LCY.</source>
@@ -7448,15 +7458,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Method OnPreReport - NamedType NotEmpryJnlQst</note>
         </trans-unit>
-        <trans-unit id="Report 2202383737 - Method 665435082 - NamedType 3316647387" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2202383737 - Method 2498945273 - NamedType 3316647387" size-unit="char" translate="yes" xml:space="preserve">
           <source>Commission cost allocation at %2: salesperson %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Method WrtiteTMPJnlLine - NamedType Descr2Txt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Method WriteTempJnlLine - NamedType Descr2Txt</note>
         </trans-unit>
-        <trans-unit id="Report 2202383737 - Method 665435082 - NamedType 3223221533" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2202383737 - Method 2498945273 - NamedType 3223221533" size-unit="char" translate="yes" xml:space="preserve">
           <source>Commission cost allocation at %3: salesperson %1, reason code %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Method WrtiteTMPJnlLine - NamedType DescrTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Method WriteTempJnlLine - NamedType DescrTxt</note>
         </trans-unit>
         <trans-unit id="Report 2202383737 - ReportDataItem 3965484439 - Method 3245603402 - NamedType 3183579273" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 processed</source>
@@ -7479,7 +7489,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control GroupName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Control 3182586253 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies batch to use for generated journal lines.</source>
+          <source>Selects the general journal batch used to create allocation lines.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Batch Name - Property ToolTip</note>
         </trans-unit>
@@ -7489,7 +7499,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Batch Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies document no. to use for generated journal lines. If not specified, standard no. series on batch will be used.</source>
+          <source>Document number for generated journal lines; leave blank to use the batch number series.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Document No. - Property ToolTip</note>
         </trans-unit>
@@ -7499,7 +7509,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Document No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Control 458406397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies upper limit of date range applied to posting date field of comm. ledger entries.</source>
+          <source>Sets the ending posting date for commission ledger entries to allocate.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Ending Date - Property ToolTip</note>
         </trans-unit>
@@ -7509,7 +7519,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Ending Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Control 1900508061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if cost allocation will be done in simulated.</source>
+          <source>Runs cost allocation in simulation mode; no journal lines are posted.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control EOSSimulated - Property ToolTip</note>
         </trans-unit>
@@ -7519,7 +7529,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control EOSSimulated - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Control 2507660060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if a summary page with execution log has to be opened at the end of the process.</source>
+          <source>Opens the execution log summary after the process completes.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Open Log - Property ToolTip</note>
         </trans-unit>
@@ -7529,7 +7539,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Open Log - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Control 3652232475 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if the entire journal has to be automatically posted or not at the end of the process.</source>
+          <source>Posts the generated journal automatically after creation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Post Journal - Property ToolTip</note>
         </trans-unit>
@@ -7539,7 +7549,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Post Journal - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Control 460889064 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies lower limit of date range applied to posting date field of comm. ledger entries.</source>
+          <source>Sets the starting posting date for commission ledger entries to allocate; auto-adjusts to full month when filled.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Starting Date - Property ToolTip</note>
         </trans-unit>
@@ -7549,7 +7559,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Starting Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Control 3149056129 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies template to use for generated journal lines.</source>
+          <source>Selects the general journal template used to create allocation lines.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Control Template Name - Property ToolTip</note>
         </trans-unit>
