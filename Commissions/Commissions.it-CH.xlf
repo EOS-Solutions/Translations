@@ -1372,12 +1372,12 @@
           <target>Specifica la descrizione della causale provvigione.</target>
         </trans-unit>
         <trans-unit id="Page 2094867818 - Control 3852983238 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the G/L account no. to use when creating purchase documents.</source>
-          <target>Specifica il numero di conto C/G da utilizzare durante la creazione di documenti di acquisto.</target>
+          <source>This field determines which G/L account will be used for posting commission-related purchase documents. This allows for accurate financial tracking and reporting of commission expenses associated with the specific reason code.</source>
+          <target>Questo campo determina quale conto C/G verrà utilizzato per la registrazione dei documenti di acquisto relativi alle provvigioni. Questo consente un monitoraggio finanziario e una reportistica accurati delle spese per provvigioni associate al codice causale specifico.</target>
         </trans-unit>
-        <trans-unit id="Page 2094867818 - Control 802963259 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if system will create directly purchase documents instead of using settlement prospects.</source>
-          <target>Specifica se il sistema creerà documenti di acquisto direttamente anziché utilizzare i prospetti di liquidazione.</target>
+        <trans-unit id="Table 2589310355 - Field 3641927271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ID</source>
+          <target>ID</target>
         </trans-unit>
         <trans-unit id="Page 2094867818 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Reason Codes (CMS)</source>
@@ -2167,36 +2167,32 @@
           <source>Update Salespersons On Documents</source>
           <target>Aggiorna agenti nei documenti</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 1026268089 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if sales network management in enabled. If not, you will be able to insert salespersons directly on customers and documents.</source>
-          <target>Specifica se la gestione della rete di vendita è abilitata. In caso contrario, sarà possibile inserire gli agenti direttamente su clienti e documenti.</target>
+        <trans-unit id="Page 3431204148 - Control 789440884 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the third (lowest priority) parameter for commission calculation. The system uses this parameter if neither Priority 1 nor Priority 2 finds a matching commission setup, providing a fallback option for commission determination.</source>
+          <target>Definisce il terzo parametro (priorità più bassa) per il calcolo delle provvigioni. Il sistema usa questo parametro se né Priorità 1 né Priorità 2 trovano un setup provvigioni corrispondente, fornendo un'opzione di fallback per la determinazione delle provvigioni.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1181343548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allocation</source>
           <target>Stanziamento costi</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 134968084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies reason code related to incentives.</source>
-          <target>Specifica il codice causale correlato agli incentivi.</target>
-        </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 1360013175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the code of the number series that will be used when creating settlement prospects.</source>
-          <target>Specifica il codice della numerazione che verrà utilizzata durante la generazione dei prospetti di liquidazione</target>
+        <trans-unit id="Page 3431204148 - Control 3752409441 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the commission reason code used when correcting or adjusting prepayment commissions. This ensures proper accounting treatment when prepayment amounts or related commissions need to be modified or reversed.</source>
+          <target>Specifica il codice causale provvigione utilizzato quando si correggono o modificano le provvigioni su anticipi. Questo garantisce un trattamento contabile corretto quando gli importi degli anticipi o le provvigioni correlate devono essere modificati o stornati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1406942772 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales</source>
           <target>Vendite</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 151744267 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the second parameter in order of importance used to calculate commissions on documents.</source>
-          <target>Specifica il secondo parametro in ordine di importanza utilizzato per calcolare le provvigioni sui documenti.</target>
+        <trans-unit id="Page 3431204148 - Control 1026268089 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>When enabled, activates the Sales Network functionality allowing you to define hierarchical structures and relationships between salespeople. When disabled, salespeople can be assigned directly to customers and documents without network constraints. Sales networks are useful for managing complex sales organizations with multiple levels and roles.</source>
+          <target>Quando abilitato, attiva la funzionalità Rete vendita consentendo di definire strutture gerarchiche e relazioni tra agenti. Quando disabilitato, gli agenti possono essere assegnati direttamente ai clienti e ai documenti senza vincoli di gerarchia di rete. Le reti vendita sono utili per gestire organizzazioni commerciali complesse con più livelli e ruoli.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1570127757 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of the document class that will be used when creating settlement purchase credit memos.</source>
           <target>Specifica il codice della classe documento che verrà utilizzato durante la creazione delle note di credito di acquisto di liquidazione.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1738388099 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>if activated, the value of the field “Direct unit cost excluding VAT” of the single commission settlement prospect/invoice line, is calculated based on the original exchange rate present in the related record of the “Commission Ledger Entries (CMS)” page. This logic is applied ONLY in case the Currency Code of the Commission Entry (CMS) matches with the one of the Vendor/Salesperson and is different from the one of the company.</source>
+          <source>if activated, the value of the field "Direct unit cost excluding VAT" of the single commission settlement prospect/invoice line, is calculated based on the original exchange rate present in the related record of the "Commission Ledger Entries (CMS)" page. This logic is applied ONLY in case the Currency Code of the Commission Entry (CMS) matches with the one of the Vendor/Salesperson and is different from the one of the company.</source>
           <target>se attivato, il valore del campo “Costo unitario diretto IVA esclusa” della singola riga prospetto/fattura di liquidazione provvigioni, viene calcolato in funzione del tasso di cambio originario presente nel relativo record della pagina “Movimenti provvigioni (CMS)”. Questa logica viene applicata SOLO nel caso in cui il Cod. Valuta del Movimento provvigione (CMS) coincida con quello del Fornitore/Agente e sia diverso da quello di tenuta conto della società</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1896551935 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -2207,9 +2203,9 @@
           <source>Reason Code</source>
           <target>Codice causale</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 1923973537 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies reason code related to refunds.</source>
-          <target>Specifica il codice causale relativo ai rimborsi.</target>
+        <trans-unit id="Page 3431204148 - Control 134968084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the commission reason code used for special incentives or bonuses paid to salespeople. This code allows separate tracking and processing of incentive-based commissions distinct from standard commission calculations.</source>
+          <target>Specifica il codice causale provvigione utilizzato per incentivi speciali o bonus pagati agli agenti. Questo codice permette il monitoraggio e l'elaborazione separati delle provvigioni basate su incentivi, distinte dai calcoli standard delle provvigioni.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 689262129 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>When enabled, it disables the optimized search functionality for commission calculation setup. Use this if you experience issues with the optimized search.</source>
@@ -2227,9 +2223,9 @@
           <source>When salesperson is changed on document header</source>
           <target>Aggiornamento agente testata documento</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 2064834118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the first parameter in order of importance used to calculate commissions on documents.</source>
-          <target>Specifica il primo parametro in ordine di importanza utilizzato per calcolare le provvigioni sui documenti.</target>
+        <trans-unit id="Page 3431204148 - Control 2905148671 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Determines whether salesperson information on sales documents should be retrieved from the Sell-to Customer or the Bill-to Customer. This is important when the selling customer and invoicing customer are different entities, ensuring commissions are assigned to the correct salesperson.</source>
+          <target>Determina se le informazioni agente sui documenti vendita devono essere recuperate dal Cliente fatturare a o dal Cliente spedire a. Questo è importante quando il cliente venditore e il cliente fatturante sono entità diverse, assicurando che le provvigioni siano assegnate all'agente corretto.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2147202908 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert/Modify</source>
@@ -2244,16 +2240,16 @@
           <target>Offerta</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 22810526 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>if the flag “Foreign Curr. Comm. - Create exchange rate entries” is active, the possible exchange rate differences are going to be Settled using this GL Account. N.B. the curr. exch. entry for any exchange rate difference will be generated: Following the posting of the passive invoice for the total settlement of the accrued commissions; If the Commission entry to settle the accounting entry for the allocation of Costs @ Commissions to be settled has been previuosly generated (usually in commissions settled on payment).</source>
+          <source>if the flag "Foreign Curr. Comm. - Create exchange rate entries" is active, the possible exchange rate differences are going to be Settled using this GL Account. N.B. the curr. exch. entry for any exchange rate difference will be generated: Following the posting of the passive invoice for the total settlement of the accrued commissions; If the Commission entry to settle the accounting entry for the allocation of Costs @ Commissions to be settled has been previuosly generated (usually in commissions settled on payment).</source>
           <target>se attivo il flag “Provv. in valuta estera - crea movimenti di cambio valuta”, su questo conto C/G vengono rilevate le eventuali differenze cambio per la quadratura del conto Provvigioni da liquidare. N.B. la scrittura contabile di rilevazione dell’eventuale differenza cambio, viene generata: A seguito della contabilizzazione della fattura passiva di liquidazione totale della provvigione maturata; Se per il Movimento provvigione oggetto di liquidazione è stata generata preventivamente la scrittura contabile di stanziamento Costo @ Provvigioni da liquidare (tipicamente quindi nel caso di provvigioni liquidate sul pagato).</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2443327257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the base amount must include the line discount</source>
           <target>Specifica se l'importo di base calcolo per le provvigioni deve includere lo sconto riga. Se attivato, all'agente saranno pagate provvigioni anche sulla quota scontata, in caso contrario le provvigioni saranno calcolate al netto dello sconto.</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 2496530713 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the code of the number series that will be used when creating settlement purchase credit memos.</source>
-          <target>Specifica il codice della numerazione che verrà utilizzata durante la creazione di note di credito di acquisto di liquidazione.</target>
+        <trans-unit id="Page 3431204148 - Control 3732922845 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the number series used when generating purchase invoices for commission settlements. These invoices are created to pay commissions to vendors/salespersons based on settled commission entries.</source>
+          <target>Definisce la numerazione utilizzata quando si generano fatture di acquisto per le liquidazioni provvigioni. Queste fatture vengono create per pagare le provvigioni a fornitori/agenti in base ai movimenti provvigioni liquidati.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2665160000 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
@@ -2263,9 +2259,9 @@
           <source>Cr. Memo</source>
           <target>Nota credito</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 2905148671 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if salespersons on documents have to be retrieved from sell or bill customer.</source>
-          <target>Specifica se gli agenti nei documenti devono essere recuperati dal cliente di vendita o fatturazione.</target>
+        <trans-unit id="Page 3431204148 - Control 3289733327 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines which salesperson role is considered the primary role in the system. The primary role typically has the highest priority in commission calculations and is used as the default when multiple salespeople are involved in a transaction.</source>
+          <target>Definisce quale ruolo agente è considerato il ruolo principale nel sistema. Il ruolo principale tipicamente ha la priorità più alta nei calcoli delle provvigioni ed è usato come predefinito quando più agenti sono coinvolti in una transazione.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3026111617 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if handle cost allocation for salesperson with settlement method Invoiced.</source>
@@ -2295,9 +2291,9 @@
           <source>Blanket Order</source>
           <target>Ordine programmato</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 3289733327 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the primary salesperson role</source>
-          <target>Specifica il ruolo agente principale</target>
+        <trans-unit id="Page 3431204148 - Control 2496530713 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the number series used when generating purchase credit memos for negative commission settlements. These are created when commissions need to be reversed or adjusted downward.</source>
+          <target>Definisce la numerazione utilizzata quando si generano note credito acquisto per liquidazioni provvigioni negative. Queste vengono create quando le provvigioni devono essere stornate o rettificate al ribasso.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3342573389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Commissions Calculation Date field.</source>
@@ -2323,17 +2319,17 @@
           <source>Quote</source>
           <target>Offerta</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 3732922845 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the code of the number series that will be used when creating settlement purchase invoices.</source>
-          <target>Specifica il codice della numerazione che verrà utilizzata durante la creazione delle fatture di acquisto di liquidazione.</target>
+        <trans-unit id="Page 3431204148 - Control 1360013175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the number series used for settlement prospects. Settlement prospects are preliminary documents created before generating final purchase invoices, allowing you to review and adjust commission data before creating purchase documents for vendor payment.</source>
+          <target>Definisce la numerazione utilizzata per i prospetti di liquidazione. I prospetti di liquidazione sono documenti preliminari creati prima di generare le fatture di acquisto finali, consentendo di rivedere e modificare i dati delle provvigioni prima di creare i documenti di acquisto per il pagamento al fornitore.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3739791073 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Allocation Template Name" field.</source>
           <target>Specifica il valore del campo "Nome def. reg. stanziamento".</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 3752409441 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies reason code related to advance corrections.</source>
-          <target>Specifica il codice causale relativo agli storni anticipi.</target>
+        <trans-unit id="Page 3431204148 - Control 6620776 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines how commissions are calculated on free gift items when the Sales Free Gift (SFG) app is installed. This determines whether free gifts should generate commissions and how their value should be considered in commission calculations.</source>
+          <target>Definisce come vengono calcolate le provvigioni sugli articoli omaggio quando è installata l'app Omaggi vendita (SFG). Questo determina se gli omaggi devono generare provvigioni e come il loro valore deve essere considerato nei calcoli delle provvigioni.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3771644211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
@@ -2383,9 +2379,9 @@
           <source>Specifies the code of document class that will be used when creating settlement purchase invoices.</source>
           <target>Specifica il codice della classe documento che verrà utilizzato durante la creazione delle fatture di acquisto di liquidazione.</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 6620776 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Free Gift Calc. Method" field.</source>
-          <target>Specifica il valore del campo "Metodo calcolo omaggi".</target>
+        <trans-unit id="Page 3431204148 - Control 1923973537 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the commission reason code used when processing commission refunds or reversals. This code handles scenarios where previously paid commissions need to be recovered due to returns, cancellations, or other adjustments.</source>
+          <target>Specifica il codice causale provvigione utilizzato quando si elaborano rimborsi o storno di provvigioni. Questo codice gestisce scenari in cui le provvigioni precedentemente pagate devono essere recuperate a causa di resi, annullamenti o altri aggiustamenti.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 688384879 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
@@ -2396,8 +2392,8 @@
           <target>Fattura</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 721514944 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies reason code related to advances.</source>
-          <target>Specifica il codice causale correlato agli anticipi.</target>
+          <source>Specifies the commission reason code used for prepayment/advance transactions. This code determines how commissions on customer prepayments are handled, including G/L account assignment and whether to generate purchase documents directly.</source>
+          <target>Specifica il codice causale provvigione utilizzato per le transazioni di anticipo/acconto. Questo codice determina come vengono gestite le provvigioni sugli anticipi cliente, inclusa l'assegnazione del conto C/G e se generare documenti di acquisto direttamente.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 757193492 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if when a due date is modified on a customer ledger entry related to a settled/in settlement commission entry that is handled with "Invoiced" settlement method, user can force to proceed.</source>
@@ -2411,9 +2407,9 @@
           <source>Order</source>
           <target>Ordine</target>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 789440884 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the third parameter in order of importance used to calculate commissions on documents.</source>
-          <target>Specifica il terzo parametro in ordine di importanza utilizzato per calcolare le provvigioni sui documenti.</target>
+        <trans-unit id="Page 3431204148 - Control 151744267 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the second priority parameter for commission calculation. The system uses this parameter if no commission setup matches the first priority. This creates a hierarchical search pattern for finding the most specific commission rate.</source>
+          <target>Definisce il secondo parametro di priorità per il calcolo delle provvigioni. Il sistema usa questo parametro se nessun setup provvigioni corrisponde alla prima priorità. Questo crea un modello di ricerca gerarchico per trovare la percentuale di provvigione più specifica.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 90220357 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
@@ -2744,8 +2740,8 @@
           <target>Movimenti contabili provvigioni</target>
         </trans-unit>
         <trans-unit id="Page 4028065092 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the code of the salesperson role.</source>
-          <target>Specifica il codice del ruolo agente.</target>
+          <source>Salesperson Roles define different types of salespeople involved in transactions, CMS allows you to create and assign different roles to different Salespersons. These roles can determine commission calculation priorities and allow you to assign multiple salespersons with different responsibilities to the same sales document.</source>
+          <target>I Ruoli agente definiscono diversi tipi di agenti coinvolti nelle transazioni, CMS consente di creare e assegnare ruoli diversi ad diversi Agenti. Questi ruoli possono determinare le priorità di calcolo delle provvigioni e consentire di assegnare più agenti con responsabilità diverse allo stesso documento vendita.</target>
         </trans-unit>
         <trans-unit id="Page 4028065092 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the description of the salesperson role.</source>
@@ -3587,25 +3583,25 @@
           <source>Specifies when to stop settlement process.</source>
           <target>Specifica quando interrompere il processo di liquidazione.</target>
         </trans-unit>
-        <trans-unit id="PageExtension 1677353130 - Control 2409309878 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the vendor related to the salesperson/purchaser. Will be used in settlement process.</source>
-          <target>Specifica il fornitore correlato all'agente/add. acquisti. Verrà utilizzato nel processo di liquidazione.</target>
-        </trans-unit>
         <trans-unit id="PageExtension 1677353130 - Control 2989374672 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies settlement type. This handles when document commission amount will be payable (Invoiced,Paid (Partially),Paid (Entry),Paid (Document)).</source>
-          <target>Specifica il tipo di liquidazione. Questo determina quando l'importo della provvigione del documento sarà pagabile (Fatturato,Pagato (parzialmente), Pagato (movimento),Pagato (documento)).</target>
+          <source>Determines the criteria for when commissions are payable. Options include: "Invoiced" (commissions settled on all invoices regardless of payment), "Paid (Partially)" (settled proportionally on installments paid even partially), "Paid (Entry)" (settled based on fully paid entries), or "Paid (Document)" (settled when entire document is fully paid). This affects the timing of commission payments.</source>
+          <target>Determina i criteri per quando le provvigioni sono pagabili. Le opzioni includono: "Fatturato" (provvigioni liquidate su tutte le fatture indipendentemente dal pagamento), "Pagato (parzialmente)" (liquidate proporzionalmente sulle rate pagate anche parzialmente), "Pagato (movimento)" (liquidate in base ai movimenti completamente pagati) o "Pagato (documento)" (liquidate quando l'intero documento è completamente pagato). Questo influisce sui tempi dei pagamenti delle provvigioni.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1677353130 - Control 3719530891 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies percentage of advance to give to salesperson/purchaser. Amount is calculated on commission ledger entry values.</source>
-          <target>Specifica la percentuale di anticipo da concedere all'agente. L'importo viene calcolato sui valori dei movimenti contabili provvigioni.</target>
+          <source>Specifies the percentage of earned commissions to pay as an advance to the salesperson. The prepayment amount is calculated on commission ledger entry values and can be settled before the full commission payment period.</source>
+          <target>Specifica la percentuale delle provvigioni maturate da pagare come anticipo all'agente. L'importo del pagamento anticipato viene calcolato sui valori dei movimenti contabili provvigioni e può essere liquidato prima del periodo di pagamento completo della provvigione.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1677353130 - Control 4179655083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the frequency with which commissions are settled and paid to the salesperson. Options include: Year, Semester, Four Months, Quarter, Two Months, or Month. This determines how often settlement prospects and purchase documents are created for commission payment.</source>
+          <target>Definisce la frequenza con cui le provvigioni vengono liquidate e pagate all'agente. Le opzioni includono: Anno, Semestre, Quattro mesi, Trimestre, Due mesi o Mese. Questo determina la frequenza con cui vengono creati i prospetti di liquidazione e i documenti di acquisto per il pagamento delle provvigioni.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1677353130 - Control 4130440317 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies G/L account used in settlement document.</source>
           <target>Conto utilizzato per la rilevazione dei costi provigionali (maturato).</target>
         </trans-unit>
-        <trans-unit id="PageExtension 1677353130 - Control 4179655083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if settlement is Year,Semester,Four Months,Quarter,Two Months,Month.</source>
-          <target>Specifica se la liquidazione è Anno,Semestre,Quadrimestre,Trimestre,Bimestre,Mese.</target>
+        <trans-unit id="PageExtension 1677353130 - Control 2409309878 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the vendor associated with this salesperson. This vendor will be used when creating purchase invoices and credit memos during the commission settlement process to pay out earned commissions.</source>
+          <target>Specifica il fornitore associato a questo agente. Questo fornitore verrà utilizzato durante la creazione di fatture e note di credito di acquisto durante il processo di liquidazione delle provvigioni per pagare le provvigioni maturate.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1677353130 - Control 430636633 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies amount of advance to give to salesperson/purchaser. Amount will be settled once per commission perdiod.</source>
@@ -3984,7 +3980,7 @@
           <target>Conto utilizzato per la rilevazione dei costi provigionali (maturato).</target>
         </trans-unit>
         <trans-unit id="PageExtension 3012554037 - Control 4179655083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if settlement is Year,Semester,Four Months,Quarter,Two Months,Month.</source>
+          <source>Specifies if settlement is Year,Semester,Four Months,Quarter,Two Months,Month.</source>
           <target>Specifica se la liquidazione è Anno,Semestre,Quadrimestre,Trimestre,Bimestre,Mese.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3012554037 - Control 430636633 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -5442,18 +5438,6 @@
         <trans-unit id="Report 2202383737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Cost Allocation (CMS)</source>
           <target>Stanziamento costi provvigione (CMS)</target>
-        </trans-unit>
-        <trans-unit id="Report 2202383737 - ReportDataItem 3965484439 - Method 3245603402 - NamedType 3183579273" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 processed</source>
-          <target>%1 elaborato</target>
-        </trans-unit>
-        <trans-unit id="Report 2202383737 - ReportDataItem 3965484439 - Method 3715240 - NamedType 2361138918" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No %1 processed</source>
-          <target>Nessun %1 elaborato</target>
-        </trans-unit>
-        <trans-unit id="Report 2202383737 - ReportDataItem 3965484439 - Method 3715240 - NamedType 3183579273" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 processed</source>
-          <target>%1 elaborato</target>
         </trans-unit>
         <trans-unit id="Report 2836188360 - Control 1048754833 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>if true will print the single lines</source>
@@ -8675,9 +8659,313 @@
           <source>Updating #1############# #2############# #3#############. Please wait...</source>
           <target>Aggiornamento #1############# #2############# #3#############. Attendere prego...</target>
         </trans-unit>
-        <trans-unit id="Page 202891349 - Control 859833575 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cashed %</source>
-          <target>Incassato %</target>
+        <trans-unit id="Codeunit 1399330211 - NamedType 2420359871" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CORR-REAS</source>
+          <target>CORR-CAUS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 3726738094" translate="yes" size-unit="char" xml:space="preserve">
+          <source>INCEN-REAS</source>
+          <target>INCEN-CAUS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 1306968192" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PREP-REAS</source>
+          <target>ANT-CAUS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 2356510321" translate="yes" size-unit="char" xml:space="preserve">
+          <source>P-STL-CM</source>
+          <target>A-LIQ-NC</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 1557845797" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PSTLCM-0001</source>
+          <target>ALIQNC-0001</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 2652222943" translate="yes" size-unit="char" xml:space="preserve">
+          <source>P-STL-INV</source>
+          <target>A-LIQ-FAT</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 1508169971" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PSTLINV-0001</source>
+          <target>ALIQFAT-0001</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 2974644223" translate="yes" size-unit="char" xml:space="preserve">
+          <source>REF-REAS</source>
+          <target>RMB-CAUS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 274395365" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WSP01</source>
+          <target>WAG01</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 1088101274" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WSPV01</source>
+          <target>WAGF01</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 367041419" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary</source>
+          <target>Secondario</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 803935422" translate="yes" size-unit="char" xml:space="preserve">
+          <source>STL-PROSP</source>
+          <target>LIQ-PROSP</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 2846088698" translate="yes" size-unit="char" xml:space="preserve">
+          <source>STLPROSP-0001</source>
+          <target>LIQPROSP-0001</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 3705438610" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Incentive Reason Code CMS</source>
+          <target>Codice causale incentivo CMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 3658840540" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prepayment Reason Code CMS</source>
+          <target>Codice causale anticipo CMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 4049647169" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary</source>
+          <target>Primario</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 625643965" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary Role CMS</source>
+          <target>Ruolo primario CMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 337983629" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Settlement Credit Memo CMS</source>
+          <target>Nota credito acq. liquidazione CMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 23385979" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Settlement Invoice CMS</source>
+          <target>Fattura acq. liquidazione CMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 2743546779" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Refund Reason Code CMS</source>
+          <target>Codice causale rimborso CMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 1316841177" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Wizard Salesperson 1 CMS</source>
+          <target>Agente wizard 01 CMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 2145908134" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Wizard Salesperson Vendor 1 CMS</source>
+          <target>Fornitore agente wizard 01 CMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 4253150191" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Role CMS</source>
+          <target>Ruolo secondario CMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 2634664002" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Settlement Prospect CMS</source>
+          <target>Prospetto Liquidazione CMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 309797467" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Correction Reason Code CMS</source>
+          <target>Codice causale correzione CMS</target>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2638897212 - EnumValue 2908544840 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS Get started with Commissions (CMS)</source>
+          <target>EOS inizia ad usare Provvigioni (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 2064834118 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculation Priority 1</source>
+          <target>Priorità calcolo 1</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 2064834118 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the first (highest priority) parameter used to determine which commission setup to apply. The system checks this parameter first, then moves to Priority 2 and 3 if no match is found. Common options include Customer, Item, Salesperson Role, or Sales Network.</source>
+          <target>Definisce il primo parametro (priorità più alta) utilizzato per determinare quale setup provvigioni applicare. Il sistema controlla questo parametro per primo, quindi passa alla Priorità 2 e 3 se non viene trovata corrispondenza. Le opzioni comuni includono Cliente, Articolo, Ruolo agente o Rete vendita.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 4098063865 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No Sales Commission Calculation on Posting</source>
+          <target>Nessun calcolo provvigioni vendita in registrazione</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 4098063865 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>When enabled, prevents automatic commission calculation during document posting. This allows you to manually calculate commissions at a later time using batch processes, giving more control over when commission entries are created. Recommended for high-volume environments where performance is critical.</source>
+          <target>Quando abilitato, impedisce il calcolo automatico delle provvigioni durante la registrazione del documento. Questo permette di calcolare manualmente le provvigioni in un momento successivo usando processi batch, dando maggiore controllo su quando vengono create i movimenti provvigioni. Consigliato per ambienti ad alto volume dove le prestazioni sono critiche.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 721514944 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prepayment Reason Code</source>
+          <target>Codice causale anticipo</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 721514944 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the commission reason code used for prepayment/advance transactions. This code determines how commissions on customer prepayments are handled, including G/L account assignment and whether to generate purchase documents directly.</source>
+          <target>Specifica il codice causale provvigione utilizzato per le transazioni di anticipo/acconto. Questo codice determina come vengono gestite le provvigioni sugli anticipi cliente, inclusa l'assegnazione del conto C/G e se generare documenti di acquisto direttamente.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1026268089 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Sales Network</source>
+          <target>Abilita rete vendita</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1026268089 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>When enabled, activates the Sales Network functionality allowing you to define hierarchical structures and relationships between salespeople. When disabled, salespeople can be assigned directly to customers and documents without network constraints. Sales networks are useful for managing complex sales organizations with multiple levels and roles.</source>
+          <target>Quando abilitato, attiva la funzionalità Rete vendita consentendo di definire strutture gerarchiche e relazioni tra agenti. Quando disabilitato, gli agenti possono essere assegnati direttamente ai clienti e ai documenti senza vincoli di gerarchia di rete. Le reti vendita sono utili per gestire organizzazioni commerciali complesse con più livelli e ruoli.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 2905148671 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get Salesperson From</source>
+          <target>Ottieni agente da</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 2905148671 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Determines whether salesperson information on sales documents should be retrieved from the Sell-to Customer or the Bill-to Customer. This is important when the selling customer and invoicing customer are different entities, ensuring commissions are assigned to the correct salesperson.</source>
+          <target>Determina se le informazioni agente sui documenti vendita devono essere recuperate dal Cliente fatturare a o dal Cliente spedire a. Questo è importante quando il cliente venditore e il cliente fatturante sono entità diverse, assicurando che le provvigioni siano assegnate all'agente corretto.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3289733327 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary Salesperson Role</source>
+          <target>Ruolo agente principale</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3289733327 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines which salesperson role is considered the primary role in the system. The primary role typically has the highest priority in commission calculations and is used as the default when multiple salespeople are involved in a transaction.</source>
+          <target>Definisce quale ruolo agente è considerato il ruolo principale nel sistema. Il ruolo principale tipicamente ha la priorità più alta nei calcoli delle provvigioni ed è usato come predefinito quando più agenti sono coinvolti in una transazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1360013175 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Settlement Prospect Number Series</source>
+          <target>Nr. serie prospetto liquidazione</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1360013175 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the number series used for settlement prospects. Settlement prospects are preliminary documents created before generating final purchase invoices, allowing you to review and adjust commission data before creating purchase documents for vendor payment.</source>
+          <target>Definisce la numerazione utilizzata per i prospetti di liquidazione. I prospetti di liquidazione sono documenti preliminari creati prima di generare le fatture di acquisto finali, consentendo di rivedere e modificare i dati delle provvigioni prima di creare i documenti di acquisto per il pagamento al fornitore.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commissions Setup</source>
+          <target>Setup provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 2760722073" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checkout this video</source>
+          <target>Guarda il video introduttivo</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 1912690997" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission Reason Codes</source>
+          <target>Codici causale provvigione</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 1307969439" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission Calculation Setup</source>
+          <target>Setup calcolo provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 1523534725" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commmissions Setup</source>
+          <target>Setup provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 2881574989" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create New Invoice</source>
+          <target>Crea nuova fattura</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 849289934" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Video Demo</source>
+          <target>Guarda la demo estesa</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 2847157583" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Follow this guide</source>
+          <target>Guida</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 3494195350" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Setup Wizard</source>
+          <target>Nuovo Setup Wizard</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 4234816532" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. Series</source>
+          <target>Nr. serie</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 4234408625" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Sales Invoice with Commissions</source>
+          <target>Apri Fattura di vendita con provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 2089272708" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Roles</source>
+          <target>Ruoli agente</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 3084056896" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons</source>
+          <target>Agenti</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 3449955340" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson Vendors</source>
+          <target>Fornitori agente</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 2859305099 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Let's go!</source>
+          <target>Andiamo!</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 979583616 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select Next to continue.</source>
+          <target>Seleziona Avanti per continuare.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 3800514526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Welcome to the Commissions Assisted Setup</source>
+          <target>Benvenuti nel Setup Assistito Provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 1617280233 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>We're gonna set up default data to start using the Commissions.</source>
+          <target>Imposteremo i dati predefiniti per iniziare ad utilizzare le Provvigioni.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 4113648779 - Method 1845446376 - NamedType 720853186" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Invoice %1 with Commissions created successfully!</source>
+          <target>Fattura vendita %1 con provvigioni creata con successo!</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 4220954472 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Run the "New Setup Wizard" to create default data. It is recommended to use it in a Test Environment!</source>
+          <target>Eseguire il "Nuovo Setup Wizard" per creare i dati predefiniti. Si consiglia di usarlo in un ambiente di test!</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 4220954472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup Wizard</source>
+          <target>Nuovo Setup Wizard</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 3494195350 - Method 1845446376 - NamedType 4103709050" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This procedure will create real data in your database (customers, vendors, number series, etc.).\\It is strongly recommended to run it in a Test Environment\\Do you want to continue?</source>
+          <target>Si desidera eseguire il Setup Wizard?\Assicurarsi di eseguirlo in un ambiente di test!</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Action 742034285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Go back to the previous step</source>
+          <target>Tornare al passaggio precedente</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Action 742034285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Back</source>
+          <target>Indietro</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Action 2667510389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish this guide</source>
+          <target>Terminare questa guida</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Action 2667510389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish</source>
+          <target>Fine</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Action 1235620153 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Procede with the next step</source>
+          <target>Procedere con il passaggio successivo</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Action 1235620153 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Next</source>
+          <target>Avanti</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4186519196 - Control 204582133 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission Group</source>
+          <target>Gruppo provvigioni</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4186519196 - Control 204582133 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the commission group assigned to this sales document. Commission groups categorize customers or items for commission calculation purposes, allowing different commission rates and rules to be applied based on group assignment.</source>
+          <target>Specifica il gruppo provvigioni assegnato a questo documento vendita. I gruppi provvigioni categorizzano clienti o articoli ai fini del calcolo delle provvigioni, consentendo l'applicazione di percentuali e regole di provvigione diverse in base all'assegnazione del gruppo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4186519196 - Control 466366624 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exclude from Commission</source>
+          <target>Escludi da provvigioni</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4186519196 - Control 466366624 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>When enabled, this document and its lines will be excluded from commission calculations. Use this for special cases where commissions should not be generated, such as internal transfers, warranty replacements, or promotional activities that do not qualify for commission.</source>
+          <target>Quando abilitato, questo documento e le sue righe saranno esclusi dai calcoli delle provvigioni. Utilizzare per casi speciali dove le provvigioni non devono essere generate, come trasferimenti interni, sostituzioni in garanzia o attività promozionali che non qualificano per le provvigioni.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4186519196 - Control 2704558232 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salespersons Count</source>
+          <target>Conteggio agenti</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4186519196 - Control 2704558232 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the number of salespeople assigned to this document. With the new salesperson engine, multiple salespeople with different roles can be associated with a single sales document, enabling more flexible commission distribution scenarios.</source>
+          <target>Visualizza il numero di agenti assegnati a questo documento. Con il nuovo motore agenti, più agenti con ruoli diversi possono essere associati a un singolo documento vendita, abilitando scenari di distribuzione provvigioni più flessibili.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Action 1235620153 - Method 1377591017 - NamedType 1290661513" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Please complete the Setup Wizard first!</source>
+          <target>Completare la procedura guidata prima di proseguire!</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 563683793 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default data has been created to start testing the Commissions app features. This Wizard Setup will guide you through all the data created and will guide you to create an invoice with commissions.</source>
+          <target>Sono stati creati i dati predefiniti per iniziare a testare le funzionalità dell'app Provvigioni. Questa procedura guidata setup ti mostrerà tutti i dati creati e ti guiderà nella creazione di una fattura con provvigioni.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 563683793 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default data created successfully!</source>
+          <target>Dati predefiniti creati con successo!</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Method 2498945273 - NamedType 3316647387" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission cost allocation at %2: salesperson %1</source>
@@ -8687,6 +8975,162 @@
           <source>Commission cost allocation at %3: salesperson %1, reason code %2</source>
           <target>Attribuzione dei costi di provvigione al %3: agente %1, causale %2</target>
         </trans-unit>
+        <trans-unit id="Page 202891349 - Control 859833575 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cashed %</source>
+          <target>Incassato %</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commissions Setup</source>
+          <target>Setup provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This page allows you to configure general settings for the Commissions (CMS) app. You can enable or disable sales network management, define number series for settlement documents, set calculation priorities, and specify reason codes for various commission scenarios. These settings help tailor the commission calculation and settlement processes to fit your organization's sales structure and policies.</source>
+          <target>Questa pagina consente di configurare le impostazioni generali per l'app Commissions (CMS). È possibile abilitare o disabilitare la gestione della rete vendita, definire le serie numeriche per i documenti di liquidazione, impostare le priorità di calcolo e specificare i codici motivo per vari scenari di provvigione. Queste impostazioni aiutano a personalizzare i processi di calcolo e liquidazione delle provvigioni in base alla struttura e alle politiche di vendita dell'organizzazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 1295041967" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer with Salesperson for Invoice</source>
+          <target>Cliente con agente per fattura</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 2354953405" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Wizard Customer 1 CMS</source>
+          <target>Agente Wizard 1 CMS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 2951820262" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WCUST01</source>
+          <target>WCLI01</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 2064834118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the first (highest priority) parameter used to determine which commission setup to apply. The system checks this parameter first, then moves to Priority 2 and 3 if no match is found. Common options include Customer, Item, Salesperson Role, or Sales Network.</source>
+          <target>Definisce il primo parametro (priorità più alta) utilizzato per determinare quale setup provvigioni applicare. Il sistema controlla questo parametro per primo, quindi passa alla Priorità 2 e 3 se non viene trovata corrispondenza. Le opzioni comuni includono Cliente, Articolo, Ruolo agente o Rete vendita.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1399330211 - NamedType 2604332718" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To set up Commissions (CMS), the Commissions for Italy application by EOS Solutions must be installed.</source>
+          <target>Per fare il setup Commissions (CMS), è necessario installare l'applicazione Commissions for Italy di EOS Solutions.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1763065147 - NamedType 2270306401" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Follow along this guide to set up the Commissions.</source>
+          <target>Segui questa guida per impostare le Provvigioni.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1763065147 - NamedType 1182413170" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set up Commissions (CMS)</source>
+          <target>Setup Provvigioni (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1763065147 - NamedType 903502523" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set up Commissions (CMS)</source>
+          <target>Setup Provvigioni (CMS)</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 408672341" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Commission Settlement Prospects</source>
+          <target>Crea prospetti liquidazione provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 1793047956" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission Purchase Documents</source>
+          <target>Documenti acquisto provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 2153548775 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create a sample sales invoice to test how commissions are automatically calculated based on your setup.</source>
+          <target>Crea una fattura di vendita per testare come le provvigioni vengono calcolate automaticamente in base al setup.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 2153548775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Invoice with Commissions creation</source>
+          <target>Creazione fattura vendita con provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 4113648779 - Method 1845446376 - NamedType 1346809853" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This will create a real Sales Invoice in your database (not a test document).\\Do you want to continue?</source>
+          <target>Verrà creata una fattura di vendita reale nel database\Continuare?</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 4066638626 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice created successfully! Open it below to review the automatically calculated commission lines.</source>
+          <target>Fattura creata correttamente. Aprila qui sotto per verificare le righe provvigioni calcolate automaticamente.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 3169205740 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You have finished this guide! There is more to explore in the Commissions app, check out the documentation and videos to learn more about advanced features and best practices!</source>
+          <target>Hai terminato questa guida. Le funzionalità dell'app Provvigioni non finiscono qui, consulta la documentazione e i video per saperne di più su funzionalità avanzate e best practice.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 3169205740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Congrats!</source>
+          <target>Congratulazioni!</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 1470248763 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Learn all about Commissions Settlements in the EOS Documentation by clicking the links below</source>
+          <target>Scopri di più sulle liquidazioni provvigioni nella documentazione EOS cliccando i link qui sotto</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 3806902357 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Click on the Finish button to complete this wizard</source>
+          <target>Fai clic sul pulsante Fine per completare la procedura guidata</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1677353130 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson/Purchaser Card with Commissions</source>
+          <target>Scheda agente/acquirente con provvigioni</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1677353130 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commissions adds fields to the standard Salesperson/Purchaser Card to manage commission settings for salespersons and purchasers. The added fields allow you to specify the vendor associated with the salesperson for commission payments, set the prepayment percentage and amount, define the settlement period and type, and assign G/L accounts for commission costs and settlements. These enhancements enable efficient tracking and management of commissions within the sales and purchasing processes.</source>
+          <target>La funzionalità Provvigioni aggiunge campi alla scheda agente/acquirente standard per gestire le impostazioni delle provvigioni per agenti e acquirenti. I campi aggiunti consentono di specificare il fornitore associato all'agente per i pagamenti delle provvigioni, impostare la percentuale e l'importo di pagamento anticipato, definire il periodo e il tipo di liquidazione e assegnare i conti C/G per i costi e le liquidazioni delle provvigioni. Questi miglioramenti consentono un monitoraggio e una gestione efficienti delle provvigioni all'interno dei processi di vendita e acquisto.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1677353130 - Control 3719530891 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prepayment Percentage</source>
+          <target>Percentuale pagamento anticipato</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1677353130 - Control 3719530891 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the percentage of earned commissions to pay as an advance to the salesperson. The prepayment amount is calculated on commission ledger entry values and can be settled before the full commission payment period.</source>
+          <target>Specifica la percentuale delle provvigioni maturate da pagare come anticipo all'agente. L'importo del pagamento anticipato viene calcolato sui valori dei movimenti contabili provvigioni e può essere liquidato prima del periodo di pagamento completo della provvigione.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1677353130 - Control 4179655083 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Settlement Period</source>
+          <target>Periodo liquidazione</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1677353130 - Control 4179655083 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the frequency with which commissions are settled and paid to the salesperson. Options include: Year, Semester, Four Months, Quarter, Two Months, or Month. This determines how often settlement prospects and purchase documents are created for commission payment.</source>
+          <target>Definisce la frequenza con cui le provvigioni vengono liquidate e pagate all'agente. Le opzioni includono: Anno, Semestre, Quattro mesi, Trimestre, Due mesi o Mese. Questo determina la frequenza con cui vengono creati i prospetti di liquidazione e i documenti di acquisto per il pagamento delle provvigioni.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1677353130 - Control 2989374672 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Settlement Type</source>
+          <target>Tipo liquidazione</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1677353130 - Control 2989374672 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Determines the criteria for when commissions are payable. Options include: "Invoiced" (commissions settled on all invoices regardless of payment), "Paid (Partially)" (settled proportionally on installments paid even partially), "Paid (Entry)" (settled based on fully paid entries), or "Paid (Document)" (settled when entire document is fully paid). This affects the timing of commission payments.</source>
+          <target>Determina i criteri per quando le provvigioni sono pagabili. Le opzioni includono: "Fatturato" (provvigioni liquidate su tutte le fatture indipendentemente dal pagamento), "Pagato (parzialmente)" (liquidate proporzionalmente sulle rate pagate anche parzialmente), "Pagato (movimento)" (liquidate in base ai movimenti completamente pagati) o "Pagato (documento)" (liquidate quando l'intero documento è completamente pagato). Questo influisce sui tempi dei pagamenti delle provvigioni.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1677353130 - Control 2409309878 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor Number</source>
+          <target>Nr. fornitore</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1677353130 - Control 2409309878 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the vendor associated with this salesperson. This vendor will be used when creating purchase invoices and credit memos during the commission settlement process to pay out earned commissions.</source>
+          <target>Specifica il fornitore associato a questo agente. Questo fornitore verrà utilizzato durante la creazione di fatture e note di credito di acquisto durante il processo di liquidazione delle provvigioni per pagare le provvigioni maturate.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 2632937198 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The wizard has configured a setup for Commissions. You can now review and adjust the commission calculation settings, document numbering, and processing rules. Click on any item below to view or modify the created data.</source>
+          <target>Il Setup Wizard ha configurato il Setup Provvigioni. Ora puoi rivedere e modificare il Setup di calcolo provvigioni, la numerazione documenti e le regole di elaborazione. Clicca sui link in basso per visualizzare o modificare i dati creati.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 2632937198 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commissions Setup created data</source>
+          <target>Dati creati per il Setup Provvigioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 565531501 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson created Data</source>
+          <target>Dati creati relativi agli agenti</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - Control 565531501 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The wizard has created sample salesperson data ready for commission processing. You can review the salesperson structure, the linked sample vendor for commissions settlement, check settlement settings for salespersons, and see how the sample salesperson has been assigned to the sample Customer used to create the sample sales invoice with commissions. Click on any item below to view or modify the created data.</source>
+          <target>Il Setup Wizard ha creato dati agente di predefiniti e pronti per l'elaborazione delle provvigioni. Puoi rivedere la struttura agenti, il fornitore Wizard collegato all'agente per la liquidazione provvigioni, verificare le impostazioni di liquidazione per l'agente e vedere il cliente Wizard utilizzato per creare la fattura di vendita con provvigioni. Clicca i link in basso per visualizzare o modificare i dati creati.</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 214285497" translate="yes" size-unit="char" xml:space="preserve">
+          <source>https://docs.eos-solutions.it/en/docs/apps-func/commissions-cms.html</source>
+          <target>https://docs.eos-solutions.it/it/docs/apps-func/commissions-cms.html</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 3445016998" translate="yes" size-unit="char" xml:space="preserve">
+          <source>https://docs.eos-solutions.it/en/docs/apps-func/commissions-cms/create-commission-prospect.html#create-commission-prospect</source>
+          <target>https://docs.eos-solutions.it/it/docs/apps-func/commissions-cms/create-commission-prospect.html#create-commission-prospect</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 3322613763" translate="yes" size-unit="char" xml:space="preserve">
+          <source>https://docs.eos-solutions.it/en/docs/apps-func/commissions-cms/commissions-commission-purchase-document.html#commission-purchase-document</source>
+          <target>https://docs.eos-solutions.it/it/docs/apps-func/commissions-cms/commissions-commission-purchase-document.html#commission-purchase-document</target>
+        </trans-unit>
+        <trans-unit id="Page 3987578136 - NamedType 2653180079" translate="yes" size-unit="char" xml:space="preserve">
+          <source>https://youtu.be/ZvW0Tw4Sc7I</source>
+          <target>https://youtu.be/QUGadPmlwjM</target>
+        </trans-unit>
         <trans-unit id="Table 374655194 - Method 3152277940 - NamedType 916923894" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cannot delete Cost Allocation Register entry %1 because it is in use in General Journal Line %2 %3 %4.</source>
           <target>Impossibile eliminare la voce %1 del registro di allocazione dei costi perché è in uso nella riga %2 %3 %4 del prospetto di contabilità generale.</target>
@@ -8694,6 +9138,10 @@
         <trans-unit id="Table 331222149 - Field 1277570778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unapplied</source>
           <target>Scollegato</target>
+        </trans-unit>
+        <trans-unit id="Page 2094867818 - Control 802963259 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>When enabled, the system creates purchase documents directly during settlement processing, skipping the settlement prospect stage. When disabled, settlement prospects are created first, allowing you to review and modify commission data before generating the final purchase documents for vendor payment.</source>
+          <target>Quando abilitato, il sistema crea documenti di acquisto direttamente durante l'elaborazione della liquidazione, saltando la fase del prospetto di liquidazione. Quando disabilitato, vengono creati prima i prospetti di liquidazione, consentendo di rivedere e modificare i dati delle provvigioni prima di generare i documenti di acquisto finali per il pagamento al fornitore.</target>
         </trans-unit>
       </group>
     </body>
