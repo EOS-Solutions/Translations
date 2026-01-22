@@ -2803,11 +2803,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Commission Event Mgt. - Method T111_OnAfterInsertInvLineFromShptLine - NamedType SalesNetworkMustBeEqualErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4102068244 - Method 1461816314 - NamedType 3015316829" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Commission lines with the "modified" flag were found in the document, but since no salesperson is present in the Ship-to address, the commissions were not updated.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Commission Event Mgt. - Method T36_OnAfterValidate_ShipToCode - NamedType ModifiedCommissionFoundForMissingSalespShiptoAddressMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 4102068244 - Method 3024262480 - NamedType 361967077" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase document line %2 is related to %1. You must delete entire document and recreate it from modified prospect.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9648,35 +9643,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOSCommissions - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 4186519196 - Control 204582133 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
-          <source>Commission Group</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Commission Group - Property AboutTitle</note>
-        </trans-unit>
         <trans-unit id="PageExtension 4186519196 - Control 204582133 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
           <source>Commission group related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Commission Group - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 4186519196 - Control 204582133 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
-          <source>Specifies the commission group assigned to this sales document. Commission groups categorize customers or items for commission calculation purposes, allowing different commission rates and rules to be applied based on group assignment.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Commission Group - Property AboutText</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 4186519196 - Control 466366624 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
-          <source>Exclude from Commission</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Exclude from Commission - Property AboutTitle</note>
-        </trans-unit>
         <trans-unit id="PageExtension 4186519196 - Control 466366624 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
           <source>Specifies if the document must be excluded from commission calculation</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Exclude from Commission - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 4186519196 - Control 466366624 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
-          <source>When enabled, this document and its lines will be excluded from commission calculations. Use this for special cases where commissions should not be generated, such as internal transfers, warranty replacements, or promotional activities that do not qualify for commission.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Exclude from Commission - Property AboutText</note>
         </trans-unit>
         <trans-unit id="PageExtension 4186519196 - Control 4294824369 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
           <source>Sales network related to the document.</source>
@@ -9688,20 +9663,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Salesperson Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 4186519196 - Control 2704558232 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
-          <source>Salespersons Count</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Salespersons Count - Property AboutTitle</note>
-        </trans-unit>
         <trans-unit id="PageExtension 4186519196 - Control 2704558232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
           <source>No. of salesperson related to the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Salespersons Count - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 4186519196 - Control 2704558232 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
-          <source>Displays the number of salespeople assigned to this document. With the new salesperson engine, multiple salespeople with different roles can be associated with a single sales document, enabling more flexible commission distribution scenarios.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008301 - Control EOS Salespersons Count - Property AboutText</note>
         </trans-unit>
         <trans-unit id="PageExtension 529248517 - Action 1150962569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
           <source>Commissions</source>
