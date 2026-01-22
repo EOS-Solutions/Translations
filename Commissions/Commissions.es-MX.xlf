@@ -123,10 +123,6 @@
           <source>cannot be greater than %1.</source>
           <target>no puede ser mayor que %1.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 4102068244 - Method 1461816314 - NamedType 3015316829" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commission lines with the "modified" flag were found in the document, but since no salesperson is present in the Ship-to address, the commissions were not updated.</source>
-          <target>Se encontraron líneas de comisión con la marca 'modificado' en el documento, pero como no hay un agente presente en la dirección de envío, las comisiones no se actualizaron.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 4102068244 - Method 1766848453 - NamedType 4279622457" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must be the same between credit memo (%2) and return order (%3)</source>
           <target>%1 debe ser el mismo entre el abono (%2) y el pedido de devolución (%3)</target>
@@ -1365,11 +1361,11 @@
         </trans-unit>
         <trans-unit id="Page 2094867818 - Control 3852983238 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the G/L account no. to use when creating purchase documents.</source>
-          <target>Especifica el número de cuenta de mayor. para usar al crear documentos de compra.</target>
+          <target>Este campo determina qué cuenta C/G se utilizará para registrar documentos de compra relacionados con comisiones. Esto permite un seguimiento financiero y generación de informes precisos de los gastos de comisiones asociados con el código motivo específico.</target>
         </trans-unit>
         <trans-unit id="Page 2094867818 - Control 802963259 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if system will create directly purchase documents instead of using settlement prospects.</source>
-          <target>Especifica si el sistema creará documentos de compra directamente en lugar de utilizar clientes potenciales de liquidación.</target>
+          <target>Cuando está habilitado, el sistema crea documentos de compra directamente durante el procesamiento de liquidación, omitiendo la etapa de prospecto de liquidación. Cuando está deshabilitado, se crean primero prospectos de liquidación, permitiendo revisar y modificar datos de comisiones antes de generar los documentos de compra finales para pago al proveedor.</target>
         </trans-unit>
         <trans-unit id="Page 2094867818 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Reason Codes (CMS)</source>
@@ -2141,7 +2137,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1026268089 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if sales network management in enabled. If not, you will be able to insert salespersons directly on customers and documents.</source>
-          <target>Especifica si la administración de red de ventas está habilitada. Si no es así, podrá insertar vendedores directamente en clientes y documentos.</target>
+          <target>Cuando está habilitado, activa la funcionalidad Red de ventas permitiendo definir estructuras jerárquicas y relaciones entre agentes. Cuando está deshabilitado, los agentes pueden asignarse directamente a clientes y documentos sin restricciones de jerarquía de red. Las redes de ventas son útiles para gestionar grupos de agentes con múltiples niveles y roles.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1181343548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allocation</source>
@@ -2149,11 +2145,11 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 134968084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies reason code related to incentives.</source>
-          <target>Especifica el código de motivo relacionado con los incentivos.</target>
+          <target>Especifica el código motivo comisión utilizado para incentivos especiales o bonificaciones pagadas a agentes. Este código permite seguimiento y procesamiento separado de comisiones basadas en incentivos, distintas de los cálculos estándar de comisiones.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1360013175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of the number series that will be used when creating settlement prospects.</source>
-          <target>Especifica el código de la serie numérica que se utilizará al crear clientes potenciales de liquidación.</target>
+          <target>Define la numeración utilizada para prospectos de liquidación. Los prospectos de liquidación son documentos preliminares creados antes de generar facturas de compra finales, permitiendo revisar y ajustar datos de comisiones antes de crear documentos de compra para pago al proveedor.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1406942772 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales</source>
@@ -2161,7 +2157,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 151744267 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the second parameter in order of importance used to calculate commissions on documents.</source>
-          <target>Especifica el segundo parámetro en orden de importancia utilizado para calcular las comisiones en los documentos.</target>
+          <target>Define el segundo parámetro de prioridad para el cálculo de comisiones. El sistema usa este parámetro si ninguna configuración de comisiones coincide con la primera prioridad. Esto crea un patrón de búsqueda jerárquico para encontrar la tasa de comisión más específica.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1570127757 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of the document class that will be used when creating settlement purchase credit memos.</source>
@@ -2193,7 +2189,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2064834118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the first parameter in order of importance used to calculate commissions on documents.</source>
-          <target>Especifica el primer parámetro en orden de importancia utilizado para calcular las comisiones en los documentos.</target>
+          <target>Define el primer parámetro (prioridad más alta) utilizado para determinar qué configuración de comisiones aplicar. El sistema verifica este parámetro primero, luego pasa a Prioridad 2 y 3 si no encuentra coincidencia. Las opciones comunes incluyen Cliente, Producto, Rol agente o Red de ventas.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2147202908 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert/Modify</source>
@@ -2213,7 +2209,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2496530713 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of the number series that will be used when creating settlement purchase credit memos.</source>
-          <target>Especifica el código de la serie numérica que se utilizará al crear abonos de compra de liquidación.</target>
+          <target>Define la numeración utilizada al generar notas crédito de compra para liquidaciones de comisiones negativas. Estas se crean cuando las comisiones necesitan revertirse o ajustarse a la baja.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2665160000 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
@@ -2225,7 +2221,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2905148671 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if salespersons on documents have to be retrieved from sell or bill customer.</source>
-          <target>Especifica si los vendedores de los documentos deben recuperarse del cliente de venta o facturación.</target>
+          <target>Determina si la información del agente en documentos de ventas debe recuperarse del Cliente de facturación o del Cliente de envío. Esto es importante cuando el cliente vendedor y el cliente de facturación son entidades diferentes, asegurando que las comisiones se asignen al agente correcto.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3026111617 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if handle cost allocation for salesperson with settlement method Invoiced.</source>
@@ -2257,7 +2253,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3289733327 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the primary salesperson role</source>
-          <target>Especifica el rol de vendedor principal</target>
+          <target>Define qué rol de agente se considera el rol principal en el sistema. El rol principal típicamente tiene la prioridad más alta en cálculos de comisiones y se usa como predeterminado cuando múltiples agentes están involucrados en una transacción.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3342573389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Commissions Calculation Date field.</source>
@@ -2285,7 +2281,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3732922845 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of the number series that will be used when creating settlement purchase invoices.</source>
-          <target>Especifica el código de la serie numérica que se utilizará al crear facturas de compra de liquidación.</target>
+          <target>Define la numeración utilizada al generar facturas de compra para liquidaciones de comisiones. Estas facturas se crean para pagar comisiones a proveedores/agentes en base a movimientos de comisiones liquidados.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3739791073 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Allocation Template Name" field.</source>
@@ -2293,7 +2289,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3752409441 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies reason code related to advance corrections.</source>
-          <target>Especifica el código de motivo relacionado con las correcciones anticipadas.</target>
+          <target>Especifica el código motivo comisión utilizado al corregir o ajustar comisiones de anticipos. Esto garantiza un tratamiento contable adecuado cuando los importes de anticipos o comisiones relacionadas necesitan modificarse o revertirse.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3771644211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
@@ -2345,7 +2341,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 6620776 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Free Gift Calc. Method" field.</source>
-          <target>Especifica el valor del campo "Método Calc. de regalo gratuito".</target>
+          <target>Define cómo se calculan las comisiones en artículos de obsequio cuando está instalada la app Obsequios ventas (SFG). Esto determina si los obsequios deben generar comisiones y cómo debe considerarse su valor en los cálculos de comisiones.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 688384879 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
@@ -2357,7 +2353,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 721514944 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies reason code related to advances.</source>
-          <target>Especifica el código de motivo relacionado con los avances.</target>
+          <target>Especifica el código motivo comisión utilizado para transacciones de anticipo/adelanto. Este código determina cómo se gestionan las comisiones sobre anticipos de clientes, incluida la asignación de cuenta C/G y si generar documentos de compra directamente.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 757193492 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if when a due date is modified on a customer ledger entry related to a settled/in settlement commission entry that is handled with "Invoiced" settlement method, user can force to proceed.</source>
@@ -2373,7 +2369,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 789440884 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the third parameter in order of importance used to calculate commissions on documents.</source>
-          <target>Especifica el tercer parámetro en orden de importancia utilizado para calcular las comisiones en los documentos.</target>
+          <target>Define el tercer parámetro (prioridad más baja) para el cálculo de comisiones. El sistema usa este parámetro si ni Prioridad 1 ni Prioridad 2 encuentran una configuración de comisiones coincidente, proporcionando una opción alternativa para la determinación de comisiones.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 90220357 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
@@ -5374,18 +5370,6 @@
         <trans-unit id="Report 2202383737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Cost Allocation (CMS)</source>
           <target>Asignación de costes de la Comisión (CMS)</target>
-        </trans-unit>
-        <trans-unit id="Report 2202383737 - ReportDataItem 3965484439 - Method 3245603402 - NamedType 3183579273" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 processed</source>
-          <target>%1 procesado</target>
-        </trans-unit>
-        <trans-unit id="Report 2202383737 - ReportDataItem 3965484439 - Method 3715240 - NamedType 2361138918" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No %1 processed</source>
-          <target>Sin %1 procesado</target>
-        </trans-unit>
-        <trans-unit id="Report 2202383737 - ReportDataItem 3965484439 - Method 3715240 - NamedType 3183579273" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 processed</source>
-          <target>%1 procesado</target>
         </trans-unit>
         <trans-unit id="Report 2836188360 - Control 1048754833 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>if true will print the single lines</source>
