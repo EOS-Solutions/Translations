@@ -1958,6 +1958,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commissions Setup - Field Enable Sales Network - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 690414911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When enabled, enables the salesperson upgrade process via Job Queue. This allows the system to automatically update salesperson data on documents and master data in the background.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commissions Setup - Field Enable SalesP. JobQueue Upg. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 690414911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Incremental Salesperson Data Upgrade</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commissions Setup - Field Enable SalesP. JobQueue Upg. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 2210355246 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enables the Salesperson Integration for MDI (Master Data Integration) purposes. This allows the system to manage Salesperson data across different tables and ensure consistency in Salesperson roles and codes.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2818,11 +2828,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Commission Event Mgt. - Method T6661_OnAftertInsertInvLineFromRetRcptLine - NamedType SalesNetworkMustBeEqualErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4102068244 - Method 2570048681 - NamedType 3015316829" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Commission lines with the "modified" flag were found in the document, but since no salesperson is present in the Ship-to address, the commissions were not updated.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Commission Event Mgt. - Method UpdateSalesPersons - NamedType ModifiedCommissionFoundForMissingSalespShiptoAddressMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3639294878 - NamedType 2016735090" size-unit="char" translate="yes" xml:space="preserve">
           <source>cannot be greater than %1.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3223,6 +3228,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 Install - NamedType Title1Txt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2995223925 - Method 2570048681 - NamedType 3015316829" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission lines with the "modified" flag were found in the document, but since no salesperson is present in the Ship-to address, the commissions were not updated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 Legacy Event Subscriber - Method UpdateSalesPersons - NamedType ModifiedCommissionFoundForMissingSalespShiptoAddressMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1072582484 - NamedType 3997739837" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error in data upgrade. \Old set %1 \New set %2. \Reference "EOS Add. Salesperson/Purchaser" %3 \Contact technical support.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3262,6 +3272,11 @@
           <source>The following apps are currently installed: %1. To speed up the upgrade, it is recommended to uninstall them. You can reinstall them after the upgrade is complete. Do you still want to proceed with the upgrade?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - Method CheckInterferences - NamedType InstalledAppQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072582484 - Method 4263140736 - NamedType 210985522" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are job queue entries for codeunit 18008325 in Running or Ready status. Please wait for them to complete or cancel them before proceeding with the upgrade.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 SalesP Upgrade - Method CheckRunningJobQueues - NamedType RunningJobsErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1072582484 - Method 2822125193 - NamedType 3581100494" size-unit="char" translate="yes" xml:space="preserve">
           <source>Creating Role-Salesperson sets ... #1########### #2################</source>
@@ -6323,11 +6338,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control Enable Sales Network - Property AboutText</note>
         </trans-unit>
-        <trans-unit id="Page 3431204148 - Control 2210355246 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enabling this will allow the Salesperson Integration for MDI (Master Data Integration) purposes. This allows the system to manage Salesperson data across different tables and ensure consistency in Salesperson roles and codes.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control Enable SalesPerson Integration - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2905148671 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
           <source>Get Salesperson From</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6403,6 +6413,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control SalespersonDataUpgrade - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 690414911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When enabled, enables the salesperson upgrade process via Job Queue. This allows the system to automatically update salesperson data on documents and master data in the background.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control Enable SalesP. JobQueue Upg. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3992564679 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "SalesPerson DataUpdate Date" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6427,6 +6442,16 @@
           <source>Salesperson Integration</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Action SalespersonIntegration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Action 487111307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the Salesperson Upgrade Status page to manage and monitor incremental upgrade progress.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Action SalespersonUpgradeStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Action 487111307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Action SalespersonUpgradeStatus - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Action 4184627849 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes a report that updates salespersons on documents.</source>
@@ -7492,6 +7517,156 @@
           <source>Please complete the Setup Wizard first!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 CMS Assisted Setup - Action Next - Method OnAction - NamedType CompleteSetupWizardLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Upgrade Status (CMS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Method 2545229017 - NamedType 3950098385" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculating upgrade status...\\Table: #1###################</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Method CalculateAllStatuses - NamedType ProgressLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Method 3173429519 - NamedType 1671506386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The new salesperson engine is not active. You cannot delete the old engine data until the new engine is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Method DeleteOldSalespersonEngineData - NamedType NewEngineNotActiveErr</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Method 3173429519 - NamedType 1752520879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all data from the old salesperson engine tables?\This action will permanently delete all records from:\- EOS Add. Salesperson/Purchaser\- EOS Add. Salesperson Archive\\This action cannot be undone.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Method DeleteOldSalespersonEngineData - NamedType DeleteConfirmQst</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Method 3173429519 - NamedType 2096576804" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Old salesperson engine data has been successfully deleted.\%1 records deleted from EOS Add. Salesperson/Purchaser.\%2 records deleted from EOS Add. Salesperson Archive.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Method DeleteOldSalespersonEngineData - NamedType DeletionCompletedMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Method 2268543826 - NamedType 195554745" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue Entry has been created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Method SetupAndOpenJobQueue - NamedType JobQueueCreatedMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Method 2268543826 - NamedType 3458930387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Object %1 is scheduled to process for 10 minutes and terminate automatically. When re-run, it continues from where it left off. Ensure that the execution is recurring and continuous, within a time window compatible with user activity and other scheduled tasks.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Method SetupAndOpenJobQueue - NamedType JobQueueInfoMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 2514050376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of records that have been processed (status = Valued). Click Calculate Status to update this value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control ProcessedRecords - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 2514050376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processed Records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control ProcessedRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 730832363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the table name that supports salesperson data upgrade.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control TableName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 730832363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control TableName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 1148175640 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total number of records in this table. Click Calculate Status to update this value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control TotalRecords - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 1148175640 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control TotalRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 1106987031 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the percentage of records that have been upgraded. Click Calculate Status to update this value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control UpgradeProgress - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 1106987031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Progress %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control UpgradeProgress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 368440546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Data Upgrade Settings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control SetupFields - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 690414911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When enabled, enables the salesperson upgrade process via Job Queue. This allows the system to automatically update salesperson data on documents and master data in the background.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control Enable SalesP. JobQueue Upg. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 690414911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Incremental Salesperson Data Upgrade</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control Enable SalesP. JobQueue Upg. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 3992564679 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "SalesPerson DataUpdate Date" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control SalesPDataUpdate Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 3992564679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SalesPerson DataUpdate Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control SalesPDataUpdate Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 1240711999 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "SalesPerson DataUpdate Status" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control SalesPDataUpdate Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 1240711999 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SalesPerson DataUpdate Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control SalesPDataUpdate Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 897643732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "SalesPerson DataUpdate User" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control SalesPDataUpdate User - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Control 897643732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SalesPerson DataUpdate User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Control SalesPDataUpdate User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4286174036 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculates the upgrade status for all tables. This operation may take a long time depending on the number of records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Action CalculateStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4286174036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Action CalculateStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 1503604820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes all data from the old salesperson engine tables (EOS Add. Salesperson/Purchaser and EOS Add. Salesperson Archive). This action requires the new salesperson engine to be active.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Action DeleteOldEngineData - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 1503604820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Old Engine Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Action DeleteOldEngineData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4271163235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates a new Job Queue Entry for the salesperson upgrade process if it does not exist, and opens the Job Queue Entry page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Action SetupJobQueue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4271163235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Job Queue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS010 Salesp Upgrade Status - Action SetupJobQueue - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 53443252 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Salesperson Import (CMS)</source>
@@ -10993,6 +11168,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008292 - Field EOS Salesperson Set ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2306130378 - Field 3191329820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008292 - Field EOS Salesperson Upgrade Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2306130378 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Salespersons Count</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11048,6 +11228,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008294 - Field EOS Salesperson Set ID - Method OnValidate - NamedType ModifiedCommissionFoundForMissingSalespShiptoAddressMsg</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3581523612 - Field 3191329820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008294 - Field EOS Salesperson Upgrade Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3581523612 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Salespersons Count</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11077,6 +11262,11 @@
           <source>Salesperson Set ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008295 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2943826995 - Field 3191329820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008295 - Field EOS Salesperson Upgrade Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2943826995 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
           <source>Salespersons Count</source>
@@ -11122,6 +11312,11 @@
           <source>Salesperson Set ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008299 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1199646167 - Field 3191329820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008299 - Field EOS Salesperson Upgrade Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1199646167 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
           <source>Salespersons Count</source>
@@ -11183,6 +11378,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008301 - Field EOS Salesperson Set ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3083069679 - Field 3191329820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008301 - Field EOS Salesperson Upgrade Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 701192234 - Field 1080730330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
           <source>Commission Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11207,6 +11407,11 @@
           <source>Salesperson Set ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008302 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 701192234 - Field 3191329820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008302 - Field EOS Salesperson Upgrade Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 63495617 - Field 1080730330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
           <source>Commission Group Code</source>
@@ -11233,6 +11438,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008303 - Field EOS Salesperson Set ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 63495617 - Field 3191329820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008303 - Field EOS Salesperson Upgrade Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1976585468 - Field 4294824369 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1187003046">
           <source>Sales Network</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11247,6 +11457,11 @@
           <source>Salesperson Set ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008304 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1976585468 - Field 3191329820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1187003046">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008304 - Field EOS Salesperson Upgrade Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1976585468 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1187003046">
           <source>Salespersons Count</source>
@@ -11278,6 +11493,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008305 - Field EOS Salesperson Set ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1338888851 - Field 3191329820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008305 - Field EOS Salesperson Upgrade Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1338888851 - Field 2704558232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
           <source>Salespersons Count</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11307,6 +11527,11 @@
           <source>Salesperson Set ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008306 - Field EOS Salesperson Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3251978702 - Field 3191329820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2903552224">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18008306 - Field EOS Salesperson Upgrade Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2614282085 - Field 1080730330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 990077888">
           <source>Commission Group Code</source>
@@ -11422,6 +11647,21 @@
           <source>Ignore duplicates</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS010 Import File Mode - EnumValue IgnoreDuplicates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 239420230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Upgrade Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS010 Salesp. Upgrade Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 239420230 - EnumValue 2009791137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Calculate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS010 Salesp. Upgrade Status - EnumValue To Calculate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 239420230 - EnumValue 734421993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valued</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS010 Salesp. Upgrade Status - EnumValue Valued - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2685077613 - EnumValue 1870587071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Add Missing</source>
