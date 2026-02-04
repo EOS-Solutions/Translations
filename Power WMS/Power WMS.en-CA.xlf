@@ -3943,6 +3943,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Setup - Field Enable Activity Stopwatch - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 200314826 - Field 1171306627 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Balancer V2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS089 WMS Setup - Field Enable Balancer V2 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 200314826 - Field 4086591002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Focus On Quantity</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6677,6 +6682,11 @@
           <source>Something went wrong balancing warehouse activity lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS Misc. Library - Method BalanceWhseActivityLines - NamedType BalanceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3097684992 - Method 4098570725 - NamedType 454293877" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Something went wrong balancing warehouse activity lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS089 WMS Misc. Library - Method BalanceWhseActivityLinesV2 - NamedType BalanceErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3097684992 - Method 3473243069 - NamedType 3696240891" size-unit="char" translate="yes" xml:space="preserve">
           <source>Something went wrong sychronizing scans between warehouse receipt and put-away</source>
@@ -11118,6 +11128,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Setup - Control Picking - Whse. Shipment Sync - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 200314826 - Control 2736884386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Activities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Setup - Control WarehouseActivities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 200314826 - Control 1171306627 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, warehouse activities line will be balanced and linked with brand new V2 engine.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS089 WMS Setup - Control Enable Balancer V2 - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 200314826 - Control 30223703 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allowed Actions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12813,10 +12833,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS089 WMS Copy User - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 745568511 - NamedType 2588663963" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy completed. %1 user(s) copied successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS089 WMS Copy User - NamedType CopyCompletedMsg</note>
+        </trans-unit>
         <trans-unit id="Report 745568511 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS089 WMS Copy User - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 745568511 - Control 795784827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, the copied users will be enabled after copying. The user must have a valid default location and journal batches.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS089 WMS Copy User - Control EnableUsersField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 745568511 - Control 795784827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Copied Users</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS089 WMS Copy User - Control EnableUsersField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 745568511 - Control 2377114814 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, existing WMS users will be deleted and recreated. All related data will be removed before copying.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS089 WMS Copy User - Control OverwriteExistingField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 745568511 - Control 2377114814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Overwrite Existing Users</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS089 WMS Copy User - Control OverwriteExistingField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 745568511 - Control 398333162 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>The employee number of the source employee.</source>
@@ -13623,6 +13668,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18060025 - Field EOS WMS Alt. View Filter - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1518165746 - Field 3824599822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2624270058">
+          <source>WMS Balanced</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18060025 - Field EOS WMS Balanced - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1518165746 - Field 349657574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2624270058">
           <source>WMS Base Unit Of Measure</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -13652,6 +13702,11 @@
           <source>WMS Last Splitted Line No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18060025 - Field EOS WMS Last Splitted Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1518165746 - Field 3279383443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2624270058">
+          <source>WMS Linked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18060025 - Field EOS WMS Linked - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1518165746 - Field 1238505572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2624270058">
           <source>WMS Original Line No.</source>
