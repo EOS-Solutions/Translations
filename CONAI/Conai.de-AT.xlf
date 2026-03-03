@@ -55,9 +55,9 @@
           <source>Document %1 %2 has already been posted. Only changes to %3 will be saved.\Continue?</source>
           <target>Der Beleg %1 %2 wurde bereits gebucht. Nur Änderungen in %3 werden gespeichert.\Fortfahren?</target>
         </trans-unit>
-        <trans-unit id="Codeunit 490782907 - NamedType 2928206014" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document %1 %2 requires CONAI detail before post.</source>
-          <target>Das Dokument %1 %2 verlangt die Berechnung vom CONAI vor der Buchung.</target>
+        <trans-unit id="Codeunit 490782907 - NamedType 1889162016" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document %1 %2 Line No. %3 (Material Code %4) requires CONAI detail before post.</source>
+          <target>Das Dokument %1 %2 Zeilennr. %3 (Materialcode %4) verlangt die Berechnung vom CONAI vor der Buchung.</target>
         </trans-unit>
         <trans-unit id="Codeunit 490782907 - NamedType 3879255802" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document not specified.</source>
@@ -1329,7 +1329,7 @@
         </trans-unit>
         <trans-unit id="Table 3641692506 - Field 3897282080 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Validity Dates on Packaging lines</source>
-          <target>Gültigkeitsdaten für Verpackungspositionen aktivieren</target>
+          <target>Validierungsdaten auf Verpackungslinien aktivieren</target>
         </trans-unit>
         <trans-unit id="Table 3641692506 - Field 3976846932 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>1 Item / 1 Package</source>
@@ -1534,6 +1534,18 @@
         <trans-unit id="PageExtension 1537507884 - Control 3489961555 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CONAI</source>
           <target>CONAI</target>
+        </trans-unit>
+        <trans-unit id="Table 3641692506 - Field 1762246127 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exclude Zero Amount Lines</source>
+          <target>Nullbetragzeilen ausschließen</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2119196145 - NamedType 2599441456" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trial subscription for CONAI found!</source>
+          <target>Testabonnement für CONAI gefunden!</target>
+        </trans-unit>
+        <trans-unit id="Page 3641692506 - Control 1762246127 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exclude in the document lines the Conai lines with a contribution amount equal to zero.</source>
+          <target>Schließt in den Dokumentzeilen die Conai-Zeilen mit einem Beitragsbetrag von null aus.</target>
         </trans-unit>
       </group>
     </body>
