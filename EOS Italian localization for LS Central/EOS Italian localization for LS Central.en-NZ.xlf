@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="en-GB" original="EOS LS Retail for Italy">
+  <file datatype="xml" source-language="en-US" target-language="en-NZ" original="EOS Italian localization for LS Central">
     <body>
       <group id="body">
         <trans-unit id="Table 806636124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -938,6 +938,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS077 Auto Inventory Adjmt. - Method CheckStockUnder0FromTransSalesEntry - NamedType TransferLotSerialUnder0Err</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3016379192 - Method 1059292283 - NamedType 1551922804" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 %2 is not in inventory.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS077 Auto Inventory Adjmt. - Method OnBeforeCheckItemInInventory_CustomMessage - NamedType NotInInventory</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3016379192 - Method 2209442157 - NamedType 2012558403" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have insufficient quantity of Item %1 %2 on inventory.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS077 Auto Inventory Adjmt. - Method OnBeforeVerifyOnInventory_CustomMessage - NamedType IsNotOnInventoryErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 864269604 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
           <source>There are %1 unresolved serial numbers attached to this statement. They must be resolved before the statement can be posted.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1427,6 +1437,16 @@
           <source>Select deferred payment tender type customer %1 %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS077 Invoice/Cr. Memo Mgmt. - Method CheckTenderTypeIsAllowed - NamedType WrongTenderTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1139492129 - Method 490099340 - NamedType 1780996697" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tender type %1 is blocked for invoicing/credit memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS077 Invoice/Cr. Memo Mgmt. - Method CheckTenderTypeIsAllowed - NamedType BlockedForInvoiceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1139492129 - Method 490099340 - NamedType 97676079" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tender type %1 is blocked for invoicing/credit memo. Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS077 Invoice/Cr. Memo Mgmt. - Method CheckTenderTypeIsAllowed - NamedType BlockedForInvoiceContinueQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 1139492129 - Method 621864645 - NamedType 2923523632" size-unit="char" translate="yes" xml:space="preserve">
           <source>Created Cr. Memo No. %1</source>
@@ -1957,6 +1977,66 @@
           <source>Web Server URI is Missing for Request %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS077LSCSendTransactionUtils - Method SendRequest - NamedType URIMissingTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 736402001 - NamedType 3896690026" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 not found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCGetMemberContactUtil - NamedType ObjectNotFound</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 736402001 - Method 3570553252 - NamedType 2630252876" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Card number, Account and Contact numbers, Login ID or Email is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCGetMemberContactUtil - Method RunRequest - NamedType FieldsRequired</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 736402001 - Method 3212637975 - NamedType 738856926" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web Server URI is Missing for Request %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCGetMemberContactUtil - Method SendRequest - NamedType URIMissingTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1338749469 - Method 3570553252 - NamedType 2417788628" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact information missing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCMMContactUpdateUtils - Method RunRequest - NamedType ContactInfoIsMissingTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1338749469 - Method 3570553252 - NamedType 4222656744" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 missing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCMMContactUpdateUtils - Method RunRequest - NamedType SomethingMissing</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1338749469 - Method 3570553252 - NamedType 281530629" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 not found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCMMContactUpdateUtils - Method RunRequest - NamedType SomethingNotFound</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1338749469 - Method 3570553252 - NamedType 258473107" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email address is invalid.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCMMContactUpdateUtils - Method RunRequest - NamedType EmailAddressIsInvalid</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1338749469 - Method 3570553252 - NamedType 4248991775" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error, member contact with mobile phone %1 already exists. Search the contact by mobile phone no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCMMContactUpdateUtils - Method RunRequest - NamedType MobilePhoneNoExists</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1338749469 - Method 3570553252 - NamedType 4173928636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error, member contact with mail address %1 already exists. Search the contact by email address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCMMContactUpdateUtils - Method RunRequest - NamedType MailNoExists</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1338749469 - Method 3570553252 - NamedType 662013150" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to modify in table %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCMMContactUpdateUtils - Method RunRequest - NamedType UnableToModifyError</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1338749469 - Method 3570553252 - NamedType 3166200292" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is mandatory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCMMContactUpdateUtils - Method RunRequest - NamedType FieldMandatoryErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1338749469 - Method 3212637975 - NamedType 738856926" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web Server URI is Missing for Request %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOSLSCMMContactUpdateUtils - Method SendRequest - NamedType URIMissingTxt</note>
         </trans-unit>
         <trans-unit id="Page 2173912243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Category Selection</source>
@@ -3668,10 +3748,20 @@
           <note from="Developer" annotates="general" priority="2">ITA = Tipo arrotondamento eccesso</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18091496 - Field EOS Trans. Over Rounding Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1508063280 - Field 3558502486 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3152841661">
+          <source>Trans. Over Rounding Code</source>
+          <note from="Developer" annotates="general" priority="2">ITA = "Cod. arrotondamento eccesso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18091496 - Field EOS Trans. Rounding Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1508063280 - Field 2907722700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3152841661">
           <source>Trans. Rounding Method</source>
           <note from="Developer" annotates="general" priority="2">ITA = "Metodo di arrotondamento"</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18091496 - Field EOS Trans. Rounding Method - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1508063280 - Field 3170822881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3152841661">
+          <source>Trans. Over Rounding Type</source>
+          <note from="Developer" annotates="general" priority="2">ITA = Tipo arrotondamento eccesso</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18091496 - Field EOS Trans. Rounding Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1508063280 - Field 1435301093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3152841661">
           <source>Trans. Under Rounding Code</source>
@@ -4533,6 +4623,16 @@
           <note from="Developer" annotates="general" priority="2">ITA = "Richiesta conferma"</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18091522 - Field EOS Ask for Confirmation - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 481435878 - Field 958557050 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1316329620">
+          <source>Block in Invoice</source>
+          <note from="Developer" annotates="general" priority="2">ITA = "Blocca in fattura"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18091522 - Field EOS Block in Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 481435878 - Field 57647421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1316329620">
+          <source>Block Message Type</source>
+          <note from="Developer" annotates="general" priority="2">ITA = "Tipo messaggio blocco"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18091522 - Field EOS Block Message Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 481435878 - Field 415018090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1316329620">
           <source>Fiscal ID</source>
           <note from="Developer" annotates="general" priority="2">ITA = "ID fiscale"</note>
@@ -5133,6 +5233,41 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091480 - EnumValue EOS077LSCSendTransaction - Property Caption</note>
         </trans-unit>
+        <trans-unit id="EnumExtension 2976978482 - EnumValue 4119949279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2182450734">
+          <source>EOS077LSCCreateCustomer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091480 - EnumValue EOSLSCCreateCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2976978482 - EnumValue 670953849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2182450734">
+          <source>EOS077LSCGetCustomer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091480 - EnumValue EOSLSCGetCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2976978482 - EnumValue 2356578245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2182450734">
+          <source>EOS077LSCGetMemberContact</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091480 - EnumValue EOSLSCGetMemberContact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2976978482 - EnumValue 3883396582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2182450734">
+          <source>EOS077LSCGetMMInfoForPos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091480 - EnumValue EOSLSCGetMMInfoForPos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2976978482 - EnumValue 4069766025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2182450734">
+          <source>EOS077LSCGetTransaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091480 - EnumValue EOSLSCGetTransaction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2976978482 - EnumValue 364853984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2182450734">
+          <source>EOS077LSCMemberContactUpd</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091480 - EnumValue EOSLSCMemberContactUpd - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2976978482 - EnumValue 220481247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2182450734">
+          <source>EOS077LSCSendTransaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091480 - EnumValue EOSLSCSendTransaction - Property Caption</note>
+        </trans-unit>
         <trans-unit id="EnumExtension 2339281865 - EnumValue 2950271223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3213223859">
           <source>EOS077LSCCreateCustomer</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5167,6 +5302,41 @@
           <source>EOS077LSCSendTransaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091481 - EnumValue EOS077LSCSendTransaction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2339281865 - EnumValue 4119949279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3213223859">
+          <source>EOS077LSCCreateCustomer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091481 - EnumValue EOSLSCCreateCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2339281865 - EnumValue 670953849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3213223859">
+          <source>EOS077LSCGetCustomer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091481 - EnumValue EOSLSCGetCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2339281865 - EnumValue 2356578245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3213223859">
+          <source>EOS077LSCGetMemberContact</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091481 - EnumValue EOSLSCGetMemberContact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2339281865 - EnumValue 3883396582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3213223859">
+          <source>EOS077LSCGetMMInfoForPos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091481 - EnumValue EOSLSCGetMMInfoForPos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2339281865 - EnumValue 4069766025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3213223859">
+          <source>EOS077LSCGetTransaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091481 - EnumValue EOSLSCGetTransaction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2339281865 - EnumValue 364853984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3213223859">
+          <source>EOS077LSCMemberContactUpd</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091481 - EnumValue EOSLSCMemberContactUpd - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2339281865 - EnumValue 220481247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3213223859">
+          <source>EOS077LSCSendTransaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18091481 - EnumValue EOSLSCSendTransaction - Property Caption</note>
         </trans-unit>
         <trans-unit id="EnumExtension 1701585248 - EnumValue 470229596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1254124513">
           <source>POPUPREDEXPPAMOUNT</source>
