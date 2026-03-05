@@ -5,11 +5,11 @@
       <group id="body">
         <trans-unit id="Codeunit 1424334092 - Method 2210109582 - NamedType 3208509719" translate="yes" size-unit="char" xml:space="preserve">
           <source>The document has already been assigned to a specific no. serie. Proceed anyway? No. series won't be updated.</source>
-          <target>Das Dokument wurde bereits einem bestimmten Nein zugewiesen. Serie. Gehen Sie trotzdem vor? Nein. Serie wird nicht aktualisiert.</target>
+          <target>Das Dokument wurde bereits einer bestimmten Nummernserie zugewiesen. Möchten Sie fortfahren? Die Nummernserie wird nicht aktualisiert.</target>
         </trans-unit>
         <trans-unit id="Codeunit 2719645115 - Method 604636907 - NamedType 1603347576" translate="yes" size-unit="char" xml:space="preserve">
           <source>The %1 on the %2 %3 and the %4 %5 %6 %7 must be the same.</source>
-          <target>Der %1 in %2 %3 und in %4 %% %6 %7 müssen gleich sein.</target>
+          <target>Der %1 in %2 %3 und in %4 %5 %6 %7 müssen gleich sein.</target>
         </trans-unit>
         <trans-unit id="Codeunit 2719645115 - NamedType 3416514397" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to duplicate %1 %2?</source>
@@ -25,7 +25,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2719645115 - NamedType 493971265" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to archive the selected records?</source>
-          <target>Wollen Sie die ausgewählten Datesnätze archivieren?</target>
+          <target>Wollen Sie die ausgewählten Datensätze archivieren?</target>
         </trans-unit>
         <trans-unit id="Codeunit 2828338927 - NamedType 3378070257" translate="yes" size-unit="char" xml:space="preserve">
           <source>Approval of a Purch Req. is requested.</source>
@@ -53,23 +53,23 @@
         </trans-unit>
         <trans-unit id="Enum 2051391961 - EnumValue 4259830144 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open</source>
-          <target>Öffnen</target>
+          <target>Offen</target>
         </trans-unit>
         <trans-unit id="Enum 2051391961 - EnumValue 460653759 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Awaiting Approval</source>
-          <target>Warten auf Genehmigung</target>
+          <target>Genehmigung ausstehend</target>
         </trans-unit>
         <trans-unit id="Enum 2732071576 - EnumValue 3020382394 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Always Close Request</source>
-          <target>Immer schließen</target>
+          <target>Anforderung immer schließen</target>
         </trans-unit>
         <trans-unit id="Enum 2732071576 - EnumValue 336694925 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ask Confirm</source>
-          <target>Bestätigen</target>
+          <target>Bestätigung anfordern</target>
         </trans-unit>
         <trans-unit id="Enum 2744187928 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Comment</source>
-          <target>Bemerkung</target>
+          <target>Kommentar</target>
         </trans-unit>
         <trans-unit id="Enum 2744187928 - EnumValue 3276313895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item</source>
@@ -93,11 +93,11 @@
         </trans-unit>
         <trans-unit id="Enum 305830437 - EnumValue 3702499555 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Always</source>
-          <target>Ständig</target>
+          <target>Immer</target>
         </trans-unit>
         <trans-unit id="Enum 305830437 - EnumValue 374497366 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Never</source>
-          <target>Never</target>
+          <target>Niemals</target>
         </trans-unit>
         <trans-unit id="Enum 3597139768 - EnumValue 2054410249 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>All Items</source>
@@ -109,7 +109,7 @@
         </trans-unit>
         <trans-unit id="Enum 3597139768 - EnumValue 890331661 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>In Vendor's Catalog</source>
-          <target>Mit Kreditor auf Artikel</target>
+          <target>Im Katalog des Lieferanten</target>
         </trans-unit>
         <trans-unit id="Page 1015902250 - Control 1174758285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Create Document" field</source>
@@ -117,7 +117,7 @@
         </trans-unit>
         <trans-unit id="Page 1015902250 - Control 1527594213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Vendor No." field</source>
-          <target>Gibt den Wert des Felds "Kreditoren-Nr." an</target>
+          <target>Gibt den Wert des Felds "Lieferanten-Nr." an</target>
         </trans-unit>
         <trans-unit id="Page 1015902250 - Control 1979112634 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies what items to consider when creating the purchase document.</source>
@@ -125,7 +125,7 @@
         </trans-unit>
         <trans-unit id="Page 1015902250 - Control 2328839177 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of items on the PRQ for this vendor.</source>
-          <target>Gibt die Anzahl der Artikel im PRQ für diesen Kreditor an.</target>
+          <target>Gibt die Anzahl der Artikel in der Einkaufsanfrage für diesen Lieferanten an.</target>
         </trans-unit>
         <trans-unit id="Page 1015902250 - Control 2515859609 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Last Invoice Date" field</source>
@@ -133,7 +133,7 @@
         </trans-unit>
         <trans-unit id="Page 1015902250 - Control 2930636140 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of items on the PRQ that are in this vendor's catalog.</source>
-          <target>Gibt die Anzahl der Artikel im PRQ an, die sich im Katalog dieses Kreditors befinden.</target>
+          <target>Gibt die Anzahl der Artikel in der Einkaufsanfrage an, die sich im Katalog dieses Lieferanten befinden.</target>
         </trans-unit>
         <trans-unit id="Page 1015902250 - Control 3119688693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Vendor Name" field</source>
@@ -153,7 +153,7 @@
         </trans-unit>
         <trans-unit id="Page 1015902250 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purch. Req. Multi Vendor List</source>
-          <target>Einkaufsanforderungs Multi Kreditoren Liste</target>
+          <target>Einkaufsanfrage - Multi-Lieferantenliste</target>
         </trans-unit>
         <trans-unit id="Page 1134474633 - Control 1003760969 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value for the "Shortcut Dimension 2 Code" field.</source>
@@ -165,7 +165,7 @@
         </trans-unit>
         <trans-unit id="Page 1134474633 - Control 1527594213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value for the "Vendor No." field.</source>
-          <target>Gibt den Wert für das Feld "Kreditor Nr." an.</target>
+          <target>Gibt den Wert für das Feld "Lieferanten-Nr." an.</target>
         </trans-unit>
         <trans-unit id="Page 1134474633 - Control 1577567912 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value for the "Shortcut Dimension 1 Code" field.</source>
@@ -293,7 +293,7 @@
         </trans-unit>
         <trans-unit id="Page 14040092 - Control 2261658974 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies no. of documents for this class. This is a navigable field.</source>
-          <target>Gibt nein an. von Dokumenten für diese Klasse. Dies ist ein schiffbares Feld.</target>
+          <target>Gibt die Anzahl der Dokumente für diese Klasse an. Dies ist ein navigierbares Feld.</target>
         </trans-unit>
         <trans-unit id="Page 14040092 - Control 2295453870 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. Series</source>
@@ -305,7 +305,7 @@
         </trans-unit>
         <trans-unit id="Page 14040092 - Control 2794182917 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies document no. series of this class. New documents will be created with this number.</source>
-          <target>Gibt dokument Nr. an. Reihen dieser Klasse. Mit dieser Nummer werden neue Dokumente erstellt.</target>
+          <target>Gibt die Dokumentnummernreihe für diese Klasse an. Mit dieser Nummer werden neue Dokumente erstellt.</target>
         </trans-unit>
         <trans-unit id="Page 14040092 - Control 3267935963 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies default class code for a new order created from a purchase request.</source>
@@ -541,11 +541,11 @@
         </trans-unit>
         <trans-unit id="Page 1869100425 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purch. Request Info List</source>
-          <target>Purch. Infoliste anfordern</target>
+          <target>Einkaufsanfrage-Infoliste</target>
         </trans-unit>
         <trans-unit id="Page 1918555469 - Control 1319178771 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value for the "Vendor Name 2" field.</source>
-          <target>Gibt den Wert für das Feld "Kreditorenname 2" an.</target>
+          <target>Gibt den Wert für das Feld "Lieferantenname 2" an.</target>
         </trans-unit>
         <trans-unit id="Page 1918555469 - Control 1407200743 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value for the "Creation Date" field.</source>
@@ -777,11 +777,11 @@
         </trans-unit>
         <trans-unit id="Page 2112528834 - Control 2261658974 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies no. of documents for this class. This is a navigable field.</source>
-          <target>Gibt nein an. von Dokumenten für diese Klasse. Dies ist ein schiffbares Feld.</target>
+          <target>Gibt die Anzahl der Dokumente für diese Klasse an. Dies ist ein navigierbares Feld.</target>
         </trans-unit>
         <trans-unit id="Page 2112528834 - Control 2794182917 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies document no. series of this class. New documents will be created with this number.</source>
-          <target>Gibt dokument Nr. an. Reihen dieser Klasse. Mit dieser Nummer werden neue Dokumente erstellt.</target>
+          <target>Gibt die Dokumentnummernreihe für diese Klasse an. Mit dieser Nummer werden neue Dokumente erstellt.</target>
         </trans-unit>
         <trans-unit id="Page 2112528834 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies description of this class.</source>
@@ -801,7 +801,7 @@
         </trans-unit>
         <trans-unit id="Page 2112528834 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purch. Request Document Class List (PRQ)</source>
-          <target>Dokumentklassenliste (PRQ)</target>
+          <target>Dokumentklasse - Einkaufsanfrageliste (PRQ)</target>
         </trans-unit>
         <trans-unit id="Page 2151778819 - Action 1002420131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print</source>
@@ -825,7 +825,7 @@
         </trans-unit>
         <trans-unit id="Page 2151778819 - Action 2084617619 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Create Purch. Document" action</source>
-          <target>Führt die Option "Kauf erstellen. Aktion "Dokument"</target>
+          <target>Führt die Aktion 'EK-Beleg erstellen' aus</target>
         </trans-unit>
         <trans-unit id="Page 2151778819 - Action 2084617619 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Purch. Document</source>
@@ -1197,15 +1197,15 @@
         </trans-unit>
         <trans-unit id="Page 3557348540 - Control 1300919661 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Invoice No.</source>
-          <target>ANZAHL</target>
+          <target>Rechnungs-Nr.</target>
         </trans-unit>
         <trans-unit id="Page 3557348540 - Control 1934108101 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Max Disc. Cost" field</source>
-          <target>Gibt den Wert des Felds "Max Disc. Cost" an</target>
+          <target>Gibt den Wert des Feldes 'Max. Rabattbetrag' an</target>
         </trans-unit>
         <trans-unit id="Page 3557348540 - Control 1934108101 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Max Disc. Cost</source>
-          <target>Max. Disc. Kosten</target>
+          <target>Max. Rabattbetrag</target>
         </trans-unit>
         <trans-unit id="Page 3557348540 - Control 2823832074 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Min Cost" field</source>
@@ -1249,7 +1249,7 @@
         </trans-unit>
         <trans-unit id="Page 3557348540 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purch. Request Info Factbox</source>
-          <target>Purch. Info Factbox anfordern</target>
+          <target>Einkaufsanfrage-Info Infokasten</target>
         </trans-unit>
         <trans-unit id="Page 3894193984 - Action 1107476520 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open the document that the selected line exists on.</source>
@@ -1357,7 +1357,7 @@
         </trans-unit>
         <trans-unit id="Page 3894193984 - Control 2808045203 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Purch. Request No." field.</source>
-          <target>Gibt den Wert von "Purch. Request No." -Feld.</target>
+          <target>Gibt den Wert des Feldes 'Einkaufsanfrage-Nr.' an.</target>
         </trans-unit>
         <trans-unit id="Page 3894193984 - Control 2903269170 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Vendor Item No." field.</source>
@@ -2045,11 +2045,11 @@
         </trans-unit>
         <trans-unit id="PageExtension 150529215 - Control 1017838918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Purch. Req. Line No." field</source>
-          <target>Gibt den Wert von "Purch. Feld "Erforderliche Zeilennummer"</target>
+          <target>Gibt den Wert des Feldes 'Einkaufsanfrage-Zeilennr.' an</target>
         </trans-unit>
         <trans-unit id="PageExtension 150529215 - Control 825272376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Purch. Req. No." field</source>
-          <target>Gibt den Wert von "Purch. Req. No." Feld</target>
+          <target>Gibt den Wert des Feldes 'Einkaufsanfrage-Nr.' an</target>
         </trans-unit>
         <trans-unit id="PageExtension 1827041145 - Control 2008535534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Requests</source>
@@ -2061,7 +2061,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2084651965 - Action 1056184130 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Get Purch. Request Lines" action</source>
-          <target>Führt die Option "Get Purch. "Zeilen anfordern"-Aktion</target>
+          <target>Führt die Aktion 'Einkaufsanfrage-Zeilen holen' aus</target>
         </trans-unit>
         <trans-unit id="PageExtension 2084651965 - Action 1056184130 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Get Purch. Request Lines</source>
@@ -2085,11 +2085,11 @@
         </trans-unit>
         <trans-unit id="PageExtension 2407632287 - Control 1017838918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Purch. Req. Line No." field</source>
-          <target>Gibt den Wert von "Purch. Feld "Erforderliche Zeilennummer"</target>
+          <target>Gibt den Wert des Feldes 'Einkaufsanfrage-Zeilennr.' an</target>
         </trans-unit>
         <trans-unit id="PageExtension 2407632287 - Control 825272376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Purch. Req. No." field</source>
-          <target>Gibt den Wert von "Purch. Req. No." Feld</target>
+          <target>Gibt den Wert des Feldes 'Einkaufsanfrage-Nr.' an</target>
         </trans-unit>
         <trans-unit id="PageExtension 2464737762 - Control 2008535534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Requests</source>
@@ -2129,11 +2129,11 @@
         </trans-unit>
         <trans-unit id="PageExtension 488347261 - Control 1017838918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Purch. Req. Line No." field</source>
-          <target>Gibt den Wert von "Purch. Feld "Erforderliche Zeilennummer"</target>
+          <target>Gibt den Wert des Feldes 'Einkaufsanfrage-Zeilennr.' an</target>
         </trans-unit>
         <trans-unit id="PageExtension 488347261 - Control 825272376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Purch. Req. No." field</source>
-          <target>Gibt den Wert von "Purch. Req. No." Feld</target>
+          <target>Gibt den Wert des Feldes 'Einkaufsanfrage-Nr.' an</target>
         </trans-unit>
         <trans-unit id="PageExtension 551647911 - Control 2008535534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Requests</source>
@@ -2149,7 +2149,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 773444705 - Control 1461271506 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "PRQ Amount Approval Limit" field</source>
-          <target>Gibt den Wert des Feldes "PRQ Amount Approval Limit" an</target>
+          <target>Gibt den Wert des Feldes 'PRQ-Betrag-Genehmigungslimit' an</target>
         </trans-unit>
         <trans-unit id="PageExtension 773444705 - Control 1696416121 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "PRQ Administrator" field</source>
@@ -2157,15 +2157,15 @@
         </trans-unit>
         <trans-unit id="PageExtension 788225832 - Control 1017838918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Purch. Req. Line No." field</source>
-          <target>Gibt den Wert von "Purch. Feld "Erforderliche Zeilennummer"</target>
+          <target>Gibt den Wert des Feldes 'Einkaufsanfrage-Zeilennr.' an</target>
         </trans-unit>
         <trans-unit id="PageExtension 788225832 - Control 825272376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Purch. Req. No." field</source>
-          <target>Gibt den Wert von "Purch. Req. No." Feld</target>
+          <target>Gibt den Wert des Feldes 'Einkaufsanfrage-Nr.' an</target>
         </trans-unit>
         <trans-unit id="PageExtension 884105733 - Action 1056184130 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Get Purch. Request Lines" action</source>
-          <target>Führt die Option "Get Purch. "Zeilen anfordern"-Aktion</target>
+          <target>Führt die Aktion 'Einkaufsanfrage-Zeilen holen' aus</target>
         </trans-unit>
         <trans-unit id="PageExtension 884105733 - Action 1056184130 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Get Purch. Request Lines</source>
@@ -3911,25 +3911,409 @@
           <source>Specifies if purchase requests should be deleted when they are archived.</source>
           <target>Gibt an, ob Bestellungen gelöscht werden sollen, wenn sie archiviert werden.</target>
         </trans-unit>
-        <trans-unit id="Page 3973948781 - Action 3860314472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Approvals</source>
-          <target>Genehmigungen</target>
+        <trans-unit id="Page 3973948781 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>About purchase request details</source>
+          <target>Zu Details zur Kaufanfrage</target>
         </trans-unit>
-        <trans-unit id="Page 3973948781 - Action 3860314472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.</source>
-          <target>Zeigt eine Liste der Datensätze an, die noch genehmigt werden müssen. Beispielsweise wird angezeigt, wer die Genehmigung des Datensatzes angefordert hat, wann er gesendet wurde und bis wann er genehmigt sein muss.</target>
+        <trans-unit id="Codeunit 2713682631 - Method 4060470554 - NamedType 1182413170" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set up Purchase Request (PRQ)</source>
+          <target>Einrichten der Kaufanfrage (PRQ)</target>
         </trans-unit>
-        <trans-unit id="Page 2151778819 - Action 3860314472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.</source>
-          <target>Zeigt eine Liste der Datensätze an, die noch genehmigt werden müssen. Beispielsweise wird angezeigt, wer die Genehmigung des Datensatzes angefordert hat, wann er gesendet wurde und bis wann er genehmigt sein muss.</target>
+        <trans-unit id="Codeunit 2713682631 - Method 4060470554 - NamedType 903502523" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set up Purchase Request (PRQ)</source>
+          <target>Einrichten der Kaufanfrage (PRQ)</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2713682631 - Method 4060470554 - NamedType 2270306401" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Follow along this guide to set up the Purchase Request app.</source>
+          <target>Folgen Sie diesem Leitfaden, um die Purchase Request-App einzurichten.</target>
+        </trans-unit>
+        <trans-unit id="Page 3973948781 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fill in the header with a description, vendor, and location. Add request lines below. Once ready, change the status to **Approved** or send it for approval.</source>
+          <target>Füllen Sie den Header mit einer Beschreibung, einem Anbieter und einem Ort aus. Fügen Sie unten Wünschezeilen hinzu. Wenn es fertig ist, ändere den Status auf **Genehmigt** oder schicke es zur Genehmigung.</target>
+        </trans-unit>
+        <trans-unit id="Page 3973948781 - Control 513339096 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The status controls editability: *Open* means editable, *Approved* means ready to convert into a purchase document, *Closed* means a document was already created.</source>
+          <target>Der Status steuert die Bearbeitungsfähigkeit: *Offen* bedeutet bearbeitbar, *Genehmigt* bedeutet bereit, in ein Kaufdokument umgewandelt zu werden, *Geschlossen* bedeutet, dass bereits ein Dokument erstellt wurde.</target>
+        </trans-unit>
+        <trans-unit id="Page 3973948781 - Control 513339096 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>About the request status</source>
+          <target>Zum Status der Anfrage</target>
+        </trans-unit>
+        <trans-unit id="Page 3973948781 - Action 2084617619 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create a purchase document</source>
+          <target>Erstellen Sie ein Kaufdokument</target>
+        </trans-unit>
+        <trans-unit id="Page 3973948781 - Action 2084617619 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Converts this purchase request into a purchase order or quote. You can preview vendors and choose which items to include.</source>
+          <target>Wandelt diese Kaufanfrage in eine Bestellung oder ein Angebot um. Du kannst Händler vorschauen und auswählen, welche Gegenstände du einbauen möchtest.</target>
+        </trans-unit>
+        <trans-unit id="Page 3973948781 - Action 3862320497 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Duplicate a request</source>
+          <target>Dupliziere eine Anfrage</target>
+        </trans-unit>
+        <trans-unit id="Page 2707712963 - Control 4200184881 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item or account number</source>
+          <target>Post- oder Kontonummer</target>
+        </trans-unit>
+        <trans-unit id="Page 2707712963 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>About purchase request lines</source>
+          <target>Über Kaufanfragen</target>
+        </trans-unit>
+        <trans-unit id="Page 2151778819 - Action 2084617619 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>When to create a purchase document</source>
+          <target>Wann man ein Kaufdokument erstellt</target>
+        </trans-unit>
+        <trans-unit id="Page 2707712963 - Control 1878130204 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select the line type</source>
+          <target>Wählen Sie den Zeilentyp</target>
+        </trans-unit>
+        <trans-unit id="Page 2151778819 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>About purchase requests</source>
+          <target>Über Kaufanfragen</target>
+        </trans-unit>
+        <trans-unit id="Page 2707712963 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Add the goods or services you need. You can enter descriptive lines even if you do not know the item code yet.</source>
+          <target>Fügen Sie die benötigten Waren oder Dienstleistungen hinzu. Du kannst beschreibende Zeilen eingeben, auch wenn du den Artikelcode noch nicht kennst.</target>
+        </trans-unit>
+        <trans-unit id="Page 2707712963 - Control 4200184881 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select the item or G/L account for this line. If a vendor is set on the header, it will be copied to the line automatically.</source>
+          <target>Wählen Sie den Artikel oder das G/L-Konto für diese Zeile aus. Wenn ein Anbieter im Header gesetzt ist, wird er automatisch in die Zeile kopiert.</target>
+        </trans-unit>
+        <trans-unit id="Page 2151778819 - Action 2084617619 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>After approving one or more requests, create purchase orders or quotes directly. The system groups lines by vendor automatically.</source>
+          <target>Nachdem Sie eine oder mehrere Anfragen genehmigt haben, erstellen Sie direkt Bestellungen oder Angebote. Das System gruppiert Zeilen automatisch nach Anbietern.</target>
+        </trans-unit>
+        <trans-unit id="Page 3973948781 - Action 3862320497 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creates a copy of this purchase request, which you can then modify independently. Useful for recurring purchase needs.</source>
+          <target>Erstellt eine Kopie dieser Kaufanfrage, die Sie dann unabhängig bearbeiten können. Nützlich für wiederkehrende Käufe.</target>
+        </trans-unit>
+        <trans-unit id="Page 2151778819 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase requests appear here until a purchase document is created from them. You can create orders or quotes, duplicate, and archive requests directly from this list.</source>
+          <target>Kaufanfragen erscheinen hier, bis daraus ein Kaufdokument erstellt wurde. Sie können Bestellungen oder Angebote erstellen, Anträge duplizieren und direkt aus dieser Liste archivieren.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - NamedType 849289934" translate="yes" size-unit="char" xml:space="preserve">
+          <source>🎥 Watch a product demo</source>
+          <target>🎥 Sehen Sie sich eine Produktdemo an</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - NamedType 3285672655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>📋 Open Purchase Requests list</source>
+          <target>📋 Liste offener Kaufanfragen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - NamedType 1079305107" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Please specify a number series for purchase requests before continuing.</source>
+          <target>Bitte geben Sie eine Nummernreihe für Kaufanfragen an, bevor Sie fortfahren.</target>
+        </trans-unit>
+        <trans-unit id="Page 2707712963 - Control 1878130204 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose **Item**, **G/L Account**, or leave blank for a descriptive comment line. You can change the type later without losing other line data.</source>
+          <target>Wählen Sie **Artikel**, **G/L Account** oder lassen Sie eine beschreibende Kommentarzeile leer. Du kannst den Typ später ändern, ohne andere Leitungsdaten zu verlieren.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - NamedType 4042534191" translate="yes" size-unit="char" xml:space="preserve">
+          <source>👤 Open Approval User Setup</source>
+          <target>👤 Offene Genehmigungsbenutzer-Einrichtung</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Request Setup Wizard</source>
+          <target>Einstellungsassistent für Kaufanfragen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - NamedType 2847157583" translate="yes" size-unit="char" xml:space="preserve">
+          <source>📖 Read the documentation guide</source>
+          <target>📖 Lesen Sie die Dokumentation</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - NamedType 2834170692" translate="yes" size-unit="char" xml:space="preserve">
+          <source>⚙️ Open advanced setup page</source>
+          <target>⚙️ Erweiterte Einrichtungsseite öffnen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2699463237 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Configure Administrators</source>
+          <target>Administratoren konfigurieren</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1980428455 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open the Approval User Setup page to designate PRQ administrators and set approval limits.</source>
+          <target>Öffnen Sie die Seite zur Einrichtung des Genehmigungsbenutzers, um PRQ-Administratoren zu benennen und Genehmigungsgrenzen festzulegen.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - NamedType 2518125934" translate="yes" size-unit="char" xml:space="preserve">
+          <source>📚 View complete documentation</source>
+          <target>📚 Vollständige Dokumentation ansehen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - NamedType 2760722073" translate="yes" size-unit="char" xml:space="preserve">
+          <source>🎬 Watch the tutorial video</source>
+          <target>🎬 Sieh dir das Tutorial-Video an</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1871589007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PRQ Administrator Setup</source>
+          <target>PRQ-Administrator-Einrichtung</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 270439943 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open the complete setup page for advanced configuration.</source>
+          <target>Öffnen Sie die vollständige Einrichtungsseite für die erweiterte Konfiguration.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1051319079 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Tip</source>
+          <target>Tipp</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1225405944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>• Basic users can only see their own purchase requests (My Purchase Requests)</source>
+          <target>• Grundlegende Nutzer können nur ihre eigenen Kaufanfragen sehen (Meine Kaufwünsche)</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 714853229 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>How It Works</source>
+          <target>Wie es funktioniert</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1051319079 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>In the Approval User Setup page, enable "PRQ Administrator" for users who should manage all purchase requests. You can also set "Unlimited PRQ Approval" or specify a "PRQ Amount Approval Limit".</source>
+          <target>Auf der Seite zur Genehmigungs-Benutzereinrichtung aktivieren Sie "PRQ Administrator" für Nutzer, die alle Kaufanfragen verwalten sollen. Sie können auch "Unbegrenzte PRQ-Genehmigung" festlegen oder ein "PRQ-Betrag-Genehmigungslimit" festlegen.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2500799178 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>• You can also set approval limits per user for amount-based approval control</source>
+          <target>• Sie können außerdem pro Nutzer Genehmigungsgrenzen für eine beträgliche Genehmigungskontrolle festlegen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1863102561 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>• Admin users (PRQ Administrator) can see all purchase requests in the system</source>
+          <target>• Admin-Nutzer (PRQ-Administrator) können alle Kaufanfragen im System einsehen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1871589007 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PRQ Administrators can view and manage all purchase requests in the system, not just their own. They can also approve requests and override settings.</source>
+          <target>PRQ-Administratoren können alle Kaufanfragen im System einsehen und verwalten, nicht nur ihre eigenen. Sie können auch Anfragen genehmigen und Einstellungen überschreiben.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3353383667 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if purchase requests should be deleted when they are archived.</source>
+          <target>Gibt an, ob Bestellungen gelöscht werden sollen, wenn sie archiviert werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3092828568 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Close purchase requests when the purchase document is created.</source>
+          <target>Schließen Sie Einkaufsanforderungen, wenn der Einkaufsbeleg erstellt wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2476533184 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Archive purchase requests when the purchase document is created, or when the purchase request is deleted.</source>
+          <target>Archivieren Sie Einkaufsanforderungen, wenn der Einkaufsbeleg erstellt wird oder wenn die Einkaufsanforderung gelöscht wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2377976393 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status Management</source>
+          <target>Statusverwaltung</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3659005223 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Basic Configuration</source>
+          <target>Grundkonfiguration</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3853514341 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Creation Behavior</source>
+          <target>Dokumentenerstellungsverhalten</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3659005223 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Configure how purchase requests behave when documents are created and how the approval status is managed.</source>
+          <target>Konfigurieren Sie, wie sich Kaufanfragen verhalten, wenn Dokumente erstellt werden, und wie der Genehmigungsstatus verwaltet wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 4197460812 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, the requisition lines are deleted when the purchase request is created from a requisition worksheet.</source>
+          <target>Wenn aktiviert, werden die Anforderungszeilen gelöscht, wenn die Kaufanfrage aus einem Anforderungs-Arbeitsblatt erstellt wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1959227508 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Additional Resources</source>
+          <target>Zusätzliche Ressourcen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2823513715 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Congratulations!</source>
+          <target>Glückwunsch!</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1669884274 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>What's Next?</source>
+          <target>Was kommt als Nächstes?</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2297460167 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open the Purchase Requests list page.</source>
+          <target>Öffnen Sie die Liste der Kaufwünsche.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2331665872 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open the setup page for advanced configuration.</source>
+          <target>Öffne die Einrichtungsseite für die erweiterte Konfiguration.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3629621329 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Click the "Finish" button to close this wizard and start using Purchase Request.</source>
+          <target>Klicken Sie auf die Schaltfläche "Beenden", um diesen Assistenten zu schließen und mit der Nutzung der Kaufanfrage zu beginnen.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 4101568346 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the behaviour when closing the request after getting the request lines on a purchase document.</source>
+          <target>Legt das Verhalten beim Schließen der Anfrage nach Erhalt der Anfragezeilen auf einem Kaufdokument fest.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1664838358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies when the purchase request status can be changed manually. Choose "Always" for basic use without approval workflows, "PRQ Admin Only" when using standard BC approval, or "Never" when using advanced workflow tools.</source>
+          <target>Gibt an, wann der Status der Kaufanfrage manuell geändert werden kann. Wählen Sie "Immer" für die grundlegende Nutzung ohne Genehmigungsworkflows, "PRQ Admin Only" bei Standard-BC-Genehmigungen oder "Nie" bei erweiterten Workflow-Tools.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2471259086 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View the complete documentation.</source>
+          <target>Sehen Sie sich die vollständige Dokumentation an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2823513715 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You have successfully completed the Purchase Request setup wizard!</source>
+          <target>Sie haben den Setup Wizard für Kaufanfragen erfolgreich abgeschlossen!</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2078695453 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for the number series that will be used to assign numbers to purchase requests.</source>
+          <target>Gibt den Code für die Nummernserie an, die zum Zuweisen von Nummern zu Einkaufsanforderungen verwendet wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2536290380 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Tip</source>
+          <target>Tipp</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 823714972 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Number Series Setup</source>
+          <target>Nummernreihen-Aufbau</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 805089497 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>✓ Teaching tips are available on key pages</source>
+          <target>✓ Lehrtipps sind auf wichtigen Seiten verfügbar.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1604679227 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Numbering</source>
+          <target>Dokumentennummerierung</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 823714972 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase requests require a dedicated number series to generate unique document numbers. Assign or create a number series below.</source>
+          <target>Kaufanfragen benötigen eine eigene Nummernreihe, um eindeutige Dokumentnummern zu erzeugen. Weisen Sie unten eine Zahlenreihe zu oder erstellen Sie sie.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2078695453 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select an existing number series or create a new one (e.g. PRQ). This ensures each purchase request receives a unique number.</source>
+          <target>Wählen Sie eine bestehende Zahlenreihe oder erstellen Sie eine neue (z. B. PRQ). Dies stellt sicher, dass jede Kaufanfrage eine eindeutige Nummer erhält.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1442786114 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>✓ Visit the documentation for detailed guides</source>
+          <target>✓ Besuchen Sie die Dokumentation für ausführliche Anleitungen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2536290380 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If no number series exists yet, use the search (Alt+Q) to open the "No. Series" page and create one (e.g. with code "PRQ" and starting number "PRQ-0001").</source>
+          <target>Wenn es noch keine Zahlenreihe gibt, verwenden Sie die Suche (Alt+Q), um die "No. Serie"-Seite und erstellen Sie eine (z. B. mit Code "PRQ" und Startnummer "PRQ-0001").</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 167392880 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>✓ Your setup has been saved and is ready to use</source>
+          <target>✓ Dein Setup wurde gespeichert und ist einsatzbereit</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 830306238 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Learn More</source>
+          <target>Weitere Informationen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2549739317 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>4. Create a purchase order or quote directly from the purchase request</source>
+          <target>4. Erstellen Sie direkt aus der Kaufanfrage eine Bestellung oder ein Angebot</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1571935879 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>How to Use Purchase Request</source>
+          <target>Wie man die Kaufanfrage verwendet</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 636649466 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>1. Open the Purchase Requests list and press New to create a purchase request</source>
+          <target>1. Öffnen Sie die Liste der Kaufwünsche und drücken Sie Neu, um eine Kaufanfrage zu erstellen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3656223528 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>3. Set the status to Approved (manually or through an approval workflow)</source>
+          <target>3. Setzen Sie den Status auf Genehmigt (manuell oder über einen Genehmigungs-Workflow)</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3187435934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>5. Optionally duplicate or archive completed purchase requests</source>
+          <target>5. Optional duplizierte oder archivierte abgeschlossene Kaufanfragen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3018526911 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>2. Fill in the header (description, vendor, location) and add request lines with items or descriptions</source>
+          <target>2. Fülle die Kopfzeile (Beschreibung, Händler, Standort) aus und füge Anfragezeilen mit Artikeln oder Beschreibungen hinzu</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1571935879 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Here are the main steps to get started with Purchase Request:</source>
+          <target>Hier sind die wichtigsten Schritte, um mit der Kaufanfrage zu beginnen:</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2688910137 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You can add purchase request lines to an existing purchase order using the "Get Purch. Request Lines" action on the purchase order. Teaching tips are also available on key pages to help you as you work.</source>
+          <target>Sie können Kaufanfragen zu einer bestehenden Bestellung hinzufügen, indem Sie die Schaltfläche "Get Purch. "Request Lines"-Aktion auf der Kaufbestellung. Unterrichtstipps sind auch auf wichtigen Seiten verfügbar, um Ihnen bei der Arbeit zu helfen.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3314578206 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Welcome to Purchase Request Setup!</source>
+          <target>Willkommen bei Purchase Request Setup!</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1161109644 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open the complete documentation for Purchase Request.</source>
+          <target>Öffnen Sie die vollständige Dokumentation für die Kaufanfrage.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3314578206 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This wizard will guide you through the initial setup of Purchase Request (PRQ). It will only take a few minutes to get started.</source>
+          <target>Dieser Assistent führt Sie durch die anfängliche Einrichtung von Purchase Request (PRQ). Es dauert nur ein paar Minuten, um loszulegen.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 840870147 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Watch a video tutorial on how to use Purchase Request.</source>
+          <target>Sehen Sie sich ein Videotutorial an, wie man Purchase Request verwendet.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1736739006 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Watch a demo video showcasing Purchase Request features.</source>
+          <target>Sehen Sie sich ein Demovideo an, das die Funktionen von Kaufanfragen zeigt.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 2688910137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Did You Know?</source>
+          <target>Wusstest du das?</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 3184286459 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Click "Next" to begin the setup process.</source>
+          <target>Klicken Sie auf "Nächster", um den Aufbauprozess zu starten.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1521356796 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Purchase Request app allows you to manage the business process related to requests for the purchase of goods and services. You can generate orders and quotes directly from purchase requests, archive closed requests, group several requests into one, and differentiate them by category.</source>
+          <target>Die Purchase Request-App ermöglicht es Ihnen, den Geschäftsprozess im Zusammenhang mit Anfragen zum Kauf von Waren und Dienstleistungen zu verwalten. Man kann Bestellungen und Angebote direkt aus Kaufanfragen generieren, geschlossene Anfragen archivieren, mehrere Anfragen zu einer Gruppe gruppieren und sie nach Kategorie differenzieren.</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Action 742034285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Go back to the previous step</source>
+          <target>Zurück zum vorherigen Schritt</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Action 2667510389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish</source>
+          <target>Fertigstellen</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Action 742034285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Back</source>
+          <target>Zurück</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Action 1235620153 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Next</source>
+          <target>Weiter</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Action 1235620153 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Proceed to the next step</source>
+          <target>Gehen Sie zum nächsten Schritt über</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Control 1521356796 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>What is Purchase Request?</source>
+          <target>Was ist eine Kaufanfrage?</target>
+        </trans-unit>
+        <trans-unit id="EnumExtension 155427814 - EnumValue 2659963982 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS Get started with Purchase Request (PRQ)</source>
+          <target>EOS Starten Sie mit der Kaufanfrage (PRQ)</target>
+        </trans-unit>
+        <trans-unit id="Page 2555123742 - Action 2667510389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish this setup wizard</source>
+          <target>Beende diesen Setup-Wizard</target>
         </trans-unit>
         <trans-unit id="Page 2151778819 - Action 3860314472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Approvals</source>
           <target>Genehmigungen</target>
         </trans-unit>
+        <trans-unit id="Page 3973948781 - Action 3860314472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Approvals</source>
+          <target>Genehmigungen</target>
+        </trans-unit>
+        <trans-unit id="Page 2151778819 - Action 3860314472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.</source>
+          <target>Zeigt eine Liste der Datensätze an, die noch genehmigt werden müssen. Beispielsweise wird angezeigt, wer die Genehmigung des Datensatzes angefordert hat, wann er gesendet wurde und bis wann er genehmigt sein muss.</target>
+        </trans-unit>
+        <trans-unit id="Page 3973948781 - Action 3860314472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.</source>
+          <target>Zeigt eine Liste der Datensätze an, die noch genehmigt werden müssen. Beispielsweise wird angezeigt, wer die Genehmigung des Datensatzes angefordert hat, wann er gesendet wurde und bis wann er genehmigt sein muss.</target>
+        </trans-unit>
         <trans-unit id="Table 4169734679 - Field 1291705767 - Method 2126772001 - NamedType 3359697259" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot change the status because there are no lines in this purchase request.</source>
           <target>Sie können den Status nicht ändern, da in dieser Kaufanfrage keine Zeilen enthalten sind.</target>
+        </trans-unit>
+        <trans-unit id="Page 4251808147 - Control 2453820410 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Mandatory No. for Lines field.</source>
+          <target>Spezifiziert den Wert der Pflichtnummer. für das Linienfeld.</target>
+        </trans-unit>
+        <trans-unit id="Table 3922335703 - Field 2453820410 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mandatory No. for Lines</source>
+          <target>Obligatorische Nr. für Linien</target>
         </trans-unit>
       </group>
     </body>
