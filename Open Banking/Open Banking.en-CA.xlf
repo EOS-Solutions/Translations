@@ -538,11 +538,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS016 OBN Acc. Mapping Setup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1861146659 - Method 2451657066 - NamedType 1225138295" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Debit Acc. No. or Credit Acc. No. must be filled in</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS016 OBN Acc. Mapping Setup - Method OnInsert - NamedType NoAccErr</note>
-        </trans-unit>
         <trans-unit id="Table 1861146659 - Field 3505114077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bal. Source No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -582,6 +577,36 @@
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS016 OBN Acc. Mapping Setup - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1861146659 - Field 2698096534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the CBI reason code is used for bank ledger entry correction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS016 OBN Acc. Mapping Setup - Field EOS016 Bank Ledg. Entry Corr. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1861146659 - Field 2698096534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Ledger Entry Correction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS016 OBN Acc. Mapping Setup - Field EOS016 Bank Ledg. Entry Corr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1861146659 - Field 30272917 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the CBI reason code is used for customer ledger entry correction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS016 OBN Acc. Mapping Setup - Field EOS016 Cust. Ledg. Entry Corr. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1861146659 - Field 30272917 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Ledger Entry Correction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS016 OBN Acc. Mapping Setup - Field EOS016 Cust. Ledg. Entry Corr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1861146659 - Field 2592125677 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the CBI reason code is used for vendor ledger entry correction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS016 OBN Acc. Mapping Setup - Field EOS016 Vend. Ledg. Entry Corr. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1861146659 - Field 2592125677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Ledger Entry Correction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS016 OBN Acc. Mapping Setup - Field EOS016 Vend. Ledg. Entry Corr. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1861146659 - Field 3156524383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Operation Type</source>
@@ -1053,6 +1078,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS016 OBN Bank Acc. Reconc. - Method CreateBankAccReconciliation - NamedType NotCreatedMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2587418021 - Method 3795892919 - NamedType 611326923" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EOS OpenBanking</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS016 OBN Job Queue - Method CreateAndOpenJobQueue - NamedType JobQueueNameTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2587418021 - Method 3795892919 - NamedType 2596319199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS016 OBN Job Queue - Method CreateAndOpenJobQueue - NamedType ImportEntriesLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2587418021 - Method 3795892919 - NamedType 3242623708" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import And Create Bank Statement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS016 OBN Job Queue - Method CreateAndOpenJobQueue - NamedType ImportAndCreateBankStmtLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2587418021 - Method 3795892919 - NamedType 1095392501" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unknown Job Queue Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS016 OBN Job Queue - Method CreateAndOpenJobQueue - NamedType UnknownJobQueueTypeErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2078709039 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial subscription for OBN found!</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1272,6 +1317,16 @@
           <source>Map by IBAN</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Fabrick Acc. Mapping - Action Map by IBAN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3121547613 - Action 2432928025 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Fabrick Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Fabrick Acc. Mapping - Action Select Bank Account - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3121547613 - Action 2432928025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Fabrick Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Fabrick Acc. Mapping - Action Select Bank Account - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4046851249 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fabrick User Info</source>
@@ -1548,6 +1603,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 OBN Acc. Mapping Setup - Control Description - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1861146659 - Control 2698096534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bank Ledger Entry Correction field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 OBN Acc. Mapping Setup - Control EOS016 Bank Ledg. Entry Corr. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1861146659 - Control 30272917 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Ledger Entry Correction field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 OBN Acc. Mapping Setup - Control EOS016 Cust. Ledg. Entry Corr. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1861146659 - Control 2592125677 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Vendor Ledger Entry Correction field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 OBN Acc. Mapping Setup - Control EOS016 Vend. Ledg. Entry Corr. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1861146659 - Control 3156524383 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Type" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1604,77 +1674,182 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 OBN Bank Trans. Types - Action Import from Movements - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Onboarding</source>
+          <source>Fabrick Onboarding</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Method 4194163325 - NamedType 4285203050" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The Onboarding process was already completed. Do you want to create a new one? (Existing will be overwritten)</source>
+        <trans-unit id="Page 3590759002 - NamedType 3230520260" size-unit="char" translate="yes" xml:space="preserve">
+          <source>→ Check Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method OnInit - NamedType AlredyDoneMsg</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - NamedType CheckStatusLbl</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 1395373826 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Step 2 - Additional Informations</source>
+        <trans-unit id="Page 3590759002 - NamedType 4286903389" size-unit="char" translate="yes" xml:space="preserve">
+          <source>→ Delete and Create New</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Additional Informations - Property InstructionalText</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - NamedType DeleteAndRecreateLbl</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 279334512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Citizenship" field</source>
+        <trans-unit id="Page 3590759002 - NamedType 1184417928" size-unit="char" translate="yes" xml:space="preserve">
+          <source>→ Map Bank Accounts</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Citizenship - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - NamedType MapAccountsLbl</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 279334512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Citizenship</source>
+        <trans-unit id="Page 3590759002 - NamedType 2024554502" size-unit="char" translate="yes" xml:space="preserve">
+          <source>→ Open Fabrick Portal</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Citizenship - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - NamedType OpenPortalLbl</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 2435970385 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Fiscal Code" field</source>
+        <trans-unit id="Page 3590759002 - NamedType 3241910878" size-unit="char" translate="yes" xml:space="preserve">
+          <source>→ Register Account</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Fiscal Code - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - NamedType RegisterAccountLbl</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 2435970385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Fiscal Code</source>
+        <trans-unit id="Page 3590759002 - NamedType 1950040930" size-unit="char" translate="yes" xml:space="preserve">
+          <source>→ Restart Onboarding</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Fiscal Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - NamedType RestartOnboardingLbl</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 2684011955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Mail" field</source>
+        <trans-unit id="Page 3590759002 - NamedType 757491741" size-unit="char" translate="yes" xml:space="preserve">
+          <source>→ Restore Account</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Mail - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - NamedType RestoreAccountLbl</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 2684011955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Mail</source>
+        <trans-unit id="Page 3590759002 - NamedType 3477943260" size-unit="char" translate="yes" xml:space="preserve">
+          <source>→ Review Existing Data</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Mail - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - NamedType ReviewDataLbl</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 1131161452 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Mobile" field</source>
+        <trans-unit id="Page 3590759002 - Method 130636960 - NamedType 1836898868" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status check failed: %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Mobile - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method DoCheckAndFinalize - NamedType CheckFailedErr</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 1131161452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Mobile</source>
+        <trans-unit id="Page 3590759002 - Method 130636960 - NamedType 4184396008" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finalization failed: %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Mobile - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method DoCheckAndFinalize - NamedType FinalizeFailedErr</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 1092359700 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Vat Number" field</source>
+        <trans-unit id="Page 3590759002 - Method 130636960 - NamedType 759013939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Onboarding is not yet completed on the Fabrick portal. Current status: %1. Please complete the process on the portal and try again.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Vat Number - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method DoCheckAndFinalize - NamedType NotCompletedMsg</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 1092359700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vat Number</source>
+        <trans-unit id="Page 3590759002 - Method 2611217879 - NamedType 2830925273" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete failed: %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Vat Number - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method DoDeleteAndRecreateApiKey - NamedType DeleteFailedErr</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 925121817 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Step 3 - Add your current address</source>
+        <trans-unit id="Page 3590759002 - Method 2611217879 - NamedType 697459375" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API key deleted, but creation of a new key failed: %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Current Address - Property InstructionalText</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method DoDeleteAndRecreateApiKey - NamedType RecreateFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 4045513521 - NamedType 333488921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registration failed: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method DoGenerateApiKey - NamedType RegistrationFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 1675747464 - NamedType 3053679660" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please enter your passphrase.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method DoRestoreApiKey - NamedType PassphraseRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 1675747464 - NamedType 962124618" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restore failed: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method DoRestoreApiKey - NamedType RestoreFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 2530067412 - NamedType 3033610090" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed to start onboarding: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method DoStartOnboarding - NamedType StartFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3510407268 - NamedType 3084462630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidateAddress - NamedType AddressRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3510407268 - NamedType 1261080032" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Postal Code is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidateAddress - NamedType PostalCodeRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3510407268 - NamedType 2673840333" size-unit="char" translate="yes" xml:space="preserve">
+          <source>City is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidateAddress - NamedType CityRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3510407268 - NamedType 1932538674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Province is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidateAddress - NamedType ProvinceRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3510407268 - NamedType 3620662808" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidateAddress - NamedType CountryRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3510407268 - NamedType 2734827255" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Home </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidateAddress - NamedType HomePrefixLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 2614945883 - NamedType 4205467909" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must register or restore your API key before proceeding.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidateApiKey - NamedType ApiKeyRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3784634668 - NamedType 1411243613" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidatePersonalInfo - NamedType NameRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3784634668 - NamedType 1845515033" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Surname is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidatePersonalInfo - NamedType SurnameRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3784634668 - NamedType 3794414239" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Birth Date is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidatePersonalInfo - NamedType BirthDateRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3784634668 - NamedType 2395819766" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Birth Place is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidatePersonalInfo - NamedType BirthPlaceRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3784634668 - NamedType 2811171284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Citizenship is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidatePersonalInfo - NamedType CitizenshipRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3784634668 - NamedType 2012791381" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fiscal Code is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidatePersonalInfo - NamedType FiscalCodeRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3784634668 - NamedType 1132910648" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mobile is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidatePersonalInfo - NamedType MobileRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 3784634668 - NamedType 1656126455" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidatePersonalInfo - NamedType MailRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Method 4071797678 - NamedType 2594855356" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must open the Fabrick portal before proceeding. Click "Open Fabrick Portal" to continue.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Method ValidatePortal - NamedType PortalRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 4178045296 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step 2 - Enter your current address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control AddressStep - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 1212261362 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Address" field</source>
+          <source>Specifies the street name of your current address.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. Address - Property ToolTip</note>
         </trans-unit>
@@ -1684,7 +1859,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. Address - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 1806390967 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Building Number" field</source>
+          <source>Specifies the building/house number.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. Building Number - Property ToolTip</note>
         </trans-unit>
@@ -1694,7 +1869,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. Building Number - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 1723766161 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "City" field</source>
+          <source>Specifies the city of your current address.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. City - Property ToolTip</note>
         </trans-unit>
@@ -1704,7 +1879,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. City - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 3699110476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Country" field</source>
+          <source>Specifies the ISO country code (e.g. IT).</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. Country - Property ToolTip</note>
         </trans-unit>
@@ -1714,7 +1889,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. Country - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 1238456004 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Postal Code" field</source>
+          <source>Specifies the postal code / ZIP code.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. Postal Code - Property ToolTip</note>
         </trans-unit>
@@ -1724,7 +1899,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. Postal Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 2187612902 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Province" field</source>
+          <source>Specifies the province code (2 characters, e.g. MI).</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. Province - Property ToolTip</note>
         </trans-unit>
@@ -1733,20 +1908,75 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Curr. Province - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 1468854131 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Country" field</source>
+        <trans-unit id="Page 3590759002 - Control 1772379735 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step 3 - Account Registration</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Same as Home Address - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control ApiKeyStep - Property InstructionalText</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 1468854131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Same as Home Address</source>
+        <trans-unit id="Page 3590759002 - Control 4036874823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Existing Registration Found</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Same as Home Address - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control ExistingRegistrationGroup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 538065866 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Step 5 - Proceed to Fabrick Portal. Click Open, follow the instructions and then come back here.</source>
+        <trans-unit id="Page 3590759002 - Control 3013805275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click to delete the existing API key and create a new one. You will receive a new passphrase.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Fabrick - Property InstructionalText</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control DeleteAndRecreate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 3013805275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete and Create New</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control DeleteAndRecreate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 3013805275 - Method 1845446376 - NamedType 2422422310" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This will permanently delete the existing API key. Are you sure?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control DeleteAndRecreate - Method OnDrillDown - NamedType DeleteConfirmMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2913434942 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter the passphrase you received during your initial registration to restore your API key.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control PassphraseInput - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2913434942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter your Passphrase</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control PassphraseInput - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2017491483 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click to restore your existing API key using the passphrase entered above.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control RestoreAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2017491483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restore Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control RestoreAccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1828704554 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An API key already exists for your account. You can restore it using your passphrase, or delete it and create a new one.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control RestoreInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1587095798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Registration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control NewRegistrationGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2029816270 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click the button below to register your account with Fabrick. An API key will be generated for you.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control NewRegInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1407468772 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click to generate an API key and register your account with Fabrick.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control RegisterAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1407468772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control RegisterAccount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 4215082824 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Proceed to Fabrick Portal</source>
@@ -1758,28 +1988,53 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Portal - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 1365623322 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Step 4 - Check if all completed successfully.</source>
+        <trans-unit id="Page 3590759002 - Control 1546979963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>That's it!</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Group23 - Property InstructionalText</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control That's it! - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1109667613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>That's it!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control CompletionGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1170729102 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can now use the Open Banking integration. Click Finish to close this wizard.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control CompletionInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2607385220 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step 6 - Verify that the onboarding completed successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control FinishStatusGroup - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 961547678 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click to refresh the onboarding status from Fabrick.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control CheckStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 961547678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control CheckStatus - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Status</source>
+          <source>Displays the current status of your Fabrick onboarding process.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Status - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Status</source>
+          <source>Onboarding Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Status - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 668720920 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Step 5 - Now you can map your accounts.</source>
+        <trans-unit id="Page 3590759002 - Control 3617576941 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your onboarding is complete! You can now map your Fabrick accounts to Business Central bank accounts.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Mapping - Property InstructionalText</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control MappingGroup - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 3939780106 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Map Bank Accounts</source>
+          <source>Open the account mapping page to link Fabrick accounts to Business Central bank accounts.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Map Accounts - Property ToolTip</note>
         </trans-unit>
@@ -1788,23 +2043,8 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Map Accounts - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 1546979963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>That's it!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control That's it! - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 2641016556 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You can now use the OpenBanking integration.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Group25 - Property InstructionalText</note>
-        </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 1379392243 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Step 4 - Add your home address</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Home Address - Property InstructionalText</note>
-        </trans-unit>
         <trans-unit id="Page 3590759002 - Control 3168444338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Address" field</source>
+          <source>Specifies the value of the Address field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Address - Property ToolTip</note>
         </trans-unit>
@@ -1814,7 +2054,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Address - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 854998263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Building Number" field</source>
+          <source>Specifies the value of the Building Number field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Building Number - Property ToolTip</note>
         </trans-unit>
@@ -1824,7 +2064,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Building Number - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 714791889 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "City" field</source>
+          <source>Specifies the value of the City field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control City - Property ToolTip</note>
         </trans-unit>
@@ -1834,7 +2074,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control City - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 1856816140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Country" field</source>
+          <source>Specifies the value of the Country field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Country - Property ToolTip</note>
         </trans-unit>
@@ -1844,7 +2084,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Country - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 1215194884 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Postal Code" field</source>
+          <source>Specifies the value of the Postal Code field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Postal Code - Property ToolTip</note>
         </trans-unit>
@@ -1854,7 +2094,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Postal Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 1237689382 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Province" field</source>
+          <source>Specifies the value of the Province field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Province - Property ToolTip</note>
         </trans-unit>
@@ -1863,13 +2103,108 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Province - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 3801159817 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Step 1 - Personal Informations</source>
+        <trans-unit id="Page 3590759002 - Control 2984572709 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter your home address</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Personal Informations - Property InstructionalText</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control HomeAddressStep - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 3791733836 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the street name of your home address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control EOSHomeAddress - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 3791733836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control EOSHomeAddress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 4176301422 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the building/house number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Home Building Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 4176301422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Building Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Home Building Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 930532556 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the city of your home address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Home City - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 930532556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>City</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Home City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 752578457 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ISO country code (e.g. IT).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Home Country - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 752578457 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Home Country - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2539039681 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the postal code / ZIP code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Home Postal Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2539039681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Postal Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Home Postal Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 9326279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the province code (2 characters, e.g. MI).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Home Province - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 9326279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Province</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Home Province - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1468854131 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable this if your home address is the same as the current address above.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Same as Home Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1468854131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Home address is the same as current address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Same as Home Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2933333338 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step 4 - Your Passphrase</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control PassphraseStep - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 3508742330 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your personal passphrase. Copy this to a safe location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control PassphraseDisplay - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 3508742330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Passphrase</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control PassphraseDisplay - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 4030531522 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IMPORTANT: Copy this passphrase and store it in a safe place! You will need it to restore your connection with Fabrick if needed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control PassphraseWarning - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 3878517704 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step 1 - Enter your personal details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control PersonalInfoStep - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 1576740555 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Birth Date" field</source>
+          <source>Specifies your date of birth.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Birth Date - Property ToolTip</note>
         </trans-unit>
@@ -1878,8 +2213,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Birth Date - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1576740555 - Method 2126772001 - NamedType 548368723" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Birth Date must be in the past.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Birth Date - Method OnValidate - NamedType BirthDateFutureErr</note>
+        </trans-unit>
         <trans-unit id="Page 3590759002 - Control 1416727010 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Birth Place" field</source>
+          <source>Specifies the city where you were born.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Birth Place - Property ToolTip</note>
         </trans-unit>
@@ -1888,8 +2228,73 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Birth Place - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2118104395 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of your company or business.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Business Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2118104395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Business Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 279334512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ISO country code of your citizenship (e.g. IT).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Citizenship - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 279334512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Citizenship</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Citizenship - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2435970385 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your fiscal code (codice fiscale).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Fiscal Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2435970385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fiscal Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Fiscal Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2435970385 - Method 2126772001 - NamedType 3617749498" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fiscal Code must be 16 characters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Fiscal Code - Method OnValidate - NamedType FiscalCodeLengthErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2684011955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your email address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Mail - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2684011955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Mail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2684011955 - Method 2126772001 - NamedType 937468526" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please enter a valid email address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Mail - Method OnValidate - NamedType EmailFormatErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1131161452 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your mobile phone number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Mobile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1131161452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mobile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Mobile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1131161452 - Method 2126772001 - NamedType 2020578434" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mobile number must be at least 8 characters and contain only digits (optionally starting with +).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Mobile - Method OnValidate - NamedType MobileFormatErr</note>
+        </trans-unit>
         <trans-unit id="Page 3590759002 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Name" field</source>
+          <source>Specifies your first name.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Name - Property ToolTip</note>
         </trans-unit>
@@ -1899,7 +2304,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Control 1956934725 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Surname" field</source>
+          <source>Specifies your last name.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Surname - Property ToolTip</note>
         </trans-unit>
@@ -1908,15 +2313,75 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Surname - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1092359700 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your VAT registration number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Vat Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1092359700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Vat Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 3071713098 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step 5 - Complete verification on the Fabrick portal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control PortalStep - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 486747212 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the Fabrick portal in your browser to complete the verification process.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control OpenPortal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 486747212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Fabrick Portal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control OpenPortal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 2133570697 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click the button below to open the Fabrick portal. Complete the verification process there, then return here and click Next to continue.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control PortalInstructions - Property InstructionalText</note>
+        </trans-unit>
         <trans-unit id="Page 3590759002 - Control 2409706239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fabrick Onboarding</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Fabrick Onboarding - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3590759002 - Control 1612614122 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Here you can start the Fabrick Onboarding flow</source>
+        <trans-unit id="Page 3590759002 - Control 3024465532 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome to Fabrick Onboarding</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control Group18 - Property InstructionalText</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control WelcomeStep - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1246365560 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This wizard will guide you through the Fabrick account registration process. You will need to provide your personal information, address, and then complete the verification on the Fabrick portal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control WelcomeInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 316207758 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A previous onboarding was detected. You can review and edit the existing data, or restart the process from scratch.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control WelcomeRestartGroup - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 3341461064 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes existing registration data and starts a new onboarding process.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control RestartOnboarding - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 3341461064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restart Onboarding</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control RestartOnboarding - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1098380918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click to review and edit the data you previously entered without deleting anything.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control ReviewData - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3590759002 - Control 1098380918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Review Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 Onboarding Wizard - Control ReviewData - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3590759002 - Action 2438272767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Back</source>
@@ -2303,6 +2768,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 OpenBanking Setup - Control User Onboarding Id - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 261213981 - Action 1905791958 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Job Queue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 OpenBanking Setup - Action CreateJobQueue - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 261213981 - Action 1905791958 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Job Queue Entry" action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 OpenBanking Setup - Action CreateJobQueue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 261213981 - Action 1905791958 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click here to create the job queue after you have filled in the Client ID and Client Secret.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 OpenBanking Setup - Action CreateJobQueue - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 261213981 - Action 1905791958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 OpenBanking Setup - Action CreateJobQueue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 261213981 - Action 1905791958 - Method 1377591017 - NamedType 1431410084" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Movements Job Queue,Import and Create Bank Statements Job Queue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS016 OpenBanking Setup - Action CreateJobQueue - Method OnAction - NamedType JobQueueQst</note>
+        </trans-unit>
         <trans-unit id="Page 261213981 - Action 452806003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Opens the fabrick portal</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2433,6 +2923,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060161 - Action EOS016 ShowBankTransactionDetails OBN - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2020010331 - Action 2058993352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Open Banking</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060162 - Action EOS016 Open Banking - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2020010331 - Action 214952880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Bank Acc. Data Exchange (EOS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060162 - Action EOS016 Bank Acc. Data Exchange - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2020010331 - Action 214952880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Bank Acc. Data Exchange (EOS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060162 - Action EOS016 Bank Acc. Data Exchange - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2020010331 - Action 619176454 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Import Movements and Create Bank Statement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060162 - Action EOS016 Import &amp; Create Bank Statement - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2020010331 - Action 619176454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Import &amp; Create Bank Statement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060162 - Action EOS016 Import &amp; Create Bank Statement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2020010331 - Action 619176454 - Method 1377591017 - NamedType 3852484741" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2020010331">
+          <source>No new movements were imported</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060162 - Action EOS016 Import &amp; Create Bank Statement - Method OnAction - NamedType NoMovementMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2020010331 - Action 619176454 - Method 1377591017 - NamedType 1257097517" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2020010331">
+          <source>All movements imported successfully and bank statement created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060162 - Action EOS016 Import &amp; Create Bank Statement - Method OnAction - NamedType MovementsDwnloadedMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2020010331 - Action 3282797436 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Open Banking</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060162 - Action EOS016 OBN_Promoted - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2020010331 - Control 844021973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
           <source>Open Banking</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2497,6 +3027,56 @@
           <source>Bank Transaction Details (OBN)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060165 - Action EOS016 ShowBankTransactionDetails OBN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3764191159 - Action 2058993352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3408061871">
+          <source>Open Banking</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060166 - Action EOS016 Open Banking - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3764191159 - Action 214952880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3408061871">
+          <source>Bank Acc. Data Exchange (EOS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060166 - Action EOS016 Bank Acc. Data Exchange - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3764191159 - Action 214952880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3408061871">
+          <source>Bank Acc. Data Exchange (EOS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060166 - Action EOS016 Bank Acc. Data Exchange - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3764191159 - Action 1872739231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3408061871">
+          <source>Reconcile your bank account by importing transactions and applying them, automatically or manually, to open customer ledger entries, open vendor ledger entries, or open bank account ledger entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060166 - Action EOS016 BankAccountReconciliations - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3764191159 - Action 1872739231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3408061871">
+          <source>Payment Reconciliation Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060166 - Action EOS016 BankAccountReconciliations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3764191159 - Action 619176454 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3408061871">
+          <source>Import Movements and Create Bank Statement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060166 - Action EOS016 Import &amp; Create Bank Statement - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3764191159 - Action 619176454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3408061871">
+          <source>Import &amp; Create Bank Statement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060166 - Action EOS016 Import &amp; Create Bank Statement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3764191159 - Action 619176454 - Method 1377591017 - NamedType 3852484741" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3764191159">
+          <source>No new movements were imported</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060166 - Action EOS016 Import &amp; Create Bank Statement - Method OnAction - NamedType NoMovementMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3764191159 - Action 619176454 - Method 1377591017 - NamedType 1257097517" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3764191159">
+          <source>All movements imported successfully and bank statement created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060166 - Action EOS016 Import &amp; Create Bank Statement - Method OnAction - NamedType MovementsDwnloadedMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3764191159 - Action 3282797436 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3408061871">
+          <source>Open Banking</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060166 - Action EOS016 OBN_Promoted - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1799420962 - Field 1108695318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
           <source>Auto Process</source>
