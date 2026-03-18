@@ -53,11 +53,11 @@
         </trans-unit>
         <trans-unit id="Page 200454028 - Control 579922818 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Imported Entries</source>
-          <target>Specifica le voci importate</target>
+          <target>Specifica i movimenti importati</target>
         </trans-unit>
         <trans-unit id="Page 200454028 - Control 579922818 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Imported Entries</source>
-          <target>Nr. movimenti</target>
+          <target>Movimenti importati</target>
         </trans-unit>
         <trans-unit id="Page 200454028 - Control 804481195 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the name of the imported file.</source>
@@ -81,7 +81,7 @@
         </trans-unit>
         <trans-unit id="Page 4072613837 - Control 1114993513 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the reason code description.</source>
-          <target>Specifica la descrizione del codice di errore.</target>
+          <target>Specifica la descrizione della causale.</target>
         </trans-unit>
         <trans-unit id="Page 4072613837 - Control 1114993513 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reason Code</source>
@@ -121,7 +121,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1010409186 - Control 2110761715 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code for the number series that will be used to assign document number to G/L ledger entries posted during the posting Payment Reconciliation process.</source>
-          <target>Specifica Nr. registrazione transazioni bancarie</target>
+          <target>Specifica il codice della numerazione da utilizzare per assegnare numeri documento ai movimenti C/G registrati durante il processo di registrazione della riconciliazione pagamenti.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1648105803 - Control 4088452578 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "032 Value Date" field</source>
@@ -205,7 +205,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3561195654 - Control 3923056467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Statement No.</source>
-          <target>Nr. prospetto riconciliazione pagamento registrato</target>
+          <target>Nr. estratto conto</target>
         </trans-unit>
         <trans-unit id="PageExtension 3561195654 - Control 4088452578 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "032 Value Date" field</source>
@@ -225,7 +225,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 372712569 - Control 1553928464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Posted Reconc. Ledger Entry Doc. Type" field</source>
-          <target>Specifica il valore dell'opzione "Ricognizione registrata. Campo Doc. Scrocco Contabile"</target>
+          <target>Specifica il valore del campo "Tipo doc. movimenti riconciliazione registrate"</target>
         </trans-unit>
         <trans-unit id="PageExtension 372712569 - Control 3233028863 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the bank statement line number.</source>
@@ -345,7 +345,7 @@
         </trans-unit>
         <trans-unit id="Report 761538621 - Control 883878268 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Statement Period</source>
-          <target>Periodo dichiarazione</target>
+          <target>Periodo estratto conto</target>
         </trans-unit>
         <trans-unit id="Report 761538621 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enter the Ending Date.</source>
@@ -373,7 +373,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 2319680022 - Field 1809845137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Data Exch Type</source>
-          <target>Tipo di estrazione dati</target>
+          <target>Tipo scambio dati</target>
         </trans-unit>
         <trans-unit id="TableExtension 2791592274 - Field 2846652320 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posted Reconc. Ledger Entry Nos.</source>
@@ -437,7 +437,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 878502423 - Field 3002404451 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the threshold for string nearest matching. This is for Paymenyt Application Matching.</source>
-          <target>Specifica la soglia per la corrispondenza più vicina della stringa. Questo è per Paymenyt Application Matching.</target>
+          <target>Specifica la soglia per la corrispondenza più vicina della stringa. Questo parametro è utilizzato per la corrispondenza del collegamento pagamenti.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2285802420 - Control 3002404451 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the threshold for string nearest matching.</source>
@@ -478,6 +478,10 @@
         <trans-unit id="PageExtension 2285802420 - Control 1754383117 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies whether the Advanced Matching is enabled.</source>
           <target>Specifica se la corrispondenza avanzata è abilitata.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1860212261 - Change 2698256373 - Method 3059879501 - NamedType 64170927" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Apply Manually Disable Suggestions cannot be enabled when Enable Advanced Match is enabled.</source>
+          <target>"Disattiva suggerimenti" non può essere abilitato se "Corrispondenza avanzata" (EOS) è abilitata</target>
         </trans-unit>
       </group>
     </body>
