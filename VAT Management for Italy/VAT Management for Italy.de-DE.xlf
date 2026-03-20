@@ -9,7 +9,7 @@
         </trans-unit>
         <trans-unit id="Table 3644807301 - Method 804474859 - NamedType 3481077568" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot rename a '%1'</source>
-          <target>Sie können eine %1 nicht umbenennen.</target>
+          <target>Sie können '%1' nicht umbenennen.</target>
         </trans-unit>
         <trans-unit id="Table 3644807301 - Field 592951229 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Amount (LCY)</source>
@@ -17,7 +17,7 @@
         </trans-unit>
         <trans-unit id="Table 3644807301 - Field 3040717696 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Amount Curr. Document (LCY)</source>
-          <target>Betrag Akt. Beleg (LCY)</target>
+          <target>Betrag Akt. Beleg (MW)</target>
         </trans-unit>
         <trans-unit id="Table 3644807301 - Field 3745120690 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Annual VAT Statement Submitted</source>
@@ -169,11 +169,11 @@
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 935455650 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bus. Consultant Vendor No.</source>
-          <target>Nr. intermediario</target>
+          <target>Berater-Kreditorennr.</target>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 1125337225 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commitment Date</source>
-          <target>Data impegno</target>
+          <target>Verpflichtungsdatum</target>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 2894553745 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Disable Check Reverse Charge No. Series</source>
@@ -185,7 +185,7 @@
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 19196629 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable VAT Settl. Interests</source>
-          <target>Aktivieren Sie VAT Settl. Interessen</target>
+          <target>MwSt.-Abrechnungszinsen aktivieren</target>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 1066680167 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Book Progressive No.</source>
@@ -193,7 +193,7 @@
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 1066680167 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Per Entry,Per Document</source>
-          <target>Pro Eintrag,pro Dokument</target>
+          <target>Pro Posten,Pro Beleg</target>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 108234354 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Plafond Type</source>
@@ -233,15 +233,15 @@
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 99839565 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tax Repres. Vendor No.</source>
-          <target>Nr. rapp. firmatario</target>
+          <target>Steuervertreter-Kreditorennr.</target>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 2495401230 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quart. VAT Settl. Interests Acc. No.</source>
-          <target>Quart. MwSt. Settl. Interessen Lt. Nr.</target>
+          <target>Vierteljährl. MwSt.-Abrechnungszinsen Kto.-Nr.</target>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 4016821108 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quart. VAT Settl. Interests Perc.</source>
-          <target>Quart. MwSt. Settl. Interessen Perc.</target>
+          <target>Vierteljährl. MwSt.-Abrechnungszinsen %</target>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 688637832 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor Type</source>
@@ -333,7 +333,7 @@
         </trans-unit>
         <trans-unit id="Table 1858228028 - Field 3118186836 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Entry No.</source>
-          <target>Umsatzsteuer-Identifikationsnummer</target>
+          <target>MwSt.-Posten Lfd. Nr.</target>
         </trans-unit>
         <trans-unit id="Table 1858228028 - Field 2534656220 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Identifier</source>
@@ -373,7 +373,7 @@
         </trans-unit>
         <trans-unit id="Table 2050529027 - Field 2832340769 - Method 2126772001 - NamedType 3492639454" translate="yes" size-unit="char" xml:space="preserve">
           <source>Please enter a value between 2000 and 9999</source>
-          <target>Bitte geben Sie einen wert zwischen 2000 und 9999</target>
+          <target>Bitte geben Sie einen Wert zwischen 2000 und 9999.</target>
         </trans-unit>
         <trans-unit id="Table 761191730 - Field 415504711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Id</source>
@@ -421,7 +421,7 @@
         </trans-unit>
         <trans-unit id="Table 1808291200 - Field 2363328873 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Payment,Invoice,Credit Memo,Finance Charge Memo,Reminder,Refund,,,,Dishonored</source>
-          <target> ,Zahlung,Rechnung,Gutschrift,Zinsrechnung,Mahnung,Erstattung,,,,Unbezahlt</target>
+          <target>,Zahlung,Rechnung,Gutschrift,Zinsrechnung,Mahnung,Erstattung,,,,Unbezahlt</target>
         </trans-unit>
         <trans-unit id="Table 1808291200 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry No.</source>
@@ -601,19 +601,19 @@
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 4228984834 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deduct. Amount from VAT Reg.</source>
-          <target>Abziehen. Betrag aus der USt-IdNr.</target>
+          <target>Abziehb. Betrag aus MwSt.-Register</target>
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 624081208 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deduct. Amount from VAT Settl.</source>
-          <target>Abziehen. Betrag aus MwSt.</target>
+          <target>Abziehb. Betrag aus MwSt.-Abrechn.</target>
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 938985001 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deduct. Base from VAT Reg.</source>
-          <target>Abziehen. Bemessungsgrundlage aus der MwSt.-Nr.</target>
+          <target>Abziehb. Bmgrundlage aus MwSt.-Register</target>
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 1755748607 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deduct. Base from VAT Settl.</source>
-          <target>Abziehen. Bemessungsgrundlage aus MwSt.</target>
+          <target>Abziehb. Bmgrundlage aus MwSt.-Abrechn.</target>
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 4216960531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS Deductible %</source>
@@ -625,15 +625,15 @@
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 3265550843 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS VAT Identifier</source>
-          <target>EOS Umsatzsteuer-Identifikationsnummer</target>
+          <target>EOS MwSt.-Kennzeichen</target>
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 2732440041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS VAT Identifier Description</source>
-          <target>EOS VAT Identifier Beschreibung</target>
+          <target>EOS MwSt.-Kennzeichen Beschreibung</target>
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 1352985018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS VAT Register Code</source>
-          <target>EOS Umsatzsteuer-Identifikationsnummer</target>
+          <target>EOS MwSt.-Registercode</target>
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 3386168223 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS VAT Register Description</source>
@@ -645,19 +645,19 @@
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 702221205 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>NonDed. Amount from VAT Reg.</source>
-          <target>Nicht Ded. Betrag aus der USt-IdNr.</target>
+          <target>Nichtabziehb. Betrag aus MwSt.-Register</target>
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 946490043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>NonDed. Amount from VAT Settl.</source>
-          <target>Nicht Ded. Betrag aus MwSt.</target>
+          <target>Nichtabziehb. Betrag aus MwSt.-Abrechn.</target>
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 1964878052 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>NonDed. Base from VAT Settl.</source>
-          <target>Nicht Ded. Bemessungsgrundlage aus MwSt.</target>
+          <target>Nichtabziehb. Bmgrundlage aus MwSt.-Abrechn.</target>
         </trans-unit>
         <trans-unit id="Table 2554900007 - Field 3808370428 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>NonDeduct. Base from VAT Reg.</source>
-          <target>Ohne Abzug. Bemessungsgrundlage aus der MwSt.-Nr.</target>
+          <target>Nichtabziehb. Bmgrundlage aus MwSt.-Register</target>
         </trans-unit>
         <trans-unit id="Codeunit 1688001328 - Method 175728361 - NamedType 3931407669" translate="yes" size-unit="char" xml:space="preserve">
           <source>The plafond amount for document %1 (%2 %3) will exceed %4 (%5 %3) of %6 %7.</source>
@@ -677,7 +677,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1688001328 - Method 3849659822 - NamedType 3812560106" translate="yes" size-unit="char" xml:space="preserve">
           <source>Generate all plafond movements for this VAT identifier (%1)?</source>
-          <target>Wolle Sie alle Plafond-Posten für MwSt.-Id (%1) generieren?</target>
+          <target>Wollen Sie alle Plafond-Posten für MwSt.-Kennzeichen (%1) generieren?</target>
         </trans-unit>
         <trans-unit id="Codeunit 541095241 - NamedType 996961301" translate="yes" size-unit="char" xml:space="preserve">
           <source>The following VAT Registers were not reprinted because there are VAT Entries not yet printed for the selected periods:</source>
@@ -701,7 +701,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 3128398753" translate="yes" size-unit="char" xml:space="preserve">
           <source>No anomalies have been detected for VAT Register: %1.</source>
-          <target>Für dieses MwSt.-Register wurden keine Anomalien festgestellt.</target>
+          <target>Für MwSt.-Register %1 wurden keine Anomalien festgestellt.</target>
         </trans-unit>
         <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 2555724484" translate="yes" size-unit="char" xml:space="preserve">
           <source>Protocol Sequence anomaly detected in \ VAT Register: %1 \ Document Nos: %2.</source>
@@ -758,10 +758,6 @@
         <trans-unit id="Codeunit 4170445013 - Method 3595478553 - NamedType 4019700151" translate="yes" size-unit="char" xml:space="preserve">
           <source>DI.zip</source>
           <target>DI.zip</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 705706385 - Method 557890913 - NamedType 309704505" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continue anyway?</source>
-          <target>Trotzdem fortfahren?</target>
         </trans-unit>
         <trans-unit id="Codeunit 323566111 - Method 4145220843 - NamedType 3856061630" translate="yes" size-unit="char" xml:space="preserve">
           <source>An EOS version of report %1 was found. Do you want to use this one?</source>
@@ -997,19 +993,19 @@
         </trans-unit>
         <trans-unit id="Page 3444279080 - Control 3983049857 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quarterly VAT Settl. Interests</source>
-          <target>Vierteljährliche MwSt. Interessen</target>
+          <target>Vierteljährl. MwSt.-Abrechnungszinsen</target>
         </trans-unit>
         <trans-unit id="Page 3444279080 - Control 19196629 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Enable VAT Settl. Interests" field.</source>
-          <target>Gibt den Wert von "Enable VAT Settl. Interessen".</target>
+          <target>Gibt den Wert des Felds "MwSt.-Abrechnungszinsen aktivieren" an.</target>
         </trans-unit>
         <trans-unit id="Page 3444279080 - Control 2495401230 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Quart. VAT Settl. Interests Acc. No." field.</source>
-          <target>Gibt den Wert des "Quart. MwSt. Settl. Interests Acc. No." Feld.</target>
+          <target>Gibt den Wert des Felds "Vierteljährl. MwSt.-Abrechnungszinsen Kto.-Nr." an.</target>
         </trans-unit>
         <trans-unit id="Page 3444279080 - Control 4016821108 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Quart. VAT Settl. Interests Perc." field.</source>
-          <target>Gibt den Wert des "Quart. MwSt. Settl. Interests Perc."</target>
+          <target>Gibt den Wert des Felds "Vierteljährl. MwSt.-Abrechnungszinsen %" an.</target>
         </trans-unit>
         <trans-unit id="Page 3444279080 - Control 520682510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse Charge</source>
@@ -1029,7 +1025,7 @@
         </trans-unit>
         <trans-unit id="Page 3444279080 - Control 108234354 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the type of VAT plafond calculation: Fixed (based on the previous year) or Monthly (based on the last 12 months on a rolling basis).</source>
-          <target>Gibt die Art der MwSt.-Plafond-Berechnung an: Fix (basierend auf Vorjahr) oder Montalich (basierend auf den letzten 12 Monaten auf rollierender Basis).</target>
+          <target>Gibt die Art der MwSt.-Plafond-Berechnung an: Fix (basierend auf Vorjahr) oder Monatlich (basierend auf den letzten 12 Monaten auf rollierender Basis).</target>
         </trans-unit>
         <trans-unit id="Page 1531592316 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Exemptions (VMI)</source>
@@ -1317,7 +1313,7 @@
         </trans-unit>
         <trans-unit id="Page 2554900007 - Control 1589386854 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase,Sale, </source>
-          <target>Kauf, Verkauf, </target>
+          <target>Kauf, Verkauf,</target>
         </trans-unit>
         <trans-unit id="Page 2554900007 - Control 3000963108 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deductible %</source>
@@ -1517,7 +1513,7 @@
         </trans-unit>
         <trans-unit id="Report 1810182298 - NamedType 1158029722" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Paid on:</source>
-          <target>MwSt. bezahlt am: </target>
+          <target>MwSt. bezahlt am:</target>
         </trans-unit>
         <trans-unit id="Report 1810182298 - NamedType 357760217" translate="yes" size-unit="char" xml:space="preserve">
           <source>at Bank</source>
@@ -1525,7 +1521,7 @@
         </trans-unit>
         <trans-unit id="Report 1810182298 - NamedType 317029659" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting not permitted if reprint is selected</source>
-          <target>Buchung nicht zulässig, wenn Nachdruck ausgewählt </target>
+          <target>Buchung nicht zulässig, wenn Nachdruck ausgewählt</target>
         </trans-unit>
         <trans-unit id="Report 1810182298 - NamedType 485807270" translate="yes" size-unit="char" xml:space="preserve">
           <source>***  TEST PRINTING ***</source>
@@ -2043,10 +2039,6 @@
           <source>Reprint is possible only for printed period or all year</source>
           <target>Nachdruck ist nur für gedruckte Zeiträume oder für das ganze Jahr möglich</target>
         </trans-unit>
-        <trans-unit id="Report 3911460565 - NamedType 3477590040" translate="yes" size-unit="char" xml:space="preserve">
-          <source>There are entries in the previous period that were not printed.\</source>
-          <target>Es gibt Posten in der vorherigeren Periode die nicht gedruckt wurden.\</target>
-        </trans-unit>
         <trans-unit id="Report 3911460565 - NamedType 430088010" translate="yes" size-unit="char" xml:space="preserve">
           <source>First VAT entry found: %1 %2, %3 %4, %5 %6</source>
           <target>Erstes MwSt Auftreten des Posten: %1 %2, %3 %4, %5 %6</target>
@@ -2057,7 +2049,7 @@
         </trans-unit>
         <trans-unit id="Report 3911460565 - NamedType 2627882007" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period:     from  %1  to  %2</source>
-          <target>Periode: von %1  bis %2 </target>
+          <target>Periode: von %1  bis %2</target>
         </trans-unit>
         <trans-unit id="Report 3911460565 - NamedType 1952181093" translate="yes" size-unit="char" xml:space="preserve">
           <source>Please select a %1.</source>
@@ -2831,9 +2823,9 @@
           <source>Monthly</source>
           <target>Monatliche</target>
         </trans-unit>
-        <trans-unit id="Table 2387819139 - Field 3465500804 - Method 2126772001 - NamedType 2532926162" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Month value must be between 1 and 12.</source>
-          <target>Der Monatswert muss zwischen 1 und 12 liegen.</target>
+        <trans-unit id="Report 3911460565 - NamedType 3477590040" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are entries in the previous period that were not printed.\</source>
+          <target>Es gibt Posten in der vorherigeren Periode die nicht gedruckt wurden.\</target>
         </trans-unit>
         <trans-unit id="TableExtension 3766780487 - Field 3803707464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Exemption No.</source>
