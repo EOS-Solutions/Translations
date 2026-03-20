@@ -3,37 +3,13 @@
   <file datatype="xml" source-language="en-US" target-language="it-CH" original="">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 3117217873 - NamedType 1625896033" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for ITR present! - this report cannot be generated!</source>
-          <target>Nessuna sottoscrizione per ITR presente! Questo report non può essere generato!</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3117217873 - NamedType 1772493744" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Free Version</source>
-          <target>Versione free</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3117217873 - NamedType 2599441456" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Trial subscription for ITR found - day %1 of %2</source>
-          <target>Trovato versione di prova per ITR - Giorno %1 di %2</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3117217873 - NamedType 3269160490" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for ITR present! - Action not allowed!</source>
-          <target>Nessuna sottoscrizione per ITR presente! Azione non consentita!</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3117217873 - NamedType 3560163384" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Set up a subscription</source>
-          <target>Richiedere sottoscrizione completa</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3117217873 - NamedType 4128705988" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for ITR present! - this page cannot be edited!</source>
-          <target>Nessuna sottoscrizione per ITR presente! Questa pagina non può essere modificata!</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3117217873 - NamedType 4205745040" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Subscribe for an activation</source>
-          <target>Richiedere versione trial gratuita o sottoscrizione completa</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3518219412 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 should not be negative.</source>
           <target>%1 non deve essere negativo.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 471042664 - Method 3481038276 - NamedType 259732076" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Period</source>
+          <target>Periodo</target>
         </trans-unit>
         <trans-unit id="Enum 1121593437 - EnumValue 3090661100 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Filter</source>
@@ -81,7 +57,7 @@
         </trans-unit>
         <trans-unit id="Page 1933852584 - Control 335545441 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Intrastat Declaration Nos. field</source>
-          <target>Specifica il valore dei no di dichiarazione Intrastat. Campo</target>
+          <target>Specifica il valore del campo Nr. dichiarazioni Intrastat</target>
         </trans-unit>
         <trans-unit id="Page 1933852584 - Control 493657227 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Internal Location Filter Type" field. Include local country: only locations with country equal to company info country will be processed; Filter: system will process locations included in custom specified filter.</source>
@@ -193,7 +169,7 @@
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 1527563463 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the External Document No. field</source>
-          <target>Specifica il valore del campo Nr. Documento esterno. Campo</target>
+          <target>Specifica il valore del campo Nr. documento esterno</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 1543151100 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Reference Month/Quarter field</source>
@@ -209,11 +185,11 @@
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 1879772105 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Corrected Document No. field</source>
-          <target>Specifica il valore del n. Campo</target>
+          <target>Specifica il valore del campo Nr. documento corretto</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 1882905478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Source No. field</source>
-          <target>Specifica il valore del campo Nr. Origine. Campo</target>
+          <target>Specifica il valore del campo Nr. origine</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 2102199635 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Indirect Cost field</source>
@@ -229,7 +205,7 @@
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 2687606736 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Corrected Intrastat Report No. field</source>
-          <target>Specifica il valore del n. Campo</target>
+          <target>Specifica il valore del campo Nr. report Intrastat corretto</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 2704404533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Quantity field</source>
@@ -249,7 +225,7 @@
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 31251865 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Customs Office No. field</source>
-          <target>Specifica il valore del n. ufficio doganale Campo</target>
+          <target>Specifica il valore del campo Nr. ufficio doganale</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 3156524383 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Operation Type" field. This field is referred only to Call off stock lines.</source>
@@ -269,7 +245,7 @@
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 3320823955 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Line No. field</source>
-          <target>Specifica il valore del campo Nr. Riga. Campo</target>
+          <target>Specifica il valore del campo Nr. riga</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Description field</source>
@@ -281,11 +257,11 @@
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 3678829965 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Corrected Intrastat Report Line No. field</source>
-          <target>Specifica il valore del n. riga report Intrastat corretto. Campo</target>
+          <target>Specifica il valore del campo Nr. riga report Intrastat corretto</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 3701472611 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Tariff No. field</source>
-          <target>Specifica il valore del n. tariffa. Campo</target>
+          <target>Specifica il valore del campo Nr. tariffa</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Posting Date field</source>
@@ -313,7 +289,7 @@
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the No. field</source>
-          <target>Specifica il valore del campo Nr. Campo</target>
+          <target>Specifica il valore del campo Nr.</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 4212263592 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Corrected Document Date field</source>
@@ -325,7 +301,7 @@
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Document No. field</source>
-          <target>Specifica il valore del campo Nr. Documento. Campo</target>
+          <target>Specifica il valore del campo Nr. documento</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 499448942 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the County field</source>
@@ -341,7 +317,7 @@
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 617267791 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the VAT Registration No. field</source>
-          <target>Specifica il valore del n. partita IVA Campo</target>
+          <target>Specifica il valore del campo Partita IVA</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 628972433 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Payment Country Code field</source>
@@ -381,7 +357,7 @@
         </trans-unit>
         <trans-unit id="Page 3210303717 - Action 215240513 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Re&amp;open action</source>
-          <target>Esegue l'azione Ri&amp;amp;apri</target>
+          <target>Esegue l'azione Ri&amp;apri</target>
         </trans-unit>
         <trans-unit id="Page 3210303717 - Action 215240513 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Re&amp;open</source>
@@ -413,7 +389,7 @@
         </trans-unit>
         <trans-unit id="Page 3210303717 - Action 3711574538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Su&amp;ggest lines action</source>
-          <target>Esegue l'azione Righe Su&amp;ggest</target>
+          <target>Esegue l'azione Su&amp;ggerisci righe</target>
         </trans-unit>
         <trans-unit id="Page 3210303717 - Action 3711574538 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Su&amp;ggest lines</source>
@@ -421,7 +397,7 @@
         </trans-unit>
         <trans-unit id="Page 3210303717 - Action 4032263875 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Re&amp;lease action</source>
-          <target>Esegue l'azione Re&amp;lease</target>
+          <target>Esegue l'azione Ri&amp;lascio</target>
         </trans-unit>
         <trans-unit id="Page 3210303717 - Action 4032263875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Re&amp;lease</source>
@@ -453,7 +429,7 @@
         </trans-unit>
         <trans-unit id="Page 3210303717 - Control 2682724073 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the No. Printed field</source>
-          <target>Specifica il valore del valore del file N. Campo Stampato</target>
+          <target>Specifica il valore del campo Copie stampate</target>
         </trans-unit>
         <trans-unit id="Page 3210303717 - Control 2832340769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Year field</source>
@@ -465,7 +441,7 @@
         </trans-unit>
         <trans-unit id="Page 3210303717 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the No. field</source>
-          <target>Specifica il valore del campo Nr. Campo</target>
+          <target>Specifica il valore del campo Nr.</target>
         </trans-unit>
         <trans-unit id="Page 3210303717 - Control 476475349 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
@@ -485,7 +461,7 @@
         </trans-unit>
         <trans-unit id="Page 3210303717 - NamedType 928440127" translate="yes" size-unit="char" xml:space="preserve">
           <source>The Intrastat Declaration can not be exported because not released , will you drop it now ?</source>
-          <target>La dichiarazione non è esportabile perchè non rilasciata, vuoi rilasciarla ora ?</target>
+          <target>La dichiarazione non è esportabile perché non rilasciata, vuoi rilasciarla ora?</target>
         </trans-unit>
         <trans-unit id="Page 3210303717 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Intrastat Declaration (ITR)</source>
@@ -497,7 +473,7 @@
         </trans-unit>
         <trans-unit id="Page 3741734684 - Control 1052613867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the No. of Lines (Normal) field</source>
-          <target>Specifica il valore del valore del file N. campo Righe (Normale)</target>
+          <target>Specifica il valore del campo Nr. righe (Normale)</target>
         </trans-unit>
         <trans-unit id="Page 3741734684 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Type field</source>
@@ -517,11 +493,11 @@
         </trans-unit>
         <trans-unit id="Page 3741734684 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the No. field</source>
-          <target>Specifica il valore del campo Nr. Campo</target>
+          <target>Specifica il valore del campo Nr.</target>
         </trans-unit>
         <trans-unit id="Page 3741734684 - Control 4234485544 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the No. of Lines (Correction) field</source>
-          <target>Specifica il valore del valore del file N. campo Righe (Correzione)</target>
+          <target>Specifica il valore del campo Nr. righe (Correzione)</target>
         </trans-unit>
         <trans-unit id="Page 3741734684 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Status field</source>
@@ -573,7 +549,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2390159823 - Control 2156377460 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the EOS Tariff No. field</source>
-          <target>Specifica il valore del n. tariffa EOS. Campo</target>
+          <target>Specifica il valore del campo Nr. tariffa EOS</target>
         </trans-unit>
         <trans-unit id="PageExtension 2390159823 - Control 4230493548 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the EOS Split on Intrastat field</source>
@@ -593,7 +569,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 352295599 - Control 2156377460 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the EOS Tariff No. field</source>
-          <target>Specifica il valore del n. tariffa EOS. Campo</target>
+          <target>Specifica il valore del campo Nr. tariffa EOS</target>
         </trans-unit>
         <trans-unit id="PageExtension 352295599 - Control 4230493548 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the EOS Split on Intrastat field</source>
@@ -601,7 +577,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3834462080 - Control 2156377460 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the EOS Tariff No. field</source>
-          <target>Specifica il valore del n. tariffa EOS. Campo</target>
+          <target>Specifica il valore del campo Nr. tariffa EOS</target>
         </trans-unit>
         <trans-unit id="Report 2149405262 - Control 3024247248 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
@@ -985,7 +961,7 @@
         </trans-unit>
         <trans-unit id="Table 1168148295 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Intrastat Operation Type</source>
-          <target>Ripristinando i valori di default, i recerd correnti saranno eliminati. Procedere?</target>
+          <target>Tipo operazione Intrastat</target>
         </trans-unit>
         <trans-unit id="Table 1659617143 - Field 1029634861 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Country/Region Code</source>
@@ -1301,7 +1277,7 @@
         </trans-unit>
         <trans-unit id="Table 2182427733 - Field 1044233309 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Hide Group Code</source>
-          <target>Nascondi Cod. Consegna</target>
+          <target>Nascondi codice gruppo</target>
         </trans-unit>
         <trans-unit id="Table 2182427733 - Field 1761888289 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Type</source>
