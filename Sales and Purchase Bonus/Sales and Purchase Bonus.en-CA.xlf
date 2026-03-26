@@ -1563,10 +1563,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2314441710 - NamedType 1196336482" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 must be less or equal to %2</source>
+        <trans-unit id="Table 2314441710 - NamedType 3368000788" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are one or more settled/allocated entries outside the new starting-/ending date range.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - NamedType Text001Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - NamedType OutOfPeriodEntriesTxt</note>
         </trans-unit>
         <trans-unit id="Table 2314441710 - NamedType 1753513791" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Ledger Entries will also be deleted. Continue?</source>
@@ -1582,6 +1582,16 @@
           <source>%1 cannot be deleted because there are one or more ledger entries associated to it</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - NamedType Text005Lbl</note>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - Method 1752322067 - NamedType 1824514194" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You will not be able to certify this contract.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - Method CheckDates - NamedType CannotCertifTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - Method 1752322067 - NamedType 4120842620" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be less or equal to %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - Method CheckDates - NamedType MustBeLessOrEqualTxt</note>
         </trans-unit>
         <trans-unit id="Table 2314441710 - Method 1205143113 - NamedType 3350218559" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bonus line %1, cannot be deleted!</source>
@@ -2458,6 +2468,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Bonus Header Nos. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 682335893 - Field 2687848002 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to check for out-of-period entries. If enabled, the system will not allow to change the starting/ending date in a way that would cause settled or allocated entries to be outside the period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Check Out-of-Period Entries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 2687848002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Out-of-Period Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Check Out-of-Period Entries - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 682335893 - Field 1904279077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Closing Balance Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2988,10 +3008,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS075 Sched. Calc. Options - Field Max. No. of Records - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 525723200 - NamedType 1486929738" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Deleting #1################################\ Step #2###\ @3@@@@@@@@@@@@@@@@@</source>
+        <trans-unit id="Codeunit 525723200 - Method 1201644371 - NamedType 1486929738" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deleting %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bonus Calc. Management - NamedType TextDeleteLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bonus Calc. Management - Method DeleteLedgEntries - NamedType TextDeleteLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2981225386 - NamedType 1225457715" size-unit="char" translate="yes" xml:space="preserve">
           <source>Double table %1.</source>
