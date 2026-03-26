@@ -223,10 +223,6 @@
           <source>Cannot delete Item %1! Used by %2</source>
           <target>Artikel %1 kann nicht gelöscht werden! Verwendet von %2</target>
         </trans-unit>
-        <trans-unit id="Codeunit 525723200 - NamedType 1486929738" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Deleting #1################################\ Step #2###\ @3@@@@@@@@@@@@@@@@@</source>
-          <target>Löschung #1################################\ Step #2###\ @3@@@@@@@@@@@@@@@@@</target>
-        </trans-unit>
         <trans-unit id="Enum 183892433 - EnumValue 2710634838 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Paid Amount (Full)</source>
           <target>Bezahlter Betrag (vollständig)</target>
@@ -6945,7 +6941,7 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 1351594800 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "No. Series" field</source>
-          <target>Gibt den Wert von "Nein. Feld "Serie"</target>
+          <target>Spezifiziert die Nummernserie, die zur automatischen Generierung der neuen Bonusvertragscodes verwendet werden soll. Verwenden Sie dies alternativ zur Nutzung des "Ziel-Bonus Code".</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 1351594800 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. Series</source>
@@ -6957,7 +6953,7 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 2053981056 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Destination Bonus Code" field</source>
-          <target>Gibt den Wert des Felds "Zielbonuscode" an.</target>
+          <target>Spezifiziert den Code für den neuen Bonusvertrag. Kann nur verwendet werden, wenn ein einzelner Vertrag dupliziert wird. Verwenden Sie dies als Alternative zu "Nummernserie".</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 2053981056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Destination Bonus Code</source>
@@ -6965,7 +6961,7 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 2875331390 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Date Formula" field</source>
-          <target>Gibt den Wert des Felds "Datumsformel" an.</target>
+          <target>Spezifiziert eine Datumsformel zur Anpassung der Anfangs- und Enddaten von Bonuszeilen sowie von Abrechnungsplänen (z. B. +1Y, um die Daten um ein Jahr vorzuschieben).</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 2875331390 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Date Formula</source>
@@ -6973,7 +6969,7 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 295700772 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Copy Lines" field</source>
-          <target>Gibt den Wert des Felds "Zeilen kopieren" an.</target>
+          <target>Legt fest, ob Bonuszeilen, Schwellenwerte und Abrechnungspläne kopiert werden sollen. Wenn deaktiviert, wird nur der Bonusvertrag-Kopf ohne Zeilen erstellt.</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 295700772 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Lines</source>
@@ -6981,7 +6977,7 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 3140408509 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Copy Settlement Plan" field</source>
-          <target>Gibt den Wert des Felds "Abrechnungsplan kopieren" an</target>
+          <target>Spezifiziert, ob die Posten des Abrechnungssplans von den Quellbonuszeilen auf die neuen Bonuszeilen kopiert werden sollen. Abrechnungsposten werden auf temporären Status gesetzt.</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 3140408509 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Settlement Plan</source>
@@ -6989,11 +6985,11 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 673091510 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Copy to Origin" field</source>
-          <target>Gibt den Wert des Felds "In Ursprung kopieren" an.</target>
+          <target>Legt fest, ob die duplizierten Zeilen zum ursprünglichen Bonusvertrag hinzugefügt werden sollen. Wenn deaktiviert, wird für jeden Quellvertrag ein neuer Bonusvertrag erstellt.</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 673091510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy to Origin</source>
-          <target>Kopieren in Origin</target>
+          <target>Auf ursprünglichen Vertrag duplizieren</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Duplicate Bonus (SPB)</source>
@@ -8682,10 +8678,6 @@
         <trans-unit id="Table 2314441710 - Method 4159301246 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Line %1 %2 will be excluded from settlement, are you sure?</source>
           <target>Bonuszeile %1 %2 wird von der Abrechnung ausgeschlossen, sind Sie sicher?</target>
-        </trans-unit>
-        <trans-unit id="Table 2314441710 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 must be less or equal to %2</source>
-          <target>%1 muss gleich oder kleiner als %2 sein</target>
         </trans-unit>
         <trans-unit id="Table 2314441710 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Ledger Entries will also be deleted. Continue?</source>
@@ -10518,6 +10510,30 @@
         <trans-unit id="Table 53166926 - Method 3152277940 - NamedType 28698063" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cannot delete %1 '%2' because it used on at least one %3.</source>
           <target>%1 '%2' kann nicht gelöscht werden, da sie auf mindestens einer %3 verwendet wurde.</target>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - NamedType 3368000788" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are one or more settled/allocated entries outside the new starting-/ending date range.</source>
+          <target>Es gibt eine oder mehrere abgerechnete/abgegrenzte Einträge außerhalb des neuen Start-/Endzeitraums.</target>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - Method 1752322067 - NamedType 4120842620" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 must be less or equal to %2</source>
+          <target>%1 muss gleich oder kleiner als %2 sein</target>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 2687848002 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Out-of-Period Entries</source>
+          <target>Prüfen von Posten außerhalb der Periode</target>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - Method 1752322067 - NamedType 1824514194" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You will not be able to certify this contract.</source>
+          <target>Dieser Vertrag kann nicht zertifizieren werden.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 525723200 - Method 1201644371 - NamedType 1486929738" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deleting %1</source>
+          <target>Löschen von %1</target>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 2687848002 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether to check for out-of-period entries. If enabled, the system will not allow to change the starting/ending date in a way that would cause settled or allocated entries to be outside the period.</source>
+          <target>Spezifiziert, ob auf auszeitliche Posten geprüft werden sollen. Wenn aktiviert, erlaubt das System nicht, das Start-/Enddatum so zu ändern, dass Abrechnungs- oder Abgrenzungsposten außerhalb des Zeitraums liegen.</target>
         </trans-unit>
       </group>
     </body>

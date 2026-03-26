@@ -223,10 +223,6 @@
           <source>Cannot delete Item %1! Used by %2</source>
           <target>Impossibile eliminare l'elemento %1! Utilizzato da %2</target>
         </trans-unit>
-        <trans-unit id="Codeunit 525723200 - NamedType 1486929738" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Deleting #1################################\ Step #2###\ @3@@@@@@@@@@@@@@@@@</source>
-          <target>Eliminazione #1################################\ Step #2###\ @3@@@@@@@@@@@@@@@@@</target>
-        </trans-unit>
         <trans-unit id="Enum 183892433 - EnumValue 2710634838 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Paid Amount (Full)</source>
           <target>Importo pagato (completo)</target>
@@ -6945,7 +6941,7 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 1351594800 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "No. Series" field</source>
-          <target>Specifica il valore del valore "No. Serie" campo</target>
+          <target>Specifica la serie numerica da utilizzare per generare automaticamente i nuovi codici contrattuali bonus. Usa questo come alternativa all'uso del "Codice Bonus Destinazione".</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 1351594800 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. Series</source>
@@ -6957,7 +6953,7 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 2053981056 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Destination Bonus Code" field</source>
-          <target>Specifica il valore del campo "Codice bonus destinazione"</target>
+          <target>Specifica il codice per il nuovo contratto bonus. Può essere usato solo quando si duplica un singolo contratto. Usa questo come alternativa a "Nr. Serie".</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 2053981056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Destination Bonus Code</source>
@@ -6965,7 +6961,7 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 2875331390 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Date Formula" field</source>
-          <target>Specifica il valore del campo "Formula data"</target>
+          <target>Specifica una formula di data per regolare le date di inizio e fine delle righe bonus, così come le date del piano di liquidazione (ad esempio, +1Y per anticipare le date di un anno).</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 2875331390 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Date Formula</source>
@@ -6973,7 +6969,7 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 295700772 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Copy Lines" field</source>
-          <target>Specifica il valore del campo "Copia righe"</target>
+          <target>Specifica se copiare le righe bonus, le soglie e i piani di liquidazione. Se disabilitato, verrà creato solo l'intestazione del contratto bonus senza righe.</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 295700772 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Lines</source>
@@ -6981,7 +6977,7 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 3140408509 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Copy Settlement Plan" field</source>
-          <target>Specifica il valore del campo "Copia piano di liquidazione"</target>
+          <target>Specifica se copiare i movimenti del piano di liquidazione dalle righe bonus originali alle nuove righe bonus. Movimenti di liquidazione verranno impostate come Temporaneo.</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 3140408509 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Settlement Plan</source>
@@ -6989,11 +6985,11 @@
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 673091510 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Copy to Origin" field</source>
-          <target>Specifica il valore del campo "Copia in origine"</target>
+          <target>Specifica se aggiungere le righe duplicate al contratto bonus originale. Se disabilitato, verrà creato un nuovo contratto bonus per ogni contratto di origine.</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 673091510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy to Origin</source>
-          <target>Copia su origine</target>
+          <target>Duplica su contratto originale</target>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Duplicate Bonus (SPB)</source>
@@ -8682,10 +8678,6 @@
         <trans-unit id="Table 2314441710 - Method 4159301246 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Line %1 %2 will be excluded from settlement, are you sure?</source>
           <target>La linea bonus %1 %2 sarà esclusa dalla liquidazione, sei sicuro?</target>
-        </trans-unit>
-        <trans-unit id="Table 2314441710 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 must be less or equal to %2</source>
-          <target>%1 deve essere minore o uguale a %2</target>
         </trans-unit>
         <trans-unit id="Table 2314441710 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Ledger Entries will also be deleted. Continue?</source>
@@ -10518,6 +10510,30 @@
         <trans-unit id="Table 53166926 - Method 3152277940 - NamedType 28698063" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cannot delete %1 '%2' because it used on at least one %3.</source>
           <target>%1 '%2' non può essere eliminata perché è stata usata su almeno una %3.</target>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 2687848002 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Out-of-Period Entries</source>
+          <target>Controlla movimenti fuori periodo</target>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - Method 1752322067 - NamedType 4120842620" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 must be less or equal to %2</source>
+          <target>%1 deve essere minore o uguale a %2</target>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - NamedType 3368000788" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are one or more settled/allocated entries outside the new starting-/ending date range.</source>
+          <target>Ci sono uno o più movimenti liquidati/stanziati al di fuori del nuovo intervallo di date di inizio/fine.</target>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - Method 1752322067 - NamedType 1824514194" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You will not be able to certify this contract.</source>
+          <target>Questo contratto non può essere certificato.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 525723200 - Method 1201644371 - NamedType 1486929738" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deleting %1</source>
+          <target>Eliminazione %1</target>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 2687848002 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether to check for out-of-period entries. If enabled, the system will not allow to change the starting/ending date in a way that would cause settled or allocated entries to be outside the period.</source>
+          <target>Specifica se controllare movimenti fuori periodo. Se abilitato, il sistema non permetterà di modificare la data di inizio/fine in modo da far sì che movimenti di liquidazione o stanziamento siano fuori dal periodo.</target>
         </trans-unit>
       </group>
     </body>
