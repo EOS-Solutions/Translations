@@ -45,11 +45,11 @@
         </trans-unit>
         <trans-unit id="Codeunit 3417926313 - NamedType 956639880" translate="yes" size-unit="char" xml:space="preserve">
           <source>The amount you entered is invalid.</source>
-          <target>L'importo inserito è invalido.</target>
+          <target>L'importo inserito non è valido.</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 1068937304 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Post Application</source>
-          <target>Registra applicazione</target>
+          <target>Registra collegamento</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 218696843 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set amount to apply</source>
@@ -65,11 +65,11 @@
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 2613693211 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set Entry to Apply</source>
-          <target>Imposta movimento da applicare</target>
+          <target>Imposta movimento da collegare</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 3418396671 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Remove Entry to Apply</source>
-          <target>Rimuovi movimento da applicare</target>
+          <target>Rimuovi movimento da collegare</target>
         </trans-unit>
         <trans-unit id="Page 1036119685 - Action 3673560479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Apply Selected</source>
@@ -265,7 +265,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 247591692 - Control 1036119685 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the EOS Apply G/L Entries field</source>
-          <target>Specifica il valore del campo Movimenti C/G di 200.</target>
+          <target>Specifica il valore del campo "Collega mov. C/G".</target>
         </trans-unit>
         <trans-unit id="PageExtension 3267165754 - Action 198846761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Apply Entries</source>
@@ -357,7 +357,7 @@
         </trans-unit>
         <trans-unit id="Table 1418530140 - Field 3980369105 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Application Entry Nos.</source>
-          <target>Nr. Partite C/G</target>
+          <target>Nr. partite C/G</target>
         </trans-unit>
         <trans-unit id="Table 1418530140 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Application Setup</source>
@@ -385,7 +385,7 @@
         </trans-unit>
         <trans-unit id="Table 3045292521 - Field 2017361853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Account No.</source>
-          <target>Nr. Conto C/G</target>
+          <target>Nr. conto C/G</target>
         </trans-unit>
         <trans-unit id="Table 3045292521 - Field 2059651747 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Applying Date</source>
@@ -950,6 +950,34 @@
         <trans-unit id="Codeunit 3417926313 - NamedType 2778742514" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 %2 with %3 %4 already exists. It cannot be used.</source>
           <target> È presente il %1 %2 con %3 %4. Non è possibile usarlo.</target>
+        </trans-unit>
+        <trans-unit id="Enum 3556043365 - EnumValue 374497366 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Never</source>
+          <target>Mai</target>
+        </trans-unit>
+        <trans-unit id="Enum 3556043365 - EnumValue 1508634494 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manual</source>
+          <target>Manuale</target>
+        </trans-unit>
+        <trans-unit id="Enum 3556043365 - EnumValue 1778198845 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Automatic FIFO</source>
+          <target>Automatico FIFO</target>
+        </trans-unit>
+        <trans-unit id="Enum 3556043365 - EnumValue 4266102419 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Automatic LIFO</source>
+          <target>Automatico LIFO</target>
+        </trans-unit>
+        <trans-unit id="Enum 3446455179 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="Enum 3446455179 - EnumValue 1778072510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Closed</source>
+          <target>Chiuso</target>
+        </trans-unit>
+        <trans-unit id="Enum 3446455179 - EnumValue 4259830144 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open</source>
+          <target>Aperto</target>
         </trans-unit>
       </group>
     </body>
