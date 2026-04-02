@@ -1,943 +1,1417 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file datatype="xml" source-language="en-US" target-language="nl-NL" original="">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="xml" source-language="en-US" target-language="nl-NL" original="Customer Vendor Compensation">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 2574612356 - NamedType 3560163384" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Set up a Subscription</source>
-          <target>Een abonnement instellen</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2574612356 - NamedType 4128705988" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No Subscription for %1 present!</source>
-          <target>Geen abonnement voor %1 aanwezig! </target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3557387855 - Method 1454425233 - NamedType 2110326400" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Multiple foreign currencies are not allowed in the same compensation.</source>
-          <target>Meerdere vreemde valuta’s zijn niet toegestaan in dezelfde compensatie.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3557387855 - Method 1454425233 - NamedType 635541575" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Non-EU currency application is not allowed by %1</source>
-          <target>Toepassing van niet-EU-valuta is niet toegestaan door %1</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3557387855 - Method 1454425233 - NamedType 704265258" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 does not allow applying between currencies. Please change the setup.</source>
-          <target>%1 staat het toepassen tussen valuta’s niet toe. Wijzig de instellingen.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3557387855 - Method 3440771990 - NamedType 1958286982" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Operation completed. Do you want to open journal lines?</source>
-          <target>Afgerond. Wilt u dagboekregels openen?</target>
-        </trans-unit>
-        <trans-unit id="Enum 2472246510 - EnumValue 3346365350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Payment</source>
-          <target>Betaling</target>
-        </trans-unit>
-        <trans-unit id="Enum 718233067 - EnumValue 3052399569 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>CreditMemo</source>
-          <target>Kredietnota</target>
-        </trans-unit>
-        <trans-unit id="Enum 718233067 - EnumValue 3346365350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Payment</source>
-          <target>Betaling</target>
-        </trans-unit>
-        <trans-unit id="Enum 718233067 - EnumValue 4028787690 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Refund</source>
-          <target>Terugbetaling</target>
-        </trans-unit>
-        <trans-unit id="Enum 718233067 - EnumValue 821689635 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice</source>
-          <target>Factuur</target>
-        </trans-unit>
-        <trans-unit id="Enum 718233067 - EnumValue 87408810 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reminder</source>
-          <target>Herinnering</target>
-        </trans-unit>
-        <trans-unit id="Enum 718233067 - EnumValue 942079972 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>FinanceChargeMemo</source>
-          <target>Financieringskosten memo</target>
-        </trans-unit>
-        <trans-unit id="Page 3366293494 - Control 1686246635 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>General</source>
-          <target>Algemeen</target>
-        </trans-unit>
-        <trans-unit id="Page 3366293494 - Control 4142163308 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Comp. Jnl. Template Name" field.</source>
-          <target>Geeft de waarde op van het veld "Comp. dagboeksjabloonnaam"</target>
-        </trans-unit>
-        <trans-unit id="Page 3366293494 - Control 680745034 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Comp. Gen. Jnl. Batch" field.</source>
-          <target>Geeft de waarde op van het veld "Comp. dagboekbatch"</target>
-        </trans-unit>
-        <trans-unit id="Page 3366293494 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation Setup (CVC)</source>
-          <target>Compensation Setup (CVC)</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 3348956396 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Clear all" action</source>
-          <target>Voert de actie "Alles wissen" uit</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 3348956396 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Clear all</source>
-          <target>Reset Compensatie</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 3813797379 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Comp. Sel. Customer Entries" action</source>
-          <target>Voert de actie "Comp. geselecteerde klantposten" uit</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 3813797379 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Comp. Sel. Customer Entries</source>
-          <target>Een vergoed van Klant Entry</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 4252509755 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Comp. Sel. Vendor Entries" action</source>
-          <target>Voert de actie "Comp. geselecteerde leveranciersposten" uit</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 4252509755 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Comp. Sel. Vendor Entries</source>
-          <target>Een vergoed van Verkoper Ingang</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 931262976 - Method 1377591017 - NamedType 1217481964" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No entries have been selected for compensation, no compensation lines have been created.</source>
-          <target>Er zijn geen posten geselecteerd voor compensatie, er zijn geen compensatieregels aangemaakt.</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 931262976 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Create Journal Lines" action</source>
-          <target>Voert de actie "Dagboekregels aanmaken" uit</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 931262976 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Create Journal Lines</source>
-          <target>Compensatielijnen voorstellen</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 974379476 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Open Journal Batch" action</source>
-          <target>Voert de actie "Dagboekbatch openen" uit</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 974379476 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Open Journal Batch</source>
-          <target>Open Dagboek Batch</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 1145903862 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Filters</source>
-          <target>Filters</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 1224454435 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Vendor Balance (LCY)" field.</source>
-          <target>Geeft de waarde op van het veld "Leveranciersaldo (LCY)"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 1224454435 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Vendor Balance (LCY)</source>
-          <target>Leveranciersaldo (LCY)</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 1226746027 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Customer Balance (LCY)" field.</source>
-          <target>Geeft de waarde op van het veld "Klantsaldo (LCY)"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 1226746027 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Customer Balance (LCY)</source>
-          <target>Klantensaldo (LCY)</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 1303963308 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Customer Balance" field.</source>
-          <target>Geeft de waarde op van het veld "Klantsaldo"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 1303963308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Customer Balance</source>
-          <target>Klantsaldo</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 1885601820 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Totals</source>
-          <target>Totalen</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 2197495811 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Selected Entries Balance (LCY)" field.</source>
-          <target>Geeft de waarde op van het veld "Saldo geselecteerde posten (LCY)"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 2197495811 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Selected Entries Balance (LCY)</source>
-          <target>Geselecteerde invoerbalans (LCY)</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 2747110862 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Customer</source>
-          <target>Klant</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 2765076227 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Type" field.</source>
-          <target>Geeft de waarde op van het veld "Type"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 2765076227 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Type</source>
-          <target>Type</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 2765076227 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Customer,Vendor,Contact,VAT Registration No.</source>
-          <target>Klant, Verkoper, Contact, Contact, BTW-registratienr.</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 283758386 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Journal Template Name" field.</source>
-          <target>Geeft de waarde op van het veld "Dagboeksjabloonnaam"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 283758386 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Journal Template Name</source>
-          <target>Tijdschrift Sjabloon Naam</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 2914249964 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Net Balance (LCY)" field.</source>
-          <target>Geeft de waarde op van het veld "Netsaldo (LCY)"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 2914249964 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Net Balance (LCY)</source>
-          <target>Nettosaldo (LCY)</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3153721547 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Net Balance" field.</source>
-          <target>Geeft de waarde op van het veld "Netsaldo"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3153721547 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Net Balance</source>
-          <target>Netsaldo</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3301652662 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Journal Batch Name" field.</source>
-          <target>Geeft de waarde op van het veld "Dagboekbatchnaam"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3301652662 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Journal Batch Name</source>
-          <target>Tijdschrift Batchnaam</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3370881839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Geeft de waarde op van het veld "Boekingsdatum"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3370881839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Datum van terbeschikkingstelling</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3449046714 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Currency Filter" field.</source>
-          <target>Geeft de waarde op van het veld "Valutafilter"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3449046714 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Currency Filter</source>
-          <target>Valutafilter</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3479055028 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Vendor Balance" field.</source>
-          <target>Geeft de waarde op van het veld "Leveranciersaldo"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3479055028 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Vendor Balance</source>
-          <target>Leveranciersaldo</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3852834886 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Vendor</source>
-          <target>Leverancier</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3858379226 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Selected Entries Balance" field.</source>
-          <target>Geeft de waarde op van het veld "Saldo geselecteerde posten"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3858379226 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Selected Entries Balance</source>
-          <target>Saldo geselecteerde posten</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3916294320 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Payment Method Filter" field.</source>
-          <target>Geeft de waarde op van het veld "Betaalwijze filter"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3916294320 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Payment Method Filter</source>
-          <target>Betaalmethode Filter</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3955030665 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
-          <target>Geeft de waarde op van het veld "Documentnr."</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 3955030665 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 4080021232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Code" field.</source>
-          <target>Geeft de waarde op van het veld "Code"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 4080021232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Code</source>
-          <target>Code</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 661498327 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Show Open Entries" field.</source>
-          <target>Geeft de waarde op van het veld "Open posten weergeven"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 661498327 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show Open Entries</source>
-          <target>Open posten weergeven</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 661498327 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>All,Yes,No</source>
-          <target>Alle,Ja,Nee</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 812695767 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date Filter" field.</source>
-          <target>Geeft de waarde op van het veld "Boekingsdatumfilter"</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Control 812695767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date Filter</source>
-          <target>Boekingsdatum filter</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - NamedType 3403200662" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Journal %1 %2 is not empty. Do you want to proceed?</source>
-          <target>Tagboek %1 %2 niet leeg. Wil je doorgaan?</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation (CVC)</source>
-          <target>Vergoeding (CVC)</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Action 4153610395 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Select" action</source>
-          <target>Voert de actie "Selecteren" uit</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Action 4153610395 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Select</source>
-          <target>Selecteer</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Action 683961291 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Find Entries" action</source>
-          <target>Voert de actie "Posten zoeken" uit</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Action 683961291 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Find Entries</source>
-          <target>Inzendingen zoeken</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Action 965687654 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Unselect" action</source>
-          <target>Voert de actie "Deselecteren" uit</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Action 965687654 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Unselect</source>
-          <target>Unselecteren</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 1077555671 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Original Amount" field.</source>
-          <target>Geeft de waarde op van het veld "Oorspronkelijk bedrag"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 1295091726 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Ledger Entry No." field.</source>
-          <target>Geeft de waarde op van het veld "Grootboekpostnr."</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 1309738240 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "External Document No." field.</source>
-          <target>Geeft de waarde op van het veld "Extern documentnr."</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 1309738240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>External Document No.</source>
-          <target>Extern documentnr.</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 1419731019 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
-          <target>Geeft de waarde op van het veld "Documentnr."</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 1419731019 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 2962378592 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Selected" field.</source>
-          <target>Geeft de waarde op van het veld "Geselecteerd"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 2962378592 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Selected</source>
-          <target>Geselecteerd</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 2975378708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount" field.</source>
-          <target>Geeft de waarde op van het veld "Resterend bedrag"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 2975378708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Remaining Amount</source>
-          <target>Resterend bedrag</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 309010296 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Source Type" field.</source>
-          <target>Geeft de waarde op van het veld "Brontype"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3255617327 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Geeft de waarde op van het veld "Boekingsdatum"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3255617327 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Datum van terbeschikkingstelling</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3405962141 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Name" field.</source>
-          <target>Geeft de waarde op van het veld "Naam"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3405962141 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Name</source>
-          <target>Naam</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3566004263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Payment Method" field.</source>
-          <target>Geeft de waarde op van het veld "Betaalwijze"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3604283091 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Applied Amount" field.</source>
-          <target>Geeft de waarde op van het veld "Toegepast bedrag"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3604283091 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Table 126298943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assets Buffer</source>
+          <target>Activa buffer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 3604283091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Applied Amount</source>
           <target>Toegepast bedrag</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field Applied Amount - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3632010517 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Original Amount (LCY)" field.</source>
-          <target>Geeft de waarde op van het veld "Oorspronkelijk bedrag (LCY)"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3632010517 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Original Amount (LCY)</source>
-          <target>Oorspronkelijk bedrag (LCY)</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3658295588 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Occurrence No." field.</source>
-          <target>Geeft de waarde op van het veld "Voorkomensnr."</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 384231925 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Source No." field.</source>
-          <target>Geeft de waarde op van het veld "Bronnr."</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3916214306 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Remaining Amount (LCY)" field.</source>
-          <target>Geeft de waarde op van het veld "Resterend bedrag (LCY)"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3916214306 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Remaining Amount (LCY)</source>
-          <target>Resterend bedrag (LCY)</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 4085727052 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Due Date" field.</source>
-          <target>Geeft de waarde op van het veld "Vervaldatum"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 4085727052 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Due Date</source>
-          <target>Vervaldatum</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 4198939294 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Currency Code" field.</source>
-          <target>Geeft de waarde op van het veld "Valutacode"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 63720737 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Applied Amount (LCY)" field.</source>
-          <target>Geeft de waarde op van het veld "Toegepast bedrag (LCY)"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 63720737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Applied Amount (LCY)</source>
-          <target>Toegepast bedrag (LCY)</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 702581186 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document Type" field.</source>
-          <target>Geeft de waarde op van het veld "Documenttype"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 702581186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document Type</source>
-          <target>Documenttype</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 949770657 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Description" field.</source>
-          <target>Geeft de waarde op van het veld "Omschrijving"</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 949770657 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Description</source>
-          <target>Beschrijving</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation Subform</source>
-          <target>Compensatiesubformulier</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Compensation (CVC)" action.</source>
-          <target>Voert de actie "Compensatie (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Action 3400505831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation (CVC)</source>
-          <target>Compensatie (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Control 1615985007 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Comp. Vendor No." field.</source>
-          <target>Geeft de waarde op van het veld "Comp. leveranciersnr."</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Control 2030901430 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation</source>
-          <target>Compensatie</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Control 2188377334 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Vendor Net Change" field.</source>
-          <target>Geeft de waarde op van het veld "Leverancier netto mutatie".</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Control 2188377334 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Vendor Net Change</source>
-          <target>Leverancier netto mutatie</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Control 2611205639 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Vendor Balance" field.</source>
-          <target>Geeft de waarde op van het veld "Leveranciersaldo".</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Control 2611205639 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Vendor Balance</source>
-          <target>Leveranciersaldo</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Control 4100941605 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Vendor Balance (LCY)" field.</source>
-          <target>Geeft de waarde op van het veld "Leveranciersaldo (LCY)"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Control 4100941605 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Vendor Balance (LCY)</source>
-          <target>Leverancierssaldo (LV)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Control 4218060920 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Vendor Net Change (LCY)" field.</source>
-          <target>Geeft de waarde op van het veld "Leverancier netto mutatie (LCY)"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1436816568 - Control 4218060920 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Vendor Net Change (LCY)</source>
-          <target>Mutatie van leverancier (LV)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1920197339 - Action 3059963869 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "From Customers (CVC)" action</source>
-          <target>Voert de actie "Van klanten (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1920197339 - Action 3059963869 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Customers (CVC)</source>
-          <target>Van klanten (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1920197339 - Action 3187025301 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "From Vendor (CVC)" action</source>
-          <target>Voert de actie "Van leverancier (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1920197339 - Action 3187025301 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Vendor (CVC)</source>
-          <target>Van leverancier (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1920197339 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Compensation (CVC)" action</source>
-          <target>Voert de actie "Compensatie (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1920197339 - Action 3400505831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation (CVC)</source>
-          <target>Compensatie (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1920197339 - Action 3761306467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Suggest Compensation (CVC)</source>
-          <target>Compensatie voorstellen (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2074513185 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Compensation (CVC)" action</source>
-          <target>Voert de actie "Compensatie (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2074513185 - Action 3400505831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation (CVC)</source>
-          <target>Compensatie (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2557893956 - Action 3059963869 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "From Customers (CVC)" action</source>
-          <target>Voert de actie "Van klanten (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2557893956 - Action 3059963869 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Customers (CVC)</source>
-          <target>Van klanten (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2557893956 - Action 3187025301 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "From Vendor (CVC)" action</source>
-          <target>Voert de actie "Van leverancier (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2557893956 - Action 3187025301 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Vendor (CVC)</source>
-          <target>Van leverancier (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2557893956 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Compensation (CVC)" action</source>
-          <target>Voert de actie "Compensatie (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2557893956 - Action 3400505831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation (CVC)</source>
-          <target>Compensatie (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2557893956 - Action 3761306467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Suggest Compensation (CVC)</source>
-          <target>Compensatie voorstellen (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Compensation (CVC)" action</source>
-          <target>Voert de actie "Compensatie (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Action 3400505831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation (CVC)</source>
-          <target>Compensatie (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Control 2030901430 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation</source>
-          <target>Compensatie</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Control 2188377334 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Customer Net Change" field.</source>
-          <target>Geeft de waarde op van het veld "Klant netto mutatie".</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Control 2188377334 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Customer Net Change</source>
-          <target>Klant Net Change</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Control 2611205639 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Customer Balance" field.</source>
-          <target>Geeft de waarde op van het veld "Klantsaldo".</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Control 2611205639 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Customer Balance</source>
-          <target>Klantsaldo</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Control 3628358551 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Comp. Customer No." field.</source>
-          <target>Geeft de waarde op van het veld "Comp. klantnr."</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Control 4100941605 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Customer Balance (LCY)" field.</source>
-          <target>Geeft de waarde op van het veld "Klantsaldo (LCY)"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Control 4100941605 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Customer Balance (LCY)</source>
-          <target>Klantensaldo (LV)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Control 4218060920 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Customer Net Change (LCY)" field.</source>
-          <target>Geeft de waarde op van het veld "Klant netto mutatie (LCY)"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2712209802 - Control 4218060920 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Customer Net Change (LCY)</source>
-          <target>Klant Net Change (LV)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3287112729 - Control 1625826471 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Compensation source code</source>
-          <target>Hiermee geeft u de broncode van de compensatie (CVC) op</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3287112729 - Control 1625826471 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation (CVC)</source>
-          <target>Compensatie (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 4156512059 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Compensation (CVC)" action</source>
-          <target>Voert de actie "Compensatie (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 4156512059 - Action 3400505831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation (CVC)</source>
-          <target>Compensatie (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 499241380 - Action 3059963869 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "From Customers (CVC)" action</source>
-          <target>Voert de actie "Van klanten (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 499241380 - Action 3059963869 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Customers (CVC)</source>
-          <target>Van klanten (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 499241380 - Action 3187025301 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "From Vendor (CVC)" action</source>
-          <target>Voert de actie "Van leverancier (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 499241380 - Action 3187025301 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Vendor (CVC)</source>
-          <target>Van leverancier (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 499241380 - Action 3400505831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Compensation (CVC)" action</source>
-          <target>Voert de actie "Compensatie (CVC)" uit</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 499241380 - Action 3400505831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation (CVC)</source>
-          <target>Compensatie (CVC)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 499241380 - Action 3761306467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Suggest Compensation (CVC)</source>
-          <target>Compensatie voorstellen (CVC)</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Options</source>
-          <target>Opties</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 2817775577 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Journal Template Name" field.</source>
-          <target>Geeft de waarde op van het veld "Dagboeksjabloonnaam"</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 2817775577 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Journal Template Name</source>
-          <target>Tijdschrift Sjabloon Naam</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 3037438984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Geeft de waarde op van het veld "Boekingsdatum"</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 3037438984 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Datum van terbeschikkingstelling</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 3117834186 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
-          <target>Geeft de waarde op van het veld "Documentnr."</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 3117834186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 4026317927 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Payment Method Filter" field.</source>
-          <target>Geeft de waarde op van het veld "Betaalwijze filter"</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 4026317927 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Payment Method Filter</source>
-          <target>Betaalmethode Filter</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 4108872837 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Journal Batch Name" field.</source>
-          <target>Geeft de waarde op van het veld "Dagboekbatchnaam"</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 4108872837 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Journal Batch Name</source>
-          <target>Tijdschrift Batchnaam</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 925483193 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Currency Code" field.</source>
-          <target>Hiermee wordt de waarde van het veld "Valutacode " opgegeven.</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 925483193 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Currency Code</source>
-          <target>Valutacode</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Customer - Sugg. Compensation (CVC)</source>
-          <target>Klant - Sugg. Compensatie (CVC)</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Options</source>
-          <target>Opties</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 2817775577 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Journal Template Name" field.</source>
-          <target>Geeft de waarde op van het veld "Dagboeksjabloonnaam"</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 2817775577 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Journal Template Name</source>
-          <target>Tijdschrift Sjabloon Naam</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 3037438984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Geeft de waarde op van het veld "Boekingsdatum"</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 3037438984 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Datum van terbeschikkingstelling</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 3117834186 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
-          <target>Geeft de waarde op van het veld "Documentnr."</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 3117834186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 4026317927 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Payment Method Filter" field.</source>
-          <target>Geeft de waarde op van het veld "Betaalwijze filter"</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 4026317927 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Payment Method Filter</source>
-          <target>Betaalmethode Filter</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 4108872837 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Journal Batch Name" field.</source>
-          <target>Geeft de waarde op van het veld "Dagboekbatchnaam"</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 4108872837 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Journal Batch Name</source>
-          <target>Tijdschrift Batchnaam</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 925483193 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Currency Code" field.</source>
-          <target>Geeft de waarde op van het veld "Valutacode"</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Vendor - Sugg. Compensation (CVC)</source>
-          <target>Verkoper - Sugg. Compensatie (CVC)</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 1077555671 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Original Amount</source>
-          <target>Oorspronkelijk bedrag</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 1186189064 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Payment Method</source>
-          <target>Betaalmethode</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 1295091726 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Ledger Entry No.</source>
-          <target>Grootboekpostnr.</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 1309738240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>External Document No.</source>
-          <target>Extern documentnr.</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 1419731019 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 1842532085 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Currency Code</source>
-          <target>Valutacode</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 1989356158 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry No.</source>
-          <target>Inschrijfnr.</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 2955256831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Open</source>
-          <target>Open</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 2962378592 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Applied</source>
-          <target>Toegepast</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 2975378708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Remaining Amount</source>
-          <target>Resterend bedrag</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 309010296 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Source Type</source>
-          <target>Brontype</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 309010296 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Customer,Vendor</source>
-          <target>Klant, Verkoper</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 3255617327 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Datum van terbeschikkingstelling</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 3604283091 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Applied Amount</source>
-          <target>Toegepast bedrag</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 3632010517 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Original Amount (LCY)</source>
-          <target>Oorspronkelijk bedrag (LCY)</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 3658295588 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Occurrence No.</source>
-          <target>Voorkomensnr.</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 3677812523 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Due Date</source>
-          <target>Vervaldatum</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 384231925 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Source No.</source>
-          <target>Bron nr.</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 3916214306 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Remaining Amount (LCY)</source>
-          <target>Resterend bedrag (LCY)</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 580412389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Table 126298943 - Field 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Document Date" field.</source>
-          <target>Geeft de waarde op van het veld "Documentdatum"</target>
+          <target>Geeft de waarde op van het veld "Documentdatum".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field Document Date - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Table 126298943 - Field 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Table 126298943 - Field 580412389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Date</source>
           <target>Documentdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field Document Date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 126298943 - Field 63720737 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Table 126298943 - Field 63720737 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Applied Amount (LCY)</source>
           <target>Toegepast bedrag (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Applied Amount (LCY) - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 126298943 - Field 671327301 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Matched Document No.</source>
-          <target>Bijbehorend documentnummer</target>
+        <trans-unit id="Table 126298943 - Field 2962378592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied</source>
+          <target>Toegepast</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Applyed - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 126298943 - Field 702581186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document Type</source>
-          <target>Documenttype</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Field 949770657 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Description</source>
-          <target>Beschrijving</target>
-        </trans-unit>
-        <trans-unit id="Table 126298943 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Assets Buffer</source>
-          <target>Activa Buffer</target>
-        </trans-unit>
-        <trans-unit id="Table 3366293494 - Field 1715183001 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Comp. Jnl. Template Name</source>
-          <target>Comp. Jnl. Sjabloonnaam</target>
-        </trans-unit>
-        <trans-unit id="Table 3366293494 - Field 2904214200 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Default Document Type</source>
-          <target>Standaard documenttype</target>
-        </trans-unit>
-        <trans-unit id="Table 3366293494 - Field 3210361224 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Code</source>
-          <target>Code</target>
-        </trans-unit>
-        <trans-unit id="Table 3366293494 - Field 680745034 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Comp. Gen. Jnl. Batch</source>
-          <target>Comp. Gen. Jnl. Batch</target>
-        </trans-unit>
-        <trans-unit id="Table 3366293494 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation Setup</source>
-          <target>Compensation Setup</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 134941363 - Field 1615985007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Comp. Vendor No.</source>
-          <target>Compensatie Leverancier Nr.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 2048031214 - Field 3628358551 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Comp. Customer No.</source>
-          <target>Compensatie klantnummer</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 3056689733 - Field 1625826471 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compensation</source>
-          <target>Compensatie</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 931262976 - Method 1377591017 - NamedType 557478538" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Create compensation lines?</source>
-          <target>Compensatieregels aanmaken?</target>
-        </trans-unit>
-        <trans-unit id="Page 3400505831 - Action 931262976 - Method 1377591017 - NamedType 1987406826" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 compensation lines have been created.</source>
-          <target>%1 compensatieregels zijn aangemaakt.</target>
-        </trans-unit>
-        <trans-unit id="Page 3366293494 - Control 2904214200 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Default Document Type" field.</source>
-          <target>Geeft de waarde op van het veld "Standaard documenttype".</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 3604283091 - Method 2126772001 - NamedType 107169100" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Exchange rate for %1 on %2 is missing.</source>
-          <target>Wisselkoers voor %1 op %2 ontbreekt.</target>
-        </trans-unit>
-        <trans-unit id="Page 3784725633 - Control 2962378592 - Method 2126772001 - NamedType 107169100" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Exchange rate for %1 on %2 is missing.</source>
-          <target>Wisselkoers voor %1 op %2 ontbreekt.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 979939406 - Method 1725107393 - NamedType 933600981" translate="yes" size-unit="char" xml:space="preserve">
-          <source>compensation lines have been created.</source>
-          <target>compensatieregels zijn aangemaakt.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 979939406 - Method 1725107393 - NamedType 516524241" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The journal lines were successfully posted.</source>
-          <target>De dagboekregels werden probleemloos geboekt.</target>
-        </trans-unit>
-        <trans-unit id="Report 1343519302 - Control 925483193 - Method 2126772001 - NamedType 3415091118" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Currency "%1" does not exist.</source>
-          <target>Valuta "%1" bestaat niet.</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 925483193 - Method 2126772001 - NamedType 3415091118" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Currency "%1" does not exist.</source>
-          <target>Valuta "%1" bestaat niet.</target>
-        </trans-unit>
-        <trans-unit id="Report 3003197803 - Control 925483193 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Table 126298943 - Field 1842532085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
           <target>Valutacode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 1295091726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger Entry No.</source>
+          <target>Grootboekpostnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Cust. /Vend. Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 949770657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschrijving</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 1419731019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Documentnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 702581186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Documenttype</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 3677812523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target>Vervaldatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 1989356158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Postnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 1309738240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <target>Extern documentnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS External Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 671327301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Matched Document No.</source>
+          <target>Overeenkomend documentnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Matched Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 2955256831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <target>Open</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 3632010517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Amount (LCY)</source>
+          <target>Oorspronkelijk bedrag (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Original Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 1186189064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method</source>
+          <target>Betalingswijze</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Payment Method - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 3255617327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Boekingsdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 3916214306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount (LCY)</source>
+          <target>Resterend bedrag (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Remaining Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 384231925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <target>Bronnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Source No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 309010296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <target>Brontype</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 309010296 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer,Vendor</source>
+          <target>Klant,Leverancier</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field EOS Source Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 3658295588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Occurrence No.</source>
+          <target>Voorkomensnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field Occurrence No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 1077555671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Amount</source>
+          <target>Oorspronkelijk bedrag</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field Original Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 126298943 - Field 2975378708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <target>Resterend bedrag</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Buffer - Field Remaining Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3366293494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensation Setup</source>
+          <target>Compensatie-instellingen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3366293494 - Field 2904214200 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Document Type</source>
+          <target>Standaard documenttype</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Setup - Field Default Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3366293494 - Field 3210361224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Setup - Field EOS Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3366293494 - Field 680745034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comp. Gen. Jnl. Batch</source>
+          <target>Comp. alg. dagboekbatch</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Setup - Field EOS Comp. Gen. Jnl. Batch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3366293494 - Field 1715183001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comp. Jnl. Template Name</source>
+          <target>Comp. dagboeksjabloonnaam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Compensation Setup - Field EOS Comp. Jnl. Template Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3557387855 - Method 1454425233 - NamedType 2110326400" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Multiple foreign currencies are not allowed in the same compensation.</source>
+          <target>Meerdere vreemde valuta’s zijn niet toegestaan in dezelfde compensatie.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Compensation Mgt. - Method MultipleForeignCurrencyCheck - NamedType MultipleForeignCurrencyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3557387855 - Method 1454425233 - NamedType 635541575" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-EU currency application is not allowed by %1</source>
+          <target>Toepassing van niet-EU-valuta is niet toegestaan door %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 is Sales &amp; Receivables Setup or Purchases &amp; Payables Setup</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Compensation Mgt. - Method MultipleForeignCurrencyCheck - NamedType NonEUCurrencyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3557387855 - Method 1454425233 - NamedType 704265258" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 does not allow applying between currencies. Please change the setup.</source>
+          <target>%1 staat het toepassen tussen valuta’s niet toe. Wijzig de instellingen.</target>
+          <note from="Developer" annotates="general" priority="2">%1 is Sales &amp; Receivables Setup or Purchases &amp; Payables Setup</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Compensation Mgt. - Method MultipleForeignCurrencyCheck - NamedType ApplyingSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3557387855 - Method 3440771990 - NamedType 1958286982" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation completed. Do you want to open journal lines?</source>
+          <target>Bewerking voltooid. Wilt u de dagboekregels openen?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Compensation Mgt. - Method ShowJournal - NamedType OpenJnlQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 979939406 - Method 1725107393 - NamedType 933600981" size-unit="char" translate="yes" xml:space="preserve">
+          <source>compensation lines have been created.</source>
+          <target>compensatieregels zijn aangemaakt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX025 CV Compensation - Method CompensationMessageHandler - NamedType CompensationLinesCreatedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 979939406 - Method 1725107393 - NamedType 516524241" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The journal lines were successfully posted.</source>
+          <target>De dagboekregels zijn succesvol geboekt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX025 CV Compensation - Method CompensationMessageHandler - NamedType JournalLinesPostedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2574612356 - NamedType 4128705988" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Subscription for %1 present!</source>
+          <target>Geen abonnement voor %1 aanwezig!</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX025 Subscription - NamedType NoSubscriptLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2574612356 - NamedType 3560163384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up a Subscription</source>
+          <target>Abonnement instellen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX025 Subscription - NamedType SetUpSubscriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensation (CVC)</source>
+          <target>Compensatie (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - NamedType 3403200662" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal %1 %2 is not empty. Do you want to proceed?</source>
+          <target>Dagboek %1 %2 is niet leeg. Wilt u doorgaan?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - NamedType TextJournalNotEmptyQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 2747110862 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <target>Klant</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS CustomerPart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 1145903862 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters</source>
+          <target>Filters</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3955030665 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number to assign to the compensation journal lines.</source>
+          <target>Hiermee geeft u het documentnummer op dat aan de compensatiedagboekregels wordt toegewezen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS DocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3955030665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Documentnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS DocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 4080021232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the customer, vendor, or contact whose ledger entries are loaded for compensation.</source>
+          <target>Hiermee geeft u de code op van de klant, leverancier of contactpersoon waarvan de posten worden geladen voor compensatie.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 4080021232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3449046714 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the currency code used to filter the ledger entries loaded for compensation.</source>
+          <target>Hiermee geeft u de valutacode op die wordt gebruikt om de voor compensatie geladen posten te filteren.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterCurrency - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3449046714 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Filter</source>
+          <target>Valutafilter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterCurrency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 661498327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to include all entries, only open entries, or only closed entries in the compensation list.</source>
+          <target>Hiermee geeft u op of alle posten, alleen open posten of alleen gesloten posten worden weergegeven in de compensatielijst.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterOpen - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 661498327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Open Entries</source>
+          <target>Open posten weergeven</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterOpen - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 661498327 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All,Yes,No</source>
+          <target>Alle,Ja,Nee</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterOpen - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3916294320 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment method code used to filter the ledger entries loaded for compensation.</source>
+          <target>Hiermee geeft u de betalingswijzecode op die wordt gebruikt om de voor compensatie geladen posten te filteren.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterPaymentMethod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3916294320 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method Filter</source>
+          <target>Betaalwijzefilter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterPaymentMethod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 812695767 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a date range filter applied to the posting date of the ledger entries.</source>
+          <target>Hiermee geeft u een datumbereiksfilter op dat wordt toegepast op de boekingsdatum van de posten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterPostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 812695767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date Filter</source>
+          <target>Boekingsdatumfilter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterPostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 2765076227 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of entity used to filter the ledger entries: Customer, Vendor, Contact, or VAT Registration No.</source>
+          <target>Hiermee geeft u het type entiteit op dat wordt gebruikt om de posten te filteren: Klant, Leverancier, Contactpersoon of BTW-registratienr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 2765076227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 2765076227 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer,Vendor,Contact,VAT Registration No.</source>
+          <target>Klant,Leverancier,Contactpersoon,BTW-registratienr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS FilterType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3301652662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the general journal batch where compensation journal lines will be created.</source>
+          <target>Hiermee geeft u de dagboekbatch op waar de compensatiedagboekregels worden aangemaakt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS JnlBatchName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3301652662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Batch Name</source>
+          <target>Dagboekbatchnaam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS JnlBatchName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 283758386 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the general journal template where compensation journal lines will be created.</source>
+          <target>Hiermee geeft u de dagboeksjabloon op waar de compensatiedagboekregels worden aangemaakt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS JnlTemplateName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 283758386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Template Name</source>
+          <target>Dagboeksjabloonnaam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS JnlTemplateName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3370881839 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date to assign to the compensation journal lines.</source>
+          <target>Hiermee geeft u de boekingsdatum op die aan de compensatiedagboekregels wordt toegewezen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS PostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3370881839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Boekingsdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS PostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 1885601820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Totals</source>
+          <target>Totalen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS Totals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 1303963308 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the total remaining balance in transaction currency of all loaded customer entries.</source>
+          <target>Toont het totale resterende saldo in transactievaluta van alle geladen klantposten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control CustomerTotalBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 1303963308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Balance</source>
+          <target>Klantsaldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control CustomerTotalBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 1226746027 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the total remaining balance in local currency of all loaded customer entries.</source>
+          <target>Toont het totale resterende saldo in lokale valuta van alle geladen klantposten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS CustomerTotalBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 1226746027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Balance (LCY)</source>
+          <target>Klantsaldo (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS CustomerTotalBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 2914249964 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the overall net balance in local currency of all loaded customer and vendor entries.</source>
+          <target>Toont het totale nettosaldo in lokale valuta van alle geladen klant- en leveranciersposten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS NetBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 2914249964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Balance (LCY)</source>
+          <target>Nettosaldo (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS NetBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 2197495811 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the net balance in local currency of the entries selected for compensation.</source>
+          <target>Toont het nettosaldo in lokale valuta van de voor compensatie geselecteerde posten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS SelectedNetBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 2197495811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selected Entries Balance (LCY)</source>
+          <target>Saldo geselecteerde posten (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS SelectedNetBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 1224454435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the total remaining balance in local currency of all loaded vendor entries.</source>
+          <target>Toont het totale resterende saldo in lokale valuta van alle geladen leveranciersposten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS VendorTotalBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 1224454435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Balance (LCY)</source>
+          <target>Leveranciersaldo (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS VendorTotalBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3153721547 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the overall net balance in transaction currency of all loaded customer and vendor entries.</source>
+          <target>Toont het totale nettosaldo in transactievaluta van alle geladen klant- en leveranciersposten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control NetBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3153721547 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Balance</source>
+          <target>Netsaldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control NetBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3858379226 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the net balance in transaction currency of the entries selected for compensation.</source>
+          <target>Toont het nettosaldo in transactievaluta van de voor compensatie geselecteerde posten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control SelectedNetBalanceCurr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3858379226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selected Entries Balance</source>
+          <target>Saldo geselecteerde posten</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control SelectedNetBalanceCurr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3479055028 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the total remaining balance in transaction currency of all loaded vendor entries.</source>
+          <target>Toont het totale resterende saldo in transactievaluta van alle geladen leveranciersposten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control VendorTotalBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3479055028 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Balance</source>
+          <target>Leveranciersaldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control VendorTotalBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Control 3852834886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <target>Leverancier</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Control EOS VendorPart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 3813797379 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatically matches the selected customer entries with vendor entries to suggest compensation amounts.</source>
+          <target>Koppelt automatisch de geselecteerde klantposten aan leveranciersposten om compensatiebedragen voor te stellen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Customer entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 3813797379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comp. Sel. Customer Entries</source>
+          <target>Comp. ges. klantposten</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Customer entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 974379476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the general journal batch where the compensation lines were created.</source>
+          <target>Opent de dagboekbatch waar de compensatieregels zijn aangemaakt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Open Journal Batch - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 974379476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Journal Batch</source>
+          <target>Dagboekbatch openen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Open Journal Batch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 3348956396 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clears all entry selections and resets all applied amounts on the compensation page.</source>
+          <target>Wist alle postselecties en stelt alle toegepaste bedragen opnieuw in op de compensatiepagina.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Reset Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 3348956396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear all</source>
+          <target>Alles wissen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Reset Compensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 931262976 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates general journal lines for the entries selected for compensation.</source>
+          <target>Maakt dagboekregels aan voor de voor compensatie geselecteerde posten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Suggest Compensation Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 931262976 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Journal Lines</source>
+          <target>Dagboekregels aanmaken</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Suggest Compensation Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 931262976 - Method 1377591017 - NamedType 557478538" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create compensation lines?</source>
+          <target>Compensatieregels aanmaken?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Suggest Compensation Lines - Method OnAction - NamedType CreateCompensationQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 931262976 - Method 1377591017 - NamedType 1217481964" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No entries have been selected for compensation, no compensation lines have been created.</source>
+          <target>Er zijn geen posten geselecteerd voor compensatie, er zijn geen compensatieregels aangemaakt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Suggest Compensation Lines - Method OnAction - NamedType NoSelectedEntriesLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 931262976 - Method 1377591017 - NamedType 1987406826" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 compensation lines have been created.</source>
+          <target>%1 compensatieregels zijn aangemaakt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Suggest Compensation Lines - Method OnAction - NamedType CreatedCompensationLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 4252509755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatically matches the selected vendor entries with customer entries to suggest compensation amounts.</source>
+          <target>Koppelt automatisch de geselecteerde leveranciersposten aan klantposten om compensatiebedragen voor te stellen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Vendor Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3400505831 - Action 4252509755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comp. Sel. Vendor Entries</source>
+          <target>Comp. ges. leveranciersposten</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation - Action EOS Vendor Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3366293494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensation Setup (CVC)</source>
+          <target>Compensatie-instellingen (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3366293494 - Control 1686246635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Algemeen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Setup - Control EOS GroupName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3366293494 - Control 2904214200 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default document type to assign to the compensation journal lines.</source>
+          <target>Geeft de waarde op van het veld "Standaard documenttype".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Setup - Control Default Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3366293494 - Control 680745034 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default general journal batch to use when creating compensation journal lines.</source>
+          <target>Geeft de waarde op van het veld "Comp. dagboekbatch"</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Setup - Control EOS Comp. Gen. Jnl. Batch - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3366293494 - Control 4142163308 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default general journal template to use when creating compensation journal lines.</source>
+          <target>Geeft de waarde op van het veld "Comp. dagboeksjabloonnaam"</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Setup - Control EOS Comp. Journal Template Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensation Subform</source>
+          <target>Compensatiesubformulier</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3604283091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount allocated for compensation in transaction currency. Can be modified for partial compensation.</source>
+          <target>Hiermee geeft u het voor compensatie toegewezen bedrag op in transactievaluta. Kan worden gewijzigd voor gedeeltelijke compensatie.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Applied Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3604283091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied Amount</source>
+          <target>Toegepast bedrag</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Applied Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3604283091 - Method 2126772001 - NamedType 107169100" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exchange rate for %1 on %2 is missing.</source>
+          <target>Wisselkoers voor %1 op %2 ontbreekt.</target>
+          <note from="Developer" annotates="general" priority="2">%1: Currency Code, %2: Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Applied Amount - Method OnValidate - NamedType ExchangeRateMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 4198939294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the currency code in which the ledger entry amounts are expressed.</source>
+          <target>Hiermee geeft u de valutacode op waarin de bedragen van de grootboekpost worden uitgedrukt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Currency Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date of the original document associated with this ledger entry.</source>
+          <target>Hiermee geeft u de datum op van het originele document dat aan deze grootboekpost is gekoppeld.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 4085727052 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date by which the ledger entry amount must be paid.</source>
+          <target>Hiermee geeft u de datum op waarop het bedrag van de grootboekpost moet worden betaald.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Due Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 4085727052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target>Vervaldatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 63720737 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount allocated for compensation in local currency. Can be modified for partial compensation.</source>
+          <target>Hiermee geeft u het voor compensatie toegewezen bedrag op in lokale valuta. Kan worden gewijzigd voor gedeeltelijke compensatie.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Applied Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 63720737 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied Amount (LCY)</source>
+          <target>Toegepast bedrag (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Applied Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 2962378592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether this entry is selected for compensation. When selected, the applied amount is set equal to the remaining amount.</source>
+          <target>Hiermee geeft u op of deze post is geselecteerd voor compensatie. Als de post is geselecteerd, wordt het toegepaste bedrag gelijkgesteld aan het resterende bedrag.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Applyed - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 2962378592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selected</source>
+          <target>Geselecteerd</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Applyed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 2962378592 - Method 2126772001 - NamedType 107169100" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exchange rate for %1 on %2 is missing.</source>
+          <target>Wisselkoers voor %1 op %2 ontbreekt.</target>
+          <note from="Developer" annotates="general" priority="2">%1: Currency Code, %2: Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Applyed - Method OnValidate - NamedType ExchangeRateMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 1295091726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry number of the customer or vendor ledger entry.</source>
+          <target>Hiermee geeft u het postnummer op van de klant- of leverancierspost.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Cust. /Vend. Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 949770657 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the ledger entry taken from the original document.</source>
+          <target>Hiermee geeft u de beschrijving op van de grootboekpost uit het originele document.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 949770657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschrijving</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 1419731019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number that identifies this ledger entry.</source>
+          <target>Hiermee geeft u het documentnummer op dat deze grootboekpost identificeert.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 1419731019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Documentnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 702581186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document type of the ledger entry, such as Invoice, Credit Memo, or Payment.</source>
+          <target>Hiermee geeft u het documenttype op van de grootboekpost, zoals Factuur, Creditnota of Betaling.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 702581186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Documenttype</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 1309738240 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the external reference number of the document, such as the vendor invoice number.</source>
+          <target>Hiermee geeft u het externe referentienummer op van het document, zoals het factuurnummer van de leverancier.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS External Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 1309738240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <target>Extern documentnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS External Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3632010517 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the original full amount of the ledger entry in local currency.</source>
+          <target>Hiermee geeft u het oorspronkelijke volledige bedrag op van de grootboekpost in lokale valuta.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Original Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3632010517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Amount (LCY)</source>
+          <target>Oorspronkelijk bedrag (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Original Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3255617327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date on which this ledger entry was posted.</source>
+          <target>Hiermee geeft u de datum op waarop deze grootboekpost is geboekt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3255617327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Boekingsdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3916214306 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the open remaining amount of the ledger entry in local currency.</source>
+          <target>Hiermee geeft u het openstaande resterende bedrag op van de grootboekpost in lokale valuta.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Remaining Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3916214306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount (LCY)</source>
+          <target>Resterend bedrag (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Remaining Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 384231925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the customer or vendor associated with this ledger entry.</source>
+          <target>Hiermee geeft u het nummer op van de klant of leverancier die aan deze grootboekpost is gekoppeld.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 309010296 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the entry originates from a customer or a vendor ledger.</source>
+          <target>Hiermee geeft u op of de post afkomstig is van een klanten- of leveranciersboek.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3405962141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the customer or vendor associated with this ledger entry.</source>
+          <target>Hiermee geeft u de naam op van de klant of leverancier die aan deze grootboekpost is gekoppeld.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS SourceName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3405962141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Naam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control EOS SourceName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3658295588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the occurrence number when the same document appears multiple times.</source>
+          <target>Hiermee geeft u het voorkomennummer op wanneer hetzelfde document meerdere keren voorkomt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Occurrence No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 1077555671 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the original full amount of the ledger entry in transaction currency.</source>
+          <target>Hiermee geeft u het oorspronkelijke volledige bedrag op van de grootboekpost in transactievaluta.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Original Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 3566004263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment method assigned to the ledger entry.</source>
+          <target>Hiermee geeft u de betalingswijze op die aan de grootboekpost is toegewezen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Payment Method - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 2975378708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the open remaining amount of the ledger entry in transaction currency.</source>
+          <target>Hiermee geeft u het openstaande resterende bedrag op van de grootboekpost in transactievaluta.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Remaining Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Control 2975378708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <target>Resterend bedrag</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Control Remaining Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Action 683961291 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the Find Entries page to show all ledger entries related to the document of the selected line.</source>
+          <target>Opent de pagina Posten zoeken om alle grootboekposten te tonen die zijn gerelateerd aan het document van de geselecteerde regel.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Action EOS Navi&amp;ga - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Action 683961291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Entries</source>
+          <target>Posten zoeken</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Action EOS Navi&amp;ga - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Action 4153610395 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Marks the selected lines as chosen for compensation and sets their applied amount equal to the remaining amount.</source>
+          <target>Markeert de geselecteerde regels als gekozen voor compensatie en stelt het toegepaste bedrag gelijk aan het resterende bedrag.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Action EOS Select - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Action 4153610395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select</source>
+          <target>Selecteren</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Action EOS Select - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Action 965687654 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Removes the compensation selection from the chosen lines and resets their applied amount to zero.</source>
+          <target>Verwijdert de compensatieselectie van de gekozen regels en stelt het toegepaste bedrag opnieuw in op nul.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Action EOS Unselect - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3784725633 - Action 965687654 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unselect</source>
+          <target>Deselecteren</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Compensation Subform - Action EOS Unselect - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - Sugg. Compensation (CVC)</source>
+          <target>Klant - Sugg. Compensatie (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Opties</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 3117834186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Document No." field.</source>
+          <target>Geeft de waarde op van het veld "Documentnr.".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control DocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 3117834186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Documentnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control DocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 925483193 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Currency Code" field.</source>
+          <target>Geeft de waarde op van het veld "Valutacode".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control FilterCurrency - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 925483193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Valutacode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control FilterCurrency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 925483193 - Method 2126772001 - NamedType 3415091118" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency "%1" does not exist.</source>
+          <target>Valuta "%1" bestaat niet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control FilterCurrency - Method OnValidate - NamedType CurrencyErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 4026317927 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Geeft de waarde op van het veld "Betaalwijzefilter".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control FilterPaymentMethod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 4026317927 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method Filter</source>
+          <target>Betaalwijzefilter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control FilterPaymentMethod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 4108872837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Journal Batch Name" field.</source>
+          <target>Geeft de waarde op van het veld "Dagboekbatchnaam".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control JnlBatchName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 4108872837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Batch Name</source>
+          <target>Dagboekbatchnaam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control JnlBatchName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 2817775577 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Journal Template Name" field.</source>
+          <target>Geeft de waarde op van het veld "Dagboeksjabloonnaam".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control JnlTemplateName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 2817775577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Template Name</source>
+          <target>Dagboeksjabloonnaam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control JnlTemplateName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 3037438984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date" field.</source>
+          <target>Geeft de waarde op van het veld "Boekingsdatum".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control PostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1343519302 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Boekingsdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cust. Sugg. Compensation - Control PostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor - Sugg. Compensation (CVC)</source>
+          <target>Leverancier - Sug. Compensatie (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Opties</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 3117834186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Document No." field.</source>
+          <target>Geeft de waarde op van het veld "Documentnr.".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control DocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 3117834186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Documentnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control DocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 925483193 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Currency Code" field.</source>
+          <target>Geeft de waarde op van het veld "Valutacode".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control FilterCurrency - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 925483193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Valutacode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control FilterCurrency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 925483193 - Method 2126772001 - NamedType 3415091118" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency "%1" does not exist.</source>
+          <target>Valuta "%1" bestaat niet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control FilterCurrency - Method OnValidate - NamedType CurrencyErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 4026317927 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Geeft de waarde op van het veld "Betaalwijzefilter".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control FilterPaymentMethod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 4026317927 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method Filter</source>
+          <target>Betaalwijzefilter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control FilterPaymentMethod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 4108872837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Journal Batch Name" field.</source>
+          <target>Geeft de waarde op van het veld "Dagboekbatchnaam".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control JnlBatchName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 4108872837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Batch Name</source>
+          <target>Dagboekbatchnaam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control JnlBatchName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 2817775577 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Journal Template Name" field.</source>
+          <target>Geeft de waarde op van het veld "Dagboeksjabloonnaam".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control JnlTemplateName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 2817775577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Template Name</source>
+          <target>Dagboeksjabloonnaam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control JnlTemplateName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 3037438984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date" field.</source>
+          <target>Geeft de waarde op van het veld "Boekingsdatum".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control PostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3003197803 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Boekingsdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Sugg. Compensation - Control PostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Action 3400505831 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Executes the "Compensation (CVC)" action.</source>
+          <target>Voert de actie "Compensatie (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Action 3400505831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Compensation (CVC)</source>
+          <target>Compensatie (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Action EOS Compensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 2030901430 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Compensation</source>
+          <target>Compensatie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Control EOS Compensation group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 1615985007 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the value of the "Comp. Vendor No." field.</source>
+          <target>Geeft de waarde op van het veld "Comp. leveranciersnr.".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Control EOS Comp. Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 4100941605 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the value of the "Vendor Balance (LCY)" field.</source>
+          <target>Geeft de waarde op van het veld "Leveranciersaldo (LCY)".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Control EOS VendorBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 4100941605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Vendor Balance (LCY)</source>
+          <target>Leveranciersaldo (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Control EOS VendorBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 2611205639 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the value of the "Vendor Balance" field.</source>
+          <target>Geeft de waarde op van het veld "Leveranciersaldo".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Control EOS VendorBalanceCurr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 2611205639 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Vendor Balance</source>
+          <target>Leveranciersaldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Control EOS VendorBalanceCurr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 4218060920 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the value of the "Vendor Net Change (LCY)" field.</source>
+          <target>Geeft de waarde op van het veld "Leverancier nettomutatie (LCY)".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Control EOS VendorNetChange - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 4218060920 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Vendor Net Change (LCY)</source>
+          <target>Leverancier nettomutatie (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Control EOS VendorNetChange - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 2188377334 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the value of the "Vendor Net Change" field.</source>
+          <target>Geeft de waarde op van het veld "Leverancier nettomutatie".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Control EOS VendorNetChangeCurr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1436816568 - Control 2188377334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Vendor Net Change</source>
+          <target>Leverancier nettomutatie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122465 - Control EOS VendorNetChangeCurr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2074513185 - Action 3400505831 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Executes the "Compensation (CVC)" action</source>
+          <target>Voert de actie "Compensatie (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122466 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2074513185 - Action 3400505831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Compensation (CVC)</source>
+          <target>Compensatie (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122466 - Action EOS Compensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Action 3400505831 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Executes the "Compensation (CVC)" action</source>
+          <target>Voert de actie "Compensatie (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Action 3400505831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Compensation (CVC)</source>
+          <target>Compensatie (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Action EOS Compensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 2030901430 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Compensation</source>
+          <target>Compensatie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Control EOS Compensation group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 3628358551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies the value of the "Comp. Customer No." field.</source>
+          <target>Geeft de waarde op van het veld "Comp. klantnr.".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Control EOS Comp. Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 4100941605 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies the value of the "Customer Balance (LCY)" field.</source>
+          <target>Geeft de waarde op van het veld "Klantsaldo (LCY)".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Control EOS VendorBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 4100941605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Customer Balance (LCY)</source>
+          <target>Klantsaldo (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Control EOS VendorBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 2611205639 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies the value of the "Customer Balance" field.</source>
+          <target>Geeft de waarde op van het veld "Klantsaldo".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Control EOS VendorBalanceCurr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 2611205639 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Customer Balance</source>
+          <target>Klantsaldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Control EOS VendorBalanceCurr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 4218060920 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies the value of the "Customer Net Change (LCY)" field.</source>
+          <target>Geeft de waarde op van het veld "Klant nettomutatie (LCY)".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Control EOS VendorNetChange - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 4218060920 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Customer Net Change (LCY)</source>
+          <target>Klant nettomutatie (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Control EOS VendorNetChange - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 2188377334 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies the value of the "Customer Net Change" field.</source>
+          <target>Geeft de waarde op van het veld "Klant nettomutatie".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Control EOS VendorNetChangeCurr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2712209802 - Control 2188377334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Customer Net Change</source>
+          <target>Klant nettomutatie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122467 - Control EOS VendorNetChangeCurr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4156512059 - Action 3400505831 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Executes the "Compensation (CVC)" action</source>
+          <target>Voert de actie "Compensatie (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122468 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4156512059 - Action 3400505831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Compensation (CVC)</source>
+          <target>Compensatie (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122468 - Action EOS Compensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 499241380 - Action 3400505831 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Executes the "Compensation (CVC)" action</source>
+          <target>Voert de actie "Compensatie (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122469 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 499241380 - Action 3400505831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Compensation (CVC)</source>
+          <target>Compensatie (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122469 - Action EOS Compensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 499241380 - Action 3761306467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Suggest Compensation (CVC)</source>
+          <target>Compensatie voorstellen (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122469 - Action EOS SuggestCompensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 499241380 - Action 3059963869 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Executes the "From Customers (CVC)" action</source>
+          <target>Voert de actie "Van klanten (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122469 - Action EOS FromCustomer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 499241380 - Action 3059963869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>From Customers (CVC)</source>
+          <target>Van klanten (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122469 - Action EOS FromCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 499241380 - Action 3187025301 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Executes the "From Vendor (CVC)" action</source>
+          <target>Voert de actie "Van leverancier (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122469 - Action EOS FromVendor - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 499241380 - Action 3187025301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>From Vendor (CVC)</source>
+          <target>Van leverancier (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122469 - Action EOS FromVendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2557893956 - Action 3400505831 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>Executes the "Compensation (CVC)" action</source>
+          <target>Voert de actie "Compensatie (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122470 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2557893956 - Action 3400505831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>Compensation (CVC)</source>
+          <target>Compensatie (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122470 - Action EOS Compensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2557893956 - Action 3761306467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>Suggest Compensation (CVC)</source>
+          <target>Compensatie voorstellen (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122470 - Action EOS SuggestCompensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2557893956 - Action 3059963869 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>Executes the "From Customers (CVC)" action</source>
+          <target>Voert de actie "Van klanten (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122470 - Action EOS FromCustomer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2557893956 - Action 3059963869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>From Customers (CVC)</source>
+          <target>Van klanten (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122470 - Action EOS FromCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2557893956 - Action 3187025301 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>Executes the "From Vendor (CVC)" action</source>
+          <target>Voert de actie "Van leverancier (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122470 - Action EOS FromVendor - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2557893956 - Action 3187025301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>From Vendor (CVC)</source>
+          <target>Van leverancier (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122470 - Action EOS FromVendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1920197339 - Action 3400505831 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Executes the "Compensation (CVC)" action</source>
+          <target>Voert de actie "Compensatie (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122471 - Action EOS Compensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1920197339 - Action 3400505831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Compensation (CVC)</source>
+          <target>Compensatie (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122471 - Action EOS Compensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1920197339 - Action 3761306467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Suggest Compensation (CVC)</source>
+          <target>Compensatie voorstellen (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122471 - Action EOS SuggestCompensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1920197339 - Action 3059963869 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Executes the "From Customers (CVC)" action</source>
+          <target>Voert de actie "Van klanten (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122471 - Action EOS FromCustomer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1920197339 - Action 3059963869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>From Customers (CVC)</source>
+          <target>Van klanten (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122471 - Action EOS FromCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1920197339 - Action 3187025301 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Executes the "From Vendor (CVC)" action</source>
+          <target>Voert de actie "Van leverancier (CVC)" uit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122471 - Action EOS FromVendor - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1920197339 - Action 3187025301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>From Vendor (CVC)</source>
+          <target>Van leverancier (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122471 - Action EOS FromVendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3287112729 - Control 1625826471 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 15448575">
+          <source>Specifies the Compensation source code</source>
+          <target>Hiermee geeft u de broncode van de compensatie op.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18123702 - Control EOSCompensation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3287112729 - Control 1625826471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 15448575">
+          <source>Compensation (CVC)</source>
+          <target>Compensatie (CVC)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18123702 - Control EOSCompensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 134941363 - Field 1615985007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Comp. Vendor No.</source>
+          <target>Comp. leveranciersnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18122465 - Field EOS Comp. Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2048031214 - Field 3628358551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+          <source>Comp. Customer No.</source>
+          <target>Comp. klantnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18122466 - Field EOS Comp. Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3056689733 - Field 1625826471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 15448575">
+          <source>Compensation</source>
+          <target>Compensatie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18122467 - Field EOSCompensation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 718233067 - EnumValue 3052399569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreditMemo</source>
+          <target>Creditnota</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Comp. Document Type - EnumValue CreditMemo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 718233067 - EnumValue 942079972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FinanceChargeMemo</source>
+          <target>Rentenota</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Comp. Document Type - EnumValue FinanceChargeMemo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 718233067 - EnumValue 821689635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+          <target>Factuur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Comp. Document Type - EnumValue Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 718233067 - EnumValue 3346365350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment</source>
+          <target>Betaling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Comp. Document Type - EnumValue Payment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 718233067 - EnumValue 4028787690 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refund</source>
+          <target>Restitutie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Comp. Document Type - EnumValue Refund - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 718233067 - EnumValue 87408810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminder</source>
+          <target>Aanmaning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Comp. Document Type - EnumValue Reminder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2472246510 - EnumValue 3346365350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment</source>
+          <target>Betaling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS025 Default Document Type - EnumValue Payment - Property Caption</note>
         </trans-unit>
       </group>
     </body>
