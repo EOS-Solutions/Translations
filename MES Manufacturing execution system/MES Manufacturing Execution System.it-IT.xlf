@@ -403,18 +403,6 @@
           <source>Do you want to reset the synoptic NumberSequence?\Be aware that Synoptic Entries will be deleted!</source>
           <target>Reimpostare il Number Sequence per il sinottico?\I movimenti sinottico verranno eliminati.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 2156609432" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reason Code not managed</source>
-          <target>Causale non gestita</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 3941493968" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Starting DateTime nor Ending DateTime set</source>
-          <target>Data/Ora inizio e/o Data/Ora fine non indicata</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 902951225" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reason Code "%1" not found</source>
-          <target>Causale %1 non trovata</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3497152283 - Method 2901095472 - NamedType 2572014162" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are open %1 related to %2 %3.</source>
           <target>Sono presenti %1 aperti correlati a %2 %3.</target>
@@ -6735,10 +6723,6 @@
           <source>Allow Starling/Modify Employe Entries</source>
           <target>Consenti Storno/Modifica Movimenti Impiego</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2690635786 - NamedType 1951958409" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Nothing to reprocess</source>
-          <target>Niente da riprocessare</target>
-        </trans-unit>
         <trans-unit id="Page 1930833055 - Action 2974245848 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reprocesses the selected entries</source>
           <target>Riprocessa i movimenti selezionati</target>
@@ -6802,14 +6786,6 @@
         <trans-unit id="Table 3241182029 - Field 1278298272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reason Type</source>
           <target>Tipo causale</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 2599621991" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Missing Start Entry</source>
-          <target>Movimento di inizio mancante</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2690635786 - NamedType 441590130" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reprocessing done</source>
-          <target>Operazione completata</target>
         </trans-unit>
         <trans-unit id="Table 258911711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MES Additional Async. Posting Parameters</source>
@@ -7126,6 +7102,322 @@
         <trans-unit id="Page 2550601468 - Action 1462872145 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Telemetries" action</source>
           <target>Esegue l'azione "Telemetrie"</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 3553845924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Hub Name</source>
+          <target>Nome hub</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 1056736273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Call Stack Blob</source>
+          <target>Blob stack chiamate</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 1339798720 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error Reason</source>
+          <target>Causale errore</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 2681758783 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Device ID</source>
+          <target>ID dispositivo</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 1170402026 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending DateTime</source>
+          <target>Data-Ora fine</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 313599960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Call Stack</source>
+          <target>Stack chiamate</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 4171342510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Badge No.</source>
+          <target>Nr. badge</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 1896530827 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Error Blob</source>
+          <target>Blob ultimo errore</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 1908046867 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Code</source>
+          <target>Causale</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 2969359993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Error Text</source>
+          <target>Ultimo messaggio di errore</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 701500956 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lot No.</source>
+          <target>Nr. lotto</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 2138704244 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prod. Order Line No.</source>
+          <target>Nr. riga ordine prod.</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 851830778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prod. Order No.</source>
+          <target>Nr. ordine produzione</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 3128688872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Panel Setup Id</source>
+          <target>ID Setup pannello</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 223365581 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Panel Id</source>
+          <target>ID Pannello</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 3162383302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation No.</source>
+          <target>Nr. operazione</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 1278298272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Type</source>
+          <target>Tipo causale</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 3961767479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource No.</source>
+          <target>Nr. risorsa</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 270816758 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource Type</source>
+          <target>Tipo risorsa</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 1389588618 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scrap Code</source>
+          <target>Codice scarto</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 3123169861 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Routing No.</source>
+          <target>Nr. ciclo</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 851200345 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Serial No.</source>
+          <target>Nr. seriale</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 2542071172 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Routing Reference No.</source>
+          <target>Nr. riferimento ciclo</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Stato</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 2367429175 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Stop Code</source>
+          <target>Codice fermo</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 2583944506 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Tracking Array</source>
+          <target>Array tracciabilità</target>
+        </trans-unit>
+        <trans-unit id="Table 3241182029 - Field 1787409580 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Group No.</source>
+          <target>Nr. gruppo</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Telemetry Group</source>
+          <target>Gruppo telemetria IoT</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 728255695 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Output Qty.</source>
+          <target>Quantità di output</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 3117386691 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scrap Qty.</source>
+          <target>Quantità di scarto</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 3121723979 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting DateTime</source>
+          <target>Data-Ora inizio</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 2764484927 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Tracking Array BLOB</source>
+          <target>Array tracciabilità BLOB</target>
+        </trans-unit>
+        <trans-unit id="Table 2019290016 - Field 2078886103 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Telemetry Group No.</source>
+          <target>Nr. gruppo telemetria IoT</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 2078886103 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Telemetry Group No.</source>
+          <target>Nr. gruppo telemetria IoT</target>
+        </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 2974186673 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Group Entries</source>
+          <target>Raggruppa movimenti IoT</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2974186673 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Group Entries</source>
+          <target>Raggruppa movimenti IoT</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2974186673 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, entries from IoT devices will be grouped by operation</source>
+          <target>Se attivo, i movimenti IoT verranno raggruppati prima di essere registrati</target>
+        </trans-unit>
+        <trans-unit id="Page 1930833055 - Control 1787409580 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Group No." field</source>
+          <target>Indica il valore del campo "Nr. gruppo"</target>
+        </trans-unit>
+        <trans-unit id="Report 2227252989 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Post Telemetry Entries (MES)</source>
+          <target>Registrazione telemetrie IoT (MES)</target>
+        </trans-unit>
+        <trans-unit id="Table 2470440616 - Field 3162113026 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Telemetry Entry No.</source>
+          <target>Nr. movimento telemetria IoT</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3377287267 - Method 3712281077 - NamedType 2156609432" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Code not managed</source>
+          <target>Causale non gestita</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3377287267 - Method 3712281077 - NamedType 902951225" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Code "%1" not found</source>
+          <target>Causale %1 non trovata</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3377287267 - Method 3712281077 - NamedType 2599621991" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Missing Start Entry</source>
+          <target>Movimento di inizio mancante</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3377287267 - Method 3712281077 - NamedType 3941493968" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting DateTime nor Ending DateTime set</source>
+          <target>Data/Ora inizio e/o Data/Ora fine non indicata</target>
+        </trans-unit>
+        <trans-unit id="Enum 3083780537 - EnumValue 1245673906 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Grouped</source>
+          <target>Raggruppato</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3377287267 - NamedType 441590130" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reprocessing done</source>
+          <target>Operazione completata</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3377287267 - NamedType 1951958409" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Nothing to reprocess</source>
+          <target>Niente da riprocessare</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 2233112083 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generic Stop</source>
+          <target>Fermo generico</target>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 2233112083 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generic Stop</source>
+          <target>Fermo generico</target>
+        </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 2233112083 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generic Stop</source>
+          <target>Fermo generico</target>
+        </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 2195055816 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generic Stop Code</source>
+          <target>Codice fermo generico</target>
+        </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 2233112083 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generic Stop</source>
+          <target>Fermo generico</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 343147228 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Generic Stop</source>
+          <target>Aggiorna fermo generico</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 343147228 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Generic Stop for selected entry.</source>
+          <target>Aggiorna i movimenti con fermo generico impostando un codice fermo definitivo</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2233112083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, stop entries will started using a generic stop reason</source>
+          <target>Se attivo, i movimenti di fermo non richiederanno una causale e verranno creati con una causale generica</target>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 2233112083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, stop entries will started using a generic stop reason</source>
+          <target>Se attivo, i movimenti di fermo non richiederanno una causale e verranno creati con una causale generica</target>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 2233112083 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generic Stop</source>
+          <target>Fermo generico</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2233112083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, stop entries will started using a generic stop reason</source>
+          <target>Se attivo, i movimenti di fermo non richiederanno una causale e verranno creati con una causale generica</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2233112083 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generic Stop</source>
+          <target>Fermo generico</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2195055816 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generic Stop Code</source>
+          <target>Codice fermo generico</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2233112083 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Generic Stop</source>
+          <target>Fermo generico</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2195055816 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set / Choose a specific stop code to be used as generic stop reason</source>
+          <target>Seleziona una causale di fermo generica</target>
+        </trans-unit>
+        <trans-unit id="Report 3083128299 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Employee Entries Closer (MES)</source>
+          <target>Chiudi movimenti dipendenti aperti (WMS)</target>
+        </trans-unit>
+        <trans-unit id="Report 3083128299 - Control 991542703 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Day Before</source>
+          <target>Giorno precedente</target>
+        </trans-unit>
+        <trans-unit id="Report 3083128299 - Control 1064651029 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fixed Time</source>
+          <target>Orario fisso</target>
+        </trans-unit>
+        <trans-unit id="Report 3083128299 - Control 1064651029 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Time to be used for all closed entries</source>
+          <target>Orario fisso da utilizzare per la chiusura movimenti</target>
+        </trans-unit>
+        <trans-unit id="Report 3083128299 - Control 991542703 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates whether to consider the day before for closing entries</source>
+          <target>Permette di utilizzare il giorno precedente per la chiusura nel caso la procedura sia eseguita in orario notturno</target>
+        </trans-unit>
+        <trans-unit id="Report 3083128299 - Control 1283556136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry Type Filter</source>
+          <target>Filtro tipologia movimenti</target>
+        </trans-unit>
+        <trans-unit id="Report 3083128299 - Control 1283556136 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Man Time Entries,Machine Time Entries,Unsupervised Machine Time Entries,Custom</source>
+          <target>Tempi uomo,Tempi macchina,Tempi macchina non supervisionati,Personalizzato</target>
+        </trans-unit>
+        <trans-unit id="Report 3083128299 - Control 1283556136 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filter to select which type of entries to close</source>
+          <target>Seleziona la tipologia di movimenti da processare. Se necessario verranno applicati dei filtri di default.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3350486965 - Field 2457834596 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unsupervised Machine Badge No.</source>
+          <target>Nr. badge non supervisionato</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3632576327 - Control 2457834596 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Badge number to be used for unsupervised machine time entries</source>
+          <target>Nr. badge utilizzato per i movimenti macchina</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3682062030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Super User Badge No.</source>
+          <target>Nr. badge super user</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1097886108 - Control 322916030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Super User</source>
+          <target>Super user</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1403326204 - Control 322916030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Super User</source>
+          <target>Super user</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2023799527 - Field 322916030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Super User</source>
+          <target>Super user</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1097886108 - Control 322916030 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>A super user can view and operate on all employee entries for a selected resource</source>
+          <target>Un super user può vedere e operare su tutti i movimenti dipendenti di una risorsa</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1403326204 - Control 322916030 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>A super user can view and operate on all employee entries for a selected resource</source>
+          <target>Un super user può vedere e operare su tutti i movimenti dipendenti di una risorsa</target>
         </trans-unit>
       </group>
     </body>
