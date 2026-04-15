@@ -44,7 +44,7 @@ jobs:
         run: |
           $artifactFolder = $env:ARTIFACT_FOLDER
           $tempExtracted = "./Temp/Extracted"
-          $outputFolder = "./Base App"
+          $outputFolder = "./BaseApp"
 
           # Extract Base Application source
           $baseAppZip = Join-Path $artifactFolder "Applications/BaseApp/Source/Base Application.Source.zip"
@@ -76,11 +76,12 @@ jobs:
             exit 1
           }
 
-          # Copy XLF files to output folder
+          # Clean existing XLF files from output folder, preserving other files (e.g. config.json)
           if (Test-Path $outputFolder) {
-            Remove-Item $outputFolder -Recurse -Force
+            Get-ChildItem -Path $outputFolder -Filter "*.xlf" | Remove-Item -Force
+          } else {
+            New-Item -ItemType Directory -Path $outputFolder -Force | Out-Null
           }
-          New-Item -ItemType Directory -Path $outputFolder -Force | Out-Null
 
           foreach ($file in $xlfFiles) {
             Copy-Item $file.FullName -Destination $outputFolder
@@ -97,8 +98,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "Base App"
-          $status = git status --porcelain "Base App"
+          git add "BaseApp"
+          $status = git status --porcelain "BaseApp"
           if ($status) {
             git commit -m "Update Base App translations (BC ${{ github.event.inputs.bc_version }}, ${{ github.event.inputs.country }})"
             git push
