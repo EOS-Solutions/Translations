@@ -22,7 +22,7 @@ jobs:
       - name: Download BC artifacts via Eos.Nav.Al
         shell: pwsh
         run: |
-          Import-Module .\Eos.Nav.Al.dll
+          Import-Module "${{ github.workspace }}/.github/workflows/Eos.Nav.Al.dll"
 
           $version = "${{ github.event.inputs.bc_version }}"
           $country = "${{ github.event.inputs.country }}"
