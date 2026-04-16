@@ -972,8 +972,8 @@
           <target>Esegui l'azione "Stampa comunicazione anticipazioni"</target>
         </trans-unit>
         <trans-unit id="Page 900511442 - Action 1429933139 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Export all the invoice XML present in the bill lines into a ZIP file</source>
-          <target>Esporta in un file ZIP tutti gli XML delle fatture presenti nelle righe distinta</target>
+          <source>Exports the electronic invoice XML documents from the bill lines (Invoices and Credit Memos) into a ZIP archive named after the bill number. Requires the "Electronic Invoice for Italy" app. If no electronic invoice XML is found, an error is raised; if only some lines have XML documents, a warning shows how many were exported.</source>
+          <target>Esporta i documenti XML di fatturazione elettronica dalle righe distinta (Fatture e Note di Credito) in un archivio ZIP denominato con il numero della distinta. Richiede l'app "Electronic Invoice for Italy". Se non vengono trovati documenti XML viene generato un errore; se solo alcune righe dispongono di XML, viene mostrato un avviso con il numero di fatture esportate.</target>
         </trans-unit>
         <trans-unit id="Page 900511442 - Action 1429933139 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Save XML Invoice</source>
@@ -984,8 +984,8 @@
           <target>Distinta anticipo fatture e factoring emessa</target>
         </trans-unit>
         <trans-unit id="Page 3756579423 - Action 1429933139 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Export all the invoice XML present in the bill lines into a ZIP file</source>
-          <target>Esporta in un file ZIP tutti gli XML delle fatture presenti nelle righe distinta</target>
+          <source>Exports the electronic invoice XML documents from the bill lines (Invoices and Credit Memos) into a ZIP archive named after the bill number. Requires the "Electronic Invoice for Italy" app. If no electronic invoice XML is found, an error is raised; if only some lines have XML documents, a warning shows how many were exported.</source>
+          <target>Esporta i documenti XML di fatturazione elettronica dalle righe distinta (Fatture e Note di Credito) in un archivio ZIP denominato con il numero della distinta. Richiede l'app "Electronic Invoice for Italy". Se non vengono trovati documenti XML viene generato un errore; se solo alcune righe dispongono di XML, viene mostrato un avviso con il numero di fatture esportate.</target>
         </trans-unit>
         <trans-unit id="Page 3756579423 - Action 1924112358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Print Advance Invoice" action</source>
@@ -1954,6 +1954,10 @@
         <trans-unit id="Codeunit 330477772 - Method 908828885 - NamedType 1505561596" translate="yes" size-unit="char" xml:space="preserve">
           <source>For some lines, there are no electronic invoice XML documents.\%1 invoices exported to %2</source>
           <target>Per alcune righe distinta non esistono documenti XML di fattura elettronica.\Esportate %1 fatture su %2</target>
+        </trans-unit>
+        <trans-unit id="Page 900511442 - Control 514695969 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the posting number for the transaction.</source>
+          <target>Specifica il nr. registrazione per la transazione</target>
         </trans-unit>
       </group>
     </body>
