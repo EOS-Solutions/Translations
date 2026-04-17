@@ -1,0 +1,109 @@
+name: Load BaseApp Translations
+
+on:
+  workflow_dispatch:
+    inputs:
+      bc_version:
+        description: 'BC major version (e.g. 28)'
+        required: true
+      country:
+        description: 'Country code (e.g. it)'
+        required: false
+        default: 'it'
+
+jobs:
+  load-translations:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download BC artifacts via Eos.Nav.Al
+        shell: pwsh
+        run: |
+          Import-Module "${{ github.workspace }}/.github/workflows/Eos.Nav.Al.dll"
+
+          $version = "${{ github.event.inputs.bc_version }}"
+          $country = "${{ github.event.inputs.country }}"
+
+          Write-Host "Downloading OnPrem artifacts for BC $version ($country)..."
+          $artifactFolder = [Eos.Nav.Al.Artifacts.ArtifactDownloader]::Download(
+            [Eos.Nav.Al.Artifacts.ArtifactReader]::new(
+              [Eos.Nav.Al.Artifacts.ArtifactType]::OnPrem
+            ).GetLatest($version, $country).Result,
+            $false,
+            $false
+          ).Result.Artifact.GetLocalFolder().Result.FullName
+
+          Write-Host "Artifact folder: $artifactFolder"
+          echo "ARTIFACT_FOLDER=$artifactFolder" >> $env:GITHUB_ENV
+
+      - name: Extract BaseApp XLF files
+        shell: pwsh
+        run: |
+          $artifactFolder = $env:ARTIFACT_FOLDER
+          $tempExtracted = "./Temp/Extracted"
+          $outputFolder = "./BaseApp"
+
+          # Extract Base Application source
+          $baseAppZip = Join-Path $artifactFolder "Applications/BaseApp/Source/Base Application.Source.zip"
+          if (-not (Test-Path $baseAppZip)) {
+            Write-Error "BaseApp source zip not found at $baseAppZip"
+            exit 1
+          }
+          New-Item -ItemType Directory -Path "$tempExtracted/BaseApp" -Force | Out-Null
+          Expand-Archive -Path $baseAppZip -DestinationPath "$tempExtracted/BaseApp" -Force
+          Write-Host "Extracted BaseApp"
+
+          # Extract German language source if present
+          $germanZip = Join-Path $artifactFolder "Applications/BaseApp/Source/German language (Germany).Source.zip"
+          if (Test-Path $germanZip) {
+            New-Item -ItemType Directory -Path "$tempExtracted/GermanApp" -Force | Out-Null
+            Expand-Archive -Path $germanZip -DestinationPath "$tempExtracted/GermanApp" -Force
+            Write-Host "Extracted GermanApp"
+          } else {
+            Write-Host "German language zip not found, skipping."
+          }
+
+          # Find XLF files matching target languages
+          $xlfFiles = Get-ChildItem -Path $tempExtracted -Filter "*.xlf" -Recurse |
+            Where-Object { $_.FullName -match '\.(de-DE|it-IT|g)\.xlf$' }
+
+          Write-Host "Found $($xlfFiles.Count) XLF files"
+          if ($xlfFiles.Count -eq 0) {
+            Write-Error "No XLF files found"
+            exit 1
+          }
+
+          # Clean existing XLF files from output folder, preserving other files (e.g. config.json)
+          if (Test-Path $outputFolder) {
+            Get-ChildItem -Path $outputFolder -Filter "*.xlf" | Remove-Item -Force
+          } else {
+            New-Item -ItemType Directory -Path $outputFolder -Force | Out-Null
+          }
+
+          foreach ($file in $xlfFiles) {
+            Copy-Item $file.FullName -Destination $outputFolder
+            Write-Host "Copied $($file.Name)"
+          }
+
+          # Clean up temp files
+          Remove-Item "./Temp" -Recurse -Force -ErrorAction SilentlyContinue
+
+          Write-Host "All XLF files placed in '$outputFolder'"
+
+      - name: Commit and push
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "BaseApp"
+          $status = git status --porcelain "BaseApp"
+          if ($status) {
+            git commit -m "Update Base App translations (BC ${{ github.event.inputs.bc_version }}, ${{ github.event.inputs.country }})"
+            git push
+            Write-Host "Changes committed and pushed."
+          } else {
+            Write-Host "No changes to commit."
+          }

@@ -38,10 +38,30 @@ foreach ($file in $xlfFiles) {
     $fileObj = Get-Item $file
     Write-Host "Processing file: $($fileObj.FullName)"
     
-    switch ($fileObj.Name) {
-        "*MODUS*" { 
-            $source = "MODUS" 
+    # Check for config.json in the file's directory
+    $source = $null
+    $configPath = Join-Path $fileObj.DirectoryName "config.json"
+    if (Test-Path $configPath) {
+        try {
+            $config = Get-Content $configPath -Raw | ConvertFrom-Json
+            if ($config.source) {
+                $source = $config.source
+            }
         }
+        catch {
+            Write-Warning "Error reading config.json in $($fileObj.DirectoryName): $($_.Exception.Message)"
+        }
+    }
+
+    # Fallback to name-based source detection if config.json didn't provide a source
+    if (-not $source) {
+        switch ($fileObj.Name) {
+            "*MODUS*" { 
+                $source = "MODUS" 
+            }
+            default { 
+                $source = "EOS" 
+            }
         default { 
             $source = "EOS" 
         }
