@@ -62,9 +62,6 @@ foreach ($file in $xlfFiles) {
             default { 
                 $source = "EOS" 
             }
-        default { 
-            $source = "EOS" 
-        }
     }
     try {
         # Load XML content
