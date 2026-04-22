@@ -18,13 +18,15 @@ permissions:
 jobs:
   load-translations:
     runs-on: windows-latest
+    env:
+      TARGET_BRANCH: master-bc${{ github.event.inputs.bc_version }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: ${{ github.ref_name }}
+          ref: ${{ env.TARGET_BRANCH }}
 
       - name: Download BC artifacts via Eos.Nav.Al
         shell: pwsh
@@ -111,8 +113,8 @@ jobs:
           committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           sign-commits: true
           commit-message: Update Base App translations (BC ${{ github.event.inputs.bc_version }}, ${{ github.event.inputs.country }})
-          branch: automation/baseapp-translations/${{ github.ref_name }}/bc${{ github.event.inputs.bc_version }}-${{ github.event.inputs.country }}
-          base: ${{ github.ref_name }}
+          branch: automation/baseapp-translations/${{ env.TARGET_BRANCH }}-${{ github.event.inputs.country }}
+          base: ${{ env.TARGET_BRANCH }}
           delete-branch: true
           title: Update Base App translations (BC ${{ github.event.inputs.bc_version }}, ${{ github.event.inputs.country }})
           body: |
@@ -120,7 +122,7 @@ jobs:
 
             - BC version: `${{ github.event.inputs.bc_version }}`
             - Country: `${{ github.event.inputs.country }}`
-            - Base branch: `${{ github.ref_name }}`
+            - Base branch: `${{ env.TARGET_BRANCH }}`
 
       - name: Log pull request URL
         if: steps.create-pr.outputs.pull-request-url != ''
