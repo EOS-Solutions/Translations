@@ -55,14 +55,15 @@ $executionTime = Measure-Command {
 
         # Fallback to name-based source detection if config.json didn't provide a source
         if (-not $source) {
-            switch ($fileObj.Name) {
-                "*MODUS*" { 
-                    $source = "MODUS" 
-                }
-                default { 
-                    $source = "EOS" 
-                }
+                    switch -Wildcard ($fileObj.Name) {
+            "*MODUS*" { 
+                $source = "MODUS" 
+                break
             }
+            default { 
+                $source = "EOS" 
+            }
+        }
         }
         try {
             # Load XML content
