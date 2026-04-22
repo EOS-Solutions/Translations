@@ -111,7 +111,6 @@ jobs:
             BaseApp
           author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
-          sign-commits: true
           commit-message: Update Base App translations (BC ${{ github.event.inputs.bc_version }}, ${{ github.event.inputs.country }})
           branch: automation/baseapp-translations/${{ env.TARGET_BRANCH }}-${{ github.event.inputs.country }}
           base: ${{ env.TARGET_BRANCH }}
