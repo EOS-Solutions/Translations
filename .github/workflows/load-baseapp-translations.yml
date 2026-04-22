@@ -10,6 +10,8 @@ on:
         description: 'Country code (e.g. it)'
         required: false
         default: 'it'
+permissions:
+  contents: write
 
 jobs:
   load-translations:
@@ -95,6 +97,7 @@ jobs:
 
       - name: Commit and push
         shell: pwsh
+
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
