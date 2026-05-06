@@ -3,6 +3,306 @@
   <file datatype="xml" source-language="en-US" target-language="en-GB" original="Electronic Invoice for Italy">
     <body>
       <group id="body">
+        <trans-unit id="Table 3915251920 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Purchase Invoice Auto Reconciliation Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 1927640957 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable logging for match receipts calls</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Enable Log Match Receipts Call - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 1927640957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Log Match Receipts Call</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Enable Log Match Receipts Call - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 2968125909 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable logging for match unit of measure calls</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Enable Log Match UOM Call - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 2968125909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Log Match UOM Call</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Enable Log Match UOM Call - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 166374045 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This feature can only be enabled in SaaS environments and enables or disables the AI ​​auto reconciliation feature. Disabled: Only standard FTE reconciliation is performed, Manual: AI auto reconciliation is performed only manually while standard FTE reconciliation is performed automatically, Automatic: AI auto reconciliation is performed automatically while standard FTE reconciliation is not performed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Enabled Auto Complete - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 166374045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled Auto Reconciliation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Enabled Auto Complete - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 3152641334 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how many invoice lines are sent to the AI model in a single request. A lower value reduces the complexity of each AI call and can improve matching accuracy, while a higher value processes more lines at once, reducing the total number of API calls. The value must be between 1 and 100; if set to zero, it defaults to 10.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Lines Batch Count - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 3152641334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines Batch Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Lines Batch Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 1877153944 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, the AI ​​model attempts to automatically match electronic invoice lines with the posted receipt lines, not yet invoiced by the vendor, for any document and not just documents identified by vendor references. This is necessary if the data provided by the vendor is typically inaccurate and/or incomplete.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Match Not Invoiced Receipts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 1877153944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Match receipts not indicated on the vendor invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Match Not Invoiced Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 2078888257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, the AI model attempts to automatically match the units of measure reported on the electronic invoice lines with the corresponding units of measure defined in Business Central. This resolves discrepancies where the vendor uses different UOM codes or descriptions than those configured in the system.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Match Unit of Measures - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 2078888257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Match Unit of Measures</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Match Unit of Measures - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 1425362696 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, an additional AI validation step is performed after the initial receipt matching. The AI model reviews the proposed matches and provides feedback on their correctness, helping to correct and/or filter inaccurate associations before they are applied. This improves overall matching quality at the cost of an extra API call.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Matching Feedback Check - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 1425362696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Matching Feedback Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Matching Feedback Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 3898104680 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sets the maximum number of tokens (units of text) the AI model can generate in its response. A higher value allows longer and more detailed answers but increases processing time. If set to zero, the system uses the model default. The allowed range is 0 to 100,000.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Max Tokens - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 3898104680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max Tokens</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Max Tokens - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 1663593181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary key field for the setup table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Primary Key - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3915251920 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Purchase Invoice Processing Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 1075075672 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the duration of the AI call in seconds</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field AI Call Duration - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 1075075672 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Call Duration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field AI Call Duration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 4189596077 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contains the AI response received from processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field AI Response - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 4189596077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field AI Response - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 1887216571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date and time when the log entry was created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Created Date Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 1887216571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created Date Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Created Date Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the document being processed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 1886874930 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ending line number of the range being processed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field End Line Range - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 1886874930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Line Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field End Line Range - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sequential number for the entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of AI processing entry being logged</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 149522872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 2248886284 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contains error details encountered during AI processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Error - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 2649378047 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the GUID of the source record being processed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Source Record ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 2649378047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Record ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Source Record ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 90601618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the source table being processed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Source Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 90601618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Table ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Source Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 1912729163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the starting line number of the range being processed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Start Line Range - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 1912729163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Line Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field Start Line Range - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user who initiated the processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 3603402303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contains the user prompt sent to AI for processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field User Prompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3818315653 - Field 3603402303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Process Log - Field User Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1226784981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI System Prompts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI System Prompts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1226784981 - Method 365842086 - NamedType 780314989" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An active prompt already exists for this Prompt Type: %1 (Code: %2).</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Prompt Type, %2 = Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI System Prompts - Method CheckActivePromp - NamedType ActivePromptAlreadyExistsErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1226784981 - Field 3093241716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI System Prompts - Field Active Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1226784981 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI System Prompts - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1226784981 - Field 520374113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI System Prompts - Field Default Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1226784981 - Field 1617689720 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI System Prompts - Field Prompt Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1226784981 - Field 660972283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI System Prompts - Field System Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3790737968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Vendor Unit of Measure Alias</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Vendor UoM Alias - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3790737968 - Field 2983839233 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the corresponding unit of measure code in the system</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Vendor UoM Alias - Field System Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3790737968 - Field 2983839233 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System Unit of Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Vendor UoM Alias - Field System Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3790737968 - Field 1527594213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor number for which this unit of measure alias applies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Vendor UoM Alias - Field Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3790737968 - Field 1527594213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Vendor UoM Alias - Field Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3790737968 - Field 786051277 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unit of measure code as used by the vendor in their documents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Vendor UoM Alias - Field Vendor Unit of Measure - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3790737968 - Field 786051277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Unit of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Vendor UoM Alias - Field Vendor Unit of Measure - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2701325435 - Method 1583998716 - NamedType 283072355" size-unit="char" translate="yes" xml:space="preserve">
           <source>Restoring default settings present values will be overwritten. Do you want to proceed?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2348,6 +2648,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Preview Header - Field EOS Skip - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 626555448 - Field 183269890 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates whether the linked vendor should be ignored from automatic AI matching of purchase invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Preview Header - Field EOS Skip Purch Inv AI Match - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 626555448 - Field 183269890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Purchase Invoice AI Match</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Preview Header - Field EOS Skip Purch Inv AI Match - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 626555448 - Field 1869079459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source Doc. Entry No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2562,6 +2872,36 @@
           <source>Cannot rename %1.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Preview Line - Method OnRename - NamedType TextErrCannotRenameErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 4065729666 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reason provided by AI for the match or identification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Preview Line - Field EOS AI Processing Reason - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 4065729666 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Processing Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Preview Line - Field EOS AI Processing Reason - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 2031074558 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reliability level of the AI processing result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Preview Line - Field EOS AI Processing Reliability - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 2031074558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Processing Reliability</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Preview Line - Field EOS AI Processing Reliability - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 3786254730 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status of AI processing for this line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Preview Line - Field EOS AI Processing Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 3786254730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Processing Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Preview Line - Field EOS AI Processing Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1079634047 - Field 823667470 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allow Invoice Disc.</source>
@@ -5478,6 +5818,61 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Outb. Electr. Doc. Setup - Field XML Compression - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3145321403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preview Header Linked Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Preview Hdr Linked Rcpt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3145321403 - Field 2090200551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the DDT number from the invoice detail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Preview Hdr Linked Rcpt - Field DDT No. in Invoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3145321403 - Field 2090200551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DDT No. in Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Preview Hdr Linked Rcpt - Field DDT No. in Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3145321403 - Field 1463025261 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the EOS source document entry number for the preview header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Preview Hdr Linked Rcpt - Field Preview Hdr EOS Src Doc Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3145321403 - Field 1463025261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preview Header EOS Source Doc. Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Preview Hdr Linked Rcpt - Field Preview Hdr EOS Src Doc Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3145321403 - Field 3161426149 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the preview line number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Preview Hdr Linked Rcpt - Field Preview Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3145321403 - Field 3161426149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preview Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Preview Hdr Linked Rcpt - Field Preview Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3145321403 - Field 3639230210 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the purchase receipt number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Preview Hdr Linked Rcpt - Field Purch. Rcpt. No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3145321403 - Field 3639230210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purch. Rcpt. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Preview Hdr Linked Rcpt - Field Purch. Rcpt. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3145321403 - Field 556062453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor shipment number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Preview Hdr Linked Rcpt - Field Vendor Shipment No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3145321403 - Field 556062453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Shipment No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Preview Hdr Linked Rcpt - Field Vendor Shipment No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3341411733 - Field 428616085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EOS Codice CIG</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5777,6 +6172,76 @@
           <source>VAT Prod. Posting Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS063 VAT Amount Line - Field VAT Prod. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2386029720 - NamedType 2355372627" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Purchase Invoice Auto Setup not found. Please configure the AI Setup before processing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Prompt Functions - NamedType SetupNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2386029720 - Method 2054427087 - NamedType 3834021175" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to insert default system prompts? This will overwrite the existing default system prompts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Prompt Functions - Method InsertDefaultSystemPrompt - NamedType InsertDefaultMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2386029720 - Method 1312028532 - NamedType 1736108776" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No active system prompt found for prompt type %1. Please run Insert Default System Prompts from AI Setup.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Prompt Type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Prompt Functions - Method ReadBlobContent - NamedType EmptyPromptErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - NamedType 2355372627" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Purchase Invoice Auto Setup not found. Please configure the AI Setup before processing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - NamedType SetupNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 2746913548 - NamedType 2349500530" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure %1 not found for Item %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method ApplyValuesToTableFields - NamedType UnitOfMeasureNotFound_Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 3931914999 - NamedType 3895367688" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid JSON response from AI service for invoice receipt matching</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method MatchInvoiceReceipts - NamedType InvalidJsonErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 1630794608 - NamedType 3895367688" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid JSON response from AI service for receipt matching</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method MatchNotInvoicedReceipts - NamedType InvalidJsonErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 628153561 - NamedType 753421733" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid JSON response from AI service for UOM matching</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method MatchUnitOfMeasures - NamedType InvalidJsonUOMErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 1278376001 - NamedType 3717495516" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid JSON response from AI service for vendor shipment number matching</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method MatchVendorShipmentNoFromReceipts - NamedType InvalidJsonVendorShipmentErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 3697249424 - NamedType 43491559" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error processing batch from line %1 to %2: %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method ProcessLineBatchWithErrorTrapping - NamedType BatchErrorMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 3697249424 - NamedType 2465203869" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI: An error occurred while processing lines %1 to %2 of Preview Document %3. Error: %4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method ProcessLineBatchWithErrorTrapping - NamedType ErrorDisplayMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 2975926223 - NamedType 4151656029" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI returned receipt %1 line %2 which was not included in the prompt. Skipping match for invoice line %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method ProcessReceiptMatchResult - NamedType InvalidReceiptKeyMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 813795144 - NamedType 2062970088" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI returned vendor shipment no. %1 which was not included in the prompt. Skipping match for invoice vendor shipment no. %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method ProcessVendorShipmentNoMatchResult - NamedType InvalidVendorShipmentMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 464494200 - Method 1865012979 - NamedType 584935190" size-unit="char" translate="yes" xml:space="preserve">
+          <source>https://docs.microsoft.com/en-us/dynamics365/business-central/</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Copilot Capability Setup - Method RegisterCapability - NamedType LearnMoreUrlTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3842445359 - Method 4165217952 - NamedType 811335887" size-unit="char" translate="yes" xml:space="preserve">
           <source>If you need to specify Ecobonus you must mark at least one line as "Ecobonus" and add a Scontomaggiorazione record in %1 that has %2 equal to Ecobonus</source>
@@ -6247,11 +6712,6 @@
           <source>ZIP Files (*.zip)|*.zip</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EDoc. Utilities - Method UploadXMLZip - NamedType XMLExtFilterLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2795012453 - Method 2127104666 - NamedType 213748089" size-unit="char" translate="yes" xml:space="preserve">
-          <source>If a document has split payment, the field %1 must be empty.</source>
-          <note from="Developer" annotates="general" priority="2">%1 is the Bal Account No. field</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX063 FTE Tests - Method TestSplitPayment - NamedType BalAccountNoMustbeEmptyErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3182023526 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial subscription for FTE found - day %1 of %2</source>
@@ -7082,6 +7542,626 @@
           <source>Document %1 can contain only one line.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Outb. Purch. Events - Method TestThirdpartyPurchaseInvoice - NamedType TooManyLinesErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Purchase Invoice Auto Reconciliation Setup (FTE)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Control 3202778973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Matching</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Control AI Matching - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Control 4032207117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logging Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Control Logging Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 328019035 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of AI system prompts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action SystemPrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 328019035 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action SystemPrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 1125447701 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of vendor unit of measure aliases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action VendorUoMAliases - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 1125447701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor UoM Aliases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action VendorUoMAliases - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 4218572542 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View AI processing log entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action ViewLogs - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 4218572542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Logs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action ViewLogs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 2272872537 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set the Skip Purchase Invoice AI Match field to true for all vendors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action SkipAllVendors - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 2272872537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip AI Match for All Vendors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action SkipAllVendors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 2272872537 - Method 1377591017 - NamedType 2963323015" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to enable Skip AI Match for all vendors?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action SkipAllVendors - Method OnAction - NamedType ConfirmUpdateQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 2272872537 - Method 1377591017 - NamedType 2181104983" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 vendor(s) updated successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action SkipAllVendors - Method OnAction - NamedType UpdateCompletedMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 1438085984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the test page for AI functionality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action TestFunction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3915251920 - Action 1438085984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Functions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Auto Setup - Action TestFunction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Purchase Invoice Processing Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - NamedType 1101584275" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No content available</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - NamedType NoContentMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Method 716454850 - NamedType 2651679392" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User not authorized</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Method OnOpenPage - NamedType UserErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Control 3521814763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Control AI Content - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Control 4189596077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Control AI Response - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Control 3702724410 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the AI response received from processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Control AIResponseRichText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Control 3702724410 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Response Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Control AIResponseRichText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Control 2482318504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Control Error Information - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Control 4045088943 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows error details encountered during AI processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Control ErrorRichText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Control 4045088943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Control ErrorRichText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Control 3603402303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Control User Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Control 2809483996 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the user prompt sent to AI for processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Control UserPromptRichText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Control 2809483996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Prompt Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Control UserPromptRichText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Action 2989670422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Action Show Content - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Action 365535842 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the AI response content in a message dialog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Action ShowAIResponseAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Action 365535842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show AI Response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Action ShowAIResponseAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Action 365535842 - Method 1377591017 - NamedType 1684120430" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Response Content:\ \ %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Action ShowAIResponseAction - Method OnAction - NamedType AIResponseMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Action 1819725215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the error details content in a message dialog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Action ShowErrorAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Action 1819725215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Error Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Action ShowErrorAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Action 1819725215 - Method 1377591017 - NamedType 331638123" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Details:\ \ %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Action ShowErrorAction - Method OnAction - NamedType ErrorMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Action 1572941844 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the user prompt content in a message dialog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Action ShowUserPromptAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Action 1572941844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show User Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Action ShowUserPromptAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120698188 - Action 1572941844 - Method 1377591017 - NamedType 3080701720" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Prompt Content:\ \ %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Log - Action ShowUserPromptAction - Method OnAction - NamedType UserPromptMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 218086509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Purchase Invoice Processing Logs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Logs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 218086509 - Method 716454850 - NamedType 2651679392" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User not authorized</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Logs - Method OnOpenPage - NamedType UserErr</note>
+        </trans-unit>
+        <trans-unit id="Page 218086509 - Action 59167481 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View detailed information about the log entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Logs - Action ViewDetails - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 218086509 - Action 59167481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Purch. Inv. Proc. Logs - Action ViewDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI System Prompts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Control 3093241716 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates whether this is the active prompt for the prompt type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Control Active Prompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Control 520374113 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates whether this is the default prompt for the prompt type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Control Default Prompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Control 1617689720 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the prompt type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Control Prompt Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Control 660972283 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the system prompt content.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Control System Prompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Control 660972283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System Prompt Exists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Control System Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Action 2970702805 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset default system prompts for automatic AI purchase invoice reconciliation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Action CreateDefaultPrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Action 2970702805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset Default Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Action CreateDefaultPrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Action 2426666919 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes the selected system prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Action DeletePrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Action 2426666919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Action DeletePrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Action 2426666919 - Method 1377591017 - NamedType 407090172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete the system prompt for record %1?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Action DeletePrompt - Method OnAction - NamedType DeleteMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Action 1649112374 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the markdown editor to edit the system prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Action EditMarkdownEditor - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Action 1649112374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Action EditMarkdownEditor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Action 164774005 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the markdown editor to view the system prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Action ViewMarkdownEditor - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Action 164774005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI System Prompts - Action ViewMarkdownEditor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Test Functions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - NamedType 2869702658" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI call for %1 completed successfully</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - NamedType AICallCompletedMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - NamedType 1217874893" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User prompt for %1 built successfully</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - NamedType BuiltPromptMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - NamedType 1336177166" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System prompt for %1 loaded successfully</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - NamedType LoadedPromptMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - NamedType 76679873" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 result processing completed. %2 matches processed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - NamedType ProcessingCompletedMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Method 716454850 - NamedType 2651679392" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User not authorized</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Method OnOpenPage - NamedType UserErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 3921189859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control AI Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 3199247480 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result from AI processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control AIResultText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 3199247480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control AIResultText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 1721291516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assistant Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control Assistant Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 2342313631 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assistant prompt for AI conversation continuity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control AssistantPromptText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 2342313631 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assistant Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control AssistantPromptText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 660972283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control System Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 2550530440 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System prompt for AI processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control SystemPromptText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 2550530440 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control SystemPromptText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 34961648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Parameters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control Test Parameters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 10771907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify the EOS Preview Header Entry No. for testing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control EOS Preview Header Entry No - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 10771907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EOS Preview Header Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control EOS Preview Header Entry No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 2457297105 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify comma-separated list of line numbers to process</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control Lines List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 2457297105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control Lines List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 3603402303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control User Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 2478770276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User prompt for AI processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control UserPromptText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Control 2478770276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Control UserPromptText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1787607729 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Call Actions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action AI Call Actions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1248212980 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Execute AI call using system prompt, user prompt, and assistant prompt for enhanced conversation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action CallAIWithAssistantPrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1248212980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Call AI with Assistant Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action CallAIWithAssistantPrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2819521192 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Execute AI call for item matching</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action CallItemMatchAI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2819521192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Call Item Match AI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action CallItemMatchAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1523879943 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Execute AI call for receipt matching</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action CallReceiptMatchAI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1523879943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Call Receipt Match AI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action CallReceiptMatchAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1549222346 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Execute AI call for unit of measure matching</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action CallUOMMatchAI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1549222346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Call UOM Match AI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action CallUOMMatchAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 759724791 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Execute AI call for vendor shipment number matching</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action CallVendorShipmentMatchAI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 759724791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Call Vendor Shipment Match AI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action CallVendorShipmentMatchAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1442627457 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result Processing Actions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action Result Processing Actions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2746913548 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply AI results to the corresponding table fields</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action ApplyValuesToTableFields - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2746913548 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply Values to Table Fields</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action ApplyValuesToTableFields - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2060417881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate example AI result for item matching testing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action GenerateExampleItemResult - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2060417881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate Example Item Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action GenerateExampleItemResult - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 4074421098 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate example AI result for receipt matching testing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action GenerateExampleReceiptResult - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 4074421098 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate Example Receipt Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action GenerateExampleReceiptResult - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 354856591 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate example AI result for UOM matching testing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action GenerateExampleUOMResult - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 354856591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate Example UOM Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action GenerateExampleUOMResult - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2975926223 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process the result from receipt match AI call</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action ProcessReceiptMatchResult - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2975926223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process Receipt Match Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action ProcessReceiptMatchResult - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1603790770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process the result from UOM match AI call</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action ProcessUOMMatchResult - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1603790770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process UOM Match Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action ProcessUOMMatchResult - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2195584152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System Prompt Actions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action System Prompt Actions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 4110360117 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load system prompt for matching feedback validation from AI System Prompts setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action LoadMatchingFeedbackCheckSystemPrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 4110360117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load Matching Feedback Check System Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action LoadMatchingFeedbackCheckSystemPrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1541752292 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load system prompt for receipt matching from AI System Prompts setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action LoadReceiptMatchSystemPrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1541752292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load Receipt Match System Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action LoadReceiptMatchSystemPrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2152765461 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load system prompt for unit of measure matching from AI System Prompts setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action LoadUOMMatchSystemPrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2152765461 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load UOM Match System Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action LoadUOMMatchSystemPrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 75864820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load system prompt for vendor shipment number matching from AI System Prompts setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action LoadVendorShipmentMatchSystemPrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 75864820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load Vendor Shipment Match System Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action LoadVendorShipmentMatchSystemPrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2085077876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Prompt Actions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action User Prompt Actions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 3345195664 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Build user prompt for receipt matching based on current data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action BuildReceiptMatchUserPrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 3345195664 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Build Receipt Match User Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action BuildReceiptMatchUserPrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1979678705 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Build user prompt for UOM matching based on current data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action BuildUOMMatchUserPrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 1979678705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Build UOM Match User Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action BuildUOMMatchUserPrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2841919280 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Build user prompt for vendor shipment number matching based on current data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action BuildVendorShipmentMatchUserPrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2895083818 - Action 2841919280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Build Vendor Shipment Match User Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Test Functions - Action BuildVendorShipmentMatchUserPrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3405235422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Unit of Measure Aliases (FTE)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AI Vendor UoM Aliases - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2701325435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Duty Stamp Setup (FTE)</source>
@@ -8972,6 +10052,21 @@
           <source>Reconcile posted document lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inb. EDoc. Preview Card - Action Reconcile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2883045121 - Action 1346514834 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process all lines in this preview document with AI matching</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inb. EDoc. Preview Card - Action ReconcileAI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2883045121 - Action 1346514834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reconcile posted document lines with AI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inb. EDoc. Preview Card - Action ReconcileAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2883045121 - Action 1346514834 - Method 1377591017 - NamedType 2294662597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to process all lines in this preview document? This action cannot be undone and the matched lines will be overwritten.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inb. EDoc. Preview Card - Action ReconcileAI - Method OnAction - NamedType ConfirmMsg</note>
         </trans-unit>
         <trans-unit id="Page 2883045121 - Action 3142257090 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remove existing link with posted purchase header</source>
@@ -12268,6 +13363,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS IXFE v3 Outb. Doc. Notif. - Control validationErrorNote - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4057180417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Markdown Editor (CLY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Markdown Editor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4057180417 - Method 4177352842 - NamedType 2132878950" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to save your changes?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Markdown Editor - Method OnQueryClosePage - NamedType SaveChangesQst</note>
+        </trans-unit>
+        <trans-unit id="Page 4057180417 - Action 523260381 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save the changes and close the editor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Markdown Editor - Action SaveContents - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4057180417 - Action 523260381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Markdown Editor - Action SaveContents - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2899260716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Outbound Electr. Doc. Customer Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -15173,6 +16288,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123018 - Control EOS Electr. Doc. Related Docs. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3969831318 - Control 183269890 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies whether to skip AI matching for purchase invoices for this vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123019 - Control EOS Skip Purch Inv AI Match - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3969831318 - Control 3899141698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
           <source>Specifies the code that defines the company type.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -15232,6 +16352,16 @@
           <source>Specifies the value of the "Ecobonus" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123023 - Control EOS Ecobonus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3355480999 - Action 4110310539 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
+          <source>Updates the DELTA quantity, Delta Amount and Discrepancy fields for the purchase lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123025 - Action EOS_UpdateDeltaAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3355480999 - Action 4110310539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
+          <source>Update Delta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123025 - Action EOS_UpdateDeltaAction - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3355480999 - Control 1970276420 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
           <source>Specifies the value of the "EOS EDoc. Related Docs." field.</source>
@@ -16943,25 +18073,275 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123013 - Field EOS Company Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3955268463 - Field 183269890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+          <source>Skip Purchase Invoice AI Match</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123013 - Field EOS Skip Purch Inv AI Match - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 4124177486 - Field 2743690823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4020103050">
           <source>Ecobonus</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123014 - Field EOS Ecobonus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 2189455571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Specifies the reliability level of the AI processing result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS AI Reliability - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 2189455571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Reliability</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS AI Reliability - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 1044719793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Indicates if the line is connected to a registered receipt line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS Connected to Receipt Line - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 1044719793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Connected to Receipt Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS Connected to Receipt Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 3243311463 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Difference between FTE amount and amount derived from receipt connection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS Delta Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 3243311463 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Delta Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS Delta Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 634483398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Difference between FTE quantity and quantity derived from receipt connection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS Delta Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 634483398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Delta Quantity (Base)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS Delta Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 117861834 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Indicates if there is a discrepancy between amounts or quantities from document and receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS Discrepancy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 117861834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Discrepancy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS Discrepancy - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3486480869 - Field 1970276420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
           <source>Altri dati gestionali</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS EDoc. Related Docs. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 2903770382 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Amount derived from electronic document parsing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS FTE Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 2903770382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>FTE Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS FTE Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 1014278785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Electronic document line number from which this line originates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS FTE Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 1014278785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>FTE Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS FTE Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 1435011679 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Quantity derived from electronic document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS FTE Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 1435011679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>FTE Quantity (Base)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS FTE Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 4144061994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Electronic document entry number from which this line originates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS FTE Source Doc. Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 4144061994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>FTE Source Doc. Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS FTE Source Doc. Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 40062421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Electronic document line type from which this line originates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS FTE Source Doc. Line Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 40062421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>FTE Source Doc. Line Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS FTE Source Doc. Line Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 40062421 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta,DatiContratto,DatiConvenzione,DatiRicezione,DatiFattureCollegate,DatiSAL,Causale</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123015 - Field EOS FTE Source Doc. Line Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2848784252 - Field 1970276420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
           <source>Altri dati gestionali</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123016 - Field EOS EDoc. Related Docs. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2848784252 - Field 1014278785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
+          <source>Electronic document line number from which this line originates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123016 - Field EOS FTE Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848784252 - Field 1014278785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
+          <source>FTE Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123016 - Field EOS FTE Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848784252 - Field 4144061994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
+          <source>Electronic document entry number from which this line originates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123016 - Field EOS FTE Source Doc. Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848784252 - Field 4144061994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
+          <source>FTE Source Doc. Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123016 - Field EOS FTE Source Doc. Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848784252 - Field 40062421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
+          <source>Electronic document line type from which this line originates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123016 - Field EOS FTE Source Doc. Line Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848784252 - Field 40062421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
+          <source>FTE Source Doc. Line Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123016 - Field EOS FTE Source Doc. Line Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848784252 - Field 40062421 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
+          <source> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta,DatiContratto,DatiConvenzione,DatiRicezione,DatiFattureCollegate,DatiSAL,Causale</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123016 - Field EOS FTE Source Doc. Line Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 2189455571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Specifies the reliability level of the AI processing result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS AI Reliability - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 2189455571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Reliability</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS AI Reliability - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 1044719793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Indicates if the line was connected to a registered receipt line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS Connected to Receipt Line - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 1044719793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Connected to Receipt Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS Connected to Receipt Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 3243311463 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Difference between FTE amount and amount derived from receipt connection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS Delta Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 3243311463 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Delta Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS Delta Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 634483398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Difference between FTE quantity and quantity derived from receipt connection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS Delta Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 634483398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Delta Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS Delta Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 117861834 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Indicates if there was a discrepancy between amounts or quantities from document and receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS Discrepancy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 117861834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Discrepancy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS Discrepancy - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2211087635 - Field 1970276420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
           <source>Altri dati gestionali</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS EDoc. Related Docs. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 2903770382 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Amount derived from electronic document parsing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS FTE Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 2903770382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>FTE Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS FTE Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 1014278785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Electronic document line number from which this line originates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS FTE Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 1014278785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>FTE Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS FTE Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 1435011679 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Quantity derived from electronic document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS FTE Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 1435011679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>FTE Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS FTE Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 4144061994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Electronic document entry number from which this line originates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS FTE Source Doc. Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 4144061994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>FTE Source Doc. Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS FTE Source Doc. Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 40062421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>Electronic document line type from which this line originates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS FTE Source Doc. Line Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 40062421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source>FTE Source Doc. Line Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS FTE Source Doc. Line Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 40062421 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2575310733">
+          <source> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta,DatiContratto,DatiConvenzione,DatiRicezione,DatiFattureCollegate,DatiSAL,Causale</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123017 - Field EOS FTE Source Doc. Line Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2379996658 - Field 1970276420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 518488723">
           <source>Altri dati gestionali</source>
@@ -17858,6 +19238,146 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123058 - Field EOS XML Document Lines Source - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Enum 3942236894 - EnumValue 1164602005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assisted Match Invoice Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Movement Type - EnumValue AssistedMatchInvoiceReceipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3942236894 - EnumValue 2482521326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assisted Match Not Invoiced Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Movement Type - EnumValue AssistedMatchNotInvoicedReceipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3942236894 - EnumValue 2367047379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines Batch Processing Errors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Movement Type - EnumValue LinesBatchProcessingErrors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3942236894 - EnumValue 3803483808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Matching Feedback Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Movement Type - EnumValue MatchingFeedbackCheck - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3942236894 - EnumValue 3931914999 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Match Invoice Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Movement Type - EnumValue MatchInvoiceReceipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3942236894 - EnumValue 1630794608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Match Not Invoiced Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Movement Type - EnumValue MatchNotInvoicedReceipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3942236894 - EnumValue 628153561 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Match Unit Of Measures</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Movement Type - EnumValue MatchUnitOfMeasures - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3942236894 - EnumValue 2602515786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Match Vendor Shipment No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Movement Type - EnumValue MatchVendorShipmentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3942236894 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Movement Type - EnumValue None - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3942236894 - EnumValue 2313844792 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Of Measure Errors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Movement Type - EnumValue UnitOfMeasureErrors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3786254730 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Processing Status - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3786254730 - EnumValue 2751587004 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fully Processed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Processing Status - EnumValue Fully Processed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3786254730 - EnumValue 446908593 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Matched</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Processing Status - EnumValue Item Matched - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3786254730 - EnumValue 1530559881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Processed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Processing Status - EnumValue Not Processed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3786254730 - EnumValue 2010714941 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Processing Status - EnumValue Processing Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3786254730 - EnumValue 2387465114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt Matched</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Processing Status - EnumValue Receipt Matched - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3786254730 - EnumValue 1113478831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UOM Matched</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Processing Status - EnumValue UOM Matched - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2189455571 - EnumValue 3116416530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>High</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Reliability - EnumValue High - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2189455571 - EnumValue 3592530208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Low</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Reliability - EnumValue Low - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2189455571 - EnumValue 432767615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Medium</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Reliability - EnumValue Medium - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2189455571 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Reliability - EnumValue None - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 652576708 - EnumValue 875267177 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Feedback Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI System Prompts Types - EnumValue Feedback Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 652576708 - EnumValue 3081714176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI System Prompts Types - EnumValue Receipt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 652576708 - EnumValue 1891335241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI System Prompts Types - EnumValue UOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 652576708 - EnumValue 2773623975 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Shipment No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI System Prompts Types - EnumValue Vendor Shipment No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3764461897 - EnumValue 62134665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auto</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Auto Complete Type - EnumValue Auto - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3764461897 - EnumValue 1864907812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Auto Complete Type - EnumValue Disabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3764461897 - EnumValue 1508634494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manual</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Auto Complete Type - EnumValue Manual - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 4146238534 - EnumValue 2572667290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>All Customers</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -17917,6 +19437,16 @@
           <source>Default</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS063 XML Doc. Lines Source - EnumValue Default - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 1272527189 - EnumValue 4253733713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3058546390">
+          <source>AI Purchase Invoice Lines Auto Complete</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS Copilot Capability - EnumValue EOS AIPurchInvLinesAutoComplete - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 786434782 - EnumValue 979813495 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3690615169">
+          <source>AI Log Retention Policies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExt18123000 - EnumValue EOS063 AI Log Ret Policies - Property Caption</note>
         </trans-unit>
         <trans-unit id="EnumExtension 786434782 - EnumValue 313599127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3690615169">
           <source>Outbound Retention Policies</source>
