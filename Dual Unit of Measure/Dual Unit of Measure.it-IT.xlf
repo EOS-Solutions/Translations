@@ -59,9 +59,17 @@
           <source>It is not possibile to modify %1 field because %2 is not set.</source>
           <target>Non è possibile modificare il campo %1 perché %2 non è impostato.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1890405797 - NamedType 1040525849" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line %1 Item %2: Base Quantity is a %3 but Secondary Quantity is %4. Both must be either positive or negative adjustments.</source>
+          <target>Riga %1 Articolo %2: La quantità base è %3 ma la quantità secondaria è %4. Entrambe devono essere rettifiche positive o negative.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1890405797 - NamedType 3363312535" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line %1 Item %2 Lot No. %3 must be %4 according to the Secondary Quantity (Phys. Inventory)</source>
           <target>Riga %1 Articolo %2 Lotto Nr. %3 deve essere %4 secondo la quantità secondaria (Inventario Fisico)</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1890405797 - Method 2125009907 - NamedType 3797758196" translate="yes" size-unit="char" xml:space="preserve">
+          <source>It is not possibile to modify %1 field because %2 is not set.</source>
+          <target>Non è possibile modificare il campo %1 perché %2 non è impostato.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1931387943 - Method 1324956198 - NamedType 998548441" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot ship more than %1 units.</source>
@@ -1903,6 +1911,10 @@
           <source>Specifies the lot number of the item being handled for the associated document line.</source>
           <target>Specifica il numero di lotto dell'articolo gestito per la riga di documento associata.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 4254204695 - Control 684737284 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the package number of the item being handled for the associated document line.</source>
+          <target>Specifica il numero collo dell'articolo gestito per la riga di documento associata.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 4254204695 - Control 949876770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Qty. (Phys. Inventory)" field.</source>
           <target>Specifica il valore del campo "Qtà secondaria (inv. fisico)".</target>
@@ -2566,6 +2578,122 @@
         <trans-unit id="Codeunit 719846944 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse Quantity per unit of measure must be defined for item %1.</source>
           <target>Deve essere definita la quantità reciproca per unità di misura per l'articolo %1.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206084141 - Field 3798334914 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Neg. Qty.</source>
+          <target>Quantità negativa sec.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206084141 - Field 2048662306 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Pos. Qty.</source>
+          <target>Quantità positiva sec.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206084141 - Field 374421745 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Qty. Exp. Calculated</source>
+          <target>Quantità sec. prevista calcolata</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206084141 - Field 3048881228 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Qty. Exp. Tracking</source>
+          <target>Tracciabilità quantità sec. prevista</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206084141 - Field 122927486 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Expected</source>
+          <target>Quantità secondaria prevista</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206084141 - Field 1886121444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Qty. Recorded</source>
+          <target>Quantità sec. registrata</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206084141 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Quantità secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206084141 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Cod. unità di misura secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 568387524 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Quantità secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 568387524 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Cod. unità di misura secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4225658203 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Quantità secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4225658203 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Cod. unità di misura secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2781355946 - Field 737955194 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Outstanding Quantity</source>
+          <target>Quantità residua sec.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2781355946 - Field 122927486 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Qty. Expected</source>
+          <target>Quantità sec. prevista</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2781355946 - Field 1886121444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Qty. Recorded</source>
+          <target>Quantità sec. registrata</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2781355946 - Field 1248770240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Qty. To Transfer</source>
+          <target>Quantità sec. da trasferire</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2781355946 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Cod. unità di misura secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2143659329 - Field 3798334914 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Neg. Qty.</source>
+          <target>Quantità negativa sec.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2143659329 - Field 2048662306 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Pos. Qty.</source>
+          <target>Quantità positiva sec.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2143659329 - Field 374421745 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Qty. Exp. Calculated</source>
+          <target>Quantità sec. prevista calcolata</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2143659329 - Field 3048881228 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Qty. Exp. Tracking</source>
+          <target>Quantità sec. prevista tracciabilità</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2143659329 - Field 122927486 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Expected</source>
+          <target>Quantità secondaria prevista</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2143659329 - Field 1886121444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sec. Qty. Recorded</source>
+          <target>Quantità sec. registrata</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2143659329 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Quantità secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2143659329 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Cod. unità di misura secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3843705507 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Quantità secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3843705507 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Cod. unità di misura secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 186434828 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Quantità secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 186434828 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Cod. unità di misura secondaria</target>
         </trans-unit>
       </group>
     </body>
