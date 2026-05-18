@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 4052981620 - Method 2863241215 - NamedType 1075819240" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Fiscal Code</source>
+          <target>Inserire codice fiscale</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4052981620 - Method 1869711478 - NamedType 1075819240" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Lottery Code</source>
+          <target>Inserire codice lotteria</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4052981620 - Method 1743453963 - NamedType 1075819240" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert VAT Registration No.</source>
+          <target>Inserire partita IVA</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3436445437 - NamedType 1462641745" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Payment: %1</source>
+          <target>Pagamento: %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3436445437 - NamedType 2116565852" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1% discount applied</source>
+          <target>Applicato sconto %1% </target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3436445437 - Method 3383847694 - NamedType 2245108470" translate="yes" size-unit="char" xml:space="preserve">
+          <source>REFUND %1 %2 %3 %4</source>
+          <target>REFUND %1 %2 %3 %4</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3436445437 - Method 3383847694 - NamedType 72622612" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VOID %1 %2 %3 %4</source>
+          <target>VOID %1 %2 %3 %4</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 2352744555 - NamedType 1571341498" translate="yes" size-unit="char" xml:space="preserve">
+          <source>&amp;Return,&amp;Void</source>
+          <target>&amp;Reso,&amp;Annullo</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 2352744555 - NamedType 419089491" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error, a type must be selected</source>
+          <target>Errore, deve essere selezionata una tipologia</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 49017862 - NamedType 1427557634" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to issue an invoice?</source>
+          <target>Vuoi emettere una fattura?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 2396271416 - NamedType 1427557634" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to issue a credit memo?</source>
+          <target>Buoi emettere una nota credito?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 4080305446 - NamedType 732564115" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Print fiscal receipt?</source>
+          <target>Stampare lo scontrino fiscale?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 1990937279 - NamedType 732564115" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Print ZReport?</source>
+          <target>Stampare lo ZReport?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 1281599749 - NamedType 3381529035" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No document with no. %1 has been found</source>
+          <target>Nessun documento con nr. %1 trovato.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 1281599749 - NamedType 1538806510" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The barcode is too long. Max lenght is %1 chars.</source>
+          <target>Il barcode è troppo lungo. La lunghezza massima è %1 caratteri.</target>
+        </trans-unit>
+        <trans-unit id="Enum 2587537640 - EnumValue 492662474 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CODE128</source>
+          <target>CODE128</target>
+        </trans-unit>
+        <trans-unit id="Enum 2587537640 - EnumValue 1270866090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>QRCode</source>
+          <target>QRCode</target>
+        </trans-unit>
+        <trans-unit id="Enum 2193544269 - EnumValue 1965869807 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>External</source>
+          <target>Esterno</target>
+        </trans-unit>
+        <trans-unit id="Enum 2193544269 - EnumValue 706725341 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NodeRed</source>
+          <target>NodeRed</target>
+        </trans-unit>
+        <trans-unit id="Enum 2193544269 - EnumValue 2985871863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Power Automate</source>
+          <target>Power Automate</target>
+        </trans-unit>
+        <trans-unit id="Enum 2093984278 - EnumValue 1249475212 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Created</source>
+          <target>Creato</target>
+        </trans-unit>
+        <trans-unit id="Enum 2093984278 - EnumValue 2248886284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error</source>
+          <target>Errore</target>
+        </trans-unit>
+        <trans-unit id="Enum 2093984278 - EnumValue 1668868500 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Printed</source>
+          <target>Stampato</target>
+        </trans-unit>
+        <trans-unit id="Enum 2076731392 - EnumValue 378516661 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ask for Invoice</source>
+          <target>Richiedi fattura</target>
+        </trans-unit>
+        <trans-unit id="Enum 2076731392 - EnumValue 608496094 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create &amp; Post</source>
+          <target>Crea &amp; registra</target>
+        </trans-unit>
+        <trans-unit id="Enum 162714905 - EnumValue 4028787690 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Refund</source>
+          <target>Reso</target>
+        </trans-unit>
+        <trans-unit id="Enum 162714905 - EnumValue 1624414840 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Void</source>
+          <target>Annullo</target>
+        </trans-unit>
+        <trans-unit id="Page 3258597213 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Page 3258597213 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Printer Setup</source>
+          <target>Setup stampante fiscale</target>
+        </trans-unit>
+        <trans-unit id="Page 1272450242 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Printer Receipts (LSI)</source>
+          <target>Ricevute stampante fiscale (LSI)</target>
+        </trans-unit>
+        <trans-unit id="Page 1272450242 - Action 366713437 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show</source>
+          <target>Visualizza</target>
+        </trans-unit>
+        <trans-unit id="Page 1272450242 - Action 884508775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show Payload</source>
+          <target>Visuallizza payload</target>
+        </trans-unit>
+        <trans-unit id="Page 925724911 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Input</source>
+          <target>Input</target>
+        </trans-unit>
+        <trans-unit id="Page 925724911 - Method 3022429130 - NamedType 395100727" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Code</source>
+          <target>Codice fiscale</target>
+        </trans-unit>
+        <trans-unit id="Page 925724911 - Method 3022429130 - NamedType 3737299204" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Registration No.</source>
+          <target>Partita IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 925724911 - Method 3022429130 - NamedType 2074158358" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lottery Code</source>
+          <target>Codice lotteria</target>
+        </trans-unit>
+        <trans-unit id="Page 925724911 - Method 3022429130 - NamedType 864060828" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter %1</source>
+          <target>Inserire %1</target>
+        </trans-unit>
+        <trans-unit id="Page 925724911 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>General</target>
+        </trans-unit>
+        <trans-unit id="Page 3805811629 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ZReport Receipts (LSI)</source>
+          <target>Ricevute ZReport (LSI)</target>
+        </trans-unit>
+        <trans-unit id="Page 3805811629 - Action 366713437 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show</source>
+          <target>Visualizza</target>
+        </trans-unit>
+        <trans-unit id="Page 3805811629 - Action 884508775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show Payload</source>
+          <target>Visualizza Payload</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>eos081FiscalReceipts</source>
+          <target>eos081FiscalReceipts</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 1121446808 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount</source>
+          <target>Importo</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 2683860767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 212631631 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Command</source>
+          <target>Utimo comando</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 2626499740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Cod. ubicazione</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 2060532706 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Payload</source>
+          <target>Payload</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 3308429107 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>POS Id</source>
+          <target>POS Id</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 1182760244 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Printer Address</source>
+          <target>Indirizzo stampante</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 3760275790 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Printer Status</source>
+          <target>Stato stampante</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 114084419 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Copy</source>
+          <target>Copia ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 1030168324 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Date</source>
+          <target>Data ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 1547858215 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt No.</source>
+          <target>Nr. ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 241605372 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Status</source>
+          <target>Stato ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 3404685315 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Time</source>
+          <target>Ora ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 1473732315 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Request</source>
+          <target>Richiesta</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 1808629621 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Response</source>
+          <target>Risposta</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 3889044123 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Serial No.</source>
+          <target>Nr. seriale</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 764426548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source ID</source>
+          <target>ID Origine</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 3861917310 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Line No.</source>
+          <target>Nr. riga origine</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 1500172251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Subtype</source>
+          <target>Sottotipo origine</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 458640351 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Type</source>
+          <target>Tipo origine</target>
+        </trans-unit>
+        <trans-unit id="Page 1697057263 - Control 613401889 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ZReport Number</source>
+          <target>Nr. ZReport</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3343180692 - Control 1641925914 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Italian Additional Setup</source>
+          <target>Setup addizionali Italia</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 792394224 - Control 1641925914 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Italian Additional Setup</source>
+          <target>Setup addizionali Italia</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 154697607 - Action 32868711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Print Receipt Copy</source>
+          <target>Stampa copia ricevuta</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 154697607 - Action 1209884633 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Receipts</source>
+          <target>Ricevute fiscali (LSI)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2067787458 - Action 1209884633 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Receipts</source>
+          <target>Ricevute fiscali (LSI)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1898878435 - Action 3541342785 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Add Fiscal Code</source>
+          <target>Aggiungi codice fiscale</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1898878435 - Action 1976222852 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Add Lottery Code</source>
+          <target>Aggiungi codice lotteria</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1898878435 - Action 262921981 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Add VAT Registration No.</source>
+          <target>Aggiungi partita IVA</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3619712965 - Control 3654080156 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Additional Setup</source>
+          <target>Setup aggiuntivo</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3619712965 - Control 4038640413 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Management</source>
+          <target>Gestione fattura</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4257409582 - Action 284174792 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Italian Localization Management</source>
+          <target>Gestione localizzazione italiana</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4257409582 - Action 1882877701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Register POS Actions</source>
+          <target>Registra azioni POS</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2344319731 - Action 3720208330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Printer Setup</source>
+          <target>Setup stampante fiscale</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2982016348 - Action 1194184623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Print ZReport</source>
+          <target>Stampa ZReport</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2982016348 - Action 2807367718 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ZReport Receipts</source>
+          <target>Ricevute ZReport (LSI)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1068926497 - Action 1194184623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Print ZReport</source>
+          <target>Stampa ZReport</target>
+        </trans-unit>
+        <trans-unit id="Table 3258597213 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Printer Setup</source>
+          <target>Setup stampante fiscale</target>
+        </trans-unit>
+        <trans-unit id="Table 3258597213 - Field 2907605061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Printer IP Address</source>
+          <target>Indirizzo IP stampante fiscale</target>
+        </trans-unit>
+        <trans-unit id="Table 3258597213 - Field 4234926763 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>POS Id</source>
+          <target>POS Id</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Printer Receipt</source>
+          <target>Ricevuta stampante fiscale</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 636392376 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount</source>
+          <target>Importo</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 79930279 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Command</source>
+          <target>Ultimo comando</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Cod. ubicazione</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 4208776898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Payload</source>
+          <target>Payload</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 4234926763 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>POS Id</source>
+          <target>POS Id</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 41701068 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Printer Address</source>
+          <target>Indirizzo stampante</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 1835624198 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Printer Status</source>
+          <target>Stato stampante</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 2218357963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Copy</source>
+          <target>Copia ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 358029708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Date</source>
+          <target>Data ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 2253333645 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt No.</source>
+          <target>Nr. ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 980401284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Status</source>
+          <target>Stato ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 878018603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Time</source>
+          <target>Ora ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 3351914939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Request</source>
+          <target>Richiesta</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 2278520725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Response</source>
+          <target>Risposta</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 1099903468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Response Message</source>
+          <target>Messaggio risposta</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 47037625 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Serial No.</source>
+          <target>Nr. seriale</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 345314420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source ID</source>
+          <target>ID Origine</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 312545736 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Line No.</source>
+          <target>Nr. riga origine</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 205345179 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Subtype</source>
+          <target>Sottotipo origine</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 205345179 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10</source>
+          <target>0,1,2,3,4,5,6,7,8,9,10</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 1753214751 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Type</source>
+          <target>Tipo origine</target>
+        </trans-unit>
+        <trans-unit id="Table 1272450242 - Field 2953359785 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ZReport Number</source>
+          <target>Nr. ZReport</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 79930279 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Command</source>
+          <target>Ultimo comando</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Cod. ubicazione</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 4208776898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Payload</source>
+          <target>Payload</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 4234926763 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>POS Id</source>
+          <target>POS Id</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 41701068 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Printer Address</source>
+          <target>Indirizzo stampante</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 1835624198 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Printer Status</source>
+          <target>Stato stampante</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 358029708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Date</source>
+          <target>Data ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 2253333645 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt No.</source>
+          <target>Nr. ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 980401284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Status</source>
+          <target>Stato ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 878018603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Time</source>
+          <target>Ora ricevuta</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 3351914939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Request</source>
+          <target>Richiesta</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 2278520725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Response</source>
+          <target>Risposta</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 1099903468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Response Message</source>
+          <target>Messaggio risposta</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 47037625 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Serial No.</source>
+          <target>Nr. seriale</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 345314420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source ID</source>
+          <target>ID origine</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Field 2953359785 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ZReport Number</source>
+          <target>Nr. ZReport</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 532095591 - Field 2285595983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Description</source>
+          <target>Descrizione fiscale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 532095591 - Field 415018090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal ID</source>
+          <target>ID fiscale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1169792208 - Field 2285595983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Description</source>
+          <target>Descrizione fiscale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1807488825 - Field 2285595983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Description</source>
+          <target>Descrizione fiscale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2445185442 - Field 2285595983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Description</source>
+          <target>Descrizione fiscale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1169792208 - Field 415018090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal ID</source>
+          <target>ID fiscale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1807488825 - Field 415018090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal ID</source>
+          <target>ID fiscale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2445185442 - Field 415018090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal ID</source>
+          <target>ID fiscale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3082882059 - Field 415018090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal ID</source>
+          <target>ID fiscale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3720578676 - Field 3262159740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Requested</source>
+          <target>Richiesta fattura</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3720578676 - Field 845980411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lottery Code</source>
+          <target>Codice lotteria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 63307997 - Field 3262159740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Requested</source>
+          <target>Richiesta fattura</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 63307997 - Field 845980411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lottery Code</source>
+          <target>Codice lotteria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 701004614 - Field 845980411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lottery Code</source>
+          <target>Codice lotteria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 1221955590 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode Height</source>
+          <target>Altezza barcode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 2529489999 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode Type</source>
+          <target>Tipo barcode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 4094968917 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Barcode Width</source>
+          <target>Larghezza barcode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 4141606853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Debug Mode</source>
+          <target>Mod. debug</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 67970019 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Mgmt. Active</source>
+          <target>Gestione fattura attiva</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 2340222599 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Mgmt. Type</source>
+          <target>Tipo gestione fattura</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 2150991795 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Power Automate Epson Signature</source>
+          <target>Power Automate Epson Signature</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 135712035 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Power Automate Printer Url</source>
+          <target>Power Automate Printer Url</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 3266293584 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Print Barcode</source>
+          <target>Stampa barcode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 2340495033 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Printing Method</source>
+          <target>Metodo di stampa</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 612462174 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>QRCode Size</source>
+          <target>Dimensione QRCode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 2555125507 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Search Receipt from POS</source>
+          <target>Ricerca ricevuta da POS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4020457247 - Field 1699632594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ask For Receipt Print</source>
+          <target>Richiedi conferma stampa ricevuta</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 701004614 - Field 3262159740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Requested</source>
+          <target>Richiesta fattura</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3720578676 - Field 296006089 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Retrieved from Serial No.</source>
+          <target>Recuperato da Nr. seriale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3720578676 - Field 2175235901 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Retrieved from Z Report No.</source>
+          <target>Recuperato da Nr. ZReport</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3720578676 - Field 2345826043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Retrieved from Date</source>
+          <target>Recuperato da Data</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3720578676 - Field 5724890 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Retrieved from Receipt No.</source>
+          <target>Recuperato da Nr. ricevuta</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3720578676 - Field 1513648138 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Document Type</source>
+          <target>Recuperato da Tipo documento</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 63307997 - Field 296006089 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Retrieved from Serial No.</source>
+          <target>Recuperato da Nr. seriale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 63307997 - Field 2175235901 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Retrieved from Z Report No.</source>
+          <target>Recuperato da Nr. ZReport</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 63307997 - Field 2345826043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Retrieved from Date</source>
+          <target>Recuperato da Data</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 63307997 - Field 5724890 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Retrieved from Receipt No.</source>
+          <target>Recuperato da Nr. ricevuta</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 63307997 - Field 1513648138 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Document Type</source>
+          <target>Recuperato da Tipo documento</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3436445437 - NamedType 1803812000" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error while sending the request to the printer. You can retry to print the fiscal receipt by clicking on the "Print receipt (Fiscal)" action in POS Sales History page.\\HTTP Status Code: %1\\ Reason Phrase: %2\\ Response: %3</source>
+          <target>Error while sending the request to the printer. You can retry to print the fiscal receipt by clicking on the ""Print receipt (Fiscal)"" action in POS Sales History page.\\HTTP Status Code: %1\\ Reason Phrase: %2\\ Response: %3</target>
+        </trans-unit>
+        <trans-unit id="Table 4116624396 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ZReport Receipt</source>
+          <target>Ricevuta ZReport</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 49017862 - NamedType 190478488" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to issue a credit memo?</source>
+          <target>Vuoi emettere una nota credito?</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4257409582 - Action 1426935126 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Printer Setup</source>
+          <target>Setup stampante fiscale</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4257409582 - Control 2900300684 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Italian Localization</source>
+          <target>Localizzazione italiana</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4257409582 - Control 1606832748 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Validate Fiscal Code</source>
+          <target>Validazione codice fiscale</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 2774579218 - NamedType 2894182484" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Fiscal Code must be 16 characters long.</source>
+          <target>Il Codice Fiscale deve essere lungo 16 caratteri.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 2774579218 - NamedType 3197242723" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Fiscal Code contains invalid characters.</source>
+          <target>Il Codice Fiscale contiene caratteri non validi.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 2774579218 - NamedType 1021993381" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invalid Fiscal Code. Wrong control character. Expected: %1</source>
+          <target>Codice Fiscale non valido. Carattere di controllo errato. Atteso: %1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4257409582 - Control 3601345030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post To Account Fiscal Description</source>
+          <target>Descr. fiscale pagamento in conto</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4257409582 - Control 2074060496 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post To Account Fiscal ID</source>
+          <target>ID Fiscale pagamento in conto</target>
+        </trans-unit>
+        <trans-unit id="Page 2555992948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Printer Setup</source>
+          <target>Setup stampante fiscale</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1898878435 - Control 478554387 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Receipt Barcode</source>
+          <target>Barcode ricevuta</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 363186568 - Field 220092380 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Validate Fiscal Code</source>
+          <target>Valida codice fiscale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 363186568 - Field 2074060496 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal ID</source>
+          <target>ID Fiscale</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 363186568 - Field 3601345030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal Description</source>
+          <target>Descrizione fiscale</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 932956645 - Method 4080305446 - NamedType 2751084725" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The payment method for this sale posts to customer account. Do you want to print the fiscal receipt?</source>
+          <target>La vendita verrà registrata sul conto cliente. Vuoi stampare lo scontrino fiscale?</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
