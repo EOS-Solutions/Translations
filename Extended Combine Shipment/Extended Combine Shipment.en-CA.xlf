@@ -118,15 +118,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Invoicing Method - Field Invoice to - Property OptionCaption</note>
         </trans-unit>
-        <trans-unit id="Table 3656066566 - Field 3634662287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sell to</source>
+        <trans-unit id="Table 3656066566 - Field 1354564369 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how recurring sales lines are handled during ECS invoicing. "Separate Invoice" creates one additional service invoice per customer. "Append to Invoices" adds recurring lines to every goods invoice.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Invoicing Method - Field Sell To - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Invoicing Method - Field Recurring Sales Lines Mode - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Table 3656066566 - Field 3634662287 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sell-To Customer,Bill-To Customer</source>
+        <trans-unit id="Table 3656066566 - Field 1354564369 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recurring Sales Lines Mode</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Invoicing Method - Field Sell To - Property OptionCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Invoicing Method - Field Recurring Sales Lines Mode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3656066566 - Field 2704917035 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>To Date Formula</source>
@@ -257,6 +257,16 @@
           <source>EOS ECS Scheduler</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Invoicing Management - Method CreateAndOpenJobQueue - NamedType JobQueueNameTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1204462116 - Method 165558284 - NamedType 3400510451" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS status changed successfully</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS050 Gen. Recurring Inv. - Method ChangeEDSStatus - NamedType EDSChangeStatusSuccessLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1204462116 - Method 457936528 - NamedType 2638657470" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recurring sales invoice created successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS050 Gen. Recurring Inv. - Method CreateRecurringSalesInvoice - NamedType RecurringInvCreatedLbl</note>
         </trans-unit>
         <trans-unit id="Page 4266467808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Extended Combine Shipment Setup (ECS)</source>
@@ -468,10 +478,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Invoicing Methods - Control Invoice to - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 4138601875 - Control 3634662287 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Sell to field.</source>
+        <trans-unit id="Page 4138601875 - Control 1354564369 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how recurring sales lines are handled during ECS invoicing: appended to goods invoices or created as separate invoices.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Invoicing Methods - Control Sell To - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Invoicing Methods - Control Recurring Sales Lines Mode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4138601875 - Control 2704917035 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "To Date Formula" field</source>
@@ -698,6 +708,21 @@
           <note from="Developer" annotates="general" priority="2">%2 = The number of shipments skipped ; %3 = Names of the apps that skipped some shipments process</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Combine Shipments - Method OnPostReport - NamedType NoOfInvoicesSkippedTxt</note>
         </trans-unit>
+        <trans-unit id="Report 1490119125 - Method 1932903895 - NamedType 241608989" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error generating invoice for recurring sales lines. With error: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Error message</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Combine Shipments - Method RunCreateRecurringSalesInvoice - NamedType GenerateRecInvErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Method 1932903895 - NamedType 3458523748" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error during the generation of the recurring sales lines invoice. With error: %1\Continue anyway?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Error message</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Combine Shipments - Method RunCreateRecurringSalesInvoice - NamedType RuntimeGenRecInvErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Method 1932903895 - NamedType 3866932159" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recurring sales lines invoice generation interrupted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Combine Shipments - Method RunCreateRecurringSalesInvoice - NamedType RecInvGenInterruptedLbl</note>
+        </trans-unit>
         <trans-unit id="Report 1490119125 - Control 2542111395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invoice data</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -823,6 +848,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt 18122110 - Field EOS Invoicing Method Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2365508741 - Field 2099822561 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 601784662">
+          <source>Specifies whether this recurring sales code should be managed by the Extended Combine Shipment (ECS) invoicing process.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS050 Std. Cust. Sales Code - Field EOS050 Manage in ECS - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2365508741 - Field 2099822561 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 601784662">
+          <source>Manage in ECS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS050 Std. Cust. Sales Code - Field EOS050 Manage in ECS - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 766926214 - Field 1199716414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Created by ECS</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -852,6 +887,21 @@
           <source>Invoice</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS050 Log Levels - EnumValue Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4062071836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recurring Sales Lines Mode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS050 Rec. Lines Mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4062071836 - EnumValue 4232737137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Append to Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS050 Rec. Lines Mode - EnumValue Append to Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4062071836 - EnumValue 3511971608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Separate Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS050 Rec. Lines Mode - EnumValue Separate Invoice - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2538128937 - EnumValue 540986563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Debug</source>
@@ -892,6 +942,11 @@
           <source>Running</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS050 Status - EnumValue Running - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1671539235 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EOS050 ECS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet EOS050 ECS - Property Caption</note>
         </trans-unit>
       </group>
     </body>
