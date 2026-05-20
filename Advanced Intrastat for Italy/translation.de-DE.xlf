@@ -7,6 +7,18 @@
           <source>%1 should not be negative.</source>
           <target>Der %1 darf nicht negativ sein.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3518219412 - NamedType 1878296106" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Files (*.*)|*.*</source>
+          <target>Alle Dateien (*.*)|*.*</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3518219412 - NamedType 2634657535" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file was created successfully.\</source>
+          <target>Die Datei wurde erfolgreich erstellt.\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3518219412 - NamedType 3815440122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target>Exportieren</target>
+        </trans-unit>
         <trans-unit id="Codeunit 471042664 - Method 3481038276 - NamedType 259732076" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period</source>
           <target>Zeitraum</target>
@@ -46,6 +58,10 @@
         <trans-unit id="Page 1933852584 - Control 1671868336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Intrastat Grouping field</source>
           <target>Gibt den Wert des Feldes Intrastat-Gruppierung an</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 1950889875 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If set to true, the country code EL (Elláda - Hellas - Greece) in the "Payment Country Code" and "Source/Destination Country/Region" fields will be converted to GR (ISO 3166-1) in the Intrastat report as required by the Intraweb software.</source>
+          <target>Wenn diese Option aktiviert ist, wird der Ländercode EL (Elláda – Hellas – Griechenland) in den Feldern "Zahlungs Ländercode" und "Ursprungsland/-region" im Intrastat-Bericht wie vom Intraweb-Programm gefordert in GR (ISO 3166-1) umgewandelt.</target>
         </trans-unit>
         <trans-unit id="Page 1933852584 - Control 2014687919 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Call off stock</source>
@@ -122,6 +138,10 @@
         <trans-unit id="Page 2182427733 - Control 499448942 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the County field</source>
           <target>Gibt den Wert des Feldes Landkreis an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2182427733 - Control 544739291 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Get County from Line Location field</source>
+          <target>Gibt den Wert des Feldes "Provinz aus Zeilenstandort übernehmen" an</target>
         </trans-unit>
         <trans-unit id="Page 2182427733 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Intrastat Defaults (ITR)</source>
@@ -583,6 +603,14 @@
           <source>Options</source>
           <target>Optionen</target>
         </trans-unit>
+        <trans-unit id="Report 2149405262 - Control 3046503158 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether the report is incremental</source>
+          <target>Gibt an, ob der Bericht Schrittweise ist</target>
+        </trans-unit>
+        <trans-unit id="Report 2149405262 - Control 3046503158 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Incremental</source>
+          <target>Schrittweise</target>
+        </trans-unit>
         <trans-unit id="Report 2149405262 - Control 3218214083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Cost Regulation % field</source>
           <target>Gibt den Wert des Felds Kostenregulierung % an</target>
@@ -908,7 +936,7 @@
           <target>Periodizität</target>
         </trans-unit>
         <trans-unit id="Table 1034651056 - Field 2843455694 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Monthly,Quarterly</source>
+          <source>Monthly,Quarterly,Yearly</source>
           <target>Monatlich,Vierteljährlich</target>
         </trans-unit>
         <trans-unit id="Table 1034651056 - Field 3016451803 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -940,7 +968,7 @@
           <target>Es sind bereits Intrastatzeilen vorhanden.</target>
         </trans-unit>
         <trans-unit id="Table 1034651056 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 should be 4 caracters long.</source>
+          <source>%1 should be 4 characters long.</source>
           <target>%1 muss 4 stellig sein.</target>
         </trans-unit>
         <trans-unit id="Table 1034651056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -1243,6 +1271,10 @@
           <source>Per Line,Per Document</source>
           <target>Pro Zeile,Pro Document</target>
         </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 1950889875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Translate Country EL to GR</source>
+          <target>Übersetze Land EL zu GR</target>
+        </trans-unit>
         <trans-unit id="Table 1933852584 - Field 2157404548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>External Location Filter</source>
           <target>Externer Standortfilter</target>
@@ -1311,6 +1343,10 @@
           <source>Supply Method</source>
           <target>Versorgungsmethode</target>
         </trans-unit>
+        <trans-unit id="Table 2182427733 - Field 544739291 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Get County from Line Location</source>
+          <target>Provinz aus Zeilenstandort übernehmen</target>
+        </trans-unit>
         <trans-unit id="Table 2182427733 - Field 702581186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Type</source>
           <target>Belegart</target>
@@ -1362,30 +1398,6 @@
         <trans-unit id="TableExtension 808970000 - Field 4230493548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Split on Intrastat</source>
           <target>Auf Intrastat splitten</target>
-        </trans-unit>
-        <trans-unit id="Page 1933852584 - Control 1950889875 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>If set to true, the country code EL (Elláda - Hellas - Greece) in the "Payment Country Code" and "Source/Destination Country/Region" fields will be converted to GR (ISO 3166-1) in the Intrastat report as required by the Intraweb software.</source>
-          <target>Wenn diese Option aktiviert ist, wird der Ländercode EL (Elláda – Hellas – Griechenland) in den Feldern "Zahlungs Ländercode" und "Ursprungsland/-region" im Intrastat-Bericht wie vom Intraweb-Programm gefordert in GR (ISO 3166-1) umgewandelt.</target>
-        </trans-unit>
-        <trans-unit id="Table 1933852584 - Field 1950889875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Translate Country EL to GR</source>
-          <target>Übersetze Land EL zu GR</target>
-        </trans-unit>
-        <trans-unit id="Report 2149405262 - Control 3046503158 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Incremental</source>
-          <target>Schrittweise</target>
-        </trans-unit>
-        <trans-unit id="Report 2149405262 - Control 3046503158 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether the report is incremental</source>
-          <target>Gibt an, ob der Bericht Schrittweise ist</target>
-        </trans-unit>
-        <trans-unit id="Page 2182427733 - Control 544739291 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Get County from Line Location field</source>
-          <target>Gibt den Wert des Feldes "Provinz aus Zeilenstandort übernehmen" an</target>
-        </trans-unit>
-        <trans-unit id="Table 2182427733 - Field 544739291 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Get County from Line Location</source>
-          <target>Provinz aus Zeilenstandort übernehmen</target>
         </trans-unit>
       </group>
     </body>
