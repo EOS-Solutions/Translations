@@ -55,6 +55,10 @@
           <source>Create %1 for %2 %3?</source>
           <target>Creare %1 per %2 %3?</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1817281649 - Method 3348394132 - NamedType 216311314" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 %2 has multiple lines with multiple %3. You cannot use the %4 in this case.</source>
+          <target>%1 %2 ha più righe con più %3. Non è possibile utilizzare %4 in questo caso.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1817281649 - Method 3862745960 - NamedType 17661673" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reversal Our Order %1 dated %2</source>
           <target>Storno ns. ordine %1 del %2</target>
@@ -79,17 +83,25 @@
           <source>Reverse anticipated invoice %1</source>
           <target>Storno fattura anticipo %1</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1817281649 - NamedType 4022131846" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Creating invoice plan. Please wait...</source>
-          <target>Creazione del piano di fatturazione. Attendere prego...</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1817281649 - NamedType 2857874006" translate="yes" size-unit="char" xml:space="preserve">
           <source>The Invoice Plan functionality is not available for this document because the "KVSPSA" feature is enabled.</source>
           <target>La funzionalità "Piano fatture" non è disponibile per questo documento perché la funzionalità "KVSPSA" è attiva.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1817281649 - NamedType 4022131846" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creating invoice plan. Please wait...</source>
+          <target>Creazione del piano di fatturazione. Attendere prego...</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1817281649 - NamedType 4183851944" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot create an anticipated invoice for invoice plan %1 because a partial closing invoice with deductions has already been posted. Post all anticipated invoices before any partial closing invoice.</source>
+          <target>Impossibile creare una fattura di anticipo per il piano di fatturazione %1 perché è già stata registrata una fattura di chiusura parziale con detrazioni. Registra tutte le fatture di anticipo prima di qualsiasi fattura di chiusura parziale.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2127484201 - Method 3937146335 - NamedType 3613081681" translate="yes" size-unit="char" xml:space="preserve">
           <source>No subscription is active.</source>
           <target>Nessuna sottoscrizione è attiva.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2212158426 - Method 888948133 - NamedType 1371390457" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Taxes from %1</source>
+          <target>Imposte da %1</target>
         </trans-unit>
         <trans-unit id="Codeunit 479265699 - Method 1011921626 - NamedType 1745287229" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you really want to undo the Receipt lines for Invoicing Plan %1?</source>
@@ -126,6 +138,30 @@
         <trans-unit id="Codeunit 479265699 - Method 3412777090 - NamedType 799028103" translate="yes" size-unit="char" xml:space="preserve">
           <source>The line amount cannot be changed because it is linked to Invoice Plan %1. It must be changed in the Invoice Plan.</source>
           <target>L'importo della riga non può essere modificato perché è collegato al piano di fatturazione %1. Deve essere modificato nel piano di fatturazione.</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 1149817746 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Charge (Item)</source>
+          <target>Addebito (articolo)</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 3276313895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item</source>
+          <target>Articolo</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 348912950 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource</source>
+          <target>Risorsa</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 372951706 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fixed Asset</source>
+          <target>Cespite</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 4231510117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost</source>
+          <target>Costo</target>
+        </trans-unit>
+        <trans-unit id="Enum 1644593274 - EnumValue 4274826855 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>G/L Account</source>
+          <target>Conto C/G</target>
         </trans-unit>
         <trans-unit id="Enum 1927322531 - EnumValue 1673401186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Order</source>
@@ -174,6 +210,10 @@
         <trans-unit id="Page 1248415691 - Control 2527783098 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Invoice Plan Template Nos." field.</source>
           <target>Specifica il valore del campo "Nr. modello piano fatture".</target>
+        </trans-unit>
+        <trans-unit id="Page 1248415691 - Control 289098193 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default value for Split Lines by VAT in Invoice Plan document creation request pages.</source>
+          <target>Specifica il valore predefinito del flag Dividi righe per IVA nei report di creazione dei documenti da Piano Fatturazione</target>
         </trans-unit>
         <trans-unit id="Page 1248415691 - Control 3453604409 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Payments On Hold" field.</source>
@@ -375,6 +415,10 @@
           <source>Deducted Anticipated Amount</source>
           <target>Importo anticipo Detratto</target>
         </trans-unit>
+        <trans-unit id="Page 2162319592 - Control 2783247030 - Method 2126772001 - NamedType 3335643753" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Partial Closing Invoices with deductions full anticipated are not allowed when an Anticipated Payment Invoice has been created with Split By VAT and not reverted by a Credit Memo</source>
+          <target>Le fatture di chiusura parziale con detrazioni fino a capienza non sono consentite quando è stata creata una fattura di pagamento anticipato con “Dividi righe per IVA” e non stornata tramite nota di credito.</target>
+        </trans-unit>
         <trans-unit id="Page 2162319592 - Control 2783247030 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Invoice Type" field.</source>
           <target>Specifica il valore del campo "Tipo di fattura".</target>
@@ -418,6 +462,10 @@
         <trans-unit id="Page 2162319592 - Control 3888822604 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Posted Invoice" field.</source>
           <target>Specifica il valore del campo "Fattura registrata".</target>
+        </trans-unit>
+        <trans-unit id="Page 2162319592 - Control 4095313195 - Method 2126772001 - NamedType 3335643753" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Partial Closing Invoices with deductions full anticipated are not allowed when an Anticipated Payment Invoice has been created with Split By VAT and not reverted by a Credit Memo</source>
+          <target>Le fatture di chiusura parziale con detrazioni fino a capienza non sono consentite quando è stata creata una fattura di pagamento anticipato con “Dividi righe per IVA” e non stornata tramite nota di credito.</target>
         </trans-unit>
         <trans-unit id="Page 2162319592 - Control 4095313195 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Invoice Type" field.</source>
@@ -887,6 +935,14 @@
           <source>Create Credit Memo</source>
           <target>Crea nota di credito</target>
         </trans-unit>
+        <trans-unit id="Page 4257111714 - Action 1567633909 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View all vendor ledger entries for this invoice plan, sorted by posting date.</source>
+          <target>Visualizza tutti i movimenti contabili fornitori per questo piano di fatturazione, ordinati per data di registrazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 4257111714 - Action 1567633909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor Ledger Entries</source>
+          <target>Movimenti contabili fornitori</target>
+        </trans-unit>
         <trans-unit id="Page 4257111714 - Action 1929393835 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>F&amp;unctions</source>
           <target>F&amp;unzioni</target>
@@ -907,9 +963,9 @@
           <source>Posted Credit Memos</source>
           <target>Note credito registrate</target>
         </trans-unit>
-        <trans-unit id="Page 4257111714 - Control 231998036 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the total amount paid to the vendor for this invoice plan, excluding VAT.</source>
-          <target>Specifica l'importo totale pagato al fornitore per questo piano di fatturazione, escludendo l'IVA.</target>
+        <trans-unit id="Page 4257111714 - Action 2393537757 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View all customer ledger entries for this invoice plan, sorted by posting date.</source>
+          <target>Visualizza tutti i movimenti contabili clienti per questo piano di fatturazione, ordinati per data di registrazione.</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Action 2393537757 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Ledger Entries</source>
@@ -1011,6 +1067,14 @@
           <source>Specifies the value of the "Address 2" field.</source>
           <target>Specifica il valore del campo "Indirizzo 2".</target>
         </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 231998036 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total amount paid to the vendor for this invoice plan, excluding VAT.</source>
+          <target>Specifica l'importo totale pagato al fornitore per questo piano di fatturazione, escludendo l'IVA.</target>
+        </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 231998036 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Paid Amount</source>
+          <target>Importo Pagato</target>
+        </trans-unit>
         <trans-unit id="Page 4257111714 - Control 236064653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "VAT Prod. Posting Group" field.</source>
           <target>Specifica il valore del campo "Cat. reg. art./serv. IVA".</target>
@@ -1038,6 +1102,14 @@
         <trans-unit id="Page 4257111714 - Control 3067708397 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Collected Amount</source>
           <target>Importo Incassato</target>
+        </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 3071611313 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total amount paid to the vendor for this invoice plan in local currency, excluding VAT.</source>
+          <target>Specifica l'importo totale pagato al fornitore per questo piano di fatturazione in valuta locale, escludendo l'IVA.</target>
+        </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 3071611313 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Paid Amount (LCY)</source>
+          <target>Importo Pagato (LCY)</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 3168444338 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Address" field.</source>
@@ -1078,6 +1150,14 @@
         <trans-unit id="Page 4257111714 - Control 3683519316 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Total Closing Amount</source>
           <target>Importo a chiusura da fatturare</target>
+        </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 3831422983 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total taxable amount of invoice plan lines not yet invoiced.</source>
+          <target>Specifica il totale degli imponibili delle righe del piano di fatturazione non ancora fatturate.</target>
+        </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 3831422983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remaining Unbilled Amount</source>
+          <target>Imponibile fatture da emettere</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 3885666782 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field indicates Invoice Plan Purchase Remaining Amount</source>
@@ -1227,6 +1307,10 @@
           <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
           <target>Specifica il valore del campo "Nr. piano fatturazione".</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1773465835 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
+          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1773465835 - Control 624760173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS IPL Document Type" field.</source>
           <target>Specifica il valore del campo "Tipo di documento IPL EOS".</target>
@@ -1258,6 +1342,10 @@
         <trans-unit id="PageExtension 3048859069 - Control 265250968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
           <target>Specifica il valore del campo "Nr. piano fatturazione".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3048859069 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
+          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
         </trans-unit>
         <trans-unit id="PageExtension 3048859069 - Control 624760173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS IPL Document Type" field.</source>
@@ -1295,6 +1383,22 @@
           <source>Anticipated Inv. Plan. Bal. Acc. (IPL)</source>
           <target>Conto fatt. pagamento anticipato (IPL)</target>
         </trans-unit>
+        <trans-unit id="PageExtension 373298228 - Control 1905982473 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Plan</source>
+          <target>Piano fatturazione</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 373298228 - Control 265250968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
+          <target>Specifica il valore del campo "Nr. piano fatturazione".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 373298228 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
+          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 373298228 - Control 624760173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS IPL Document Type" field.</source>
+          <target>Specifica il valore del campo "Tipo di documento IPL EOS".</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3861659884 - Control 1905982473 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan</source>
           <target>Piano fatturazione</target>
@@ -1303,7 +1407,27 @@
           <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
           <target>Specifica il valore del campo "Nr. piano fatturazione".</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3861659884 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
+          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3861659884 - Control 624760173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS IPL Document Type" field.</source>
+          <target>Specifica il valore del campo "Tipo di documento IPL EOS".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4030568907 - Control 1905982473 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Plan</source>
+          <target>Piano fatturazione</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4030568907 - Control 265250968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
+          <target>Specifica il valore del campo "Nr. piano fatturazione".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4030568907 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
+          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4030568907 - Control 624760173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS IPL Document Type" field.</source>
           <target>Specifica il valore del campo "Tipo di documento IPL EOS".</target>
         </trans-unit>
@@ -1314,6 +1438,10 @@
         <trans-unit id="PageExtension 4155343280 - Control 265250968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
           <target>Specifica il valore del campo "Nr. piano fatturazione".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4155343280 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
+          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
         </trans-unit>
         <trans-unit id="PageExtension 4155343280 - Control 624760173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS IPL Document Type" field.</source>
@@ -1327,6 +1455,10 @@
           <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
           <target>Specifica il valore del campo "Nr. piano fatturazione".</target>
         </trans-unit>
+        <trans-unit id="PageExtension 673176799 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
+          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
+        </trans-unit>
         <trans-unit id="PageExtension 673176799 - Control 624760173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS IPL Document Type" field.</source>
           <target>Specifica il valore del campo "Tipo di documento IPL EOS".</target>
@@ -1339,6 +1471,10 @@
           <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
           <target>Specifica il valore del campo "Nr. piano fatturazione".</target>
         </trans-unit>
+        <trans-unit id="PageExtension 842085822 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
+          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
+        </trans-unit>
         <trans-unit id="PageExtension 842085822 - Control 624760173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS IPL Document Type" field.</source>
           <target>Specifica il valore del campo "Tipo di documento IPL EOS".</target>
@@ -1350,6 +1486,10 @@
         <trans-unit id="PageExtension 966860195 - Control 265250968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
           <target>Specifica il valore del campo "Nr. piano fatturazione".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 966860195 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
+          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
         </trans-unit>
         <trans-unit id="Report 1699706824 - Control 2934981776 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Creates a line for every VAT in the source document and proportionates the amount for each order line. </source>
@@ -1475,9 +1615,17 @@
           <source>Sales Closing Invoice from Invoice Plan</source>
           <target>Fattura di chiusura vendita dal piano fattura</target>
         </trans-unit>
+        <trans-unit id="Report 1813802682 - RequestPage 2516438534 - Method 716454850 - NamedType 2622802253" translate="yes" size-unit="char" xml:space="preserve">
+          <source>It is not allowed to create Partial Closing Invoices with deductions full anticipated with Split By VAT</source>
+          <target>Non è consentito creare fatture di chiusura parziale con detrazioni fino a capienza con “Dividi righe per IVA”.</target>
+        </trans-unit>
         <trans-unit id="Report 1855455413 - Control 3710982960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date</source>
           <target>Data di registrazione</target>
+        </trans-unit>
+        <trans-unit id="Report 1855455413 - Method 2325261017 - NamedType 17661673" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reversal Invoice %1 dated %2</source>
+          <target>Storno fattura %1 del %2</target>
         </trans-unit>
         <trans-unit id="Report 1855455413 - NamedType 1684442454" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 documents has been created. Do you want to open the Purchase Credit Memo?</source>
@@ -1547,6 +1695,10 @@
           <source>Service Closing Invoice from Invoice Plan</source>
           <target>Fattura di chiusura assistenza dal piano fattura</target>
         </trans-unit>
+        <trans-unit id="Report 2094673158 - RequestPage 2516438534 - Method 716454850 - NamedType 2622802253" translate="yes" size-unit="char" xml:space="preserve">
+          <source>It is not allowed to create Partial Closing Invoices with deductions full anticipated with Split By VAT</source>
+          <target>Non è consentito creare fatture di chiusura parziale con detrazioni fino a capienza con “Dividi righe per IVA”.</target>
+        </trans-unit>
         <trans-unit id="Report 2457122796 - Control 2153613219 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Posting Date" field.</source>
           <target>Specifica il valore del campo "Data di registrazione".</target>
@@ -1586,6 +1738,10 @@
         <trans-unit id="Report 2457122796 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Service Invoice from Invoice Plan</source>
           <target>Fattura di assistenza dal piano fattura</target>
+        </trans-unit>
+        <trans-unit id="Report 2457122796 - RequestPage 2516438534 - Method 716454850 - NamedType 2622802253" translate="yes" size-unit="char" xml:space="preserve">
+          <source>It is not allowed to use Split By VAT when Partial Closing Invoices with deductions full anticipated are present in the Invoice Plan</source>
+          <target>Non è consentito utilizzare “Dividi righe per IVA” quando nel Piano di fatturazione sono presenti fatture di chiusura parziale con detrazioni fino a capienza.</target>
         </trans-unit>
         <trans-unit id="Report 3256361168 - Control 2153613219 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Posting Date" field.</source>
@@ -1627,6 +1783,10 @@
           <source>Sales Invoice from Invoice Plan</source>
           <target>Fattura di vendita dal piano di fatturazione</target>
         </trans-unit>
+        <trans-unit id="Report 3256361168 - RequestPage 2516438534 - Method 716454850 - NamedType 2622802253" translate="yes" size-unit="char" xml:space="preserve">
+          <source>It is not allowed to use Split By VAT when Partial Closing Invoices with deductions full anticipated are present in the Invoice Plan</source>
+          <target>Non è consentito utilizzare “Dividi righe per IVA” quando nel Piano di fatturazione sono presenti fatture di chiusura parziale con detrazioni fino a capienza.</target>
+        </trans-unit>
         <trans-unit id="Report 3849498137 - Control 3710982960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date</source>
           <target>Data di registrazione</target>
@@ -1662,6 +1822,10 @@
         <trans-unit id="Table 1248415691 - Field 2527783098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Template Nos.</source>
           <target>Nr. Modelli piano fatturazione</target>
+        </trans-unit>
+        <trans-unit id="Table 1248415691 - Field 289098193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Split Lines by VAT by Default</source>
+          <target>Dividi righe per IVA predefinito</target>
         </trans-unit>
         <trans-unit id="Table 1248415691 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code</source>
@@ -2039,6 +2203,10 @@
           <source>Shipment No. Filter</source>
           <target>Nr. spedizione ﬁltro</target>
         </trans-unit>
+        <trans-unit id="Table 2624862372 - Field 1544973102 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Split By VAT</source>
+          <target>Dividi righe per IVA</target>
+        </trans-unit>
         <trans-unit id="Table 2624862372 - Field 166038250 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice No.</source>
           <target>Nr. fattura</target>
@@ -2194,6 +2362,10 @@
         <trans-unit id="Table 2624862372 - Field 966740350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Terms Code</source>
           <target>Cod. condizioni pagam.</target>
+        </trans-unit>
+        <trans-unit id="Table 2624862372 - Method 3348394132 - NamedType 216311314" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The document lines %1 %2 have multiple %3. You cannot use the %4 in this case.</source>
+          <target>Le righe documento %1 %2 hanno più %3. Non è possibile utilizzare %4 in questo caso.</target>
         </trans-unit>
         <trans-unit id="Table 2624862372 - NamedType 1006074708" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot enter this line after a closing invoice line.</source>
@@ -2439,6 +2611,10 @@
           <source>Invoice Plan Correction</source>
           <target>Correzione piano fatture</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1086986208 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Plan Source Doc. No.</source>
+          <target>Nr. Doc. origine piano fatturazione</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1279241529 - Field 624760173 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Document Type</source>
           <target>Tipo di documento Piano fatture</target>
@@ -2450,6 +2626,10 @@
         <trans-unit id="TableExtension 1279241529 - Field 691665806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Correction</source>
           <target>Correzione piano fatture</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1279241529 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Plan Source Doc. No.</source>
+          <target>Nr. Doc. origine piano fatturazione</target>
         </trans-unit>
         <trans-unit id="TableExtension 1380669604 - Field 169752782 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description (IPL)</source>
@@ -2602,6 +2782,10 @@
         <trans-unit id="TableExtension 2554634763 - Field 691665806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Correction</source>
           <target>Correzione piano fatture</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2554634763 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Plan Source Doc. No.</source>
+          <target>Nr. Doc. origine piano fatturazione</target>
         </trans-unit>
         <trans-unit id="TableExtension 2656062838 - Field 169752782 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description (IPL)</source>
@@ -2787,6 +2971,10 @@
           <source>Invoice Plan Correction</source>
           <target>Correzione piano fatture</target>
         </trans-unit>
+        <trans-unit id="TableExtension 3762547049 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Plan Source Doc. No.</source>
+          <target>Nr. Doc. origine piano fatturazione</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3830027997 - Field 624760173 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Document Type</source>
           <target>Tipo di documento Piano fatture</target>
@@ -2799,6 +2987,10 @@
           <source>Invoice Plan Correction</source>
           <target>Correzione piano fatture</target>
         </trans-unit>
+        <trans-unit id="TableExtension 3830027997 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Plan Source Doc. No.</source>
+          <target>Nr. Doc. origine piano fatturazione</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3848295 - Field 624760173 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Document Type</source>
           <target>Tipo di documento Piano fatture</target>
@@ -2810,6 +3002,10 @@
         <trans-unit id="TableExtension 3848295 - Field 691665806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Correction</source>
           <target>Correzione piano fatture</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3848295 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Plan Source Doc. No.</source>
+          <target>Nr. Doc. origine piano fatturazione</target>
         </trans-unit>
         <trans-unit id="TableExtension 3937651247 - Field 3905633698 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Anticipated Balance Account</source>
@@ -2847,6 +3043,10 @@
           <source>Invoice Plan Correction</source>
           <target>Correzione piano fatture</target>
         </trans-unit>
+        <trans-unit id="TableExtension 4106560270 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Plan Source Doc. No.</source>
+          <target>Nr. Doc. origine piano fatturazione</target>
+        </trans-unit>
         <trans-unit id="TableExtension 4129906568 - Field 624760173 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Document Type</source>
           <target>Tipo di documento Piano fatture</target>
@@ -2858,6 +3058,10 @@
         <trans-unit id="TableExtension 4129906568 - Field 691665806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Correction</source>
           <target>Correzione piano fatture</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4129906568 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Plan Source Doc. No.</source>
+          <target>Nr. Doc. origine piano fatturazione</target>
         </trans-unit>
         <trans-unit id="TableExtension 449289591 - Field 594420777 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Line No.</source>
@@ -2911,10 +3115,6 @@
           <source>Invoice Plan Line No.</source>
           <target>Nr. riga piano fatturazione</target>
         </trans-unit>
-        <trans-unit id="TableExtension 918077185 - Field 691665806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan Correction</source>
-          <target>Correzione piano fatture</target>
-        </trans-unit>
         <trans-unit id="TableExtension 742972987 - Field 637868331 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan No.</source>
           <target>Nr. Piano fatturazione</target>
@@ -2927,193 +3127,13 @@
           <source>Invoice Plan No.</source>
           <target>Nr. Piano fatturazione</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1817281649 - Method 3348394132 - NamedType 216311314" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 %2 has multiple lines with multiple %3. You cannot use the %4 in this case.</source>
-          <target>%1 %2 ha più righe con più %3. Non è possibile utilizzare %4 in questo caso.</target>
-        </trans-unit>
-        <trans-unit id="Page 2162319592 - Control 2783247030 - Method 2126772001 - NamedType 3335643753" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Partial Closing Invoices with deductions full anticipated are not allowed when an Anticipated Payment Invoice has been created with Split By VAT and not reverted by a Credit Memo</source>
-          <target>Le fatture di chiusura parziale con detrazioni fino a capienza non sono consentite quando è stata creata una fattura di pagamento anticipato con “Dividi righe per IVA” e non stornata tramite nota di credito.</target>
-        </trans-unit>
-        <trans-unit id="Table 2624862372 - Field 1544973102 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Split By VAT</source>
-          <target>Dividi righe per IVA</target>
-        </trans-unit>
-        <trans-unit id="Report 3256361168 - RequestPage 2516438534 - Method 716454850 - NamedType 2622802253" translate="yes" size-unit="char" xml:space="preserve">
-          <source>It is not allowed to use Split By VAT when Partial Closing Invoices with deductions full anticipated are present in the Invoice Plan</source>
-          <target>Non è consentito utilizzare “Dividi righe per IVA” quando nel Piano di fatturazione sono presenti fatture di chiusura parziale con detrazioni fino a capienza.</target>
-        </trans-unit>
-        <trans-unit id="Report 2457122796 - RequestPage 2516438534 - Method 716454850 - NamedType 2622802253" translate="yes" size-unit="char" xml:space="preserve">
-          <source>It is not allowed to use Split By VAT when Partial Closing Invoices with deductions full anticipated are present in the Invoice Plan</source>
-          <target>Non è consentito utilizzare “Dividi righe per IVA” quando nel Piano di fatturazione sono presenti fatture di chiusura parziale con detrazioni fino a capienza.</target>
-        </trans-unit>
-        <trans-unit id="Report 1813802682 - RequestPage 2516438534 - Method 716454850 - NamedType 2622802253" translate="yes" size-unit="char" xml:space="preserve">
-          <source>It is not allowed to create Partial Closing Invoices with deductions full anticipated with Split By VAT</source>
-          <target>Non è consentito creare fatture di chiusura parziale con detrazioni fino a capienza con “Dividi righe per IVA”.</target>
-        </trans-unit>
-        <trans-unit id="Report 2094673158 - RequestPage 2516438534 - Method 716454850 - NamedType 2622802253" translate="yes" size-unit="char" xml:space="preserve">
-          <source>It is not allowed to create Partial Closing Invoices with deductions full anticipated with Split By VAT</source>
-          <target>Non è consentito creare fatture di chiusura parziale con detrazioni fino a capienza con “Dividi righe per IVA”.</target>
-        </trans-unit>
-        <trans-unit id="Enum 1644593274 - EnumValue 348912950 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Resource</source>
-          <target>Risorsa</target>
-        </trans-unit>
-        <trans-unit id="Enum 1644593274 - EnumValue 3276313895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item</source>
-          <target>Articolo</target>
-        </trans-unit>
-        <trans-unit id="Enum 1644593274 - EnumValue 4274826855 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>G/L Account</source>
-          <target>Conto C/G</target>
-        </trans-unit>
-        <trans-unit id="Enum 1644593274 - EnumValue 372951706 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Fixed Asset</source>
-          <target>Cespite</target>
-        </trans-unit>
-        <trans-unit id="Enum 1644593274 - EnumValue 4231510117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cost</source>
-          <target>Costo</target>
-        </trans-unit>
-        <trans-unit id="Enum 1644593274 - EnumValue 1149817746 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Charge (Item)</source>
-          <target>Addebito (articolo)</target>
-        </trans-unit>
-        <trans-unit id="Page 2162319592 - Control 4095313195 - Method 2126772001 - NamedType 3335643753" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Partial Closing Invoices with deductions full anticipated are not allowed when an Anticipated Payment Invoice has been created with Split By VAT and not reverted by a Credit Memo</source>
-          <target>Le fatture di chiusura parziale con detrazioni fino a capienza non sono consentite quando è stata creata una fattura di pagamento anticipato con “Dividi righe per IVA” e non stornata tramite nota di credito.</target>
-        </trans-unit>
-        <trans-unit id="Table 2624862372 - Method 3348394132 - NamedType 216311314" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The document lines %1 %2 have multiple %3. You cannot use the %4 in this case.</source>
-          <target>Le righe documento %1 %2 hanno più %3. Non è possibile utilizzare %4 in questo caso.</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 673176799 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
-          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 842085822 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
-          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3861659884 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
-          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 966860195 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
-          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 4155343280 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
-          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3048859069 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
-          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1773465835 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
-          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 3848295 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan Source Doc. No.</source>
-          <target>Nr. Doc. origine piano fatturazione</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 1279241529 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan Source Doc. No.</source>
-          <target>Nr. Doc. origine piano fatturazione</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 2554634763 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan Source Doc. No.</source>
-          <target>Nr. Doc. origine piano fatturazione</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 3830027997 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan Source Doc. No.</source>
-          <target>Nr. Doc. origine piano fatturazione</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4129906568 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan Source Doc. No.</source>
-          <target>Nr. Doc. origine piano fatturazione</target>
+        <trans-unit id="TableExtension 918077185 - Field 691665806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Plan Correction</source>
+          <target>Correzione piano fatture</target>
         </trans-unit>
         <trans-unit id="TableExtension 918077185 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Source Doc. No.</source>
           <target>Nr. Doc. origine piano fatturazione</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4106560270 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan Source Doc. No.</source>
-          <target>Nr. Doc. origine piano fatturazione</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 1086986208 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan Source Doc. No.</source>
-          <target>Nr. Doc. origine piano fatturazione</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 3762547049 - Field 833515308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan Source Doc. No.</source>
-          <target>Nr. Doc. origine piano fatturazione</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 4030568907 - Control 265250968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
-          <target>Specifica il valore del campo "Nr. piano fatturazione".</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 373298228 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
-          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 4030568907 - Control 1905982473 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan</source>
-          <target>Piano fatturazione</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 4030568907 - Control 3134834018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Source Doc. No." field.</source>
-          <target>Specifica il valore del campo "Nr. Doc. origine piano fatturazione"</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 373298228 - Control 1905982473 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan</source>
-          <target>Piano fatturazione</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 373298228 - Control 624760173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Document Type" field.</source>
-          <target>Specifica il valore del campo "Tipo di documento IPL EOS".</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 373298228 - Control 265250968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS Invoice Plan No." field.</source>
-          <target>Specifica il valore del campo "Nr. piano fatturazione".</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 4030568907 - Control 624760173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Document Type" field.</source>
-          <target>Specifica il valore del campo "Tipo di documento IPL EOS".</target>
-        </trans-unit>
-        <trans-unit id="Page 4257111714 - Control 231998036 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Paid Amount</source>
-          <target>Importo Pagato</target>
-        </trans-unit>
-        <trans-unit id="Page 4257111714 - Control 3071611313 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the total amount paid to the vendor for this invoice plan in local currency, excluding VAT.</source>
-          <target>Specifica l'importo totale pagato al fornitore per questo piano di fatturazione in valuta locale, escludendo l'IVA.</target>
-        </trans-unit>
-        <trans-unit id="Page 4257111714 - Control 3071611313 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Paid Amount (LCY)</source>
-          <target>Importo Pagato (LCY)</target>
-        </trans-unit>
-        <trans-unit id="Page 4257111714 - Action 2393537757 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View all customer ledger entries for this invoice plan, sorted by posting date.</source>
-          <target>Visualizza tutti i movimenti contabili clienti per questo piano di fatturazione, ordinati per data di registrazione.</target>
-        </trans-unit>
-        <trans-unit id="Page 4257111714 - Action 1567633909 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View all vendor ledger entries for this invoice plan, sorted by posting date.</source>
-          <target>Visualizza tutti i movimenti contabili fornitori per questo piano di fatturazione, ordinati per data di registrazione.</target>
-        </trans-unit>
-        <trans-unit id="Page 4257111714 - Action 1567633909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Vendor Ledger Entries</source>
-          <target>Movimenti contabili fornitori</target>
-        </trans-unit>
-        <trans-unit id="Report 1855455413 - Method 2325261017 - NamedType 17661673" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reversal Invoice %1 dated %2</source>
-          <target>Storno fattura %1 del %2</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2212158426 - Method 888948133 - NamedType 1371390457" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Taxes from %1</source>
-          <target>Imposte da %1</target>
         </trans-unit>
       </group>
     </body>
