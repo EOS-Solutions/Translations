@@ -368,6 +368,11 @@
           <note from="Developer" annotates="general" priority="2">This text will be added after Document Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS014 Bill Note Management - Method CreateGenJournalLine - NamedType MustBePaymentOrRefundTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3116020280 - Method 2569890675 - NamedType 1947391627" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It is not possible to post line %1 linked to billing note no. %2 because the amount %3 is different from %4 %5</source>
+          <note from="Developer" annotates="general" priority="2">%1=GenJnlLine."Line No.", %2=BillingNote."No.", %3=GenJnlLine.Amount, %4=BillingNote.FieldCaption("Payable Amount"), %5=BillingNote."Payable Amount"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS014 Bill Note Management - Method GenJnlPostLine_OnBeforeCheckGenJnlLine - NamedType AmountErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1476685873 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial subscription for %1 found - day %2 of %3</source>
           <note from="Developer" annotates="general" priority="2">%1 = application code, %2 = day, %3 = total days</note>
@@ -437,6 +442,11 @@
           <source>Specifies the value of the Amount Paid (LCY) field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS014 Billing Note - Control Amount Paid (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2862218313 - Control 4163464822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ENASARCO Amount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS014 Billing Note - Control ENASARCO Amount - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2862218313 - Control 926489874 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the On Hold field.</source>
@@ -617,11 +627,6 @@
           <source>Specifies the value of the Base - Excluded Amount field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS014 Billing Note - Control Base - Excluded Amount - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2862218313 - Control 4163464822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ENASARCO Amount field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS014 Billing Note - Control ENASARCO Amount - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2862218313 - Control 3277209949 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Professional Tax Amount field.</source>
@@ -1123,6 +1128,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS014 Posted Billing Note - Control Amount Paid (LCY) - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1896072218 - Control 4163464822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ENASARCO Amount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS014 Posted Billing Note - Control ENASARCO Amount - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1896072218 - Control 926489874 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the On Hold field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1302,11 +1312,6 @@
           <source>Specifies the value of the Base - Excluded Amount field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS014 Posted Billing Note - Control Base - Excluded Amount - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1896072218 - Control 4163464822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ENASARCO Amount field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS014 Posted Billing Note - Control ENASARCO Amount - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1896072218 - Control 3277209949 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Professional Tax Amount field.</source>
@@ -1523,6 +1528,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060381 - Action EOS Select Billing Notes - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3134695002 - Control 1508646791 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Specifies the value of the Billing Note No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060381 - Control EOS Billing Note No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3134695002 - Control 1508646791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Billing Note No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060381 - Control EOS Billing Note No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1221605151 - Action 214901535 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
           <source>Executes the Create Billing Note action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1698,6 +1713,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060380 - Field EOS Billing Note No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3648941045 - Method 1466101695 - NamedType 2874612806" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3648941045">
+          <source>It is not possible to modify the field because the registration is linked to the Billing Note %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Billing Note No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060381 - Method CheckBillingNote - NamedType BillingNoteAmountErr</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3648941045 - Field 1508646791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>Billing Note No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060381 - Field EOS Billing Note No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3011244428 - Field 1146375814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1980985995">
           <source>Billing Note</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1737,6 +1762,11 @@
           <source>Expired Date Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060383 - Field EOS Expired Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 64698812 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EOS EX014 EBN ADM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet EOS EX014 EBN ADM - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 1211469096 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>EOS EX014 EBN USR</source>
