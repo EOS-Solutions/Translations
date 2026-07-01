@@ -37,7 +37,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3002368850 - NamedType 4032540474" translate="yes" size-unit="char" xml:space="preserve">
           <source>Speed: (Entries/s)#4########\</source>
-          <target>Velocità: (Voci/s)#4########\</target>
+          <target>Velocità: (Movimenti/s)#4########\</target>
         </trans-unit>
         <trans-unit id="Codeunit 3002368850 - NamedType 4052453260" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 values include both "%2" and "%3". Which source do you want to see?</source>
@@ -93,7 +93,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3573506712 - Method 4093351679 - NamedType 1211451746" translate="yes" size-unit="char" xml:space="preserve">
           <source>No shipment entry was found.</source>
-          <target>Non è stata trovata alcuna voce di spedizione.</target>
+          <target>Non è stato trovato alcun movimento di spedizione.</target>
         </trans-unit>
         <trans-unit id="Enum 1395890412 - EnumValue 1383905037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L</source>
@@ -537,7 +537,7 @@
         </trans-unit>
         <trans-unit id="Page 3750182059 - Control 2304016699 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tap or click on amounts to drill down and see the underlying entries to learn what is behind the numbers for insight and troubleshooting.</source>
-          <target>Tocca o fai clic sugli importi per eseguire il drill-down e visualizzare le voci sottostanti per scoprire cosa c'è dietro i numeri per approfondimenti e risoluzione dei problemi.</target>
+          <target>Tocca o fai clic sugli importi per eseguire il drill-down e visualizzare i movimenti sottostanti per scoprire cosa c'è dietro i numeri per approfondimenti e risoluzione dei problemi.</target>
         </trans-unit>
         <trans-unit id="Page 3750182059 - Control 236064653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</source>
@@ -3474,6 +3474,142 @@
         <trans-unit id="Page 829772679 - Control 543275552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the starting date for the calculation</source>
           <target>Specifica la data di inizio per il calcolo</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the entry, as assigned from the specified number series when the entry was created.</source>
+          <target>Specifica il numero del movimento, assegnato dalla numerazione specificata alla creazione del movimento.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 1003760969 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for the global dimension 2 associated with the accrual entry.</source>
+          <target>Specifica il codice della dimensione globale 2 associato al movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 1411740825 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the G/L entry linked to this accrual entry.</source>
+          <target>Specifica il numero del movimento C/G collegato a questo movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 1495879613 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the accrual entry has been split into multiple entries.</source>
+          <target>Specifica se il movimento di rateo è stato suddiviso in più movimenti.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 1577567912 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for the global dimension 1 associated with the accrual entry.</source>
+          <target>Specifica il codice della dimensione globale 1 associato al movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 1668142424 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the entry that closed this accrual.</source>
+          <target>Specifica l'ID del movimento che ha chiuso questo rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 1704330331 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the entry that closed this accrual.</source>
+          <target>Specifica il numero di documento del movimento che ha chiuso questo rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 1778072510 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the accrual entry has been fully closed.</source>
+          <target>Specifica se il movimento di rateo è stato completamente chiuso.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the accrual entry is posted to the general ledger or to the simulated general ledger.</source>
+          <target>Specifica se il movimento di rateo è registrato nella contabilità generale o nella contabilità generale simulata.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 1908046867 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the reason code associated with the accrual entry.</source>
+          <target>Specifica il codice causale associato al movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the document associated with the accrual entry.</source>
+          <target>Specifica il tipo di documento associato al movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 2540448548 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line number of the entry that closed this accrual.</source>
+          <target>Specifica il numero di riga del movimento che ha chiuso questo rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 2542492690 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the G/L register in which the entry was posted.</source>
+          <target>Specifica il numero del registro C/G in cui è stato registrato il movimento.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 2608892014 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an internal identifier used to group related accrual entries.</source>
+          <target>Specifica un identificatore interno utilizzato per raggruppare i movimenti di rateo correlati.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 2631853605 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the accrual entry is pending posting.</source>
+          <target>Specifica se il movimento di rateo è in attesa di registrazione.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the user who created the entry.</source>
+          <target>Specifica l'ID dell'utente che ha creato il movimento.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 2720485332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source code that indicates where the entry was created.</source>
+          <target>Specifica il codice origine che indica dove è stato creato il movimento.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 2818854575 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date on which the accrual entry was last closed.</source>
+          <target>Specifica la data in cui il movimento di rateo è stato chiuso l'ultima volta.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 3214539051 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the entry that closed this accrual.</source>
+          <target>Specifica il tipo del movimento che ha chiuso questo rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 3322554545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a reference to a combination of dimension values associated with the accrual entry.</source>
+          <target>Specifica un riferimento a una combinazione di valori di dimensione associati al movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 339805095 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the accrual template used to create this entry.</source>
+          <target>Specifica il modello di rateo utilizzato per creare questo movimento.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the accrual entry.</source>
+          <target>Specifica una descrizione del movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 3631880954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the source record linked to the accrual entry.</source>
+          <target>Specifica il numero del record di origine collegato al movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 3656603054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the original total amount of the accrual entry in the local currency.</source>
+          <target>Specifica l'importo totale originale del movimento di rateo nella valuta locale.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date on which the accrual entry was posted.</source>
+          <target>Specifica la data in cui il movimento di rateo è stato registrato.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 3744289816 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the accrual entry has been reversed.</source>
+          <target>Specifica se il movimento di rateo è stato stornato.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 3852983238 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the G/L account number associated with the accrual entry.</source>
+          <target>Specifica il numero di conto C/G associato al movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 458406397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the end date of the accrual period.</source>
+          <target>Specifica la data di fine del periodo di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 460889064 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the start date of the accrual period.</source>
+          <target>Specifica la data di inizio del periodo di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the accrual entry.</source>
+          <target>Specifica il numero di documento del movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 537909339 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the source record (e.g., customer, vendor) linked to the accrual entry.</source>
+          <target>Specifica il tipo del record di origine (ad es. cliente, fornitore) collegato al movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date of the originating document for the accrual entry.</source>
+          <target>Specifica la data del documento di origine per il movimento di rateo.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 592951229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the remaining amount of the accrual entry in the local currency.</source>
+          <target>Specifica l'importo residuo del movimento di rateo nella valuta locale.</target>
+        </trans-unit>
+        <trans-unit id="Table 1396080286 - Field 95864743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the period type used to distribute the accrual amount over time.</source>
+          <target>Specifica il tipo di periodo utilizzato per distribuire l'importo del rateo nel tempo.</target>
         </trans-unit>
       </group>
     </body>
