@@ -139,8 +139,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS G/L Application Mgt. - NamedType AppIDAlreadyPresentErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3417926313 - NamedType 2778742514" size-unit="char" translate="yes" xml:space="preserve">
-          <source>A %1 %2 with %3 %4 already exists. It cannot be used.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <source>%1 %2 with %3 %4 already exists. It cannot be used.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = G/L Application Entry ID, %2 = ApplyID, %3 = No. Series caption, %4 = No. Series code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS G/L Application Mgt. - NamedType ApplyIDNoSeriesErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3417926313 - NamedType 2091862357" size-unit="char" translate="yes" xml:space="preserve">
@@ -1133,20 +1133,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18122560 - Field EOS Apply G/L Entries - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1324166239 - Field 1036119685 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 990077888">
-          <source>Never,Manual,Automatic FIFO,Automatic LIFO</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18122560 - Field EOS Apply G/L Entries - Property OptionCaption</note>
-        </trans-unit>
         <trans-unit id="TableExtension 3237256090 - Field 1036119685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4274826855">
           <source>Apply G/L Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18122563 - Field EOS Apply G/L Entries - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3237256090 - Field 1036119685 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4274826855">
-          <source>Never,Manual,Automatic FIFO,Automatic LIFO</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18122563 - Field EOS Apply G/L Entries - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3874952707 - Field 3461235246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2825951060">
           <source>Amount to Apply</source>
@@ -1182,6 +1172,41 @@
           <source>G/L Application Entry ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18122565 - Field EOS G/L Application Entry ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3556043365 - EnumValue 1778198845 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatic FIFO</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS022 Apply G/L Entries - EnumValue Automatic FIFO - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3556043365 - EnumValue 4266102419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatic LIFO</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS022 Apply G/L Entries - EnumValue Automatic LIFO - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3556043365 - EnumValue 1508634494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manual</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS022 Apply G/L Entries - EnumValue Manual - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3556043365 - EnumValue 374497366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Never</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS022 Apply G/L Entries - EnumValue Never - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3446455179 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS022 Entry Status - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3446455179 - EnumValue 1778072510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Closed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS022 Entry Status - EnumValue Closed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3446455179 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS022 Entry Status - EnumValue Open - Property Caption</note>
         </trans-unit>
       </group>
     </body>
