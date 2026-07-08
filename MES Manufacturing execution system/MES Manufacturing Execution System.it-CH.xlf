@@ -235,10 +235,6 @@
           <source>Impossible to create a rework if there isn't a record with Prod. order %1, line %2, operation %3 without scrap quantity</source>
           <target>Impossibile creare una rilavorazione se non è presente un record con ordine Prod. %1, riga %2, operazione %3 senza quantità di scarto</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1423286042 - Method 345267685 - NamedType 994240841" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Resource stop already declared.</source>
-          <target>Stop risorsa già dichiarata.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 3487161493 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 %2 not allowed for %3 %4.</source>
           <target>%1 %2 non è per %3 %4.</target>
@@ -402,18 +398,6 @@
         <trans-unit id="Codeunit 2968607447 - Method 982591392 - NamedType 3764383116" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to reset the synoptic NumberSequence?\Be aware that Synoptic Entries will be deleted!</source>
           <target>Reimpostare il Number Sequence per il sinottico?\I movimenti sinottico verranno eliminati.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 2156609432" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reason Code not managed</source>
-          <target>Causale non gestita</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 3941493968" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Starting DateTime nor Ending DateTime set</source>
-          <target>Data/Ora inizio e/o Data/Ora fine non indicata</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 902951225" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reason Code "%1" not found</source>
-          <target>Causale %1 non trovata</target>
         </trans-unit>
         <trans-unit id="Codeunit 3497152283 - Method 2901095472 - NamedType 2572014162" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are open %1 related to %2 %3.</source>
@@ -6735,10 +6719,6 @@
           <source>Allow Starling/Modify Employe Entries</source>
           <target>Consenti Storno/Modifica Movimenti Impiego</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2690635786 - NamedType 1951958409" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Nothing to reprocess</source>
-          <target>Niente da riprocessare</target>
-        </trans-unit>
         <trans-unit id="Page 1930833055 - Action 2974245848 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reprocesses the selected entries</source>
           <target>Riprocessa i movimenti selezionati</target>
@@ -6802,14 +6782,6 @@
         <trans-unit id="Table 3241182029 - Field 1278298272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reason Type</source>
           <target>Tipo causale</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 2599621991" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Missing Start Entry</source>
-          <target>Movimento di inizio mancante</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3377287267 - Method 2690635786 - NamedType 441590130" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reprocessing done</source>
-          <target>Operazione completata</target>
         </trans-unit>
         <trans-unit id="Table 258911711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MES Additional Async. Posting Parameters</source>
@@ -7102,6 +7074,18 @@
         <trans-unit id="Page 2862523919 - Action 2556775711 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Twin Properties" action</source>
           <target>Esegue l'azione "Proprietà Twin"</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 2544172974 - NamedType 994240841" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource is currently stopped with reason %1 - %2</source>
+          <target>La risorsa è in fermo con la seguente causale: %1 - %2.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 3085796346 - NamedType 3539642685" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource stop already declared.</source>
+          <target>Stop risorsa già dichiarata.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 2544172974 - NamedType 612872271" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource is currently stopped.</source>
+          <target>La risorsa à in fermo.</target>
         </trans-unit>
       </group>
     </body>
