@@ -68,8 +68,8 @@
           <target>Beschreibung</target>
         </trans-unit>
         <trans-unit id="Table 2953603596 - Field 2891538263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enabled</source>
-          <target>Aktiviert</target>
+          <source>Use custom prompt</source>
+          <target>Benutzerdefinierten Prompt verwenden</target>
         </trans-unit>
         <trans-unit id="Table 2953603596 - Field 2779704308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Instruction</source>
@@ -352,12 +352,12 @@
           <target>Gibt eine kurze Beschreibung des benutzerdefinierten Prompts an.</target>
         </trans-unit>
         <trans-unit id="Page 2953603596 - Control 2891538263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether this custom prompt is active for the selected agent capability.</source>
-          <target>Gibt an, ob dieser benutzerdefinierte Prompt für die ausgewählte Agentenfunktion aktiv ist.</target>
+          <source>Specifies whether this custom prompt is active for the selected agent capability or use the factory default prompt.</source>
+          <target>Gibt an, ob der benutzerdefinierte Prompt für die ausgewählte Agentenfunktion aktiviert ist oder der Standardprompt verwendet wird.</target>
         </trans-unit>
         <trans-unit id="Page 2953603596 - Action 3641082472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens the rich text editor for the instruction on the selected custom prompt.</source>
-          <target>Öffnet den Rich-Text-Editor für die Anweisungen im ausgewählten benutzerdefinierten Prompt.</target>
+          <target>Öffnet den Rich-Text-Editor, um die Anweisungen des ausgewählten benutzerdefinierten Prompts zu bearbeiten.</target>
         </trans-unit>
         <trans-unit id="Page 2953603596 - Action 3641082472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Edit Instruction</source>
@@ -380,20 +380,20 @@
           <target>Gibt eine kurze Beschreibung des benutzerdefinierten Prompts an.</target>
         </trans-unit>
         <trans-unit id="Page 4016206123 - Control 2891538263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether this custom prompt is active for the selected agent capability.</source>
-          <target>Gibt an, ob dieser benutzerdefinierte Prompt für die ausgewählte Agentenfunktion aktiv ist.</target>
+          <source>Specifies whether this custom prompt is active for the selected agent capability or use the factory default prompt.</source>
+          <target>Gibt an, ob der benutzerdefinierte Prompt für die ausgewählte Agentenfunktion aktiviert ist oder der Standardprompt verwendet wird.</target>
         </trans-unit>
         <trans-unit id="Page 4016206123 - Control 2502422232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Instructions</source>
           <target>Anweisungen</target>
         </trans-unit>
         <trans-unit id="Page 4016206123 - Action 3827680623 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Initializes this custom prompt with the default instructions for the selected capability.</source>
-          <target>Initialisiert diesen benutzerdefinierten Prompt mit den Standardanweisungen für die ausgewählte Agentenfunktion.</target>
+          <source>Restore the factory default prompt for the selected capability, discarding any custom changes.</source>
+          <target>Stellt den Standardprompt für die ausgewählte Agentenfunktion wieder her und verwirft alle benutzerdefinierten Änderungen.</target>
         </trans-unit>
         <trans-unit id="Page 4016206123 - Action 3827680623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Initialize from Default</source>
-          <target>Mit Standard initialisieren</target>
+          <source>Restore factory prompt</source>
+          <target>Standardprompt wiederherstellen</target>
         </trans-unit>
         <trans-unit id="Page 2849683442 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Instructions</source>
@@ -409,7 +409,7 @@
         </trans-unit>
         <trans-unit id="Page 2849683442 - NamedType 2045811059" translate="yes" size-unit="char" xml:space="preserve">
           <source>Describe what the agent should do, define its tone, and outline any rules and guidelines it must follow</source>
-          <target>Beschreiben Sie, was der Agent tun soll, legen Sie seinen Ton fest und skizzieren Sie alle Regeln und Richtlinien, die er befolgen muss</target>
+          <target>Beschreiben Sie, was der Agent tun soll, legen Sie seinen Ton fest und geben Sie alle Regeln und Richtlinien an, die er befolgen muss</target>
         </trans-unit>
         <trans-unit id="Page 2849683442 - Action 1146935553 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Download the current instructions to a text file.</source>
@@ -420,12 +420,12 @@
           <target>Anweisungen herunterladen</target>
         </trans-unit>
         <trans-unit id="Page 2849683442 - Action 721064699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Save the current instructions as a new named version.</source>
-          <target>Speichert die aktuellen Anweisungen als neue benannte Version.</target>
+          <source>Save the current instructions as a new version.</source>
+          <target>Speichert die aktuellen Anweisungen als neue Version.</target>
         </trans-unit>
         <trans-unit id="Page 2849683442 - Action 721064699 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Save to history</source>
-          <target>Im Verlauf speichern</target>
+          <source>Save</source>
+          <target>Speichern</target>
         </trans-unit>
         <trans-unit id="Page 2849683442 - Action 3683400689 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the history of instruction changes and restore an earlier version if needed.</source>
@@ -484,8 +484,8 @@
           <target>Als Version speichern</target>
         </trans-unit>
         <trans-unit id="Page 2019171580 - NamedType 2659451301" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Instructions are automatically saved to history when relevant changes are detected. You can still use manual saving to create named versions as needed.</source>
-          <target>Anweisungen werden bei relevanten Änderungen automatisch im Verlauf gespeichert. Sie können bei Bedarf weiterhin die manuelle Speicherung verwenden, um benannte Versionen zu erstellen.</target>
+          <source>Save the current instructions as a new named version in the history.</source>
+          <target>Speichert die aktuellen Anweisungen im Verlauf als neue benannte Version.</target>
         </trans-unit>
         <trans-unit id="Page 2019171580 - NamedType 3634395324" translate="yes" size-unit="char" xml:space="preserve">
           <source>Save instructions to history</source>
@@ -569,11 +569,31 @@
         </trans-unit>
         <trans-unit id="Page 4016206123 - Method 716454850 - NamedType 927145870" translate="yes" size-unit="char" xml:space="preserve">
           <source>You are not permitted to view or edit custom prompts.</source>
-          <target>Du darfst keine benutzerdefinierten Prompts ansehen oder bearbeiten.</target>
+          <target>Sie sind nicht berechtigt, benutzerdefinierte Prompts anzuzeigen oder zu bearbeiten.</target>
         </trans-unit>
         <trans-unit id="Page 1042415960 - Method 716454850 - NamedType 927145870" translate="yes" size-unit="char" xml:space="preserve">
           <source>You are not permitted to view or edit custom prompts.</source>
-          <target>Du darfst keine benutzerdefinierten Prompts ansehen oder bearbeiten.</target>
+          <target>Sie sind nicht berechtigt, benutzerdefinierte Prompts anzuzeigen oder zu bearbeiten.</target>
+        </trans-unit>
+        <trans-unit id="Page 1042415960 - NamedType 1752520879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete this version from the history?</source>
+          <target>Möchten Sie diese Version wirklich aus dem Verlauf löschen?</target>
+        </trans-unit>
+        <trans-unit id="Page 1042415960 - NamedType 2193481176" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot delete the current instructions version.</source>
+          <target>Die aktuelle Version der Anweisungen kann nicht gelöscht werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1042415960 - Action 1046264293 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target>Löschen</target>
+        </trans-unit>
+        <trans-unit id="Page 1042415960 - Action 1046264293 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete this version from the history.</source>
+          <target>Löscht diese Version aus dem Verlauf.</target>
+        </trans-unit>
+        <trans-unit id="Page 2849683442 - NamedType 293712135" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ORIGINAL PROMPT</source>
+          <target>URSPRÜNGLICHER PROMPT</target>
         </trans-unit>
       </group>
     </body>

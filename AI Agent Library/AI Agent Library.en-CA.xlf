@@ -84,7 +84,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS108 AAL Custom Prompts - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2953603596 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enabled</source>
+          <source>Use custom prompt</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS108 AAL Custom Prompts - Field Enabled - Property Caption</note>
         </trans-unit>
@@ -439,7 +439,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Custom Prompts - Control Description - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2953603596 - Control 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies whether this custom prompt is active for the selected agent capability.</source>
+          <source>Specifies whether this custom prompt is active for the selected agent capability or use the factory default prompt.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Custom Prompts - Control Enabled - Property ToolTip</note>
         </trans-unit>
@@ -479,7 +479,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Editor - Control Description - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4016206123 - Control 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies whether this custom prompt is active for the selected agent capability.</source>
+          <source>Specifies whether this custom prompt is active for the selected agent capability or use the factory default prompt.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Editor - Control Enabled - Property ToolTip</note>
         </trans-unit>
@@ -489,12 +489,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Editor - Control InstructionsPart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4016206123 - Action 3827680623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Initializes this custom prompt with the default instructions for the selected capability.</source>
+          <source>Restore the factory default prompt for the selected capability, discarding any custom changes.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Editor - Action InitializeFromDefault - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4016206123 - Action 3827680623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Initialize from Default</source>
+          <source>Restore factory prompt</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Editor - Action InitializeFromDefault - Property Caption</note>
         </trans-unit>
@@ -507,6 +507,11 @@
           <source>Agent Instructions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Editor Part - NamedType AriaLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2849683442 - NamedType 293712135" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ORIGINAL PROMPT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Editor Part - NamedType DefaultPromptWatermarkLbl</note>
         </trans-unit>
         <trans-unit id="Page 2849683442 - NamedType 2896397463" size-unit="char" translate="yes" xml:space="preserve">
           <source>Instructions cannot be empty.</source>
@@ -529,12 +534,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Editor Part - Action DownloadInstructions - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2849683442 - Action 721064699 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Save the current instructions as a new named version.</source>
+          <source>Save the current instructions as a new version.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Editor Part - Action SaveAsVersion - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2849683442 - Action 721064699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Save to history</source>
+          <source>Save</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Editor Part - Action SaveAsVersion - Property Caption</note>
         </trans-unit>
@@ -552,6 +557,16 @@
           <source>Prompt instructions history</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1042415960 - NamedType 2193481176" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot delete the current instructions version.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Log - NamedType CannotDeleteCurrentErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1042415960 - NamedType 1752520879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete this version from the history?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Log - NamedType DeleteConfirmQst</note>
         </trans-unit>
         <trans-unit id="Page 1042415960 - NamedType 2126104147" size-unit="char" translate="yes" xml:space="preserve">
           <source>The agent capability has not been set.</source>
@@ -598,6 +613,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Log - Action ApplyToAgent - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1042415960 - Action 1046264293 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete this version from the history.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Log - Action DeleteVersion - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1042415960 - Action 1046264293 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Prompt Log - Action DeleteVersion - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1042415960 - Action 3581698855 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Download the selected instructions. Single entries are downloaded as a text file, multiple as a zip archive.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -614,7 +639,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Save Version Dlg - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2019171580 - NamedType 2659451301" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Instructions are automatically saved to history when relevant changes are detected. You can still use manual saving to create named versions as needed.</source>
+          <source>Save the current instructions as a new named version in the history.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS108 AAL Save Version Dlg - NamedType ExplanationTxt</note>
         </trans-unit>
