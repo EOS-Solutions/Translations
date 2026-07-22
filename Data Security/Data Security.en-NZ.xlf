@@ -1298,16 +1298,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Table Status - Field Document Print disabled - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2993563720 - Field 4077608978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document Release disabled</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Table Status - Field Document Release disabled - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2993563720 - Field 1326460928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document Reopen Disabled</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Table Status - Field Document Reopen Disabled - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 2993563720 - Field 3536168541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1437,6 +1427,11 @@
           <source>You cannot activate path if there are "Next Suggested Status" in the current tables status card.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Tables Setup - NamedType gCtxText18006603Err</note>
+        </trans-unit>
+        <trans-unit id="Table 2805917232 - NamedType 308399991" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot disable path if there are "Suggested Next Status by Path" records. Delete them first.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Tables Setup - NamedType gCtxText18006604Err</note>
         </trans-unit>
         <trans-unit id="Table 2805917232 - Field 995090288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date Filter</source>
@@ -1933,6 +1928,61 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Mandatory Table Header - Field To Status - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 856930235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Next Suggested Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Next Sugg. Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856930235 - NamedType 3009578149" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Must be different from the "Status Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Next Sugg. Status - NamedType Txt001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Table 856930235 - NamedType 4019325956" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The suggested next status must be a valid status transaction for the selected status and path.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Next Sugg. Status - NamedType Txt002Lbl</note>
+        </trans-unit>
+        <trans-unit id="Table 856930235 - Method 804474859 - NamedType 703165691" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot rename a %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Next Sugg. Status - Method OnRename - NamedType gCtxText18006600Err</note>
+        </trans-unit>
+        <trans-unit id="Table 856930235 - Field 1497076986 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Path Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Next Sugg. Status - Field Change Path Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856930235 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Next Sugg. Status - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856930235 - Field 3025938226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Suggested Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Next Sugg. Status - Field Next Suggested Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856930235 - Field 2379948459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Next Sugg. Status - Field Status Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856930235 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Next Sugg. Status - Field Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856930235 - Field 3165189583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Next Sugg. Status - Field Table Option Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856930235 - Field 3165189583 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Next Sugg. Status - Field Table Option Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 2923643978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EDS Parent Table Relation</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2383,205 +2433,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Field Replace - Field To Status - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1486151721 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DS Status Table Mandatory</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 1497076986 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Change Path Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Change Path Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 696389717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Condition</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Condition - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 807169827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Father Field Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Father Field Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 3601038339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Father Field No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Father Field No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 3090661100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Filter</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Filter - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 3304877602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Formula</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Formula - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 3304877602 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source> ,equal,major,major or equal,minor,minor or equal,not equal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Formula - Property OptionCaption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 1682702926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>From Status</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field From Status - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 3461589025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No of Preconditions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field No of Preconditions - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 3951756669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table Field Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Table Field Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 2730166909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table Field No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Table Field No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table ID</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Table ID - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 3808951907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Table Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 3017471043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Table No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 4274887077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table Occurence</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Table Occurence - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 3165189583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table Option Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Table Option Type - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 3165189583 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Table Option Type - Property OptionCaption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 2846557100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Text Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Text Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 1350352618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Text Comment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field Text Comment - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1486151721 - Field 1334313545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>To Status</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Mandatory - Field To Status - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>EDS Table preconditions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 3404459563 - NamedType 703165691" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot rename a %1.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - NamedType gCtxText18006600Err</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 1497076986 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Change Path Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Change Path Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 696389717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Condition</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Condition - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 807169827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Father Field Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Father Field Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 3601038339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Father Field No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Father Field No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 3090661100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Filter</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Filter - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 3304877602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Formula</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Formula - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 3304877602 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source> ,equal,major,major or equal,minor,minor or equal,not equal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Formula - Property OptionCaption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 1682702926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>From Status</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field From Status - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 3951756669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table Field Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Table Field Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 2730166909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table Field No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Table Field No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table ID</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Table ID - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 3808951907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Table Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 3017471043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Table No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 4274887077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table Occurence</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Table Occurence - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 3165189583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table Option Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Table Option Type - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 3165189583 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field Table Option Type - Property OptionCaption</note>
-        </trans-unit>
-        <trans-unit id="Table 3404459563 - Field 1334313545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>To Status</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Table Precond - Field To Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2318338788 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Status Table Requirement</source>
@@ -3243,11 +3098,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Management - Method LookupFieldValue - NamedType ConfirmLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 842517887 - Method 3166811509 - NamedType 2579892417" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You cannot move to the next suggested state if you are within a path.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Management - Method NextStatus - NamedType TxtPathLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 842517887 - Method 3166811509 - NamedType 610011759" size-unit="char" translate="yes" xml:space="preserve">
           <source>You do not have permission to make this status transaction.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3307,21 +3157,6 @@
           <source>There are not Status Transaction for EDS %1.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Management - Method TestDSStatusTransaction - NamedType lCtxText18006602Err</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 842517887 - Method 4123031304 - NamedType 1455215975" size-unit="char" translate="yes" xml:space="preserve">
-          <source>To change EDS Status from %1 to %2 no record must be found for the table %3</source>
-          <note from="Developer" annotates="general" priority="2">%1 : From Status, %2 : To Status, %3 : Table Name</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Management - Method TestDSTables - NamedType EmptyRecordFilterErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 842517887 - Method 4123031304 - NamedType 1030298708" size-unit="char" translate="yes" xml:space="preserve">
-          <source>To change EDS Status from %1 to %2 a valid record is required for the table %3</source>
-          <note from="Developer" annotates="general" priority="2">%1 : From Status, %2 : To Status, %3 : Table Name</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Management - Method TestDSTables - NamedType NotEmptyRecordFilterErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 842517887 - Method 4123031304 - NamedType 2648863469" size-unit="char" translate="yes" xml:space="preserve">
-          <source>To change EDS Status from %1 to %2 a valid record is required for the table %3 with the condition %4 %5 %6</source>
-          <note from="Developer" annotates="general" priority="2">%1 : From Status, %2 : To Status, %3 : Table Name, %4 : Table Field Value, %5 : Formula, %6 : Father Field Value</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Management - Method TestDSTables - NamedType FatherFieldFilterErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 842517887 - Method 1277768845 - NamedType 3209977901" size-unit="char" translate="yes" xml:space="preserve">
           <source>A %1 is required for EDS %2.</source>
@@ -3512,6 +3347,21 @@
           <source>Record is in the last status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Api Mgt. Impl. - Method ChangeStatus - NamedType Err3</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 675997835 - NamedType 2975486440" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record not found</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Api Mgt. Impl. - Method ChangeStatusWithDateTime - NamedType Err1</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 675997835 - NamedType 3613183057" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security is not enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Api Mgt. Impl. - Method ChangeStatusWithDateTime - NamedType Err2</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 675997835 - NamedType 4250879674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record is in the last status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Api Mgt. Impl. - Method ChangeStatusWithDateTime - NamedType Err3</note>
         </trans-unit>
         <trans-unit id="Page 3892983424 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EDS Change Status</source>
@@ -5273,6 +5123,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Table Status List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2416094138 - NamedType 1118502115" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No status transitions are defined for this status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Table Status List - NamedType NoTransitionsAvailableErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2416094138 - Method 3245603402 - NamedType 4130423798" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Multiple..</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Table Status List - Method OnAfterGetRecord - NamedType StyleExprLbl</note>
+        </trans-unit>
         <trans-unit id="Page 2416094138 - Control 2483325552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Assign Enabled" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5313,6 +5173,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Table Status List - Control Next Suggested Status - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2416094138 - Control 3025938226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Suggested Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Table Status List - Control Next Suggested Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2416094138 - Control 3025938226 - Method 2699620902 - NamedType 918378481" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Multiple..</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Table Status List - Control Next Suggested Status - Method OnAssistEdit - NamedType TextLbl</note>
+        </trans-unit>
         <trans-unit id="Page 2416094138 - Control 471678279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Deletion disabled" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5327,16 +5197,6 @@
           <source>Specifies the value of the "Document Print disabled" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Table Status List - Control Not Allow Document Print - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2416094138 - Control 1722049654 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Document Release disabled" field</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Table Status List - Control Not Allow Document Release - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2416094138 - Control 2097220388 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Document Reopen Disabled" field</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Table Status List - Control Not Allow Document Reopen - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2416094138 - Control 3562292784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Changes disabled" field</source>
@@ -6683,60 +6543,55 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Header - Control To Status - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2766677331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Lines</source>
+        <trans-unit id="Page 3076365605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Next Suggested Status by Path</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Subform - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Next Sugg. Status List - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2766677331 - Control 696389717 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Condition field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Subform - Control Condition - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2766677331 - Control 1735995239 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Father Field Name field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Subform - Control Father Field Value - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2766677331 - Control 1735995239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Father Field Value</source>
+        <trans-unit id="Page 3076365605 - NamedType 1118502115" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No status transitions are defined for this status and path.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Subform - Control Father Field Value - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Next Sugg. Status List - NamedType NoTransitionsAvailableErr</note>
         </trans-unit>
-        <trans-unit id="Page 2766677331 - Control 3090661100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Filter field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Subform - Control Filter - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2766677331 - Control 3304877602 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Formula field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Subform - Control Formula - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2766677331 - Control 3461589025 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the No of Preconditions field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Subform - Control No of Preconditions - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2766677331 - Control 3951756669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table Field Name field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Subform - Control Table Field Name - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2766677331 - Control 3808951907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the caption of the field on which the data template is based. The caption comes from the Caption property of the field.</source>
+        <trans-unit id="Page 3076365605 - NamedType 229274919" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select a Path Code first.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Subform - Control Table Name - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Next Sugg. Status List - NamedType TxtSelPathLbl</note>
         </trans-unit>
-        <trans-unit id="Page 2766677331 - Control 2846557100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Text Code field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Subform - Control Text Code - Property ToolTip</note>
+        <trans-unit id="Page 3076365605 - Control 1497076986 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Path Code" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Next Sugg. Status List - Control Change Path Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2766677331 - Control 1350352618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Text Comment field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Mandatory Table Subform - Control Text Comment - Property ToolTip</note>
+        <trans-unit id="Page 3076365605 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Description" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Next Sugg. Status List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3076365605 - Control 3025938226 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Next Suggested Status" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Next Sugg. Status List - Control Next Suggested Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3076365605 - Control 3025938226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Suggested Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Next Sugg. Status List - Control Next Suggested Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3076365605 - Control 2379948459 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Status Code" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Next Sugg. Status List - Control Status Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3076365605 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Table ID" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Next Sugg. Status List - Control Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3076365605 - Control 3165189583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Document Type" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Next Sugg. Status List - Control Table Option Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1619634935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EDS Parent Table Relations</source>
@@ -7523,81 +7378,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Log Factbox - Action Next Status - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1486151721 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DS Status Table Mandatory</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 696389717 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Condition field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control Condition - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 807169827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Father Field Name field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control Father Field Name - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 3090661100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Filter field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control Filter - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 3304877602 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Formula field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control Formula - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 1682702926 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the From Status field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control From Status - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 3461589025 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the No of Preconditions field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control No of Preconditions - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 3951756669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table Field Name field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control Table Field Name - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table ID field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control Table ID - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 3808951907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table Name field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control Table Name - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 3017471043 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table No. field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control Table No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 3165189583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table Option Type field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control Table Option Type - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 2846557100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Text Code field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control Text Code - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 1350352618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Text Comment field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control Text Comment - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1486151721 - Control 1334313545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the To Status field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Table Mandatory - Control To Status - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 2629833125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7867,71 +7647,6 @@
           <source>Table Option Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Change Path Api - Control tableOptionType - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DS Table Preconditions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 696389717 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Condition field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control Condition - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 807169827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Father Field Name field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control Father Field Name - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 3090661100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Filter field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control Filter - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 3304877602 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Formula field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control Formula - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 1682702926 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the From Status field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control From Status - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 3951756669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table Field Name field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control Table Field Name - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table ID field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control Table ID - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 3808951907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table Name field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control Table Name - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 3017471043 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table No. field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control Table No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 4274887077 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table Occurence field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control Table Occurence - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 3165189583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Table Option Type field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control Table Option Type - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1150370733 - Control 1334313545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the To Status field.</source>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Preconditions - Control To Status - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1780606164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>eos003TableStatusApi</source>
@@ -9017,11 +8732,6 @@
           <source>EOS Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS003 User Permission Type - EnumValue EOS Group - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 2921729860 - EnumValue 739346273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Group</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS003 User Permission Type - EnumValue Group - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2921729860 - EnumValue 3338462467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Permission Set</source>
