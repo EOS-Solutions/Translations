@@ -31,6 +31,30 @@
           <source>This operation cannot be executed because the app %1 by %2 is currently locked on this environment</source>
           <target>Dieser Vorgang kann nicht ausgeführt werden, da die App %1 von %2 derzeit in dieser Umgebung gesperrt ist</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3154161482 - Method 1128006672 - NamedType 2370979344" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Your subscription for %1 has expired on %2.</source>
+          <target>Ihr Abonnement für %1 ist am %2 abgelaufen.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3154161482 - Method 2893388455 - NamedType 2873711450" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Your %1 for %2 is expiring on %3.</source>
+          <target>Ihr Abonnement für %1 läuft am %2 ab.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3154161482 - Method 2893388455 - NamedType 3466060723" translate="yes" size-unit="char" xml:space="preserve">
+          <source>trial subscription</source>
+          <target>Test-Abonnement</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3154161482 - Method 2893388455 - NamedType 50779701" translate="yes" size-unit="char" xml:space="preserve">
+          <source>subscription</source>
+          <target>Abonnement</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3154161482 - Method 908438611 - NamedType 828711478" translate="yes" size-unit="char" xml:space="preserve">
+          <source>An active subscription for %1 is required.</source>
+          <target>Ein aktives Abonnement für %1 ist erforderlich.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3154161482 - NamedType 3426205567" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Subscription</source>
+          <target>Abonnement prüfen</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3177185736 - Method 507077789 - NamedType 2186308552" translate="yes" size-unit="char" xml:space="preserve">
           <source>A HTTP request has failed with status HTTP%1</source>
           <target>Eine HTTP-Anforderung ist mit dem Status HTTP%1 fehlgeschlagen</target>
@@ -58,6 +82,14 @@
         <trans-unit id="Codeunit 394152521 - Method 3670478194 - NamedType 2706800192" translate="yes" size-unit="char" xml:space="preserve">
           <source>You need to call the initialize method first</source>
           <target>Sie müssen zuerst die initialize-Methode aufrufen</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 394152521 - Method 428629947 - NamedType 1051838648" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Client certificate authentication is not loaded.</source>
+          <target>Die Authentifizierung des Client-Zertifikats wird nicht geladen.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 394152521 - Method 507077789 - NamedType 2186308552" translate="yes" size-unit="char" xml:space="preserve">
+          <source>A HTTP request has failed with status HTTP%1</source>
+          <target>Eine HTTP-Anforderung ist mit dem Status HTTP%1 fehlgeschlagen</target>
         </trans-unit>
         <trans-unit id="Codeunit 421553356 - Method 1024226327 - NamedType 1915816412" translate="yes" size-unit="char" xml:space="preserve">
           <source>The column '%1' does not exist in the dataset.</source>
@@ -102,10 +134,6 @@
         <trans-unit id="Enum 163060654 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Environment Key Calculation Type</source>
           <target>Berechnungsart Environment Key</target>
-        </trans-unit>
-        <trans-unit id="Enum 1977147216 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source> </source>
-          <target> </target>
         </trans-unit>
         <trans-unit id="Enum 1977147216 - EnumValue 1523944866 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Azure FileStorage</source>
@@ -535,9 +563,37 @@
           <source>Process</source>
           <target>Verarbeitung</target>
         </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 1256520770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the App Id field.</source>
+          <target>Gibt den Wert des Feldes "App-ID" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 1256520770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Name</source>
+          <target>App-Name</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 1764047810 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Environment Key Calculation Type field.</source>
+          <target>Gibt den Wert des Feldes "Environment Key-Berechnungstyp" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 1873086231 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Status" field.</source>
+          <target>Gibt den Wert des Feldes "Status" an.</target>
+        </trans-unit>
         <trans-unit id="Page 1999515531 - Control 1873086231 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
           <target>Status</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 3834798520 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the App Id field.</source>
+          <target>Gibt den Wert des Feldes "App-ID" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 506530350 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Environment Key field.</source>
+          <target>Gibt den Wert des Feldes "Environment Key" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1999515531 - Control 919027472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Environment Key Check field.</source>
+          <target>Gibt den Wert des Feldes "Environment Key-Kontrolle" an.</target>
         </trans-unit>
         <trans-unit id="Page 1999515531 - Method 2005570468 - NamedType 2740281649" translate="yes" size-unit="char" xml:space="preserve">
           <source>AppID %1 (not installed)</source>
@@ -570,6 +626,34 @@
         <trans-unit id="Page 2023673088 - Action 1786049364 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Load</source>
           <target>Laden</target>
+        </trans-unit>
+        <trans-unit id="Page 2048444633 - Action 2015509123 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create a new record.</source>
+          <target>Erstellt einen neuen Datensatz.</target>
+        </trans-unit>
+        <trans-unit id="Page 2048444633 - Action 2015509123 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New</source>
+          <target>Neu</target>
+        </trans-unit>
+        <trans-unit id="Page 2048444633 - Control 1683930818 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates for which app logging is enabled.</source>
+          <target>Gibt an, für welche App das Log aktiviert ist.</target>
+        </trans-unit>
+        <trans-unit id="Page 2048444633 - Control 1683930818 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Name</source>
+          <target>App-Name</target>
+        </trans-unit>
+        <trans-unit id="Page 2048444633 - Control 2994142618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates for which user logging is enabled.</source>
+          <target>Gibt an, für welchen Benutzer das Log aktiviert ist.</target>
+        </trans-unit>
+        <trans-unit id="Page 2048444633 - Control 2994142618 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Username</source>
+          <target>Username</target>
+        </trans-unit>
+        <trans-unit id="Page 2048444633 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Log Setup (EAL)</source>
+          <target>Einrichtung des App-Log (EAL)</target>
         </trans-unit>
         <trans-unit id="Page 2158407593 - Action 3402696108 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens one of the supported analysis pages.</source>
@@ -790,6 +874,10 @@
         <trans-unit id="Page 2544974970 - Action 1786049364 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Load</source>
           <target>Laden</target>
+        </trans-unit>
+        <trans-unit id="Page 2573991182 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Log Entries (EAL)</source>
+          <target>App-Log Einträge (EAL)</target>
         </trans-unit>
         <trans-unit id="Page 2722091032 - Control 1005319609 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Platform Product Vers." field.</source>
@@ -1206,6 +1294,14 @@
         <trans-unit id="Page 2957385406 - Method 2762510287 - NamedType 1661310742" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want enable this feature? This cannot be undone!\Feature Description: %1</source>
           <target>Möchten Sie diese Funktion aktivieren? Dies kann nicht rückgängig gemacht werden!\Funktionsbeschreibung: %1</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Method 716454850 - NamedType 2336761563" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This page is obsolete. Use page "Feature Flags (EAL)" instead.</source>
+          <target>Diese Seite ist veraltet. Verwenden Sie stattdessen die Seite "Feature Flags (EAL)".</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Method 716454850 - NamedType 2821169536" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open page</source>
+          <target>Seite öffnen</target>
         </trans-unit>
         <trans-unit id="Page 2957385406 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Feature Management (EAL)</source>
@@ -1811,6 +1907,10 @@
           <source>Text Editor</source>
           <target>Text-Editor</target>
         </trans-unit>
+        <trans-unit id="Page 589632018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Log Categories</source>
+          <target>App-Log Kategorien</target>
+        </trans-unit>
         <trans-unit id="Page 634544562 - Action 1207395983 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enables the feature.</source>
           <target>Aktiviert das Feature.</target>
@@ -2062,6 +2162,58 @@
         <trans-unit id="Page 993208671 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reorder Rows</source>
           <target>Zeilen neu anordnen</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 1717711186 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the category of logging to enable.</source>
+          <target>Gibt die Kategorie der zu aktivierenden Logs an.</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 1717711186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Category</source>
+          <target>Kategorie</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 1944107012 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the specific user for which to enable logging.</source>
+          <target>Gibt den spezifischen Benutzer an, für den das Log aktiviert werden soll.</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 1944107012 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Username</source>
+          <target>Username</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 2174523888 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the name of the app.</source>
+          <target>Gibt den Namen der App an.</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 2174523888 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Name</source>
+          <target>App-Name</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 2291985846 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the type of users for which to enable logging.</source>
+          <target>Gibt den Benutzertyp an, für den das Log aktiviert werden soll.</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 2291985846 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enabled For</source>
+          <target>Aktiviert für</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 2291985846 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All Users,Current User,Specific User</source>
+          <target>Alle Benutzer,Aktueller Benutzer,Spezifischer Benutzer</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Optionen</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 2940115802 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the app for which to enable logging.</source>
+          <target>Gibt an, für welche App das Log aktiviert werden soll.</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Control 2940115802 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Id</source>
+          <target>App-Id</target>
+        </trans-unit>
+        <trans-unit id="Report 1884483837 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create App Log Setup Line</source>
+          <target>App-Log Einrichtungszeile erstellen</target>
         </trans-unit>
         <trans-unit id="Report 2102602221 - NamedType 1520714995" translate="yes" size-unit="char" xml:space="preserve">
           <source>of</source>
@@ -2475,6 +2627,18 @@
           <source>BlobSpec</source>
           <target>BlobSpec</target>
         </trans-unit>
+        <trans-unit id="Table 2468765639 - Field 2674855550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Help URL</source>
+          <target>Help URL</target>
+        </trans-unit>
+        <trans-unit id="Table 2468765639 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 2468765639 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
         <trans-unit id="Table 2468765639 - Field 378058222 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If specified, indicates the major BC version in which the feature will become mandatory.</source>
           <target>Falls angegeben, gibt die BC-Majorversion an, in der die Funktion obligatorisch wird.</target>
@@ -2603,6 +2767,54 @@
           <source>Feature Management</source>
           <target>Featureverwaltung</target>
         </trans-unit>
+        <trans-unit id="Table 318918576 - Field 1337447827 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Id of the event that created the log entry</source>
+          <target>ID des Ereignisses, das den Logeintrag erstellt hat</target>
+        </trans-unit>
+        <trans-unit id="Table 318918576 - Field 1973165213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Verbosity of the log entry</source>
+          <target>Verbosity des Logeintrags</target>
+        </trans-unit>
+        <trans-unit id="Table 318918576 - Field 1985373372 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Custom dimensions of the log entry</source>
+          <target>Benutzerdefinierte Dimensionen des Logeintrags</target>
+        </trans-unit>
+        <trans-unit id="Table 318918576 - Field 2728589042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Data classification of the log entry</source>
+          <target>Datenklassifizierung des Logeintrags</target>
+        </trans-unit>
+        <trans-unit id="Table 318918576 - Field 3080618677 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Message of the log entry</source>
+          <target>Meldung des Logeintrags</target>
+        </trans-unit>
+        <trans-unit id="Table 318918576 - Field 3301321002 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Date and time of the log entry</source>
+          <target>Datum und Uhrzeit des Logeintrags</target>
+        </trans-unit>
+        <trans-unit id="Table 318918576 - Field 3702373668 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Category of the log entry</source>
+          <target>Kategorie des Logeintrags</target>
+        </trans-unit>
+        <trans-unit id="Table 318918576 - Field 3834798520 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Id of the app that created the log entry</source>
+          <target>ID der App, die den Logeintrag erstellt hat</target>
+        </trans-unit>
+        <trans-unit id="Table 318918576 - Field 593885934 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scope of the log entry</source>
+          <target>Scope des Logeintrags</target>
+        </trans-unit>
+        <trans-unit id="Table 318918576 - Field 680469965 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>A key to identify a single Log entry</source>
+          <target>Ein Schlüssel zur Identifizierung eines einzelnen Log Eimtrags</target>
+        </trans-unit>
+        <trans-unit id="Table 318918576 - Field 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No. of the log entry</source>
+          <target>Lfd.-Nr. des Logeintrags</target>
+        </trans-unit>
+        <trans-unit id="Table 318918576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Log Entry</source>
+          <target>App-Log Eintrag</target>
+        </trans-unit>
         <trans-unit id="Table 3345420505 - Field 1558222909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Worksheet Code</source>
           <target>Arbeitsblattcode</target>
@@ -2670,6 +2882,18 @@
         <trans-unit id="Table 3988593012 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry No.</source>
           <target>Lfd.-Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 4104331228 - Field 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The name of the log category</source>
+          <target>Der Name des Logeintrags</target>
+        </trans-unit>
+        <trans-unit id="Table 4104331228 - Field 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The description of the log category</source>
+          <target>Die Beschreibung der Logeintrags</target>
+        </trans-unit>
+        <trans-unit id="Table 4104331228 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>App Log Category</source>
+          <target>Kategorie "App-Protokoll"</target>
         </trans-unit>
         <trans-unit id="Table 45402030 - Field 1558222909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Worksheet Code</source>
@@ -2875,6 +3099,14 @@
           <source>Source ID</source>
           <target>Herkunfts-ID</target>
         </trans-unit>
+        <trans-unit id="Table 708083516 - Field 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The description of the record.</source>
+          <target>Die Beschreibung des Datensatzes.</target>
+        </trans-unit>
+        <trans-unit id="Table 708083516 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
         <trans-unit id="Table 708083516 - Field 370558406 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Prod. Order Line</source>
           <target>Herkunfts-FA-Zeile</target>
@@ -2910,6 +3142,38 @@
         <trans-unit id="Table 71430791 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry No.</source>
           <target>Lfd.-Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 911414851 - Field 2891538263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates whether logging is enabled.</source>
+          <target>Gibt an, ob das Log aktiv ist.</target>
+        </trans-unit>
+        <trans-unit id="Table 911414851 - Field 3219449557 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the date and time from which logging is enabled.</source>
+          <target>Gibt das Datum und die Uhrzeit an, ab der das Log aktiv ist.</target>
+        </trans-unit>
+        <trans-unit id="Table 911414851 - Field 3702373668 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the app-specific category.</source>
+          <target>Gibt die App-spezifische Kategorie an.</target>
+        </trans-unit>
+        <trans-unit id="Table 911414851 - Field 3816413274 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the date and time to which logging is enabled.</source>
+          <target>Gibt das Datum und die Uhrzeit an, bis zu der das Log aktiv ist.</target>
+        </trans-unit>
+        <trans-unit id="Table 911414851 - Field 3834798520 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the app for which logging is enabled.</source>
+          <target>Gibt an, für welche App das Log aktiviert ist.</target>
+        </trans-unit>
+        <trans-unit id="Table 911414851 - Field 4092671168 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the service configuration for the logger tracing.</source>
+          <target>Gibt die Dienstkonfiguration für das Log an.</target>
+        </trans-unit>
+        <trans-unit id="Table 911414851 - Field 680469965 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates a unique key you can use to identify this specific log.</source>
+          <target>Gibt einen eindeutigen Schlüssel an, den Sie zur Identifizierung dieses spezifischen Logeintrags verwenden können.</target>
+        </trans-unit>
+        <trans-unit id="Table 911414851 - Field 800885104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the logger where logs are being written to.</source>
+          <target>Gibt den Logger an, in welchen das Log geschrieben wird.</target>
         </trans-unit>
         <trans-unit id="Table 944389386 - Field 1558222909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Worksheet Code</source>
@@ -2979,253 +3243,17 @@
           <source>The record must be temporary.</source>
           <target>Der Datensatz muss temporär sein.</target>
         </trans-unit>
-        <trans-unit id="Page 1999515531 - Control 3834798520 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the App Id field.</source>
-          <target>Gibt den Wert des Feldes "App-ID" an.</target>
+        <trans-unit id="Table 2468765639 - Field 125974321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reversible</source>
+          <target>Umkehrbar</target>
         </trans-unit>
-        <trans-unit id="Page 1999515531 - Control 1256520770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>App Name</source>
-          <target>App-Name</target>
+        <trans-unit id="Table 2468765639 - Field 1585293996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Per Company</source>
+          <target>Pro Mandant</target>
         </trans-unit>
-        <trans-unit id="Page 1999515531 - Control 1256520770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the App Id field.</source>
-          <target>Gibt den Wert des Feldes "App-ID" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 1999515531 - Control 1873086231 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Status" field.</source>
-          <target>Gibt den Wert des Feldes "Status" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 1999515531 - Control 506530350 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Environment Key field.</source>
-          <target>Gibt den Wert des Feldes "Environment Key" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 1999515531 - Control 919027472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Environment Key Check field.</source>
-          <target>Gibt den Wert des Feldes "Environment Key-Kontrolle" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 1999515531 - Control 1764047810 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Environment Key Calculation Type field.</source>
-          <target>Gibt den Wert des Feldes "Environment Key-Berechnungstyp" an.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3154161482 - NamedType 3426205567" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Check Subscription</source>
-          <target>Abonnement prüfen</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3154161482 - Method 1128006672 - NamedType 2370979344" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Your subscription for %1 has expired on %2.</source>
-          <target>Ihr Abonnement für %1 ist am %2 abgelaufen.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3154161482 - Method 2893388455 - NamedType 2873711450" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Your %1 for %2 is expiring on %3.</source>
-          <target>Ihr Abonnement für %1 läuft am %2 ab.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3154161482 - Method 908438611 - NamedType 828711478" translate="yes" size-unit="char" xml:space="preserve">
-          <source>An active subscription for %1 is required.</source>
-          <target>Ein aktives Abonnement für %1 ist erforderlich.</target>
-        </trans-unit>
-        <trans-unit id="Page 2048444633 - Control 1683930818 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>App Name</source>
-          <target>App-Name</target>
-        </trans-unit>
-        <trans-unit id="Page 2048444633 - Control 2994142618 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Username</source>
-          <target>Username</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Options</source>
-          <target>Optionen</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 2940115802 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>App Id</source>
-          <target>App-Id</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 2174523888 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>App Name</source>
-          <target>App-Name</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 1944107012 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Username</source>
-          <target>Username</target>
-        </trans-unit>
-        <trans-unit id="Page 589632018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>App Log Categories</source>
-          <target>App-Log Kategorien</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Field 680469965 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>A key to identify a single Log entry</source>
-          <target>Ein Schlüssel zur Identifizierung eines einzelnen Log Eimtrags</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>App Log Entry</source>
-          <target>App-Log Eintrag</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Field 3702373668 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Category of the log entry</source>
-          <target>Kategorie des Logeintrags</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 2291985846 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>All Users,Current User,Specific User</source>
-          <target>Alle Benutzer,Aktueller Benutzer,Spezifischer Benutzer</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Create App Log Setup Line</source>
-          <target>App-Log Einrichtungszeile erstellen</target>
-        </trans-unit>
-        <trans-unit id="Page 2048444633 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>App Log Setup (EAL)</source>
-          <target>Einrichtung des App-Log (EAL)</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 1717711186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Category</source>
-          <target>Kategorie</target>
-        </trans-unit>
-        <trans-unit id="Table 4104331228 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>App Log Category</source>
-          <target>Kategorie "App-Protokoll"</target>
-        </trans-unit>
-        <trans-unit id="Page 2573991182 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>App Log Entries (EAL)</source>
-          <target>App-Log Einträge (EAL)</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Field 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry No. of the log entry</source>
-          <target>Lfd.-Nr. des Logeintrags</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Field 1337447827 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Id of the event that created the log entry</source>
-          <target>ID des Ereignisses, das den Logeintrag erstellt hat</target>
-        </trans-unit>
-        <trans-unit id="Page 2048444633 - Action 2015509123 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Create a new record.</source>
-          <target>Erstellt einen neuen Datensatz.</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 2291985846 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enabled For</source>
-          <target>Aktiviert für</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Field 3301321002 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Date and time of the log entry</source>
-          <target>Datum und Uhrzeit des Logeintrags</target>
-        </trans-unit>
-        <trans-unit id="Table 911414851 - Field 680469965 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates a unique key you can use to identify this specific log.</source>
-          <target>Gibt einen eindeutigen Schlüssel an, den Sie zur Identifizierung dieses spezifischen Logeintrags verwenden können.</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Field 3834798520 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Id of the app that created the log entry</source>
-          <target>ID der App, die den Logeintrag erstellt hat</target>
-        </trans-unit>
-        <trans-unit id="Page 2048444633 - Control 1683930818 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates for which app logging is enabled.</source>
-          <target>Gibt an, für welche App das Log aktiviert ist.</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Field 2728589042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Data classification of the log entry</source>
-          <target>Datenklassifizierung des Logeintrags</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Field 1985373372 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Custom dimensions of the log entry</source>
-          <target>Benutzerdefinierte Dimensionen des Logeintrags</target>
-        </trans-unit>
-        <trans-unit id="Table 911414851 - Field 4092671168 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates the service configuration for the logger tracing.</source>
-          <target>Gibt die Dienstkonfiguration für das Log an.</target>
-        </trans-unit>
-        <trans-unit id="Table 911414851 - Field 3219449557 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates the date and time from which logging is enabled.</source>
-          <target>Gibt das Datum und die Uhrzeit an, ab der das Log aktiv ist.</target>
-        </trans-unit>
-        <trans-unit id="Table 911414851 - Field 3702373668 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates the app-specific category.</source>
-          <target>Gibt die App-spezifische Kategorie an.</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 2940115802 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates the app for which to enable logging.</source>
-          <target>Gibt an, für welche App das Log aktiviert werden soll.</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 1717711186 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates the category of logging to enable.</source>
-          <target>Gibt die Kategorie der zu aktivierenden Logs an.</target>
-        </trans-unit>
-        <trans-unit id="Table 911414851 - Field 3834798520 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates the app for which logging is enabled.</source>
-          <target>Gibt an, für welche App das Log aktiviert ist.</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 2174523888 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates the name of the app.</source>
-          <target>Gibt den Namen der App an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2048444633 - Control 2994142618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates for which user logging is enabled.</source>
-          <target>Gibt an, für welchen Benutzer das Log aktiviert ist.</target>
-        </trans-unit>
-        <trans-unit id="Table 911414851 - Field 3816413274 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates the date and time to which logging is enabled.</source>
-          <target>Gibt das Datum und die Uhrzeit an, bis zu der das Log aktiv ist.</target>
-        </trans-unit>
-        <trans-unit id="Table 911414851 - Field 800885104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates the logger where logs are being written to.</source>
-          <target>Gibt den Logger an, in welchen das Log geschrieben wird.</target>
-        </trans-unit>
-        <trans-unit id="Page 2048444633 - Action 2015509123 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>New</source>
-          <target>Neu</target>
-        </trans-unit>
-        <trans-unit id="Table 4104331228 - Field 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The name of the log category</source>
-          <target>Der Name des Logeintrags</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Field 593885934 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Scope of the log entry</source>
-          <target>Scope des Logeintrags</target>
-        </trans-unit>
-        <trans-unit id="Table 4104331228 - Field 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The description of the log category</source>
-          <target>Die Beschreibung der Logeintrags</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Field 3080618677 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Message of the log entry</source>
-          <target>Meldung des Logeintrags</target>
-        </trans-unit>
-        <trans-unit id="Table 318918576 - Field 1973165213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Verbosity of the log entry</source>
-          <target>Verbosity des Logeintrags</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 2291985846 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates the type of users for which to enable logging.</source>
-          <target>Gibt den Benutzertyp an, für den das Log aktiviert werden soll.</target>
-        </trans-unit>
-        <trans-unit id="Table 911414851 - Field 2891538263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates whether logging is enabled.</source>
-          <target>Gibt an, ob das Log aktiv ist.</target>
-        </trans-unit>
-        <trans-unit id="Report 1884483837 - Control 1944107012 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates the specific user for which to enable logging.</source>
-          <target>Gibt den spezifischen Benutzer an, für den das Log aktiviert werden soll.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3154161482 - Method 2893388455 - NamedType 50779701" translate="yes" size-unit="char" xml:space="preserve">
-          <source>subscription</source>
-          <target>Abonnement</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3154161482 - Method 2893388455 - NamedType 3466060723" translate="yes" size-unit="char" xml:space="preserve">
-          <source>trial subscription</source>
-          <target>Test-Abonnement</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 394152521 - Method 507077789 - NamedType 2186308552" translate="yes" size-unit="char" xml:space="preserve">
-          <source>A HTTP request has failed with status HTTP%1</source>
-          <target>Eine HTTP-Anforderung ist mit dem Status HTTP%1 fehlgeschlagen</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 394152521 - Method 428629947 - NamedType 1051838648" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Client certificate authentication is not loaded.</source>
-          <target>Die Authentifizierung des Client-Zertifikats wird nicht geladen.</target>
-        </trans-unit>
-        <trans-unit id="Table 708083516 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Description</source>
-          <target>Beschreibung</target>
-        </trans-unit>
-        <trans-unit id="Table 708083516 - Field 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The description of the record.</source>
-          <target>Die Beschreibung des Datensatzes.</target>
+        <trans-unit id="Table 2468765639 - Field 378058222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mandatory in Version</source>
+          <target>Obligatorisch ab Version</target>
         </trans-unit>
       </group>
     </body>
