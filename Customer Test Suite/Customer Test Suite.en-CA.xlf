@@ -158,6 +158,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS104 Test Case - Field Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2162325954 - Field 3560953534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Workaround</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS104 Test Case - Field Workaround - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1218308600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Test Case Step</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -372,6 +377,11 @@
           <source>Assigned Users</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS104 Test Run Line - Field Assigned Users - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2808080103 - Field 22371452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attached to Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS104 Test Run Line - Field Attached to Line No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2808080103 - Field 2172411502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Defect No.</source>
@@ -623,6 +633,51 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Data Integration Mgt. - Method CreateOrUpdateTestRunLine - NamedType TestCaseReferenceMissingErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 2569920499" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 test case(s) created, %2 updated, %3 error(s).</source>
+          <note from="Developer" annotates="general" priority="2">%1 = created count, %2 = updated count, %3 = error count</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Test Case Import - NamedType ImportCompletedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 3041034124" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 test case(s) created, %2 updated, %3 error(s).\%4</source>
+          <note from="Developer" annotates="general" priority="2">%1 = created count, %2 = updated count, %3 = error count, %4 = error details</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Test Case Import - NamedType ImportCompletedWithErrorsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 2861001419" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Excel file to import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Test Case Import - NamedType ImportFileDialogTitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 3950859523" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excel Files (*.xlsx)|*.xlsx</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Test Case Import - NamedType ImportFileFilterLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 4276608104" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid value '%1' for %2. Valid values: %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = value, %2 = field name, %3 = valid values</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Test Case Import - NamedType InvalidEnumValueErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 1291096805" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid Excel file structure. Expected column %1 header '%2', but found '%3'.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = column letter, %2 = expected header, %3 = actual header</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Test Case Import - NamedType InvalidHeaderErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 1103631678" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No data rows found in the Excel file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Test Case Import - NamedType NoDataFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 4011473544" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row %1: %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = row number, %2 = error message</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Test Case Import - NamedType RowProcessingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 831336804 - NamedType 1851852061" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to create a new test run line for this defect?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Test Run Management - NamedType CreateTestRunLineQst</note>
+        </trans-unit>
         <trans-unit id="Codeunit 831336804 - NamedType 4210911482" size-unit="char" translate="yes" xml:space="preserve">
           <source>Test data synchronization has been scheduled.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -647,6 +702,11 @@
           <source>Not all steps have a test result.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Test Run Management - NamedType TestResultStepErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 831336804 - NamedType 3328097196" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A new test run line has been created in Test Run %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS104 Test Run Management - NamedType TestRunLineCreatedMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 831336804 - Method 1458167888 - NamedType 3777830815" size-unit="char" translate="yes" xml:space="preserve">
           <source>Attach a document.</source>
@@ -692,6 +752,16 @@
           <source>The current status of the defect.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Defect Card - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 140840631 - Action 1706462027 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the change log entries for this defect.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Defect Card - Action ShowChangeLog - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 140840631 - Action 1706462027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Defect Card - Action ShowChangeLog - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2716992366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Defects (CTS)</source>
@@ -1038,6 +1108,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Case Card - Control Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3166795526 - Control 3560953534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates the state of the workaround for the test case.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Case Card - Control Workaround - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3166795526 - Action 2045583972 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Opens the assignments for this test case.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1152,6 +1227,16 @@
           <source>The type of the test case, indicating its category or nature.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Cases - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3728853295 - Action 3545432896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Imports test cases from an Excel file. Test cases with the same No. are updated, new ones are created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Cases - Action ImportFromExcel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3728853295 - Action 3545432896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import from Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Cases - Action ImportFromExcel - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3728853295 - Action 4100167859 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Updates the expected duration for the selected test cases based on their steps.</source>
@@ -1399,7 +1484,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Run - Action ChangeLog - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2119893237 - Action 3640084062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Change Log.</source>
+          <source>Change Log</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Run - Action ChangeLog - Property Caption</note>
         </trans-unit>
@@ -1623,6 +1708,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Run Step Result - Control Step No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1408050766 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Run Steps</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Run Steps - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1408050766 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>A description of the test step.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1774,7 +1864,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Run Subpage - Action ChangeLog - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2060570008 - Action 3640084062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Change Log.</source>
+          <source>Change Log</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Run Subpage - Action ChangeLog - Property Caption</note>
         </trans-unit>
@@ -1827,6 +1917,11 @@
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Run Wizard - Control Para2.2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 186484852 - Control 4208574773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Requirement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Run Wizard - Control Para2.2.1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 186484852 - Control 2088291847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pre-Condition</source>
@@ -2099,7 +2194,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Suite Setup - Control General - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2062359685 - Control 80739734 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Indicates whether change logging is enabled for test cases and runs.</source>
+          <source>Indicates whether change logging is enabled.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS104 Test Suite Setup - Control Change Log - Property ToolTip</note>
         </trans-unit>
@@ -2199,7 +2294,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS104 Copy Test Run - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2306497010 - NamedType 3324387455" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The Test Run contains lines. Should they deleted before copying?</source>
+          <source>The test run to which you want to copy lines already contains other lines. Should you delete them before copying the other?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS104 Copy Test Run - NamedType DeleteTestRunLinesQst</note>
         </trans-unit>
@@ -2302,6 +2397,16 @@
           <source>Unit Test</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS104 Test Case Type - EnumValue Unit Test - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3341711152 - EnumValue 1615007323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Efficient</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS104 Test Case Workaround - EnumValue Efficient - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3341711152 - EnumValue 3174183762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inefficient</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS104 Test Case Workaround - EnumValue Inefficient - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1121633468 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
