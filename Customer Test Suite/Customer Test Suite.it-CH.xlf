@@ -23,6 +23,38 @@
           <source>Attachments (%1)|%1</source>
           <target>Allegati (%1)|%1</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 2569920499" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 test case(s) created, %2 updated, %3 error(s).</source>
+          <target>%1 caso/i di test creato/i, %2 aggiornato/i, %3 errore/i.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 3041034124" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 test case(s) created, %2 updated, %3 error(s).\%4</source>
+          <target>%1 caso/i di test creato/i, %2 aggiornato/i, %3 errore/i.\%4</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 2861001419" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select Excel file to import</source>
+          <target>Selezionare il file Excel da importare</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 3950859523" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Excel Files (*.xlsx)|*.xlsx</source>
+          <target>File Excel (*.xlsx)|*.xlsx</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 4276608104" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invalid value '%1' for %2. Valid values: %3.</source>
+          <target>Valore '%1' non valido per %2. Valori validi: %3.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 1291096805" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invalid Excel file structure. Expected column %1 header '%2', but found '%3'.</source>
+          <target>Struttura del file Excel non valida. Intestazione colonna %1 prevista '%2', ma trovata '%3'.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 1103631678" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No data rows found in the Excel file.</source>
+          <target>Nessuna riga di dati trovata nel file Excel.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1589834533 - NamedType 4011473544" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Row %1: %2</source>
+          <target>Riga %1: %2</target>
+        </trans-unit>
         <trans-unit id="Enum 4204909521 - EnumValue 3302248474 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Automated</source>
           <target>Automatizzato</target>
@@ -615,6 +647,14 @@
           <source>Updates all test run lines with the current selected test case information.</source>
           <target>Aggiorna tutte le righe di esecuzione dei test con le informazioni sul caso di test attualmente selezionato.</target>
         </trans-unit>
+        <trans-unit id="Page 3728853295 - Action 3545432896 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import from Excel</source>
+          <target>Importa da Excel</target>
+        </trans-unit>
+        <trans-unit id="Page 3728853295 - Action 3545432896 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Imports test cases from an Excel file. Test cases with the same No. are updated, new ones are created.</source>
+          <target>Importa casi di test da un file Excel. I casi di test con lo stesso Nr. vengono aggiornati, quelli nuovi vengono creati.</target>
+        </trans-unit>
         <trans-unit id="Page 2473050851 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Generale</target>
@@ -792,8 +832,8 @@
           <target>Inserisce i casi di tes5 nell'esecuzione dei test.</target>
         </trans-unit>
         <trans-unit id="Page 2119893237 - Action 3640084062 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Change Log.</source>
-          <target>Registro delle modifiche.</target>
+          <source>Change Log</source>
+          <target>Registro delle modifiche</target>
         </trans-unit>
         <trans-unit id="Page 2119893237 - Action 2956742982 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Inserts test plans into the test run.</source>
@@ -801,7 +841,7 @@
         </trans-unit>
         <trans-unit id="Page 2119893237 - Action 3640084062 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the change log entries for this test run.</source>
-          <target>Visualizzare le voci del log delle modifiche per l'esecuzione dei test.</target>
+          <target>Visualizza i movimenti log modifiche per questa esecuzione di test.</target>
         </trans-unit>
         <trans-unit id="Page 2119893237 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>The current status of the test run, indicating whether it is planned or completed.</source>
@@ -1060,8 +1100,8 @@
           <target>Assegnazioni</target>
         </trans-unit>
         <trans-unit id="Page 2060570008 - Action 3640084062 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Change Log.</source>
-          <target>Registro delle modifiche.</target>
+          <source>Change Log</source>
+          <target>Registro delle modifiche</target>
         </trans-unit>
         <trans-unit id="Page 2060570008 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>The current status of the test case in the test run line.</source>
@@ -1069,7 +1109,7 @@
         </trans-unit>
         <trans-unit id="Page 2060570008 - Action 3640084062 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the change log entries for this test run line.</source>
-          <target>Visualizzare le voci del log delle modifiche per questa riga di esecuzione dei test.</target>
+          <target>Visualizza i movimenti log modifiche per questa riga di esecuzione di test.</target>
         </trans-unit>
         <trans-unit id="Page 2060570008 - Action 2045583972 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View or edit the assignments for this test run line.</source>
@@ -1420,8 +1460,8 @@
           <target>Impossibile copiare dalla stessa esecuzione dei test.</target>
         </trans-unit>
         <trans-unit id="Report 2306497010 - NamedType 3324387455" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The Test Run contains lines. Should they deleted before copying?</source>
-          <target>L'esecuzione dei test contiene righe. Dovrebbero essere cancellati prima di copiarli?</target>
+          <source>The test run to which you want to copy lines already contains other lines. Should you delete them before copying the other?</source>
+          <target>L'esecuzione di test in cui si desidera copiare le righe contiene già altre righe. È necessario eliminarle prima di copiare le altre?</target>
         </trans-unit>
         <trans-unit id="Report 2306497010 - Control 2148996389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy from Test Run No.</source>
@@ -1824,8 +1864,8 @@
           <target>Allegati</target>
         </trans-unit>
         <trans-unit id="Page 2062359685 - Control 80739734 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates whether change logging is enabled for test cases and runs.</source>
-          <target>Indica se la registrazione delle modifiche è abilitata per i casi di test e le esecuzioni.</target>
+          <source>Indicates whether change logging is enabled.</source>
+          <target>Indica se la registrazione delle modifiche è abilitata.</target>
         </trans-unit>
         <trans-unit id="Page 2716992366 - Property 3863440606" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS104</source>
@@ -1894,6 +1934,50 @@
         <trans-unit id="Page 2062359685 - Action 1594705340 - Method 1377591017 - NamedType 3132544459" translate="yes" size-unit="char" xml:space="preserve">
           <source>Test data refreshed successfully.</source>
           <target>Dati test aggiornati correttamente.</target>
+        </trans-unit>
+        <trans-unit id="Table 2162325954 - Field 3560953534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Workaround</source>
+          <target>Soluzione alternativa</target>
+        </trans-unit>
+        <trans-unit id="Page 3166795526 - Control 3560953534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates the state of the workaround for the test case.</source>
+          <target>Indica lo stato della soluzione alternativa per il caso di test</target>
+        </trans-unit>
+        <trans-unit id="Enum 3341711152 - EnumValue 3174183762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inefficient</source>
+          <target>Inefficiente</target>
+        </trans-unit>
+        <trans-unit id="Enum 3341711152 - EnumValue 1615007323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Efficient</source>
+          <target>Efficiente</target>
+        </trans-unit>
+        <trans-unit id="Page 140840631 - Action 1706462027 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the change log entries for this defect.</source>
+          <target>Visualizza i movimenti log modifiche per questo difetto.</target>
+        </trans-unit>
+        <trans-unit id="Page 140840631 - Action 1706462027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change Log</source>
+          <target>Registro delle modifiche</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 831336804 - NamedType 1851852061" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to create a new test run line for this defect?</source>
+          <target>Vuoi creare una nuova riga di esecuzione test per questo difetto?</target>
+        </trans-unit>
+        <trans-unit id="Table 2808080103 - Field 22371452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attached to Line No.</source>
+          <target>Collegato al nr. riga</target>
+        </trans-unit>
+        <trans-unit id="Page 1408050766 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Run Steps</source>
+          <target>Passi esecuzione di test</target>
+        </trans-unit>
+        <trans-unit id="Page 186484852 - Control 4208574773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Requirement</source>
+          <target>Requisito cliente</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 831336804 - NamedType 3328097196" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A new test run line has been created in Test Run %1.</source>
+          <target>Una nuova riga di esecuzione test è stata creata per l'esecuzione di test %1.</target>
         </trans-unit>
       </group>
     </body>
