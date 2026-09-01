@@ -3254,9 +3254,19 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method CloseEntryTime - NamedType Text203Msg</note>
         </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 713657231 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post unsupervised machine time entry?</source>
+          <source>Post unsupervised machine time for %1 %2?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method CloseUnsupervisedMachineEntryTime - NamedType ConfirmQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 713657231 - NamedType 4155996640" size-unit="char" translate="yes" xml:space="preserve">
+          <source>\One unsupervised entry will be posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method CloseUnsupervisedMachineEntryTime - NamedType AdditionalConfirmQst1</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 713657231 - NamedType 498725961" size-unit="char" translate="yes" xml:space="preserve">
+          <source>\%1 unsupervised entries will be posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Management - Method CloseUnsupervisedMachineEntryTime - NamedType AdditionalConfirmQst2</note>
         </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 713657231 - NamedType 417816387" size-unit="char" translate="yes" xml:space="preserve">
           <source>Operation Completed</source>
@@ -4628,6 +4638,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Custom Fields - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2481736433 - Control 945407529 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "App Caption" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Custom Fields - Control App Caption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2481736433 - Control 945407529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Custom Fields - Control App Caption - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2481736433 - Control 3549953867 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Caption Name" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5384,7 +5404,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Employee Entries - Action Close Entry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Action 2414066437 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post selected Unsupervised entry.</source>
+          <source>Post all unsupervised entries for the resource of selected entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Employee Entries - Action Post Unsupervised Entry - Property ToolTip</note>
         </trans-unit>
@@ -8718,15 +8738,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS070Tableext70623870 - Field EOS PowerMES Custom Filter 5 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 1130261798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
+          <source>Prod. Line Qty. per Unit of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS070Tableext70623870 - Field EOS Prod. Line Qty. Per UoM - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 1049009013 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
           <source>Prod. Line Quantity</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS070Tableext70623870 - Field EOS Prod. Line Quantity - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 3340699135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
+          <source>Prod. Line Quantity (UoM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS070Tableext70623870 - Field EOS Prod. Line Quantity (UoM) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 1606890788 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
+          <source>Prod. Line Rem. Quantity (UoM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS070Tableext70623870 - Field EOS Prod. Line Rem. Qty. (UoM) - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 2128523937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
           <source>Prod. Line Rem. Quantity</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS070Tableext70623870 - Field EOS Prod. Line Rem. Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 1051641001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
+          <source>Prod. Line Unit Of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS070Tableext70623870 - Field EOS Prod. Line UoM - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 709297253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
           <source>Prod. Order Quantity</source>
