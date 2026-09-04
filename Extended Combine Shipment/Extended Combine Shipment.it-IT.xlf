@@ -11,6 +11,10 @@
           <source>Recurring sales invoice created successfully.</source>
           <target>Fattura di vendita per righe vendita ricorrenti creata con successo.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3312399922 - Method 1802156689 - NamedType 1434415172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deleting the invoice no. %1 containing recurring lines will prevent it from being recreated with ECS. Do you want to continue?</source>
+          <target>L'eliminazione della fattura n. %1 contenente righe ricorrenti impedirà la sua ricreazione con ECS. Vuoi continuare?</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3312399922 - Method 3795892919 - NamedType 611326923" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS ECS Scheduler</source>
           <target>Pianificatore ECS</target>
@@ -18,6 +22,14 @@
         <trans-unit id="Codeunit 3312399922 - Method 592375044 - NamedType 476920216" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Queue Entry for the report "EOS050 ECS Scheduler" not found. Please create it through the action "Open Job Queue" in the setup page before scheduling the report.</source>
           <target>Voce della coda di lavoro per il report "EOS050 ECS Scheduler" non trovata. Crearla tramite l'azione "Apri coda processi" nella pagina di configurazione prima di programmare il report.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3719534197 - Method 3795892919 - NamedType 611326923" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EOS ECS Service Scheduler</source>
+          <target>EOS ECS Pianificatore Assistenza</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3719534197 - Method 592375044 - NamedType 476920216" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue Entry for the report "EOS050 ECS Srv. Scheduler" not found. Please create it through the action "Open Service Job Queue" in the setup page before scheduling the report.</source>
+          <target>Movimento coda processi per il report "EOS050 ECS Srv. Scheduler" non trovato. Crearlo tramite l'azione "Apri Coda Processi Assistenza" nella pagina di setup prima di pianificare il report.</target>
         </trans-unit>
         <trans-unit id="Enum 1635187508 - EnumValue 1752522425 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Running</source>
@@ -66,6 +78,18 @@
         <trans-unit id="Enum 2538128937 - EnumValue 540986563 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Debug</source>
           <target>Debug</target>
+        </trans-unit>
+        <trans-unit id="Enum 3174767147 - EnumValue 1406942772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales</source>
+          <target>Vendite</target>
+        </trans-unit>
+        <trans-unit id="Enum 3174767147 - EnumValue 2187938695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service</source>
+          <target>Servizio</target>
+        </trans-unit>
+        <trans-unit id="Enum 3174767147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ECS Type</source>
+          <target>Tipo ECS</target>
         </trans-unit>
         <trans-unit id="Enum 4062071836 - EnumValue 3511971608 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Separate Invoice</source>
@@ -127,6 +151,218 @@
           <source>Invoicing Method Fields Editor</source>
           <target>Editor campi metodo fatturazione</target>
         </trans-unit>
+        <trans-unit id="Page 2357131096 - Action 1271523265 - Method 1377591017 - NamedType 2396470215" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to delete this session?</source>
+          <target>Eliminare questa sessione?</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Action 1271523265 - Method 1377591017 - NamedType 643870047" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only planned sessions can be deleted. Use retention feature to delete completed sessions.</source>
+          <target>È possibile eliminare solo le sessioni pianificate. Utilizzare la funzione di conservazione per eliminare le sessioni completate.</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Action 1271523265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allows to delete a planned session.</source>
+          <target>Consente di eliminare una sessione pianificata.</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Action 1271523265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Session</source>
+          <target>Elimina sessione</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Action 1727984412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the service dashboard and shows the session log.</source>
+          <target>Apre la dashboard assistenza e mostra il log della sessione.</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Action 1727984412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Service Dashboard</source>
+          <target>Apri Dashboard Assistenza</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Control 1097286736 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the session was scheduled.</source>
+          <target>Specifica quando la sessione è stata pianificata.</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Control 1829104285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Session ID.</source>
+          <target>Specifica l'ID sessione.</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Control 2014922888 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the session started.</source>
+          <target>Specifica quando la sessione è iniziata.</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Control 264920029 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The number of errors in the session.</source>
+          <target>Il numero di errori nella sessione.</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Control 264920029 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Count</source>
+          <target>Conteggio errori</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user that scheduled the session.</source>
+          <target>Specifica l'utente che ha pianificato la sessione.</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Control 3470450981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the session ended.</source>
+          <target>Specifica quando la sessione è terminata.</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the current status of the session.</source>
+          <target>Specifica lo stato corrente della sessione.</target>
+        </trans-unit>
+        <trans-unit id="Page 2357131096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoicing Sessions (ECS)</source>
+          <target>Sessioni Fatturazione Assistenza (ECS)</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Action 3551104171 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Last Stack Error</source>
+          <target>Visualizza Stack Ultimo Errore</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Action 3551104171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Last Stack Error</source>
+          <target>Visualizza Stack Ultimo Errore</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Action 3682109780 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View source record.</source>
+          <target>Visualizza il record di origine.</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Action 3682109780 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Source</source>
+          <target>Visualizza Sorgente</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 1046374066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source Customer No.</source>
+          <target>Specifica il Nr. cliente di origine.</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 1553201050 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source Customer Name.</source>
+          <target>Specifica il Nome del cliente di origine.</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 1789400218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the log level.</source>
+          <target>Specifica il livello del log.</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 1829104285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log lines below refer to this Session ID.</source>
+          <target>Le righe di log seguenti si riferiscono a questo ID sessione.</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 2034429472 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the log severity.</source>
+          <target>Specifica la gravità del log.</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 2429513770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the timestamp of the log entry.</source>
+          <target>Specifica il timestamp della voce di log.</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID who scheduled the report.</source>
+          <target>ID utente che ha pianificato il report.</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the table ID.</source>
+          <target>Specifica l'ID tabella.</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 3263943300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Movements</source>
+          <target>Movimenti</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 345314420 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source ID.</source>
+          <target>Specifica l'ID di origine.</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 3726466383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target>Dettagli</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Control 3858531078 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the log description.</source>
+          <target>Specifica la descrizione del log.</target>
+        </trans-unit>
+        <trans-unit id="Page 2986454533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoicing Dashboard (ECS)</source>
+          <target>Dashboard Fatturazione Assistenza (ECS)</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Type</source>
+          <target>Specifica il tipo</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - Control 3197950847 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select to use the field as breaking criteria</source>
+          <target>Selezionare questa opzione per utilizzare il campo come criterio di rottura</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the field number.</source>
+          <target>Specifica il numero del campo.</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - Control 504415361 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the object type</source>
+          <target>Specifica il tipo di oggetto</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - Control 504415361 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table</source>
+          <target>Tabella</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - Control 516722989 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select the fields by which you want to group service invoices.</source>
+          <target>Selezionare i campi in base ai quali raggruppare le fatture di assistenza.</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - Control 516722989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select the fields by which you want to group service invoices.</source>
+          <target>Selezionare i campi in base ai quali raggruppare le fatture di assistenza.</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - Control 823559016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Field Caption</source>
+          <target>Specifica la didascalia del campo</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - NamedType 1017923459" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Line (%1)</source>
+          <target>Riga documento (%1)</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - NamedType 2444394906" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Order</source>
+          <target>Ordine assistenza</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - NamedType 2903553241" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document (%1)</source>
+          <target>Documento (%1)</target>
+        </trans-unit>
+        <trans-unit id="Page 3124383956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoicing Method Fields Editor</source>
+          <target>Editor Campi Metodo Fatturazione Assistenza</target>
+        </trans-unit>
+        <trans-unit id="Page 3157474336 - Action 183296051 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allows you to choose which are the grouping fields</source>
+          <target>Consente di scegliere quali sono i campi di raggruppamento</target>
+        </trans-unit>
+        <trans-unit id="Page 3157474336 - Action 183296051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fields</source>
+          <target>Campi</target>
+        </trans-unit>
+        <trans-unit id="Page 3157474336 - Control 168471254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether invoices are addressed to the Sell-to or Bill-to customer.</source>
+          <target>Specifica se le fatture sono intestate al cliente di vendita o di fatturazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 3157474336 - Control 2564718408 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the starting date formula used to compute the date window.</source>
+          <target>Specifica la formula data iniziale utilizzata per calcolare la finestra temporale.</target>
+        </trans-unit>
+        <trans-unit id="Page 3157474336 - Control 2704917035 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ending date formula used to compute the date window.</source>
+          <target>Specifica la formula data finale utilizzata per calcolare la finestra temporale.</target>
+        </trans-unit>
+        <trans-unit id="Page 3157474336 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the Service Invoicing Method.</source>
+          <target>Specifica il codice del Metodo di Fatturazione Assistenza.</target>
+        </trans-unit>
+        <trans-unit id="Page 3157474336 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the Service Invoicing Method.</source>
+          <target>Specifica la descrizione del Metodo di Fatturazione Assistenza.</target>
+        </trans-unit>
+        <trans-unit id="Page 3157474336 - Control 615966908 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies from which header get the values for the invoice (Order or Shipment).</source>
+          <target>Specifica da quale testata ottenere i valori per la fattura (Ordine o Spedizione).</target>
+        </trans-unit>
+        <trans-unit id="Page 3157474336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoicing Methods (ECS)</source>
+          <target>Metodi Fatturazione Assistenza (ECS)</target>
+        </trans-unit>
         <trans-unit id="Page 4138601875 - Action 183296051 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allows you to choose which are the grouping fields</source>
           <target>Consente di scegliere quali sono i campi di raggruppamento</target>
@@ -134,6 +370,10 @@
         <trans-unit id="Page 4138601875 - Action 183296051 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fields</source>
           <target>Campi</target>
+        </trans-unit>
+        <trans-unit id="Page 4138601875 - Control 1354564369 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how recurring sales lines are handled during ECS invoicing: appended to goods invoices or created as separate invoices.</source>
+          <target>Specifica come vengono gestite le righe vendita ricorrenti durante la fatturazione ECS: aggiunte alle fatture merci o create come fatture separate.</target>
         </trans-unit>
         <trans-unit id="Page 4138601875 - Control 168471254 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Invoice to" field</source>
@@ -166,6 +406,14 @@
         <trans-unit id="Page 4138601875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoicing Methods (ECS)</source>
           <target>Metodi fatturazione (ECS)</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Action 135458697 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates a job queue entry for the ECS Service Scheduler report.</source>
+          <target>Crea un movimento coda processi per il report ECS Pianificatore Assistenza.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Action 135458697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Service Job Queue</source>
+          <target>Apri Coda Processi Assistenza</target>
         </trans-unit>
         <trans-unit id="Page 4266467808 - Action 1887266456 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Inserts a default setup.</source>
@@ -203,16 +451,36 @@
           <source>Customer Filters</source>
           <target>Filtro: Cliente</target>
         </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 2021047161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Data Security</source>
+          <target>Data Security Assistenza</target>
+        </trans-unit>
         <trans-unit id="Page 4266467808 - Control 2027008957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Delete log older than (days) field.</source>
           <target>Specifica il valore del campo Elimina registro precedente a (giorni).</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 2056029066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default invoicing method used by the Service ECS flow.</source>
+          <target>Specifica il metodo di fatturazione predefinito utilizzato dal flusso ECS Assistenza.</target>
         </trans-unit>
         <trans-unit id="Page 4266467808 - Control 2452906024 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Created Invoices EDS Status field.</source>
           <target>Specifica il valore del campo Stato EDS fatture create.</target>
         </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 2461226187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoicing</source>
+          <target>Fatturazione Assistenza</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 2522000542 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filters applied when scanning customers for service invoicing.</source>
+          <target>Specifica i filtri applicati durante la scansione dei clienti per la fatturazione assistenza.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 2522000542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Customer Filters</source>
+          <target>Filtri Clienti Assistenza</target>
+        </trans-unit>
         <trans-unit id="Page 4266467808 - Control 2577198478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Data Security</source>
+          <source>Sales Data Security</source>
           <target>Data Security</target>
         </trans-unit>
         <trans-unit id="Page 4266467808 - Control 2918219645 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -227,6 +495,10 @@
           <source>Specifies the Document Class of invoices created through ECS.</source>
           <target>Specifica la "Classe documento" delle fatture create tramite l'ECS</target>
         </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 3410567910 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the EDS status applied to Service invoices.</source>
+          <target>Specifica lo stato EDS applicato alle fatture di assistenza.</target>
+        </trans-unit>
         <trans-unit id="Page 4266467808 - Control 376360952 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Minimum Log level for the messages to be logged. Verbose: All messages are logged. Information: Only informational, warning and error messages are logged. Warning: Only warning and error messages are logged. Error: Only error messages are logged.</source>
           <target>Specifica il livello minimo del log per i messaggi da loggare. Dettagliato: tutti i messaggi vengono registrati. Informazioni: vengono registrati solo i messaggi informativi, di avviso e di errore. Avviso: vengono registrati solo i messaggi di avviso e di errore. Errore: vengono registrati solo i messaggi di errore.</target>
@@ -235,6 +507,18 @@
           <source>Log retention</source>
           <target>Conservazione del registro</target>
         </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 3836968445 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the EDS path used for Service invoices.</source>
+          <target>Specifica il percorso EDS utilizzato per le fatture di assistenza.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 3965346546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filters applied when scanning service shipments for invoicing.</source>
+          <target>Specifica i filtri applicati durante la scansione delle spedizioni di assistenza per la fatturazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 3965346546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Shipment Filters</source>
+          <target>Filtri Spedizioni Assistenza</target>
+        </trans-unit>
         <trans-unit id="Page 4266467808 - Control 4140851411 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Enable Log Retention Policy field.</source>
           <target>Specifica il valore del campo Abilita criteri di conservazione dei registri.</target>
@@ -242,6 +526,14 @@
         <trans-unit id="Page 4266467808 - Control 4183396051 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Class</source>
           <target>Classe documento</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 4281281067 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the scheduled Service ECS Job Queue is enabled.</source>
+          <target>Specifica se la coda processi pianificata ECS Assistenza è abilitata.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 615246231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the Sell-to customer is retrieved from the related Service Order.</source>
+          <target>Specifica se il cliente di vendita viene recuperato dall'ordine di assistenza collegato.</target>
         </trans-unit>
         <trans-unit id="Page 4266467808 - Control 628100881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If this field is enabled, the 'Sell To' customer from the invoice header will always be retrieved from the 'Sell To' of the first processed order. If the flag is instead disabled (recommended choice), the 'Sell to' customer of the invoice header will be retrieved from the order, in case of a single 'Sell to' present in the combined shipments; otherwise, it will be forced to match the 'Bill to' customer</source>
@@ -391,6 +683,10 @@
           <source>Specifies the Invoicing Method Code for the customer</source>
           <target>Specifica il codice metodo di fatturazione per il cliente</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3411038477 - Control 1435968899 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Service Invoicing Method Code for the customer.</source>
+          <target>Specifica il codice del Metodo di Fatturazione Assistenza per il cliente.</target>
+        </trans-unit>
         <trans-unit id="Report 1490119125 - Control 1477559269 - Method 2126772001 - NamedType 2651491560" translate="yes" size-unit="char" xml:space="preserve">
           <source>"Reference Date" could not be empty.</source>
           <target>"Data riferimento" non può essere vuota.</target>
@@ -511,6 +807,30 @@
           <source>Extended Combine Shipments (ECS)</source>
           <target>Fatt. Cumulative Estese (ECS)</target>
         </trans-unit>
+        <trans-unit id="Report 2369345147 - NamedType 2850832468" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End of Service ECS Procedures</source>
+          <target>Fine delle procedure ECS Assistenza</target>
+        </trans-unit>
+        <trans-unit id="Report 2369345147 - NamedType 3348858779" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finished procedure for customer %1 - Advanced %2%</source>
+          <target>Procedura completata per il cliente %1 - Avanzamento %2%</target>
+        </trans-unit>
+        <trans-unit id="Report 2369345147 - NamedType 3572372561" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start of Service ECS Procedures</source>
+          <target>Inizio delle procedure ECS Assistenza</target>
+        </trans-unit>
+        <trans-unit id="Report 2369345147 - NamedType 3996886084" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error in procedure for customer %1 - Advanced %2%</source>
+          <target>Errore nella procedura per il cliente %1 - Avanzamento %2%</target>
+        </trans-unit>
+        <trans-unit id="Report 2369345147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scheduled Service Procedures (ECS)</source>
+          <target>Procedure Assistenza Pianificate (ECS)</target>
+        </trans-unit>
+        <trans-unit id="Report 2369345147 - ReportDataItem 1155137290 - Method 3245603402 - NamedType 1091511284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time to process customer %1: %2</source>
+          <target>Tempo per elaborare il cliente %1: %2</target>
+        </trans-unit>
         <trans-unit id="Report 3419020624 - NamedType 2850832468" translate="yes" size-unit="char" xml:space="preserve">
           <source>End of ECS Procedures</source>
           <target>Fine delle procedure ECS</target>
@@ -535,6 +855,98 @@
           <source>Time to process customer %1: %2</source>
           <target>Tempo per elaborare il cliente %1: %2</target>
         </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 1004985823 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Documents created will use this date as "Posting Date" and "Document Date". If empty the "Reference Date" will be used.</source>
+          <target>Data di registrazione predefinita applicata alle fatture di assistenza create.</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 1004985823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Data di registrazione</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 1417623046 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoicing method that drives the grouping fields.</source>
+          <target>Metodo di fatturazione che determina i campi di raggruppamento.</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 1417623046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoicing Method Code</source>
+          <target>Cod. Metodo Fatturazione Assistenza</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 1493191604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Documents created will use this date as "Operation Occured Date". If empty the "Reference Date" will be used.</source>
+          <target>Data documento predefinita applicata alle fatture di assistenza create.</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 1493191604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation Occured Date</source>
+          <target>Data esecuzione operazione</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 1551886784 - Method 2126772001 - NamedType 2651491560" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"Reference Date" could not be empty.</source>
+          <target>"Data riferimento" non può essere vuota.</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 1551886784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The "Reference Date" used by the "Invoicing Method" to filter in the "From Date"/"To Date" range. The reference date is also used for "Posting Date" and "Document Date", if the "Posting Date" is not specified in the "Invoice Data" group. As "Operation Occured Date" if "Operation Occurred Date" is not specified in the "Invoice Data" group.</source>
+          <target>Data di riferimento utilizzata per calcolare la finestra temporale del filtro.</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 1551886784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reference Date</source>
+          <target>Data riferimento</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Opzioni</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 2542111395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice data</source>
+          <target>Dati fattura</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 2888694590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If checked, the report will run in background and will not show any dialog. It is possible to follow the execution from the page "Open Sessions (ECS)".</source>
+          <target>Se questa opzione è selezionata, il report verrà eseguito in background e non mostrerà alcuna finestra di dialogo. E' possibile seguire l'esecuzione dalla pagina "Sessioni Aperte (ECS)".</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 2888694590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule execution</source>
+          <target>Pianifica l'esecuzione</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 3722682384 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, text lines from the source service shipments are copied to the invoice.</source>
+          <target>Se abilitato, le righe di testo dalle spedizioni di assistenza di origine vengono copiate nella fattura.</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Control 3722682384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy Text Lines</source>
+          <target>Copia righe testo</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Method 165558284 - NamedType 3400510451" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS status changed successfully</source>
+          <target>Lo stato EDS è stato modificato correttamente</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - NamedType 149879980" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer: #1#</source>
+          <target>Cliente: #1#</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - NamedType 1985054036" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error creating the service invoice: %1</source>
+          <target>Errore durante la creazione della fattura di assistenza: %1</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - NamedType 4062996313" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoicing Method %1 was not found.</source>
+          <target>Metodo di Fatturazione Assistenza %1 non trovato.</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - NamedType 4187841034" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An error occurred while creating a service invoice for customer %1:\\%2\\Do you want to continue with the remaining customers/groups?</source>
+          <target>Si è verificato un errore durante la creazione di una fattura di assistenza per il cliente %1:\\%2\\Continuare con i clienti/gruppi rimanenti?</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - NamedType 549403964" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service invoice generated successfully.</source>
+          <target>Fattura di servizio generata con successo.</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - NamedType 841718678" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 invoices have been created.</source>
+          <target>%1 fatture sono state create.</target>
+        </trans-unit>
+        <trans-unit id="Report 3517662280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Extended Combine Service Shipments (ECS)</source>
+          <target>Fatt. Comulative Assistenza Estese (ECS)</target>
+        </trans-unit>
         <trans-unit id="Table 146977506 - Field 1097286736 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scheduled At</source>
           <target>Programmato alle</target>
@@ -554,6 +966,10 @@
         <trans-unit id="Table 146977506 - Field 2708250016 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>User ID</source>
           <target>ID utente</target>
+        </trans-unit>
+        <trans-unit id="Table 146977506 - Field 3464949215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ECS Type</source>
+          <target>Tipo ECS</target>
         </trans-unit>
         <trans-unit id="Table 146977506 - Field 3470450981 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ended At</source>
@@ -611,6 +1027,10 @@
           <source>Source ID</source>
           <target>ID Origine</target>
         </trans-unit>
+        <trans-unit id="Table 3141228842 - Field 3464949215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ECS Type</source>
+          <target>Tipo ECS</target>
+        </trans-unit>
         <trans-unit id="Table 3141228842 - Field 3858531078 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Log Description</source>
           <target>Descrizione Log</target>
@@ -626,6 +1046,10 @@
         <trans-unit id="Table 3141228842 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Traced Invoicing Log (ECS)</source>
           <target>Registro di fatturazione tracciato (ECS)</target>
+        </trans-unit>
+        <trans-unit id="Table 3250358624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ECS Service Buffer</source>
+          <target>Buffer ECS Assistenza</target>
         </trans-unit>
         <trans-unit id="Table 3656066566 - Field 1354564369 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies how recurring sales lines are handled during ECS invoicing. "Separate Invoice" creates one additional service invoice per customer. "Append to Invoices" adds recurring lines to every goods invoice.</source>
@@ -655,6 +1079,10 @@
           <source>To Date Formula</source>
           <target>Formula data a</target>
         </trans-unit>
+        <trans-unit id="Table 3656066566 - Field 3004954119 - Method 2126772001 - NamedType 624188174" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoicing Method %1 already exists with Type=%2. Please use a different code.</source>
+          <target>Il Metodo di Fatturazione %1 esiste già con Type=%2. Per favore, usa un codice diverso.</target>
+        </trans-unit>
         <trans-unit id="Table 3656066566 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code</source>
           <target>Codice</target>
@@ -666,6 +1094,10 @@
         <trans-unit id="Table 3656066566 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Descrizione</target>
+        </trans-unit>
+        <trans-unit id="Table 3656066566 - Field 3464949215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ECS Type</source>
+          <target>Tipo ECS</target>
         </trans-unit>
         <trans-unit id="Table 3656066566 - Field 615966908 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Get Header Values From</source>
@@ -703,9 +1135,17 @@
           <source>Customer Filters</source>
           <target>Filtro: Cliente</target>
         </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 1797115442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Shipment Filters</source>
+          <target>Filtri Spedizioni Assistenza</target>
+        </trans-unit>
         <trans-unit id="Table 4266467808 - Field 2027008957 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delete log older than (days)</source>
           <target>Elimina registro precedente (giorni)</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 2056029066 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Service Inv. Method Code</source>
+          <target>Cod. Metodo Fatt. Assistenza Predef.</target>
         </trans-unit>
         <trans-unit id="Table 4266467808 - Field 2918219645 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shipment Filters</source>
@@ -715,13 +1155,33 @@
           <source>Invoice Document Class</source>
           <target>Classe documento fattura</target>
         </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 3410567910 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoice EDS Status</source>
+          <target>Stato EDS Fattura Assistenza</target>
+        </trans-unit>
         <trans-unit id="Table 4266467808 - Field 376360952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Minimum Log Level</source>
           <target>Livello minimo del log</target>
         </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 3836968445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoice EDS Path</source>
+          <target>Percorso EDS Fattura Assistenza</target>
+        </trans-unit>
         <trans-unit id="Table 4266467808 - Field 4140851411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Log Retention Policy</source>
           <target>Abilita criteri di conservazione dei log</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 4281281067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule Service Invoice Creation</source>
+          <target>Pianificazione Creazione Fattura Assistenza</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 4288614782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Customer Filters</source>
+          <target>Filtri Clienti Assistenza</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 615246231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve Sell-To Customer from Service Order</source>
+          <target>Recupera Cliente Vendita dall'Ordine di Assistenza</target>
         </trans-unit>
         <trans-unit id="Table 4266467808 - Field 628100881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Retrieve Sell-To Customer from Order</source>
@@ -743,6 +1203,18 @@
           <source>Invoicing Method Code</source>
           <target>Codice metodo fatturazione </target>
         </trans-unit>
+        <trans-unit id="TableExtension 2566720634 - Field 1435968899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoicing Method Code</source>
+          <target>Cod. Metodo Fatturazione Assistenza</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3786500276 - Field 1199716414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created by ECS</source>
+          <target>Creato da ECS</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3786500276 - Field 2620568401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ECS Session ID</source>
+          <target>ID sessione ECS</target>
+        </trans-unit>
         <trans-unit id="TableExtension 766926214 - Field 1199716414 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Created by ECS</source>
           <target>Creato da ECS</target>
@@ -750,14 +1222,6 @@
         <trans-unit id="TableExtension 766926214 - Field 2620568401 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>ECS Session ID</source>
           <target>ID sessione ECS</target>
-        </trans-unit>
-        <trans-unit id="Page 4138601875 - Control 1354564369 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how recurring sales lines are handled during ECS invoicing: appended to goods invoices or created as separate invoices.</source>
-          <target>Specifica come vengono gestite le righe vendita ricorrenti durante la fatturazione ECS: aggiunte alle fatture merci o create come fatture separate.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3312399922 - Method 1802156689 - NamedType 1434415172" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Deleting the invoice no. %1 containing recurring lines will prevent it from being recreated with ECS. Do you want to continue?</source>
-          <target>L'eliminazione della fattura n. %1 contenente righe ricorrenti impedirà la sua ricreazione con ECS. Vuoi continuare?</target>
         </trans-unit>
       </group>
     </body>
