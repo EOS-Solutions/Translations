@@ -155,8 +155,8 @@
           <target>Especifica el código de forma de pago que se ha utilizado para esta transacción, como transferencia bancaria, cheque o tarjeta de crédito.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 1209161971 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the outstanding amount in the foreign currency that remains to be paid or collected for this entry.</source>
-          <target>Especifica el importe pendiente en la divisa extranjera que queda por pagar o cobrar de este movimiento.</target>
+          <source>Specifies the outstanding amount in the transaction currency that remains to be paid or collected for this entry.</source>
+          <target>Especifica el importe pendiente en la divisa de la transacción que queda por pagar o cobrar de este movimiento.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 1309738240 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the document number assigned by the customer or vendor for this transaction, such as their invoice number or reference number.</source>
@@ -183,8 +183,8 @@
           <target>Especifica el importe pendiente en divisa local que queda por pagar o cobrar de este movimiento.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 2348085896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies whether to include entries that are on hold in the aging analysis. When set, only entries marked as on hold will be displayed.</source>
-          <target>Especifica si se incluyen movimientos en espera en el análisis de antigüedad. Cuando se establece, solo se muestran los movimientos marcados como en espera.</target>
+          <source>Specifies a filter for the on-hold status of entries. Use this field to include or exclude entries based on whether they are on hold.</source>
+          <target>Especifica un filtro para el estado de espera de los movimientos. Utilice este campo para incluir o excluir movimientos en función de si están en espera.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 2348085896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>"On Hold" Filter</source>
@@ -227,12 +227,12 @@
           <target>Importe total (DL)</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 3137537674 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the entry number of the ledger entry that this line refers to.</source>
-          <target>Especifica el número de movimiento del movimiento contable al que se refiere esta línea.</target>
+          <source>Specifies the account item entry number used to identify the related ledger entry in the aging analysis.</source>
+          <target>Especifica el número de movimiento del elemento contable utilizado para identificar el movimiento relacionado en el análisis de antigüedad.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 3255617327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the date when this transaction was posted to the general ledger.</source>
-          <target>Especifica la fecha en la que esta transacción se registró en la contabilidad general.</target>
+          <source>Specifies the date when this transaction was posted to the customer or vendor ledger.</source>
+          <target>Especifica la fecha en la que esta transacción se registró en el libro mayor de clientes o proveedores.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 3271844603 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the ledger entry number of the dishonored payment or bill, indicating that a payment was returned or rejected by the bank.</source>
@@ -255,16 +255,16 @@
           <target>Filtro fecha</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 3535975460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the amount in foreign currency that has been applied to this entry through payment applications or credit memo applications.</source>
-          <target>Especifica el importe en divisa extranjera que ha sido liquidado en este movimiento a través de liquidaciones de pago o liquidaciones de abono.</target>
+          <source>Specifies the amount in the transaction currency that has been applied to this entry through payment or credit memo applications.</source>
+          <target>Especifica el importe en la divisa de la transacción que se ha liquidado en este movimiento mediante liquidaciones de pagos o abonos.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 3632010517 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the original transaction amount in local currency before any payments or applications.</source>
           <target>Especifica el importe original de la transacción en divisa local antes de cualquier pago o liquidación.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 3677812523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the date when payment is due for this transaction. Entries with a due date earlier than the work date are considered overdue.</source>
-          <target>Especifica la fecha en la que vence el pago de esta transacción. Los movimientos con una fecha de vencimiento anterior a la fecha de trabajo se consideran vencidos.</target>
+          <source>Specifies the date by which payment is due for this transaction.</source>
+          <target>Especifica la fecha de vencimiento del pago de esta transacción.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 3824777061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the occurrence number when multiple payment installments exist for the same document.</source>
@@ -307,8 +307,8 @@
           <target>Especifica el importe en divisa local que ha sido liquidado en este movimiento a través de liquidaciones de pago o liquidaciones de abono.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 652402480 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the original transaction amount in the foreign currency before any payments or applications.</source>
-          <target>Especifica el importe original de la transacción en la divisa extranjera antes de cualquier pago o liquidación.</target>
+          <source>Specifies the original transaction amount in the transaction currency before any payments or applications.</source>
+          <target>Especifica el importe original de la transacción en la divisa de la transacción antes de cualquier pago o liquidación.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 702581186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the type of document for this ledger entry, such as Invoice, Payment, Credit Memo, or Reminder.</source>
@@ -323,8 +323,8 @@
           <target>Especifica una descripción de la transacción o el nombre del cliente o proveedor.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Control 97188593 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the current status of the bank receipt or bill collection process for this entry, such as submitted, collected, or dishonored.</source>
-          <target>Especifica el estado actual del recibo bancario o del proceso de cobro del efecto para este movimiento, como presentado, cobrado o impagado.</target>
+          <source>Specifies the status of the bank receipt or customer bill associated with this entry, such as Not Extracted, Extracted, Customer Bills, or Issued Bill.</source>
+          <target>Especifica el estado del recibo bancario o del efecto de cliente asociado a este movimiento, como No extraído, Extraído, Efectos de clientes o Efecto emitido.</target>
         </trans-unit>
         <trans-unit id="Page 3347401751 - Method 3853141600 - NamedType 1960414238" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payable/Receivable Aging Analysis</source>
@@ -355,8 +355,8 @@
           <target>Descargar datos brutos</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Action 4273146349 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Sign up for Subscription" action</source>
-          <target>Ejecuta la acción "Registrarse en la suscripción"</target>
+          <source>This obsolete action is no longer used.</source>
+          <target>Esta acción obsoleta ya no se utiliza.</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Action 4273146349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sign up for Subscription</source>
@@ -371,12 +371,12 @@
           <target>Importar datos brutos</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 1248849147 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Vendor Aging Column Report ID" field.</source>
-          <target>Especifica el valor del campo "Id. informe antigüedad proveedor en columna".</target>
+          <source>Specifies the report ID used to print the vendor aging analysis in columns.</source>
+          <target>Especifica el Id. de informe utilizado para imprimir el análisis de antigüedad de proveedores en columnas.</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 1358896452 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Statement Reports in Currency" field.</source>
-          <target>Especifica el valor del campo "Informes de extracto en divisa".</target>
+          <source>Specifies whether customer and vendor statement reports are generated in the transaction currency instead of local currency.</source>
+          <target>Especifica si los informes de extractos de clientes y proveedores se generan en la divisa de la transacción en lugar de la divisa local.</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 1686246635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
@@ -387,20 +387,20 @@
           <target>Informes</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 208128046 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Vendor Statement Report ID" field.</source>
-          <target>Especifica el valor del campo "Id. informe extracto proveedor".</target>
+          <source>Specifies the report ID used to print the vendor statement.</source>
+          <target>Especifica el Id. de informe utilizado para imprimir el extracto de proveedor.</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 2148341731 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Vendor Aging Report ID" field.</source>
-          <target>Especifica el valor del campo "Id. informe antigüedad proveedor".</target>
+          <source>Specifies the report ID used to print the vendor aging analysis.</source>
+          <target>Especifica el Id. de informe utilizado para imprimir el análisis de antigüedad de proveedores.</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 2709343162 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies which company name to display on printed reports: the current company name, the name from Company Information, or a custom name defined in the setup.</source>
           <target>Especifica qué nombre de empresa mostrar en los informes impresos: el nombre de la empresa actual, el nombre de Información de empresa o un nombre personalizado definido en la configuración.</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 2752998707 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Customer Aging Column Report ID" field.</source>
-          <target>Especifica el valor del campo "Id. informe antigüedad cliente en columna".</target>
+          <source>Specifies the report ID used to print the customer aging analysis in columns.</source>
+          <target>Especifica el Id. de informe utilizado para imprimir el análisis de antigüedad de clientes en columnas.</target>
         </trans-unit>
         <trans-unit id="Table 1916904278 - Field 702581186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type</source>
@@ -1288,11 +1288,11 @@
         </trans-unit>
         <trans-unit id="Table 426484522 - Field 1358896452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Statement Reports in Currency</source>
-          <target>Informes de extracto en divisa</target>
+          <target>Informes de extractos en divisa</target>
         </trans-unit>
         <trans-unit id="Table 426484522 - Field 208128046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor Statement Report ID</source>
-          <target>Id. informe extracto proveedor</target>
+          <target>Id. de informe de extracto de proveedor</target>
         </trans-unit>
         <trans-unit id="Table 426484522 - Field 2148341731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor Aging Report ID</source>
@@ -1320,7 +1320,7 @@
         </trans-unit>
         <trans-unit id="Table 426484522 - Field 703236358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Statement Report ID</source>
-          <target>Id. informe extracto cliente</target>
+          <target>Id. de informe de extracto de cliente</target>
         </trans-unit>
         <trans-unit id="Table 426484522 - Field 747930476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enable detailed aging from</source>
@@ -1328,27 +1328,27 @@
         </trans-unit>
         <trans-unit id="Table 426484522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advanced Customer/Vendor Statements Setup</source>
-          <target>Configuración extractos avanzados cliente/proveedor</target>
+          <target>Configuración de extractos avanzados de clientes/proveedores</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 3308008240 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether to show the previous period balance in the statements when a date filter in the format "date.." is specified.</source>
           <target>Especifica si se muestra el saldo del periodo anterior en los extractos cuando se especifica un filtro de fecha en el formato "fecha..".</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 3960668347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Customer Aging Report ID" field.</source>
-          <target>Especifica el valor del campo "Id. informe antigüedad cliente".</target>
+          <source>Specifies the report ID used to print the customer aging analysis.</source>
+          <target>Especifica el Id. de informe utilizado para imprimir el análisis de antigüedad de clientes.</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 703236358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Customer Statement Report ID" field.</source>
-          <target>Especifica el valor del campo "Id. informe extracto de cliente".</target>
+          <source>Specifies the report ID used to print the customer statement.</source>
+          <target>Especifica el Id. de informe utilizado para imprimir el extracto de cliente.</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 747930476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Enable detailed aging from" field.</source>
-          <target>Especifica el valor del campo "Habilitar antigüedad detallada desde".</target>
+          <source>Specifies the date from which detailed aging is enabled for customer and vendor statements.</source>
+          <target>Especifica la fecha a partir de la cual se habilita el análisis de antigüedad detallado para los extractos de clientes y proveedores.</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advanced Customer/Vendor Statements Setup (CVS)</source>
-          <target>Configuración extractos avanzados cliente/proveedor (CVS)</target>
+          <target>Configuración de extractos avanzados de clientes/proveedores (CVS)</target>
         </trans-unit>
         <trans-unit id="PageExtension 1932889363 - Action 3514235228 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the "Payable Details" action</source>
@@ -4925,6 +4925,306 @@
         <trans-unit id="Page 2313019006 - Control 3632010517 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the original transaction amount in local currency before any payments or applications.</source>
           <target>Especifica el importe original de la transacción en divisa local antes de cualquier pago o liquidación.</target>
+        </trans-unit>
+        <trans-unit id="Report 1098611244 - Control 1787089116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Linked Entries</source>
+          <target>Mostrar movimientos vinculados</target>
+        </trans-unit>
+        <trans-unit id="Table 3072977790 - Field 1841447818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unapplied by Entry No.</source>
+          <target>No aplicado por la entrada nº</target>
+        </trans-unit>
+        <trans-unit id="Table 426484522 - Field 889620624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Unapplied Entries Analysis</source>
+          <target>Habilitar el análisis de entradas no aplicadas</target>
+        </trans-unit>
+        <trans-unit id="Page 380623817 - Control 889620624 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether "as of date" analyses take into account applications that were later unapplied. When disabled, entries that were ever unapplied are always excluded, regardless of the analysis date.</source>
+          <target>Especifica si los análisis «a una fecha determinada» tienen en cuenta los movimientos cuyas liquidaciones se anularon posteriormente. Si esta opción está deshabilitada, los movimientos cuya liquidación se haya anulado alguna vez siempre se excluyen, independientemente de la fecha del análisis.</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Nº documento</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Cód. divisa</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target>Importe</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 592951229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (LCY)</source>
+          <target>Importe (DL)</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 920751677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied Ledger Entry No.</source>
+          <target>Nº mov. contable liquidado</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 814566097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumed by Block ID</source>
+          <target>Consumido por el ID de bloque</target>
+        </trans-unit>
+        <trans-unit id="Table 426484522 - Field 578280180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use the New Engine</source>
+          <target>Usar el nuevo motor</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CV Detailed Ledger Cache</source>
+          <target>CV Caché Ledger Detallada</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 1974420055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Application No.</source>
+          <target>Solicitud nº</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 1046662792 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Block ID</source>
+          <target>ID de bloque</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nº movimiento</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 149522872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <target>Tipo movimiento</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Tipo documento</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 1277570778 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unapplied</source>
+          <target>Desliquidado</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Fecha de registro</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 1753214751 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Customer,Vendor</source>
+          <target> ,Cliente,Proveedor</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 3286668834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger Entry No.</source>
+          <target>Nº movimiento</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 3319631365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction No.</source>
+          <target>Nº transacción</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <target>Tipo origen</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 2720485332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Code</source>
+          <target>Código fuente</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 2721724408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Receipts List No.</source>
+          <target>Nº lista recibos bancarios</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 3321083628 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor/Customer No.</source>
+          <target>Nº proveedor/cliente</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 1405937108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Issue</source>
+          <target>Permitir emisión</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 1841447818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unapplied by Entry No.</source>
+          <target>No aplicado por la entrada nº</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 1048742873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Receipt Temp. No.</source>
+          <target>Nº recibo bancario temp.</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 545780510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Receipt</source>
+          <target>Recibo bancario</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 592951229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (LCY)</source>
+          <target>Importe (DL)</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target>Importe</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CV Ledger Cache</source>
+          <target>Caché CV Ledger</target>
+        </trans-unit>
+        <trans-unit id="Table 3981459962 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <target>ID de usuario</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Tipo documento</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 266282368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cumulative Bank Receipts</source>
+          <target>Recibos bancarios acumulativos</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Cód. divisa</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 580412389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <target>Fecha documento</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Nº documento</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descripción</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 2405278588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Occurrence</source>
+          <target>Ocurrencia en documentos</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 3621409687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No. to Close</source>
+          <target>Documento nº para cerrar</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 389327818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DDM Renegotiation No.</source>
+          <target>Renegociación DDM nº</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 256494199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Occurrence to Close</source>
+          <target>Ocurrencia de documentos hasta cierre</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 926489874 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>On Hold</source>
+          <target>En espera</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nº movimiento</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 1527563463 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <target>Nº documento externo</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 4085727052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target>Fecha de vencimiento</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 3199641976 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Zero Amount</source>
+          <target>es cantidad cero</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 1190296564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Bank Receipt</source>
+          <target>Es recibo bancario</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 1340843782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type to Close</source>
+          <target>Tipo de documento hasta cerrar</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 1213318271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Freezed</source>
+          <target>Está congelado</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 1050912150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Included</source>
+          <target>Está incluido</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 4076282815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Bank Receipt Issued</source>
+          <target>¿Se emite el recibo bancario?</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 1753214751 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Customer,Vendor</source>
+          <target> ,Cliente,Proveedor</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 629037869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Positive</source>
+          <target>Positivo</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <target>Tipo origen</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 1882905478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <target>Nº origen</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 2975378708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <target>Importe pendiente</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 343736747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip</source>
+          <target>Omitir</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 553464652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <target>Cód. vendedor</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 1850328511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amt. (LCY)</source>
+          <target>Importe pdte. (DL)</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Fecha de registro</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 3855271124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method Code</source>
+          <target>Código del método de pago</target>
+        </trans-unit>
+        <trans-unit id="Table 4089677623 - Field 3319631365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction No.</source>
+          <target>Nº transacción</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 125879023 - NamedType 599890354" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance at %1 (%2)</source>
+          <target>Saldo a %1 (%2)</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 83587138 - NamedType 3263911077" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 - %2</source>
+          <target>%1 - %2</target>
+        </trans-unit>
+        <trans-unit id="Page 380623817 - Action 2478401165 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compare Aging Engines (Legacy vs V2)</source>
+          <target>Compara motores envejecidos (Legacy vs V2)</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3909758191 - NamedType 2351544115" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer,Vendor</source>
+          <target>Cliente, proveedor</target>
+        </trans-unit>
+        <trans-unit id="Page 380623817 - Action 2478401165 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Runs, for every Customer and Vendor with ledger entries, both the legacy and the new (V2) aging engines and compares their results. This technical function is intended for support and troubleshooting scenarios.</source>
+          <target>Ejecuta, para cada Cliente y Proveedor con entradas del libro mayor, tanto los motores antiguos como los nuevos (V2) envejecidos y compara sus resultados. Esta función técnica está destinada a escenarios de soporte y resolución de problemas.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 83587138 - NamedType 1857120849" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row count mismatch: %1 vs %2</source>
+          <target>Desajuste en el número de filas: %1 vs %2</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 83587138 - NamedType 1448375912" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row %1 (Entry No. %2/%3): field %4 mismatch (%5 &lt;&gt; %6)</source>
+          <target>Fila %1 (Entrada nº %2/%3): campo %4 desajuste (%5 &lt;&gt; %6)</target>
+        </trans-unit>
+        <trans-unit id="Page 380623817 - Control 578280180 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to use the new optimized calculation engine (v2) for customer/vendor statement processing. The new engine natively implements as-of-date analysis for unapplied entries and produces results identical to the previous legacy engine, but is dramatically faster.</source>
+          <target>Especifica si se debe usar el nuevo motor de cálculo optimizado (v2) para el procesamiento de extractos de clientes/proveedores. El nuevo motor implementa de forma nativa el análisis «a una fecha determinada» de los movimientos no aplicados y produce resultados idénticos a los del motor heredado anterior, pero es mucho más rápido.</target>
+        </trans-unit>
+        <trans-unit id="Report 894372007 - Control 1902034219 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of customer records to compare. Customers are selected in descending order of their number of ledger entries. The default value is 100.</source>
+          <target>Especifica el número máximo de registros de clientes que se compararán. Los clientes se seleccionan en orden descendente según el número de sus movimientos contables. El valor predeterminado es 100.</target>
+        </trans-unit>
+        <trans-unit id="Report 894372007 - Control 3332093107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of vendor records to compare. Vendors are selected in descending order of their number of ledger entries. The default value is 100.</source>
+          <target>Especifica el número máximo de registros de proveedores que se compararán. Los proveedores se seleccionan en orden descendente según el número de sus movimientos contables. El valor predeterminado es 100.</target>
         </trans-unit>
       </group>
     </body>
