@@ -5205,11 +5205,11 @@
         </trans-unit>
         <trans-unit id="Codeunit 83587138 - NamedType 1857120849" size-unit="char" translate="yes" xml:space="preserve">
           <source>Row count mismatch: %1 vs %2</source>
-          <target>Inadéquation du nombre de lignes : 1 % vs 2 %</target>
+          <target>Inadéquation du nombre de lignes : %1 vs %2</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Action 2478401165 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compare Aging Engines (Legacy vs V2)</source>
-          <target>Comparez les moteurs vieillissants (Legacy vs V2)</target>
+          <target>Comparez le moteur Legacy et le nouveau moteur (Legacy vs V2)</target>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 578280180 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether to use the new optimized calculation engine (v2) for customer/vendor statement processing. The new engine natively implements as-of-date analysis for unapplied entries and produces results identical to the previous legacy engine, but is dramatically faster.</source>
@@ -5217,7 +5217,7 @@
         </trans-unit>
         <trans-unit id="Page 380623817 - Action 2478401165 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Runs, for every Customer and Vendor with ledger entries, both the legacy and the new (V2) aging engines and compares their results. This technical function is intended for support and troubleshooting scenarios.</source>
-          <target>Exécute, pour chaque client et vendeur avec des entrées de registre, à la fois les moteurs anciens et les nouveaux moteurs vieillissants (V2) et compare leurs résultats. Cette fonction technique est destinée au support et au dépannage.</target>
+          <target>Exécute, pour chaque client et vendeur avec des entrées de registre, à la fois le moteur Legacy et le nouveau moteur (V2), puis compare leurs résultats. Cette fonction technique est destinée au support et au dépannage.</target>
         </trans-unit>
         <trans-unit id="Codeunit 83587138 - NamedType 1448375912" size-unit="char" translate="yes" xml:space="preserve">
           <source>Row %1 (Entry No. %2/%3): field %4 mismatch (%5 &lt;&gt; %6)</source>
@@ -5225,7 +5225,7 @@
         </trans-unit>
         <trans-unit id="Report 894372007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compare Aging Engines (Legacy vs V2)</source>
-          <target>Comparez les moteurs vieillissants (Legacy vs V2)</target>
+          <target>Comparez le moteur Legacy et le nouveau moteur (Legacy vs V2)</target>
         </trans-unit>
         <trans-unit id="Report 894372007 - NamedType 1812254642" size-unit="char" translate="yes" xml:space="preserve">
           <source>Download Engine Comparison Debug ZIP</source>
@@ -5241,27 +5241,27 @@
         </trans-unit>
         <trans-unit id="Report 894372007 - NamedType 1173215028" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1|%2|%3|%4|Legacy engine: %5|New engine: %6</source>
-          <target>%1| %2| %3| %4|Moteur hérité : %5|Nouveau moteur : 6 %</target>
+          <target>%1| %2| %3| %4|Moteur hérité : %5|Nouveau moteur : %6</target>
         </trans-unit>
         <trans-unit id="Report 894372007 - NamedType 1965298578" size-unit="char" translate="yes" xml:space="preserve">
           <source>RUNTIME ERROR - %1 %2 | AsOfDate: %3 | Engine: %4</source>
-          <target>ERREUR D’EXÉCUTION - %1 %2 | AsOfDate : %3 | Moteur : 4 %</target>
+          <target>ERREUR D’EXÉCUTION - %1 %2 | AsOfDate : %3 | Moteur : %4</target>
         </trans-unit>
         <trans-unit id="Report 894372007 - NamedType 2665812526" size-unit="char" translate="yes" xml:space="preserve">
           <source>TOTAL CUSTOMER - Records: %1 | Analyses in error: %2 | Legacy engine total time: %3 | New engine total time: %4</source>
-          <target>CLIENT TOTAL - Records : 1 % | Analyses erronées : %2 | Temps total du moteur hérité : 3 % | Temps total du nouveau moteur : 4 %</target>
+          <target>CLIENT TOTAL - Records : %1 | Analyses erronées : %2 | Temps total du moteur hérité : %3 | Temps total du nouveau moteur : %4</target>
         </trans-unit>
         <trans-unit id="Report 894372007 - NamedType 3987048488" size-unit="char" translate="yes" xml:space="preserve">
           <source>Checked %1 record(s), found %2 error(s).\Do you want to download the debug ZIP file?</source>
-          <target>J’ai vérifié un ou plusieurs enregistrements 1 %, trouvé une ou deux erreurs de 2 %. Voulez-vous télécharger le fichier ZIP de débogage ?</target>
+          <target>J’ai vérifié un ou plusieurs enregistrements %1, trouvé une ou deux erreurs de %2. Voulez-vous télécharger le fichier ZIP de débogage ?</target>
         </trans-unit>
         <trans-unit id="Report 894372007 - NamedType 1083767046" size-unit="char" translate="yes" xml:space="preserve">
           <source>TOTAL VENDOR - Records: %1 | Analyses in error: %2 | Legacy engine total time: %3 | New engine total time: %4</source>
-          <target>FOURNISSEUR TOTAL - Records : 1 % | Analyses erronées : %2 | Temps total du moteur hérité : 3 % | Temps total du nouveau moteur : 4 %</target>
+          <target>FOURNISSEUR TOTAL - Records : %1 | Analyses erronées : %2 | Temps total du moteur hérité : %3 | Temps total du nouveau moteur : %4</target>
         </trans-unit>
         <trans-unit id="Report 894372007 - NamedType 1994267353" size-unit="char" translate="yes" xml:space="preserve">
           <source>Comparing legacy and new aging engines...\Source           #1######################\No.              #2######################\Analyses done    #3######################</source>
-          <target>Comparaison des moteurs anciens et des nouveaux moteurs vieillissants...\Source #1######################\Non.              #2######################\Analyses réalisées #3######################</target>
+          <target>Comparaison du moteur Legacy et du nouveau moteur...\Source #1######################\Non.              #2######################\Analyses réalisées #3######################</target>
         </trans-unit>
         <trans-unit id="Report 894372007 - Control 1902034219 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the maximum number of customer records to compare. Customers are selected in descending order of their number of ledger entries. The default value is 100.</source>
