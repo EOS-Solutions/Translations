@@ -18,8 +18,9 @@ These XLIFF files can be opened and modified with specific XLIFF editors.
 * Others can use, for example, Microsoft ***Multilingual App Toolkit Editor*** ( ["Multilingual app toolkit 4.0 Editor"](https://developer.microsoft.com/en-us/windows/downloads/multilingual-app-toolkit/) ) or any other compatible Xliff Editor.
 
 There are some official master branches in this repository. So you can find:
-- master-bc25 (Business Central 2024 Wave 2)
-- master-bc26 (Business Central 2025 Wave 1)
+- master-bc27 (Business Central 2025 Wave 2)
+- master-bc28 (Business Central 2026 Wave 1)
+- master-bc29 (Business Central 2026 Wave 2)
 
 No pure "master" branch is present/used!
 
