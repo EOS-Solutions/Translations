@@ -3,6 +3,16 @@
   <file datatype="xml" source-language="en-US" target-language="en-AU" original="Banking common library">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 4168556342 - Method 4220182027 - NamedType 4072468124" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line %1 relates to a bank ledger entry that isn't fully reconciled. Carefully review the entry before proceeding. Partial applications can make your financial records inaccurate, so they aren't recommended.\\Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2">%1 - Statement Line No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS01601 Event Subs. - Method HandleFCYReconciliation - NamedType PartialApplicationBankLedgerEntryQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4168556342 - Method 4220182027 - NamedType 1493460312" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must apply the excessive amount of %1 %2 manually.</source>
+          <note from="Developer" annotates="general" priority="2">%1 a decimal number, %2 currency code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS01601 Event Subs. - Method HandleFCYReconciliation - NamedType ExcessiveAmtErr</note>
+        </trans-unit>
         <trans-unit id="Page 200454028 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
           <source>New,Process,Report,Navigate,Open Banking,EBR</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -228,6 +238,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060300 - Control EOS016.01 Statement Line No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 372712569 - Control 2062082669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3093572853">
+          <source>Specifies the currency code used to convert the statement amount to local currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060300 - Control EOS016.01 Currency Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 372712569 - Control 2132120932 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3093572853">
+          <source>Specifies the exchange rate used to convert the statement amount to local currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060300 - Control EOS016.01 Exchange rate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 372712569 - Control 4171850818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3093572853">
+          <source>Specifies the statement amount in local currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060300 - Control EOS016.01 Statement Amount LCY - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1010409186 - Action 791541754 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
           <source>Executes the "Posted Payment Reconciliations" action</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -287,6 +312,21 @@
           <source>Specifies the value date of the transaction on the bank reconciliation line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060302 - Control EOS016.01 Value Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3392286631 - Control 2062082669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Specifies the currency code used to convert the statement amount to local currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060302 - Control EOS016.01 Currency Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3392286631 - Control 2132120932 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Specifies the exchange rate used to convert the statement amount to local currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060302 - Control EOS016.01 Exchange rate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3392286631 - Control 4171850818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Specifies the statement amount in local currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060302 - Control EOS016.01 Statement Amount LCY - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3392286631 - Control 416595982 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
           <source>Specifies the data exchange entry number.</source>
@@ -362,6 +402,46 @@
           <source>Posting Date Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060303 - Control EOS016.01 PostingDateFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4029983248 - Control 1505537984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3785228364">
+          <source>Specifies the amount that remains to be paid for the open entry after you have posted the payment in the Payment Reconciliation Journal window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060303 - Control EOS01601 RemainingAmountAfterPosting (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4029983248 - Control 1505537984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3785228364">
+          <source>Remaining Amount After Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060303 - Control EOS01601 RemainingAmountAfterPosting (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4029983248 - Control 614114267 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3785228364">
+          <source>Specifies the applied amount in local currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060303 - Control EOS01601 Applied Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4029983248 - Control 614114267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3785228364">
+          <source>Applied Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060303 - Control EOS01601 Applied Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4029983248 - Control 3791722560 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3785228364">
+          <source>Specifies the value of the Bank Receipt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060303 - Control EOS016 Bank Receipt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4029983248 - Control 899607251 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3785228364">
+          <source>Specifies the value of the Bank Receipt Issued field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060303 - Control EOS016 Bank Receipt Issued - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4029983248 - Control 3778954514 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3785228364">
+          <source>Specifies the value of the Document Occurrence field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060303 - Control EOS016 Document Occurrence - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4029983248 - Change 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3785228364">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060303 - Change Currency Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2923499037 - NamedType 971919354" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2923499037">
           <source>No bank statement lines exist. Choose the Suggest Lines action to fill in the lines, or enter lines manually.</source>
@@ -463,6 +543,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18060309 - Control EOS016.01 Related-Party Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 409714829 - Field 2062082669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2110786292">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060301 - Field EOS016.01 Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 409714829 - Field 2132120932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2110786292">
+          <source>Exchange rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060301 - Field EOS016.01 Exchange rate - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 409714829 - Field 728115148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2110786292">
           <source>Posted Document No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -482,6 +572,11 @@
           <source>EBR/OBN Source Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060301 - Field EOS016.01 Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 409714829 - Field 4171850818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2110786292">
+          <source>Statement Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060301 - Field EOS016.01 Statement Amount LCY - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 4066985508 - Field 416595982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3012722930">
           <source>Data Exch. Entry No.</source>
@@ -572,6 +667,66 @@
           <source>Apply Manually Disable Suggestions cannot be enabled when Enable Advanced Match is enabled.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060310 - Change Apply Man. Disable Suggestions - Method OnAfterValidate - NamedType Err</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2497908878 - Field 3791722560 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Bank Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060311 - Field EOS016 Bank Receipt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2497908878 - Field 899607251 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Bank Receipt Issued</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060311 - Field EOS016 Bank Receipt Issued - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2497908878 - Field 3778954514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Document Occurrence</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060311 - Field EOS016 Document Occurrence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2497908878 - Field 1149897418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Specifies how the payment were submitted, such as bank transfer or check.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060311 - Field EOS016 Payment Method Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2497908878 - Field 1149897418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Payment Method Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060311 - Field EOS016 Payment Method Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2497908878 - Field 2522694582 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Specifies the bank account to transfer the amount to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060311 - Field EOS016 Recipient Bank Account - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2497908878 - Field 2522694582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Recipient Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060311 - Field EOS016 Recipient Bank Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2497908878 - Field 3653723275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Specifies the amount that remains to be paid for the open entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060311 - Field EOS016 Remaining Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2497908878 - Field 3653723275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Remaining Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060311 - Field EOS016 Remaining Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2497908878 - Field 614114267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1438708160">
+          <source>Applied Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060311 - Field EOS01601 Applied Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 584819027 - Field 614114267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2260635973">
+          <source>Applied Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060312 - Field EOS01601 Applied Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 584819027 - Change 3604283091 - Method 3059879501 - NamedType 3594519002" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 584819027">
+          <source>It is possible to link only currency movements of type %1 or %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18060312 - Change Applied Amount - Method OnAfterValidate - NamedType CurrencyMismatchErr</note>
         </trans-unit>
         <trans-unit id="TableExtension 2319680022 - Field 1809845137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2452438108">
           <source>Data Exch Type</source>
