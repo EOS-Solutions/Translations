@@ -2913,6 +2913,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Journal Batch - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3861120747 - NamedType 574683721" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be used</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Journal Batch - NamedType NoSeriesErr</note>
+        </trans-unit>
         <trans-unit id="Table 3861120747 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
           <source>must not be %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6082,6 +6087,11 @@
           <source>The selection filter is too long. The maximum length is %1 characters.</source>
           <note from="Developer" annotates="general" priority="2">Displayed when the selection filter returned from dimension value list page is too long to fit in the field.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Allocation Management - Method LookupDimNew - NamedType SelectionFilterErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1152859907 - NamedType 3011967044" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Function %1 not managed</source>
+          <note from="Developer" annotates="general" priority="2">%1 function name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Driver Calc. - NamedType FunctionNameErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1152859907 - NamedType 2316870939" size-unit="char" translate="yes" xml:space="preserve">
           <source>can be used only if %1 is equal to global dimension 1 or 2 in %2.</source>
@@ -9887,6 +9897,11 @@
           <source>Specifies a brief description of the journal batch you are creating.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/A Journal Batches - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 3007341128 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the journal batch should be deleted after posting.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/A Journal Batches - Control EOS Delete after Posting - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2612414225 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the journal you are creating.</source>
@@ -14663,26 +14678,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Analysis View Entry EXT - Field EOS CA Entry - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2316993817 - Method 2300192393 - NamedType 16697238" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2316993817">
-          <source>The update has been interrupted in response to the warning.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Analysis View EXT - Method ValidateEMAModify - NamedType Text013Err</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2316993817 - Method 2300192393 - NamedType 2258290258" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2316993817">
-          <source>If you change the contents of the %1 field, the analysis view entries will be changed as well.\\</source>
-          <note from="Developer" annotates="general" priority="2">%1 = FieldName</note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Analysis View EXT - Method ValidateEMAModify - NamedType Text014Qst</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2316993817 - Method 2300192393 - NamedType 371091425" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2316993817">
-          <source>Do you want to enter a new value in the %1 field?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = FieldName</note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Analysis View EXT - Method ValidateEMAModify - NamedType Text015Qst</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2316993817 - Method 4118242957 - NamedType 225200001" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2316993817">
-          <source>%1 is not applicable for source type %2.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = FIELDCAPTION("Update on Posting") ; %2 = "Account Source"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Analysis View EXT - Method VerificationForEMA - NamedType Text016Err</note>
-        </trans-unit>
         <trans-unit id="TableExtension 2316993817 - Field 2815389228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2416796065">
           <source>EOS Account Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -14932,6 +14927,11 @@
           <source>EMA-C/A</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS EnumExtension18006630 - EnumValue EMA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2326002882 - EnumValue 2921457800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1037990914">
+          <source>C/A Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS023 Analysis Account Source - EnumValue EOS023 C/A Account - Property Caption</note>
         </trans-unit>
       </group>
     </body>
