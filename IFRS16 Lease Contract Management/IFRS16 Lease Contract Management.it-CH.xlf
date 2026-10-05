@@ -4,7 +4,7 @@
     <body>
       <group id="body">
         <trans-unit id="Table 149136754 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amortization Schedule Calculation</source>
+          <source>Depreciation Schedule Calculation</source>
           <target>Calcolo Piano Ammortamento</target>
         </trans-unit>
         <trans-unit id="Table 149136754 - Field 37613583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -16,7 +16,7 @@
           <target>Righe Contratto Chiuse</target>
         </trans-unit>
         <trans-unit id="Table 149136754 - Field 1610154708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates whether this calculation record represents an initial deposit payment. Deposits are treated differently in the amortization schedule.</source>
+          <source>Indicates whether this calculation record represents an initial deposit payment. Deposits are treated differently in the depreciation schedule.</source>
           <target>Indica se questo record di calcolo rappresenta un pagamento di deposito iniziale. I depositi vengono trattati diversamente nel piano di ammortamento.</target>
         </trans-unit>
         <trans-unit id="Table 149136754 - Field 2888449240 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -112,7 +112,7 @@
           <target>Tasso Interesse Finanziario</target>
         </trans-unit>
         <trans-unit id="Table 1949875601 - Field 4022444497 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the amortization schedule and the number of installments.</source>
+          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the depreciation schedule and the number of installments.</source>
           <target>Specifica la frequenza dei pagamenti del leasing (es. Mensile, Trimestrale). Influisce sul calcolo del piano di ammortamento e sul numero di rate.</target>
         </trans-unit>
         <trans-unit id="Table 1949875601 - Field 4022444497 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -136,7 +136,7 @@
           <target>Data Firma</target>
         </trans-unit>
         <trans-unit id="Table 1949875601 - Field 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the amortization schedule and depreciation start date of the right-of-use asset.</source>
+          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the depreciation schedule and depreciation start date of the right-of-use asset.</source>
           <target>Specifica la data in cui il contratto di leasing diventa effettivo. Questa data viene utilizzata per calcolare il piano di ammortamento e la data di inizio ammortamento del bene Diritto d'Uso.</target>
         </trans-unit>
         <trans-unit id="Table 1949875601 - Field 460889064 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -154,6 +154,11 @@
         <trans-unit id="Table 2166817962 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Leasing Contract Line</source>
           <target>Riga Contratto Leasing</target>
+        </trans-unit>
+        <trans-unit id="Table 2166817962 - NamedType 2859408479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accrual template %1 does not exist.</source><target>Il modello ratei %1 non esiste.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = template code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - NamedType AccrualTemplateNotFoundErr</note>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Method 3152277940 - NamedType 3941846598" translate="yes" size-unit="char" xml:space="preserve">
           <source>Installment %1 object %2 is in document %3 line %4, delete document line before deleting contract line</source>
@@ -188,7 +193,7 @@
           <target>Modello Ratei</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 1478617252 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates whether the amortization schedule values have been calculated for this installment. Enable this after completing the calculation.</source>
+          <source>Indicates whether the depreciation schedule values have been calculated for this installment. Enable this after completing the calculation.</source>
           <target>Indica se i valori del piano di ammortamento sono stati calcolati per questa rata. Abilitare dopo aver completato il calcolo.</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 1478617252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -196,7 +201,7 @@
           <target>Calcolato</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 3218326984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the amortization schedule calculation record that generated this installment line.</source>
+          <source>Specifies the depreciation schedule calculation record that generated this installment line.</source>
           <target>Specifica il record di calcolo del piano di ammortamento che ha generato questa riga rata.</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 3218326984 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -252,7 +257,7 @@
           <target>Specifica l'ammortamento accumulato del bene Diritto d'Uso calcolato per il reporting IFRS16.</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 1687582741 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amortization Right Of Use</source>
+          <source>Depreciation Right Of Use</source>
           <target>Ammortamento Diritto d'Uso</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 3322554545 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -744,7 +749,7 @@
           <target>Template Ratei Leasing</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Calculate Amortization Schedule (LCM)</source>
+          <source>Calculate Depreciation Schedule (LCM)</source>
           <target>Calcola Piano Ammortamento (LCM)</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Control 1447994436 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -788,7 +793,7 @@
           <target>Specifica la data in cui il deposito o la rata è dovuta per il pagamento.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Control 3806865217 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the periodic installment amount to be paid for this entry in the amortization schedule.</source>
+          <source>Specifies the periodic installment amount to be paid for this entry in the depreciation schedule.</source>
           <target>Specifica l'importo periodico della rata da pagare per questa voce nel piano di ammortamento.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Control 440787705 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -796,11 +801,11 @@
           <target>Specifica l'importo del riscatto finale (opzione di acquisto) da pagare al termine del leasing per acquisire il bene.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Control 332025938 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the total number of installments in the amortization schedule.</source>
+          <source>Specifies the total number of installments in the depreciation schedule.</source>
           <target>Specifica il numero totale di rate nel piano di ammortamento.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3981954561 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Inserts a new amortization schedule line above the currently selected line.</source>
+          <source>Inserts a new depreciation schedule line above the currently selected line.</source>
           <target>Inserisce una nuova riga del piano di ammortamento sopra la riga attualmente selezionata.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3981954561 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -808,7 +813,7 @@
           <target>Inserisci Riga Sopra Riga Corrente</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3016261533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Inserts a new amortization schedule line below the currently selected line.</source>
+          <source>Inserts a new depreciation schedule line below the currently selected line.</source>
           <target>Inserisce una nuova riga del piano di ammortamento sotto la riga attualmente selezionata.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3016261533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -816,7 +821,7 @@
           <target>Inserisci Riga Sotto Riga Corrente</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3837123645 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Creates leasing contract lines from the calculated amortization schedule entries.</source>
+          <source>Creates leasing contract lines from the calculated depreciation schedule entries.</source>
           <target>Crea le righe del contratto di leasing dalle voci del piano di ammortamento calcolato.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3837123645 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -968,7 +973,7 @@
           <target>Indica se questa rata rappresenta un pagamento di deposito iniziale.</target>
         </trans-unit>
         <trans-unit id="Page 1247534022 - Control 1478617252 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates whether the amortization schedule values have been calculated for this installment.</source>
+          <source>Indicates whether the depreciation schedule values have been calculated for this installment.</source>
           <target>Indica se i valori del piano di ammortamento sono stati calcolati per questa rata.</target>
         </trans-unit>
         <trans-unit id="Page 1247534022 - Control 1778072510 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -992,7 +997,7 @@
           <target>Specifica l'ammortamento accumulato del bene Diritto d'Uso.</target>
         </trans-unit>
         <trans-unit id="Page 1247534022 - Control 2069218468 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the period number used for discounting calculations in the IFRS16 amortization schedule.</source>
+          <source>Specifies the period number used for discounting calculations in the IFRS16 depreciation schedule.</source>
           <target>Specifica il numero di periodo utilizzato per i calcoli di attualizzazione nel piano di ammortamento IFRS16.</target>
         </trans-unit>
         <trans-unit id="Page 1247534022 - Control 2276348708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1164,11 +1169,11 @@
           <target>Specifica il tasso di interesse finanziario utilizzato per i calcoli OIC (principi contabili italiani).</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Control 3916079786 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the amortization schedule.</source>
+          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the depreciation schedule.</source>
           <target>Specifica la frequenza dei pagamenti del leasing (es. Mensile, Trimestrale). Influisce sul calcolo del piano di ammortamento.</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Control 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the amortization schedule and depreciation start date.</source>
+          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the depreciation schedule and depreciation start date.</source>
           <target>Specifica la data in cui il contratto di leasing diventa effettivo. Questa data viene utilizzata per calcolare il piano di ammortamento e la data di inizio ammortamento.</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Control 1527594213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1184,11 +1189,11 @@
           <target>Associa Beni</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Action 2718028342 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens the amortization schedule calculation page to define installment parameters and generate the payment schedule for this contract.</source>
+          <source>Opens the depreciation schedule calculation page to define installment parameters and generate the payment schedule for this contract.</source>
           <target>Apre la pagina di calcolo del piano di ammortamento per definire i parametri delle rate e generare il piano di pagamento per questo contratto.</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Action 2718028342 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Calculate Amortization Schedule</source>
+          <source>Calculate Depreciation Schedule</source>
           <target>Calcola Piano Ammortamento</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Action 2105176626 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1280,7 +1285,7 @@
           <target>Specifica la data in cui il contratto di leasing è stato ufficialmente firmato. Questa data viene utilizzata per il tracciamento e il reporting dei contratti.</target>
         </trans-unit>
         <trans-unit id="Page 1349709379 - Control 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the amortization schedule.</source>
+          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the depreciation schedule.</source>
           <target>Specifica la data in cui il contratto di leasing diventa effettivo. Questa data viene utilizzata per calcolare il piano di ammortamento.</target>
         </trans-unit>
         <trans-unit id="Page 1349709379 - Control 1527594213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1392,12 +1397,12 @@
           <target>Questa procedura ridurrà il debito dei contratti di leasing all'interno dei filtri selezionati.</target>
         </trans-unit>
         <trans-unit id="Report 397808025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Detect IFRS16</source>
-          <target>Rileva IFRS16</target>
+          <source>Detect IFRS16 (LCM)</source>
+          <target>Rileva IFRS16 (LCM)</target>
         </trans-unit>
         <trans-unit id="Report 3191247836 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Detect Interest</source>
-          <target>Rileva Interessi</target>
+          <source>Detect Interest (LCM)</source>
+          <target>Rileva Interessi (LCM)</target>
         </trans-unit>
         <trans-unit id="Report 3191247836 - NamedType 857054006" translate="yes" size-unit="char" xml:space="preserve">
           <source>Elaboration record #1#####/#2#####</source>
@@ -1495,18 +1500,6 @@
           <source>Get Leasing Installments</source>
           <target>Prendi righe contratto leasing</target>
         </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 3191200485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies additional notes or references related to the contract for this purchase line.</source>
-          <target>Specifica note aggiuntive o riferimenti relativi al contratto per questa riga acquisto.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1300691687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the intercompany document line number for this purchase line.</source>
-          <target>Specifica il numero riga documento intercompany per questa riga acquisto.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1457780839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the installment number reference for this purchase line.</source>
-          <target>Specifica il riferimento al numero rata per questa riga acquisto.</target>
-        </trans-unit>
         <trans-unit id="TableExtension 2341799916 - Field 138206522 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the leased good number associated with this purchase line.</source>
           <target>Specifica il numero del bene in leasing associato a questa riga acquisto.</target>
@@ -1519,18 +1512,6 @@
           <source>Specifies the internal leasing contract number that this purchase line is linked to.</source>
           <target>Specifica il numero di contratto di leasing interno a cui è collegata questa riga acquisto.</target>
         </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 3191200485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies additional notes or references related to the contract for this receipt line.</source>
-          <target>Specifica note aggiuntive o riferimenti relativi al contratto per questa riga carico.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1300691687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the intercompany document line number for this receipt line.</source>
-          <target>Specifica il numero riga documento intercompany per questa riga carico.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1457780839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the installment number reference for this receipt line.</source>
-          <target>Specifica il riferimento al numero rata per questa riga carico.</target>
-        </trans-unit>
         <trans-unit id="TableExtension 3448284127 - Field 138206522 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the leased good number associated with this receipt line.</source>
           <target>Specifica il numero del bene in leasing associato a questa riga carico.</target>
@@ -1542,54 +1523,6 @@
         <trans-unit id="TableExtension 3448284127 - Field 2900457422 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the internal leasing contract number that this receipt line is linked to.</source>
           <target>Specifica il numero di contratto di leasing interno a cui è collegata questa riga carico.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1067217986 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the number of days used in compute lines calculation.</source>
-          <target>Specifica il numero di giorni utilizzato nel calcolo delle righe di calcolo.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 2441095785 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the run group for compute lines processing.</source>
-          <target>Specifica il gruppo di esecuzione per l'elaborazione delle righe di calcolo.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 3191200485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies additional notes or references related to the contract for this invoice line.</source>
-          <target>Specifica note aggiuntive o riferimenti relativi al contratto per questa riga fattura.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 3191200485 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Contract Note</source>
-          <target>Nota Contratto</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1107603981 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether this line originated from a master company in intercompany processing.</source>
-          <target>Specifica se questa riga ha avuto origine da una società master nell'elaborazione intercompany.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1107603981 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Master</source>
-          <target>Da Master</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1300691687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the intercompany document line number for this invoice line.</source>
-          <target>Specifica il numero riga documento intercompany per questa riga fattura.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1300691687 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>IC Document Line No.</source>
-          <target>Nr. Riga Documento IC</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 2140721241 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether this intercompany line has been processed.</source>
-          <target>Specifica se questa riga intercompany è stata elaborata.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 2140721241 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>IC Line Processed</source>
-          <target>Riga IC Elaborata</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1457780839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the installment number reference for this invoice line.</source>
-          <target>Specifica il riferimento al numero rata per questa riga fattura.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1457780839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Installment No.</source>
-          <target>Nr. Rata</target>
         </trans-unit>
         <trans-unit id="TableExtension 4085980744 - Field 138206522 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the leased good number associated with this invoice line.</source>
@@ -1775,6 +1708,11 @@
           <source>Specifies the unique key of this setup record. Only one setup record is allowed per company.</source>
           <target>Specifica la chiave univoca di questo record di configurazione. È consentito un solo record di configurazione per società.</target>
         </trans-unit>
+        <trans-unit id="Table 3400781783 - NamedType 2859408479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accrual template %1 does not exist.</source><target>Il modello ratei %1 non esiste.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = template code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Setup - NamedType AccrualTemplateNotFoundErr</note>
+        </trans-unit>
         <trans-unit id="Table 3400781783 - Field 2800230425 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the general journal template used to post periodic leasing detection entries, including interest accruals on the lease liability and principal repayment (debt reduction).</source>
           <target>Specifica il modello di giornale generale utilizzato per registrare le voci di rilevamento periodico del leasing, incluso l'accumulo di interessi sulla Passività di Leasing e il rimborso principale (riduzione del debito).</target>
@@ -1894,7 +1832,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Contract Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 2069218468 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the period number used for discounting calculations in the IFRS16 amortization schedule.</source><target>Specifica il numero di periodo utilizzato per i calcoli di attualizzazione nel piano di ammortamento IFRS16.</target>
+          <source>Specifies the period number used for discounting calculations in the IFRS16 depreciation schedule.</source><target>Specifica il numero di periodo utilizzato per i calcoli di attualizzazione nel piano di ammortamento IFRS16.</target>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Discount Period - Property ToolTip</note>
         </trans-unit>
@@ -2069,7 +2007,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Goods Card - Control Leasing Contract No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3033480257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Debt Reduction</source><target>Riduzione Debito</target>
+          <source>Debt Reduction (LCM)</source><target>Riduzione Debito (LCM)</target>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Debt Reduction - Property Caption</note>
         </trans-unit>
@@ -2173,51 +2111,6 @@
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624190 - Field EOS Leasing Good No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1067217986 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Specifies the number of days used in compute lines calculation.</source><target>Specifica il numero di giorni utilizzato nel calcolo delle righe di calcolo.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS ComputeLines Days - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 2441095785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Specifies the run group for compute lines processing.</source><target>Specifica il gruppo di esecuzione per l'elaborazione delle righe di calcolo.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS ComputeLines Run Group - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 3191200485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Contract Note</source><target>Nota Contratto</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS Contract Note - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1107603981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Specifies whether this line originated from a master company in intercompany processing.</source><target>Specifica se questa riga ha avuto origine da una società master nell'elaborazione intercompany.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS From Master - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1107603981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>From Master</source><target>Da Master</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS From Master - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1300691687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>IC Document Line No.</source><target>Nr. Riga Documento IC</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS IC Document Line No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 2140721241 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Specifies whether this intercompany line has been processed.</source><target>Specifica se questa riga intercompany è stata elaborata.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS IC Line Processed - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 2140721241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>IC Line Processed</source><target>Riga IC Elaborata</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS IC Line Processed - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1457780839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Installment No.</source><target>Nr. Rata</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS Installment No. - Property Caption</note>
-        </trans-unit>
         <trans-unit id="TableExtension 2341799916 - Field 138206522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
           <source>Leasing Good No.</source><target>Nr. Bene Leasing</target>
           <note from="Developer" annotates="general" priority="2" />
@@ -2257,51 +2150,6 @@
           <source>Leasing Good No.</source><target>Nr. Bene Leasing</target>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624193 - Field EOS Leasing Good No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1067217986 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Specifies the number of days used in compute lines calculation.</source><target>Specifica il numero di giorni utilizzato nel calcolo delle righe di calcolo.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS ComputeLines Days - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 2441095785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Specifies the run group for compute lines processing.</source><target>Specifica il gruppo di esecuzione per l'elaborazione delle righe di calcolo.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS ComputeLines Run Group - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 3191200485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Contract Note</source><target>Nota Contratto</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS Contract Note - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1107603981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Specifies whether this line originated from a master company in intercompany processing.</source><target>Specifica se questa riga ha avuto origine da una società master nell'elaborazione intercompany.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS From Master - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1107603981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>From Master</source><target>Da Master</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS From Master - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1300691687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>IC Document Line No.</source><target>Nr. Riga Documento IC</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS IC Document Line No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 2140721241 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Specifies whether this intercompany line has been processed.</source><target>Specifica se questa riga intercompany è stata elaborata.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS IC Line Processed - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 2140721241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>IC Line Processed</source><target>Riga IC Elaborata</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS IC Line Processed - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1457780839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Installment No.</source><target>Nr. Rata</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS Installment No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3448284127 - Field 138206522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
           <source>Leasing Good No.</source><target>Nr. Bene Leasing</target>
@@ -2384,7 +2232,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624199 - Field EOS Leasing Int. Contr. No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 1546295000 - Method 2812497580 - NamedType 438754554" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There are no amortization schedule calculation lines for contract %1. Add at least one row on the Calculate Amortization Schedule page before generating the contract lines.</source>
+          <source>There are no depreciation schedule calculation lines for contract %1. Add at least one row on the Calculate Depreciation Schedule page before generating the contract lines.</source>
           <target>Non sono presenti righe di calcolo del piano di ammortamento per il contratto %1. Aggiungere almeno una riga nella pagina Calcola Piano di Ammortamento prima di generare le righe contratto.</target>
         </trans-unit>
         <trans-unit id="Codeunit 756161383 - Method 2105176626 - NamedType 1026621132" size-unit="char" translate="yes" xml:space="preserve">

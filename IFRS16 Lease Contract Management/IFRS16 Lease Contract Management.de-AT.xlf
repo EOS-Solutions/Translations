@@ -4,7 +4,7 @@
     <body>
       <group id="body">
         <trans-unit id="Table 149136754 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amortization Schedule Calculation</source>
+          <source>Depreciation Schedule Calculation</source>
           <target>Tilgungsplanberechnung</target>
         </trans-unit>
         <trans-unit id="Table 149136754 - Field 37613583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -16,7 +16,7 @@
           <target>Abgeschlossene Vertragszeilen</target>
         </trans-unit>
         <trans-unit id="Table 149136754 - Field 1610154708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates whether this calculation record represents an initial deposit payment. Deposits are treated differently in the amortization schedule.</source>
+          <source>Indicates whether this calculation record represents an initial deposit payment. Deposits are treated differently in the depreciation schedule.</source>
           <target>Gibt an, ob dieser Berechnungsdatensatz eine Anzahlung darstellt. Anzahlungen werden im Tilgungsplan anders behandelt.</target>
         </trans-unit>
         <trans-unit id="Table 149136754 - Field 2888449240 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -112,7 +112,7 @@
           <target>Finanzierungszinssatz</target>
         </trans-unit>
         <trans-unit id="Table 1949875601 - Field 4022444497 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the amortization schedule and the number of installments.</source>
+          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the depreciation schedule and the number of installments.</source>
           <target>Gibt an, wie oft Leasingzahlungen erfolgen (z.B. Monatlich, Vierteljährlich). Dies beeinflusst die Berechnung des Tilgungsplans und die Anzahl der Raten.</target>
         </trans-unit>
         <trans-unit id="Table 1949875601 - Field 4022444497 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -136,7 +136,7 @@
           <target>Unterschriftsdatum</target>
         </trans-unit>
         <trans-unit id="Table 1949875601 - Field 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the amortization schedule and depreciation start date of the right-of-use asset.</source>
+          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the depreciation schedule and depreciation start date of the right-of-use asset.</source>
           <target>Gibt das Datum an, an dem der Leasingvertrag wirksam wird. Dieses Datum wird zur Berechnung des Tilgungsplans und des Abschreibungsstartdatums des Nutzungsrechts verwendet.</target>
         </trans-unit>
         <trans-unit id="Table 1949875601 - Field 460889064 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -154,6 +154,11 @@
         <trans-unit id="Table 2166817962 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Leasing Contract Line</source>
           <target>Leasingvertragszeile</target>
+        </trans-unit>
+        <trans-unit id="Table 2166817962 - NamedType 2859408479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accrual template %1 does not exist.</source><target>Die Abgrenzungsvorlage %1 ist nicht vorhanden.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = template code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - NamedType AccrualTemplateNotFoundErr</note>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Method 3152277940 - NamedType 3941846598" translate="yes" size-unit="char" xml:space="preserve">
           <source>Installment %1 object %2 is in document %3 line %4, delete document line before deleting contract line</source>
@@ -188,7 +193,7 @@
           <target>Abgrenzungsvorlage</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 1478617252 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates whether the amortization schedule values have been calculated for this installment. Enable this after completing the calculation.</source>
+          <source>Indicates whether the depreciation schedule values have been calculated for this installment. Enable this after completing the calculation.</source>
           <target>Gibt an, ob die Tilgungsplanwerte für diese Rate berechnet wurden. Aktivieren Sie diese Option nach Abschluss der Berechnung.</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 1478617252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -196,7 +201,7 @@
           <target>Berechnet</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 3218326984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the amortization schedule calculation record that generated this installment line.</source>
+          <source>Specifies the depreciation schedule calculation record that generated this installment line.</source>
           <target>Gibt den Tilgungsplan-Berechnungsdatensatz an, der diese Ratenzeile generiert hat.</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 3218326984 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -252,7 +257,7 @@
           <target>Gibt die kumulierte Abschreibung des Nutzungsrechts an, die für die IFRS16-Berichterstattung berechnet wurde.</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 1687582741 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amortization Right Of Use</source>
+          <source>Depreciation Right Of Use</source>
           <target>Abschreibung Nutzungsrecht</target>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 3322554545 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -744,7 +749,7 @@
           <target>Leasing-Abgrenzungsvorlage</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Calculate Amortization Schedule (LCM)</source>
+          <source>Calculate Depreciation Schedule (LCM)</source>
           <target>Tilgungsplan berechnen (LCM)</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Control 1447994436 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -788,7 +793,7 @@
           <target>Gibt das Datum an, an dem die Anzahlung oder Rate fällig ist.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Control 3806865217 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the periodic installment amount to be paid for this entry in the amortization schedule.</source>
+          <source>Specifies the periodic installment amount to be paid for this entry in the depreciation schedule.</source>
           <target>Gibt den periodischen Ratenbetrag an, der für diesen Eintrag im Tilgungsplan zu zahlen ist.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Control 440787705 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -796,11 +801,11 @@
           <target>Gibt den endgültigen Ablösebetrag (Kaufoption) an, der am Ende der Leasinglaufzeit zum Erwerb des Wirtschaftsguts zu zahlen ist.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Control 332025938 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the total number of installments in the amortization schedule.</source>
+          <source>Specifies the total number of installments in the depreciation schedule.</source>
           <target>Gibt die Gesamtzahl der Raten im Tilgungsplan an.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3981954561 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Inserts a new amortization schedule line above the currently selected line.</source>
+          <source>Inserts a new depreciation schedule line above the currently selected line.</source>
           <target>Fügt eine neue Tilgungsplanzeile oberhalb der aktuell ausgewählten Zeile ein.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3981954561 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -808,7 +813,7 @@
           <target>Zeile oberhalb der aktuellen Zeile einfügen</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3016261533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Inserts a new amortization schedule line below the currently selected line.</source>
+          <source>Inserts a new depreciation schedule line below the currently selected line.</source>
           <target>Fügt eine neue Tilgungsplanzeile unterhalb der aktuell ausgewählten Zeile ein.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3016261533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -816,7 +821,7 @@
           <target>Zeile unterhalb der aktuellen Zeile einfügen</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3837123645 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Creates leasing contract lines from the calculated amortization schedule entries.</source>
+          <source>Creates leasing contract lines from the calculated depreciation schedule entries.</source>
           <target>Erstellt Leasingvertragszeilen aus den berechneten Tilgungsplaneinträgen.</target>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3837123645 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -968,7 +973,7 @@
           <target>Gibt an, ob diese Rate eine anfängliche Anzahlung darstellt.</target>
         </trans-unit>
         <trans-unit id="Page 1247534022 - Control 1478617252 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicates whether the amortization schedule values have been calculated for this installment.</source>
+          <source>Indicates whether the depreciation schedule values have been calculated for this installment.</source>
           <target>Gibt an, ob die Tilgungsplanwerte für diese Rate berechnet wurden.</target>
         </trans-unit>
         <trans-unit id="Page 1247534022 - Control 1778072510 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -992,7 +997,7 @@
           <target>Gibt die kumulierte Abschreibung des Nutzungsrechts an.</target>
         </trans-unit>
         <trans-unit id="Page 1247534022 - Control 2069218468 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the period number used for discounting calculations in the IFRS16 amortization schedule.</source>
+          <source>Specifies the period number used for discounting calculations in the IFRS16 depreciation schedule.</source>
           <target>Gibt die Periodennummer für Abzinsungsberechnungen im IFRS16-Tilgungsplan an.</target>
         </trans-unit>
         <trans-unit id="Page 1247534022 - Control 2276348708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1164,11 +1169,11 @@
           <target>Gibt den für OIC-Berechnungen (italienischer Rechnungslegungsstandard) verwendeten Finanzierungszinssatz an.</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Control 3916079786 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the amortization schedule.</source>
+          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the depreciation schedule.</source>
           <target>Gibt an, wie oft Leasingzahlungen erfolgen (z.B. Monatlich, Vierteljährlich). Dies beeinflusst die Berechnung des Tilgungsplans.</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Control 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the amortization schedule and depreciation start date.</source>
+          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the depreciation schedule and depreciation start date.</source>
           <target>Gibt das Datum an, an dem der Leasingvertrag wirksam wird. Dieses Datum wird zur Berechnung des Tilgungsplans und Abschreibungsstartdatums verwendet.</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Control 1527594213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1184,11 +1189,11 @@
           <target>Güter zuordnen</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Action 2718028342 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens the amortization schedule calculation page to define installment parameters and generate the payment schedule for this contract.</source>
+          <source>Opens the depreciation schedule calculation page to define installment parameters and generate the payment schedule for this contract.</source>
           <target>Öffnet die Tilgungsplan-Berechnungsseite zur Definition von Ratenparametern und Generierung des Zahlungsplans für diesen Vertrag.</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Action 2718028342 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Calculate Amortization Schedule</source>
+          <source>Calculate Depreciation Schedule</source>
           <target>Tilgungsplan berechnen</target>
         </trans-unit>
         <trans-unit id="Page 380999352 - Action 2105176626 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1280,7 +1285,7 @@
           <target>Gibt das Datum an, an dem der Leasingvertrag offiziell unterzeichnet wurde. Dieses Datum wird für Vertragsverfolgung und Berichterstattung verwendet.</target>
         </trans-unit>
         <trans-unit id="Page 1349709379 - Control 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the amortization schedule.</source>
+          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the depreciation schedule.</source>
           <target>Gibt das Datum an, an dem der Leasingvertrag wirksam wird. Dieses Datum wird zur Berechnung des Tilgungsplans verwendet.</target>
         </trans-unit>
         <trans-unit id="Page 1349709379 - Control 1527594213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1392,12 +1397,12 @@
           <target>Dieses Verfahren reduziert die Schulden von Leasingverträgen innerhalb der ausgewählten Filter.</target>
         </trans-unit>
         <trans-unit id="Report 397808025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Detect IFRS16</source>
-          <target>IFRS16 erkennen</target>
+          <source>Detect IFRS16 (LCM)</source>
+          <target>IFRS16 erkennen (LCM)</target>
         </trans-unit>
         <trans-unit id="Report 3191247836 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Detect Interest</source>
-          <target>Zinsen erkennen</target>
+          <source>Detect Interest (LCM)</source>
+          <target>Zinsen erkennen (LCM)</target>
         </trans-unit>
         <trans-unit id="Report 3191247836 - NamedType 857054006" translate="yes" size-unit="char" xml:space="preserve">
           <source>Elaboration record #1#####/#2#####</source>
@@ -1495,18 +1500,6 @@
           <source>Get Leasing Installments</source>
           <target>Leasingraten abrufen</target>
         </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 3191200485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies additional notes or references related to the contract for this purchase line.</source>
-          <target>Gibt zusätzliche Notizen oder Verweise zum Vertrag für diese Einkaufszeile an.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1300691687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the intercompany document line number for this purchase line.</source>
-          <target>Gibt die Intercompany-Belegzeilennummer für diese Einkaufszeile an.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1457780839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the installment number reference for this purchase line.</source>
-          <target>Gibt die Ratennummer-Referenz für diese Einkaufszeile an.</target>
-        </trans-unit>
         <trans-unit id="TableExtension 2341799916 - Field 138206522 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the leased good number associated with this purchase line.</source>
           <target>Gibt die mit dieser Einkaufszeile verknüpfte Leasinggutnummer an.</target>
@@ -1519,18 +1512,6 @@
           <source>Specifies the internal leasing contract number that this purchase line is linked to.</source>
           <target>Gibt die interne Leasingvertragsnummer an, mit der diese Einkaufszeile verknüpft ist.</target>
         </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 3191200485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies additional notes or references related to the contract for this receipt line.</source>
-          <target>Gibt zusätzliche Notizen oder Verweise zum Vertrag für diese Wareneingangszeile an.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1300691687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the intercompany document line number for this receipt line.</source>
-          <target>Gibt die Intercompany-Belegzeilennummer für diese Wareneingangszeile an.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1457780839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the installment number reference for this receipt line.</source>
-          <target>Gibt die Ratennummer-Referenz für diese Wareneingangszeile an.</target>
-        </trans-unit>
         <trans-unit id="TableExtension 3448284127 - Field 138206522 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the leased good number associated with this receipt line.</source>
           <target>Gibt die mit dieser Wareneingangszeile verknüpfte Leasinggutnummer an.</target>
@@ -1542,54 +1523,6 @@
         <trans-unit id="TableExtension 3448284127 - Field 2900457422 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the internal leasing contract number that this receipt line is linked to.</source>
           <target>Gibt die interne Leasingvertragsnummer an, mit der diese Wareneingangszeile verknüpft ist.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1067217986 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the number of days used in compute lines calculation.</source>
-          <target>Gibt die Anzahl der Tage an, die bei der Zeilenberechnungsberechnung verwendet werden.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 2441095785 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the run group for compute lines processing.</source>
-          <target>Gibt die Ausführungsgruppe für die Zeilenberechnungsverarbeitung an.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 3191200485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies additional notes or references related to the contract for this invoice line.</source>
-          <target>Gibt zusätzliche Notizen oder Verweise zum Vertrag für diese Rechnungszeile an.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 3191200485 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Contract Note</source>
-          <target>Vertragsnotiz</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1107603981 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether this line originated from a master company in intercompany processing.</source>
-          <target>Gibt an, ob diese Zeile von einem Hauptmandanten bei der Intercompany-Verarbeitung stammt.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1107603981 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Master</source>
-          <target>Von Hauptmandant</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1300691687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the intercompany document line number for this invoice line.</source>
-          <target>Gibt die Intercompany-Belegzeilennummer für diese Rechnungszeile an.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1300691687 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>IC Document Line No.</source>
-          <target>IC-Belegzeilennr.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 2140721241 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether this intercompany line has been processed.</source>
-          <target>Gibt an, ob diese Intercompany-Zeile verarbeitet wurde.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 2140721241 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>IC Line Processed</source>
-          <target>IC-Zeile verarbeitet</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1457780839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the installment number reference for this invoice line.</source>
-          <target>Gibt die Ratennummer-Referenz für diese Rechnungszeile an.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 4085980744 - Field 1457780839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Installment No.</source>
-          <target>Ratennr.</target>
         </trans-unit>
         <trans-unit id="TableExtension 4085980744 - Field 138206522 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the leased good number associated with this invoice line.</source>
@@ -1779,6 +1712,11 @@
           <source>Specifies the general journal template used to post the IFRS 16 initial recognition entry, recording the Right-of-Use asset and the corresponding lease liability at contract commencement.</source>
           <target>Gibt an, welche Fibu Buch.-Blatt-Vorlage für die Erstmalige Erfassung des IFRS 16-Eintrags verwendet wird, um das Nutzungsrecht und die entsprechende Leasingverbindlichkeit beim Vertragsbeginn zu erfassen.</target>
         </trans-unit>
+        <trans-unit id="Table 3400781783 - NamedType 2859408479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accrual template %1 does not exist.</source><target>Die Abgrenzungsvorlage %1 ist nicht vorhanden.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = template code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Setup - NamedType AccrualTemplateNotFoundErr</note>
+        </trans-unit>
         <trans-unit id="Table 3400781783 - Field 2800230425 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the general journal template used to post periodic leasing detection entries, including interest accruals on the lease liability and principal repayment (debt reduction).</source>
           <target>Gibt an, welche Fibu Buch.-Blatt-Vorlage für periodische Leasing-Erkennungseinträge verwendet wird, einschließlich Zinsabgrenzung auf die Leasingverbindlichkeit und Schuldenreduzierung.</target>
@@ -1894,7 +1832,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Contract Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 2069218468 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the period number used for discounting calculations in the IFRS16 amortization schedule.</source><target>Gibt die Periodennummer für Abzinsungsberechnungen im IFRS16-Tilgungsplan an.</target>
+          <source>Specifies the period number used for discounting calculations in the IFRS16 depreciation schedule.</source><target>Gibt die Periodennummer für Abzinsungsberechnungen im IFRS16-Tilgungsplan an.</target>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Discount Period - Property ToolTip</note>
         </trans-unit>
@@ -2069,7 +2007,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Goods Card - Control Leasing Contract No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3033480257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Debt Reduction</source><target>Schuldenreduzierung</target>
+          <source>Debt Reduction (LCM)</source><target>Schuldenreduzierung (LCM)</target>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Debt Reduction - Property Caption</note>
         </trans-unit>
@@ -2173,51 +2111,6 @@
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624190 - Field EOS Leasing Good No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1067217986 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Specifies the number of days used in compute lines calculation.</source><target>Gibt die Anzahl der Tage an, die bei der Zeilenberechnungsberechnung verwendet werden.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS ComputeLines Days - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 2441095785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Specifies the run group for compute lines processing.</source><target>Gibt die Ausführungsgruppe für die Zeilenberechnungsverarbeitung an.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS ComputeLines Run Group - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 3191200485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Contract Note</source><target>Vertragsnotiz</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS Contract Note - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1107603981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Specifies whether this line originated from a master company in intercompany processing.</source><target>Gibt an, ob diese Zeile von einem Hauptmandanten bei der Intercompany-Verarbeitung stammt.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS From Master - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1107603981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>From Master</source><target>Von Hauptmandant</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS From Master - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1300691687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>IC Document Line No.</source><target>IC-Belegzeilennr.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS IC Document Line No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 2140721241 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Specifies whether this intercompany line has been processed.</source><target>Gibt an, ob diese Intercompany-Zeile verarbeitet wurde.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS IC Line Processed - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 2140721241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>IC Line Processed</source><target>IC-Zeile verarbeitet</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS IC Line Processed - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2341799916 - Field 1457780839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
-          <source>Installment No.</source><target>Ratennr.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624191 - Field EOS Installment No. - Property Caption</note>
-        </trans-unit>
         <trans-unit id="TableExtension 2341799916 - Field 138206522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
           <source>Leasing Good No.</source><target>Leasinggutnr.</target>
           <note from="Developer" annotates="general" priority="2" />
@@ -2257,51 +2150,6 @@
           <source>Leasing Good No.</source><target>Leasinggutnr.</target>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624193 - Field EOS Leasing Good No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1067217986 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Specifies the number of days used in compute lines calculation.</source><target>Gibt die Anzahl der Tage an, die bei der Zeilenberechnungsberechnung verwendet werden.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS ComputeLines Days - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 2441095785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Specifies the run group for compute lines processing.</source><target>Gibt die Ausführungsgruppe für die Zeilenberechnungsverarbeitung an.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS ComputeLines Run Group - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 3191200485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Contract Note</source><target>Vertragsnotiz</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS Contract Note - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1107603981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Specifies whether this line originated from a master company in intercompany processing.</source><target>Gibt an, ob diese Zeile von einem Hauptmandanten bei der Intercompany-Verarbeitung stammt.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS From Master - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1107603981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>From Master</source><target>Von Hauptmandant</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS From Master - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1300691687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>IC Document Line No.</source><target>IC-Belegzeilennr.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS IC Document Line No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 2140721241 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Specifies whether this intercompany line has been processed.</source><target>Gibt an, ob diese Intercompany-Zeile verarbeitet wurde.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS IC Line Processed - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 2140721241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>IC Line Processed</source><target>IC-Zeile verarbeitet</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS IC Line Processed - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3448284127 - Field 1457780839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
-          <source>Installment No.</source><target>Ratennr.</target>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624194 - Field EOS Installment No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3448284127 - Field 138206522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 959319265">
           <source>Leasing Good No.</source><target>Leasinggutnr.</target>
@@ -2384,7 +2232,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS tableExt70624199 - Field EOS Leasing Int. Contr. No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 1546295000 - Method 2812497580 - NamedType 438754554" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There are no amortization schedule calculation lines for contract %1. Add at least one row on the Calculate Amortization Schedule page before generating the contract lines.</source>
+          <source>There are no depreciation schedule calculation lines for contract %1. Add at least one row on the Calculate Depreciation Schedule page before generating the contract lines.</source>
           <target>Es sind keine Berechnungszeilen für den Tilgungsplan für Vertrag %1 vorhanden. Fügen Sie mindestens eine Zeile auf der Seite Tilgungsplan berechnen hinzu, bevor Sie die Vertragszeilen generieren.</target>
         </trans-unit>
         <trans-unit id="Codeunit 756161383 - Method 2105176626 - NamedType 1026621132" size-unit="char" translate="yes" xml:space="preserve">
