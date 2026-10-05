@@ -4,7 +4,7 @@
     <body>
       <group id="body">
         <trans-unit id="Table 149136754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Amortization Schedule Calculation</source>
+          <source>Depreciation Schedule Calculation</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Amort. Sched. Calc. - Property Caption</note>
         </trans-unit>
@@ -19,7 +19,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Amort. Sched. Calc. - Field Closed Contract Lines - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 149136754 - Field 1610154708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Indicates whether this calculation record represents an initial deposit payment. Deposits are treated differently in the amortization schedule.</source>
+          <source>Indicates whether this calculation record represents an initial deposit payment. Deposits are treated differently in the depreciation schedule.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Amort. Sched. Calc. - Field Deposit - Property ToolTip</note>
         </trans-unit>
@@ -199,7 +199,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Header - Field IFRS16 Detected - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1949875601 - Field 4022444497 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the amortization schedule and the number of installments.</source>
+          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the depreciation schedule and the number of installments.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Header - Field Installment Frequency - Property ToolTip</note>
         </trans-unit>
@@ -259,7 +259,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Header - Field Signature Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1949875601 - Field 460889064 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the amortization schedule and depreciation start date of the right-of-use asset.</source>
+          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the depreciation schedule and depreciation start date of the right-of-use asset.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Header - Field Starting Date - Property ToolTip</note>
         </trans-unit>
@@ -339,7 +339,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Accrual Template - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 1478617252 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Indicates whether the amortization schedule values have been calculated for this installment. Enable this after completing the calculation.</source>
+          <source>Indicates whether the depreciation schedule values have been calculated for this installment. Enable this after completing the calculation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Calculated - Property ToolTip</note>
         </trans-unit>
@@ -349,7 +349,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Calculated - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 3218326984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the amortization schedule calculation record that generated this installment line.</source>
+          <source>Specifies the depreciation schedule calculation record that generated this installment line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Calculation ID - Property ToolTip</note>
         </trans-unit>
@@ -424,7 +424,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Depreciation Right Of Use - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 1687582741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Amortization Right Of Use</source>
+          <source>Depreciation Right Of Use</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Depreciation Right Of Use - Property Caption</note>
         </trans-unit>
@@ -439,7 +439,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Dimension Set ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2166817962 - Field 2069218468 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the period number used for discounting calculations in the IFRS16 amortization schedule.</source>
+          <source>Specifies the period number used for discounting calculations in the IFRS16 depreciation schedule.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Leasing Contract Line - Field Discount Period - Property ToolTip</note>
         </trans-unit>
@@ -1164,7 +1164,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Leasing Installment Calc - Method ConvertAnnualRate - NamedType UnsupportedFrequencyErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1546295000 - Method 2812497580 - NamedType 438754554" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There are no amortization schedule calculation lines for contract %1. Add at least one row on the Calculate Amortization Schedule page before generating the contract lines.</source>
+          <source>There are no depreciation schedule calculation lines for contract %1. Add at least one row on the Calculate Depreciation Schedule page before generating the contract lines.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Internal Contract No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Leasing Installment Calc - Method CreateLeasingContractLinesFromComputeinstallment - NamedType NoCalcLinesErrLbl</note>
         </trans-unit>
@@ -1179,7 +1179,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Leasing ROU Mgt - Method CreateRightOfUse - NamedType FANoErrorLbl</note>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Calculate Amortization Schedule (LCM)</source>
+          <source>Calculate Depreciation Schedule (LCM)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Calc. Amort. Sched - Property Caption</note>
         </trans-unit>
@@ -1234,7 +1234,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Calc. Amort. Sched - Control Deposit Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Control 3806865217 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the periodic installment amount to be paid for this entry in the amortization schedule.</source>
+          <source>Specifies the periodic installment amount to be paid for this entry in the depreciation schedule.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Calc. Amort. Sched - Control Installment Amount - Property ToolTip</note>
         </trans-unit>
@@ -1249,12 +1249,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Calc. Amort. Sched - Control Redemption - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Control 332025938 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the total number of installments in the amortization schedule.</source>
+          <source>Specifies the total number of installments in the depreciation schedule.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Calc. Amort. Sched - Control Total Installment No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3981954561 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Inserts a new amortization schedule line above the currently selected line.</source>
+          <source>Inserts a new depreciation schedule line above the currently selected line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Calc. Amort. Sched - Action InsertLineAboveCurrentLineAct - Property ToolTip</note>
         </trans-unit>
@@ -1264,7 +1264,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Calc. Amort. Sched - Action InsertLineAboveCurrentLineAct - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3016261533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Inserts a new amortization schedule line below the currently selected line.</source>
+          <source>Inserts a new depreciation schedule line below the currently selected line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Calc. Amort. Sched - Action InsertLineBelowCurrentLineAct - Property ToolTip</note>
         </trans-unit>
@@ -1274,7 +1274,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Calc. Amort. Sched - Action InsertLineBelowCurrentLineAct - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3941481876 - Action 3837123645 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Creates leasing contract lines from the calculated amortization schedule entries.</source>
+          <source>Creates leasing contract lines from the calculated depreciation schedule entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Calc. Amort. Sched - Action CreateContractLines - Property ToolTip</note>
         </trans-unit>
@@ -1489,7 +1489,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contr. Subform - Control Advance - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1247534022 - Control 1478617252 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Indicates whether the amortization schedule values have been calculated for this installment.</source>
+          <source>Indicates whether the depreciation schedule values have been calculated for this installment.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contr. Subform - Control Calculated - Property ToolTip</note>
         </trans-unit>
@@ -1519,7 +1519,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contr. Subform - Control Depreciation Right Of Use - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1247534022 - Control 2069218468 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the period number used for discounting calculations in the IFRS16 amortization schedule.</source>
+          <source>Specifies the period number used for discounting calculations in the IFRS16 depreciation schedule.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contr. Subform - Control Discount Period - Property ToolTip</note>
         </trans-unit>
@@ -1769,7 +1769,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contract Card - Control Leasing Payment Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 380999352 - Control 3916079786 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the amortization schedule.</source>
+          <source>Specifies how often lease payments are made (e.g., Monthly, Quarterly). This affects the calculation of the depreciation schedule.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contract Card - Control Payment Frequency - Property ToolTip</note>
         </trans-unit>
@@ -1779,7 +1779,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contract Card - Control Signature Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 380999352 - Control 460889064 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the amortization schedule and depreciation start date.</source>
+          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the depreciation schedule and depreciation start date.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contract Card - Control Starting Date - Property ToolTip</note>
         </trans-unit>
@@ -1814,12 +1814,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contract Card - Action AssignGoods - Method OnAction - NamedType LinesExistErrorLbl</note>
         </trans-unit>
         <trans-unit id="Page 380999352 - Action 2718028342 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Opens the amortization schedule calculation page to define installment parameters and generate the payment schedule for this contract.</source>
+          <source>Opens the depreciation schedule calculation page to define installment parameters and generate the payment schedule for this contract.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contract Card - Action CalculateAmortizationSchedule - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 380999352 - Action 2718028342 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Calculate Amortization Schedule</source>
+          <source>Calculate Depreciation Schedule</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contract Card - Action CalculateAmortizationSchedule - Property Caption</note>
         </trans-unit>
@@ -1954,7 +1954,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contracts List - Control Signature Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1349709379 - Control 460889064 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the amortization schedule.</source>
+          <source>Specifies the date when the leasing contract becomes effective. This date is used for calculating the depreciation schedule.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Contracts List - Control Starting Date - Property ToolTip</note>
         </trans-unit>
@@ -2139,7 +2139,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Leasing Setup - Control SGLIntegration - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3033480257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Debt Reduction</source>
+          <source>Debt Reduction (LCM)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Debt Reduction - Property Caption</note>
         </trans-unit>
@@ -2184,12 +2184,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Debt Reduction - Control LeasingContrHeaderFilterField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 397808025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Detect IFRS16</source>
+          <source>Detect IFRS16 (LCM)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Detect IFRS16 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3191247836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Detect Interest</source>
+          <source>Detect Interest (LCM)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Detect Interest - Property Caption</note>
         </trans-unit>
