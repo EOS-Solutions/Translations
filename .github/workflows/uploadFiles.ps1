@@ -17,7 +17,7 @@ foreach ($path in $gitDiffOutput) {
         #$fileName = Split-Path -Path $line -Leaf
 
         # Filter to include only .xlf files
-        if ($path -match "\.(de-DE|it-IT|en-GB)\.xlf$") {
+        if ($path -match "\.(de-DE|it-IT|en-GB|fr-FR|es-ES)\.xlf$") {
             if (Test-Path -Path $path) {              
                 $fileNames += $path
             }
