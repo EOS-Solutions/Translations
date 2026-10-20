@@ -10,6 +10,14 @@ function CallAPIFileName {
         [switch]$ThrowOnError
     )
 
+    $FileName = $FileName -replace '\.xlf$', ''
+    if ([string]::IsNullOrWhiteSpace($FileName) -or
+        $FileName -in @('.', '..') -or
+        $FileName -match '[\\/:*?"<>|\r\n]' -or
+        [System.IO.Path]::GetFileName($FileName) -ne $FileName) {
+        throw "FileName must be a single database filename without a directory path (.xlf is optional)."
+    }
+
     $body = @{ FileName = $FileName } | ConvertTo-Json -Compress
     $apiUrl = "$($env:APIURL)/deleteFile"
     $headers = @{
@@ -34,13 +42,6 @@ function CallAPIFileName {
 }
 
 if ($PSBoundParameters.ContainsKey('FileName')) {
-    if ([string]::IsNullOrWhiteSpace($FileName) -or
-        $FileName -match '[\\/:*?"<>|\r\n]' -or
-        [System.IO.Path]::GetFileName($FileName) -ne $FileName -or
-        $FileName -notmatch '\.xlf$') {
-        throw "FileName must be a single XLIFF filename without a directory path."
-    }
-
     CallAPIFileName -FileName $FileName -ThrowOnError
     Write-Output "Translations removed for file: $FileName"
     return
