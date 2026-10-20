@@ -16,8 +16,8 @@ foreach ($path in $gitDiffOutput) {
         # Extract just the filename part from the path
         #$fileName = Split-Path -Path $line -Leaf
 
-        # Filter to include only .xlf files
-        if ($path -match "\.(de-DE|it-IT|en-GB|fr-FR|es-ES)\.xlf$") {
+        # Include translated XLF files for any culture, excluding generic source files.
+        if ($path -match '\.xlf$' -and $path -notmatch '\.g\.xlf$') {
             if (Test-Path -Path $path) {              
                 $fileNames += $path
             }
@@ -32,4 +32,6 @@ $fileNames | ForEach-Object { Write-Output "- $_" }
 $maxConcurrentSends = 300
 
 # Call your function for each filename
-./.github/workflows/LoadTranslationScript.ps1 -xlfFiles $fileNames -maxConcurrentSends $maxConcurrentSends
+if ($fileNames.Count -gt 0) {
+    ./.github/workflows/LoadTranslationScript.ps1 -xlfFiles $fileNames -maxConcurrentSends $maxConcurrentSends
+}

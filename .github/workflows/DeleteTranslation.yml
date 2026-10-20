@@ -1,0 +1,30 @@
+name: Delete Translation
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_name:
+        description: 'Exact XLIFF filename to delete (e.g. it_BaseApplication.g.xlf)'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  delete-translation:
+    name: Delete Translation
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Delete selected translation
+        shell: pwsh
+        env:
+          FILE_NAME: ${{ inputs.file_name }}
+          APIURL: ${{ vars.APIURL }}
+          APIKEY: ${{ secrets.APIKEY_UPDATE }}
+        run: |
+          .\.github\workflows\deleteFiles.ps1 -FileName $env:FILE_NAME

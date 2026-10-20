@@ -1,10 +1,16 @@
+param(
+    [Parameter(Mandatory=$false)]
+    [string]$FileName
+)
+
 function CallAPIFileName {
     param(
         [Parameter(Mandatory=$true)]
-        [string]$FileName
+        [string]$FileName,
+        [switch]$ThrowOnError
     )
 
-    $body = "{`"FileName`": `"$FileName`"}"
+    $body = @{ FileName = $FileName } | ConvertTo-Json -Compress
     $apiUrl = "$($env:APIURL)/deleteFile"
     $headers = @{
         "x-api-key" = $($env:APIKEY)
@@ -19,8 +25,25 @@ function CallAPIFileName {
                             -SkipCertificateCheck
     }
     catch {
-        Write-Error "Error occurred while calling API for file '$FileName' at URL '$apiUrl': $($_.Exception.Message)"
+        $errorMessage = "Error occurred while calling API for file '$FileName' at URL '$apiUrl': $($_.Exception.Message)"
+        if ($ThrowOnError) {
+            throw $errorMessage
+        }
+        Write-Error $errorMessage
     }
+}
+
+if ($PSBoundParameters.ContainsKey('FileName')) {
+    if ([string]::IsNullOrWhiteSpace($FileName) -or
+        $FileName -match '[\\/:*?"<>|\r\n]' -or
+        [System.IO.Path]::GetFileName($FileName) -ne $FileName -or
+        $FileName -notmatch '\.xlf$') {
+        throw "FileName must be a single XLIFF filename without a directory path."
+    }
+
+    CallAPIFileName -FileName $FileName -ThrowOnError
+    Write-Output "Translations removed for file: $FileName"
+    return
 }
 
 # Execute git command to get the list of changed files
@@ -41,8 +64,8 @@ foreach ($line in $gitDiffOutput) {
         # Extract just the filename part from the path
         $fileName = Split-Path -Path $line -Leaf
 
-        # Filter to include only .xlf files
-        if ($fileName -match "\.(de-DE|it-IT|en-GB)\.xlf$") {
+        # Include translated XLF files for any culture, excluding generic source files.
+        if ($fileName -match '\.xlf$' -and $fileName -notmatch '\.g\.xlf$') {
             $fileNames += $fileName
         }
     }
