@@ -118,8 +118,9 @@ jobs:
             }
           }
 
-          # Find only XLF files for requested cultures; generic .g.xlf files are not exported.
-          $escapedCultures = $cultures | ForEach-Object { [regex]::Escape($_) }
+          # Find XLF files for requested cultures and generic files.
+          $exportCultures = @($cultures + 'g')
+          $escapedCultures = $exportCultures | ForEach-Object { [regex]::Escape($_) }
           $culturePattern = '\.(' + ($escapedCultures -join '|') + ')\.xlf$'
           $xlfFiles = @(
             Get-ChildItem -Path $tempExtracted -Filter "*.xlf" -Recurse |
