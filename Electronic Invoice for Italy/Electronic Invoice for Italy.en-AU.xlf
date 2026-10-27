@@ -1233,6 +1233,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. File - Field EOS Version - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2663003705 - Field 1267607324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Source</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. File - Field External Source - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1480550890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inbound Electr. Document Header</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3707,6 +3712,11 @@
           <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Setup Group - Field EOS Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1919818171 - Field 4066271547 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duplicate File Check Period (Days)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Inb. EDoc. Setup Group - Field EOS Duplicate File Check Days - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1919818171 - Field 3098183746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Handle Document Header Only</source>
@@ -6238,11 +6248,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method ProcessVendorShipmentNoMatchResult - NamedType InvalidVendorShipmentMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 464494200 - Method 1865012979 - NamedType 584935190" size-unit="char" translate="yes" xml:space="preserve">
-          <source>https://docs.microsoft.com/en-us/dynamics365/business-central/</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Copilot Capability Setup - Method RegisterCapability - NamedType LearnMoreUrlTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3842445359 - Method 4165217952 - NamedType 811335887" size-unit="char" translate="yes" xml:space="preserve">
           <source>If you need to specify Ecobonus you must mark at least one line as "Ecobonus" and add a Scontomaggiorazione record in %1 that has %2 equal to Ecobonus</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6713,11 +6718,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EDoc. Utilities - Method UploadXMLZip - NamedType XMLExtFilterLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2795012453 - Method 2127104666 - NamedType 213748089" size-unit="char" translate="yes" xml:space="preserve">
-          <source>If a document has split payment, the field %1 must be empty.</source>
-          <note from="Developer" annotates="general" priority="2">%1 is the Bal Account No. field</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX063 FTE Tests - Method TestSplitPayment - NamedType BalAccountNoMustbeEmptyErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3182023526 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial subscription for FTE found - day %1 of %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7018,10 +7018,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Inb. Electr. Doc. Mgt. - Method LinkTempNAVDocument - NamedType Text002Msg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1342986557 - Method 3206010156 - NamedType 3768398224" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 1342986557 - Method 1757871025 - NamedType 3768398224" size-unit="char" translate="yes" xml:space="preserve">
           <source>The p7m file is not valid</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Inb. Electr. Doc. Mgt. - Method LoadElectrDocFromXML - NamedType P7mCorruptedLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Inb. Electr. Doc. Mgt. - Method LoadElectrDocFromXMLInternal - NamedType P7mCorruptedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1342986557 - Method 2936826823 - NamedType 4260117375" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A batch process identifier is required to import documents from an external provider.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Inb. Electr. Doc. Mgt. - Method LoadExternalElectrDocFromXML - NamedType MissingProcessGUIDErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1342986557 - Method 3246936975 - NamedType 1881095303" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you wanto to process %2 %1? (Only records without existing %3 will be processed)</source>
@@ -7493,11 +7498,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 File Storage Mgt. - Method OnRestoreIncomingHeader - NamedType NoFileErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2367081079 - Method 2127104666 - NamedType 213748089" size-unit="char" translate="yes" xml:space="preserve">
-          <source>If a document has split payment, the field %1 must be empty.</source>
-          <note from="Developer" annotates="general" priority="2">%1 is the Bal Account No. field</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 FTE Test SplitPayment - Method TestSplitPayment - NamedType BalAccountNoMustbeEmptyErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2681496459 - NamedType 3578138118" size-unit="char" translate="yes" xml:space="preserve">
           <source>The file %1 were not found</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7552,11 +7552,6 @@
           <source>Document %1 can contain only one line.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Outb. Purch. Events - Method TestThirdpartyPurchaseInvoice - NamedType TooManyLinesErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3061851512 - Method 1865012979 - NamedType 584935190" size-unit="char" translate="yes" xml:space="preserve">
-          <source>https://docs.microsoft.com/en-us/dynamics365/business-central/</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 Upgrade - Method RegisterCapability - NamedType LearnMoreUrlTxt</note>
         </trans-unit>
         <trans-unit id="Page 3915251920 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>AI Purchase Invoice Auto Reconciliation Setup (FTE)</source>
@@ -10983,6 +10978,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inb. EDoc. Setup Card - Control Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2712102598 - Control 633606708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of days used to detect previously imported files with the same name. If set to 0, 210 days are used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inb. EDoc. Setup Card - Control Duplicate File Check Days - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2712102598 - Control 3178031138 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether the system should skip files with names that have already been imported and processed to avoid duplicate entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11087,6 +11087,11 @@
           <source>Specifies the unique code that identifies this inbound electronic document setup group.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inb. EDoc. Setup List - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393948704 - Control 633606708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of days used to detect previously imported files with the same name. If set to 0, 210 days are used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inb. EDoc. Setup List - Control Duplicate File Check Days - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2393948704 - Control 545281890 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether only the document header should be processed without creating detailed line items from the electronic document.</source>
@@ -19302,11 +19307,6 @@
           <source>Unit Of Measure Errors</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Movement Type - EnumValue UnitOfMeasureErrors - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 3786254730 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source> </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS AI Processing Status - EnumValue   - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3786254730 - EnumValue 2751587004 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fully Processed</source>
