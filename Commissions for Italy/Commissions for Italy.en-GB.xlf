@@ -8,10 +8,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Comm. Multiple Occurr. - Method GetOccurrenceFactor - NamedType PaymentSameDueDateErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 289078007 - Method 664564380 - NamedType 1774649651" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There are existing Commission Ledger Entries excluded from settlement, do you want to continue?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 DDM Handler - Method ConfirmSettlExcludedCLE - NamedType ExcludedCLEMsg</note>
+        <trans-unit id="Codeunit 289078007 - NamedType 576704055" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission costs for customer ledger entry %1 have already been allocated.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = customer ledger entry no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 DDM Handler - NamedType AllocatedCommissionCostLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 508109017 - NamedType 3539332722" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Renegotiation %1 would change the payable/settled commission amount for salesperson %2 on document %3 %4 from %5 to %6. A renegotiation can only redistribute commission across installments, not create or remove commission.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Renegotiation No.; %2 = Salesperson Code; %3 = Document Type; %4 = Document No.; %5 = previous amount; %6 = new amount.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 DDM Handler2 - NamedType CommissionAmountChangedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 508109017 - NamedType 1210275667" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cust. Ledger Entry %1 became closed by renegotiation %2 but no new Detailed Cust. Ledg. Entry of type Application was found. Cannot safely rebuild the related commission entries.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Entry No.; %2 = Renegotiation No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS010 DDM Handler2 - NamedType UnsupportedClosureErr</note>
         </trans-unit>
         <trans-unit id="Report 1574796631 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase ProForma Invoice</source>
