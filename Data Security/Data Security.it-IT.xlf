@@ -1347,14 +1347,6 @@
           <source>EDS Status Transaction Log</source>
           <target>Log Transizione Stati EDS</target>
         </trans-unit>
-        <trans-unit id="Page 2455757227 - Action 3455430602 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "EDS Record Status View" action</source>
-          <target>Esegue l'azione "Visualizzazione stato record EDS"</target>
-        </trans-unit>
-        <trans-unit id="Page 2455757227 - Action 3455430602 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>EDS Record Status View</source>
-          <target>Visualizza stato record EDS</target>
-        </trans-unit>
         <trans-unit id="Page 2455757227 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Role Center</source>
           <target>Gestione ruolo utente</target>
@@ -5127,14 +5119,6 @@
           <source>Description</source>
           <target>Descrizione</target>
         </trans-unit>
-        <trans-unit id="Table 2993563720 - Field 3536168541 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document Status</source>
-          <target>Stato del documento</target>
-        </trans-unit>
-        <trans-unit id="Table 2993563720 - Field 3536168541 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,Open,Release</source>
-          <target> ,Aperto,Rilasciato</target>
-        </trans-unit>
         <trans-unit id="Table 2993563720 - Field 3539747393 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Post disabled</source>
           <target>Registrazione documento disabilitata</target>
@@ -5432,8 +5416,8 @@
           <target>Tipo</target>
         </trans-unit>
         <trans-unit id="Table 474459753 - Field 1878130204 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Exec,Mail</source>
-          <target>Esegui,Mail</target>
+          <source>Exec,Mail,Agent</source>
+          <target>Esegui,Mail,Agent</target>
         </trans-unit>
         <trans-unit id="Table 474459753 - Field 2254597014 - Method 2126772001 - NamedType 348647567" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cannot insert data when function type is not Mail!</source>
@@ -6847,6 +6831,890 @@
           <source>True</source>
           <target>Vero</target>
         </trans-unit>
+        <trans-unit id="Page 3819051320 - Action 2079045816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update</source>
+          <target>Aggiorna</target>
+        </trans-unit>
+        <trans-unit id="Page 3607116870 - Control 3092263724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SystemId</source>
+          <target>SystemId</target>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Action 788258546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target>Annulla</target>
+        </trans-unit>
+        <trans-unit id="Page 535365161 - Control 3092263724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SystemId</source>
+          <target>SystemId</target>
+        </trans-unit>
+        <trans-unit id="Page 1780606164 - Control 3092263724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SystemId</source>
+          <target>SystemId</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 790001862 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <target>Istruzioni</target>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry number.</source>
+          <target>Specifica il numero del movimento, assegnato dalla numerazione specificata alla creazione del movimento.</target>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Action 635732598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restore</source>
+          <target>Ripristina</target>
+        </trans-unit>
+        <trans-unit id="Table 474459753 - Field 1434781316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Prompt Code</source>
+          <target>Prompt agente</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 698735847 - NamedType 2632276440" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS AGENT</source>
+          <target>EDS AGENT</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 698735847 - NamedType 3452859768" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security Agent (EOS)</source>
+          <target>Data Security Agent (EOS)</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 1080453686 - NamedType 2975486440" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record not found</source>
+          <target>Record non trovato</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 1080453686 - NamedType 3613183057" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security is not enabled</source>
+          <target>Data security non è attiva</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 1080453686 - NamedType 4250879674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record is in the last status</source>
+          <target>Il record è nello stato finale</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 675997835 - NamedType 2975486440" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record not found</source>
+          <target>Record non trovato</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 675997835 - NamedType 3613183057" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security is not enabled</source>
+          <target>Data Security non è attiva</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 675997835 - NamedType 4250879674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record is in the last status</source>
+          <target>Il record è nello stato finale</target>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2976428548 - EnumValue 3700052885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security Agent (EOS)</source>
+          <target>Data Security Agent (EOS)</target>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3614125165 - EnumValue 3700052885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security Agent (EOS)</source>
+          <target>Data Security Agent (EOS)</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit Prompt</source>
+          <target>Modifica prompt</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - NamedType 2445357236" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No default instructions found.</source>
+          <target>Istruzioni predefinite non trovate</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 698735847 - NamedType 896185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Monitors data security events and record status changes, creating notifications and managing approval workflows.</source>
+          <target>Monitora gli eventi relativi a Data Security e i cambi stato dei record, generando notifiche e gestendo i flussi di lavoro di approvazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Action 3827680623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initialize from Default</source>
+          <target>Inizializza da predefinito</target>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt Editor</source>
+          <target>Prompt editor</target>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - NamedType 287892675" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Prompt</source>
+          <target>Prompt agente</target>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - NamedType 2924043734" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt cannot be empty.</source>
+          <target>Il prompt non può essere vuoto</target>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 721064699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save to history</source>
+          <target>Salva in cronologia</target>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 3683400689 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View history</source>
+          <target>Vedi cronologia</target>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt History</source>
+          <target>Cronologia prompt</target>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - NamedType 1118926904" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to restore this version? The current prompt will be overwritten.</source>
+          <target>Sei sicuro di voler ripristinare questa versione? Il prompt corrente verrà sovrascritto.</target>
+        </trans-unit>
+        <trans-unit id="Page 127521376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Prompts</source>
+          <target>EDS prompt agente</target>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Configure Data Security Agent</source>
+          <target>Configura l'agente Data Security</target>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - NamedType 1249587391" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Data Security Agent capability is not enabled in Copilot capabilities.\\Please enable the capability before setting up the agent.</source>
+          <target>La funzionalità Data Security Agent non è abilitata tra le funzionalità di Copilot. Abilitare la funzionalità prima di configurare l'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - NamedType 2012792311" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit instructions</source>
+          <target>Modifica istruzioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - NamedType 3684956075" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View history</source>
+          <target>Vedi cronologia</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1974488217 - Control 2570974094 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of status changes made by the agent.</source>
+          <target>Specifica il numero di cambi stato fatti dall'agente</target>
+        </trans-unit>
+        <trans-unit id="Profile 3700052885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EOS Data Security Agent (EDS)</source>
+          <target>EOS Agente Data Security (EDS)</target>
+        </trans-unit>
+        <trans-unit id="Table 474459753 - Field 1434781316 - Method 2126772001 - NamedType 1348083558" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot insert data when function type is not Agent!</source>
+          <target>Impossibile inserire dati quando il tipo di funzione non è Agent!</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4147200839 - Field 2570974094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS status changes</source>
+          <target>EDS Cambio stato</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrizione</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target>Codice</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 290207576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt</source>
+          <target>Prompt</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Prompt</source>
+          <target>EDS Prompt agente</target>
+        </trans-unit>
+        <trans-unit id="Page 474459753 - Control 1434781316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Agent Prompt Code" field</source>
+          <target>Specifica il valore del campo "Codice prompt agente"</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a unique code for the agent prompt.</source>
+          <target>Specifica un codice univoco per il prompt dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the agent prompt.</source>
+          <target>Specifica una descrizione del prompt dell'agente</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 4036380482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent will request end user review of message.</source>
+          <target>Specifica quando l'agente deve richiedere una revisione del messaggio prima dell'esecuzione.</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Action 3827680623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initializes this prompt with default agent instructions.</source>
+          <target>Inizializza questo prompt con le istruzioni di default dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 721064699 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save the current prompt as a new version in the history.</source>
+          <target>Salva il prompt corrente come una nuova versione nella cronologia</target>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 3683400689 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the history of prompt changes and restore an earlier version if needed.</source>
+          <target>Vedi la cronologia dei prompt.</target>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Control 3922791604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when this version was saved.</source>
+          <target>Specifica quando questa versione è stata salvata</target>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Control 3092839666 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies who saved this version.</source>
+          <target>Specifica chi ha salvato questa versione</target>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Control 2195552367 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the version name.</source>
+          <target>specifica il nome della versione</target>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Action 635732598 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restore this version of the prompt. The current prompt will be overwritten.</source>
+          <target>Ripristina il prompt di questa versione. La versione corrente verrà sovrascritta.</target>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Action 788258546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discards the changes and closes the setup page.</source>
+          <target>Elimina le modifiche e chiudi la pagina di setup.</target>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Action 2079045816 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply the changes to the agent setup.</source>
+          <target>Applica le modifiche al setup dell'agente</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4036380482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Review</source>
+          <target>Richiedi revisione dei messaggi</target>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - NamedType 116033087" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A version named '%1' already exists for this prompt.</source>
+          <target>Una versione con nome '%1' esiste già per questo prompt.</target>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - NamedType 1161163308" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A version with the same content already exists.\Are you sure you want to save another identical version?</source>
+          <target>Una versione con lo stesso contenuto già esiste.\Sei sicuro di voler salvare una verisone identica?</target>
+        </trans-unit>
+        <trans-unit id="Page 189947829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save Version</source>
+          <target>Salva</target>
+        </trans-unit>
+        <trans-unit id="Page 189947829 - Control 145966807 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter a unique name for this version.</source>
+          <target>Inserisci un nome univoco per questa versione.</target>
+        </trans-unit>
+        <trans-unit id="Page 189947829 - Control 145966807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Version Name</source>
+          <target>Nome versione</target>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Prompt History</source>
+          <target>EDS Cronologia prompt agente</target>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 290207576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt</source>
+          <target>Prompt</target>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 3139169835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt Code</source>
+          <target>Codice prompt</target>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 3922791604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Saved At</source>
+          <target>Salvato il</target>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 3092839666 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Saved By</source>
+          <target>Salvato da</target>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 2195552367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Version Name</source>
+          <target>Nome versione</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3831434732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 16</source>
+          <target>Campo Testo 16</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 174164053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 15</source>
+          <target>Campo Testo 15</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 642951647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 13</source>
+          <target>Campo Testo 13</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3193738115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 17</source>
+          <target>Campo Testo 17</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1280648264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 12</source>
+          <target>Campo Testo 12</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 811860670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 14</source>
+          <target>Campo Testo 14</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3362647138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 18</source>
+          <target>Campo Testo 18</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2556041498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 10</source>
+          <target>Campo Testo 10</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1918344881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 11</source>
+          <target>Campo Testo 11</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1760386770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 1</source>
+          <target>Campo Testo 1</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4142264215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 2</source>
+          <target>Campo Testo 2</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2975310180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%10</source>
+          <target>%10</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 484993536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 3</source>
+          <target>Campo Testo 3</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 16205942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 5</source>
+          <target>Campo Testo 5</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2398083387 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 6</source>
+          <target>Campo Testo 6</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3035780004 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 7</source>
+          <target>Campo Testo 7</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 316084513 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 8</source>
+          <target>Campo Testo 8</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 953781130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 9</source>
+          <target>Campo Testo 9</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3673476621 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 4</source>
+          <target>Campo Testo 4</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 546715564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%01</source>
+          <target>%01</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2337613563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%11</source>
+          <target>%11</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1822108798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%03</source>
+          <target>%03</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4250703414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%12</source>
+          <target>%12</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3613006797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%13</source>
+          <target>%13</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4081794391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%15</source>
+          <target>%15</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 424523712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%14</source>
+          <target>%14</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1699916946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%16</source>
+          <target>%16</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1184412181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%02</source>
+          <target>%02</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2168704540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%18</source>
+          <target>%18</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1062220329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%17</source>
+          <target>%17</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2290896392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%05</source>
+          <target>%05</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1653199775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%04</source>
+          <target>%04</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1034300564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Values</source>
+          <target>Valori</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3566289626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%07</source>
+          <target>%07</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2928593009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%06</source>
+          <target>%06</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 715624587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%08</source>
+          <target>%08</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1353321204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%09</source>
+          <target>%09</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID</source>
+          <target>ID tabella</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 596358669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile</source>
+          <target>Profilo</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 2168704540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%18</source>
+          <target>%18</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 2337613563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%11</source>
+          <target>%11</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 546715564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%01</source>
+          <target>%01</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 4250703414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%12</source>
+          <target>%12</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 424523712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%14</source>
+          <target>%14</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 4081794391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%15</source>
+          <target>%15</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 3613006797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%13</source>
+          <target>%13</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1062220329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%17</source>
+          <target>%17</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 2975310180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%10</source>
+          <target>%10</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1699916946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%16</source>
+          <target>%16</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1653199775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%04</source>
+          <target>%04</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1822108798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%03</source>
+          <target>%03</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1184412181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%02</source>
+          <target>%02</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 2290896392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%05</source>
+          <target>%05</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 3566289626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%07</source>
+          <target>%07</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 2928593009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%06</source>
+          <target>%06</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1353321204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%09</source>
+          <target>%09</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 715624587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%08</source>
+          <target>%08</target>
+        </trans-unit>
+        <trans-unit id="Profile 2533897662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EOS Data Security Agent (EDS)</source>
+          <target>EOS Agente Data Security (EDS)</target>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Control 1266388499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <target>Istruzioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 3865570867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target>Salva</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 596358669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays the profile configured for the selected agent.</source>
+          <target>Specifica il profilo.</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source table for field value mapping.</source>
+          <target>Specifica la tabella di origine per il mapping dei campi.</target>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 3865570867 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save the current prompt text to the active prompt.</source>
+          <target>Salva il testo del prompt corrente.</target>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Control 3608317725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account</source>
+          <target>Account</target>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 1746969396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Account ID</source>
+          <target>ID account e-mail</target>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 1993094577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Connector</source>
+          <target>Connettore e-mail</target>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 3958072724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task ID</source>
+          <target>ID attività</target>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 625709163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notification Email</source>
+          <target>E-mail di notifica</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 625709163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send Summary To Email Address</source>
+          <target>E-mail di notifica</target>
+        </trans-unit>
+        <trans-unit id="Page 3607116870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>eos003StatusTransaction</source>
+          <target>eos003StatusTransaction</target>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Control 2859076213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mailbox</source>
+          <target>Cassetta postale</target>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Control 3603497770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email address for outgoing mail</source>
+          <target>Indirizzo mail per posta in uscita</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 4202864534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays the model configured for the selected agent.</source>
+          <target>Specifica l'ID modello LLM da utilizzare quando il prompt viene eseguito. Lasciare vuoto per utilizzare il modello predefinito dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 625709163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email address to which the agent will send the completed task summary.</source>
+          <target>Specifica l'indirizzo e-mail a cui l'agente invierà il riepilogo dell'attività completata.</target>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 3546687548 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary Sent</source>
+          <target>Riepilogo inviato</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4202864534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Model ID</source>
+          <target>ID modello</target>
+        </trans-unit>
+        <trans-unit id="Enum 2325294501 - EnumValue 3826689261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target>Fallito</target>
+        </trans-unit>
+        <trans-unit id="Enum 4157534438 - EnumValue 2166945456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+          <target>Riepilogo</target>
+        </trans-unit>
+        <trans-unit id="Enum 2325294501 - EnumValue 3481143665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending</source>
+          <target>In sospeso</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 4036380482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Review</source>
+          <target>Richiedi revisione dei messaggi</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 2297243455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Body</source>
+          <target>Body</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 625709163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send Summary To Email Address</source>
+          <target>E-mail di riepilogo</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the log entry number.</source>
+          <target>Specifica il numero di movimento di registro.</target>
+        </trans-unit>
+        <trans-unit id="Enum 2325294501 - EnumValue 2561328176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sent</source>
+          <target>Inviato</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 1993094577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Connector</source>
+          <target>Connettore e-mail</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 1746969396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Account ID</source>
+          <target>ID account e-mail</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 633175764 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Body</source>
+          <target>Corpo</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 743942932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send</source>
+          <target>Invia</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process</source>
+          <target>Process</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target>Stato</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 3958072724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task ID</source>
+          <target>ID attività</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 1577231924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From</source>
+          <target>Da</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 1234124704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subject</source>
+          <target>Oggetto</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 400074693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To</source>
+          <target>A</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1131267218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Name</source>
+          <target>Nome agente</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 2852966117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <target>Messaggio di errore</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <target>Tipo origine</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 23578478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status Date/Time</source>
+          <target>Data/Ora stato</target>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 2852966117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <target>Messaggio di errore</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4036380482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent will request end user review of message.</source>
+          <target>Specifica quando l'agente deve richiedere una revisione del messaggio prima dell'esecuzione.</target>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 23578478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status Date/Time</source>
+          <target>Data/Ora stato</target>
+        </trans-unit>
+        <trans-unit id="Enum 2325294501 - EnumValue 594503032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sending</source>
+          <target>Invio</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 3687321561 - NamedType 3104705519" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security Agent</source>
+          <target>Agente di Data Security</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Email Log</source>
+          <target>Registro email dell'agente EDS</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 711180963 - Method 3634518524 - NamedType 842950165" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Background processing of agent emails has been scheduled to run every %1 minutes.</source>
+          <target>L'elaborazione in background delle email degli agenti è stata programmata per eseguire ogni 1% di minuto.</target>
+        </trans-unit>
+        <trans-unit id="Enum 4157534438 - EnumValue 1222401102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Message</source>
+          <target>Messaggio dell'agente</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 3404506285 - NamedType 2812980494" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security Agent summary: %1</source>
+          <target>Riassunto Data Security Agent: %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 3687321561 - NamedType 1285257873" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The agent email could not be sent. See the EDS Agent Email Log.</source>
+          <target>L'email dell'agente non poteva essere inviata. Consulta il registro delle email dell'agente EDS.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 3687321561 - NamedType 664069847" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The agent requested an email without a recipient.</source>
+          <target>L'agente ha richiesto un'email senza destinatario.</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1131267218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the agent that will execute this prompt.</source>
+          <target>Specifica l'agente che eseguirà questo prompt.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 3404506285 - NamedType 917001383" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The summary email could not be sent. See the EDS Agent Email Log.</source>
+          <target>L'email riepilogale non poteva essere inviata. Consulta il registro email dell'agente EDS.</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the send status of the email.</source>
+          <target>Specifica lo stato di invio dell'email.</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 2852966117 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the error message when sending failed.</source>
+          <target>Specifica il messaggio di errore quando l'invio è fallito.</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 400074693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the recipient email address.</source>
+          <target>Specifica l'indirizzo email del destinatario.</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 1234124704 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email subject.</source>
+          <target>Specifica l'oggetto dell'email.</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 2812809488 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scans completed or paused agent tasks and sends any summary or agent-requested emails that have not been sent yet.</source>
+          <target>Scansiona i compiti completati dell'agente e invia eventuali email riassuntive o richieste dall'agente che non sono ancora state inviate.</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 23578478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the email status was last updated.</source>
+          <target>Specifica quando lo stato dell'email è stato aggiornato l'ultima volta.</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the email is the task summary or an email requested by the agent.</source>
+          <target>Specifica se l'email è il riassunto del compito o una richiesta dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 1577231924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sender email address.</source>
+          <target>Specifica l'indirizzo email del mittente.</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 2297243455 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email body.</source>
+          <target>Specifica il corpo dell'email.</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 3958072724 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the agent task that produced the email.</source>
+          <target>Specifica il compito dell'agente che ha prodotto l'email.</target>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Email Log</source>
+          <target>Registro email dell'agente EDS</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 3580947034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule Background Processing</source>
+          <target>Elaborazione in background degli orari</target>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 1284754842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action Email Sent</source>
+          <target>Email di azione inviata</target>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 2837723668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary Status</source>
+          <target>Stato riassuntivo</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 2812809488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process Finished Tasks</source>
+          <target>Processa le attività completate</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 4056763662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send All Pending</source>
+          <target>Invia tutto in sospeso</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 743942932 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sends the selected email. Already sent emails are skipped.</source>
+          <target>Invia l'email selezionata. Le email già inviate vengono saltate.</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 4056763662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sends all emails that are still pending or failed.</source>
+          <target>Invia tutte le email ancora in sospeso o fallite.</target>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 409624101 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent User Security ID</source>
+          <target>ID di sicurezza utente agente</target>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 3580947034 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates a recurring job queue entry that sends pending agent emails automatically.</source>
+          <target>Crea una voce ricorrente nella coda dei lavori che invia automaticamente email di agenti in sospeso.</target>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 1918310387 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Permission Set</source>
+          <target>Set di autorizzazioni</target>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 3139169835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt Code</source>
+          <target>Codice prompt</target>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 2507467933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Nome</target>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 593885934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scope</source>
+          <target>Ambito</target>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 2766253784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App ID</source>
+          <target>ID app</target>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 1256520770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Name</source>
+          <target>Nome app</target>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 3997336476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <target>Società</target>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 90601618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Table ID</source>
+          <target>ID tabella di origine</target>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 593885934 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System,Tenant</source>
+          <target>Sistema,Tenant</target>
+        </trans-unit>
+        <trans-unit id="Page 343218144 - Control 2507467933 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the permission set.</source>
+          <target>Specifica il nome del set di autorizzazioni.</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2675404197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent User Security ID</source>
+          <target>ID di sicurezza utente agente</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - NamedType 2826403587" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inactive</source>
+          <target>Inattivo</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - NamedType 2544287428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preview</source>
+          <target>Anteprima</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - NamedType 915588842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <target>Attivo</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 3039810348 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+          <target>Disponibilità</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 27866041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Name</source>
+          <target>Nome utente</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 2333429642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>State</source>
+          <target>Stato</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 2521021016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Display Name</source>
+          <target>Nome visualizzato</target>
+        </trans-unit>
+        <trans-unit id="Page 2455757227 - Action 3455430602 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "EDS Record Status View" action</source>
+          <target>Esegue l'azione "Visualizzazione stato record EDS"</target>
+        </trans-unit>
+        <trans-unit id="Page 2455757227 - Action 3455430602 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EDS Record Status View</source>
+          <target>Visualizza stato record EDS</target>
+        </trans-unit>
         <trans-unit id="Page 3076365605 - Control 3025938226 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Next Suggested Status" field</source>
           <target>Specifica il valore del campo "Prossimo stato suggerito"</target>
@@ -6871,25 +7739,13 @@
           <source>Specifies the value of the "Document Type" field</source>
           <target>Specifica il valore del campo "Tipo di documento"</target>
         </trans-unit>
-        <trans-unit id="Page 3607116870 - Control 3092263724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SystemId</source>
-          <target>SystemId</target>
-        </trans-unit>
         <trans-unit id="Table 856930235 - Field 1497076986 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Path Code</source>
           <target>Cod. Percorso</target>
         </trans-unit>
-        <trans-unit id="Page 535365161 - Control 3092263724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SystemId</source>
-          <target>SystemId</target>
-        </trans-unit>
         <trans-unit id="Table 856930235 - Method 804474859 - NamedType 703165691" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot rename a %1.</source>
           <target>Impossibile rinominare %1.</target>
-        </trans-unit>
-        <trans-unit id="Page 1780606164 - Control 3092263724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SystemId</source>
-          <target>SystemId</target>
         </trans-unit>
         <trans-unit id="Table 856930235 - NamedType 3009578149" size-unit="char" translate="yes" xml:space="preserve">
           <source>Must be different from the "Status Code" field.</source>
@@ -6918,30 +7774,6 @@
         <trans-unit id="Table 856930235 - Field 2379948459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Status Code</source>
           <target>Cod. Stato</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 294585688 - Method 1080453686 - NamedType 2975486440" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Record not found</source>
-          <target>Record non trovato</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 294585688 - Method 1080453686 - NamedType 3613183057" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Data Security is not enabled</source>
-          <target>Data security non attiva</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 294585688 - Method 1080453686 - NamedType 4250879674" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Record is in the last status</source>
-          <target>Il record si trova nell'ultimo stato</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 294585688 - Method 675997835 - NamedType 2975486440" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Record not found</source>
-          <target>Record non trovato</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 294585688 - Method 675997835 - NamedType 3613183057" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Data Security is not enabled</source>
-          <target>Data security non attiva</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 294585688 - Method 675997835 - NamedType 4250879674" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Record is in the last status</source>
-          <target>Il record si trova nell'ultimo stato</target>
         </trans-unit>
         <trans-unit id="Page 2416094138 - Method 3245603402 - NamedType 4130423798" size-unit="char" translate="yes" xml:space="preserve">
           <source>Multiple..</source>
@@ -6986,6 +7818,294 @@
         <trans-unit id="Page 3076365605 - NamedType 1118502115" size-unit="char" translate="yes" xml:space="preserve">
           <source>No status transitions are defined for this status and path.</source>
           <target>Nessuna transizione stati definita per questo stato e percorso.</target>
+        </trans-unit>
+        <trans-unit id="Page 2506191716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Status Change Note</source>
+          <target>EDS Note cambio stato</target>
+        </trans-unit>
+        <trans-unit id="Page 2506191716 - NamedType 58951942" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The note is mandatory to change the status.</source>
+          <target>La nota è obbligatoria per questo cambio stato.</target>
+        </trans-unit>
+        <trans-unit id="Page 2506191716 - Control 2818109026 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a note that is saved in the status transaction log.</source>
+          <target>Specifica una nota che verrà salvata nel log delle transizioni stato.</target>
+        </trans-unit>
+        <trans-unit id="Page 3816568665 - Control 2898143332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the note entered when the status was changed.</source>
+          <target>Specifica la nota inserita quando lo stato viene cambiato.</target>
+        </trans-unit>
+        <trans-unit id="Page 2438731754 - Control 2898143332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the note entered when the status was changed.</source>
+          <target>Specifica la nota inserita quando lo stato viene cambiato.</target>
+        </trans-unit>
+        <trans-unit id="Table 479415834 - Field 3088936950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status Change Note</source>
+          <target>Nota cambio stato</target>
+        </trans-unit>
+        <trans-unit id="Page 2506191716 - Control 2818109026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <target>Nota</target>
+        </trans-unit>
+        <trans-unit id="Table 479415834 - Field 2334442513 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note Mandatory</source>
+          <target>Nota obbligatoria</target>
+        </trans-unit>
+        <trans-unit id="Table 2805917232 - Field 1998371442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notes Enabled</source>
+          <target>Note abilitate</target>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Prompt Permission</source>
+          <target>Autorizzazione prompt agente EDS</target>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - NamedType 3975740465" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Permission set %1 was not found.</source>
+          <target>Il set di autorizzazioni %1 non è stato trovato.</target>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 4203719780 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Record SystemId</source>
+          <target>ID sistema record di origine</target>
+        </trans-unit>
+        <trans-unit id="Table 2829684953 - Field 2898143332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <target>Nota</target>
+        </trans-unit>
+        <trans-unit id="Table 2438731754 - Field 2898143332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <target>Nota</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2358548272 - Method 3966557882 - NamedType 1574110035" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The mail has not been send correctly, check "%1" page.</source>
+          <target>La mail non è stata inviata correttamente, controllare la pagina "%1".</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 842517887 - Method 4050869481 - NamedType 2524123098" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The note is mandatory to change the status.</source>
+          <target>La nota è obbligatoria per modificare lo stato.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 2166175373 - NamedType 1323151971" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The configured agent profile %1 could not be found or is disabled.</source>
+          <target>Il profilo agente configurato %1 non è stato trovato o è disabilitato.</target>
+        </trans-unit>
+        <trans-unit id="Page 3892983424 - NamedType 58951942" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The note is mandatory to change the status.</source>
+          <target>La nota è obbligatoria per modificare lo stato.</target>
+        </trans-unit>
+        <trans-unit id="Page 3892983424 - Control 2818109026 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a note that is saved in the status transaction log.</source>
+          <target>Specifica una nota da salvare nel registro delle transazioni di stato.</target>
+        </trans-unit>
+        <trans-unit id="Page 3892983424 - Control 2818109026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note (max 100 characters)</source>
+          <target>Nota (max 100 caratteri)</target>
+        </trans-unit>
+        <trans-unit id="Page 709035198 - Control 2334442513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether a note is mandatory to perform this status change. It applies only if notes are enabled for the table.</source>
+          <target>Specifica se è obbligatorio inserire una nota per eseguire questa modifica dello stato. Si applica solo se le note sono abilitate per la tabella.</target>
+        </trans-unit>
+        <trans-unit id="Page 2819442872 - Control 2334442513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether a note is mandatory to perform this status change. It applies only if notes are enabled for the table.</source>
+          <target>Specifica se è obbligatorio inserire una nota per eseguire questa modifica dello stato. Si applica solo se le note sono abilitate per la tabella.</target>
+        </trans-unit>
+        <trans-unit id="Page 2805917232 - Control 1998371442 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the note field is available when changing the EDS status.</source>
+          <target>Specifica se il campo della nota è disponibile quando si modifica lo stato EDS.</target>
+        </trans-unit>
+        <trans-unit id="Page 2437798052 - Control 1998371442 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the note field is available when changing the EDS status. Whether the note is mandatory is set on each status transaction.</source>
+          <target>Specifica se il campo della nota è disponibile quando si modifica lo stato EDS. L'obbligatorietà della nota è impostata per ogni transazione di stato.</target>
+        </trans-unit>
+        <trans-unit id="Page 343218144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Permission Sets</source>
+          <target>Set di autorizzazioni agente</target>
+        </trans-unit>
+        <trans-unit id="Page 343218144 - Control 1256520770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the app that defines the permission set.</source>
+          <target>Specifica l'app che definisce il set di autorizzazioni.</target>
+        </trans-unit>
+        <trans-unit id="Page 343218144 - Control 3997336476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the company in which the permission set applies. Blank means all companies.</source>
+          <target>Specifica la società a cui si applica il set di autorizzazioni. Se il campo è vuoto, si applica a tutte le società.</target>
+        </trans-unit>
+        <trans-unit id="Page 343218144 - Control 1918310387 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the permission set assigned to the agent when it runs this prompt.</source>
+          <target>Specifica il set di autorizzazioni assegnato all'agente quando esegue questo prompt.</target>
+        </trans-unit>
+        <trans-unit id="Page 343218144 - Control 593885934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the permission set is system-defined or defined by an extension.</source>
+          <target>Specifica se il set di autorizzazioni è definito dal sistema o da un'estensione.</target>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 91890667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Permission Sets</source>
+          <target>Set di autorizzazioni agente</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Task Context</source>
+          <target>Contesto attività agente EDS</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2521021016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the display name of the agent assigned to the task.</source>
+          <target>Specifica il nome visualizzato dell'agente assegnato all'attività.</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2521021016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Display Name</source>
+          <target>Nome visualizzato agente</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2480897828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the agent task.</source>
+          <target>Specifica lo stato dell'attività dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2480897828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task Status</source>
+          <target>Stato attività</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 27866041 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user name of the agent assigned to the task.</source>
+          <target>Specifica il nome utente dell'agente assegnato all'attività.</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 27866041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent User Name</source>
+          <target>Nome utente agente</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2675404197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the security identifier of the agent assigned to the task.</source>
+          <target>Specifica l'identificatore di sicurezza dell'agente assegnato all'attività.</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2852966117 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the error associated with processing the task.</source>
+          <target>Specifica l'errore associato all'elaborazione dell'attività.</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 23578478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the task status was last updated.</source>
+          <target>Specifica quando è stato aggiornato l'ultima volta lo stato dell'attività.</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2837723668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the task summary.</source>
+          <target>Specifica lo stato del riepilogo dell'attività.</target>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 3958072724 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the identifier of the agent task.</source>
+          <target>Specifica l'identificativo dell'attività dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agents</source>
+          <target>Agenti EDS</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - NamedType 1261537384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to delete and unregister agent %1?</source>
+          <target>Eliminare e rimuovere la registrazione dell'agente %1?</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - NamedType 3211173535" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The display name cannot be empty.</source>
+          <target>Il nome visualizzato non può essere vuoto.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 3681468396 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the agent was activated.</source>
+          <target>Specifica quando è stato attivato l'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 861797355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the capability registered for the agent.</source>
+          <target>Specifica la funzionalità registrata per l'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 3039810348 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the availability of the agent capability.</source>
+          <target>Specifica la disponibilità della funzionalità dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 2521021016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the display name of the agent.</source>
+          <target>Specifica il nome visualizzato dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 2333429642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the agent configuration is active.</source>
+          <target>Specifica se la configurazione dell'agente è attiva.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 4167135003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the agent.</source>
+          <target>Specifica il tipo di agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 4167135003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Type</source>
+          <target>Tipo di agente</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 27866041 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user name of the agent.</source>
+          <target>Specifica il nome utente dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 90141998 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email address configured for the agent.</source>
+          <target>Specifica l'indirizzo e-mail configurato per l'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 1312032076 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the agent was last synchronized.</source>
+          <target>Specifica quando è stata eseguita l'ultima sincronizzazione dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 4202864534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the model configured for the agent.</source>
+          <target>Specifica il modello configurato per l'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 3021697414 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the security identifier of the agent.</source>
+          <target>Specifica l'identificativo di sicurezza dell'agente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 859916156 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes and unregisters the selected EDS agent.</source>
+          <target>Elimina e rimuove la registrazione dell'agente EDS selezionato.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 859916156 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Agent</source>
+          <target>Elimina agente</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 2515625764 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the email log of the selected agent.</source>
+          <target>Apre il registro e-mail dell'agente selezionato.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 2515625764 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Log</source>
+          <target>Registro e-mail</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 167293302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the task context of the selected agent.</source>
+          <target>Apre il contesto dell'attività dell'agente selezionato.</target>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 167293302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task Context</source>
+          <target>Contesto attività</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 842517887 - NamedType 2524123098" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The note is mandatory to change the status.</source>
+          <target>La nota è obbligatoria per modificare lo stato.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 3787522798 - NamedType 2975486440" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record not found</source>
+          <target>Record non trovato</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 3787522798 - NamedType 3613183057" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security is not enabled</source>
+          <target>Data security non è attiva</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 3787522798 - NamedType 4250879674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record is in the last status</source>
+          <target>Il record è nello stato finale</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 2237809292 - NamedType 2975486440" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record not found</source>
+          <target>Record non trovato</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 2237809292 - NamedType 3613183057" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security is not enabled</source>
+          <target>Data security non è attiva</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 2237809292 - NamedType 4250879674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record is in the last status</source>
+          <target>Il record è nello stato finale</target>
+        </trans-unit>
+        <trans-unit id="Page 3607116870 - Control 233944553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note Mandatory</source>
+          <target>Nota obbligatoria</target>
+        </trans-unit>
+        <trans-unit id="Table 479415834 - NamedType 2035791457" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A note cannot be mandatory for a transition from a blank status to the initial status.</source>
+          <target>Una nota non può essere obbligatoria per una transizione da uno stato vuoto allo stato iniziale.</target>
         </trans-unit>
       </group>
     </body>

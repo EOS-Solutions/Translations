@@ -293,6 +293,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Functions - NamedType Text001Err</note>
         </trans-unit>
+        <trans-unit id="Table 474459753 - Field 1434781316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Prompt Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Functions - Field Agent Prompt Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 474459753 - Field 1434781316 - Method 2126772001 - NamedType 1348083558" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot insert data when function type is not Agent!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Functions - Field Agent Prompt Code - Method OnValidate - NamedType lCtxText72004Err</note>
+        </trans-unit>
         <trans-unit id="Table 474459753 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -334,7 +344,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Functions - Field Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 474459753 - Field 1878130204 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Exec,Mail</source>
+          <source>Exec,Mail,Agent</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Functions - Field Type - Property OptionCaption</note>
         </trans-unit>
@@ -1083,6 +1093,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Status Transaction - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 479415834 - NamedType 2035791457" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A note cannot be mandatory for a transition from a blank status to the initial status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Status Transaction - NamedType InitialStatusNoteErr</note>
+        </trans-unit>
         <trans-unit id="Table 479415834 - NamedType 3322816610" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setting the same status in the fields '%1' and '%2' is not allowed.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1107,6 +1122,11 @@
           <source>From Status Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Status Transaction - Field From Status Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 479415834 - Field 2334442513 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note Mandatory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Status Transaction - Field Note Mandatory - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 479415834 - Field 4169302551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Owning Permission</source>
@@ -1297,16 +1317,6 @@
           <source>Document Print disabled</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Table Status - Field Document Print disabled - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2993563720 - Field 3536168541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document Status</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Table Status - Field Document Status - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2993563720 - Field 3536168541 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source> ,Open,Release</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Table Status - Field Document Status - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 2993563720 - Field 3589335922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>First Status</source>
@@ -1503,6 +1513,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Tables Setup - Field F9 No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2805917232 - Field 1998371442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notes Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Tables Setup - Field Notes Enabled - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2805917232 - Field 3914060557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ownership Code Field No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1578,6 +1593,451 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Tables Setup - Field Type Field No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 287400789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Email Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 633175764 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Body</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field Body - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 1746969396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Account ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field Email Account ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 1993094577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Connector</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field Email Connector - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 2852966117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field Error Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 1577231924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field From Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 400074693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field Recipient - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 23578478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status Date/Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field Status Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 1234124704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subject</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field Subject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 287400789 - Field 3958072724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Email Log - Field Task ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1131267218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Agent Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 409624101 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent User Security ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Agent User Security ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1760386770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2556041498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 10</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 10 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1918344881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 11</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 11 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1280648264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 12</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 12 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 642951647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 13</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 13 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 811860670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 14</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 14 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 174164053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 15</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 15 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3831434732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 16</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 16 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3193738115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 17</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 17 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3362647138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 18</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 18 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4142264215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 484993536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3673476621 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 16205942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2398083387 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 6</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3035780004 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 7</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 316084513 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 953781130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Text 9</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Text 9 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 546715564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%01</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2975310180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%10</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 10 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2337613563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%11</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 11 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4250703414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%12</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 12 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3613006797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%13</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 13 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 424523712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%14</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 14 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4081794391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%15</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 15 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1699916946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%16</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 16 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1062220329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%17</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 17 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2168704540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%18</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 18 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1184412181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%02</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1822108798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%03</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1653199775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%04</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2290896392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%05</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 2928593009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%06</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3566289626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%07</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 715624587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%08</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 1353321204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%09</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Field Value 9 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4202864534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Model ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Model ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4036380482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent will request end user review of message.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Must Request Review Of Message - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 4036380482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Review</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Must Request Review Of Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 625709163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send Summary To Email Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Notification Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 596358669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Profile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 290207576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3224103241 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt - Field Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Prompt History</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt History - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 290207576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt History - Field Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 3139169835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt History - Field Prompt Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 3922791604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Saved At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt History - Field Saved At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 3092839666 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Saved By</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt History - Field Saved By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1303563135 - Field 2195552367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Version Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt History - Field Version Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Prompt Permission</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt Permission - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - NamedType 3975740465" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Permission set %1 was not found.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = permission set ID</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt Permission - NamedType PermissionSetNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 2766253784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt Permission - Field App ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 1256520770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt Permission - Field App Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 3997336476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt Permission - Field Company Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 3139169835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt Permission - Field Prompt Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 1918310387 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Permission Set</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt Permission - Field Role ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 2507467933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt Permission - Field Role Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 593885934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scope</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt Permission - Field Scope - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1690534704 - Field 593885934 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System,Tenant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Prompt Permission - Field Scope - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 1284754842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action Email Sent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Task Context - Field Action Email Sent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 1746969396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Account ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Task Context - Field Email Account ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 1993094577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Connector</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Task Context - Field Email Connector - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 2852966117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Task Context - Field Error Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 625709163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notification Email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Task Context - Field Notification Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 4203719780 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Record SystemId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Task Context - Field Source Record SystemId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 90601618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Table ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Task Context - Field Source Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 23578478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status Date/Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Task Context - Field Status Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 3546687548 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary Sent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Task Context - Field Summary Sent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 2837723668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Task Context - Field Summary Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2955837395 - Field 3958072724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Agent Task Context - Field Task ID - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2966951915 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Child Table Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1652,6 +2112,11 @@
           <source>Factbox Line No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Factbox Buffer - Field Factbox Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2829684953 - Field 2898143332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Factbox Buffer - Field Note - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2829684953 - Field 3844693096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Record Position</source>
@@ -2548,6 +3013,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Trans. Log - Field Event No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2438731754 - Field 2898143332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS003 Status Trans. Log - Field Note - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2438731754 - Field 827239506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Old Status Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2998,6 +3468,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Mail Management - Method SendXMLMail - NamedType EmailCheckOutboxErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2358548272 - Method 3966557882 - NamedType 1574110035" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The mail has not been send correctly, check "%1" page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Mail Management - Method SendXMLMail2 - NamedType EmailCheckOutboxError</note>
+        </trans-unit>
         <trans-unit id="Codeunit 842517887 - NamedType 3486913992" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 %2 %3 is %4. Do you want to change it to %5?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3047,6 +3522,11 @@
           <source>You do not have permission to reopen %1 %2.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Management - NamedType NoReopenPermissionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 842517887 - NamedType 2524123098" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The note is mandatory to change the status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Management - NamedType StatusNoteMandatoryErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 842517887 - NamedType 2444345320" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 %2 has %3 = '%4'.</source>
@@ -3333,6 +3813,56 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX003 Subscription - NamedType TrialNotifLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 711180963 - Method 3634518524 - NamedType 842950165" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Background processing of agent emails has been scheduled to run every %1 minutes.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = number of minutes</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Agent Email Processor - Method ScheduleBackgroundProcessing - NamedType ScheduledLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 2166175373 - NamedType 1323151971" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The configured agent profile %1 could not be found or is disabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Agent Function Exec - Method ApplyConfiguredProfile - NamedType ConfiguredProfileNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 3404506285 - NamedType 2812980494" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security Agent summary: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Agent Function Exec - Method ProcessCompletedTask - NamedType SummarySubjectLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 3404506285 - NamedType 917001383" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The summary email could not be sent. See the EDS Agent Email Log.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Agent Function Exec - Method ProcessCompletedTask - NamedType SummaryFailedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 3687321561 - NamedType 664069847" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The agent requested an email without a recipient.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Agent Function Exec - Method SendDirectiveEmail - NamedType MissingRecipientLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 3687321561 - NamedType 3104705519" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security Agent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Agent Function Exec - Method SendDirectiveEmail - NamedType DefaultSubjectLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3755244302 - Method 3687321561 - NamedType 1285257873" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The agent email could not be sent. See the EDS Agent Email Log.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Agent Function Exec - Method SendDirectiveEmail - NamedType ActionFailedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 698735847 - NamedType 2632276440" maxwidth="18" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS AGENT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Agent Utilities - NamedType AgentNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 698735847 - NamedType 896185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Monitors data security events and record status changes, creating notifications and managing approval workflows.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Agent Utilities - NamedType AgentSummaryLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 698735847 - NamedType 3452859768" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security Agent (EOS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Agent Utilities - NamedType DefaultDisplayNameLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 294585688 - Method 1080453686 - NamedType 2975486440" size-unit="char" translate="yes" xml:space="preserve">
           <source>Record not found</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3363,6 +3893,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Api Mgt. Impl. - Method ChangeStatusWithDateTime - NamedType Err3</note>
         </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 3787522798 - NamedType 2975486440" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record not found</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Api Mgt. Impl. - Method ChangeStatusWithDateTimeAndNote - NamedType Err1</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 3787522798 - NamedType 3613183057" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security is not enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Api Mgt. Impl. - Method ChangeStatusWithDateTimeAndNote - NamedType Err2</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 3787522798 - NamedType 4250879674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record is in the last status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Api Mgt. Impl. - Method ChangeStatusWithDateTimeAndNote - NamedType Err3</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 2237809292 - NamedType 2975486440" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record not found</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Api Mgt. Impl. - Method ChangeStatusWithNote - NamedType Err1</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 2237809292 - NamedType 3613183057" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security is not enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Api Mgt. Impl. - Method ChangeStatusWithNote - NamedType Err2</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 294585688 - Method 2237809292 - NamedType 4250879674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record is in the last status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS003 Api Mgt. Impl. - Method ChangeStatusWithNote - NamedType Err3</note>
+        </trans-unit>
         <trans-unit id="Page 3892983424 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EDS Change Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3382,6 +3942,11 @@
           <source>Show Tables Requirements</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Change DS Status - NamedType MandatoryTables</note>
+        </trans-unit>
+        <trans-unit id="Page 3892983424 - NamedType 58951942" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The note is mandatory to change the status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Change DS Status - NamedType NoteMandatoryErr</note>
         </trans-unit>
         <trans-unit id="Page 3892983424 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
           <source>Status Change %1?</source>
@@ -3432,6 +3997,16 @@
           <source>New Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Change DS Status - Control NewStatusFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3892983424 - Control 2818109026 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a note that is saved in the status transaction log.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Change DS Status - Control NoteFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3892983424 - Control 2818109026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note (max 100 characters)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Change DS Status - Control NoteFld - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 548787030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EDS Cue Setup</source>
@@ -3772,6 +4347,11 @@
           <source>EDS Functions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Functions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 474459753 - Control 1434781316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Agent Prompt Code" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Functions - Control Agent Prompt Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 474459753 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Code" field</source>
@@ -4773,6 +5353,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Status Transaction Card - Control gTxtStatusToFld - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 709035198 - Control 2334442513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether a note is mandatory to perform this status change. It applies only if notes are enabled for the table. It cannot be enabled for a transition from a blank status to the initial status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Status Transaction Card - Control Note Mandatory - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 709035198 - Control 131848911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "To Description" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4837,6 +5422,11 @@
           <source>Specifies the value of the "From Status" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Status Transaction List - Control From Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2819442872 - Control 2334442513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether a note is mandatory to perform this status change. It applies only if notes are enabled for the table. It cannot be enabled for a transition from a blank status to the initial status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Status Transaction List - Control Note Mandatory - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2819442872 - Control 4169302551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Owning Permission" field</source>
@@ -5333,6 +5923,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Tables Setup - Control DS Field No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2805917232 - Control 1998371442 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the note field is available when changing the EDS status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Tables Setup - Control Notes Enabled - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2805917232 - Control 3914060557 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Ownership Code Field No." field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5522,6 +6117,11 @@
           <source>Specifies the value of the "EDS Field No." field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Tables Setup Card - Control DS Field No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2437798052 - Control 1998371442 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the note field is available when changing the EDS status. Whether the note is mandatory is set on each status transaction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Tables Setup Card - Control Notes Enabled - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2437798052 - Control 3914060557 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Ownership Code Field No." field</source>
@@ -6203,6 +6803,541 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Table Value Type List - Control Number - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 343218144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Permission Sets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Permissions Part - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 343218144 - Control 1256520770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the app that defines the permission set.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Permissions Part - Control App Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 343218144 - Control 3997336476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the company in which the permission set applies. Blank means all companies.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Permissions Part - Control Company Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 343218144 - Control 1918310387 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the permission set assigned to the agent when it runs this prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Permissions Part - Control Role ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 343218144 - Control 2507467933 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the permission set.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Permissions Part - Control Role Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 343218144 - Control 593885934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the permission set is system-defined or defined by an extension.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Permissions Part - Control Scope - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - NamedType 2445357236" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No default instructions found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - NamedType NoDefaultInstructionsMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 91890667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Permission Sets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control AgentPermissions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1131267218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the agent that will execute this prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Agent Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a unique code for the agent prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the agent prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 4202864534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays the model configured for the selected agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Model ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 4036380482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent will request end user review of message.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Must Request Review Of Message - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 4036380482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Review</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Must Request Review Of Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 596358669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays the profile configured for the selected agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Profile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 790001862 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control PromptEditorPart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1034300564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Values</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Values - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 546715564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%01</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 2975310180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%10</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 10 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 2337613563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%11</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 11 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 4250703414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%12</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 12 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 3613006797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%13</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 13 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 424523712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%14</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 14 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 4081794391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%15</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 15 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1699916946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%16</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 16 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1062220329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%17</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 17 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 2168704540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%18</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 18 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1184412181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%02</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1822108798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%03</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1653199775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%04</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 2290896392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%05</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 2928593009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%06</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 3566289626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%07</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 715624587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%08</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 1353321204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%09</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Field Value 9 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 625709163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email address to which the agent will send the completed task summary.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Notification Email - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 625709163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send Summary To Email Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Notification Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source table for field value mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Control Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Action 3827680623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initializes this prompt with default agent instructions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Action InitializeFromDefault - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 784673557 - Action 3827680623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initialize from Default</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Card - Action InitializeFromDefault - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt Editor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Edit. Part - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - NamedType 287892675" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Edit. Part - NamedType AriaLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - NamedType 116033087" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A version named '%1' already exists for this prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Edit. Part - NamedType DuplicateNameErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - NamedType 2924043734" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt cannot be empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Edit. Part - NamedType PromptCannotBeEmptyErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - NamedType 1161163308" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A version with the same content already exists.\Are you sure you want to save another identical version?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Edit. Part - NamedType SameContentConfirmMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 3865570867 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save the current prompt text to the active prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Edit. Part - Action Save - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 3865570867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Edit. Part - Action Save - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 721064699 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save the current prompt as a new version in the history.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Edit. Part - Action SaveAsVersion - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 721064699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save to history</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Edit. Part - Action SaveAsVersion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 3683400689 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the history of prompt changes and restore an earlier version if needed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Edit. Part - Action ViewHistory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3648267526 - Action 3683400689 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View history</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Edit. Part - Action ViewHistory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt History</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - NamedType 1118926904" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to restore this version? The current prompt will be overwritten.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Log - NamedType RestoreConfirmQst</note>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Control 1266388499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Log - Control InstructionsPreview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Log - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Control 3922791604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when this version was saved.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Log - Control Saved At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Control 3092839666 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies who saved this version.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Log - Control Saved By - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Control 2195552367 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the version name.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Log - Control Version Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Action 635732598 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restore this version of the prompt. The current prompt will be overwritten.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Log - Action RestoreVersion - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1892067973 - Action 635732598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restore</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompt Log - Action RestoreVersion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 127521376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Prompts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Prompts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Configure Data Security Agent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - NamedType 1249587391" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Data Security Agent capability is not enabled in Copilot capabilities.\\Please enable the capability before setting up the agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Setup - NamedType CapabilityNotEnabledErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - NamedType 2012792311" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit instructions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Setup - NamedType EditInstructionsLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - NamedType 3684956075" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View history</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Setup - NamedType ViewPromptHistoryLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Control 3603497770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email address for outgoing mail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Setup - Control MonitorIncomingCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Control 2859076213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mailbox</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Setup - Control MailboxGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Control 3608317725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Setup - Control Mailbox Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Action 788258546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discards the changes and closes the setup page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Setup - Action Cancel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Action 788258546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Setup - Action Cancel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Action 2079045816 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply the changes to the agent setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Setup - Action OK - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3819051320 - Action 2079045816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Setup - Action OK - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Email Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 2297243455 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email body.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Control BodyText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 2297243455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Body</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Control BodyText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the log entry number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 2852966117 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the error message when sending failed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Control Error Message - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 1577231924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sender email address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Control From Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 400074693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the recipient email address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Control Recipient - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the email is the task summary or an email requested by the agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the send status of the email.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 23578478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the email status was last updated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Control Status Date/Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 1234124704 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email subject.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Control Subject - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Control 3958072724 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the agent task that produced the email.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Control Task ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 2812809488 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scans completed or paused agent tasks and sends any summary or agent-requested emails that have not been sent yet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Action ProcessPending - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 2812809488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process Finished Tasks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Action ProcessPending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 3580947034 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates a recurring job queue entry that sends pending agent emails automatically.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Action ScheduleProcessing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 3580947034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule Background Processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Action ScheduleProcessing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 4056763662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sends all emails that are still pending or failed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Action SendAllPending - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 4056763662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send All Pending</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Action SendAllPending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 743942932 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sends the selected email. Already sent emails are skipped.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Action SendEmail - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 743942932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Action SendEmail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 327235989 - Action 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Summary Log - Action Category_Process - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agent Task Context</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2521021016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the display name of the agent assigned to the task.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control AgentDisplayName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2521021016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Display Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control AgentDisplayName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2480897828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the agent task.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control AgentTaskStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2480897828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control AgentTaskStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 27866041 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user name of the agent assigned to the task.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control AgentUserName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 27866041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent User Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control AgentUserName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2675404197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the security identifier of the agent assigned to the task.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control AgentUserSecurityID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2675404197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent User Security ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control AgentUserSecurityID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2852966117 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the error associated with processing the task.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control Error Message - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 23578478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the task status was last updated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control Status Date/Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 2837723668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the task summary.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control Summary Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2955837395 - Control 3958072724 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the identifier of the agent task.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Agent Task Context - Control Task ID - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2680072291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EDS Bulk Assignment</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6327,6 +7462,146 @@
           <source>Specifies the value of the Table Name to Check field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Child Table Setup List - Control Table Name to Check - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDS Agents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - NamedType 915588842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - NamedType ActiveLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - NamedType 1261537384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to delete and unregister agent %1?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - NamedType DeleteAgentConfirmQst</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - NamedType 3211173535" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The display name cannot be empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - NamedType DisplayNameEmptyErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - NamedType 2826403587" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inactive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - NamedType InactiveLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - NamedType 2544287428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - NamedType PreviewLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 3681468396 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the agent was activated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control Activated At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 861797355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the capability registered for the agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control Agent Capability - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 3039810348 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the availability of the agent capability.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control AgentAvailability - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 3039810348 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control AgentAvailability - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 2521021016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the display name of the agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control AgentDisplayName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 2521021016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Display Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control AgentDisplayName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 2333429642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the agent configuration is active.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control AgentState - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 2333429642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>State</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control AgentState - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 4167135003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control AgentType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 4167135003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control AgentType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 27866041 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user name of the agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control AgentUserName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 27866041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control AgentUserName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 90141998 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email address configured for the agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control Email Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 1312032076 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the agent was last synchronized.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control Last Sync At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 4202864534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the model configured for the agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control Model ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Control 3021697414 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the security identifier of the agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Control User Security ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 859916156 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes and unregisters the selected EDS agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Action DeleteAgent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 859916156 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Agent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Action DeleteAgent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 2515625764 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the email log of the selected agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Action EmailLog - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 2515625764 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Action EmailLog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 167293302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the task context of the selected agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Action TaskContext - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1664882478 - Action 167293302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task Context</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 EDS Agents - Action TaskContext - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1948794199 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Value" field</source>
@@ -6632,6 +7907,21 @@
           <source>Specifies the value of the To Status field.</source>
           <note from="Developer" annotates="general" priority="2">%</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Parent Table Relations - Control To Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 189947829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save Version</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Prompt Version Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 189947829 - Control 145966807 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter a unique name for this version.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Prompt Version Name - Control VersionName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 189947829 - Control 145966807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Version Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Prompt Version Name - Control VersionName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4019868779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EDS Record Status</source>
@@ -7338,6 +8628,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Log Factbox - Control Change Time - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3816568665 - Control 2898143332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the note entered when the status was changed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Log Factbox - Control Note - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3816568665 - Control 2379948459 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Status Code" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7498,6 +8793,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Trans. Log - Control Entry No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2438731754 - Control 2898143332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the note entered when the status was changed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Trans. Log - Control Note - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2438731754 - Control 827239506 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Old Status Code" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7563,6 +8863,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Transaction Api - Control fromStatusDescription - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3607116870 - Control 233944553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note Mandatory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Transaction Api - Control noteMandatory - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3607116870 - Control 1423948367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Owning Permission</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7608,11 +8913,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Transaction Api - Control toStatusDescription - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 535365161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>eos003TableChangePathApi</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Change Path Api - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 535365161 - Control 3634302290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Background</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7647,11 +8947,6 @@
           <source>Table Option Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Change Path Api - Control tableOptionType - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1780606164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>eos003TableStatusApi</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Table Status Api - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1780606164 - Control 1723367824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Assign Enabled</source>
@@ -8303,6 +9598,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18122238 - Control EOS003 Owner Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1974488217 - Control 2570974094 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4171567523">
+          <source>Specifies the number of status changes made by the agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS003 Agent Summary - Control EOS003 Total Status Changes by - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3390061125 - Field 3110349897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4274826855">
           <source>EDS Status Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8528,6 +9828,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18122154 - Field EOS003 Owner Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 4147200839 - Field 2570974094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4171567523">
+          <source>EDS status changes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS003 EDS Agent Summary - Field EOS003 Total Status Changes by - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1826145118 - Field 3110349897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
           <source>EDS Status Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8557,6 +9862,16 @@
           <source>Owner Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS003 TableExt18122155 - Field EOS003 Owner Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Profile 3700052885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EOS Data Security Agent (EDS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile EOS003 Agent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Profile 2533897662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EOS Data Security Agent (EDS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile EOS003 Agent All - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3259845394 - EnumValue 1696811214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Custom 1</source>
@@ -8607,6 +9922,36 @@
           <source>Sales 3</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS DS Role Center Group - EnumValue Sales 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4157534438 - EnumValue 1222401102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS003 Agent Email Source - EnumValue Agent Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4157534438 - EnumValue 2166945456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS003 Agent Email Source - EnumValue Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2325294501 - EnumValue 3826689261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS003 Agent Summary Status - EnumValue Failed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2325294501 - EnumValue 3481143665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS003 Agent Summary Status - EnumValue Pending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2325294501 - EnumValue 594503032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sending</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS003 Agent Summary Status - EnumValue Sending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2325294501 - EnumValue 2561328176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS003 Agent Summary Status - EnumValue Sent - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3349777243 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
@@ -8747,6 +10092,16 @@
           <source>User</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS003 User Permission Type - EnumValue User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3614125165 - EnumValue 3700052885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3058546390">
+          <source>Data Security Agent (EOS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS003 EnumExt18122245 - EnumValue EOS003 Agent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2976428548 - EnumValue 3700052885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3596146799">
+          <source>Data Security Agent (EOS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS003 EnumExt18122246 - EnumValue EOS003 Agent - Property Caption</note>
         </trans-unit>
       </group>
     </body>
