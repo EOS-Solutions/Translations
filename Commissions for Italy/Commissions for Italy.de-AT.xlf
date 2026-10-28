@@ -7,6 +7,14 @@
           <source>There are more than one payment lines with same due date %1.</source>
           <target>Es gibt mehr als eine Zahlungspositionen mit demselben Fälligkeitsdatum %1.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 508109017 - NamedType 3539332722" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Renegotiation %1 would change the payable/settled commission amount for salesperson %2 on document %3 %4 from %5 to %6. A renegotiation can only redistribute commission across installments, not create or remove commission.</source>
+          <target>Die Neuverhandlung %1 würde den zahlbaren/ausgeglichenen Provisionsbetrag für den Verkäufer %2 im Beleg %3 %4 von %5 auf %6 ändern. Eine Neuverhandlung kann Provisionen nur zwischen den Raten umverteilen, nicht erstellen oder entfernen.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 508109017 - NamedType 1210275667" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cust. Ledger Entry %1 became closed by renegotiation %2 but no new Detailed Cust. Ledg. Entry of type Application was found. Cannot safely rebuild the related commission entries.</source>
+          <target>Der Debitorenposten %1 wurde durch die Neuverhandlung %2 geschlossen, aber es wurde kein neuer detaillierter Debitorenposten vom Typ Ausgleich gefunden. Die zugehörigen Provisionsposten können nicht sicher neu erstellt werden.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1996897072 - Control 2308955859 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if commissione entry is related to a document that is partially closed by split payment. Not processed if settlement method is Invoiced.</source>
           <target>Gibt an, ob der Provisionsposten mit einem Beleg verknüpft ist, der teilweise durch geteilte Zahlung geschlossen wird.</target>
@@ -326,10 +334,6 @@
         <trans-unit id="TableExtension 580823515 - Field 2308955859 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Split Payment</source>
           <target>Split Payment</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 1856216749 - Field 4157299669 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posted Payment Line No.</source>
-          <target>Geb. Zahlungszeilennr.</target>
         </trans-unit>
         <trans-unit id="Codeunit 289078007 - Method 664564380 - NamedType 1774649651" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are existing Commission Ledger Entries excluded from settlement, do you want to continue?</source>
