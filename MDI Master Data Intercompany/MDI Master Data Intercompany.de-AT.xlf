@@ -115,6 +115,10 @@
           <source>No job queue found for mass execution. Do you want to create a job queue?</source>
           <target>Für die Massenausführung wurde keine Auftragswarteschlange gefunden. Möchten Sie eine Auftragswarteschlange erstellen?</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3519155279 - NamedType 601984580" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Some entries have not yet been processed.</source>
+          <target>Einige Einträge wurden noch nicht verarbeitet.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3519155279 - NamedType 1415219262" translate="yes" size-unit="char" xml:space="preserve">
           <source>The Totaling for each End-total is also updated.</source>
           <target>Die Zusammenzählung für Bis-Summen ist ebenfalls aktualisiert.</target>
@@ -2375,6 +2379,10 @@
           <source>Specifies the value of the "Thread per Company" field.</source>
           <target>Gibt den Wert des Feldes "Thread pro Unternehmen" an.</target>
         </trans-unit>
+        <trans-unit id="Page 3001785898 - Control 2799699309 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether the message picker uses a Record variable instead of a Query, with a ReadCommitted + UpdLock loop to handle concurrent sessions.</source>
+          <target>Gibt an, ob die Nachrichtenauswahl statt einer Abfrage eine Record-Variable mit einer ReadCommitted + UpdLock-Schleife verwendet, um gleichzeitige Sitzungen zu verarbeiten.</target>
+        </trans-unit>
         <trans-unit id="Page 3001785898 - Control 2749476161 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Allow Hot Changes" field</source>
           <target>Gibt den Wert des Feldes "Hot Changes zulassen" an.</target>
@@ -4139,6 +4147,10 @@
           <source>Thread per Company</source>
           <target>Thread pro Unternehmen</target>
         </trans-unit>
+        <trans-unit id="Table 3001785898 - Field 2799699309 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use ReadCommitted Record Picker</source>
+          <target>ReadCommitted-Datensatzauswahl verwenden</target>
+        </trans-unit>
         <trans-unit id="Table 3001785898 - Field 2749476161 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allow Hot Changes</source>
           <target>Hot-Änderungen zulassen</target>
@@ -4590,6 +4602,182 @@
         <trans-unit id="Table 4201889651 - NamedType 303728444" translate="yes" size-unit="char" xml:space="preserve">
           <source>Filter</source>
           <target>Filter</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3836823949 - Method 1476643788 - NamedType 641220533" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MDI Error: The environment is not valid for this operation.</source>
+          <target>MDI-Fehler: Die Umgebung ist für diesen Vorgang nicht gültig.</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - NamedType 1304884515" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The synchronization module is not active or no valid synchronization profile has been found.</source>
+          <target>Das Synchronisierungsmodul ist nicht aktiv, oder es wurde kein gültiges Synchronisierungsprofil gefunden.</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Method 476038912 - NamedType 1021046467" translate="yes" size-unit="char" xml:space="preserve">
+          <source>no valid license was found for the MDI app</source>
+          <target>Es wurde keine gültige Lizenz für die MDI-App gefunden</target>
+        </trans-unit>
+        <trans-unit id="Table 3792542264 - Field 2897660500 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record ID</source>
+          <target>Datensatz-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 3792542264 - Field 689242118 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Company Code</source>
+          <target>Firmencode</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Method 476038912 - NamedType 193132053" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No valid and active setup for synchronization.</source>
+          <target>Keine gültige und aktive Einrichtung für die Synchronisierung.</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record FactBox (MDI)</source>
+          <target>Record FactBox (MDI)</target>
+        </trans-unit>
+        <trans-unit id="Table 3792542264 - Field 1101052533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synch Status</source>
+          <target>Status der Synchronisierung</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Method 476038912 - NamedType 265200745" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synchronization status to company %1 is ok.</source>
+          <target>Der Synchronisierungsstatus mit Firma %1 ist in Ordnung.</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 2632017440 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Synchronize" action</source>
+          <target>Führt die Aktion "Synchronisieren" aus</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 404518510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synch. Errors</source>
+          <target>Synch. Fehler</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 2632017440 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synchronize</source>
+          <target>Synchronisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 2465399866 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Not synchronizable" action</source>
+          <target>Führt die Aktion "Nicht synchronisierbar" aus</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 2465399866 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Not synchronizable</source>
+          <target>Nicht synchronisierbar</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 187046939 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Setup" action</source>
+          <target>Führt die Aktion "Setup" aus</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 187046939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup</source>
+          <target>Einrichtung</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 404518510 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Synch. Errors" action</source>
+          <target>Führt die "Synch. Fehler" Aktion</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 4219505703 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Synch. OK" action</source>
+          <target>Führt die "Synch. OK" Aktion</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Action 4219505703 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synch. OK</source>
+          <target>Synch. Okay</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2912234454 - Control 3238957275 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MDI Intercompany</source>
+          <target>MDI Intercompany</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2274537837 - Control 3238957275 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MDI Intercompany</source>
+          <target>MDI Intercompany</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1636841220 - Control 3238957275 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MDI Intercompany</source>
+          <target>MDI Intercompany</target>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1365699591 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS059 MDI ADM</source>
+          <target>EOS059 MDI ADM</target>
+        </trans-unit>
+        <trans-unit id="PermissionSet 3305528056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS059 MDI USER</source>
+          <target>EOS059 MDI USER</target>
+        </trans-unit>
+        <trans-unit id="Table 3792542264 - Field 689242118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The company code associated with the MDI record.</source>
+          <target>Der Buchungskreis, der dem MDI-Datensatz zugeordnet ist.</target>
+        </trans-unit>
+        <trans-unit id="Table 3792542264 - Field 1101052533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The synchronization status of the MDI record.</source>
+          <target>Der Synchronisierungsstatus des MDI-Datensatzes.</target>
+        </trans-unit>
+        <trans-unit id="Table 263412704 - Field 3017471043 - Method 2126772001 - NamedType 3325398861" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You cannot use the table %1 (%2) for synchronization.</source>
+          <target>Sie können die Tabelle %1 (%2) nicht für die Synchronisation verwenden.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3836823949 - Method 757557342 - NamedType 3702527732" translate="yes" size-unit="char" xml:space="preserve">
+          <source>FROM MASTER COMPANY: </source>
+          <target>VON DER MEISTERFIRMA: </target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Method 2881165350 - NamedType 3680032180" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Not synchronizable</source>
+          <target>Nicht synchronisierbar</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Method 2881165350 - NamedType 2628625516" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synchronization Error</source>
+          <target>Synchronisierungsfehler</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Method 2881165350 - NamedType 3780728490" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Needs Synchronization</source>
+          <target>Synchronisierung erforderlich</target>
+        </trans-unit>
+        <trans-unit id="Table 4112052816 - Field 2806160764 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Payload MD5 Hash</source>
+          <target>Nutzlast: MD5-Hash</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Method 2881165350 - NamedType 2475441591" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synchronization Disabled</source>
+          <target>Synchronisierung deaktiviert</target>
+        </trans-unit>
+        <trans-unit id="Page 2407694287 - Method 2881165350 - NamedType 1503105219" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synchronization OK</source>
+          <target>Synchronisation OK</target>
+        </trans-unit>
+        <trans-unit id="Page 1167411334 - Action 3803560557 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Load More" action</source>
+          <target>Führt die Aktion "Mehr laden" aus</target>
+        </trans-unit>
+        <trans-unit id="Page 1167411334 - Control 4289725705 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Pagination Count</source>
+          <target>Paginierungsanzahl</target>
+        </trans-unit>
+        <trans-unit id="Table 3001785898 - Field 1217050952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Matrix Pagination Count</source>
+          <target>Matrix-Paginierungsanzahl</target>
+        </trans-unit>
+        <trans-unit id="Page 1167411334 - Control 4289725705 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Pagination Count" field.</source>
+          <target>Spezifiziert den Wert des Feldes "Pagination Count".</target>
+        </trans-unit>
+        <trans-unit id="Page 1167411334 - Action 3803560557 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Load More</source>
+          <target>Mehr laden</target>
+        </trans-unit>
+        <trans-unit id="Page 3001785898 - Control 1217050952 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Matrix Pagination Count field.</source>
+          <target>Spezifiziert den Wert des Feldes Matrix Pagination Count.</target>
+        </trans-unit>
+        <trans-unit id="Page 3001785898 - Control 1116805383 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Skip Ignored" field. When enabled, synchronization entries with status "Ignored" will not be created or updated.</source>
+          <target>Spezifiziert den Wert des Feldes "Ignoriert überspringen". Wenn aktiviert, werden Synchronisationseinträge mit dem Status "Ignoriert" nicht erstellt oder aktualisiert.</target>
+        </trans-unit>
+        <trans-unit id="Table 3001785898 - Field 1116805383 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Skip Ignored</source>
+          <target>Überspringen ignoriert</target>
+        </trans-unit>
+        <trans-unit id="Page 3001785898 - Control 987636274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the system sends telemetry data about failed entries to Application Insights for troubleshooting.</source>
+          <target>Spezifiziert, ob das System Telemetriedaten über fehlgeschlagene Einträge an Application Insights zur Fehlersuche sendet.</target>
+        </trans-unit>
+        <trans-unit id="Table 3001785898 - Field 987636274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Telemetry</source>
+          <target>Telemetrie aktivieren</target>
         </trans-unit>
       </group>
     </body>
