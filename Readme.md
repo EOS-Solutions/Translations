@@ -63,15 +63,17 @@ The Translation API Call workflow processes XLF changes between `dbversion` and 
 
 | Accepted target-language (highest priority first) | API language |
 | --- | --- |
-| `it-IT` | `it-IT` |
-| `de-DE` | `de-DE` |
-| `fr-FR` | `fr-FR` |
-| `es-ES`, `es`, `es-ES_tradnl` | `es-ES` |
-| `en-EN`, `en-US`, `en-GB` | `en-EN` |
+| `it-IT` | `it` |
+| `de-DE` | `de` |
+| `fr-FR` | `fr` |
+| `es-ES`, `es`, `es-ES_tradnl` | `es` |
+| `en-EN`, `en-US`, `en-GB` | `en` |
 
 All other languages, including other regional variants, and generic `.g.xlf` files are ignored by automatic synchronization.
 
 Files in the same directory with the same filename stem after removing the culture suffix belong to the same application group. Only one file per group and API language is uploaded, using the priority above even when the variant contents differ. If only a lower-priority variant changes, the preferred existing sibling is still selected. Translation units remain batched as before, and database filename identifiers remain the selected basename without `.xlf`.
+
+Selection and deduplication retain the accepted culture codes internally; only the outgoing JSON `language` uses the neutral code (`it`, `de`, `fr`, `es`, or `en`). Updating the scripts alone does not migrate existing database rows: files previously uploaded with full culture codes must be resynchronized.
 
 For affected groups, automatic deletion removes records for the accepted aliases before uploading the selected file. Deleted files and previous target languages are identified using their XML at `dbversion`. This remains incremental: records for unchanged groups or excluded languages already stored in the API are not globally cleaned. Explicit manual deletion is unchanged.
 

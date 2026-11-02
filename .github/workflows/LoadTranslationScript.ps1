@@ -79,7 +79,7 @@ $executionTime = Measure-Command {
             $nsManager = New-Object System.Xml.XmlNamespaceManager($xmlContent.NameTable)
             $nsManager.AddNamespace("x", "urn:oasis:names:tc:xliff:document:1.2")
         
-            $targetLanguage = $file.Language
+            $targetLanguage = ($file.Language -split '-')[0]
         
             # Process each trans-unit using proper namespace
             $transUnits = $xmlContent.SelectNodes("//x:trans-unit", $nsManager)
