@@ -5,6 +5,12 @@ param(
     [int]$maxConcurrentSends = 50
 )
 
+. "$PSScriptRoot/TranslationSelection.ps1"
+$selectedFiles = @(Select-TranslationApiFiles -Files @(
+    foreach ($file in $xlfFiles) {
+        Get-TranslationApiFile -Path $file
+    }
+))
 
 # Function to send translations
 function Send-Translations {
@@ -34,8 +40,8 @@ function Send-Translations {
 
 $executionTime = Measure-Command {
 
-    foreach ($file in $xlfFiles) {
-        $fileObj = Get-Item $file
+    foreach ($file in $selectedFiles) {
+        $fileObj = Get-Item -LiteralPath $file.Path
         Write-Host "Processing file: $($fileObj.FullName)"
     
         # Check for config.json in the file's directory
@@ -73,9 +79,7 @@ $executionTime = Measure-Command {
             $nsManager = New-Object System.Xml.XmlNamespaceManager($xmlContent.NameTable)
             $nsManager.AddNamespace("x", "urn:oasis:names:tc:xliff:document:1.2")
         
-            # Get target language from the file element
-            $targetLanguage = $xmlContent.xliff.file.GetAttribute("target-language")
-            $targetLanguage = ($targetLanguage -split '-')[0]
+            $targetLanguage = $file.Language
         
             # Process each trans-unit using proper namespace
             $transUnits = $xmlContent.SelectNodes("//x:trans-unit", $nsManager)

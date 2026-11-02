@@ -47,30 +47,10 @@ if ($PSBoundParameters.ContainsKey('FileName')) {
     return
 }
 
-# Execute git command to get the list of changed files
-$gitDiffOutput = git --no-pager diff --name-only dbversion HEAD
+. "$PSScriptRoot/TranslationSelection.ps1"
 
-# Check if git command was successful
-if ($LASTEXITCODE -ne 0) {
-    Write-Error "Failed to execute git diff command. Make sure you're in a git repository."
-    return
-}
-
-# Array to store just the filenames (without paths)
-$fileNames = @()
-
-# Process each line of git diff output
-foreach ($line in $gitDiffOutput) {
-    if ($line.Trim() -ne "") {
-        # Extract just the filename part from the path
-        $fileName = Split-Path -Path $line -Leaf
-
-        # Include translated XLF files for any culture, excluding generic source files.
-        if ($fileName -match '\.xlf$' -and $fileName -notmatch '\.g\.xlf$') {
-            $fileNames += $fileName
-        }
-    }
-}
+$plan = Get-TranslationApiPlan
+$fileNames = $plan.FilesToDelete
 
 # Output the processed filenames
 Write-Output "Extracted filenames:"
@@ -78,6 +58,6 @@ $fileNames | ForEach-Object { Write-Output "- $_" }
 
 # Call your function for each filename
 foreach ($fileName in $fileNames) {
-    CallAPIFileName -FileName $fileName
+    CallAPIFileName -FileName $fileName -ThrowOnError
     Write-Output "Translations removed for file: $fileName"
 }

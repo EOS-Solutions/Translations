@@ -1,29 +1,7 @@
-# Execute git command to get the list of changed files
-$gitDiffOutput = git --no-pager diff --name-only dbversion HEAD
+. "$PSScriptRoot/TranslationSelection.ps1"
 
-# Check if git command was successful
-if ($LASTEXITCODE -ne 0) {
-    Write-Error "Failed to execute git diff command. Make sure you're in a git repository."
-    return
-}
-
-# Array to store just the filenames (without paths)
-$fileNames = @()
-
-# Process each line of git diff output
-foreach ($path in $gitDiffOutput) {
-    if ($path.Trim() -ne "") {
-        # Extract just the filename part from the path
-        #$fileName = Split-Path -Path $line -Leaf
-
-        # Include translated XLF files for any culture, excluding generic source files.
-        if ($path -match '\.xlf$' -and $path -notmatch '\.g\.xlf$') {
-            if (Test-Path -Path $path) {              
-                $fileNames += $path
-            }
-        }
-    }
-}
+$plan = Get-TranslationApiPlan
+$fileNames = @($plan.FilesToUpload | ForEach-Object Path)
 
 # Output the processed filenames
 Write-Output "Extracted filenames:"
@@ -33,5 +11,5 @@ $maxConcurrentSends = 300
 
 # Call your function for each filename
 if ($fileNames.Count -gt 0) {
-    ./.github/workflows/LoadTranslationScript.ps1 -xlfFiles $fileNames -maxConcurrentSends $maxConcurrentSends
+    & "$PSScriptRoot/LoadTranslationScript.ps1" -xlfFiles $fileNames -maxConcurrentSends $maxConcurrentSends
 }

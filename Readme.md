@@ -56,3 +56,23 @@ Here is an example:
   <file datatype="xml" source-language="en-US" target-language="xx-XX" original="Data Security">
     <body>
 ```
+
+## Translation API synchronization
+
+The Translation API Call workflow processes XLF changes between `dbversion` and `HEAD`. Languages are read from the XML `target-language` attribute, not from filenames. Only these languages are accepted:
+
+| Accepted target-language (highest priority first) | API language |
+| --- | --- |
+| `it-IT` | `it-IT` |
+| `de-DE` | `de-DE` |
+| `fr-FR` | `fr-FR` |
+| `es-ES`, `es`, `es-ES_tradnl` | `es-ES` |
+| `en-EN`, `en-US`, `en-GB` | `en-EN` |
+
+All other languages, including other regional variants, and generic `.g.xlf` files are ignored by automatic synchronization.
+
+Files in the same directory with the same filename stem after removing the culture suffix belong to the same application group. Only one file per group and API language is uploaded, using the priority above even when the variant contents differ. If only a lower-priority variant changes, the preferred existing sibling is still selected. Translation units remain batched as before, and database filename identifiers remain the selected basename without `.xlf`.
+
+For affected groups, automatic deletion removes records for the accepted aliases before uploading the selected file. Deleted files and previous target languages are identified using their XML at `dbversion`. This remains incremental: records for unchanged groups or excluded languages already stored in the API are not globally cleaned. Explicit manual deletion is unchanged.
+
+Run the local checks with `& ./.github/tests/TranslationAPI.Tests.ps1` in PowerShell. Tests use a temporary Git repository and mock all HTTP calls.
