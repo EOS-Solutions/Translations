@@ -151,10 +151,6 @@
           <source>Process result:\   Processed records: %1\   %3 created: %2</source>
           <target>Prozessergebnis:\   Verarbeitete Datensätze: %1\   %3 erstellt: %2</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1342986557 - Method 3206010156 - NamedType 3768398224" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The p7m file is not valid</source>
-          <target>Die p7m-Datei ist ungültig.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1342986557 - Method 3246936975 - NamedType 1068754970" translate="yes" size-unit="char" xml:space="preserve">
           <source>Process result:\   Processed records: %1\   %4 created: %2\   %5 created: %3</source>
           <target>Prozessergebnis:\   Verarbeitete Datensätze: %1\   %4 erstellt: %2\   %5 erstellt: %3</target>
@@ -174,10 +170,6 @@
         <trans-unit id="Codeunit 1342986557 - Method 3566112585 - NamedType 718089289" translate="yes" size-unit="char" xml:space="preserve">
           <source>The p7m file is corrupted. Check the signature</source>
           <target>Die p7m-Datei ist beschädigt. Überprüfen Sie die Signatur</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1342986557 - Method 3589791865 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Manual line</source>
-          <target>Manuelle Zeile</target>
         </trans-unit>
         <trans-unit id="Codeunit 1342986557 - Method 3611029156 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>The file %1 was already imported by %2 on %3.</source>
@@ -8204,12 +8196,12 @@
           <target>Ausgehende elektr. Belege erstellen/senden</target>
         </trans-unit>
         <trans-unit id="Report 1439355717 - Control 1364941318 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date From</source>
-          <target>Buchungsdatum von</target>
+          <source>Reference Date From</source>
+          <target>Bezugsdatum von</target>
         </trans-unit>
         <trans-unit id="Report 1439355717 - Control 1746928465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date To</source>
-          <target>Buchungsdatum bis</target>
+          <source>Reference Date To</source>
+          <target>Bezugsdatum bis</target>
         </trans-unit>
         <trans-unit id="Report 1439355717 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
@@ -8260,8 +8252,8 @@
           <target>Betrag, der der Stempelmarke unterliegt (LW)</target>
         </trans-unit>
         <trans-unit id="Report 1439355717 - ReportLabel 555588458" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date Filter</source>
-          <target>Buchungsdatumsfilter</target>
+          <source>Reference Date Filter</source>
+          <target>Referenzdatumfilter</target>
         </trans-unit>
         <trans-unit id="Report 1439355717 - ReportLabel 694130091" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. of document in period</source>
@@ -14083,10 +14075,6 @@
           <source>Invalid JSON response from AI service for vendor shipment number matching</source>
           <target>Ungültige JSON-Antwort des KI-Dienstes für die Übereinstimmung der Lieferanten-Versandnummern</target>
         </trans-unit>
-        <trans-unit id="Codeunit 464494200 - Method 1865012979 - NamedType 584935190" translate="yes" size-unit="char" xml:space="preserve">
-          <source>https://docs.microsoft.com/en-us/dynamics365/business-central/</source>
-          <target>https://docs.microsoft.com/en-us/dynamics365/business-central/</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3413796135 - Method 628153561 - NamedType 753421733" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invalid JSON response from AI service for UOM matching</source>
           <target>Ungültige JSON-Antwort des KI-Dienstes für UOM-Matching</target>
@@ -14106,10 +14094,6 @@
         <trans-unit id="Enum 3942236894 - EnumValue 2482521326 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Assisted Match Not Invoiced Receipts</source>
           <target>Unterstützter Abgleich nicht fakturierter Wareneingänge</target>
-        </trans-unit>
-        <trans-unit id="Enum 3786254730 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source> </source>
-          <target> </target>
         </trans-unit>
         <trans-unit id="Enum 3942236894 - EnumValue 2367047379 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lines Batch Processing Errors</source>
@@ -15582,6 +15566,30 @@
         <trans-unit id="Codeunit 1342986557 - Method 2936826823 - NamedType 4260117375" size-unit="char" translate="yes" xml:space="preserve">
           <source>A batch process identifier is required to import documents from an external provider.</source>
           <target>Eine Batchprozess-ID ist erforderlich, um Dokumente von einem externen Anbieter zu importieren.</target>
+        </trans-unit>
+        <trans-unit id="Report 1439355717 - ReportLabel 1265227271" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reference Date</source>
+          <target>Referenzdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 1439355717 - Control 3096841279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reference Date Criterion</source>
+          <target>Referenzdatumkriterium</target>
+        </trans-unit>
+        <trans-unit id="Report 1439355717 - Control 1364941318 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the starting reference date for selecting documents.</source>
+          <target>Legt das Startreferenzdatum für die Auswahl von Dokumenten fest.</target>
+        </trans-unit>
+        <trans-unit id="Report 1439355717 - Control 3096841279 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date,SdI Delivery Date,SdI Transmission Date</source>
+          <target>Veröffentlichungsdatum, SDI-Lieferdatum, SDI-Übertragungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 1439355717 - Control 1746928465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ending reference date for selecting documents.</source>
+          <target>Legt das Endreferenzdatum für die Auswahl von Dokumenten fest.</target>
+        </trans-unit>
+        <trans-unit id="Report 1439355717 - Control 3096841279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which date is used to select documents and assign them to the stamp-duty period: SdI Delivery Date (delivery/making-available date from the SdI receipt, as required by Agenzia delle Entrate); SdI Transmission Date (date the document was sent to SdI); Posting Date (legacy behavior based on the accounting posting date).</source>
+          <target>Legt an, welches Datum zur Auswahl der Dokumente verwendet und sie dem Stempelsteuerzeitraum zugeordnet wird: SdI-Lieferdatum (Liefer-/Bereitstellungsdatum aus dem SdI-Beleg, wie von Agenzia delle Entrate gefordert); SdI-Übertragungsdatum (Datum der Versand des Dokuments an SdI); Buchungsdatum (Altverhalten basierend auf dem Buchungsdatum).</target>
         </trans-unit>
       </group>
     </body>
