@@ -25,11 +25,19 @@ function Get-TranslationApiFile {
     $reader = $null
     try {
         if ($Revision) {
-            $content = git show "${Revision}:$($Path.Replace('\', '/'))"
-            if ($LASTEXITCODE -ne 0) {
-                throw "Cannot read '$Path' at revision '$Revision'."
+            $previousEncoding = [Console]::OutputEncoding
+            try {
+                [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+                $content = git show "${Revision}:$($Path.Replace('\', '/'))"
+                if ($LASTEXITCODE -ne 0) {
+                    throw "Cannot read '$Path' at revision '$Revision'."
+                }
             }
-            $reader = [System.Xml.XmlReader]::Create([System.IO.StringReader]::new($content -join "`n"))
+            finally {
+                [Console]::OutputEncoding = $previousEncoding
+            }
+            $content = ($content -join "`n").TrimStart([char]0xFEFF)
+            $reader = [System.Xml.XmlReader]::Create([System.IO.StringReader]::new($content))
         }
         else {
             $reader = [System.Xml.XmlReader]::Create($fullPath)
