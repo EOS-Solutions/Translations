@@ -807,10 +807,6 @@
           <source>Balance Account Allocation Starting Date</source>
           <target>Data inizio allocazione conti patrimoniali</target>
         </trans-unit>
-        <trans-unit id="Table 2660126533 - Field 3012167030 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average Cost,Weighted Average Cost,Standard Cost,FIFO Cost</source>
-          <target>Costo medio,Costo medio ponderato,Costo standard,Costo FIFO</target>
-        </trans-unit>
         <trans-unit id="Table 2660126533 - Field 949770657 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Descrizione</target>
@@ -846,10 +842,6 @@
         <trans-unit id="Table 2660126533 - Field 3976847115 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost From</source>
           <target>Origine costo del venduto</target>
-        </trans-unit>
-        <trans-unit id="Table 2660126533 - Field 3976847115 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Standard Nav,Standard Cost WorkSheet,Inventory Valuation</source>
-          <target>Standard Business Central,Prospetto costo standard,IVC</target>
         </trans-unit>
         <trans-unit id="Table 2660126533 - Field 1132034911 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Starting Date</source>
@@ -3103,10 +3095,6 @@
           <source>Item Cost From</source>
           <target>Origine costo del venduto</target>
         </trans-unit>
-        <trans-unit id="Table 1807575381 - Field 3012167030 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average Cost,Weighted Average Cost,Standard Cost,FIFO Cost</source>
-          <target>Costo medio,Costo medio ponderato,Costo standard,Costo FIFO</target>
-        </trans-unit>
         <trans-unit id="Table 1807575381 - Field 1848160098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Driver Dimension 3</source>
           <target>Driver dimensione 3</target>
@@ -3138,10 +3126,6 @@
         <trans-unit id="Table 1807575381 - Field 1539419679 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Income Statement,All</source>
           <target>Conti economici,Tutti</target>
-        </trans-unit>
-        <trans-unit id="Table 1807575381 - Field 3976847115 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Standard Nav,Standard Cost WorkSheet,Inventory Valuation</source>
-          <target>Standard Business Central,Prospetto costo standard,IVC</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 3967410336 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Monthly Allocation</source>
@@ -6413,7 +6397,7 @@
         </trans-unit>
         <trans-unit id="Page 3075555356 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Drivers List (EMA)</source>
-          <target>Definizione driver (EMA)</target>
+          <target>Lista driver c/a (EMA)</target>
         </trans-unit>
         <trans-unit id="Page 1814749360 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Driver Objects (EMA)</source>
@@ -10037,7 +10021,7 @@
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2575925511 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Journal Template</source>
-          <target>Definiz. reg. c/a</target>
+          <target>Def. registrazioni c/a</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2482135175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the date of reversal</source>
@@ -10049,7 +10033,7 @@
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2575925511 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the c/a journal template</source>
-          <target>Specificare definiz. reg. c/a</target>
+          <target>Specificare def. registrazioni c/a</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 2364520756" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allocation may not be reversed.</source>
@@ -11730,6 +11714,38 @@
         <trans-unit id="Page 2612414225 - Control 3007341128 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether the journal batch should be deleted after posting.</source>
           <target>Specifica se le righe del giornale debbano essere eliminate dopo la registrazione.</target>
+        </trans-unit>
+        <trans-unit id="Enum 283647869 - EnumValue 2838254244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Cost</source>
+          <target>Costo standard</target>
+        </trans-unit>
+        <trans-unit id="Enum 283647869 - EnumValue 1144685116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Average Cost</source>
+          <target>Costo medio</target>
+        </trans-unit>
+        <trans-unit id="Enum 283647869 - EnumValue 1754607083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weighted Average Cost</source>
+          <target>Costo medio ponderato</target>
+        </trans-unit>
+        <trans-unit id="Enum 283647869 - EnumValue 1688856263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIFO Cost</source>
+          <target>Costo FIFO</target>
+        </trans-unit>
+        <trans-unit id="Report 4250035456 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Opzioni</target>
+        </trans-unit>
+        <trans-unit id="Enum 2000412861 - EnumValue 287537086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard BC</source>
+          <target>Standard BC</target>
+        </trans-unit>
+        <trans-unit id="Enum 2000412861 - EnumValue 30716070 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Valuation Costing</source>
+          <target>IVC</target>
+        </trans-unit>
+        <trans-unit id="Enum 2000412861 - EnumValue 1536504562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Cost WorkSheet</source>
+          <target>Prospetto costi standard</target>
         </trans-unit>
       </group>
     </body>
