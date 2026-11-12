@@ -1315,6 +1315,10 @@
           <source>ID</source>
           <target>Tunnus</target>
         </trans-unit>
+        <trans-unit id="Table 2589310355 - Field 1131619133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Value</source>
+          <target>Arvo</target>
+        </trans-unit>
         <trans-unit id="Page 2094867818 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Reason Codes (CMS)</source>
           <target>Provisioiden syykood (CMS)</target>
@@ -5711,6 +5715,10 @@
           <source>Description</source>
           <target>Kuvaus</target>
         </trans-unit>
+        <trans-unit id="Table 2589310355 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filter Value Lookup</source>
+          <target>Suodattimen arvon haku</target>
+        </trans-unit>
         <trans-unit id="Table 2114273972 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Salesperson Role</source>
           <target>Myyjän rooli</target>
@@ -6743,6 +6751,10 @@
           <source>From Calc. Setup Line</source>
           <target>Laske -asetusriviltä</target>
         </trans-unit>
+        <trans-unit id="Table 3965484439 - Field 1850930923 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Has Cost Allocation</source>
+          <target>Kustannusten kohdistus olemassa</target>
+        </trans-unit>
         <trans-unit id="Table 3965484439 - Field 1213627722 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission On Invoice Disc.</source>
           <target>Komissio laskualennuslaskussa</target>
@@ -7290,6 +7302,14 @@
         <trans-unit id="Table 635909168 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Entry</source>
           <target>Komission tulo</target>
+        </trans-unit>
+        <trans-unit id="Table 635909168 - Method 1918147341 - NamedType 1572215423" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission calculation mismatch for document %1, salesperson %2, field %3: expected %4, found %5 (difference %6 exceeds the rounding limit %7). Renegotiation was stopped.</source>
+          <target>Provisiolaskennan ristiriita asiakirjassa %1, myyjällä %2, kentässä %3: odotettu %4, havaittu %5 (ero %6 ylittää pyöristysrajan %7). Uudelleenneuvottelu pysäytettiin.</target>
+        </trans-unit>
+        <trans-unit id="Table 635909168 - Method 3556909061 - NamedType 1826343247" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unable to reconcile payable commissions for document %1 and salesperson %2: expected %3, found %4 (difference %5 exceeds the cumulative rounding limit %6). Renegotiation was stopped.</source>
+          <target>Maksettavia provisioita ei voi täsmäyttää asiakirjalle %1 ja myyjälle %2: odotettu %3, havaittu %4 (ero %5 ylittää kumulatiivisen pyöristysrajan %6). Uudelleenneuvottelu pysäytettiin.</target>
         </trans-unit>
         <trans-unit id="Table 788882816 - Field 1127366200 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Calc. Setup Line</source>
@@ -8051,9 +8071,21 @@
           <source>SalesPerson DataUpdate User</source>
           <target>Myyjätietojen päivityskäyttäjä</target>
         </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4286174036 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculates the upgrade status for all tables. This operation may take a long time depending on the number of records.</source>
+          <target>Laskee kaikkien taulukoiden päivitystilan. Tämä toiminto voi kestää pitkään tietueiden määrästä riippuen.</target>
+        </trans-unit>
         <trans-unit id="Page 4088761776 - Action 4286174036 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculate Status</source>
           <target>Laske tila</target>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4273025447 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Verifies if there are missing salesperson roles and salespeople in the system before performing the upgrade.</source>
+          <target>Tarkistaa, puuttuuko järjestelmästä myyjärooleja ja myyjiä ennen päivityksen suorittamista.</target>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4273025447 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Missing Roles</source>
+          <target>Tarkista puuttuvat roolit</target>
         </trans-unit>
         <trans-unit id="Page 4088761776 - Action 1503604820 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deletes all data from the old salesperson engine tables (EOS Add. Salesperson/Purchaser and EOS Add. Salesperson Archive). This action requires the new salesperson engine to be active.</source>
@@ -8667,6 +8699,10 @@
           <source>Update Posted Sales Invoices</source>
           <target>Päivitä kirjatut myyntilaskut</target>
         </trans-unit>
+        <trans-unit id="Query 1632025961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Last Modified Setup</source>
+          <target>Viimeksi muokatut asetukset -kysely</target>
+        </trans-unit>
         <trans-unit id="Enum 2685077613 - EnumValue 2628421749 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Overwrite</source>
           <target>Kirjoittaa päälle</target>
@@ -9274,6 +9310,14 @@
         <trans-unit id="Enum 239420230 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Salesperson Upgrade Status</source>
           <target>Myyjän päivitystila</target>
+        </trans-unit>
+        <trans-unit id="Enum 239420230 - EnumValue 2009791137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Calculate</source>
+          <target>Laskettava</target>
+        </trans-unit>
+        <trans-unit id="Enum 239420230 - EnumValue 734421993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Valued</source>
+          <target>Arvostettu</target>
         </trans-unit>
         <trans-unit id="Page 4088761776 - Control 690414911 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Incremental Salesperson Data Upgrade</source>

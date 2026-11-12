@@ -1307,6 +1307,10 @@
           <source>ID</source>
           <target>ID</target>
         </trans-unit>
+        <trans-unit id="Table 2589310355 - Field 1131619133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Value</source>
+          <target>Værdi</target>
+        </trans-unit>
         <trans-unit id="Page 2094867818 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Reason Codes (CMS)</source>
           <target>Provisionsårsagskode (CMS)</target>
@@ -5743,6 +5747,10 @@
           <source>Description</source>
           <target>Beskrivelse</target>
         </trans-unit>
+        <trans-unit id="Table 2589310355 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filter Value Lookup</source>
+          <target>Filterværdiopslag</target>
+        </trans-unit>
         <trans-unit id="Table 2114273972 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Salesperson Role</source>
           <target>Rollen Sælger</target>
@@ -6206,6 +6214,10 @@
         <trans-unit id="Table 331222149 - Field 2720485332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Code</source>
           <target>Kildekode</target>
+        </trans-unit>
+        <trans-unit id="Table 331222149 - Field 1277570778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unapplied</source>
+          <target>Ikke-udlignet</target>
         </trans-unit>
         <trans-unit id="Table 331222149 - Field 3182586253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch Name</source>
@@ -6743,6 +6755,10 @@
           <source>Commission Cost Allocation Register</source>
           <target>Kommissionens omkostningsfordelingsregister</target>
         </trans-unit>
+        <trans-unit id="Table 374655194 - Method 3152277940 - NamedType 916923894" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot delete Cost Allocation Register entry %1 because it is in use in General Journal Line %2 %3 %4.</source>
+          <target>Kan ikke slette omkostningsfordelingsregisterpost %1, fordi den er i brug i finanskladdelinje %2 %3 %4.</target>
+        </trans-unit>
         <trans-unit id="Table 3870642061 - Field 1097968901 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Calc. Code</source>
           <target>Kommissionens Calc. kodeks</target>
@@ -6774,6 +6790,10 @@
         <trans-unit id="Table 3965484439 - Field 1127366200 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Calc. Setup Line</source>
           <target>Fra beregningslinje</target>
+        </trans-unit>
+        <trans-unit id="Table 3965484439 - Field 1850930923 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Has Cost Allocation</source>
+          <target>Har omkostningsfordeling</target>
         </trans-unit>
         <trans-unit id="Table 3965484439 - Field 1213627722 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission On Invoice Disc.</source>
@@ -7322,6 +7342,14 @@
         <trans-unit id="Table 635909168 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Entry</source>
           <target>Kommissionens indtræden</target>
+        </trans-unit>
+        <trans-unit id="Table 635909168 - Method 1918147341 - NamedType 1572215423" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission calculation mismatch for document %1, salesperson %2, field %3: expected %4, found %5 (difference %6 exceeds the rounding limit %7). Renegotiation was stopped.</source>
+          <target>Uoverensstemmelse i provisionsberegningen for dokument %1, sælger %2, felt %3: forventet %4, fundet %5 (forskellen %6 overskrider afrundingsgrænsen %7). Genforhandlingen blev stoppet.</target>
+        </trans-unit>
+        <trans-unit id="Table 635909168 - Method 3556909061 - NamedType 1826343247" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unable to reconcile payable commissions for document %1 and salesperson %2: expected %3, found %4 (difference %5 exceeds the cumulative rounding limit %6). Renegotiation was stopped.</source>
+          <target>Kan ikke afstemme provisioner til betaling for dokument %1 og sælger %2: forventet %3, fundet %4 (forskellen %5 overskrider den kumulative afrundingsgrænse %6). Genforhandlingen blev stoppet.</target>
         </trans-unit>
         <trans-unit id="Table 788882816 - Field 1127366200 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Calc. Setup Line</source>
@@ -8235,6 +8263,14 @@
           <source>Calculate Status</source>
           <target>Beregn status</target>
         </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4273025447 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Verifies if there are missing salesperson roles and salespeople in the system before performing the upgrade.</source>
+          <target>Kontrollerer, om der mangler sælgerroller og sælgere i systemet, før opgraderingen udføres.</target>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4273025447 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Missing Roles</source>
+          <target>Kontroller manglende roller</target>
+        </trans-unit>
         <trans-unit id="Page 4088761776 - Action 1503604820 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deletes all data from the old salesperson engine tables (EOS Add. Salesperson/Purchaser and EOS Add. Salesperson Archive). This action requires the new salesperson engine to be active.</source>
           <target>Sletter alle data fra de gamle agentmotor-tabeller (EOS Add. Salesperson/Purchaser og EOS Add. Salesperson Archive). Denne handling kræver, at den nye agentmotor er aktiv.</target>
@@ -8823,6 +8859,10 @@
           <source>Update Posted Sales Invoices</source>
           <target>Opdater bogførte salgsfakturaer</target>
         </trans-unit>
+        <trans-unit id="Query 1632025961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Last Modified Setup</source>
+          <target>Forespørgsel sidst ændret opsætning</target>
+        </trans-unit>
         <trans-unit id="Table 279592673 - Field 2820242056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Total</source>
           <target>Linjetotal</target>
@@ -9286,6 +9326,14 @@
         <trans-unit id="Enum 239420230 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Salesperson Upgrade Status</source>
           <target>Sælgeropdateringsstatus</target>
+        </trans-unit>
+        <trans-unit id="Enum 239420230 - EnumValue 2009791137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Calculate</source>
+          <target>Til beregning</target>
+        </trans-unit>
+        <trans-unit id="Enum 239420230 - EnumValue 734421993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Valued</source>
+          <target>Værdiansat</target>
         </trans-unit>
         <trans-unit id="Codeunit 2995223925 - Method 2570048681 - NamedType 3015316829" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission lines with the "modified" flag were found in the document, but since no salesperson is present in the Ship-to address, the commissions were not updated.</source>

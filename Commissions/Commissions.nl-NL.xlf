@@ -5703,6 +5703,10 @@
           <source>Description</source>
           <target>Beschrijving</target>
         </trans-unit>
+        <trans-unit id="Table 2589310355 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filter Value Lookup</source>
+          <target>Filterwaarde opzoeken</target>
+        </trans-unit>
         <trans-unit id="Table 2114273972 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Salesperson Role</source>
           <target>Rol verkoper</target>
@@ -6735,6 +6739,10 @@
           <source>From Calc. Setup Line</source>
           <target>Van Calc. Setup Line</target>
         </trans-unit>
+        <trans-unit id="Table 3965484439 - Field 1850930923 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Has Cost Allocation</source>
+          <target>Heeft kostenverdeling</target>
+        </trans-unit>
         <trans-unit id="Table 3965484439 - Field 1213627722 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission On Invoice Disc.</source>
           <target>commissie op factuurschijf.</target>
@@ -7282,6 +7290,14 @@
         <trans-unit id="Table 635909168 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commission Entry</source>
           <target>Binnenkomst van de Commissie</target>
+        </trans-unit>
+        <trans-unit id="Table 635909168 - Method 1918147341 - NamedType 1572215423" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission calculation mismatch for document %1, salesperson %2, field %3: expected %4, found %5 (difference %6 exceeds the rounding limit %7). Renegotiation was stopped.</source>
+          <target>Afwijking in de commissieberekening voor document %1, verkoper %2, veld %3: verwacht %4, gevonden %5 (verschil %6 overschrijdt de afrondingslimiet %7). De heronderhandeling is gestopt.</target>
+        </trans-unit>
+        <trans-unit id="Table 635909168 - Method 3556909061 - NamedType 1826343247" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unable to reconcile payable commissions for document %1 and salesperson %2: expected %3, found %4 (difference %5 exceeds the cumulative rounding limit %6). Renegotiation was stopped.</source>
+          <target>Kan de te betalen commissies voor document %1 en verkoper %2 niet afstemmen: verwacht %3, gevonden %4 (verschil %5 overschrijdt de cumulatieve afrondingslimiet %6). De heronderhandeling is gestopt.</target>
         </trans-unit>
         <trans-unit id="Table 788882816 - Field 1127366200 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Calc. Setup Line</source>
@@ -8043,9 +8059,21 @@
           <source>SalesPerson DataUpdate User</source>
           <target>Gebruiker verkopergegevensupdate</target>
         </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4286174036 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculates the upgrade status for all tables. This operation may take a long time depending on the number of records.</source>
+          <target>Berekent de upgradestatus voor alle tabellen. Deze bewerking kan lang duren, afhankelijk van het aantal records.</target>
+        </trans-unit>
         <trans-unit id="Page 4088761776 - Action 4286174036 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculate Status</source>
           <target>Status berekenen</target>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4273025447 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Verifies if there are missing salesperson roles and salespeople in the system before performing the upgrade.</source>
+          <target>Controleert of er ontbrekende verkopersrollen en verkopers in het systeem zijn voordat de upgrade wordt uitgevoerd.</target>
+        </trans-unit>
+        <trans-unit id="Page 4088761776 - Action 4273025447 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Missing Roles</source>
+          <target>Ontbrekende rollen controleren</target>
         </trans-unit>
         <trans-unit id="Page 4088761776 - Action 1503604820 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deletes all data from the old salesperson engine tables (EOS Add. Salesperson/Purchaser and EOS Add. Salesperson Archive). This action requires the new salesperson engine to be active.</source>
@@ -8654,6 +8682,10 @@
         <trans-unit id="Report 1867750343 - Control 2622989254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Posted Sales Invoices</source>
           <target>Werk geboekte verkoopfacturen bij</target>
+        </trans-unit>
+        <trans-unit id="Query 1632025961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Last Modified Setup</source>
+          <target>Query Laatste gewijzigde instellingen</target>
         </trans-unit>
         <trans-unit id="Codeunit 3641960746 - Method 3251206275 - NamedType 2726870861" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cannot apply package %1 because it contains "Salesperson Set Entries", "Role-Salesperson Sets" or "Salesperson Set Tree Nodes" tables.</source>
@@ -9275,6 +9307,14 @@
           <source>Salesperson Upgrade Status</source>
           <target>Verkoper upgrade-status</target>
         </trans-unit>
+        <trans-unit id="Enum 239420230 - EnumValue 2009791137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Calculate</source>
+          <target>Te berekenen</target>
+        </trans-unit>
+        <trans-unit id="Enum 239420230 - EnumValue 734421993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Valued</source>
+          <target>Gewaardeerd</target>
+        </trans-unit>
         <trans-unit id="Page 4088761776 - Control 897643732 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "SalesPerson DataUpdate User" field.</source>
           <target>Specificeert de waarde van het veld ""SalesPerson DataUpdate User"".</target>
@@ -9282,6 +9322,10 @@
         <trans-unit id="Table 2589310355 - Field 3641927271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>ID</source>
           <target>ID</target>
+        </trans-unit>
+        <trans-unit id="Table 2589310355 - Field 1131619133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Value</source>
+          <target>Waarde</target>
         </trans-unit>
         <trans-unit id="TableExtension 3251978702 - Field 3191329820 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Salesperson Upgrade Status</source>
