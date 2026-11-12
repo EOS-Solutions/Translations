@@ -318,6 +318,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS085 Comp. Worksheet Line - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1381485605 - NamedType 415489141" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM line no. %1 already exists in Production BOM %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1=Line No.; %2=Production BOM No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS085 Comp. Worksheet Line - NamedType BOMLineNoAlreadyUsedErr</note>
+        </trans-unit>
         <trans-unit id="Table 1381485605 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
           <source>DEFAULT</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -412,6 +417,11 @@
           <source>Line No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS085 Comp. Worksheet Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1381485605 - Field 3390077127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New BOM Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS085 Comp. Worksheet Line - Field New BOM Line No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1381485605 - Field 1197012350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>New Description</source>
@@ -1443,6 +1453,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS085 Comp. Worksheet - Control MaterialStatus - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="Page 666074439 - Control 3390077127 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the exact line number the new Production BOM line gets, which determines its position among the BOM lines. The number must not already be used in the BOM. Used only with runs on Production BOMs and Action Message "New".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS085 Comp. Worksheet - Control New BOM Line No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 666074439 - Control 1197012350 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>New Description for the No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2387,6 +2402,16 @@
           <source>Create New Version</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS085 Calculate Components - Control Create New Version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3186514992 - Control 1483945894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to hide the production BOM lines with an ending date earlier than the work date. Used only if the calculation is run on production BOMs.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS085 Calculate Components - Control Hide Expired BOM Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3186514992 - Control 1483945894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hide Expired BOM Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS085 Calculate Components - Control Hide Expired BOM Lines - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3186514992 - Control 1799697345 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether to keep the old scrap percentage when creating worksheet lines: if not, the new item scrap percentage is taken. If the type to exchange with is a production BOM, the old scrap percentage is always kept.</source>

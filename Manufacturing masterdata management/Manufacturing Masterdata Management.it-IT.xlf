@@ -35,6 +35,14 @@
           <source>There are not enough free line numbers to explode the route.</source>
           <target>Numeri di riga liberi insufficienti per l'esplosione del ciclo.</target>
         </trans-unit>
+        <trans-unit id="Page 666074439 - Control 3390077127 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the exact line number the new Production BOM line gets, which determines its position among the BOM lines. The number must not already be used in the BOM. Used only with runs on Production BOMs and Action Message "New".</source>
+          <target>Specifica il numero di riga esatto assegnato alla nuova riga della distinta base di produzione, che ne determina la posizione tra le righe della DB. Il numero non deve essere già utilizzato nella DB. Utilizzato solo con esecuzioni su distinte base di produzione e messaggio azione "Nuovo".</target>
+        </trans-unit>
+        <trans-unit id="Table 1381485605 - Field 3390077127 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New BOM Line No.</source>
+          <target>Nuovo nr. riga DB</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3583675429 - NamedType 947221190" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1: component could not be exchanged, because entries exists.</source>
           <target>%1: il componente non può essere sostituito poichè esistono movimenti.</target>
@@ -2510,6 +2518,18 @@
         <trans-unit id="PageExtension 4047783013 - Control 3749932222 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable the management of validity dates on the BOM lines from components worksheet.</source>
           <target>Abilita la gestione delle date di validità sulle righe di distinta base dal prospetto componenti.</target>
+        </trans-unit>
+        <trans-unit id="Report 3186514992 - Control 1483945894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to hide the production BOM lines with an ending date earlier than the work date. Used only if the calculation is run on production BOMs.</source>
+          <target>Specifica se nascondere le righe di distinta base con una data fine antecedente la data di lavoro. Utilizzato solo se il calcolo viene eseguito sulle distinte base di produzione.</target>
+        </trans-unit>
+        <trans-unit id="Report 3186514992 - Control 1483945894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hide Expired BOM Lines</source>
+          <target>Nascondi righe DB scadute</target>
+        </trans-unit>
+        <trans-unit id="Table 1381485605 - NamedType 415489141" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM line no. %1 already exists in Production BOM %2.</source>
+          <target>Il nr. riga DB %1 esiste già nella distinta base di produzione %2.</target>
         </trans-unit>
       </group>
     </body>
