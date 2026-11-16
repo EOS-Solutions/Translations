@@ -159,9 +159,57 @@
           <source>Source Type</source>
           <target>Herkunftsart</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1836574353 - Field 2221264687 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Balance (CO2e)</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="TableExtension 1836574353 - Field 2452692224 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Balance at Date (CO2e)</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="TableExtension 1836574353 - Field 3959451870 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Net Change (CO2e)</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="TableExtension 2474270970 - Field 518034290 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS Unit Of Measure</source>
+          <target>Maßeinheit</target>
+        </trans-unit>
+        <trans-unit id="Enum 2855376131 - EnumValue 1161611024 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Statistics Account</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Enum 2855376131 - EnumValue 70217016 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sustainability Account</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Enum 867895263 - EnumValue 2941136431 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>System Data</source>
+          <target />
+        </trans-unit>
         <trans-unit id="PageExtension 1085720986 - Control 309010296 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Type</source>
           <target>Herkunftsart</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2996666197 - Control 2221264687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total CO2e emission posted for the sustainability account.</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="PageExtension 2996666197 - Control 2452692224 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total CO2e emission posted for the sustainability account up to and including the date in the Date Filter.</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="PageExtension 2996666197 - Control 3959451870 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the net change of CO2e emission in the account balance during the time period in the Date Filter field.</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="PageExtension 4103150408 - Control 518034290 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit of measure to inherit on sustainability journal lines for this subcategory.</source>
+          <target>Gibt die Maßeinheit an, die in Nachhaltigkeitsjournalzeilen für diese Unterkategorie übernommen werden soll.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4103150408 - Control 518034290 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS Unit Of Measure</source>
+          <target>Maßeinheit</target>
         </trans-unit>
         <trans-unit id="TableExtension 1420377598 - Field 309010296 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Type</source>
@@ -915,6 +963,10 @@
           <source>Specifies the value of the Area field.</source>
           <target>Gibt den Wert des Feldes an.</target>
         </trans-unit>
+        <trans-unit id="Page 2635395773 - Control 4186147032 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Attachement Text field.</source>
+          <target />
+        </trans-unit>
         <trans-unit id="Page 2635395773 - Control 1619379503 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Pillar Short Code field.</source>
           <target>Gibt den Wert des Feldes an.</target>
@@ -1042,6 +1094,42 @@
         <trans-unit id="Page 2199387476 - NamedType 2718542121" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cannot edit questionnaire as it is already closed.</source>
           <target>Der Fragebogen kann nicht bearbeitet werden, da er bereits geschlossen ist.</target>
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sustainability Account Reconciliation Setup (EED)</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Control 1622979514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the account number. Use lookup to select from the appropriate account type.</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Control 3699788827 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the type of account (Statistics Account or Sustainability Account).</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Control 3821907751 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this is user data or system data.</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the description of the account.</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Control 1089109470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the measurement type (Amount, CO2e, or Water Consumption).</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Control 46940709 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the question code related to the account.</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Action 949663519 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create a new user data entry.</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Page 934884381 - Action 949663519 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New User Data Entry</source>
+          <target />
         </trans-unit>
         <trans-unit id="Page 2446780506 - Action 3795195178 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Go To Questions Summary action.</source>
@@ -1343,6 +1431,30 @@
           <source>User Data</source>
           <target>Benutzerdaten</target>
         </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 1358484893 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CO2e Emissions</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 1133388601 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Custom Amount</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 2723638070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fuel/Electricity</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 3955038361 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Statistical Amount</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 295241253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Waste Intensity</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Enum 2855096534 - EnumValue 1611086310 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Water Intensity</source>
+          <target />
+        </trans-unit>
         <trans-unit id="Page 1029598093 - Action 2223207931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Select All</source>
           <target>Alles auswählen</target>
@@ -1483,13 +1595,29 @@
           <source>Specifies the question sequence number.</source>
           <target>Gibt die Reihenfolgenummer der Frage an.</target>
         </trans-unit>
+        <trans-unit id="Page 607218137 - Control 934915606 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the short description of the question.</source>
+          <target />
+        </trans-unit>
+        <trans-unit id="Page 607218137 - Control 3929672717 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the text of the question.</source>
+          <target />
+        </trans-unit>
         <trans-unit id="Page 607218137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Questionnaire Template Lines (EED)</source>
           <target>Fragebogen-Vorlagenzeilen (EED)</target>
         </trans-unit>
+        <trans-unit id="Page 607218137 - Control 1306079366 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the pillar.</source>
+          <target />
+        </trans-unit>
         <trans-unit id="Page 607218137 - Control 2282987103 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the question code (EFRAG).</source>
           <target>Spezifiziert den Fragecode (EFRAG).</target>
+        </trans-unit>
+        <trans-unit id="Page 607218137 - Control 3231502884 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the question.</source>
+          <target />
         </trans-unit>
         <trans-unit id="Page 2635395773 - Action 2757483517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Get Statistics</source>
