@@ -7300,8 +7300,8 @@
           <target></target>
         </trans-unit>
         <trans-unit id="Page 327235989 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the send status of the email.</source>
-          <target></target>
+          <source>Specifies whether the email is pending in the Business Central outbox, was sent, or failed.</source>
+          <target>Gibt an, ob die E-Mail im Postausgang von Business Central wartet, gesendet wurde oder der Versand fehlgeschlagen ist.</target>
         </trans-unit>
         <trans-unit id="Page 327235989 - Control 23578478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies when the email status was last updated.</source>
@@ -7332,16 +7332,16 @@
           <target></target>
         </trans-unit>
         <trans-unit id="Page 327235989 - Action 4056763662 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Sends all emails that are still pending or failed.</source>
-          <target></target>
+          <source>Queues pending or failed emails that do not already have a Business Central outbox entry.</source>
+          <target>Stellt ausstehende oder fehlgeschlagene E-Mails in die Warteschlange, wenn sie noch nicht im Postausgang von Business Central erfasst sind.</target>
         </trans-unit>
         <trans-unit id="Page 327235989 - Action 4056763662 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Send All Pending</source>
           <target></target>
         </trans-unit>
         <trans-unit id="Page 327235989 - Action 743942932 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Sends the selected email. Already sent emails are skipped.</source>
-          <target></target>
+          <source>Queues the selected email if it is not already tracked in the Business Central outbox. Retry outbox failures from Email Outbox.</source>
+          <target>Stellt die ausgewählte E-Mail in die Warteschlange, wenn sie noch nicht im Postausgang von Business Central erfasst ist. Wiederholen Sie fehlgeschlagene Sendeversuche im E-Mail-Postausgang.</target>
         </trans-unit>
         <trans-unit id="Page 327235989 - Action 743942932 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Send</source>
@@ -7936,8 +7936,8 @@
           <target>Gibt eine Beschreibung der Agenten-Eingabeaufforderung an.</target>
         </trans-unit>
         <trans-unit id="Page 784673557 - Control 4036380482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Agent will request end user review of message.</source>
-          <target>Gibt an, ob der Agent vor der Ausführung eine Überprüfung der Nachricht anfordern muss.</target>
+          <source>Specifies whether the user must approve the input message before the agent starts processing the task. This does not control later requests for help or approval.</source>
+          <target>Gibt an, ob der Benutzer die Eingangsnachricht genehmigen muss, bevor der Agent die Aufgabe bearbeitet. Spätere Hilfe- oder Genehmigungsanfragen sind davon nicht betroffen.</target>
         </trans-unit>
         <trans-unit id="Page 784673557 - Control 4036380482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Message Review</source>
