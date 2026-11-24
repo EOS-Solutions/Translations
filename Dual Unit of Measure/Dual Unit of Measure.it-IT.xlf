@@ -15,10 +15,6 @@
           <source>Calculated values on existing lines will not be updated until an involved field is validated. Do you want to continue?</source>
           <target>I valori calcolati sulle righe esistenti non verranno aggiornati fino a quando non verrà convalidato un campo coinvolto. Vuoi continuare?</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1335250071 - Method 911944632 - NamedType 3608544624" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cannot undo Drop Shipment with secondary unit of measure.</source>
-          <target>Impossibile annullare la Spedizione Diretta con unità di misura secondaria.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1335250071 - Method 3832871780 - NamedType 1491441843" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot invoice more than you have shipped for order %1.</source>
           <target>Non si può fatturare più di quanto spedito nell'ordine %1.</target>
@@ -142,10 +138,6 @@
         <trans-unit id="Codeunit 362475346 - Method 2141139606 - NamedType 3150482686" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot return more than %1 units.</source>
           <target>Impossibile effettuare il reso di più di %1 unità.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 362475346 - Method 4033887621 - NamedType 2922605893" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The "Get Order Lines" function is not supported when Dual Unit of Measure app is enabled.</source>
-          <target>La funzione "Ottieni righe ordine" non è supportata quando l'app Doppia Unità di misura è abilitata.</target>
         </trans-unit>
         <trans-unit id="Codeunit 362475346 - Method 2679912353 - NamedType 956639880" translate="yes" size-unit="char" xml:space="preserve">
           <source>must not be less than %1</source>
@@ -836,7 +828,7 @@
           <target>Specifica il valore del campo "Metodo calc. prezzo di acquisto". "Unità di misura di riga": comportamento standard, i listini prezzi sono interrogati dal codice UoM; "Unità di misura secondaria": i listini prezzi sono interrogati dal codice unità di misura secondaria.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1572505489 - Control 1882130601 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the ""Sec. Return Qty. Shpd."" field.</source>
+          <source>Specifies the value of the "Sec. Return Qty. Shpd." field.</source>
           <target>Specifica il valore del campo "Qtà secondaria di reso spedita".</target>
         </trans-unit>
         <trans-unit id="PageExtension 1572505489 - Control 2356765826 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1718,10 +1710,6 @@
         <trans-unit id="PageExtension 3745331609 - Control 435205998 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Price UoM Code" field. This UoM code wull be used to query price lists.</source>
           <target>Specifica il valore del campo "Cod. unità di misura prezzo". Questo codice può essere utilizzato per interrogare i listini prezzi.</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3745331609 - Change 145991375 - Method 1542331226 - NamedType 2922605893" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The "Get Order Lines" function is not supported when Dual Unit of Measure app is enabled.</source>
-          <target>La funzione "Ottieni righe ordine" non è supportata quando l'app Doppia Unità di misura è abilitata.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3901196383 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
@@ -2838,6 +2826,38 @@
         <trans-unit id="TableExtension 1930615656 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary Unit of Measure Code</source>
           <target>Codice unità di misura secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3206008890 - Field 1421564688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Cod. unità di misura secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 355343851 - Field 3100200479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Quantità secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 355343851 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Cod. unità di misura secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2568312273 - Field 1421564688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Cod. unità di misura secondaria</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2568312273 - Field 2356765826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secondary Qty. to Invoice</source>
+          <target>Qtà secondaria da fatturare</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3206008890 - Field 2048968635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secondary Qty. Invoiced</source>
+          <target>Qtà secondaria fatturata</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3206008890 - Field 2048968635 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the secondary quantity invoiced from the matched order or receipt/shipment line.</source>
+          <target>Specifica la quantità secondaria fatturata dall'ordine o dalla riga ricevuta/spedizione associata.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2568312273 - Field 2356765826 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the secondary quantity to invoice from the matched order or receipt/shipment line.</source>
+          <target>Specifica la quantità secondaria da fatturare dall'ordine o dalla riga ricevuta/spedizione associata.</target>
         </trans-unit>
       </group>
     </body>
