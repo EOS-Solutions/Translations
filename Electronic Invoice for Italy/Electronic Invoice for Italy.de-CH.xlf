@@ -14952,8 +14952,8 @@
           <target>Übereinstimmung der Maßeinheit</target>
         </trans-unit>
         <trans-unit id="Table 3915251920 - Field 166374045 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This feature can only be enabled in SaaS environments and enables or disables the AI ​​auto reconciliation feature. Disabled: Only standard FTE reconciliation is performed, Manual: AI auto reconciliation is performed only manually while standard FTE reconciliation is performed automatically, Automatic: AI auto reconciliation is performed automatically while standard FTE reconciliation is not performed.</source>
-          <target>Diese Funktion kann nur in SaaS-Umgebungen aktiviert werden und aktiviert oder deaktiviert die KI-Autoabstimmungsfunktion. Deaktiviert: Es wird nur eine Standard-FTE-Abstimmung durchgeführt, Manuell: Die automatische KI-Abstimmung erfolgt nur manuell, während die Standard-FTE-Abstimmung automatisch erfolgt, Automatisch: Die automatische KI-Abstimmung erfolgt automatisch, während die Standard-FTE-Abstimmung nicht durchgeführt wird.</target>
+          <source>This feature can only be enabled in SaaS environments and enables or disables the AI ​​auto reconciliation feature. Disabled: Only standard FTE reconciliation is performed, Manual: AI auto reconciliation is performed only manually while standard FTE reconciliation is performed automatically, Automatic: the standard FTE reconciliation is performed automatically and then the auto AI reconciliation is performed only for the rows not yet reconciled.</source>
+          <target>Diese Funktion kann nur in SaaS-Umgebungen aktiviert werden und aktiviert oder deaktiviert die KI-Autoabstimmungsfunktion. Deaktiviert: Es wird nur eine Standard-FTE-Abstimmung durchgeführt, Manuell: Die automatische KI-Abstimmung erfolgt nur manuell, während die Standard-FTE-Abstimmung automatisch erfolgt, Automatisch: Die standardmäßige FTE-Abstimmung wird automatisch durchgeführt. Anschließend wird die KI-gestützte automatische Abstimmung nur für die noch nicht abgestimmten Zeilen ausgeführt.</target>
         </trans-unit>
         <trans-unit id="Table 3915251920 - Field 3152641334 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how many invoice lines are sent to the AI model in a single request. A lower value reduces the complexity of each AI call and can improve matching accuracy, while a higher value processes more lines at once, reducing the total number of API calls. The value must be between 1 and 100; if set to zero, it defaults to 10.</source>
@@ -15539,14 +15539,6 @@
           <source>AI Purchase Invoice Auto Setup not found. Please configure the AI Setup before processing.</source>
           <target>Automatische Einrichtung der KI-Kaufrechnung nicht gefunden. Bitte konfigurieren Sie die KI-Einrichtung vor der Verarbeitung.</target>
         </trans-unit>
-        <trans-unit id="Page 218086509 - Method 716454850 - NamedType 2651679392" translate="yes" size-unit="char" xml:space="preserve">
-          <source>User not authorized</source>
-          <target>Benutzer nicht autorisiert</target>
-        </trans-unit>
-        <trans-unit id="Page 1120698188 - Method 716454850 - NamedType 2651679392" translate="yes" size-unit="char" xml:space="preserve">
-          <source>User not authorized</source>
-          <target>Benutzer nicht autorisiert</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2386029720 - NamedType 2355372627" translate="yes" size-unit="char" xml:space="preserve">
           <source>AI Purchase Invoice Auto Setup not found. Please configure the AI Setup before processing.</source>
           <target>Automatische Einrichtung der KI-Kaufrechnung nicht gefunden. Bitte konfigurieren Sie die KI-Einrichtung vor der Verarbeitung.</target>
@@ -15590,6 +15582,30 @@
         <trans-unit id="Report 1439355717 - Control 3096841279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies which date is used to select documents and assign them to the stamp-duty period: SdI Delivery Date (delivery/making-available date from the SdI receipt, as required by Agenzia delle Entrate); SdI Transmission Date (date the document was sent to SdI); Posting Date (legacy behavior based on the accounting posting date).</source>
           <target>Legt an, welches Datum zur Auswahl der Dokumente verwendet und sie dem Stempelsteuerzeitraum zugeordnet wird: SdI-Lieferdatum (Liefer-/Bereitstellungsdatum aus dem SdI-Beleg, wie von Agenzia delle Entrate gefordert); SdI-Übertragungsdatum (Datum der Versand des Dokuments an SdI); Buchungsdatum (Altverhalten basierend auf dem Buchungsdatum).</target>
+        </trans-unit>
+        <trans-unit id="Table 1919818171 - Field 4066271547 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duplicate File Check Period (Days)</source>
+          <target>Prüfungszeitraum für doppelte Dateien (Tage)</target>
+        </trans-unit>
+        <trans-unit id="Page 2712102598 - Control 633606708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of days used to detect previously imported files with the same name. If set to 0, 210 days are used.</source>
+          <target>Gibt die Anzahl der Tage an, die verwendet werden, um zuvor importierte Dateien mit demselben Namen zu erkennen. Wenn auf 0 gesetzt, werden 210 Tage verwendet.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 560146265 - NamedType 330915615" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You are not allowed to remove the default status from a prompt.</source>
+          <target>Sie dürfen den Standardstatus nicht aus einer Eingabeaufforderung entfernen.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 4083811786 - NamedType 4259517852" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No lines are available for reconciliation. Only goods/service lines with non-zero amount and quantity can be processed.</source>
+          <target>Für die Abstimmung stehen keine Linien zur Verfügung. Nur Waren/Dienstleistungslinien mit nicht null Mengen und Menge können verarbeitet werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1226784981 - Method 1411029531 - NamedType 2651679392" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User not authorized to open default prompts</source>
+          <target>Benutzer ist nicht berechtigt, Standard-Prompts zu öffnen</target>
+        </trans-unit>
+        <trans-unit id="Page 2393948704 - Control 633606708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of days used to detect previously imported files with the same name. If set to 0, 210 days are used.</source>
+          <target>Gibt die Anzahl der Tage an, die verwendet werden, um zuvor importierte Dateien mit demselben Namen zu erkennen. Wenn auf 0 gesetzt, werden 210 Tage verwendet.</target>
         </trans-unit>
       </group>
     </body>
