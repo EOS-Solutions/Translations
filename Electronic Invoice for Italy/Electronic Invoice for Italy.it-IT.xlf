@@ -14223,6 +14223,10 @@
           <source>AI: An error occurred while processing lines %1 to %2 of Preview Document %3. Error: %4</source>
           <target>AI: Si è verificato un errore durante l'elaborazione delle righe da %1 a %2 del documento di anteprima %3. Errore: %4</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 4083811786 - NamedType 4259517852" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No lines are available for reconciliation. Only goods/service lines with non-zero amount and quantity can be processed.</source>
+          <target>Non ci sono righe da riconciliare. È possibile elaborare solo righe di beni/servizi con importo e quantità diverse da zero.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3413796135 - Method 3697249424 - NamedType 43491559" translate="yes" size-unit="char" xml:space="preserve">
           <source>Error processing batch from line %1 to %2: %3</source>
           <target>Errore durante l'elaborazione del batch dalla riga %1 alla %2: %3</target>
@@ -15012,8 +15016,8 @@
           <target>Abilita log chiamate corrispondenza carichi</target>
         </trans-unit>
         <trans-unit id="Table 3915251920 - Field 166374045 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This feature can only be enabled in SaaS environments and enables or disables the AI ​​auto reconciliation feature. Disabled: Only standard FTE reconciliation is performed, Manual: AI auto reconciliation is performed only manually while standard FTE reconciliation is performed automatically, Automatic: AI auto reconciliation is performed automatically while standard FTE reconciliation is not performed.</source>
-          <target>Questa funzionalità può essere attivata solo in ambienti SaaS e abilita o disabilita la funzionalità di riconciliazione automatica AI. Disabilitato : viene eseguita solo la riconciliazione standard FTE, Manuale : la riconciliazione automatica AI viene eseguita solo manualmente mentre viene eseguita in automatico la riconciliazione standard FTE, Automatico : la riconciliazione automatica AI viene eseguita automaticamente mentre non viene eseguita quella standard FTE</target>
+          <source>This feature can only be enabled in SaaS environments and enables or disables the AI ​​auto reconciliation feature. Disabled: Only standard FTE reconciliation is performed, Manual: AI auto reconciliation is performed only manually while standard FTE reconciliation is performed automatically, Automatic: the standard FTE reconciliation is performed automatically and then the auto AI reconciliation is performed only for the rows not yet reconciled.</source>
+          <target>Questa funzionalità può essere attivata solo in ambienti SaaS e abilita o disabilita la funzionalità di riconciliazione automatica AI. Disabilitato : viene eseguita solo la riconciliazione standard FTE, Manuale : la riconciliazione automatica AI viene eseguita solo manualmente mentre viene eseguita in automatico la riconciliazione standard FTE, Automatico : viene eseguita in automatico la riconciliazione standard FTE e poi viene eseguita la riconciliazione automatica AI per le sole righe non ancora riconciliate</target>
         </trans-unit>
         <trans-unit id="Table 3915251920 - Field 1927640957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable logging for match receipts calls</source>
@@ -15570,14 +15574,6 @@
         <trans-unit id="Codeunit 3413796135 - NamedType 2355372627" translate="yes" size-unit="char" xml:space="preserve">
           <source>AI Purchase Invoice Auto Setup not found. Please configure the AI Setup before processing.</source>
           <target>Setup riconciliazione automatica fatture acquisto AI non trovato. Configurare il Setup AI prima dell'elaborazione.</target>
-        </trans-unit>
-        <trans-unit id="Page 218086509 - Method 716454850 - NamedType 2651679392" translate="yes" size-unit="char" xml:space="preserve">
-          <source>User not authorized</source>
-          <target>Utente non autorizzato</target>
-        </trans-unit>
-        <trans-unit id="Page 1120698188 - Method 716454850 - NamedType 2651679392" translate="yes" size-unit="char" xml:space="preserve">
-          <source>User not authorized</source>
-          <target>Utente non autorizzato</target>
         </trans-unit>
         <trans-unit id="Table 2834837684 - Field 1386668873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EOS Ignore Collection</source>

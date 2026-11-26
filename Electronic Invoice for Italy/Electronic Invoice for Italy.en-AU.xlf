@@ -29,7 +29,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Enable Log Match UOM Call - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3915251920 - Field 166374045 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This feature can only be enabled in SaaS environments and enables or disables the AI ​​auto reconciliation feature. Disabled: Only standard FTE reconciliation is performed, Manual: AI auto reconciliation is performed only manually while standard FTE reconciliation is performed automatically, Automatic: AI auto reconciliation is performed automatically while standard FTE reconciliation is not performed.</source>
+          <source>This feature can only be enabled in SaaS environments and enables or disables the AI ​​auto reconciliation feature. Disabled: Only standard FTE reconciliation is performed, Manual: AI auto reconciliation is performed only manually while standard FTE reconciliation is performed automatically, Automatic: the standard FTE reconciliation is performed automatically and then the auto AI reconciliation is performed only for the rows not yet reconciled.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS AI Purch. Inv. Auto Setup - Field Enabled Auto Complete - Property ToolTip</note>
         </trans-unit>
@@ -6242,6 +6242,11 @@
           <source>AI: An error occurred while processing lines %1 to %2 of Preview Document %3. Error: %4</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method ProcessLineBatchWithErrorTrapping - NamedType ErrorDisplayMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3413796135 - Method 4083811786 - NamedType 4259517852" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No lines are available for reconciliation. Only goods/service lines with non-zero amount and quantity can be processed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS AI Purch. Inv. Functions - Method ProcessPreviewHeader - NamedType NoLinesToReconcileMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 3413796135 - Method 2975926223 - NamedType 4151656029" size-unit="char" translate="yes" xml:space="preserve">
           <source>AI returned receipt %1 line %2 which was not included in the prompt. Skipping match for invoice line %3.</source>
